@@ -5,6 +5,9 @@ jobs:
     name: test
     runs-on: ubuntu-latest
     steps:
-      - run: echo "hello" > out
-      - uses: actions/upload-artifact@v4
+      - name: a
+        run: echo "hello" > out
+      - name: b
+        uses: actions/upload-artifact@v4
+        with:
           path: ./out
