@@ -1,0 +1,10 @@
+on:
+  workflow_dispatch:
+jobs:
+  job1:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello" > out
+      - uses: actions/upload-artifact@v4
+          path: ./out
