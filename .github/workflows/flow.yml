@@ -18,4 +18,4 @@ jobs:
           name: log
           path: ./out
       - name: d
-          run: sleep 600
+        run: sleep 600
