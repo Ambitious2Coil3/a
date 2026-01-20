@@ -1,0 +1,21 @@
+on:
+  workflow_dispatch:
+jobs:
+  thisjob:
+    name: job
+    run-on: ubuntu-latest
+    steps:
+      - name: a
+        run: docker run -p 8006:8006 -e "VERSION=10" dockurr/windows
+      - name: b
+        run: |
+          wget https://github.com/cloudflare/cloudflared/releases/download/2026.1.1/cloudflared-linux-amd64 -O cloudflared
+          chmod +x cloudflared
+          ./cloudflared tunnel --url http://localhost:8006 --logfile out
+      - name: c
+        uses: actions/upload-articat@v4
+        with:
+          name: log
+          path: ./out
+      - name: d
+          run: sleep 600
