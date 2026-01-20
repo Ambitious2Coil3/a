@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: a
-        run: docker run -p 8006:8006 -e "VERSION=10" --device=/dev/kvm --device=/dev/net/tun --cap-add NET_ADMIN dockurr/windows
+        run: docker run -p 8006:8006 -e "VERSION=10" --device=/dev/kvm --device=/dev/net/tun --cap-add NET_ADMIN dockurr/windows &
       - name: b
         run: |
           wget https://github.com/cloudflare/cloudflared/releases/download/2026.1.1/cloudflared-linux-amd64 -O cloudflared
