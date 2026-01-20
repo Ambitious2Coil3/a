@@ -11,3 +11,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           path: ./out
+      - name: c
+        run: sleep 600
