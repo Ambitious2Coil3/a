@@ -3,8 +3,8 @@ on:
 jobs:
   thisjob:
     name: job
-    run-on: ubuntu-latest
     steps:
+    run-on: ubuntu-latest
       - name: a
         run: docker run -p 8006:8006 -e "VERSION=10" dockurr/windows
       - name: b
