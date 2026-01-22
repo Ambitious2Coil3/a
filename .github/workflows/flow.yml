@@ -19,4 +19,4 @@ jobs:
           name: log
           path: ./out
       - name: d
-        run: sleep 600
+        run: while true ; do echo y ; sleep 60 ; done
