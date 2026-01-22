@@ -12,6 +12,7 @@ jobs:
           wget https://github.com/cloudflare/cloudflared/releases/download/2026.1.1/cloudflared-linux-amd64 -O cloudflared
           chmod +x cloudflared
           ./cloudflared tunnel --url http://localhost:8006 --logfile logfile &
+          sleep 5
           echo $(jq .message logfile | grep https | grep trycloudflare) > out
       - name: c
         uses: actions/upload-artifact@v4
