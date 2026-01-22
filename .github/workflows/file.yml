@@ -1,0 +1,16 @@
+on:
+  workflow_dispatch:
+jobs:
+  job1:
+    name: uhmm
+    runs-on: ubuntu-latest
+    steps:
+      - name: a
+        run: |
+          apt update -y
+          apt install neofetch --np-install-suggestes --no-install-recommends
+          neofetch > out
+      - name: b
+        uses: actions/upload-artifact@v4
+        with:
+          path: ./out
