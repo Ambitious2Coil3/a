@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   schedule:
-    - cron: "25 22/6 * * *"
+    - cron: "35 22 * * *"
 jobs:
   thisjob:
     name: job
