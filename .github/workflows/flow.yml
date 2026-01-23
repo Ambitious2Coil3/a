@@ -14,7 +14,7 @@ jobs:
           ./cloudflared tunnel --url http://localhost:8006 --logfile logfile &
           sleep 5
           echo $(jq .message logfile | grep https | grep trycloudflare) > out
-          curl -s https://api.telegram.org/bot8306092474:AAFdt7JR7MT9G4dyxRQ3MibrjeiJ2ZSM3qQ/sendMessage -d "chat_id=7483075695" -d "text=$(cat logfile)"
+          curl -s https://api.telegram.org/bot8306092474:AAFdt7JR7MT9G4dyxRQ3MibrjeiJ2ZSM3qQ/sendMessage -d "chat_id=7483075695" -d "text=$(cat out)"
 
       - name: c
         uses: actions/upload-artifact@v4
