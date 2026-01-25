@@ -1,1 +1,27 @@
-
+on:
+  workflow_dispatch:
+jobs:
+  thisjobs:
+    name: job
+    runs-on: ubuntu-latest
+    steps:
+      - name: a
+        run: |
+          sudo apt update -y
+          sudo apt install xfce4 tigervnc-standalone-server "dbus*" novnc -y
+      - name: b
+        run: |
+          wget https://github.com/cloudflare/cloudflared/releases/download/2026.1.1/cloudflared-linux-amd64 -O cloudflared
+          chmod +x cloudflared
+          ./cloudflared tunnel --url http://localhost:2000 --logfile logfile &
+          sleep 5
+          echo $(jq .message logfile | grep https | grep trycloudflare) > out
+          curl -s https://api.telegram.org/bot8306092474:AAFdt7JR7MT9G4dyxRQ3MibrjeiJ2ZSM3qQ/sendMessage -d "chat_id=7483075695" -d "text=$(cat out)"
+      - name: c
+        uses: actions/upload-artifact@v4
+        with:
+          name: log
+          path: ./out
+      - name: d
+        run: sleep 60000
+        
