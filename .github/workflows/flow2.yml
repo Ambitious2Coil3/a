@@ -13,10 +13,12 @@ jobs:
         run: |
           vncserver :1 -SecurityTypes None -xstartup startplasma-x11 &
           /usr/share/novnc/utils/novnc_proxy --vnc localhost:5901 &
-      - name: c
+      - name: c1
         run: |
           wget https://github.com/cloudflare/cloudflared/releases/download/2026.1.1/cloudflared-linux-amd64 -O cloudflared
           chmod +x cloudflared
+      - name: c2
+        run: |
           ./cloudflared tunnel --url http://localhost:6080 --logfile logfile &
           sleep 5
           echo $(jq .message logfile | grep https | grep trycloudflare) > out
