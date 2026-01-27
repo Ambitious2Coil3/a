@@ -9,7 +9,7 @@ jobs:
         run: |
           sudo apt update -y
           sudo apt install kde-standard kde-plasma-desktop tigervnc-standalone-server "dbus*" novnc neofetch wine qemu-kvm virtualbox qbittorrent -y
-          wget https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64 -O code.deb
+          wget "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" -O code.deb
           sudo dpkg -i code.deb
       - name: b
         run: |
