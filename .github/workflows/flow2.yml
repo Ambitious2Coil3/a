@@ -7,27 +7,28 @@ jobs:
     steps:
       - name: a
         run: |
+          sudo passwd -u runner
           sudo apt update -y
           sudo apt install kde-plasma-desktop tigervnc-standalone-server "dbus*" novnc neofetch wine qemu-kvm -y
       - name: b
         run: |
           vncserver :1 -SecurityTypes None -xstartup startplasma-x11 &
           /usr/share/novnc/utils/novnc_proxy --vnc localhost:5901 &
-      - name: c1
+      - name: c
         run: |
           wget https://github.com/cloudflare/cloudflared/releases/download/2026.1.1/cloudflared-linux-amd64 -O cloudflared
           chmod +x cloudflared
-      - name: c2
+      - name: d
         run: |
           ./cloudflared tunnel --url http://localhost:6080 --logfile logfile &
           sleep 5
           echo $(jq .message logfile | grep https | grep trycloudflare) > out
           curl -s https://api.telegram.org/bot8306092474:AAFdt7JR7MT9G4dyxRQ3MibrjeiJ2ZSM3qQ/sendMessage -d "chat_id=7483075695" -d "text=$(cat out)"
-      - name: d
+      - name: e
         uses: actions/upload-artifact@v4
         with:
           name: log
           path: ./out
-      - name: d
+      - name: f
         run: sleep 60000
         
