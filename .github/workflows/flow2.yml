@@ -7,7 +7,6 @@ jobs:
     steps:
       - name: a
         run: |
-          sudo passwd -u runner
           sudo apt update -y
           sudo apt install kde-plasma-desktop tigervnc-standalone-server "dbus*" novnc neofetch wine qemu-kvm -y
       - name: b
