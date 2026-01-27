@@ -9,12 +9,12 @@ jobs:
       - name: a
         run: |
           brew update
-          brew install tiger-vnc neofetch
+          brew install tigervnc tiger-vnc neofetch
           git clone https://github.com/novnc/noVNC.git
           cd novnc
       - name: b
         run: |
-          vncserver :1 -SecurityTypes None -xstartup startplasma-x11 &
+          vncserver :1 -SecurityTypes None &
           ./utils/novnc_proxy --vnc localhost:5901 &
       - name: c
         run: |
