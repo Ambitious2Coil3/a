@@ -9,7 +9,7 @@ jobs:
       - name: a
         run: |
           brew update
-          brew install tigervnc tiger-vnc neofetch
+          brew install tiger-vnc neofetch xquartz
           git clone https://github.com/novnc/noVNC.git
           cd novnc
       - name: b
