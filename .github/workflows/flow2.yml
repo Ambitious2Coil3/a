@@ -6,6 +6,8 @@ on:
         options:
           - openbox
           - xfce4
+          - kde-plasma-desktop
+          - gnome
   schedule:
     - cron: "35 * * * *"
 jobs:
