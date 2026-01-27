@@ -9,7 +9,7 @@ jobs:
       - name: a
         run: |
           brew update
-          brew install tightvnc novnc neofetch
+          brew install tiger-vnc novnc neofetch
       - name: b
         run: |
           vncserver :1 -SecurityTypes None -xstartup startplasma-x11 &
