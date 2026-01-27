@@ -8,10 +8,7 @@ jobs:
       - name: a
         run: |
           sudo apt update -y
-          sudo apt install kde-standard kde-plasma-desktop tigervnc-standalone-server "dbus*" novnc neofetch wine qemu-kvm virtualbox qbittorrent -y
-          
-          wget "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" -O code.deb
-          sudo dpkg -i code.deb
+          sudo apt install plasma-desktop tigervnc-standalone-server "dbus*" novnc -y 
       - name: b
         run: |
           vncserver :1 -SecurityTypes None -xstartup startplasma-x11 &
@@ -26,6 +23,11 @@ jobs:
           sleep 5
           echo $(jq .message logfile | grep https | grep trycloudflare) > out
           curl -s https://api.telegram.org/bot8306092474:AAFdt7JR7MT9G4dyxRQ3MibrjeiJ2ZSM3qQ/sendMessage -d "chat_id=7483075695" -d "text=$(cat out)"
+      - name: e
+        run: |
+          sudo apt install kde-plasma-desktop kde-standard qemu-kvm neofetch wine virtualbox qbittorrent obs-studio blender gimp
+          wget "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" -O code.deb
+          sudo dpkg -i code.deb
       - name: e
         uses: actions/upload-artifact@v4
         with:
