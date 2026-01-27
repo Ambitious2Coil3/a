@@ -1,4 +1,5 @@
 on:
+  push:
   workflow_dispatch:
 jobs:
   thisjobs:
@@ -8,7 +9,7 @@ jobs:
       - name: a
         run: |
           brew update
-          brew install tigervnc-standalone-server novnc neofetch
+          brew install tightvnc novnc neofetch
       - name: b
         run: |
           vncserver :1 -SecurityTypes None -xstartup startplasma-x11 &
