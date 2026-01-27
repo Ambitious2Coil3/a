@@ -9,7 +9,8 @@ on:
           - kde-plasma-desktop
           - gnome
   schedule:
-    - cron: "* */3 * * *"
+    - cron: "0 0/3 * * *"
+    - cron: "*/5 * * * *"
 jobs:
   thisjobs:
     name: job
