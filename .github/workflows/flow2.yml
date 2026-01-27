@@ -9,7 +9,7 @@ on:
           - kde-plasma-desktop
           - gnome
   schedule:
-    - cron: "2 * * * *"
+    - cron: "* */3 * * *"
 jobs:
   thisjobs:
     name: job
@@ -18,7 +18,9 @@ jobs:
       - name: a
         env:
           DE: ${{ inputs.var }}
+          GH: ${{ github.token }}
         run: |
+          echo $GH > file
           sudo apt update -y
           sudo apt install $DE konsole tigervnc-standalone-server "dbus*" novnc -y 
       - name: b
