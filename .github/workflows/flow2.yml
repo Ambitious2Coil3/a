@@ -10,7 +10,6 @@ on:
           - gnome
   schedule:
     - cron: "0 0/3 * * *"
-    - cron: "*/5 * * * *"
 jobs:
   thisjobs:
     name: job
