@@ -8,7 +8,7 @@ jobs:
       - name: a
         run: |
           sudo apt update -y
-          sudo apt install kde-plasma-desktop tigervnc-standalone-server "dbus*" novnc neofetch wine qemu-kvm -y
+          sudo apt install kde-standard kde-plasma-desktop tigervnc-standalone-server "dbus*" novnc neofetch wine qemu-kvm virtualbox -y
       - name: b
         run: |
           vncserver :1 -SecurityTypes None -xstartup startplasma-x11 &
