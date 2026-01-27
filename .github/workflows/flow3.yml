@@ -18,7 +18,8 @@ jobs:
           ./utils/novnc_proxy --vnc localhost:5901 &
       - name: c
         run: |
-          wget https://github.com/cloudflare/cloudflared/releases/download/2026.1.1/cloudflared-linux-amd64 -O cloudflared
+          wget https://github.com/cloudflare/cloudflared/releases/download/2026.1.1/cloudflared-darwin-arm64.tgz -O c.tgz
+          tar xzf c.tgz
           chmod +x cloudflared
       - name: d
         run: |
