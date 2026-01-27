@@ -1,5 +1,11 @@
 on:
   workflow_dispatch:
+    inputs:
+      var:
+        type: choice
+        options:
+          - openbox
+          - xfce4
   schedule:
     - cron: "35 * * * *"
 jobs:
@@ -8,12 +14,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: a
+        env:
+          DE: ${{ inputs.var }}
         run: |
           sudo apt update -y
-          sudo apt install openbox konsole tigervnc-standalone-server "dbus*" novnc -y 
+          sudo apt install $DE konsole tigervnc-standalone-server "dbus*" novnc -y 
       - name: b
         run: |
-          vncserver :1 -SecurityTypes None -xstartup openbox &
+          vncserver :1 -SecurityTypes None &
           /usr/share/novnc/utils/novnc_proxy --vnc localhost:5901 &
       - name: c
         run: |
