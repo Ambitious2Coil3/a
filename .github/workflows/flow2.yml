@@ -8,8 +8,6 @@ on:
           - xfce4
           - kde-plasma-desktop
           - gnome
-  schedule:
-    - cron: "0 0/3 * * *"
 jobs:
   thisjobs:
     name: job
