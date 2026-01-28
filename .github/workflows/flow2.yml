@@ -40,7 +40,7 @@ jobs:
           
       - name: e
         run: |
-          sudo apt install kde-plasma-desktop kde-standard qemu-kvm neofetch wine virtualbox qbittorrent obs-studio blender gimp -y
+          sudo apt install qemu-kvm neofetch wine virtualbox qbittorrent obs-studio blender gimp -y
           wget "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" -O code.deb
           sudo dpkg -i code.deb
       - name: e
