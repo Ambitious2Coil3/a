@@ -8,6 +8,8 @@ on:
           - xfce4
           - kde-plasma-desktop
           - gnome
+      bool:
+        type: environment
 jobs:
   thisjobs:
     name: job
