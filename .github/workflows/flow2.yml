@@ -22,7 +22,7 @@ jobs:
           sudo apt install $DE konsole tigervnc-standalone-server "dbus*" novnc -y 
       - name: b
         run: |
-          vncserver :1 -SecurityTypes None &
+          sudo vncserver :1 -SecurityTypes None &
           /usr/share/novnc/utils/novnc_proxy --vnc localhost:5901 &
       - name: c
         run: |
