@@ -2,14 +2,18 @@ on:
   workflow_dispatch:
     inputs:
       var:
+        description: desktop
         type: choice
         options:
           - openbox
           - xfce4
           - kde-plasma-desktop
           - gnome
-      bool:
+          - 
+      env:
         type: environment
+        options:
+          - hi
 jobs:
   thisjobs:
     name: job
