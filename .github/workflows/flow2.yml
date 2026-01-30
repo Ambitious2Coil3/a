@@ -39,7 +39,7 @@ jobs:
           sudo a2enmod proxy proxy_http
           sudo apache2ctl start
           A="6080 5678 1234 4444 5555"
-          sudo echo $(echo "<VirtualHost *:80>";echo "ProxyPreserveHost on" ; for i in $A ;do echo "ProxyPass /"$i" http://localhost:"$i;echo "ProxyPassReverse /"$i" http://localhost:"$i;done;echo "</VirtualHost>") > /etc/apache2/sites-enabled/000-default-conf
+          sudo $(echo $(echo "<VirtualHost *:80>";echo "ProxyPreserveHost on" ; for i in $A ;do echo "ProxyPass /"$i" http://localhost:"$i;echo "ProxyPassReverse /"$i" http://localhost:"$i;done;echo "</VirtualHost>") > /etc/apache2/sites-enabled/000-default-conf)
       - name: e
         run: |
           sudo apt install qemu-kvm neofetch wine virtualbox qbittorrent obs-studio blender gimp -y
