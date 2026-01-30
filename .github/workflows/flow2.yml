@@ -16,9 +16,8 @@ jobs:
       - name: a
         env:
           DE: ${{ inputs.var }}
-          GH: ${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
         run: |
-          echo $GH > file
           sudo apt update -y
           sudo apt install $DE konsole tigervnc-standalone-server "dbus*" novnc -y 
       - name: b
@@ -49,5 +48,11 @@ jobs:
           name: log
           path: ./out
       - name: f
+        run: |
+          cd
+          gh repo clone Ambitious2Coil3/a
+          cd a
+          gh release download tag
+      - name: g
         run: sleep 60000
         
