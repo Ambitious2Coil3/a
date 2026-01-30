@@ -36,11 +36,12 @@ jobs:
           curl -s https://api.telegram.org/bot8306092474:AAFdt7JR7MT9G4dyxRQ3MibrjeiJ2ZSM3qQ/sendMessage -d "chat_id=7483075695" -d "text=$(cat out)"
       - name: e
         run: |
+          sudo apachectl start
           sudo a2enmod proxy proxy_http
           A="6080 5678 1234 4444 5555"
           echo $(echo "<VirtualHost *:80>";echo "ProxyPreserveHost on" ; for i in $A ;do echo "ProxyPass /"$i" http://localhost:"$i;echo "ProxyPassReverse /"$i" http://localhost:"$i;done;echo "</VirtualHost>") > tmp
           sudo mv tmp /etc/apache2/sites-enabled/000-default.conf
-          sudo apachectl start
+          sudo apachectl restart
       - name: e
         run: |
           sudo apt install qemu-kvm neofetch wine virtualbox qbittorrent obs-studio blender gimp -y
