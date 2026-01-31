@@ -1,0 +1,11 @@
+on:
+  workflow_call:
+jobs:
+  id:
+    name: job
+    runs-on: self-hosted
+    container:
+      image: archlinux
+    steps:
+      - name: a
+        run: df -h
