@@ -8,4 +8,8 @@ jobs:
       image: archlinux:latest
     steps:
       - name: a
-        run: df -h
+        run: |
+          df -h
+          sudo pacman -Syyu
+          sudo pacman -S fastfetch
+          fastfetch
