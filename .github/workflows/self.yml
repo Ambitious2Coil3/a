@@ -3,7 +3,7 @@ on:
 jobs:
   id:
     name: job
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     container:
       image: archlinux:latest
     steps:
