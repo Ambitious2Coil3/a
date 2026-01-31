@@ -3,9 +3,9 @@ on:
 jobs:
   id:
     name: job
-    runs-on: [self-hosted]
+    runs-on: self-hosted
     container:
-      image: archlinux
+      image: archlinux:latest
     steps:
       - name: a
         run: df -h
