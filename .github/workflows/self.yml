@@ -10,6 +10,6 @@ jobs:
       - name: a
         run: |
           df -h
-          sudo pacman -Syyu
-          sudo pacman -S fastfetch
+          pacman -Syyu
+          pacman -S fastfetch
           fastfetch
