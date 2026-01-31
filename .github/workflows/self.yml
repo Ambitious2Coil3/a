@@ -3,7 +3,7 @@ on:
 jobs:
   id:
     name: job
-    runs-on: self-hosted
+    runs-on: [self-hosted]
     container:
       image: archlinux
     steps:
