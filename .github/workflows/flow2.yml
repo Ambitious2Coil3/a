@@ -14,7 +14,8 @@ jobs:
     name: job
     runs-on: ubuntu-latest
     env:
-      GH_TOKEN: ${{ github.token }}
+      GH_TOKEN: ${{ secrets.ghtoken }}
+      key: ${{ secrets.tgbot }}
     steps:
       - name: a
         env:
@@ -35,7 +36,7 @@ jobs:
           ./cloudflared tunnel --url http://localhost:6080 --logfile logfile &
           sleep 5
           echo $(jq .message logfile | grep https | grep trycloudflare) > out
-          curl -s https://api.telegram.org/bot8306092474:AAFdt7JR7MT9G4dyxRQ3MibrjeiJ2ZSM3qQ/sendMessage -d "chat_id=7483075695" -d "text=$(cat out)"
+          curl -s https://api.telegram.org/bot$key/sendMessage -d "chat_id=7483075695" -d "text=$(cat out)"
       - name: e
         run: |
           sudo apt install qemu-kvm neofetch wine virtualbox qbittorrent obs-studio blender gimp -y
