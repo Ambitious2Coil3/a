@@ -55,6 +55,5 @@ jobs:
           gh release download tag
       - name: g
         run:
-          gh cs ssh -c psychic-spoon-q7jjx75r56pp29p5g -- -R 5901:localhost:5901 -N
           sleep 60000
         
