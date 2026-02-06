@@ -53,6 +53,8 @@ jobs:
           gh repo clone Ambitious2Coil3/a
           cd a
           gh release download tag
+          cat win64.iso.* > win64.iso
+          rm win64.iso.*
       - name: g
         run:
           sleep 60000
