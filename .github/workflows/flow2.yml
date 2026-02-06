@@ -56,7 +56,7 @@ jobs:
           cat vm.tar.* > vm.tar
           rm vm.tar.*
           tar xvf vm.tar
-          mv -r vm ~/Virtualbox\ VMs
+          rm vm.tar
       - name: g
         run:
           sleep 60000
