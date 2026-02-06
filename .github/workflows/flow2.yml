@@ -52,9 +52,11 @@ jobs:
           cd
           gh repo clone Ambitious2Coil3/a
           cd a
-          gh release download tag
-          cat win64.iso.* > win64.iso
-          rm win64.iso.*
+          gh release download windows
+          cat vm.tar.* > vm.tar
+          rm vm.tar.*
+          tar xvf vm.tar
+          mv -r vm ~/Virtualbox\ VMs
       - name: g
         run:
           sleep 60000
