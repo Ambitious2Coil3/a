@@ -1,0 +1,11 @@
+on:
+  workflow_dispatch:
+    inputs:
+      variable1:
+        type: boolean
+jobs:
+  job1:
+    runs-on: windows-latest
+    steps:
+      - run: |
+        ipconfig
