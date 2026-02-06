@@ -5,4 +5,5 @@ jobs:
     runs-on: windows-latest
     steps:
       - run: |
-          winget
+          winget install winfetch
+          winfetch
