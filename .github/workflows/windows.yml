@@ -5,5 +5,5 @@ jobs:
     runs-on: windows-latest
     steps:
       - run: |
-          winget install winfetch
+          winget install winfetch --silent --accept-package-agreements --accept-source-agreements
           winfetch
