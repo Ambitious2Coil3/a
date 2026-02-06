@@ -6,3 +6,4 @@ jobs:
     steps:
       - run: |
           ipconfig
+          wget
