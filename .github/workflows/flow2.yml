@@ -22,7 +22,7 @@ jobs:
           DE: ${{ inputs.var }}
         run: |
           sudo apt update -y
-          sudo apt install $DE ttyd konsole tigervnc-standalone-server "dbus*" novnc -y 
+          sudo apt install $DE konsole tigervnc-standalone-server "dbus*" novnc -y 
       - name: b
         run: |
           vncserver :1 -SecurityTypes None &
@@ -47,16 +47,6 @@ jobs:
         with:
           name: log
           path: ./out
-      - name: f
-        run: |
-          cd
-          gh repo clone Ambitious2Coil3/a
-          cd a
-          gh release download windows
-          cat vm.tar.* > vm.tar
-          rm vm.tar.*
-          tar xvf vm.tar
-          rm vm.tar
       - name: g
         run:
           sleep 60000
