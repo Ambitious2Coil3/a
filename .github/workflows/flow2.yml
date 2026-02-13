@@ -14,7 +14,7 @@ jobs:
     name: job
     runs-on: ubuntu-latest
     env:
-      GH_TOKEN: ${{ github.token }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       key: ${{ secrets.tgbot }}
     steps:
       - name: a
@@ -49,5 +49,6 @@ jobs:
           path: ./out
       - name: g
         run:
+          gh cs ssh -c humble-umbrella-jjvvgjp6p4x5cj5j4 -- -R 5901:localhost:5901 -N
           sleep 60000
         
