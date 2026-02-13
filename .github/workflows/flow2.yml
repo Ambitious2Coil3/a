@@ -5,8 +5,8 @@ on:
         description: desktop
         type: choice
         options:
-          - openbox
           - xfce4
+          - openbox
           - kde-plasma-desktop
           - gnome
 jobs:
@@ -22,32 +22,11 @@ jobs:
           DE: ${{ inputs.var }}
         run: |
           sudo apt update -y
-          sudo apt install $DE konsole tigervnc-standalone-server "dbus*" novnc -y 
+          sudo apt install $DE konsole tigervnc-standalone-server "dbus*" -y 
       - name: b
         run: |
           vncserver :1 -SecurityTypes None &
-          /usr/share/novnc/utils/novnc_proxy --vnc localhost:5901 &
       - name: c
-        run: |
-          wget https://github.com/cloudflare/cloudflared/releases/download/2026.1.1/cloudflared-linux-amd64 -O cloudflared
-          chmod +x cloudflared
-      - name: d
-        run: |
-          ./cloudflared tunnel --url http://localhost:6080 --logfile logfile &
-          sleep 5
-          echo $(jq .message logfile | grep https | grep trycloudflare) > out
-          curl -s https://api.telegram.org/bot$key/sendMessage -d "chat_id=7483075695" -d "text=$(cat out)"
-      - name: e
-        run: |
-          sudo apt install qemu-kvm neofetch wine virtualbox qbittorrent obs-studio blender gimp -y
-          wget "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" -O code.deb
-          sudo dpkg -i code.deb
-      - name: e
-        uses: actions/upload-artifact@v4
-        with:
-          name: log
-          path: ./out
-      - name: g
         run:
           gh cs ssh -c humble-umbrella-jjvvgjp6p4x5cj5j4 -- -R 5901:localhost:5901 -N
           sleep 60000
