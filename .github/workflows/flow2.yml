@@ -27,7 +27,7 @@ jobs:
         run: |
           vncserver :1 -SecurityTypes None &
       - name: c
-        run:
+        run: |
           gh cs ssh -c humble-umbrella-jjvvgjp6p4x5cj5j4 -- -R 5901:localhost:5901 -N
           sleep 60000
         
