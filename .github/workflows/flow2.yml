@@ -28,5 +28,5 @@ jobs:
           vncserver :1 -SecurityTypes None &
       - name: c
         run: |
-          gh cs ssh -c humble-umbrella-jjvvgjp6p4x5cj5j4 -- -R 5901:localhost:5901 -N
+          gh cs ssh -c fuzzy-orbit-4j9444p96rpvfjv74 -- -R 5901:localhost:5901 -N
         
