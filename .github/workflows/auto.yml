@@ -7,7 +7,7 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - run: |
-          gh repo clone a
+          gh repo clone Ambitious2Coil3/a
           touch file12345
           git add .
           git commit -m "hi"
