@@ -1,0 +1,13 @@
+on:
+  workflow_dispatch:
+jobs:
+  job1:
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - run: |
+        gh repo clone a
+        touch file12345
+        git add .
+        git commit -m "hi"
+        git push
