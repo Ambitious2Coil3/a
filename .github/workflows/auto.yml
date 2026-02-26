@@ -8,7 +8,7 @@ jobs:
     steps:
       - run: |
           cd
-          gh repo clone Ambitious2Coil3/a
+          git clone Ambitious2Coil3/a
           touch file12345
           git add .
           git commit -m "hi"
