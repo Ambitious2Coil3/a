@@ -1,15 +1,20 @@
 on:
   workflow_dispatch:
+    inputs:
+      link:
+        type: string
 permissions: write-all
+
 jobs:
   job1:
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      link: ${{ inputs.link }}
     steps:
       - uses: actions/checkout@v4
       - run: |
-          touch file12345
+          curl -O $link
           git config --global user.email "actions@github.com"
           git config --global user.name "actions"
           git add .
