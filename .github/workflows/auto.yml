@@ -1,5 +1,6 @@
 on:
   workflow_dispatch:
+permissions: write-all
 jobs:
   job1:
     runs-on: ubuntu-latest
