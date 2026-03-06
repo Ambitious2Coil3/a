@@ -7,3 +7,4 @@ jobs:
       - run: |
            curl -fsSL https://tailscale.com/install.sh | sh
            sudo tailscale up
+           sleep 60000
