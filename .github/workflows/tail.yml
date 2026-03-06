@@ -1,0 +1,9 @@
+on:
+  workflow_dispatch: 
+jobs:
+  thisjob:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+           curl -fsSL https://tailscale.com/install.sh | sh
+           sudo tailscale up
