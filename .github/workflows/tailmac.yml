@@ -4,7 +4,7 @@ jobs:
   this:
     runs-on: macos-latest
     steps:
-      - run: echo "h" | sudo passwd runner
+      - run: sudo dscl . -passwd /Users/runner h
       - run: brew install tailscale
       - run: sudo tailscaled &
       - run: sudo tailscale up
