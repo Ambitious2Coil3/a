@@ -4,8 +4,7 @@ jobs:
   this:
     runs-on: macos-latest
     steps:
-      - run: wget https://dl.tailscale.com/stable/Tailscale-1.94.2-macos.pkg
-      - run: sudo installer -pkg ./*.pkg -target /
+      - run: brew install tailscale
       - run: sudo tailscaled &
       - run: sudo tailscale up
       - run: sleep 66666
