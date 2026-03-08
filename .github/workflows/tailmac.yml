@@ -4,9 +4,7 @@ jobs:
   this:
     runs-on: macos-latest
     steps:
-      - run: whoami
-      - run: echo "root:1" | sudo chpasswd
-      - run: echo "runner:1" | sudo chpasswd
+      - run: echo "h" | sudo passwd runner
       - run: brew install tailscale
       - run: sudo tailscaled &
       - run: sudo tailscale up
