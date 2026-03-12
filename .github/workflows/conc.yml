@@ -1,9 +1,13 @@
 on:
   workflow_dispatch:
 jobs:
-  concurrency:
+  job1:
     runs-on: ubuntu-latest
     steps:
-      - run: touch file
+      - run: ifconfig
+      - run: sleep 60
+  job2:
+    runs-on: ubuntu-latest
     steps:
-      - run: ls
+      - run: ifconfig
+      - run: sleep 30
