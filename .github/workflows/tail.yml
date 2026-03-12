@@ -10,3 +10,13 @@ jobs:
       - run: sudo apt install fish konsole
       - run: echo "1" | chsh --shell /usr/bin/fish 
       - run: sleep 60000
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: ifconfig
+      - run: sleep 60000
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: ifconfig
+      - run: sleep 60000
