@@ -5,6 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: touch file
-    runs-on: ubuntu-latest
     steps:
       - run: ls
