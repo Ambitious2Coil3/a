@@ -1,11 +1,10 @@
 on:
   workflow_dispatch:
 jobs:
-  job1:
+  concurrency:
     runs-on: ubuntu-latest
     steps:
       - run: touch file
-  job2:
     runs-on: ubuntu-latest
     steps:
       - run: ls
