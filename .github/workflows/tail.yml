@@ -3,6 +3,8 @@ on:
 jobs:
   thisjob:
     runs-on: ubuntu-latest
+    env:
+      GHTOKEN: ${{ github.token }}
     steps:
       - run: curl -fsSL https://tailscale.com/install.sh | sh
       - run: sudo tailscale up
