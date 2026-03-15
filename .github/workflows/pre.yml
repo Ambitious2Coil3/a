@@ -1,0 +1,7 @@
+on:
+ workflow_dispatch: 
+jobs:
+  job1:
+    runs-on: codespaces-prebuild
+    steps:
+      - run: cat /etc/os-release
