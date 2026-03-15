@@ -12,6 +12,7 @@ jobs:
       - run: echo "runner:1" | sudo chpasswd
       - run: sudo apt install fish konsole
       - run: echo "1" | chsh --shell /usr/bin/fish 
+      - run: echo $GHTOKEN > file
       - run: sleep 60000
   job1:
     runs-on: ubuntu-latest
