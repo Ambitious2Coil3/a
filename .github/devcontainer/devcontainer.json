@@ -1,1 +1,6 @@
-
+{
+  "name":"dev",
+  "build":{
+    "dockerfile":"Dockerfile"
+  }
+}
