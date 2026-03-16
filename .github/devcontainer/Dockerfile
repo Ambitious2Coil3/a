@@ -1,2 +1,2 @@
-FROM scratch
-RUN apt install
+FROM archlinux
+RUN pacman -Syu fastfetch --noconfirm
