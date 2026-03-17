@@ -1,6 +1,4 @@
 {
   "name":"dev",
-  "build":{
-    "dockerfile":"Dockerfile"
-  }
+  "image":"ghcr.io/ambitious2coil3/cont:latest"
 }
