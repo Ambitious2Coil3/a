@@ -3,7 +3,7 @@ on:
 jobs:
   thisjob:
     runs-on: ubuntu-latest
-    container: ghcr.io/ambitious2coil3/cont
+    container: archlinux
     steps:
-      - run: which docker
+      - run: cat /os-release
       
