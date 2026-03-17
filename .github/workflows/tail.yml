@@ -1,16 +1,20 @@
 on:
   workflow_dispatch: 
   workflow_call: 
+permissions: write-all
 jobs:
   thisjob:
     runs-on: ubuntu-latest
-    env:
-      GHTOKEN: ${{ github.token }}
     steps:
       - run: curl -fsSL https://tailscale.com/install.sh | sh
       - run: sudo tailscale up
       - run: echo "runner:1" | sudo chpasswd
       - run: sudo apt install fish konsole
       - run: echo "1" | chsh --shell /usr/bin/fish 
-      - run: echo $GHTOKEN > file
+      - env:
+          GHTOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: echo $GHTOKEN > file
+      - env:
+          GT: ${{ github.actor }}
+        run: echo $GT > GT
       - run: sleep 60000
