@@ -5,7 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     container: ghcr.io/ambitious2coil3/cont
     steps:
-      - run: |
-          cd
-          ls
+      - run: find / "*android*"
       
