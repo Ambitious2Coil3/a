@@ -5,6 +5,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - run: sudo sysadminctl -addUser username -fullName "Full Name" -password "password"
+      - run: sudo sysadminctl -resetPasswordFor username -newPassword password
       - run: brew install tailscale
       - run: sudo tailscaled &
       - run: sudo tailscale up
