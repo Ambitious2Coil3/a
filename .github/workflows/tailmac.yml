@@ -4,7 +4,7 @@ jobs:
   this:
     runs-on: macos-latest
     steps:
-      - run: sudo dscl . -passwd /Users/runner h
+      - run: sudo sysadminctl -addUser username -fullName "Full Name" -password password 
       - run: brew install tailscale
       - run: sudo tailscaled &
       - run: sudo tailscale up
