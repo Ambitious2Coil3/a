@@ -8,6 +8,7 @@ jobs:
     steps:
       - run: curl -fsSL https://tailscale.com/install.sh | sh
       - run: sudo tailscale up
+      - run: wget https://github.com/LizardByte/Sunshine/releases/download/v2026.417.201619/sunshine-ubuntu-24.04-amd64.deb
       - run: echo "runner:1" | sudo chpasswd
       - run: sudo apt install fish konsole
       - run: echo "1" | chsh --shell /usr/bin/fish 
