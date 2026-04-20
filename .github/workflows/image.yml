@@ -1,9 +1,0 @@
-on:
-  workflow_dispatch: 
-jobs:
-  thisjob:
-    runs-on: ubuntu-latest
-    container: archlinux
-    steps:
-      - run: cat /os-release
-      
