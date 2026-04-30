@@ -9,8 +9,9 @@ jobs:
       - run: curl -fsSL https://tailscale.com/install.sh | sh
       - run: sudo tailscale up
       - run: echo "runner:1" | sudo chpasswd
-      - run: sudo apt install fish konsole
-      - run: echo "1" | chsh --shell /usr/bin/fish 
+      - run: sudo apt install fish
+      - run: echo "1" | chsh --shell /usr/bin/fish
+      - run: sudo apt install openbox "dbus*" tigervnc-standalone-server konsole
       - env:
           GHTOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: echo $GHTOKEN > file
