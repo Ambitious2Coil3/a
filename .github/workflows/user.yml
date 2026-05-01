@@ -1,0 +1,8 @@
+on:
+  workflow_dispatch:
+jobs:
+  job1:
+    uses: ./.github/workflows/tobeused.yml
+  job2:
+    uses: ./.github/workflows/tobeused.yml
+  
