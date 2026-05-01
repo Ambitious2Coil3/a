@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
 jobs:
-  job1:
+  thisjob:
     runs-on: ubuntu-latest
     strategy:
       matrix:
