@@ -7,6 +7,9 @@ jobs:
       - run: curl -fsSL https://tailscale.com/install.sh | sh
       - run: sudo tailscale up
       - run: echo "runner:1" | sudo chpasswd
+      - run: sudo apt install fish
+      - run: echo "1" | chsh --shell /usr/bin/fish
+      - run: sudo apt install openbox "dbus*" tigervnc-standalone-server konsole
       - run: sleep 60000
   job2:
     runs-on: ubuntu-latest
@@ -14,6 +17,9 @@ jobs:
       - run: curl -fsSL https://tailscale.com/install.sh | sh
       - run: sudo tailscale up
       - run: echo "runner:1" | sudo chpasswd
+      - run: sudo apt install fish
+      - run: echo "1" | chsh --shell /usr/bin/fish
+      - run: sudo apt install openbox "dbus*" tigervnc-standalone-server konsole
       - run: sleep 60000
   job3:
     runs-on: ubuntu-latest
@@ -21,6 +27,9 @@ jobs:
       - run: curl -fsSL https://tailscale.com/install.sh | sh
       - run: sudo tailscale up
       - run: echo "runner:1" | sudo chpasswd
+      - run: sudo apt install fish
+      - run: echo "1" | chsh --shell /usr/bin/fish
+      - run: sudo apt install openbox "dbus*" tigervnc-standalone-server konsole
       - run: sleep 60000
   job4:
     runs-on: ubuntu-latest
@@ -28,6 +37,9 @@ jobs:
       - run: curl -fsSL https://tailscale.com/install.sh | sh
       - run: sudo tailscale up
       - run: echo "runner:1" | sudo chpasswd
+      - run: sudo apt install fish
+      - run: echo "1" | chsh --shell /usr/bin/fish
+      - run: sudo apt install openbox "dbus*" tigervnc-standalone-server konsole
       - run: sleep 60000
   job5:
     runs-on: ubuntu-latest
@@ -35,4 +47,18 @@ jobs:
       - run: curl -fsSL https://tailscale.com/install.sh | sh
       - run: sudo tailscale up
       - run: echo "runner:1" | sudo chpasswd
+      - run: sudo apt install fish
+      - run: echo "1" | chsh --shell /usr/bin/fish
+      - run: sudo apt install openbox "dbus*" tigervnc-standalone-server konsole
       - run: sleep 60000
+  job6:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -fsSL https://tailscale.com/install.sh | sh
+      - run: sudo tailscale up
+      - run: echo "runner:1" | sudo chpasswd
+      - run: sudo apt install fish
+      - run: echo "1" | chsh --shell /usr/bin/fish
+      - run: sudo apt install openbox "dbus*" tigervnc-standalone-server konsole
+      - run: sleep 60000
+ 
