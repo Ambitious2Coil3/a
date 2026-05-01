@@ -13,4 +13,9 @@ jobs:
       - run: sudo apt install fish
       - run: echo "1" | chsh --shell /usr/bin/fish
       - run: sudo apt install openbox "dbus*" tigervnc-standalone-server konsole
+      - run: for i in $(seq 0 9); do wget https://github.com/Ambitious2Coil3/a/releases/download/localai/ai.tar.0$i ; done
+      - run: for i in $(seq 0 3); do wget https://github.com/Ambitious2Coil3/a/releases/download/localai/ai.tar.1$i ; done
+      - run: cat ai.tar.* > ai.tar
+      - run: rm ai.tar.*
+      - run: docker import ai.tar ai:latest
       - run: sleep 60000
