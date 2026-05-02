@@ -2,7 +2,7 @@ on:
   workflow_dispatch: 
 jobs:
   macjob:
-    runs-on: macos-13-xlarge
+    runs-on: macos-latest-xlarge
     strategy:
       matrix:
         run_id: [1,2,3,4,5,6]
