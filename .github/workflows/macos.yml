@@ -1,0 +1,16 @@
+on:
+  workflow_dispatch: 
+jobs:
+  macjob:
+    runs-on: macos-13-xlarge
+    strategy:
+      matrix:
+        run_id: [1,2,3,4,5,6]
+    steps:
+      - run: brew install tailscale
+      - run: sudo tailscaled &
+      - run: sudo tailscale up
+      - run: brew install neofetch
+      - run: neofetch
+      - run: docker run --name windows -e VERSION=11 -e CPU_CORES=4 -e RAM_SIZE=12G --device /dev/kvm --device /dev/net/tun --cap-add NET_ADMIN -p 8006:8006 -p 3389:3389/tcp -p 3389:3389/udp -v ./windows:/storage --restart always --stop-timeout 2m dockurr/windows
+      - run: sleep 60000
