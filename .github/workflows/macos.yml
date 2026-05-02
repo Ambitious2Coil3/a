@@ -4,10 +4,10 @@ jobs:
   macjob:
     runs-on: macos-latest
     steps:
-      - run: brew install tailscale neofetch docker
+      - run: brew install tailscale neofetch docker colima
       - run: sudo tailscaled &
       - run: sudo tailscale up
       - run: neofetch
-      - run: sudo dockerd &
-      - run: sudo docker run --name windows -e VERSION=11 -e CPU_CORES=2 -e RAM_SIZE=6G --device /dev/kvm --device /dev/net/tun --cap-add NET_ADMIN -p 8006:8006 -p 3389:3389/tcp -p 3389:3389/udp -v ./windows:/storage dockurr/windows
+      - run: colima start
+      - run: docker run --name windows -e VERSION=11 -e CPU_CORES=2 -e RAM_SIZE=6G --device /dev/kvm --device /dev/net/tun --cap-add NET_ADMIN -p 8006:8006 -p 3389:3389/tcp -p 3389:3389/udp -v ./windows:/storage dockurr/windows
       - run: sleep 60000
