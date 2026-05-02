@@ -2,7 +2,7 @@ on:
   workflow_dispatch: 
 jobs:
   macjob:
-    runs-on: macos-latest-large
+    runs-on: macos-latest
     steps:
       - run: brew install tailscale
       - run: sudo tailscaled &
