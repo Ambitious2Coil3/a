@@ -3,9 +3,6 @@ on:
 jobs:
   macjob:
     runs-on: macos-latest-xlarge
-    strategy:
-      matrix:
-        run_id: [1]
     steps:
       - run: brew install tailscale
       - run: sudo tailscaled &
