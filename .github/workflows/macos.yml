@@ -5,7 +5,7 @@ jobs:
     runs-on: macos-latest-xlarge
     strategy:
       matrix:
-        run_id: [1,2,3,4,5,6]
+        run_id: [1]
     steps:
       - run: brew install tailscale
       - run: sudo tailscaled &
