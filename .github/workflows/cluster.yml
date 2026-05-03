@@ -7,9 +7,8 @@ jobs:
       matrix:
         run_id: [1,2,3,4,5]
     steps:
-      - run: |
-          curl -fsSL https://tailscale.com/install.sh | sh
-          sudo tailscale up
+      - run: curl -fsSL https://tailscale.com/install.sh | sh
+      - run: sudo tailscale up
       - run: echo "runner:1" | sudo chpasswd
       - run: | 
           sudo apt install fish
