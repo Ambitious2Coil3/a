@@ -27,5 +27,5 @@ jobs:
           rm ai.tar.*
       - run: docker import ai.tar ai:latest
       - run: rm ai.tar
-      - run: docker -itd -p 11434:11434 --name gemma ai:latest bash
+      - run: docker run -itd -p 11434:11434 --name gemma ai:latest bash
       - run: sleep 60000
