@@ -1,0 +1,9 @@
+on:
+  workflow_dispatch:
+jobs:
+  tis:
+    runs-on: ubuntu-latest
+    container: ghcr.io/ambitious2coil3/qwen:v3
+    steps:
+      - run: ollama serve &
+      - run: ollama list
