@@ -16,7 +16,7 @@ jobs:
           echo "1" | chsh --shell /usr/bin/fish
       - run: |
           sudo swapoff -a
-          sudo fallocate swap -l 16G
+          sudo fallocate swap -l 24G
           sudo mkswap swap
           sudo swapon swap
       - run: sudo apt install openbox "dbus*" tigervnc-standalone-server konsole
