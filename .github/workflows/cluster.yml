@@ -7,15 +7,25 @@ jobs:
       matrix:
         run_id: [1,2,3,4,5,6,7,8,9,10]
     steps:
-      - run: curl -fsSL https://tailscale.com/install.sh | sh
-      - run: sudo tailscale up
+      - run: |
+          curl -fsSL https://tailscale.com/install.sh | sh
+          sudo tailscale up
       - run: echo "runner:1" | sudo chpasswd
-      - run: sudo apt install fish
-      - run: echo "1" | chsh --shell /usr/bin/fish
+      - run: | 
+          sudo apt install fish
+          echo "1" | chsh --shell /usr/bin/fish
+      - run: |
+          sudo swapoff -a
+          sudo fallocate swap -l 16G
+          sudo mkswap swap
+          sudo swapon swap
       - run: sudo apt install openbox "dbus*" tigervnc-standalone-server konsole
-      - run: for i in $(seq 0 9); do wget https://github.com/Ambitious2Coil3/a/releases/download/localai/ai.tar.0$i ; done
-      - run: for i in $(seq 0 3); do wget https://github.com/Ambitious2Coil3/a/releases/download/localai/ai.tar.1$i ; done
-      - run: cat ai.tar.* > ai.tar
-      - run: rm ai.tar.*
+      - run: |
+          for i in $(seq 0 9); do wget https://github.com/Ambitious2Coil3/a/releases/download/localai/ai.tar.0$i ; done
+          for i in $(seq 0 3); do wget https://github.com/Ambitious2Coil3/a/releases/download/localai/ai.tar.1$i ; done
+      - run: |
+          cat ai.tar.* > ai.tar
+          rm ai.tar.*
       - run: docker import ai.tar ai:latest
+      - run: docker -itd -p 11434:11434 --name gemma ai:latest bash
       - run: sleep 60000
