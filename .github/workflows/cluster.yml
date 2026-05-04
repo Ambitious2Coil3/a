@@ -9,6 +9,7 @@ jobs:
         run_id: [1,2,3,4,5]
     steps:
       - run: curl -fsSL https://tailscale.com/install.sh | sh && sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
+      - run: echo "runner:1" | sudo chpasswd
       - env:
           GT: ${{ secrets.GITHUB_TOKEN }}
           GU: ${{ github.actor }}
