@@ -8,8 +8,7 @@ jobs:
       matrix:
         run_id: [1,2,3,4,5]
     steps:
-      - run: curl -fsSL https://tailscale.com/install.sh | sh && sudo tailscale up --auth-key=tskey-auth-kTsjQXiThN11CNTRL-ZywJkhKxCdBo5JUfe2aqdBnMBgkQFFy4
-      - run: echo "runner:1" | sudo chpasswd
+      - run: curl -fsSL https://tailscale.com/install.sh | sh && sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
       - env:
           GT: ${{ secrets.GITHUB_TOKEN }}
           GU: ${{ github.actor }}
