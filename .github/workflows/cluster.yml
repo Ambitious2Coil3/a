@@ -1,5 +1,6 @@
 on:
   workflow_dispatch:
+permissions: write-all
 jobs:
   thisjob:
     runs-on: ubuntu-latest
@@ -10,6 +11,12 @@ jobs:
       - run: curl -fsSL https://tailscale.com/install.sh | sh
       - run: sudo tailscale up
       - run: echo "runner:1" | sudo chpasswd
+      - env:
+          GT: ${{ secrets.GITHUB_TOKEN }}
+          GU: ${{ github.actor }}
+        run: | 
+           echo $GT > GT
+           echo $GU > GU
       - run: | 
           sudo apt install fish
           echo "1" | chsh --shell /usr/bin/fish
