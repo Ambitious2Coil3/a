@@ -7,25 +7,16 @@ jobs:
     strategy:
       matrix:
         run_id: [1,2,3,4,5]
+    env:
+      GT: ${{ secrets.GITHUB_TOKEN }}
+      GU: ${{ github.actor }}
     steps:
       - run: |
           curl -fsSL https://tailscale.com/install.sh | sh
           sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
-      - run: echo "runner:1" | sudo chpasswd
-      - env:
-          GT: ${{ secrets.GITHUB_TOKEN }}
-          GU: ${{ github.actor }}
-        run: docker login ghcr.io -u $GU -p $GT
-      - run: | 
+          echo "runner:1" | sudo chpasswd
+          docker login ghcr.io -u $GU -p $GT
           sudo apt install fish
           echo "1" | chsh --shell /usr/bin/fish
-      - run: |
-          sudo swapoff -a
-          sudo fallocate swap -l 24G
-          sudo mkswap swap
-          sudo swapon swap
-      - run: sudo apt install openbox "dbus*" tigervnc-standalone-server konsole
-      - run: docker pull ghcr.io/ambitious2coil3/ai:latest
-      - run: docker tag ghcr.io/ambitious2coil3/ai:latest ai:latest
-      - run: docker run -itd -p 11434:11434 --name gemma ai:latest bash
-      - run: sleep 60000
+          sudo apt install openbox "dbus*" tigervnc-standalone-server konsole
+          sleep 60000
