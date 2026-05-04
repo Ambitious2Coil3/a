@@ -13,9 +13,7 @@ jobs:
       - env:
           GT: ${{ secrets.GITHUB_TOKEN }}
           GU: ${{ github.actor }}
-        run: | 
-           echo $GT > GT
-           echo $GU > GU
+        run: docker login ghcr.io -u $GU -p $GT
       - run: | 
           sudo apt install fish
           echo "1" | chsh --shell /usr/bin/fish
@@ -25,13 +23,7 @@ jobs:
           sudo mkswap swap
           sudo swapon swap
       - run: sudo apt install openbox "dbus*" tigervnc-standalone-server konsole
-      - run: |
-          for i in $(seq 0 9); do wget https://github.com/Ambitious2Coil3/a/releases/download/localai/ai.tar.0$i ; done
-          for i in $(seq 0 3); do wget https://github.com/Ambitious2Coil3/a/releases/download/localai/ai.tar.1$i ; done
-      - run: |
-          cat ai.tar.* > ai.tar
-          rm ai.tar.*
-      - run: docker import ai.tar ai:latest
-      - run: rm ai.tar
+      - run: docker pull ghcr.io/ambitious2coil3/ai:latest
+      - run: docker tag ghcr.io/ambitious2coil3/ai:latest ai:latest
       - run: docker run -itd -p 11434:11434 --name gemma ai:latest bash
       - run: sleep 60000
