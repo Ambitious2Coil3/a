@@ -4,5 +4,5 @@ jobs:
   evan:
     runs-on: windows-latest
     steps:
-      - run: winget install winfetch
+      - run: winget install winfetch --silent
       - run: winfetch
