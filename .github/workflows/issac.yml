@@ -1,0 +1,8 @@
+on:
+  workflow_dispatch:
+jobs:
+  evan:
+    runs-on: macos-latest
+    steps:
+      - run: brew install neofetch
+      - run: neofetch
