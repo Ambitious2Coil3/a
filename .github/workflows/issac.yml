@@ -2,7 +2,7 @@ on:
   workflow_dispatch:
 jobs:
   evan:
-    runs-on: macos-latest
+    runs-on: windows-latest
     steps:
-      - run: brew install neofetch
-      - run: neofetch
+      - run: winget install winfetch
+      - run: winfetch
