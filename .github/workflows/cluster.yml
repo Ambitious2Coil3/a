@@ -19,6 +19,8 @@ jobs:
           sudo hostnamectl set-hostname runner$ID
           docker login ghcr.io -u $GU -p $GT
           sudo apt install fish
+          if [ "$ID" == "1" ] ; then
           echo "1" | chsh --shell /usr/bin/fish
+          fi
           sudo apt install openbox "dbus*" tigervnc-standalone-server konsole "openmpi*"
           sleep 60000
