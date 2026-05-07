@@ -5,6 +5,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - run: sudo sysadminctl -addUser username -password "Strongpass123."
+      - run: sudo chsh -s /bin/bash username
       - run: brew install tailscale
       - run: sudo tailscaled &
       - run: sudo tailscale up
