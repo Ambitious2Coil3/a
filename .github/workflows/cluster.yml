@@ -3,6 +3,7 @@ on:
 permissions: write-all
 jobs:
   thisjob:
+    continue-on-error: true
     runs-on: ubuntu-latest
     strategy:
       matrix:
