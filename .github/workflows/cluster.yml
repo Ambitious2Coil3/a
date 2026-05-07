@@ -14,10 +14,10 @@ jobs:
       ID: ${{ matrix.run_id }}
     steps:
       - run: |
+          sudo hostnamectl set-hostname runner$ID
           curl -fsSL https://tailscale.com/install.sh | sh
           sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
           echo "runner:1" | sudo chpasswd
-          sudo hostnamectl set-hostname runner$ID
           docker login ghcr.io -u $GU -p $GT
           sudo apt install fish
           if [ "$ID" == "1" ] ; then
