@@ -5,8 +5,6 @@ jobs:
   thisjob:
     concurrency:
       queue: single
-      group: group
-      cancel-in-progress: false
     continue-on-error: true
     runs-on: ubuntu-latest
     strategy:
