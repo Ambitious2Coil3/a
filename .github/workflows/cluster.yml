@@ -5,6 +5,7 @@ jobs:
   thisjob:
     concurrency:
       queue: 2
+      group: group
     continue-on-error: true
     runs-on: ubuntu-latest
     strategy:
