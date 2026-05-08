@@ -4,7 +4,7 @@ permissions: write-all
 jobs:
   thisjob:
     concurrency:
-      queue: 2
+      queue: single
       group: group
     continue-on-error: true
     runs-on: ubuntu-latest
