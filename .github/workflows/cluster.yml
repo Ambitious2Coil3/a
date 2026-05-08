@@ -13,15 +13,15 @@ jobs:
       GU: ${{ github.actor }}
       ID: ${{ matrix.run_id }}
     steps:
+      - run: sudo hostnamectl set-hostname runner$ID
+      - run: curl -fsSL https://tailscale.com/install.sh | sh
+      - run: sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
+      - run: echo "runner:1" | sudo chpasswd
+      - run: docker login ghcr.io -u $GU -p $GT
+      - run: sudo apt install fish
       - run: |
-          sudo hostnamectl set-hostname runner$ID
-          curl -fsSL https://tailscale.com/install.sh | sh
-          sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
-          echo "runner:1" | sudo chpasswd
-          docker login ghcr.io -u $GU -p $GT
-          sudo apt install fish
           if [ "$ID" == "1" ] ; then
           echo "1" | chsh --shell /usr/bin/fish
           fi
-          sudo apt install openbox "dbus*" tigervnc-standalone-server konsole "openmpi*"
-          sleep 60000
+      - run: sudo apt install openbox "dbus*" tigervnc-standalone-server konsole "openmpi*"
+      - run: sleep 60000
