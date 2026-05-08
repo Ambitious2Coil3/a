@@ -3,10 +3,11 @@ on:
 permissions: write-all
 jobs:
   thisjob:
-    concurrency:
-      queue: single
+    
     continue-on-error: true
-    runs-on: ubuntu-latest
+    runs-on: custom-image
+    snapshot:
+      image-name: ghcr.io/ambitious2coil3/ubuntu
     strategy:
       matrix:
         run_id: [1,2,3,4,5]
