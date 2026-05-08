@@ -1,0 +1,10 @@
+on:
+  workflow_dispatch:
+jobs:
+  this:
+    runs-on: custom-image
+    snapshot:
+      image-name: my-image
+    steps:
+      - run: sudo apt install fish
+      - run: echo hi
