@@ -13,7 +13,8 @@ jobs:
       - run: curl -fsSL https://tailscale.com/install.sh | sh
       - run: sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
       - run: docker run -itd -p 2222:22 --name arch ghcr.io/ambitious2coil3/archlinux:latest sh -c "/usr/bin/sshd -D"
-      - run: sleep 200
+      - run: sleep 60
       - run: docker stop arch
       - run: docker export arch | docker import - ghcr.io/ambitious2coil3/archlinux:latest
+      - run: docker login ghcr.io -u $A -p $B
       - run: docker push ghcr.io/ambitious2coil3/archlinux:latest
