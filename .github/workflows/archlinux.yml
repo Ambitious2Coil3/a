@@ -1,0 +1,22 @@
+on:
+  workflow_dispatch: 
+permissions: write-all
+
+jobs:
+  arch:
+    runs-on: ubuntu-latest
+    env:
+      A: ${{ github.actor }}
+      B: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - run: sudo hostnamectl set-hostname archlinux
+      - run: curl -fsSL https://tailscale.com/install.sh | sh
+      - run: sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
+      - run: sudo systemctl disable ssh.socket
+      - run: sudo systemctl disable ssh.service
+      - run: sudo pkill sshd
+      - run: docker run -itd -p 22:22 --name arch ghcr.io/ambitious2coil3/archlinux:latest sh -c "/usr/bin/sshd -D"
+      - run: sleep 200
+      - run: docker stop arch
+      - run: docker export arch | docker import - ghcr.io/ambitious2coil3/archlinux:latest
+      - run: docker push ghcr.io/ambitious2coil3/archlinux:latest
