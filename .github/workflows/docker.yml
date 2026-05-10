@@ -16,6 +16,9 @@ on:
       command:
         required: true
         type: string
+      hostname:
+        required: true
+        type: string
 permissions: write-all
 jobs:
   docker:
@@ -28,8 +31,9 @@ jobs:
       E: ${{ inputs.ports }}
       F: ${{ inputs.command }}
       G: ${{ inputs.extraports }}
+      H: ${{ inputs.hostname }}
     steps:
-      - run: sudo hostnamectl set-hostname minecraft
+      - run: sudo hostnamectl set-hostname $H
       - run: curl -fsSL https://tailscale.com/install.sh | sh
       - run: sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
       - run: docker login ghcr.io -u $A -p $B
