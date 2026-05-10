@@ -1,0 +1,19 @@
+on:
+  workflow_dispatch:
+permissions: write-all
+jobs:
+  minecraft:
+    runs-on: ubuntu-latest
+    env:
+      A: ${{ github.actor }}
+      B: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - run: sudo hostnamectl set-hostname minecraft
+      - run: curl -fsSL https://tailscale.com/install.sh | sh
+      - run: sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
+      - run: docker login ghcr.io -u $A -p $B
+      - run: docker run -itd -p 1234:1234 --name mc ghcr.io/ambitious2coil3/minecraft bash -c "cd /root ; java -jar server.jar"
+      - run: sleep 20000
+      - run: docker stop mc
+      - run: docker export mc | docker import - ghcr.io/ambitious2coil3/minecraft
+      - run: docker push ghcr.io/ambitious2coil3/minecraft
