@@ -16,7 +16,7 @@ jobs:
       - run: sudo fallocate swap -l 8G
       - run: sudo mkswap swap
       - run: sudo swapon swap
-      - run: docker run -itd -p 2222:22 --name arch ghcr.io/ambitious2coil3/archlinux:latest sh -c "/usr/bin/sshd -D"
+      - run: docker run -itd -p 1111:22 -p 2222:2222 --name arch ghcr.io/ambitious2coil3/archlinux:latest sh -c "/usr/bin/sshd -D"
       - run: sleep 200
       - run: docker stop arch
       - run: docker export arch | docker import - ghcr.io/ambitious2coil3/archlinux:latest
