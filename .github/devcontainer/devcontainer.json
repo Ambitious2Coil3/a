@@ -1,4 +1,4 @@
 {
   "name":"dev",
-  "image":"ghcr.io/ambitious2coil3/cont:latest"
+  "image":"ghcr.io/ambitious2coil3/archlinux:latest"
 }
