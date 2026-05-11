@@ -1,8 +1,0 @@
-on:
-  workflow_dispatch: 
-jobs:
-  this:
-    runs-on: macos-latest
-    container: ghcr.io/ambitious2coil3/arch
-    steps:
-      - run: fastfetch
