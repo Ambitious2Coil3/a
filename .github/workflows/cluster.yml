@@ -9,10 +9,6 @@ jobs:
     strategy:
       matrix:
         run_id: [1,2,3,4,5]
-        include:
-          - run_id: 6
-            v: 1
-          - run_id: 7
     env:
       GT: ${{ secrets.GITHUB_TOKEN }}
       GU: ${{ github.actor }}
