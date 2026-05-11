@@ -1,2 +1,9 @@
 on:
+  workflow_dispatch:
+jobs:
+  this:
+    runs-on: codespaces-prebuild
+    steps:
+      - run: echo hi
+  
   
