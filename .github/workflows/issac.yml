@@ -1,8 +1,0 @@
-on:
-  workflow_dispatch:
-jobs:
-  evan:
-    runs-on: windows-latest
-    steps:
-      - run: winget install winfetch --silent --accept-source-agreements --accept-package-agreements
-      - run: winfetch
