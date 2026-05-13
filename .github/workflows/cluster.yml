@@ -15,24 +15,34 @@ jobs:
       ID: ${{ matrix.id }}
     steps:
     
-      - run: sudo hostnamectl set-hostname runner$ID
-        run: curl -fsSL https://tailscale.com/install.sh | sh
-        run: sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
-        run: echo "runner:1" | sudo chpasswd
+      - name: install tailscale
+        run: |
+            sudo hostnamectl set-hostname runner$ID
+            curl -fsSL https://tailscale.com/install.sh | sh
+            sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
+            echo "runner:1" | sudo chpasswd
 
 
-      - run: sudo apt install glusterfs-common
-        run: sudo systemctl enable --now glusterd
-        run: sudo mkdir -p /mnt/brick0
+      - name: install gluster
+        run: |
+            sudo apt install glusterfs-common
+            sudo systemctl enable --now glusterd
+            sudo mkdir -p /mnt/brick0
 
-      - if: ${{ matrix.id == "1" }
-        run: sudo gluster volume create gd0 runner2:/mnt/brick0 runner3:/mnt/brick0 runner4:/mnt/brick0 runner5:/mnt/brick0 force
-        run: sudo gluster volume start gd0
-        run: sudo mkdir /mnt/gluster
-        run: sudo mount -t glusterfs runner1:/gd0 /mnt/gluster
+      - name: create a disk
+        if: ${{ matrix.id == "1" }
+        run: |
+            sudo gluster volume create gd0 runner2:/mnt/brick0 runner3:/mnt/brick0 runner4:/mnt/brick0 runner5:/mnt/brick0 force
+            sudo gluster volume start gd0
+            sudo mkdir /mnt/gluster
+            sudo mount -t glusterfs runner1:/gd0 /mnt/gluster
 
-      - if: ${{ matrix.id == "1" }}
-        run: docker login ghcr.io -u $GU -p $GT
-        run: sudo apt install fish
-        run: echo "1" | chsh --shell /usr/bin/fish
-        run: sleep 60000
+      - name: setup
+        if: ${{ matrix.id == "1" }}
+        run: |
+            docker login ghcr.io -u $GU -p $GT
+            sudo apt install fish
+            echo "1" | chsh --shell /usr/bin/fish
+      - name: sleep
+        run: |
+            sleep 60000
