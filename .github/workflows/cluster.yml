@@ -25,7 +25,7 @@ jobs:
 
       - name: install gluster
         run: |
-            sudo apt install glusterfs-common
+            sudo apt install glusterfs-server
             sudo systemctl enable --now glusterd
             sudo mkdir -p /mnt/brick0
 
