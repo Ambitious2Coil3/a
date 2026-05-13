@@ -30,7 +30,7 @@ jobs:
             sudo mkdir -p /mnt/brick0
 
       - name: create a disk
-        if: ${{ matrix.id == '1' }
+        if: ${{ matrix.id == '1' }}
         run: |
             sudo gluster volume create gd0 runner2:/mnt/brick0 runner3:/mnt/brick0 runner4:/mnt/brick0 runner5:/mnt/brick0 force
             sudo gluster volume start gd0
