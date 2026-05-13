@@ -32,7 +32,11 @@ jobs:
       - name: create a disk
         if: ${{ matrix.id == '1' }}
         run: |
-            sudo gluster volume create gd0 runner2:/mnt/brick0 runner3:/mnt/brick0 runner4:/mnt/brick0 runner5:/mnt/brick0 force
+            for i in 1 2 3 4 5 ; do echo "sudo gluster peer probe runner$i" ; done | bash
+            echo "sudo gluster volume create gd0" | tee -a file
+            for i in 1 2 3 4 5 ; do echo "runner$i:/mnt/brick0" ; done | tee -a file
+            echo "force" | tee -a file
+            bash file 
             sudo gluster volume start gd0
             sudo mkdir /mnt/gluster
             sudo mount -t glusterfs runner1:/gd0 /mnt/gluster
