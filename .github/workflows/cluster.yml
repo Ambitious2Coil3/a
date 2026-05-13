@@ -17,7 +17,8 @@ jobs:
       - run: sudo hostnamectl set-hostname runner$ID
       - run: curl -fsSL https://tailscale.com/install.sh | sh
       - run: sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
-      - run: echo "runner:1" | sudo chpasswd
+      - run: whoami
+      - run: echo "$(whoami):1" | sudo chpasswd
       - run: docker login ghcr.io -u $GU -p $GT
       - run: sudo apt install fish
       - run: |
