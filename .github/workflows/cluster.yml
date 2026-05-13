@@ -14,7 +14,7 @@ jobs:
       GU: ${{ github.actor }}
       ID: ${{ matrix.run_id }}
     steps:
-      
+      - run: sudo hostnamectl set-hostname runner$ID
       - run: curl -fsSL https://tailscale.com/install.sh | sh
       - run: sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
       - run: whoami
