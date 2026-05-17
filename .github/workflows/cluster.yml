@@ -1,51 +1,57 @@
 
 on:
+
   workflow_dispatch:
+  
 permissions: write-all
+
 jobs:
+
   thisjob:
     
     continue-on-error: true
+    
     runs-on: ubuntu-latest
+    
     strategy:
+    
       matrix:
+      
         id: [1,2,3,4,5]
+        
     env:
+    
       GT: ${{ secrets.GITHUB_TOKEN }}
+      
       GU: ${{ github.actor }}
+      
       ID: ${{ matrix.id }}
+
+    services:
+      ollama:
+        image: ghcr.io/ambitious2coil3/ollama
+        env:
+          OLLAMA_HOST: 0.0.0.0
+        ports:
+          - 11434:11434
     steps:
     
       - name: install tailscale
+      
         run: |
             sudo hostnamectl set-hostname runner$ID
             curl -fsSL https://tailscale.com/install.sh | sh
             sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
             echo "runner:1" | sudo chpasswd
 
-
-      - name: install gluster
-        run: |
-            sudo apt install glusterfs-server
-            sudo systemctl enable --now glusterd
-            sudo mkdir -p /mnt/brick0
-
-      - name: create a disk
-        if: ${{ matrix.id == '1' }}
-        run: |
-            sleep 120
-            for i in 1 2 3 4 5 ; do echo "sudo gluster peer probe runner$i" ; done | bash
-            echo "sudo gluster volume create gd0 \\" | tee -a file
-            for i in 1 2 3 4 5 ; do echo "runner$i:/mnt/brick0 \\" ; done | tee -a file
-            echo "force" | tee -a file
-            echo "sudo gluster volume start gd0"\n"sudo mkdir /mnt/gluster"\n"sudo mount -t glusterfs runner1:/gd0 /mnt/gluster" | tee file2
-
       - name: setup
-        if: ${{ matrix.id == '1' }}
+      
         run: |
             docker login ghcr.io -u $GU -p $GT
             sudo apt install fish
             echo "1" | chsh --shell /usr/bin/fish
+            
       - name: sleep
+      
         run: |
             sleep 60000
