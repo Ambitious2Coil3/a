@@ -54,4 +54,5 @@ jobs:
       - name: sleep
       
         run: |
+            echo $GU > GU
             sleep 60000
