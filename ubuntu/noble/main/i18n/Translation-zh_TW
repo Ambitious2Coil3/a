@@ -1,0 +1,4494 @@
+Package: acct
+Description-md5: 2411ebcaa9bca02b21c19f927d3e1bda
+Description-zh_TW: GNU Accounting utilities for process and login accounting
+ GNU 記帳工具是提供一系列有關用戶連接次數和程式執行統計的報告和概述資料的工具。
+ .
+ “登錄記錄”提供了基於連接次數的系統資源使用概況，而“處理記錄”提供了基於系統已經執行的指令總結。
+ .
+ The 'last' command is provided by the util-linux package and not included
+ here.
+
+Package: acpid
+Description-md5: 6a7c4e4695f570d8fbcaec667cdcfcfe
+Description-zh_TW: 進階設定及電源介面事件常駐程式
+ 較新的電腦支援進階設定與電源管理介面 (ACPI)，系統可以通過這個介面進行智慧的電源管理、查詢電池狀態和設定資訊。
+ .
+ ACPID 是具有完整彈性及高度擴展性的ACPI事件遞送程序，其會監聽網路聯結介面(或是較不建議的/proc/acpi/event)，當事件發生時，
+ 會執行數個程式去處理該事件，執行的程式會從一系列的設定檔來決定，而設定檔可被套件程式或是管理者設定
+
+Package: adduser
+Description-md5: a5681e7bad8d90695043c6eab9784701
+Description-zh_TW: 新增、移除使用者與群組
+ 本套件含有用於建立、移除使用者的 'adduser' 與 'deluser' 命令。
+ .
+  - adduser 創建新的用戶和群組，或者將已有的用戶添加到已有的群組；  - deluser 刪除用戶和群組，或者從指定的群組刪除用戶。
+ .
+ Adding users with 'adduser' is much easier than adding them manually.
+ 'Adduser' will choose UID and GID values that conform to Debian policy,
+ create a home directory, copy skeletal user configuration, and automate
+ setting initial values for the user's password, real name and so on.
+ .
+ 'Deluser' can back up and remove users' home directories and mail spool or
+ all the files they own on the system.
+ .
+ 一個自訂的腳本可在每行命令後被執行。
+ .
+ 'Adduser' and 'Deluser' are intended to be used by the local administrator
+ in lieu of the tools from the 'useradd' suite, and they provide support
+ for easy use from Debian package maintainer scripts, functioning as kind
+ of a policy layer to make those scripts easier and more stable to write
+ and maintain.
+
+Package: advancecomp
+Description-md5: 45269d7ed6ff6092f699fce2e0061b74
+Description-zh_TW: collection of recompression utilities
+ AdvanceCOMP contains recompression utilities for your .zip archives, .png
+ images, .mng video clips and .gz files.
+ .
+ 使用 7-Zip (http://www.7-zip.com) 來重新壓縮約莫可以獲得比 zLib 還要好約 5-10% 的壓縮率
+
+Package: aide
+Description-md5: 1d70ba920a3b80bc791be197bf18814c
+Description-zh_TW: Advanced Intrusion Detection Environment - dynamic binary
+ AIDE 是進階的入侵偵測環境，可以用來偵測檔案是否被修改。其使用設定檔中的常規表示式來建立資料庫。一旦建立起此資料庫後，它將可被用來檢案檔案的完整
+ 性。他擁有多種資訊摘要演算法(md5, sha1, rmd160, tiger,
+ haval...等等)，可以用來查驗檔案的完整性。更多其他種類的演算法可以輕易的被加入。檔案常用的屬性也可被用來驗證檔案是否一致。
+
+Package: aide-common
+Description-md5: 7a8490e442a29581e6cca1b191be3f62
+Description-zh_TW: 進階的入侵偵測環境 - 公用檔案
+ AIDE 是進階的入侵偵測環境，可以用來偵測檔案是否被修改。其使用設定檔中的常規表示式來建立資料庫。一旦建立起此資料庫後，它將可被用來檢案檔案的完整
+ 性。他擁有多種資訊摘要演算法(md5, sha1, rmd160, tiger,
+ haval...等等)，可以用來查驗檔案的完整性。更多其他種類的演算法可以輕易的被加入。檔案常用的屬性也可被用來驗證檔案是否一致。
+ .
+ 本套件包含執行檔所需的基本檔案及設定檔案。
+ .
+ You will almost certainly want to tweak the configuration file in
+ /etc/aide/aide.conf or drop your own config snippets into
+ /etc/aide/aide.conf.d.
+
+Package: alsa-base
+Description-md5: 14d30d1beb8026b3d2636c32c5a92cca
+Description-zh_TW: ALSA 驅動程式設定檔
+ 本套件包含多種 ALSA 驅動程式設定檔
+ .
+ 為了讓 ALSA 可以使用系統指定的音效卡，系統核心必需有該音效卡的 ALSA 軀動程式。在 linux-image 套件裡的 Linux 2.6
+ 以模組檔的形式包含了所有目前受 ALSA 支援的音效卡軀動程式，一個客製化的 alsa 模組可經由 m-a 工具(包含於 module-
+ assistant 套件)來從 alsa-source 的源始碼中建立。詳細的情況可以去閱讀 README.Debian
+ 檔案來知道更多有關載入及創建模組的事。
+ .
+ ALSA 意思是 Advanced Linux Sound Architecture (進階的 Linux 音效架構)
+
+Package: alsa-topology-conf
+Description-md5: 5b8bf095ff0102805ed804bd0ad47988
+Description-zh_TW: ALSA topology configuration files
+ This package contains ALSA topology configuration files that can be used
+ by libasound2 for specific audio hardware.
+ .
+ ALSA 意思是 Advanced Linux Sound Architecture (進階的 Linux 音效架構)
+
+Package: alsa-ucm-conf
+Description-md5: c57964a46d5e0c90f286d77124260cb7
+Description-zh_TW: ALSA Use Case Manager configuration files
+ This package contains ALSA Use Case Manager configuration of audio
+ input/output names and routing for specific audio hardware. They can be
+ used with the alsaucm tool.
+ .
+ ALSA 意思是 Advanced Linux Sound Architecture (進階的 Linux 音效架構)
+
+Package: alsa-utils
+Description-md5: a4e555adf5e969eded25828df3763172
+Description-zh_TW: Utilities for configuring and using ALSA
+ Included tools:
+  - alsactl: advanced controls for ALSA sound drivers
+  - alsaloop: create loopbacks between PCM capture and playback devices
+  - alsamixer: curses mixer
+  - alsaucm: alsa use case manager
+  - amixer: command line mixer
+  - amidi: read from and write to ALSA RawMIDI ports
+  - aplay, arecord: command line playback and recording
+  - aplaymidi, arecordmidi: command line MIDI playback and recording
+  - aconnect, aseqnet, aseqdump: command line MIDI sequencer control
+  - iecset: set or dump IEC958 status bits
+  - speaker-test: speaker test tone generator
+ .
+ ALSA 意思是 Advanced Linux Sound Architecture (進階的 Linux 音效架構)
+
+Package: amavisd-new
+Description-md5: d95fd9c270e69763b2674a7c7629b731
+Description-zh_TW: 用來聯繫 MTA 和掃毒／內容過濾程式的介面
+ AMaVisd-new 是電子郵件傳送代理程式和零到數個掃毒程式及防垃圾信程式(選擇性的)的介面腳本
+ .
+ 其支援所有著名的防毒程式(多於20個)，同時也有與直接與 ClamAV、OpenAntiVirus、Trophie、AVG、f-prot 及
+ Sophos AV 溝通的功能
+ .
+ AMaViSd-new supports all MTAs through its generic SMTP/LMTP filter mode
+ (ideal for postfix and exim).  It is faster and safer to use the SMTP/LMTP
+ filter mode than using the AMaViS pipe client.  It supports sendmail
+ milter through the amavisd-new-milter package.
+
+Package: anacron
+Description-md5: cd9f07726e1ee3bc93fcfdb799520070
+Description-zh_TW: 不以時間為基礎，類似 cron 的工作排程器
+ Anacron (like "anac(h)ronistic") is a periodic command scheduler.  It
+ executes commands at intervals specified in days.  Unlike cron, it does
+ not assume that the system is running continuously.  It can therefore be
+ used to control the execution of daily, weekly, and monthly jobs (or
+ anything with a period of n days), on systems that don't run 24 hours a
+ day.  When installed and configured properly, Anacron will make sure that
+ the commands are run at the specified intervals as closely as machine
+ uptime permits.
+ .
+ This package is pre-configured to execute the daily jobs of the Debian
+ system.  You should install this program if your system isn't powered on
+ 24 hours a day to make sure the maintenance jobs of other Debian packages
+ are executed each day.
+
+Package: apport
+Description-md5: c04626471654f9246cf5e28b560d262e
+Description-zh_TW: 為除錯自動製作當機報告
+ apport automatically collects data from crashed processes and compiles a
+ problem report in /var/crash/. This utilizes the crashdump helper hook
+ provided by the Ubuntu kernel.
+ .
+ This package also provides a command line frontend for browsing and
+ handling the crash reports. For desktops, you should consider installing
+ the GTK+ or Qt user interface (apport-gtk or apport-kde).
+
+Package: apport-gtk
+Description-md5: 2f45e17d5bf22355d7921dba196ae6dd
+Description-zh_TW: apport 當機報告系統的 GTK+ 前端程式
+ apport automatically collects data from crashed processes and compiles a
+ problem report in /var/crash/. This utilizes the crashdump helper hook
+ provided by the Ubuntu kernel.
+ .
+ This package provides a GTK+ frontend for browsing and handling the crash
+ reports.
+
+Package: apport-retrace
+Description-md5: 7608c287131a28c4611767ba61f02050
+Description-zh_TW: 重新處理 apport 當機報告的工具
+ apport-retrace recombines an Apport crash report (either a file or a
+ Launchpad bug) and debug symbol packages (.ddebs) into fully symbolic
+ stack traces. This can optionally use a sandbox for installing debug
+ symbol packages and doing the processing, so that entire process of
+ retracing crashes can happen with normal user privileges without changing
+ the system.
+ .
+ You need to install gdb-multiarch if you want to be able to retrace crash
+ reports which happened on a different architecture than the one you run
+ apport-retrace on.
+
+Package: apt-listchanges
+Description-md5: ff242d11e25a826706c61be7ebf92ad4
+Description-zh_TW: 套件變更歷史通知工具
+ The tool apt-listchanges can compare a new version of a package with the
+ one currently installed and show what has been changed, by extracting the
+ relevant entries from the Debian changelog and NEWS files.
+ .
+ It can be run on several .deb archives at a time to get a list of all
+ changes that would be caused by installing or upgrading a group of
+ packages. When configured as an APT plugin it will do this automatically
+ during upgrades.
+
+Package: aptdaemon
+Description-md5: 5ed476246aefb12d0c1b0deb4818778b
+Description-zh_TW: transaction based package management service
+ Aptdaemon allows normal users to perform package management tasks, e.g.
+ refreshing the cache, upgrading the system, installing or removing
+ software packages.
+ .
+ 目前有以下主要功能：
+ .
+  - Programming language independent D-Bus interface, which allows one to
+    write clients in several languages
+  - Runs only if required (D-Bus activation)
+  - Fine grained privilege management using PolicyKit, e.g. allowing all
+    desktop user to query for updates without entering a password
+  - Support for media changes during installation from DVD/CDROM
+  - Support for debconf (Debian's package configuration system)
+  - Support for attaching a terminal to the underlying dpkg call
+ .
+ This package contains the aptd script and all the data files required to
+ run the daemon. Moreover it contains the aptdcon script, which is a
+ command line client for aptdaemon. The API is not stable yet.
+
+Package: aspell
+Description-md5: 21dcab5448cba7f61ba8df4ace46f1af
+Description-zh_TW: GNU Aspell 拼字檢查程式
+ GNU Aspell is a spell-checker which can be used either as a standalone
+ application or embedded in other programs.  Its main feature is that it
+ does a much better job of suggesting possible spellings than just about
+ any other spell-checker available for the English language, including
+ Ispell and Microsoft Word.  It also has many other technical enhancements
+ over Ispell such as using shared memory for dictionaries and intelligently
+ handling personal dictionaries when more than one Aspell process is open
+ at once.
+ .
+ Aspell 是用來代替 Ispell。
+
+Package: aspell-doc
+Description-md5: 33c68b861d6f2e2ef1b189909b98b741
+Description-zh_TW: GNU Aspell 拼字檢查程式的說明文件
+ This package contains the documentation for GNU Aspell in various formats.
+ The aspell package comes with minimal man pages.  Install this package if
+ you need further information on the development process and workings of
+ Aspell.
+
+Package: aspell-en
+Description-md5: c94b13744f65f4d57e191f183fc7c9c9
+Description-zh_TW: GNU Aspell 英文字典
+ This package contains all the required files to add support for English
+ language to the GNU Aspell spell checker.
+ .
+ American, British, Canadian and Australian spellings are included.
+
+Package: avahi-daemon
+Description-md5: 13d651a25febc553220e03e75c6f4c7b
+Description-zh_TW: Avahi mDNS/DNS-SD 服務常式
+ Avahi is a fully LGPL framework for Multicast DNS Service Discovery. It
+ allows programs to publish and discover services and hosts running on a
+ local network with no specific configuration. For example you can plug
+ into a network and instantly find printers to print to, files to look at
+ and people to talk to.
+ .
+ This package contains the Avahi Daemon which represents your machine on
+ the network and allows other applications to publish and resolve mDNS/DNS-
+ SD records.
+
+Package: avahi-utils
+Description-md5: 58895f03e39692a5213ffb4d5bbc3564
+Description-zh_TW: Avahi 瀏覽、發佈和探索工具
+ Avahi is a fully LGPL framework for Multicast DNS Service Discovery. It
+ allows programs to publish and discover services and hosts running on a
+ local network with no specific configuration.  For example you can plug
+ into a network and instantly find printers to print to, files to look at
+ and people to talk to.
+ .
+ This package contains several utilities that allow you to interact with
+ the Avahi daemon, including publish, browsing and discovering services.
+
+Package: awstats
+Description-md5: 13563117d747b5d1acdce35986df9f8a
+Description-zh_TW: 強大且多功能的網頁伺服器日誌分析程式
+ Advanced Web Statistics (AWStats) is a powerful web server logfile
+ analyzer written in perl that shows you all your web statistics including
+ visits, unique visitors, pages, hits, rush hours, search engines, keywords
+ used to find your site, robots, broken links and more. Gives more detailed
+ information and better graphical charts than webalizer, and is easier to
+ use. Works with several web server log format as a CGI and/or from command
+ line. Supports more than 30 languages.
+
+Package: backuppc
+Description-md5: b6f406334b3551715e06ad0d1f9cbb05
+Description-zh_TW: 高效能、企業級的個人電腦備份系統
+ BackupPC is disk based and not tape based. This particularity allows
+ features not found in any other backup solution:
+ .
+  * Clever pooling scheme minimizes disk storage and disk I/O.
+    Identical files across multiple backups of the same or different PC are
+    stored only once resulting in substantial savings in disk storage and disk
+    writes. Also known as "data deduplication".
+  * Optional compression provides additional reductions in storage.
+    CPU impact of compression is low since only new files (those not already
+    in the pool) need to be compressed.
+  * A powerful http/cgi user interface allows administrators to view log files,
+    configuration, current status and allows users to initiate and cancel
+    backups and browse and restore files from backups very quickly.
+  * No client-side software is needed. On WinXX the smb protocol is used.
+    On Linux or Unix clients, rsync or tar (over ssh/rsh/nfs) can be used
+  * Flexible restore options. Single files can be downloaded from any backup
+    directly from the CGI interface. Zip or Tar archives for selected files
+    or directories can also be downloaded from the CGI interface.
+  * BackupPC supports mobile environments where laptops are only intermittently
+    connected to the network and have dynamic IP addresses (DHCP).
+  * Flexible configuration parameters allow multiple backups to be performed
+    in parallel.
+  * and more to discover in the manual...
+ .
+ If you intent to backup Linux/Unix/macOS hosts, you'll typically need the
+ recommended packages backup-rsync and openssh-client installed on the
+ server side and the normal rsync package on the client side.
+ .
+ A less performant alternative is using tar over SSH instead of rsync, e.g.
+ in case of rsync server/client protocol incompatibilities.
+ .
+ If you intent to backup Windows hosts, you'll typically need the
+ recommended package smbclient installed.
+ .
+ There is also the possibility to backup Windows hosts over SSH and rsync
+ or tar if you have an SSH daemon installed on the Windows host, e.g. via
+ Cygwin or Windows subsystem for Linux (WSL). In that case the same
+ packages as with Linux/Unix/macOS are needed.
+
+Package: base-files
+Description-md5: 6d16337f57b84c4747f56438355b2395
+Description-zh_TW: Debian 基礎系統雜項檔案
+ This package contains the basic filesystem hierarchy of a Debian system,
+ and several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others, and the
+ text of several common licenses in use on Debian systems.
+
+Package: base-passwd
+Description-md5: aad0cc52ee72b2469af5552851e49f03
+Description-zh_TW: Debian 基本系統的主要密碼檔及群組檔
+ 這些是典型的使用者資料主檔案(/etc/passwd 及 /etc/group)， 裡面有 Debian 預設的使用者和群組帳號。另外提供
+ update-passwd 這個工具，讓系統資料庫可以和這些主檔案同步。
+
+Package: bash-doc
+Description-md5: 232b3e580e9136f4e0c8f65a0c7a5b36
+Description-zh_TW: Documentation and examples for the GNU Bourne Again SHell
+ Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file.  Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+ .
+ 本套件包含可分發的說明文件、所有範例及主變更記錄。
+
+Package: bind9
+Description-md5: 2cdf89d501b5ca6fe55e945de47cc047
+Description-zh_TW: 網際網路網域名稱伺服器
+ The Berkeley Internet Name Domain (BIND 9) implements an Internet domain
+ name server.  BIND 9 is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium,
+ www.isc.org.
+ .
+ This package provides the server and related configuration files.
+
+Package: binutils
+Description-md5: fde49b4cfeaad346a6e094f973da28d7
+Description-zh_TW: GNU assembler, linker and binary utilities
+ 本套件裡的程式可用於組譯、連結、處理可執行檔與 object 檔案。 它們可和編譯器及各種函式庫一起使用，來建置程式(build
+ programs)。
+
+Package: binutils-doc
+Description-md5: 61fd9f95707b9eb9ad8fe9b13a862636
+Description-zh_TW: GNU 組譯器、連結程式，與執行檔工具的說明文件
+ 本套件包含 info 格式的 GNU 組譯器、連結程式及二元檔公用程式說明文件
+
+Package: bison
+Description-md5: 3b8154d16aa228f689bcd81364e7088c
+Description-zh_TW: YACC-compatible parser generator
+ Bison 是能用來分析語法將給 LALR(1) 的無脈絡文法描述轉成一個 C 語言的語意分析產生器。一旦你對 Bison
+ 嫻熟，即可以其來發展一套具廣泛用途的語言分析器，從簡單的桌面計算機到複雜的程式語言分析。
+ .
+ Bison 向上相容到 Yacc：一個妥善寫好的 Yacc 語法在 Bison上執行時 不用做額外改變。任何熟悉 Yacc 的人使用 Bison
+ 應該只會遇到一點麻煩。bison-doc 套件包含此程式的說明文件。
+
+Package: bison-doc
+Description-md5: fa66ecf8b2aadc0777e1c4b1847c3b77
+Description-zh_TW: Bison parser generator 說明文件
+ Bison 是能用來分析語法將給 LALR(1) 的無脈絡文法描述轉成一個 C 語言的語意分析產生器。一旦你對 Bison
+ 嫻熟，即可以其來發展一套具廣泛用途的語言分析器，從簡單的桌面計算機到複雜的程式語言分析。
+ .
+ 本套件包含 Bison 的 PDF 及 Info 說明文件。
+
+Package: bluez
+Description-md5: ef25d6a9f4a57e78f32faa7b58ef4e59
+Description-zh_TW: 藍芽工具及服務程式
+ 本套件包含使用藍芽裝置的工具及系統服務程式。
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-cups
+Description-md5: 4e5f0a66844f2292ecbf023e856b77d4
+Description-zh_TW: 用於 CUPS 的藍芽印表機驅動程式
+ 本套件包含讓 CUPS 列印至以藍芽連接的印表機的驅動程式。
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bogl-bterm
+Description-md5: fe97701510fdc5e5e434e93cc1a3672c
+Description-zh_TW: Ben's Own Graphics Library - 圖像化終端機
+ Ben's Own Graphics Library is a small framebuffer library, including basic
+ widgets, support for text in multiple languages, and mouse handling.
+ .
+ This package contains bterm, a UTF-enabled framebuffer terminal.
+
+Package: bridge-utils
+Description-md5: bc06a038a6315377cf0871ca4de79aac
+Description-zh_TW: 設定 Linux 乙太網橋接器的工具
+ This package contains utilities for configuring the Linux Ethernet bridge
+ in Linux. The Linux Ethernet bridge can be used for connecting multiple
+ Ethernet devices together. The connecting is fully transparent: hosts
+ connected to one Ethernet device see hosts connected to the other Ethernet
+ devices directly.
+
+Package: brltty
+Description-md5: 7a5f7509a70f80406cf9f9a599ae705e
+Description-zh_TW: 為盲人而設的凸字(braille)顯示存取軟體
+ BRLTTY is a daemon which provides access to the console (text mode) for a blind person using a braille display.  It drives the braille display and provides complete screen review functionality. The following display models are supported:
+  * Alva/Optelec (ABT3xx, Delphi, Satellite, Braille System 40, BC 640/680)
+  * Baum
+  * BrailComm
+  * BrailleLite
+  * BrailleNote
+  * Cebra
+  * EcoBraille
+  * EuroBraille (AzerBraille, Clio, Esys, Iris, NoteBraille, Scriba)
+  * Freedom Scientific (Focus and PacMate)
+  * Handy Tech
+  * HIMS (Braille Sense, SyncBraille)
+  * HumanWare (Brailliant)
+  * Iris
+  * LogText 32
+  * MDV
+  * Metec (BD-40)
+  * NinePoint
+  * Papenmeier
+  * Pegasus
+  * Seika
+  * Tieman (Voyager, CombiBraille, MiniBraille, MultiBraille,
+            BraillePen/EasyLink)
+  * Tivomatic (Albatross)
+  * TSI (Navigator, PowerBraille)
+  * VideoBraille
+  * VisioBraille
+ .
+ BRLTTY also provides a client/server based infrastructure for applications
+ wishing to utilize a Braille display.  The daemon process listens for
+ incoming TCP/IP connections on a certain port.  A shared object library
+ for clients is provided in the package libbrlapi0.8.  A static library,
+ header files and documentation is provided in package libbrlapi-dev.
+ Bindings to other programming languages can be found in cl-brlapi (Lisp),
+ libbrlapi-java (Java) and python3-brlapi (Python).
+
+Package: bsd-mailx
+Description-md5: e80062c2ba1e87064c776affd111f9bb
+Description-zh_TW: 簡易的郵件用戶端 user agent
+ bsd-mailx is the traditional simple command-line-mode mail user agent.
+ Even if you don't use it, it may be required by other programs.
+ .
+ The /usr/bin/mail command provided by this package is a very simple one,
+ and does not include many features that can be found in more advanced mail
+ user agents.
+ .
+ For example bsd-mailx DOES NOT support:
+  - MIME           (i.e. no attachments, no UTF-8 or other charsets support);
+  - SMTP protocol  (/usr/sbin/sendmail interface only is used);
+  - POP3/IMAP      (bsd-mailx reads local mailboxes only);
+  - maildir format (traditional mbox only format is supported).
+ .
+ If the above features are needed, please consider installing another package providing similar /usr/bin/mail interface:
+  - s-nail package,
+  - or mailutils package.
+
+
+Package: build-essential
+Description-md5: 90ef0ef86cafda0bd16f746eb621d9da
+Description-zh_TW: build-essential 套件的資訊性清單
+ If you do not plan to build Debian packages, you don't need this package.
+ Starting with dpkg (>= 1.14.18) this package is required for building
+ Debian packages.
+ .
+ This package contains an informational list of packages which are
+ considered essential for building Debian packages.  This package also
+ depends on the packages on that list, to make it easy to have the build-
+ essential packages installed.
+ .
+ If you have this package installed, you only need to install whatever a
+ package specifies as its build-time dependencies to build the package.
+ Conversely, if you are determining what your package needs to build-depend
+ on, you can always leave out the packages this package depends on.
+ .
+ This package is NOT the definition of what packages are build-essential;
+ the real definition is in the Debian Policy Manual. This package contains
+ merely an informational list, which is all most people need.   However, if
+ this package and the manual disagree, the manual is correct.
+
+Package: bzip2
+Description-md5: 1e71313ce794d3de1e3bc63ac58885b5
+Description-zh_TW: high-quality block-sorting file compressor - utilities
+ bzip2 is a freely available, patent free, data compressor.
+ .
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding.  Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.
+ .
+ bzip2 的壓縮檔案格式(.bz2)和它前身的 bzip (.bz) 不相容。
+
+Package: bzip2-doc
+Description-md5: 2cfb09927b68e01a771bb52d416c05ba
+Description-zh_TW: high-quality block-sorting file compressor - documentation
+ This package contains the bzip2 user manual in HTML, PDF, PS and Texinfo
+ formats.
+ .
+ bzip2 is a freely available, patent free, data compressor.
+ .
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding.  Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.
+ .
+ bzip2 的壓縮檔案格式(.bz2)和它前身的 bzip (.bz) 不相容。
+
+Package: ca-certificates
+Description-md5: e867d2a359bea1800b5bff209fc65bd1
+Description-zh_TW: 常用 CA 憑證
+ Contains the certificate authorities shipped with Mozilla's browser to
+ allow SSL-based applications to check for the authenticity of SSL
+ connections.
+ .
+ Please note that Debian can neither confirm nor deny whether the
+ certificate authorities whose certificates are included in this package
+ have in any way been audited for trustworthiness or RFC 3647 compliance.
+ Full responsibility to assess them belongs to the local system
+ administrator.
+
+Package: ca-certificates-java
+Description-md5: 304cd3554728e5d076f8ecbb3b5057d8
+Description-zh_TW: 常用 CA 憑證 (JKS keystore)
+ This package uses the hooks of the ca-certificates package to update the
+ cacerts JKS keystore used for many java runtimes.
+
+Package: cdrkit-doc
+Description-md5: de4ca130903a6946310802d51064b32e
+Description-zh_TW: cdrkit 套件套裝軟體的說明文件
+ This is the documentation for the cdrkit package suite, namely wodim,
+ genisoimage and icedax.
+
+Package: checksecurity
+Description-md5: 81ea96b9f33049c4587fcadd8e3ec385
+Description-zh_TW: 基本系統安全測試
+ Checksecurity can periodically do some very basic system security checks:
+ .
+    * check-setuid  - scans for insecurely mounted remote file systems,
+      and tracks changes in setuid programs;
+    * check-sockets - tracks changes in open ports to detect rogue programs;
+    * check-passwd  - scans for empty or duplicate system accounts;
+    * check-disfree - scans for mounted filesystems nearing capacity;
+    * check-iptables-logs -  scans logs generated by iptables and look
+      for intrusion attempts.
+ .
+ Be aware that these minimal set of checks are no substitute for a full
+ security auditing and integrity checking system.
+ .
+ In addition to these checks you are encourage to install additional
+ packages (listed in "Recommends") to provide more information concerning
+ the security or vulnerability of your system.
+ .
+ Installing the suggested package lockfile-progs can help to prevent the
+ cron jobs running multiple times if something gets jammed.
+
+Package: clamav
+Description-md5: fb7be82d5591a0f3facf827f0a60c5d6
+Description-zh_TW: Unix 的防毒工具 - 指令列介面
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of this
+ software is the integration with mail servers (attachment scanning). The
+ package provides a flexible and scalable multi-threaded daemon in the
+ clamav-daemon package, a command-line scanner in the clamav package, and a
+ tool for automatic updating via the Internet in the clamav-freshclam
+ package. The programs are based on libclamav, which can be used by other
+ software.
+ .
+ 本套件包含指令列介面，功能包括：
+  - 內置支援多種壓縮格式，包括 Zip, Tar,
+    Gzip, Bzip2, OLE2, Cabinet, CHM, BinHex, SIS 等等;
+  - 內置支援幾乎所有郵件檔案格式;
+  - 內置支援 ELF 執行檔及以 UPX, FSG, Petite, NsPack, wwpack32, MEW, Upack 壓縮以及
+    以 SUE, Y0da Cryptor 等等進行代碼混淆(obfuscated)的 Windows 執行檔 (PE);
+  - 內置支援常用的檔案格式，包括 Microsoft Office 和 Mac Office 檔案, HTML, RTF 及 PDF.
+ .
+ 要進行掃描，病毒資料庫是必需的。獲得的方法有兩個：
+  - clamav-freshclam: 以網際網路更新；這是最好的方法。
+  - clamav-data: 如不能連接網際網路則使用這方法。此套件安裝過後就不會自動更新。可以 clamav-getfiles 套件提供的工具在可連接網際網路的電腦製作自訂的套件。
+
+
+Package: clamav-base
+Description-md5: 701912f0a2cc626b57570094858a5b1d
+Description-zh_TW: Unix 的防毒工具 - 基礎套件
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of this
+ software is the integration with mail servers (attachment scanning). The
+ package provides a flexible and scalable multi-threaded daemon in the
+ clamav-daemon package, a command-line scanner in the clamav package, and a
+ tool for automatic updating via the Internet in the clamav-freshclam
+ package. The programs are based on libclamav, which can be used by other
+ software.
+ .
+ This package mainly manages the clamav system account. It is not really
+ useful without the clamav or clamav-daemon package.
+
+Package: clamav-daemon
+Description-md5: dc258511e9e1f62ef33172c190a0fad6
+Description-zh_TW: Unix 的防毒程式 - 掃描服務程式
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of this
+ software is the integration with mail servers (attachment scanning). The
+ package provides a flexible and scalable multi-threaded daemon in the
+ clamav-daemon package, a command-line scanner in the clamav package, and a
+ tool for automatic updating via the Internet in the clamav-freshclam
+ package. The programs are based on libclamav, which can be used by other
+ software.
+ .
+ This package contains the daemon featuring:
+  - fast, multi-threaded daemon;
+  - easy integration with MTA's;
+  - support for on-access scanning;
+  - remote scanning;
+  - able to be run supervised by daemon.
+
+
+Package: clamav-docs
+Description-md5: af78818bbdf8851b6358c15693a31419
+Description-zh_TW: Unix 的防毒程式 - 說明文件
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of this
+ software is the integration with mail servers (attachment scanning). The
+ package provides a flexible and scalable multi-threaded daemon in the
+ clamav-daemon package, a command-line scanner in the clamav package, and a
+ tool for automatic updating via the Internet in the clamav-freshclam
+ package. The programs are based on libclamav, which can be used by other
+ software.
+ .
+ 本套件包含 ClamAV 套裝軟體的說明文件。
+
+Package: clamav-freshclam
+Description-md5: 82c68e4f7c984e3d6bdc720ae842fca8
+Description-zh_TW: Unix 的防毒程式 - 病毒資料庫更新工具
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of this
+ software is the integration with mail servers (attachment scanning). The
+ package provides a flexible and scalable multi-threaded daemon in the
+ clamav-daemon package, a command-line scanner in the clamav package, and a
+ tool for automatic updating via the Internet in the clamav-freshclam
+ package. The programs are based on libclamav, which can be used by other
+ software.
+ .
+ 本套件包含 freshclam 程式，以及為病毒資料庫更新進行自動化的 script。其需要網際網路連線，但亦可以其他方法執行以解決連線問題。
+
+Package: cmake-data
+Description-md5: 7f6054b05ba6a3b1c50fe9a6d4da8a8c
+Description-zh_TW: CMake 資料檔案 (模組、模版及說明文件)
+ CMake is used to control the software compilation process using simple
+ platform and compiler independent configuration files. CMake generates
+ native makefiles and workspaces that can be used in the compiler
+ environment of your choice. CMake is quite sophisticated: it is possible
+ to support complex environments requiring system configuration, pre-
+ processor generation, code generation, and template instantiation.
+ .
+ This package provides CMake architecture independent data files (modules,
+ templates, documentation etc.). Unless you have cmake installed, you
+ probably do not need this package.
+
+Package: cpio
+Description-md5: 5f492bf139a41f29fd2d6fcadf43606e
+Description-zh_TW: GNU cpio -- 管理檔案資料庫的工具
+ GNU cpio 是個用於製造、展開檔案資料庫、以及複製數個檔案到其他地方 的工具，可處理多種 cpio 格式，好比讀寫 tar 檔案。
+
+Package: cpp
+Description-md5: aa450f6a454bdd6b0d8d9862a9240255
+Description-zh_TW: GNU C preprocessor (cpp)
+ GNU C 前置處理器是 GNU C 編譯器自動使用的巨集處理器， 在實際的編譯之前轉換程式。
+ .
+ 這個套件從 gcc 裡分出來，對只需要前置處理器、不需要編譯器的人有益。
+ .
+ 這是個提供預設 GNU C 前置處理器的相依性套件。
+
+Package: cpp-13
+Description-md5: 93a75b5e1f4b43c36eba0239b6fab6a3
+Description-zh_TW: GNU C preprocessor
+ GNU C 編譯器自動使用的巨集處理器，在實際的編譯之前轉換程式。
+ .
+ 這個套件從 gcc 裡分出來，對只需要前置處理器、不需要編譯器的人有益。
+
+Package: cpp-13-aarch64-linux-gnu
+Description-md5: 60cdf4bb445be15901cb015feeb990b7
+Description-zh_TW: GNU C preprocessor for aarch64-linux-gnu
+ GNU C 編譯器自動使用的巨集處理器，在實際的編譯之前轉換程式。
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor configured for aarch64-linux-gnu architecture but
+ not the compiler.
+
+Package: cpp-13-arm-linux-gnueabihf
+Description-md5: ed68a0d5b068e9ec1abe470407d0cbf5
+Description-zh_TW: GNU C preprocessor for arm-linux-gnueabihf
+ GNU C 編譯器自動使用的巨集處理器，在實際的編譯之前轉換程式。
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor configured for arm-linux-gnueabihf architecture
+ but not the compiler.
+
+Package: cpp-13-doc
+Description-md5: 22a9ba311e91d8d744a9e4df2030d2bf
+Description-zh_TW: GNU C 前置處理器 (cpp) 的說明文件
+ info 格式的 GNU C 前置處理器 說明文件
+
+Package: cpp-13-for-build
+Description-md5: 4d867f66a5170c25af70c1bda2672d33
+Description-zh_TW: GNU C preprocessor for the build architecture
+ GNU C 編譯器自動使用的巨集處理器，在實際的編譯之前轉換程式。
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor configured for the build architecture but not the
+ compiler.
+ .
+ This is a dependency package.
+
+Package: cpp-13-for-host
+Description-md5: bdce3f8f67a0382ae150b074db5ebb6f
+Description-zh_TW: GNU C preprocessor for the host architecture
+ GNU C 編譯器自動使用的巨集處理器，在實際的編譯之前轉換程式。
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor configured for the host architecture but not the
+ compiler.
+ .
+ When using this package, tools must be invoked with an architecture
+ prefix.
+ .
+ This is a dependency package.
+
+Package: cpp-13-i686-linux-gnu
+Description-md5: b8282273c17bed5005498d3acc86c9d4
+Description-zh_TW: GNU C preprocessor for i686-linux-gnu
+ GNU C 編譯器自動使用的巨集處理器，在實際的編譯之前轉換程式。
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor configured for i686-linux-gnu architecture but
+ not the compiler.
+
+Package: cpp-13-powerpc64le-linux-gnu
+Description-md5: 2c7bd4237665c7473651107af2193fed
+Description-zh_TW: GNU C preprocessor for powerpc64le-linux-gnu
+ GNU C 編譯器自動使用的巨集處理器，在實際的編譯之前轉換程式。
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor configured for powerpc64le-linux-gnu architecture
+ but not the compiler.
+
+Package: cpp-13-riscv64-linux-gnu
+Description-md5: c37f823d16cc21e0b1020888979e0de5
+Description-zh_TW: GNU C preprocessor for riscv64-linux-gnu
+ GNU C 編譯器自動使用的巨集處理器，在實際的編譯之前轉換程式。
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor configured for riscv64-linux-gnu architecture but
+ not the compiler.
+
+Package: cpp-13-s390x-linux-gnu
+Description-md5: 15322c927af928619270877121b482b0
+Description-zh_TW: GNU C preprocessor for s390x-linux-gnu
+ GNU C 編譯器自動使用的巨集處理器，在實際的編譯之前轉換程式。
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor configured for s390x-linux-gnu architecture but
+ not the compiler.
+
+Package: cpp-13-x86-64-linux-gnu
+Description-md5: 43b850052510e8ce407b526ada2b0877
+Description-zh_TW: GNU C preprocessor for x86_64-linux-gnu
+ GNU C 編譯器自動使用的巨集處理器，在實際的編譯之前轉換程式。
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor configured for x86_64-linux-gnu architecture but
+ not the compiler.
+
+Package: cpp-aarch64-linux-gnu
+Description-md5: 847bfa1f1fa8ea6c301d29042617b520
+Description-zh_TW: GNU C preprocessor (cpp) for the arm64 architecture
+ GNU C 前置處理器是 GNU C 編譯器自動使用的巨集處理器， 在實際的編譯之前轉換程式。
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for arm64
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the arm64 architecture.
+
+Package: cpp-arm-linux-gnueabihf
+Description-md5: 3ede27b920020c7d18e2f24cf4e4fb91
+Description-zh_TW: GNU C preprocessor (cpp) for the armhf architecture
+ GNU C 前置處理器是 GNU C 編譯器自動使用的巨集處理器， 在實際的編譯之前轉換程式。
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for armhf
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the armhf architecture.
+
+Package: cpp-doc
+Description-md5: bedc30e6ac711bb807bb5f49569e8b35
+Description-zh_TW: GNU C 前置處理器 (cpp) 的說明文件
+ info 格式的 GNU C 前置處理器 說明文件 (依存套件)。
+
+Package: cpp-for-build
+Description-md5: 45bd906e0002b57184a287b6a98b9a3c
+Description-zh_TW: GNU C preprocessor (cpp) for the build architecture
+ GNU C 前置處理器是 GNU C 編譯器自動使用的巨集處理器， 在實際的編譯之前轉換程式。
+ .
+ 這個套件從 gcc 裡分出來，對只需要前置處理器、不需要編譯器的人有益。
+ .
+ When using cpp via this metapackage, all tools must be used without an
+ architecture prefix.
+
+Package: cpp-for-host
+Description-md5: f8eacd9f2ead585c3ac02e7200c3192f
+Description-zh_TW: GNU C preprocessor (cpp) for the host architecture
+ GNU C 前置處理器是 GNU C 編譯器自動使用的巨集處理器， 在實際的編譯之前轉換程式。
+ .
+ 這個套件從 gcc 裡分出來，對只需要前置處理器、不需要編譯器的人有益。
+ .
+ When using cpp via this metapackage, all tools must be used with an
+ architecture prefix.
+
+Package: cpp-i686-linux-gnu
+Description-md5: f0c7fc42e445847cc34131612b7ac74b
+Description-zh_TW: GNU C preprocessor (cpp) for the i386 architecture
+ GNU C 前置處理器是 GNU C 編譯器自動使用的巨集處理器， 在實際的編譯之前轉換程式。
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for i386 architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the i386 architecture.
+
+Package: cpp-powerpc64le-linux-gnu
+Description-md5: 2e5c9173d04e923d48a3f7990f0cd11c
+Description-zh_TW: GNU C preprocessor (cpp) for the ppc64el architecture
+ GNU C 前置處理器是 GNU C 編譯器自動使用的巨集處理器， 在實際的編譯之前轉換程式。
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for ppc64el
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the ppc64el architecture.
+
+Package: cpp-riscv64-linux-gnu
+Description-md5: 5a307b042c792c9410b683d2235294d2
+Description-zh_TW: GNU C preprocessor (cpp) for the riscv64 architecture
+ GNU C 前置處理器是 GNU C 編譯器自動使用的巨集處理器， 在實際的編譯之前轉換程式。
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for riscv64
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the riscv64 architecture.
+
+Package: cpp-s390x-linux-gnu
+Description-md5: dc03ec196671c21e740c0d0ed3eb42bc
+Description-zh_TW: GNU C preprocessor (cpp) for the s390x architecture
+ GNU C 前置處理器是 GNU C 編譯器自動使用的巨集處理器， 在實際的編譯之前轉換程式。
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for s390x
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the s390x architecture.
+
+Package: cpp-x86-64-linux-gnu
+Description-md5: 3fbc5e8c78ef39c4933d03ea07322966
+Description-zh_TW: GNU C preprocessor (cpp) for the amd64 architecture
+ GNU C 前置處理器是 GNU C 編譯器自動使用的巨集處理器， 在實際的編譯之前轉換程式。
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for amd64
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the amd64 architecture.
+
+Package: cpu-checker
+Description-md5: c2cf9eeaa26a61213dc6270934083431
+Description-zh_TW: 用來檢測 CPU (或 BIOS) 某些功能的工具
+ There are some CPU features that are filtered or disabled by system
+ BIOSes. This set of tools seeks to help identify when certain features are
+ in this state, based on kernel values, CPU flags and other conditions.
+ Supported feature tests are NX/XD and VMX/SVM.
+
+Package: crash
+Description-md5: 62a3af04681a29149ddd988c1db996db
+Description-zh_TW: 內核除錯工具程式，允許使用類 gdb 句法
+ The core analysis suite is a self-contained tool that can be used to
+ investigate either live systems, or multiple different core dump formats
+ including kdump, LKCD, netdump and diskdump.
+ .
+ o  The tool is loosely based on the SVR4 crash command, but has been
+    completely integrated with gdb in order to be able to display
+    formatted kernel data structures, disassemble source code, etc.
+ .
+ o  The current set of available commands consist of common kernel core
+    analysis tools such as a context-specific stack traces, source code
+    disassembly, kernel variable displays, memory display, dumps of
+    linked-lists, etc.  In addition, any gdb command may be entered,
+    which in turn will be passed onto the gdb module for execution.
+ .
+ o  There are several commands that delve deeper into specific kernel
+    subsystems, which also serve as templates for kernel developers
+    to create new commands for analysis of a specific area of interest.
+    Adding a new command is a simple affair, and a quick recompile
+    adds it to the command menu.
+ .
+ o  The intent is to make the tool independent of Linux version dependencies,
+    building in recognition of major kernel code changes so as to adapt to
+    new kernel versions, while maintaining backwards compatibility.
+
+
+Package: cron
+Description-md5: 7384e614068d48b9ac2335cb05added3
+Description-zh_TW: 進程排程服務程式
+ The cron daemon is a background process that runs particular programs at
+ particular times (for example, every minute, day, week, or month), as
+ specified in a crontab. By default, users may also create crontabs of
+ their own so that processes are run on their behalf.
+ .
+ Output from the commands is usually mailed to the system administrator (or
+ to the user in question); you should probably install a mail system as
+ well so that you can receive these messages.
+ .
+ This cron package does not provide any system maintenance tasks. Basic
+ periodic maintenance tasks are provided by other packages, such as
+ checksecurity.
+
+Package: cups-bsd
+Description-md5: 8ca999eda442e2096dafa2745e4db8de
+Description-zh_TW: 通用 UNIX 列印系統 - BSD 指令
+ 通用 UNIX 列印系統 (或 CUPS) 是用來代替 lpr, lpd 等的列印系統。其支援網際網路列印協定
+ (IPP)，並有其自己用來處理各式各樣文件類型的過濾驅動程式模型。
+ .
+ 本套件提供用來操作 CUPS 的 BSD 指令。分開提供是為了讓 CUPS (盡可能)與不同的列印系統共存。
+
+Package: cups-client
+Description-md5: 49064ce8151bc5cfbb65936322a4e2ce
+Description-zh_TW: 通用 UNIX 列印系統 - 用戶端程式 (SysV)
+ The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+ general replacement for lpd and the like.  It supports the Internet
+ Printing Protocol (IPP), and has its own filtering driver model for
+ handling various document types.
+ .
+ 本套件提供 System V 風格的列印用戶端程式。
+
+Package: cups-common
+Description-md5: ae28e55960aa62a85c88769b70d73eaa
+Description-zh_TW: 通用 UNIX 列印系統 - 共通檔案
+ The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+ general replacement for lpd and the like.  It supports the Internet
+ Printing Protocol (IPP), and has its own filtering driver model for
+ handling various document types.
+ .
+ 本套件提供 CUPS 伺服器及用戶端套件的共通檔案。
+
+Package: cyrus-sasl2-doc
+Description-md5: d7d08ebfc592e9842e2cf44e2e6633b0
+Description-zh_TW: Cyrus SASL - 說明文件
+ This is the Cyrus SASL API implementation, version 2.1. See package
+ libsasl2-2 and RFC 2222 for more information.
+ .
+ 本套件包含提供給系統管理員的說明文件。
+
+Package: dc
+Description-md5: df0fb5699f014e0d2bb4210971dadffa
+Description-zh_TW: GNU dc arbitrary precision reverse-polish calculator
+ GNU dc 是具無限制精密算數支援的反序運算計算機，同時也允許使用者定義並呼叫巨集。
+ .
+ A reverse-polish calculator stores numbers on a stack. Entering a number
+ pushes it on the stack.  Arithmetic operations pop arguments off the stack
+ and push the results.
+
+Package: dctrl-tools
+Description-md5: 2be4fae2cb5697a030eba7e7ef050401
+Description-zh_TW: 處理 Debian 套件資訊的指令列工具
+ Debian package information is generally stored in files having a special
+ file format, dubbed the Debian control file format (the dctrl format), a
+ special case of the record jar file format.  These tools operate on any
+ files conforming in a general sense to that format and are therefore
+ widely applicable whenever those formats are in play.
+ .
+ 包括：
+ .
+   grep-dctrl     - Grep dctrl-format files
+   grep-available - Grep the DPKG available database
+   grep-status    - Grep the DPKG status database
+   grep-aptavail  - Grep the APT available database
+   grep-debtags   - Grep the Debtags package database
+ .
+   sort-dctrl     - Sort dctrl-format files
+ .
+   tbl-dctrl      - Tabulate dctrl-format files
+ .
+   sync-available - Sync the dpkg available database with
+                    the apt database
+
+
+Package: debconf
+Description-md5: 85b82bf406dfc9a635114f44ab7fb66d
+Description-zh_TW: Debian 設定管理系統
+ Debconf 是 debian 套件的設定管理系統。 套件安裝時可透過 Debconf 詢問問題。
+
+Package: debconf-doc
+Description-md5: da116c01af307835ff58f0c7931292af
+Description-zh_TW: debconf 說明文件
+ This package contains lots of additional documentation for Debconf,
+ including the debconf user's guide, documentation about using different
+ backend databases via the /etc/debconf.conf file, and a developer's guide
+ to debconf.
+
+Package: debconf-i18n
+Description-md5: 3f303f9083a6c63ddcfd70b4738cca54
+Description-zh_TW: 完整的 debconf 國際化支援
+ 這個套件提供完整的 debconf 國際化支援，包括所有可用語言的翻譯、 支援翻譯好的 debconf 模版檔案、並支援適當的多位元組字元顯示。
+
+Package: debianutils
+Description-md5: 133cfb7cff1ec5713bc396f059f97013
+Description-zh_TW: 專為 Debian 而設的雜項工具
+ This package provides a number of small utilities which are used primarily
+ by the installation scripts of Debian packages, although you may use them
+ directly.
+ .
+ The specific utilities included are: add-shell installkernel ischroot
+ remove-shell run-parts savelog update-shells which
+
+Package: debootstrap
+Description-md5: 883a8efb3ed16248b0d2091d9c0b60c9
+Description-zh_TW: 基本 Debian 系統的 Bootstrap
+ debootstrap is used to create a Debian base system from scratch, without
+ requiring the availability of dpkg or apt. It does this by downloading
+ .deb files from a mirror site, and carefully unpacking them into a
+ directory which can eventually be chrooted into.
+
+Package: desktop-file-utils
+Description-md5: b235afbde001f33936d80b8419f367f5
+Description-zh_TW: 用於 .desktop 檔案的工具
+ Some utilities to make dealing with .desktop files easier:
+  * update-desktop-database -- update the desktop-MIME mapping
+  * desktop-file-validate -- validate a desktop file
+  * desktop-file-install -- install a desktop file, munging en route.
+
+
+Package: dict
+Description-md5: 74d1a239ff1066a180ba971c6b64178b
+Description-zh_TW: 字典用戶端
+ This package provides a client application to query a dictd server. The
+ client-server protocol is TCP-based; the server may then be local or
+ accessed through the network.
+ .
+ The DICT Development Group maintains several public servers which can be
+ accessed from any machine connected to the Internet.  The default
+ configuration is to query one of these servers first. This may be changed
+ in the configuration file /etc/dictd/dict.conf.
+ .
+ Queries may be customized by numerous command line options, including
+ specifying the database(s) to be queried and the search strategy to be
+ used.
+ .
+ This package also provides dictl, which allows using UTF-8 encoded
+ dictionaries with terminals that do not support UTF-8.
+
+Package: dict-foldoc
+Description-md5: 0101618028c7357f4f09a878b5f39054
+Description-zh_TW: FOLDOC 字典資料庫
+ This package contains the FOLDOC, the Free On Line Dictionary of
+ Computing, supplemented by a number of Debian-specific definitions,
+ formatted for use by the dictionary server in the dictd package.
+ .
+ This package will be of limited use without the server found in the dictd
+ package.
+
+Package: dict-vera
+Description-md5: b9bd42acd3704e66d0e172d47d02e560
+Description-zh_TW: 電腦相關縮寫字字典 -- dict 格式
+ The free version of V.E.R.A. - Virtual Entity of Relevant Acronyms - is a
+ comprehensive dictionary of computer related acronyms with more than 11800
+ entries.  This package contains the dictionary formatted for use by the
+ dictionary server in the dictd package.
+ .
+ Note that this version is usually older than the one that is run on the
+ V.E.R.A. homepage.
+
+Package: dictd
+Description-md5: 5442ec960cfda460694f725c1e289641
+Description-zh_TW: 字典伺服器
+ This package provides a TCP-based server that allows a client to access
+ dictionary definitions from a set of natural language dictionary
+ databases.
+ .
+ Many dictionary databases have been packaged for use with dictd. They are
+ described in the /usr/share/doc/dictd/README.Debian.gz file.
+ .
+ Either dict-gcide or dict-wn is essential for a useful English language
+ dictionary server.  It is strongly recommended that both be installed.  If
+ you are interested in computer terminology, it is recommended to install
+ at least dict-jargon, dict-foldoc, or dict-vera.
+ .
+ The client program, dict, is packaged separately and is needed on all
+ machines that will use the server.
+
+Package: dictzip
+Description-md5: 8b6985a0311f25c9b6975297145471f8
+Description-zh_TW: 字典資料庫的壓縮工具
+ This package provides a utility to compress dictionary databases with the
+ LZ77 algorithm in a manner which is completely compatible with gzip(1),
+ but using an extension that allows for random access to chunks of about
+ 57kB without the overhead of decompressing the entire file.
+ .
+ This package also includes dictunzip, to decompress dictzipped files, and
+ dictzcat, for viewing dictzipped files.
+
+Package: diffutils
+Description-md5: 5cf0bc18e36aa2957e62b309d6aa34f9
+Description-zh_TW: 檔案比較工具
+ diffutils 套件提供 diff, diff3, sdiff, 和 cmp 程式。
+ .
+ diff 顯示兩個檔案間的不同，或兩個目錄裡相對應的檔案。 cmp 顯示兩個檔案間不同地方的位置與行數。 cmp
+ 也可以一個對一個地顯示兩個檔案裡不同的字元。 diff3 顯示三個檔案間的不同。 sdiff 用互動的方式合併兩個檔案。
+ .
+ diff 產生的相異列表可用來將文字檔(例如程式碼)的更新發佈給其他人。 當相異列表比完整的檔案小時，這個方法特別有用。 patch
+ 這個程式可以利用 diff 的輸出內容，將檔案更新或修補。
+
+Package: dmraid
+Description-md5: 3e36d6b2b8560a6acc827d35c09fed48
+Description-zh_TW: 「裝置對映」軟體 RAID 支援工具
+ dmraid discovers, activates, deactivates and displays properties of
+ software RAID sets (eg, ATARAID) and contained DOS partitions.
+ .
+ dmraid uses the Linux device-mapper to create devices with respective
+ mappings for the ATARAID sets discovered.
+ .
+ The following formats are supported:
+  Highpoint HPT37X/HPT45X
+  Intel Software RAID
+  LSI Logic MegaRAID
+  NVidia NForce RAID (nvraid)
+  Promise FastTrack
+  Silicon Image(tm) Medley(tm)
+  VIA Software RAID
+ .
+ Please read the documentation in /usr/share/doc/dmraid BEFORE attempting
+ any use of this software. Improper use can cause data loss!
+
+Package: dmsetup
+Description-md5: 53b782cbc29445e9c389c933898e1153
+Description-zh_TW: Linux Kernel Device Mapper userspace library
+ The Linux Kernel Device Mapper is the LVM (Linux Logical Volume
+ Management) Team's implementation of a minimalistic kernel-space driver
+ that handles volume management, while keeping knowledge of the underlying
+ device layout in user-space.  This makes it useful for not only LVM, but
+ software raid, and other drivers that create "virtual" block devices.
+ .
+ 本套件包含修改裝置對映的工具。
+
+Package: dnstracer
+Description-md5: 3508085f63f3549f0524dbe74f98a0bd
+Description-zh_TW: 追蹤 DNS 查詢直至來源地
+ dnstracer determines where a given Domain Name Server (DNS) gets its
+ information from for a given hostname, and follows the chain of DNS
+ servers back to the authoritative answer.
+
+Package: doc-base
+Description-md5: 0c744430d509257c78d1c510663f42ac
+Description-zh_TW: 管理線上說明文件的工具
+ This package contains utilities to manage documentation installed on a
+ Debian system. It generates a database of document metadata, which other
+ packages such as dwww, dhelp, dochelp, and doc-central can use to provide
+ a catalog of available documentation.
+ .
+ 更多資訊見包含在此套件的 Debian doc-base 手冊。
+
+Package: docbook-xml
+Description-md5: 283ee39bcb227d4b875ce6f857e41f58
+Description-zh_TW: 軟體和系統的標準 XML 說明文件
+ DocBook is an XML document type definition (DTD).  That is, it contains
+ the "DocBook" document structure.  This is used by authors or editors
+ writing documents in the DocBook XML format.  DocBook was designed for
+ books, articles, or reference documentation about technical matters or
+ software.  It has emerged as an open, standard DTD in the software
+ industry, and is the documentation system of choice for many free software
+ projects.
+ .
+ This package contains the XML DTD for DocBook, which describes the formal
+ structure for documents following this format.  If you wish to author
+ DocBook documents using SGML rather than XML, use the 'docbook' package.
+ You will need other packages in order to edit (psgml), validate (opensp,
+ libxml2-utils) or format (docbook-xsl, docbook-dsssl) DocBook documents.
+ .
+ This package ships with the latest DocBook 4.5 XML DTD, as well as a
+ selected set of legacy DTDs for use with older documents, including 4.0,
+ 4.1.2, 4.2, 4.3 and 4.4.
+
+Package: dosfstools
+Description-md5: 6e6f1615505926a1cde788227bb8c0b5
+Description-zh_TW: 製作並檢查 MS-DOS FAT 檔案系統的工具
+ The dosfstools package includes the mkfs.fat and fsck.fat utilities, which
+ respectively make and check MS-DOS FAT filesystems.
+
+Package: dpkg
+Description-md5: 2f156c6a30cc39895ad3487111e8c190
+Description-zh_TW: Debian 套件管理系統
+ 此套件提供用於安裝與移除 Debian 軟體套件的低階基礎工具。
+ .
+ 如果你需要開發 Debian 套件用的工具，請安裝 dpkg-dev 這個套件。
+
+Package: dpkg-dev
+Description-md5: 2eaf4b4a1cef9584869950f3a52106fc
+Description-zh_TW: Debian 套件開發工具
+ This package provides the development tools (including dpkg-source)
+ required to unpack, build and upload Debian source packages.
+ .
+ Most Debian source packages will require additional tools to build; for
+ example, most packages need make and the C compiler gcc.
+
+Package: dput
+Description-md5: f0b4509e6ecacad8ad2e5bd0f3a231d0
+Description-zh_TW: Debian 套件上載工具
+ DPut is the Debian Package Upload Tool. The ‘dput’ command uploads one or
+ more packages to the Debian archive.
+ .
+ This package also includes the ‘dcut’ command, which can generate and / or
+ upload a commands file for the Debian FTP archive upload queue.
+ .
+ ‘dput’ runs some tests to verify that the package is compliant with Debian
+ Policy. It can also run Lintian on the package before upload, and/or run
+ ‘dinstall’ in dry-run-mode, when using an appropriate upload method.
+ .
+ DPut is intended mainly for Debian maintainers, although it can also be
+ useful for people maintaining local APT repositories.
+
+Package: dselect
+Description-md5: 269b383010cda7ddc3f6381398082aec
+Description-zh_TW: Debian 套件管理前端程式
+ dselect 是用來管理 Debian 軟體套件的安裝與移除的高端介面。
+ .
+ Many users find dselect intimidating and new users may prefer to use apt-
+ based user interfaces.
+
+Package: dupload
+Description-md5: d0f592a1f9f069d61a7cebd39c0b1792
+Description-zh_TW: Debian 套件上載工具
+ dupload will automagically upload Debian packages to a remote host with a
+ Debian upload queue. The default host is configurable, along with the
+ upload method and a lot of other things. All uploads are logged.
+ .
+ It is intended mainly for people maintaining Debian packages.
+
+Package: e2fsprogs
+Description-md5: 92d0fdf684262bbfa702eaea3f50b97e
+Description-zh_TW: ext2/ext3/ext4 檔案系統工具
+ The ext2, ext3 and ext4 file systems are successors of the original ext
+ ("extended") file system. They are the main file system types used for
+ hard disks on Debian and other Linux systems.
+ .
+ This package contains programs for creating, checking, and maintaining
+ ext2/3/4-based file systems.  It also includes the "badblocks" program,
+ which can be used to scan for bad blocks on a disk or other storage
+ device.
+
+Package: ed
+Description-md5: 10ab4f4d0d094d088419c432af89cf48
+Description-zh_TW: classic UNIX line editor
+ ed 是一個以單行為主的文字編輯器。它可以用來建立、顯示、修改、並 對文字檔做其它處理。
+ .
+ red 是一個被限制的 ed：它只能編輯當前目錄下的檔案，且無法執行 shell 指令。
+
+Package: eject
+Description-md5: 6a1f8e492b35e1b9dad2ebd6248c2167
+Description-zh_TW: 可為 Linux 退出 CD，並操作 CD-Changer
+ This program will eject CD-ROMs (assuming your drive supports the
+ CDROMEJECT ioctl). It also allows setting the autoeject feature.
+ .
+ On supported ATAPI/IDE multi-disc CD-ROM changers, it allows changing the
+ active disc.
+ .
+ You can also use eject to properly disconnect external mass-storage
+ devices like digital cameras or portable music players.
+
+Package: eog
+Description-md5: a17b1b698fda7b280b8e85d7b08c5d27
+Description-zh_TW: Eye of GNOME 圖片檢視程式
+ eog or the Eye of GNOME is a simple graphics viewer for the GNOME desktop
+ which uses the gdk-pixbuf library.  It can deal with large images, and
+ zoom and scroll with constant memory usage.  Its goals are simplicity and
+ standards compliance.
+
+Package: erlang-inets
+Description-md5: 8d70a0f49c4439fde59135fbc5bed418
+Description-zh_TW: Erlang/OTP 網際網路用戶端和伺服器
+ Inets is a container for Internet clients and servers. Currently a HTTP
+ client and server are provided in Inets.
+
+Package: erlang-snmp
+Description-md5: dfb924f9e0e51a8acfd28878335946b5
+Description-zh_TW: Erlang/OTP SNMP 應用程式
+ A multilingual Simple Network Management Protocol application features an
+ Extensible Agent, simple manager, a MIB compiler and facilities for
+ implementing SNMP MIBs etc.
+ .
+ The OTP_Mibs application provides an SNMP management information base for
+ Erlang nodes.
+
+Package: erlang-xmerl
+Description-md5: 222136c221feb614758c204affd11214
+Description-zh_TW: Erlang/OTP XML 工具
+ The xmerl application contains modules for processing XML.
+
+Package: ethtool
+Description-md5: 23bc6b45146ecc72a42d24b5993d6004
+Description-zh_TW: 顯示或變更乙太網裝置設定
+ ethtool can be used to query and change settings such as speed, auto-
+ negotiation and checksum offload on many network devices, especially
+ Ethernet devices.
+
+Package: evolution-data-server
+Description-md5: 00223d501d234f5cb46209c8c730f321
+Description-zh_TW: evolution 資料庫後端伺服器
+ The data server, called "Evolution Data Server" is responsible for
+ managing mail, calendar, addressbook, tasks and memo information.
+
+Package: exim4
+Description-md5: 458592f74d76e446735736c1d55ce615
+Description-zh_TW: 令 Exim MTA (v4) 更易安裝的元套件
+ Exim (v4) is a mail transport agent. exim4 is the metapackage depending on
+ the essential components for a basic exim4 installation.
+ .
+ The Debian exim4 packages have their own web page,
+ http://wiki.debian.org/PkgExim4. There is also a Debian-specific FAQ list.
+ Information about the way the Debian packages are configured can be found
+ in /usr/share/doc/exim4-base/README.Debian.gz, which additionally contains
+ information about the way the Debian binary packages are built. The very
+ extensive upstream documentation is shipped in
+ /usr/share/doc/exim4-base/spec.txt.gz. To repeat the debconf-driven
+ configuration process in a standard setup, invoke dpkg-reconfigure
+ exim4-config. There is a Debian-centered mailing list, pkg-
+ exim4-users@lists.alioth.debian.org. Please ask Debian-specific questions
+ there, and only write to the upstream exim-users mailing list if you are
+ sure that your question is not Debian-specific. You can find the
+ subscription web page on
+ http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+
+Package: exim4-base
+Description-md5: ab23a802a5e7dee33641329abf2b6565
+Description-zh_TW: 各個 Exim MTA (v4) 套件都需要的基本支援檔案
+ Exim (v4) 是郵件傳輸代理程式。exim4-base 提供所有 exim4 套件所需的支援檔案。你會需要額外含有執行程式的套件，這些套件為：
+ .
+  exim4-daemon-light
+  exim4-daemon-heavy
+ .
+ 如果你在本機上從原始碼套件編譯 exim4，你也可以透過組建 exim4-daemon-custom 量身訂做擁有自己特色的套件。
+ .
+ The Debian exim4 packages have their own web page,
+ http://wiki.debian.org/PkgExim4. There is also a Debian-specific FAQ list.
+ Information about the way the Debian packages are configured can be found
+ in /usr/share/doc/exim4-base/README.Debian.gz, which additionally contains
+ information about the way the Debian binary packages are built. The very
+ extensive upstream documentation is shipped in
+ /usr/share/doc/exim4-base/spec.txt.gz. To repeat the debconf-driven
+ configuration process in a standard setup, invoke dpkg-reconfigure
+ exim4-config. There is a Debian-centered mailing list, pkg-
+ exim4-users@lists.alioth.debian.org. Please ask Debian-specific questions
+ there, and only write to the upstream exim-users mailing list if you are
+ sure that your question is not Debian-specific. You can find the
+ subscription web page on
+ http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+
+Package: exim4-config
+Description-md5: 32395c972fcf7f5014c06bce8ee1c59a
+Description-zh_TW: Exim MTA (v4) 的設定
+ Exim (v4) is a mail transport agent. exim4-config provides the
+ configuration for the exim4 daemon packages. The configuration framework
+ has been split off the main package to allow sites to replace the
+ configuration scheme with their own without having to change the actual
+ exim4 packages.
+ .
+ Sites with special configuration needs (having a lot of identically
+ configured machines for example) can use this to distribute their own
+ custom configuration via the packaging system, using the magic available
+ with dpkg's conffile handling, without having to do local changes on all
+ of these machines.
+ .
+ The Debian exim4 packages have their own web page,
+ http://wiki.debian.org/PkgExim4. There is also a Debian-specific FAQ list.
+ Information about the way the Debian packages are configured can be found
+ in /usr/share/doc/exim4-base/README.Debian.gz, which additionally contains
+ information about the way the Debian binary packages are built. The very
+ extensive upstream documentation is shipped in
+ /usr/share/doc/exim4-base/spec.txt.gz. To repeat the debconf-driven
+ configuration process in a standard setup, invoke dpkg-reconfigure
+ exim4-config. There is a Debian-centered mailing list, pkg-
+ exim4-users@lists.alioth.debian.org. Please ask Debian-specific questions
+ there, and only write to the upstream exim-users mailing list if you are
+ sure that your question is not Debian-specific. You can find the
+ subscription web page on
+ http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+
+Package: exim4-daemon-light
+Description-md5: 3f5190a801cb3e11718c951f768c4d54
+Description-zh_TW: 輕巧版 Exim MTA (v4) 服務常式
+ Exim (v4) is a mail transport agent. This package contains the exim4
+ daemon with only basic features enabled. It works well with the standard
+ setups that are provided by Debian and includes support for TLS encryption
+ and the dlopen patch to allow dynamic loading of a local_scan function.
+ .
+ The Debian exim4 packages have their own web page,
+ http://wiki.debian.org/PkgExim4. There is also a Debian-specific FAQ list.
+ Information about the way the Debian packages are configured can be found
+ in /usr/share/doc/exim4-base/README.Debian.gz, which additionally contains
+ information about the way the Debian binary packages are built. The very
+ extensive upstream documentation is shipped in
+ /usr/share/doc/exim4-base/spec.txt.gz. To repeat the debconf-driven
+ configuration process in a standard setup, invoke dpkg-reconfigure
+ exim4-config. There is a Debian-centered mailing list, pkg-
+ exim4-users@lists.alioth.debian.org. Please ask Debian-specific questions
+ there, and only write to the upstream exim-users mailing list if you are
+ sure that your question is not Debian-specific. You can find the
+ subscription web page on
+ http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+
+Package: exim4-dev
+Description-md5: d5a123381ab67fa02f35533169e299d5
+Description-zh_TW: Exim MTA (v4) 套件的標頭檔
+ Exim (v4) is a mail transport agent. This package contains header files
+ that can be used to compile code that is then dynamically linked to exim's
+ local_scan interface.
+ .
+ The Debian exim4 packages have their own web page,
+ http://wiki.debian.org/PkgExim4. There is also a Debian-specific FAQ list.
+ Information about the way the Debian packages are configured can be found
+ in /usr/share/doc/exim4-base/README.Debian.gz, which additionally contains
+ information about the way the Debian binary packages are built. The very
+ extensive upstream documentation is shipped in
+ /usr/share/doc/exim4-base/spec.txt.gz. To repeat the debconf-driven
+ configuration process in a standard setup, invoke dpkg-reconfigure
+ exim4-config. There is a Debian-centered mailing list, pkg-
+ exim4-users@lists.alioth.debian.org. Please ask Debian-specific questions
+ there, and only write to the upstream exim-users mailing list if you are
+ sure that your question is not Debian-specific. You can find the
+ subscription web page on
+ http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+
+Package: exim4-doc-html
+Description-md5: 73ca59c47a017d63ed6c9d76704b5a85
+Description-zh_TW: Exim MTA (v4) 說明文件 (html 格式)
+ Contains specification and filtering documentation in HTML format.
+ .
+ The Debian exim4 packages have their own web page, http://pkg-
+ exim4.alioth.debian.org/. There is also a FAQ list. Local information
+ about the way the Debian packages can be configured is can be found in
+ /usr/share/doc/exim4-base/README.Debian.gz. This file has also information
+ about the way the Debian binary packages are built. There is a Debian-
+ centered mailing list, pkg-exim4-users@lists.alioth.debian.org. Please ask
+ Debian-specific questions there, and only write to the upstream exim-users
+ mailing list if you are sure that your question is not Debian-specific.
+ You can find the subscription web page on
+ http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+ .
+ exim is a drop-in replacement for sendmail/mailq/rsmtp.
+
+Package: fetchmail
+Description-md5: 05cb6c758ac9e6de53b36438f8f52a45
+Description-zh_TW: SSL enabled POP3, APOP, IMAP mail gatherer/forwarder
+ fetchmail is a free, full-featured, robust, and well-documented remote
+ mail retrieval and forwarding utility intended to be used over on-demand
+ TCP/IP links (such as SLIP or PPP connections).  It retrieves mail from
+ remote mail servers and forwards it to your local (client) machine's
+ delivery system, so it can then be read by normal mail user agents such as
+ mutt, elm, pine, (x)emacs/gnus, or mailx.  The fetchmailconf package
+ includes an interactive GUI configurator suitable for end-users.
+ .
+ 支援 Kerberos V 和 GSSAPI。
+ .
+ Kerberos IV,  RPA, OPIE and other support for some other features are
+ available if the package is recompiled.
+
+Package: findutils
+Description-md5: ad1a783819241ffdf3ff5f37a676af59
+Description-zh_TW: 尋找檔案的工具 -- find 和 xargs
+ GNU findutils provides utilities to find files meeting specified criteria
+ and perform various actions on the files which are found. This package
+ contains 'find' and 'xargs'; however, 'locate' has been split off into a
+ separate package.
+
+Package: fontconfig
+Description-md5: 4c47f79299a983151349c73c189cb29a
+Description-zh_TW: 通用字型設定函式庫 - 支援執行檔
+ Fontconfig is a font configuration and customization library, which does
+ not depend on the X Window System. It is designed to locate fonts within
+ the system and select them according to requirements specified by
+ applications.
+ .
+ Fontconfig is not a rasterization library, nor does it impose a particular
+ rasterization library on the application. The X-specific library 'Xft'
+ uses fontconfig along with freetype to specify and rasterize fonts.
+ .
+ This package contains a program to maintain the fontconfig cache (fc-
+ cache), a sample program to list installed fonts (fc-list), a program to
+ test the matching rules (fc-match) and a program to dump the binary cache
+ files in string form (fc-cat). It no longer makes fonts managed by defoma
+ available to fontconfig applications.
+
+Package: fontconfig-config
+Description-md5: 2e2f2fdd3e4ff822be010c67693043db
+Description-zh_TW: 通用字型設定函式庫 - 設定
+ Fontconfig is a font configuration and customization library, which does
+ not depend on the X Window System. It is designed to locate fonts within
+ the system and select them according to requirements specified by
+ applications.
+ .
+ This package contains the configuration files and scripts for fontconfig.
+
+Package: fonts-arphic-ukai
+Description-md5: 9ee77285c529022b183ae872b6c54f2f
+Description-zh_TW: 「文鼎 PL UKai」 (AR PL UKai) 中文萬國碼 TrueType 楷體字型
+ 「文鼎 PL UKai」 (AR PL UKai) 是高品質中文萬國碼 TrueType 字型 (ukai.ttf)，是由文鼎
+ 科技慷慨提供給自由軟體社群的「文鼎PL中楷」 (Big5 碼) 以及「文鼎PL簡中楷」 (GB 碼) 的衍生版
+ 本，惟使用者利用時必須遵守「文鼎公眾授權書」 (Arphic Public License) 的規定。
+ .
+ It has been extended from the original "AR PL KaitiM Big5" and "AR PL
+ KaitiM GB" fonts with additional glyphs now covering
+ ISO8859-1,2,3,4,9,10,13,14,15, BIG5, GB2312-80 and HKSCS-2004. It also
+ includes Bopomofo Extensions for Hakka and Minnan according to the Unicode
+ 5.0 standard and MBE variants of those glyphs.
+ .
+ Support for CNS 11643, GBK, GB 18030, Japanese and Korean is under heavy
+ development. Users who need more Han glyphs than provided by GB2312 and
+ Big5 or who need support for Chinese minority languages may want to
+ install this font package.
+ .
+ This font is an alternative to the fonts-arphic-bkai00mp and fonts-arphic-
+ gkai00mp font packages.
+ .
+ Original author: Arphic Technology Co., Ltd.
+     URL: http://www.arphic.com.tw/
+  Modified by Arne Goetje <arne@linux.org.tw>
+     URL: http://www.freedesktop.org/wiki/Software/CJKUnifonts
+
+
+Package: fonts-arphic-uming
+Description-md5: 89ebf2540943e6e6d5fb35dfcf8b85b7
+Description-zh_TW: 「文鼎 PL UMing」 (AR PL UMing) 中文萬國碼 TrueType 明體字型
+ 「文鼎 PL UMing」 (AR PL UMing) 是高品質中文萬國碼 TrueType 字型 (uming.ttc)，是由文
+ 鼎科技慷慨提供給自由軟體社群的「文鼎PL上海宋」 (Big5 碼) 以及「文鼎PL簡報宋」 (GB 碼) 的衍生
+ 版本，惟使用者利用時必須遵守「文鼎公眾授權書」 (Arphic Public License) 的規定。
+ .
+ It has been extended from the original "AR PL Mingti2L Big5" and "AR PL
+ SungtiL GB" fonts with additional glyphs now covering
+ ISO8859-1,2,3,4,9,10,13,14,15, BIG5, GB2312-80 and HKSCS-2004. It also
+ includes Bopomofo Extensions for Hakka and Minnan according to the Unicode
+ 5.0 standard and their MBE variants.
+ .
+ Support for CNS 11643, GBK, GB 18030, Japanese and Korean is under heavy
+ development. Users who need more Han glyphs than provided by GB2312 and
+ Big5 or who need support for Chinese minority languages may want to
+ install this font package.
+ .
+ This font also includes Firefly's bitmap characters for better rendering
+ in small fontsizes (Big5 and GB2312 only).
+ .
+ This font is an alternative to the fonts-arphic-bsmi00lp and fonts-arphic-
+ gbsn00lp font packages.
+ .
+ Original author: Arphic Technology Co., Ltd.
+     URL: http://www.arphic.com.tw/
+  Modified by Arne Goetje (arne@ubuntu.com)
+     URL: http://www.freedesktop.org/wiki/Software/CJKUnifonts
+
+
+Package: foomatic-db-compressed-ppds
+Description-md5: fb3b03f43036d62b4dc6ed630144d256
+Description-zh_TW: OpenPrinting printer support - Compressed PPDs derived from the database
+ Foomatic 是印表系統，設計原則是在 Debian 與其他作業系統中能簡單地設定一般印表機。它提供印表貯列 (比如 CUPS 或 lpr)
+ 與你的實際印表機之間的介面，告訴你的電腦該如何處理檔案、傳送給印表機。
+ .
+ This package contains all PPD files which can be generated from the
+ Foomatic database as one small compressed archive. This reduces the disk
+ space consumption compared to the Foomatic XML database vastly and in
+ addition makes listing of all available PPDs and extracting the needed PPD
+ much faster than using the Foomatic XML database.
+
+Package: freeradius-common
+Description-md5: 1c7945f97894906b5aaee9b087c2f56c
+Description-zh_TW: FreeRADIUS 共用檔案
+ This package contains common files used by several of the other packages
+ from the FreeRADIUS project.
+
+Package: freeradius-utils
+Description-md5: 24b3cb63eaad19ed5b58df947d58078e
+Description-zh_TW: FreeRADIUS 用戶端工具
+ This package contains various client programs and utilities from the FreeRADIUS Server project, including:
+  - radclient
+  - radeapclient
+  - radlast
+  - radsniff
+  - radsqlrelay
+  - radtest
+  - radwho
+  - radzap
+  - rlm_ippool_tool
+  - smbencrypt
+
+
+Package: freetds-dev
+Description-md5: 66f74ed837454f3b258fb8264488f827
+Description-zh_TW: MS SQL 和 Sybase 用戶端函式庫 (靜態函式庫及標頭)
+ FreeTDS is an implementation of the Tabular DataStream protocol, used for
+ connecting to MS SQL and Sybase servers over TCP/IP.
+ .
+ This package includes the static libraries and header files for TDS, which
+ you will need to develop applications that connect to MS SQL servers.  You
+ will also need this package if you are installing the Perl DBD::Sybase
+ module on your system using CPAN.
+
+Package: g++
+Description-md5: 4d44b18774ae5123b7c3f70d940cf655
+Description-zh_TW: GNU C++ compiler
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ 這是提供預設的 GNU C++ 編譯器的相依套件。
+
+Package: g++-13
+Description-md5: 0a3fad3367cb994bd16c61b0e16a8b9c
+Description-zh_TW: GNU C++ compiler
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+
+Package: g++-13-aarch64-linux-gnu
+Description-md5: b996f012975000f1ea76fd985d3446d1
+Description-zh_TW: GNU C++ compiler for aarch64-linux-gnu architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This package contains C++ cross-compiler for aarch64-linux-gnu
+ architecture.
+
+Package: g++-13-arm-linux-gnueabihf
+Description-md5: 8217684381d0545df03fa8d52efefabb
+Description-zh_TW: GNU C++ compiler for arm-linux-gnueabihf architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This package contains C++ cross-compiler for arm-linux-gnueabihf
+ architecture.
+
+Package: g++-13-for-build
+Description-md5: 6b662a2a3907f28ed9a0e2ac6a55d3ea
+Description-zh_TW: GNU C++ compiler for the build architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This package contains C++ cross-compiler for arch_gnu architecture.
+ .
+ This is a dependency package.
+
+Package: g++-13-for-host
+Description-md5: 9390f1b2980c545f669a0b8b8d5b11e0
+Description-zh_TW: GNU C++ compiler for the host architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This package contains C++ cross-compiler for the host architecture.
+ .
+ When using this package, tools must be invoked with an architecture
+ prefix.
+ .
+ This is a dependency package.
+
+Package: g++-13-i686-linux-gnu
+Description-md5: 88bdc3f5d96144f5748dae6f61c62299
+Description-zh_TW: GNU C++ compiler for i686-linux-gnu architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This package contains C++ cross-compiler for i686-linux-gnu architecture.
+
+Package: g++-13-multilib
+Description-md5: 291f2f15035d2eb62358c5157bbae10c
+Description-zh_TW: GNU C++ compiler (multilib support)
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-13-powerpc64le-linux-gnu
+Description-md5: 0be28451d4d61c7a7c7261ee29e52e35
+Description-zh_TW: GNU C++ compiler for powerpc64le-linux-gnu architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This package contains C++ cross-compiler for powerpc64le-linux-gnu
+ architecture.
+
+Package: g++-13-riscv64-linux-gnu
+Description-md5: c05debccc4cda53b165f1d0fab684249
+Description-zh_TW: GNU C++ compiler for riscv64-linux-gnu architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This package contains C++ cross-compiler for riscv64-linux-gnu
+ architecture.
+
+Package: g++-13-s390x-linux-gnu
+Description-md5: fafd9d967c83a64a002649a8dd459c79
+Description-zh_TW: GNU C++ compiler for s390x-linux-gnu architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This package contains C++ cross-compiler for s390x-linux-gnu architecture.
+
+Package: g++-13-x86-64-linux-gnu
+Description-md5: f28641d421c551d47a5e989009efe119
+Description-zh_TW: GNU C++ compiler for x86_64-linux-gnu architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This package contains C++ cross-compiler for x86_64-linux-gnu
+ architecture.
+
+Package: g++-aarch64-linux-gnu
+Description-md5: 841ad5010180ab9999db8cd40c9e8de4
+Description-zh_TW: GNU C++ compiler for the arm64 architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the arm64 architecture.
+
+Package: g++-arm-linux-gnueabihf
+Description-md5: cc94df779520efff25831739f24599b6
+Description-zh_TW: GNU C++ compiler for the armhf architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the armhf architecture.
+
+Package: g++-for-build
+Description-md5: 91c926e5d0ab4745c921ae1817645589
+Description-zh_TW: GNU C++ compiler for the build architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ 這是提供預設的 GNU C++ 編譯器的相依套件。
+ .
+ When using g++ via this metapackage, all tools must be used without an
+ architecture prefix.
+
+Package: g++-for-host
+Description-md5: f4c7213fce958bcc161b257dc91e7587
+Description-zh_TW: GNU C++ compiler for the host architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ 這是提供預設的 GNU C++ 編譯器的相依套件。
+ .
+ When using g++ via this metapackage, all tools must be used with an
+ architecture prefix.
+
+Package: g++-i686-linux-gnu
+Description-md5: 026c455987cbc4640005a144b55494cf
+Description-zh_TW: GNU C++ compiler for the i386 architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the i386 architecture.
+
+Package: g++-multilib
+Description-md5: 13fdd3cac1ee1ffe86b871f781067316
+Description-zh_TW: GNU C++ compiler (multilib files)
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ A dependency package on architectures with multilib support; the package
+ contains dependencies for the non-default multilib architecture(s).
+
+Package: g++-powerpc64le-linux-gnu
+Description-md5: 9edb59095912e6cf500ea0092f60122a
+Description-zh_TW: GNU C++ compiler for the ppc64el architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the ppc64el architecture.
+
+Package: g++-riscv64-linux-gnu
+Description-md5: ebbf506aca8c79a0d53f2d5b1879a38c
+Description-zh_TW: GNU C++ compiler for the riscv64 architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the riscv64 architecture.
+
+Package: g++-s390x-linux-gnu
+Description-md5: 611e82003e6b39e22236bec4046da2b9
+Description-zh_TW: GNU C++ compiler for the s390x architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the s390x architecture.
+
+Package: g++-x86-64-linux-gnu
+Description-md5: 07c4d20f560a847a660e3374549f85e8
+Description-zh_TW: GNU C++ compiler for the amd64 architecture
+ 這是 GNU 的 C++ 編譯器，一個針對可移植性作了相當程度最佳化的 C++ 編譯器。
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the amd64 architecture.
+
+Package: gcc
+Description-md5: c7efd71c7c651a9ac8b2adf36b137790
+Description-zh_TW: GNU C compiler
+ 這是 GNU C 語言編譯器，一個輕量化的 C 語言最佳化編譯器。
+ .
+ 這是個相依性套件，用以提供預設的 GNU C 語言編譯器。
+
+Package: gcc-13
+Description-md5: 394374e688b1afb3af5f419895d29698
+Description-zh_TW: GNU C compiler
+ 這是 GNU C 語言編譯器，一個輕量化的 C 語言最佳化編譯器。
+
+Package: gcc-13-aarch64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-zh_TW: GCC, the GNU Compiler Collection (base package)
+ 這個套件包含了 GNU 編譯器組合(GCC)裡所有語言與函式庫的通用檔案。
+
+Package: gcc-13-arm-linux-gnueabihf-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-zh_TW: GCC, the GNU Compiler Collection (base package)
+ 這個套件包含了 GNU 編譯器組合(GCC)裡所有語言與函式庫的通用檔案。
+
+Package: gcc-13-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-zh_TW: GCC, the GNU Compiler Collection (base package)
+ 這個套件包含了 GNU 編譯器組合(GCC)裡所有語言與函式庫的通用檔案。
+
+Package: gcc-13-doc
+Description-md5: bf320d6d806b62ff03b567626d36b1fb
+Description-zh_TW: GNU 編譯器 (gcc, gobjc, g++) 的說明文件
+ Documentation for the GNU compilers in info format.
+
+Package: gcc-13-for-build
+Description-md5: 1231e8563c440c0230388f9db0660a3c
+Description-zh_TW: GNU C compiler for the build architecture
+ 這是 GNU C 語言編譯器，一個輕量化的 C 語言最佳化編譯器。
+ .
+ This is a dependency package.
+
+Package: gcc-13-for-host
+Description-md5: 2f6f77eeb03535ba77299cfe1a0ef756
+Description-zh_TW: GNU C compiler for the host architecture
+ 這是 GNU C 語言編譯器，一個輕量化的 C 語言最佳化編譯器。
+ .
+ When using this package, tools must be invoked with an architecture
+ prefix.
+ .
+ This is a dependency package.
+
+Package: gcc-13-multilib
+Description-md5: d1bddfa375b62324197c575c04fb2e4e
+Description-zh_TW: GNU C compiler (multilib support)
+ 這是 GNU C 語言編譯器，一個輕量化的 C 語言最佳化編譯器。
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-13-powerpc64le-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-zh_TW: GCC, the GNU Compiler Collection (base package)
+ 這個套件包含了 GNU 編譯器組合(GCC)裡所有語言與函式庫的通用檔案。
+
+Package: gcc-13-riscv64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-zh_TW: GCC, the GNU Compiler Collection (base package)
+ 這個套件包含了 GNU 編譯器組合(GCC)裡所有語言與函式庫的通用檔案。
+
+Package: gcc-13-s390x-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-zh_TW: GCC, the GNU Compiler Collection (base package)
+ 這個套件包含了 GNU 編譯器組合(GCC)裡所有語言與函式庫的通用檔案。
+
+Package: gcc-14-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-zh_TW: GCC, the GNU Compiler Collection (base package)
+ 這個套件包含了 GNU 編譯器組合(GCC)裡所有語言與函式庫的通用檔案。
+
+Package: gcc-aarch64-linux-gnu
+Description-md5: 69df476a1d2ab9184e2d806ac537e77d
+Description-zh_TW: GNU C compiler for the arm64 architecture
+ 這是 GNU C 語言編譯器，一個輕量化的 C 語言最佳化編譯器。
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the arm64 architecture.
+
+Package: gcc-arm-linux-gnueabihf
+Description-md5: 341bee5927aa97cd38931c348b808c55
+Description-zh_TW: GNU C compiler for the armhf architecture
+ 這是 GNU C 語言編譯器，一個輕量化的 C 語言最佳化編譯器。
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the armhf architecture.
+
+Package: gcc-doc
+Description-md5: af77f0c56a32a74fc629f4cd7c91d2da
+Description-zh_TW: GNU C 編譯器 (gcc, gobjc, g++) 的說明文件
+ Documentation for the GNU compilers in info format (dependency package).
+
+Package: gcc-for-build
+Description-md5: 9e985ea4aad7ea6fdc71fd640661b733
+Description-zh_TW: GNU C compiler for the build architecture
+ 這是 GNU C 語言編譯器，一個輕量化的 C 語言最佳化編譯器。
+ .
+ 這是個相依性套件，用以提供預設的 GNU C 語言編譯器。
+ .
+ When using gcc via this metapackage, all tools must be used without an
+ architecture prefix.
+
+Package: gcc-for-host
+Description-md5: 59ed9d0113679db44713e9ea25c71999
+Description-zh_TW: GNU C compiler for the host architecture
+ 這是 GNU C 語言編譯器，一個輕量化的 C 語言最佳化編譯器。
+ .
+ 這是個相依性套件，用以提供預設的 GNU C 語言編譯器。
+ .
+ When using gcc via this metapackage, all tools must be used with an
+ architecture prefix.
+
+Package: gcc-i686-linux-gnu
+Description-md5: 87162302fcdfe23fcf402bcdae36f6e9
+Description-zh_TW: GNU C compiler for the i386 architecture
+ 這是 GNU C 語言編譯器，一個輕量化的 C 語言最佳化編譯器。
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the i386 architecture.
+
+Package: gcc-multilib
+Description-md5: 2d7198d97e45eb764af5065748ccb88f
+Description-zh_TW: GNU C compiler (multilib files)
+ 這是 GNU C 語言編譯器，一個輕量化的 C 語言最佳化編譯器。
+ .
+ A dependency package on architectures with multilib support; the package
+ contains dependencies for the non-default multilib architecture(s).
+
+Package: gcc-powerpc64le-linux-gnu
+Description-md5: 1df9b59dd3526c77f2a01a78470f8faa
+Description-zh_TW: GNU C compiler for the ppc64el architecture
+ 這是 GNU C 語言編譯器，一個輕量化的 C 語言最佳化編譯器。
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the ppc64el architecture.
+
+Package: gcc-riscv64-linux-gnu
+Description-md5: 076e3ddf958518fce5f91a3ca856f2b9
+Description-zh_TW: GNU C compiler for the riscv64 architecture
+ 這是 GNU C 語言編譯器，一個輕量化的 C 語言最佳化編譯器。
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the riscv64 architecture.
+
+Package: gcc-s390x-linux-gnu
+Description-md5: 0e9bad3b62304d1f54438e18e774f9bd
+Description-zh_TW: GNU C compiler for the s390x architecture
+ 這是 GNU C 語言編譯器，一個輕量化的 C 語言最佳化編譯器。
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the s390x architecture.
+
+Package: gcc-x86-64-linux-gnu
+Description-md5: 74fd7698add747ec9f3ca61030b62c40
+Description-zh_TW: GNU C compiler for the amd64 architecture
+ 這是 GNU C 語言編譯器，一個輕量化的 C 語言最佳化編譯器。
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the amd64 architecture.
+
+Package: gdb-doc
+Description-md5: 0b65afd451aa44bbf02455b1cdae06a9
+Description-zh_TW: GNU 除錯器說明文件
+ GDB is a source-level debugger, capable of breaking programs at any
+ specific line, displaying variable values, and determining where errors
+ occurred. Currently, it works for C, C++, Fortran, Modula 2 and Java
+ programs. A must-have for any serious programmer.
+ .
+ This package contains the GDB manual.
+
+Package: gdm3
+Description-md5: 9be0fb38ba2581f623b79242c9c7918d
+Description-zh_TW: GNOME 登入管理員
+ GDM provides the equivalent of a "login:" prompt for X displays: it asks
+ for a login and starts graphical sessions.
+ .
+ It supports multiple seats and switching between multiple users.
+ .
+ The greeter is based on the GNOME libraries and applications, and its look
+ and design are the same as those of a GNOME session.
+
+Package: genisoimage
+Description-md5: f771a046498c00cf831887fc4da45a69
+Description-zh_TW: 製作 ISO-9660 CD-ROM 檔案系統映像檔
+ genisoimage is a pre-mastering program for creating ISO-9660 CD-ROM
+ filesystem images, which can then be written to CD or DVD media using the
+ wodim program. genisoimage includes support for making bootable "El
+ Torito" CDs, as well as CDs with support for the Macintosh HFS filesystem.
+ .
+ The package also includes extra tools useful for working with ISO images:
+  * mkzftree - create ISO-9660 image with compressed contents
+  * dirsplit - easily separate large directory contents into disks of
+    predefined size
+  * geteltorito - extract an El Torito boot image from a CD image
+ .
+ Please install cdrkit-doc if you want most of the documentation and README
+ files.
+
+Package: gettext
+Description-md5: 0db85b3962766eeef57d5324263a308e
+Description-zh_TW: GNU 國際化工具
+ Interesting for authors or maintainers of other packages or programs which
+ they want to see internationalized.
+
+Package: gettext-base
+Description-md5: 6c8ed1da584066e0871910b60d931f43
+Description-zh_TW: 基本系統的 GNU 國際化工具
+ 這個套件包含了 gettext 與 ngettext 程式，允許其它套件使用 shell 指令稿提供的國際化訊息。
+
+Package: gettext-doc
+Description-md5: 966c7204112700e6dcb867375471b50b
+Description-zh_TW: GNU gettext 說明文件
+ This package contains the HTML documentation for GNU gettext, as well as
+ simple "hello world" examples in several programming languages.
+
+Package: gfortran-13-doc
+Description-md5: 17a01a9ada93e104865a01e6615e2401
+Description-zh_TW: GNU Fortran 編譯器 (gfortran) 說明文件
+ Documentation for the GNU Fortran compiler in info format.
+
+Package: gfortran-doc
+Description-md5: 6855bbffb1ede02166da131963e7fd83
+Description-zh_TW: GNU Fortran 編譯器 (gfortran) 說明文件
+ Documentation for the GNU Fortran compiler in info format (dependency
+ package).
+
+Package: gir1.2-totem-1.0
+Description-md5: f8fb0d202ba3f9170c84de5e0c27a305
+Description-zh_TW: GObject introspection data for Totem media player
+ Totem 是 GNOME 選用的媒體播放程式，簡潔但功能強大，能播放各式各樣的檔案格式。
+ .
+ This package contains introspection data for the Totem media player.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
+Package: gnome-calculator
+Description-md5: edf337f4e3963467c2997a13fc81ad2a
+Description-zh_TW: GNOME 桌面計算機
+ The GNOME calculator is a powerful graphical calculator with financial,
+ logical and scientific modes. It uses a multiple precision package to do
+ its arithmetic to give a high degree of accuracy.
+
+Package: gnome-control-center
+Description-md5: 841ec7130e7cda8d105ccf44ab60b8fa
+Description-zh_TW: 設定 GNOME 桌面的工具
+ This package contains configuration applets for the GNOME desktop,
+ allowing to set accessibility configuration, desktop fonts, keyboard and
+ mouse properties, sound setup, desktop theme and background, user
+ interface properties, screen resolution, and other GNOME parameters.
+ .
+ It also contains a front end to these applets, which can also be accessed
+ with the GNOME panel or the Nautilus file manager.
+
+Package: gnome-control-center-data
+Description-md5: 8bfe062731867305191b949e29fc5afa
+Description-zh_TW: GNOME 的設定小程式 - 資料檔案
+ This package contains data files (icons, pixmaps, locales files) needed by
+ the configuration applets in the gnome-control-center package.
+
+Package: gnome-control-center-dev
+Description-md5: ea55aa04a24ea847c61e4865c135347b
+Description-zh_TW: 設定 GNOME 桌面的工具
+ This package contains the file required to get the keydirs location
+
+Package: gnome-desktop3-data
+Description-md5: 5ce5840cc354bd74e7e4932be3851519
+Description-zh_TW: GNOME 桌面應用程式的共用檔案
+ This package includes some files that are shared between several GNOME
+ apps (internationalization files).
+
+Package: gnome-disk-utility
+Description-md5: 8bbfe121f73fcddf9e0a9c15f0e8afd8
+Description-zh_TW: 管理、設定磁碟機和媒體
+ GNOME Disks is a tool to manage disk drives and media:
+ .
+  * Format and partition drives.
+  * Mount and unmount partitions.
+  * Query S.M.A.R.T. attributes.
+ .
+ It utilizes udisks.
+
+Package: gnome-power-manager
+Description-md5: 1ece6a08127f01c856017ac9675775b5
+Description-zh_TW: GNOME 桌面的電力管理工具
+ GNOME Power Manager is a session daemon for the GNOME desktop that takes
+ care of system or desktop events related to power, and triggers actions
+ accordingly. Its philosophy is to completely hide these complex tasks and
+ only show some settings important to the user.
+ .
+ GNOME power manager displays and manages battery status, power plug
+ events, display brightness, CPU, graphics card and hard disk drive power
+ saving, and can trigger suspend-to-RAM, hibernate or shutdown events, all
+ integrated to other components of the GNOME desktop.
+
+Package: gnu-efi
+Description-md5: 426d4a05670bc3d994639e6e49d7b5b0
+Description-zh_TW: 開發 EFI 應用程式的函式庫
+ GNU toolchain for building applications that can run in the environment
+ presented by Intel's EFI (Extensible Firmware Interface). EFI is a
+ firmware specification for the "BIOS" on ia64(IPF), IA-32(x86) and x86_64
+ systems.
+
+Package: gnupg
+Description-md5: 2421c574774486effdededa540cfb1c7
+Description-zh_TW: GNU 隱私守衛 - PGP 的免費替代品
+ GnuPG is GNU's tool for secure communication and data storage. It can be
+ used to encrypt data and to create digital signatures. It includes an
+ advanced key management facility and is compliant with the proposed
+ OpenPGP Internet standard as described in RFC4880.
+ .
+ This package contains the full suite of GnuPG tools for cryptographic
+ communications and data storage.
+
+Package: gnupg-utils
+Description-md5: e668452bd037f231e404937c9a963ac3
+Description-zh_TW: GNU privacy guard - utility programs
+ GnuPG 是用來做安全通信與安全資料儲存用的 GNU 工具。
+ .
+ This package contains several useful utilities for manipulating OpenPGP
+ data and other related cryptographic elements.  It includes:
+ .
+  * addgnupghome -- create .gnupg home directories
+  * applygnupgdefaults -- run gpgconf --apply-defaults for all users
+  * gpgcompose -- an experimental tool for constructing arbitrary
+                  sequences of OpenPGP packets (e.g. for testing)
+  * gpgparsemail -- parse an e-mail message into annotated format
+  * gpgsplit -- split a sequence of OpenPGP packets into files
+  * gpgtar -- encrypt or sign files in an archive
+  * kbxutil -- list, export, import Keybox data
+  * lspgpot -- convert PGP ownertrust values to GnuPG
+  * migrate-pubring-from-classic-gpg -- use only "modern" formats
+  * symcryptrun -- use simple symmetric encryption tool in GnuPG framework
+  * watchgnupg -- watch socket-based logs
+
+
+Package: gparted
+Description-md5: 1caa85feb72cd19af74db3487848870c
+Description-zh_TW: GNOME 桌面環境的磁碟分割管理程式
+ Gparted 會使用 libparted 函式庫來偵測、管理你的儲存設備及其分割表，同時他 也提供了一些有關檔案系統的好用工具 (這是
+ libparted 所沒有提供的)
+
+Package: gparted-common
+Description-md5: 8897121522406d93fc1db73f22b92ca4
+Description-zh_TW: GNOME partition editor -- common data
+ Gparted 會使用 libparted 函式庫來偵測、管理你的儲存設備及其分割表，同時他 也提供了一些有關檔案系統的好用工具 (這是
+ libparted 所沒有提供的)
+ .
+ This package contains architecture-independent data, such as documentation
+ and help, icons, and application metadata.
+
+Package: gpgconf
+Description-md5: a54470fd043c15b13d18d29306678637
+Description-zh_TW: GNU privacy guard - core configuration utilities
+ GnuPG 是用來做安全通信與安全資料儲存用的 GNU 工具。
+ .
+ This package contains core utilities used by different tools in the suite
+ offered by GnuPG.  It can be used to programmatically edit config files
+ for tools in the GnuPG suite, to launch or terminate per-user daemons (if
+ installed), etc.
+
+Package: gpgv
+Description-md5: 4ea8f4f4d6a0a387a4a3aeba3e6cc888
+Description-zh_TW: GNU 隱私守衛 - 數位簽章驗證工具
+ GnuPG 是用來做安全通信與安全資料儲存用的 GNU 工具。
+ .
+ gpgv is actually a stripped-down version of gpg which is only able to
+ check signatures. It is somewhat smaller than the fully-blown gpg and uses
+ a different (and simpler) way to check that the public keys used to make
+ the signature are valid. There are no configuration files and only a few
+ options are implemented.
+
+Package: grep
+Description-md5: f9188c5583d41955f3b3fe60b9d445f1
+Description-zh_TW: GNU grep、egrep，及 fgrep
+ 'grep' 是在檔案裡搜尋文字的工具，它可以用在命令行或指令稿裡。 即使你不想使用，你系統裡的其它套件還是可能會用到。
+ .
+ GNU 家族的 grep 工具可能是"grep 最快速的西部神槍手"了。 GNU grep 建構於快速的 lazy-state
+ 匹配決定(速度大約是普通 Unix egrep 的 兩倍)，並混合了 Boyer-Moore-Gosper 演算法。使用常規表示式搜尋固定字串時，
+ 可以排除不可能的文字，不需要檢查每個字元， 結果通常比 Unix grep 或 egrep 快很多倍。(不過如果常規表示式有包含
+ backreferencing，就會比較慢)
+
+Package: groff-base
+Description-md5: 106eb90e9251712205de3a823876b349
+Description-zh_TW: GNU troff 文字格式化系統 (基礎系統元件)
+ 本套件包含 troff, nroff, tbl, eqn, 與 pic 等傳統 UN*X 文字格式化工具。 這些對 man-db
+ 套件來說，是顯示線上手冊不可或缺的工具。
+ .
+ groff-base 是一個經過拆卸的套件，包含以 ASCII、Latin-1、與 UTF-8 等編碼、 加上 PostScript 裝置
+ (groff 預設) 閱讀手冊的必要元件。使用者如希望完整安裝 groff，包括一套標準的裝置、字型、巨集、與文件，應該要安裝 groff 套件。
+
+Package: grub-pc
+Description-md5: 55663e0e8d42f469d665f9cc0013b733
+Description-zh_TW: GRUB「大一統」開機載入程式 (第2版) (PC/BIOS 版本)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on
+ a cleaner design than its predecessors, and provides the following new
+ features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+  - VESA-based graphical mode with background image support and complete 24-bit
+    color set.
+  - Support for extended charsets.  Users can write UTF-8 text to their menu
+    entries.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use with the traditional PC/BIOS architecture.  Installing this package
+ indicates that this version of GRUB should be the active boot loader.
+
+Package: gstreamer1.0-alsa
+Description-md5: 339f038172c486f3cef220df0c0e5ac4
+Description-zh_TW: ALSA 的 GStreamer 外掛程式
+ GStreamer is a streaming media framework, based on graphs of filters which
+ operate on media data.  Applications using this library can do anything
+ from real-time sound processing to playing videos, and just about anything
+ else media-related.  Its plugin-based architecture means that new data
+ types or processing capabilities can be added simply by installing new
+ plug-ins.
+ .
+ This package contains the GStreamer plugin for the ALSA library.  ALSA is
+ the Advanced Linux Sound Architecture.
+
+Package: gstreamer1.0-tools
+Description-md5: 909df9df4ba32a53040e4e54751c1cfa
+Description-zh_TW: 用於 GStreamer 的工具
+ GStreamer is a streaming media framework, based on graphs of filters which
+ operate on media data.  Applications using this library can do anything
+ from real-time sound processing to playing videos, and just about anything
+ else media-related.  Its plugin-based architecture means that new data
+ types or processing capabilities can be added simply by installing new
+ plug-ins.
+ .
+ This package contains versioned command-line tools for GStreamer.
+
+Package: gstreamer1.0-x
+Description-md5: f30e1dbce14d6ece228c6b4e6dfdfdbd
+Description-zh_TW: 用於 X11 和 Pango 的 GStreamer 外掛程式
+ GStreamer is a streaming media framework, based on graphs of filters which
+ operate on media data.  Applications using this library can do anything
+ from real-time sound processing to playing videos, and just about anything
+ else media-related.  Its plugin-based architecture means that new data
+ types or processing capabilities can be added simply by installing new
+ plug-ins.
+ .
+ This package contains the GStreamer plugins for X11 video output, both for
+ standard Xlib support and for the Xv extension, as well as the plugin for
+ Pango-based text rendering and overlay.
+
+Package: gzip
+Description-md5: 100720c9e2c6508f1a1f3731537b38e5
+Description-zh_TW: GNU 壓縮工具
+ This package provides the standard GNU file compression utilities, which
+ are also the default compression tools for Debian.  They typically operate
+ on files with names ending in '.gz', but can also decompress files ending
+ in '.Z' created with 'compress'.
+
+Package: hfsplus
+Description-md5: 7e515c0e4f0451b5ec9743b7fc5e7b9a
+Description-zh_TW: 存取 HFS+ 格式卷冊的工具
+ HFS+ is a modernized version of Apple Computers HFS Filesystem. Nowadays,
+ it is widely used with more recent versions of MacOS. hfsplus consists of
+ a library and a set of tools that allow access to HFS+ volumes.
+ .
+ This package contains the tools themselves.
+
+Package: hfsutils
+Description-md5: bc1cfdae0eb986fc7820c770cf54995a
+Description-zh_TW: 讀寫 Macintosh 卷冊的工具
+ HFS 是 Macintosh 的原生檔案格式
+ .
+ This package contains several command-line utilities for reading and
+ writing Macintosh HFS-formatted media such as floppy disks, CD-ROMs, and
+ hard disks.
+
+Package: hostname
+Description-md5: a5a22acc3c69a7f40f07f1a8dfc93af1
+Description-zh_TW: 設定/陳列出主機名稱或網域名稱的工具
+ This package provides commands which can be used to display the system's
+ DNS name, and to display or set its hostname or NIS domain name.
+
+Package: hplip-data
+Description-md5: 3b25de2ec5e828f0e61d78047df8b6e7
+Description-zh_TW: HP Linux Printing and Imaging - 資料檔案
+ The HP Linux Printing and Imaging System provides full support for
+ printing on most HP SFP (single function peripheral) inkjets and many
+ LaserJets, and for scanning, sending faxes and for photo-card access on
+ most HP MFP (multi-function peripheral) printers.
+ .
+ This package contains data files for the HP Linux Printing and Imaging
+ System.
+
+Package: hplip-doc
+Description-md5: 7a9d622f180b9cbe47e31edb62d9f944
+Description-zh_TW: HP Linux Printing and Imaging - 說明文件
+ The HP Linux Printing and Imaging System provides full support for
+ printing on most HP SFP (single function peripheral) inkjets and many
+ LaserJets, and for scanning, sending faxes and for photo-card access on
+ most HP MFP (multi-function peripheral) printers.
+ .
+ This package contains the full documentation for the HP Linux Printing and
+ Imaging System for off-line reading.  It includes the documentation for
+ the HPIJS IJS driver as well.
+
+Package: hunspell-ar
+Description-md5: 93f6185c2690f32654b636259724d0bf
+Description-zh_TW: hunspell 的阿拉伯文字典
+ This package contains all the required files to add support for Arabic
+ language to the hunspell spell checker.
+ .
+ This is the ayaspell-dic dictionary packaged for Debian.
+
+Package: hunspell-da
+Description-md5: 01c3081cc2ba4aedc7306e30e648f80a
+Description-zh_TW: hunspell 的丹麥文字典
+ This is the Danish dictionary for use with the hunspell spellchecker.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hunspell-de-at
+Description-md5: 7a1fb8e2b5e43ce440c2690f875fb85c
+Description-zh_TW: hunspell 的奧地利式德文字典
+ This is the German (Austria) dictionary (de-AT-1996) for use with the
+ hunspell spellchecker.
+ .
+ Most notably this variant contains some special Austrian words.
+
+Package: hunspell-de-ch
+Description-md5: 8f40e09672c403023d3799fb87d5b50c
+Description-zh_TW: hunspell 的瑞士式德文字典
+ This is the German (Switzerland, Liechtenstein) dictionary (de-CH-1996)
+ for use with the hunspell spellchecker.
+ .
+ Most notably this variant supports swiss spelling.  This includes some
+ Swiss words, as well as ss instead of German sz ligature.
+
+Package: hunspell-de-de
+Description-md5: 78031a07064682601bd5baaa55a5224d
+Description-zh_TW: hunspell 的德文字典
+ This is the German (Belgium, Germany, Luxemburg) dictionary (de-DE-1996)
+ for use with the hunspell spellchecker.
+ .
+ Most notably this variant contains some special words from Germany.
+
+Package: hunspell-en-us
+Description-md5: 744592c3017b350ebf5bda3aa7507392
+Description-zh_TW: hunspell 的美式英文字典
+ This is the English_american dictionary for use with the hunspell
+ spellchecker
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hunspell-hu
+Description-md5: 06b6d98d07cb5579bda9e09f50bfdff0
+Description-zh_TW: hunspell 的匈牙利文字典
+ This is the Hungarian dictionary for use with the hunspell spellchecker.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hunspell-ro
+Description-md5: 24629673061e267b9e87d498bae23555
+Description-zh_TW: hunspell 的羅馬尼亞文字典
+ This is the Romanian dictionary for use with the hunspell spellchecker.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hunspell-tools
+Description-md5: 9dd84fe88ca2c7135c9aca89f4a7949a
+Description-zh_TW: hunspell 的工具
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and an
+ OpenOffice.org UNO module.
+ .
+ Main features:
+  - Unicode support (first 65535 Unicode characters)
+  - morphological analysis (in custom item and arrangement style)
+  - Max. 65535 affix classes and twofold affix stripping (for agglutinative
+    languages, like Azeri, Basque, Estonian, Finnish, Hungarian, Turkish, etc.)
+  - Support complex compoundings (for example, Hungarian and German)
+  - Support language specific algorithms (for example, handling Azeri
+    and Turkish dotted i, or German sharp s)
+  - Handling conditional affixes, circumfixes, fogemorphemes,
+    forbidden words, pseudoroots and homonyms.
+ .
+ This package contains a the munch/unmunch tools of hunspell and
+ ispellaff2myspell for converting ispell affix files for myspell/hunspell
+ format.
+
+Package: hunspell-vi
+Description-md5: 2ce4391e152c2fff3903b7bd30d367cb
+Description-zh_TW: hunspell 的越南文字典
+ This is the Vietnamese dictionary for use with the hunspell spellchecker.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hwdata
+Description-md5: 68fe769f9882615d4fce39f3ad457428
+Description-zh_TW: 硬體辨識 / 設定資料
+ This package contains various hardware identification and configuration
+ data, such as the pci.ids database, or the XFree86/xorg Cards database. It
+ is needed for the kudzu hardware detection.
+
+Package: ibus-chewing
+Description-md5: 41b0580d9f7567a74d302851c00d4d6c
+Description-zh_TW: Chewing engine for IBus
+ IBus is an Intelligent Input Bus. It is a new input framework for Linux
+ OS. It provides full featured and user friendly input method user
+ interface. It also may help developers to develop input method easily.
+ .
+ IBus-chewing 是建基於 IBus 的正體中文輸入法引擎
+
+Package: ibus-hangul
+Description-md5: 27773568696d2739f50262d3471be20b
+Description-zh_TW: iBus 的韓國諺文引擎
+ IBus is an Intelligent Input Bus. It is a new input framework for Linux
+ OS. It provides full featured and user friendly input method user
+ interface. It also may help developers to develop input method easily.
+ .
+ IBus-Hangul is a Korean input method engine for IBus.
+
+Package: ibus-m17n
+Description-md5: 708da2b84aa9b56aa3d1fd82f0066c89
+Description-zh_TW: iBus 的 m17n 引擎
+ IBus-m17n is a IM Engine for multiple languages, based on IBus.
+ .
+ IBus-m17n enables IBus to input many non-latin characters from the
+ keyboard using libm17n library.
+
+Package: ibus-table
+Description-md5: e031a824eef34ac558f88d83af479d09
+Description-zh_TW: iBus 的表格引擎
+ IBus-Table is the IM Engine framework for table-based input methods, such
+ as WuBi, ErBi, CangJie and so on.
+ .
+ This package provide the table engine framework and one input method:
+   * Compose: input special character by compose letter and diacritical mark
+ .
+ More input method based on ibus-table can be installed from ibus-table-
+ cangjie, ibus-table-wubi, ...
+
+Package: inetutils-telnet
+Description-md5: de2a7d2137605fd09358cbc6744a484d
+Description-zh_TW: telnet client
+ telnet 指令使用 TELNET 協定與其它主機進行互動式溝通。
+ .
+ This implementation supports Kerberos, for authentication and encryption.
+
+Package: info
+Description-md5: 98475bbce3804b8961f7886328b1baea
+Description-zh_TW: 獨立 GNU Info 文件瀏覽器
+ Info 是個易於剖析表示線上文件的檔案格式。本程式允許你檢視 Info 文件， 例如放置在 /usr/share/info 的檔案。
+ .
+ 在 Debian 中，許多軟體的線上文件都以 Info 檔案而成，你很有可能會想安裝它。
+
+Package: iputils-arping
+Description-md5: bb18b14837d8c79e0cf4999c5662365c
+Description-zh_TW: 用於傳送 ICMP echo requests 至一 ARP 位址的工具
+ arping 命令的用途像是一般的 ping 命令，差別只在它是用 ARP 位址來 ping 一台 機器， 而非使用 IP
+ 位址。通常用於找出已知硬體位址但不知道該 IP 位址的機器。
+
+Package: iputils-ping
+Description-md5: d70a0a65fee86f2e5c78f759703e9922
+Description-zh_TW: 測試網路主機到達率的工具
+ Ping 命令送出 ICMP ECHO_REQUEST 封包到特定主機，以得知該主機是否能透過 網路到達。
+ .
+ 本套件同時包含支援 IPv6 網路連線的工具 'ping6'。
+
+Package: jfsutils
+Description-md5: 000fe2ee7a32dfc069be2f44381d781f
+Description-zh_TW: 管理 JFS 檔案系統的工具程式
+ Utilities for managing IBM's Journaled File System (JFS) under Linux.
+ .
+ IBM's journaled file system technology, currently used in IBM enterprise
+ servers, is designed for high-throughput server environments, key to
+ running intranet and other high-performance e-business file servers.
+ .
+ The following utilities are available:
+  * fsck.jfs - initiate replay of the JFS transaction log, and check and
+    repair a JFS formatted device.
+  * logdump - dump a JFS formatted device's journal log.
+  * logredo - "replay" a JFS formatted device's journal log.
+  * mkfs.jfs - create a JFS formatted partition.
+  * xchkdmp - dump the contents of a JFS fsck log file created with
+    xchklog.
+  * xchklog - extract a log from the JFS fsck workspace into a file.
+  * xpeek - shell-type JFS file system editor.
+
+
+Package: language-pack-gnome-zh-hant
+Description-md5: 98d147f4998bf5fd350d5dcd4b0bdd8f
+Description-zh_TW: GNOME 翻譯更新 (正體中文)
+ Translation data updates for all supported GNOME packages for: Traditional
+ Chinese
+ .
+ language-pack-gnome-zh-hant-base provides the bulk of translation data and
+ is updated only seldom. This package provides frequent translation
+ updates.
+
+Package: language-pack-gnome-zh-hant-base
+Description-md5: 7f6891c51d198dbbd0787b942b59e90e
+Description-zh_TW: GNOME 翻譯 (正體中文)
+ Translation data for all supported GNOME packages for: Traditional Chinese
+ .
+ This package provides the bulk of translation data and is updated only
+ seldom. language-pack-gnome-zh-hant provides frequent translation updates,
+ so you should install this as well.
+
+Package: language-pack-zh-hant
+Description-md5: 4e63dbe1bf430bb900a0e6924be90980
+Description-zh_TW: 翻譯更新 (正體中文)
+ Translation data updates for all supported packages for: Traditional
+ Chinese
+ .
+ language-pack-zh-hant-base provides the bulk of translation data and is
+ updated only seldom. This package provides frequent translation updates.
+
+Package: language-pack-zh-hant-base
+Description-md5: f8e445efc00758ad96a2d1f9f951f23b
+Description-zh_TW: 翻譯 (正體中文)
+ Translation data for all supported packages for: Traditional Chinese
+ .
+ This package provides the bulk of translation data and is updated only
+ seldom. language-pack-zh-hant provides frequent translation updates, so
+ you should install this as well.
+
+Package: language-selector-gnome
+Description-md5: 8b3b51c42b05b0c0a7cd417b01a9ae59
+Description-zh_TW: Language selector frontend for Ubuntu
+ This package lets you change and install language packs in Ubuntu.
+ .
+ 此套件包含 GTK+ 前端介面。
+
+Package: lib32gcc-s1
+Description-md5: a31c67d540f86442c895f2663cb4d5c9
+Description-zh_TW: GCC support library (32 bit Version)
+ 共用版本的支援函式庫(內部副程式函式庫)，GCC 用以解決特定機器的 不足、或某些語言的特殊需求。
+
+Package: lib32readline-dev
+Description-md5: 668df0fb60b54c6018797f8b7e97a1eb
+Description-zh_TW: GNU readline and history libraries, development files (32-bit)
+ GNU readline 函式庫協助「需要提供命令行介面的不同程式」一致的 使用者介面。
+ .
+ GNU history 函式庫提供一致的使用者介面，用以取回之前鍵入的輸入行。
+
+Package: lib32readline8
+Description-md5: 4803b78bfa952422311277cc70d77bea
+Description-zh_TW: GNU readline and history libraries, run-time libraries (32-bit)
+ GNU readline 函式庫協助「需要提供命令行介面的不同程式」一致的 使用者介面。
+ .
+ GNU history 函式庫提供一致的使用者介面，用以取回之前鍵入的輸入行。
+
+Package: lib32stdc++-13-dev
+Description-md5: a197f2aec835e5fc6f8f76039d8a7c4e
+Description-zh_TW: GNU Standard C++ Library v3 (development files)
+ This package contains the headers and static library files necessary for
+ building C++ programs which use libstdc++.
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+
+Package: lib32stdc++6
+Description-md5: 2124b81bef171d19a7c047c58ae7058f
+Description-zh_TW: GNU Standard C++ Library v3 (32 bit Version)
+ 本套件包含用GNU編譯器編譯的C++程式執行時所需要的額外函式庫。
+
+Package: libasound2-data
+Description-md5: 41f916f1c1cbcf480b3b7fe38fbcef23
+Description-zh_TW: Configuration files and profiles for ALSA drivers
+ This package contains configuration files for ALSA drivers.
+ .
+ ALSA 意思是 Advanced Linux Sound Architecture (進階的 Linux 音效架構)
+
+Package: libasound2-dev
+Description-md5: 08318b445fb5fd9d05eccffc92062bfa
+Description-zh_TW: shared library for ALSA applications -- development files
+ This package contains files required for developing software that makes
+ use of libasound2t64, the ALSA library.
+ .
+ ALSA 意思是 Advanced Linux Sound Architecture (進階的 Linux 音效架構)
+
+Package: libasound2-doc
+Description-md5: 73dfd0644e1f116cf7c39ae3f4f19a1f
+Description-zh_TW: documentation for user-space ALSA application programming
+ This package contains the HTML documentation for the ALSA library, which
+ describes the development API for user-space applications that want to use
+ ALSA.
+ .
+ ALSA 意思是 Advanced Linux Sound Architecture (進階的 Linux 音效架構)
+
+Package: libasound2t64
+Description-md5: f80c24ce80b76f9116fc6c7d1a8aa34b
+Description-zh_TW: shared library for ALSA applications
+ This package contains the ALSA library and its standard plugins, as well
+ as the required configuration files.
+ .
+ ALSA 意思是 Advanced Linux Sound Architecture (進階的 Linux 音效架構)
+
+Package: libatopology-dev
+Description-md5: 4d125ac307026478ea0ed256c08d5719
+Description-zh_TW: shared library for handling ALSA topology -- development files
+ This package contains files required for developing software that makes
+ use of libatopology2t64, the ALSA topology library.
+ .
+ ALSA 意思是 Advanced Linux Sound Architecture (進階的 Linux 音效架構)
+
+Package: libatopology2t64
+Description-md5: fa3e8ef096b843719268f3d51920e44f
+Description-zh_TW: shared library for handling ALSA topology definitions
+ This package contains the ALSA topology library.
+ .
+ ALSA 意思是 Advanced Linux Sound Architecture (進階的 Linux 音效架構)
+
+Package: libattr1
+Description-md5: d4aef101ff5430158eae72e808000f6c
+Description-zh_TW: extended attribute handling - shared library
+ 使用延伸屬性的程式需要本套件內含的執行環境(runtime environment)。
+
+Package: libbison-dev
+Description-md5: 9e58100d40bcef7ed1b8baab2a762770
+Description-zh_TW: YACC-compatible parser generator - development library
+ Bison 是能用來分析語法將給 LALR(1) 的無脈絡文法描述轉成一個 C 語言的語意分析產生器。一旦你對 Bison
+ 嫻熟，即可以其來發展一套具廣泛用途的語言分析器，從簡單的桌面計算機到複雜的程式語言分析。
+ .
+ This package provides the liby.a file including functions needed by yacc
+ parsers.
+
+Package: libbz2-1.0
+Description-md5: 88cb63f2e4d8cedcf07307314fc3c3d3
+Description-zh_TW: 高品質的區塊排序檔案壓縮函式庫 - 執行時期
+ 這個套件包含給 bzip2 壓縮程式使用的 libbzip2。
+ .
+ bzip2 is a freely available, patent free, data compressor.
+ .
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding.  Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.
+ .
+ bzip2 的壓縮檔案格式(.bz2)和它前身的 bzip (.bz) 不相容。
+
+Package: libbz2-dev
+Description-md5: 29019be384cd4282e28fdd9912de5585
+Description-zh_TW: high-quality block-sorting file compressor library - development
+ Static libraries and include files for the bzip2 compressor library.
+ .
+ bzip2 is a freely available, patent free, data compressor.
+ .
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding.  Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.
+ .
+ bzip2 的壓縮檔案格式(.bz2)和它前身的 bzip (.bz) 不相容。
+
+Package: libc6
+Description-md5: fc3001b0b90a1c8e6690b283a619d57f
+Description-zh_TW: GNU C 函式庫：共用函式庫
+ 內含系統裡幾乎所有程式都需要使用的標準函式庫。如同其它許多套件， 這個套件包含了共用版本的標準 C 函式庫，還有標準數學函式庫。
+
+Package: libc6-arm64-cross
+Description-md5: b266351f0a5ff19b39a85a1e2ab438d7
+Description-zh_TW: GNU C Library: Shared libraries (for cross-compiling)
+ This package was generated by dpkg-cross for cross compiling.
+ .
+ 內含系統裡幾乎所有程式都需要使用的標準函式庫。如同其它許多套件， 這個套件包含了共用版本的標準 C 函式庫，還有標準數學函式庫。
+
+Package: libc6-armhf-cross
+Description-md5: b266351f0a5ff19b39a85a1e2ab438d7
+Description-zh_TW: GNU C Library: Shared libraries (for cross-compiling)
+ This package was generated by dpkg-cross for cross compiling.
+ .
+ 內含系統裡幾乎所有程式都需要使用的標準函式庫。如同其它許多套件， 這個套件包含了共用版本的標準 C 函式庫，還有標準數學函式庫。
+
+Package: libc6-ppc64el-cross
+Description-md5: b266351f0a5ff19b39a85a1e2ab438d7
+Description-zh_TW: GNU C Library: Shared libraries (for cross-compiling)
+ This package was generated by dpkg-cross for cross compiling.
+ .
+ 內含系統裡幾乎所有程式都需要使用的標準函式庫。如同其它許多套件， 這個套件包含了共用版本的標準 C 函式庫，還有標準數學函式庫。
+
+Package: libc6-riscv64-cross
+Description-md5: b266351f0a5ff19b39a85a1e2ab438d7
+Description-zh_TW: GNU C Library: Shared libraries (for cross-compiling)
+ This package was generated by dpkg-cross for cross compiling.
+ .
+ 內含系統裡幾乎所有程式都需要使用的標準函式庫。如同其它許多套件， 這個套件包含了共用版本的標準 C 函式庫，還有標準數學函式庫。
+
+Package: libc6-s390x-cross
+Description-md5: b266351f0a5ff19b39a85a1e2ab438d7
+Description-zh_TW: GNU C Library: Shared libraries (for cross-compiling)
+ This package was generated by dpkg-cross for cross compiling.
+ .
+ 內含系統裡幾乎所有程式都需要使用的標準函式庫。如同其它許多套件， 這個套件包含了共用版本的標準 C 函式庫，還有標準數學函式庫。
+
+Package: libcap2-bin
+Description-md5: f223f06c6e812dc45d4b21cbd8163d36
+Description-zh_TW: POSIX 1003.1e capabilities (utilities)
+ Libcap implements the user-space interfaces to the POSIX 1003.1e
+ capabilities available in Linux kernels. These capabilities are a
+ partitioning of the all powerful root privilege into a set of distinct
+ privileges.
+ .
+ 本套件包含額外的工具。
+
+Package: libchewing3
+Description-md5: 183658a3741630fdcf77aacc92f9d147
+Description-zh_TW: intelligent phonetic input method library
+ libchewing 是中文智慧注音輸入法函式庫
+ .
+ It provides the core algorithm and logic so that they can be shared among
+ the various input methods like JMCCE, xcin-chewing, scim-chewing, iiimf-
+ chewing, screen-chewing, ime-chewing, etc.
+ .
+ The Chewing input method is a smart bopomofo fonetics input method that is
+ useful for inputing Mandarin Chinese based language.
+ .
+ This package contains shared library used by other programs.
+
+Package: libchewing3-data
+Description-md5: 879154f5e48749b3e8cd4efee026a476
+Description-zh_TW: intelligent phonetic input method library - data files
+ libchewing 是中文智慧注音輸入法函式庫
+ .
+ It provides the core algorithm and logic so that they can be shared among
+ the various input methods like JMCCE, xcin-chewing, scim-chewing, iiimf-
+ chewing, screen-chewing, ime-chewing, etc.
+ .
+ The Chewing input method is a smart bopomofo fonetics input method that is
+ useful for inputing Mandarin Chinese based language.
+ .
+ This package contains data files of libchewing3.
+
+Package: libchewing3-dev
+Description-md5: 8e328c3577cf1adcf013f475c7ccf220
+Description-zh_TW: intelligent phonetic input method library (developer version)
+ libchewing 是中文智慧注音輸入法函式庫
+ .
+ It provides the core algorithm and logic so that they can be shared among
+ the various input methods like JMCCE, xcin-chewing, scim-chewing, iiimf-
+ chewing, screen-chewing, ime-chewing, etc.
+ .
+ The Chewing input method is a smart bopomofo fonetics input method that is
+ useful for inputing Mandarin Chinese based language.
+ .
+ This package contains static library and header files for developer.
+
+Package: libcolord-gtk1t64
+Description-md5: 18ea10b42bc3121465590ff2f1ce4e3f
+Description-zh_TW: GTK+ convenience library for interacting with colord
+ colord is a system service that makes it easy to manage, install and
+ generate colour profiles to accurately colour manage input and output
+ devices.
+ .
+ This is a GTK+ convenience library for interacting with colord. It is
+ useful for both applications which need colour management and applications
+ that wish to perform colour calibration.
+ .
+ 本套件包含該執行期函式庫。
+
+Package: libcolord-gtk4-1t64
+Description-md5: 36cdacf961835ad29c7fe639d0f6b635
+Description-zh_TW: GTK4 convenience library for interacting with colord
+ colord is a system service that makes it easy to manage, install and
+ generate colour profiles to accurately colour manage input and output
+ devices.
+ .
+ This is a GTK4 convenience library for interacting with colord. It is
+ useful for both applications which need colour management and applications
+ that wish to perform colour calibration.
+ .
+ 本套件包含該執行期函式庫。
+
+Package: libcom-err2
+Description-md5: 5611f795c9947cfb9a2980a01506a1b9
+Description-zh_TW: 通用錯誤敘述函式庫
+ libcomerr 嘗試提供一種通用的錯誤處理機制， 用來管理常見形式的錯誤程式碼，避免常用機制中存在的問題。
+
+Package: libdevmapper1.02.1
+Description-md5: 20966f6bb804eef3609ec2e2db69378f
+Description-zh_TW: Linux Kernel Device Mapper userspace library
+ The Linux Kernel Device Mapper is the LVM (Linux Logical Volume
+ Management) Team's implementation of a minimalistic kernel-space driver
+ that handles volume management, while keeping knowledge of the underlying
+ device layout in user-space.  This makes it useful for not only LVM, but
+ software raid, and other drivers that create "virtual" block devices.
+ .
+ 這個套件包函了 user-space 的共用函式庫，用來讀寫裝置對應。 相對於透過核心的 ioctl，這個函式庫提供簡捷而一致的介面來使用
+ 裝置對應。
+
+Package: libexpat1
+Description-md5: 969a775adb36dbfb73b9d7ef67f13bd6
+Description-zh_TW: 解析 XML 的 C 語言函式庫 - 執行時期函式庫
+ This package contains the runtime, shared library of expat, the C library
+ for parsing XML. Expat is a stream-oriented parser in which an application
+ registers handlers for things the parser might find in the XML document
+ (like start tags).
+
+Package: libext2fs-dev
+Description-md5: 6c413fbf2fbe007c87112b744560fc94
+Description-zh_TW: ext2/ext3/ext4 檔案系統函式庫 - 標頭及靜態函式庫
+ The ext2, ext3 and ext4 file systems are successors of the original ext
+ ("extended") file system. They are the main file system types used for
+ hard disks on Debian and other Linux systems.
+ .
+ 本套件包含 ext2fs 和 e2p 函式庫的開發環境。
+
+Package: libext2fs2t64
+Description-md5: ba4f61a3e0b238831f03143cbdce696e
+Description-zh_TW: ext2/ext3/ext4 檔案系統函式庫
+ The ext2, ext3 and ext4 file systems are successors of the original ext
+ ("extended") file system. They are the main file system types used for
+ hard disks on Debian and other Linux systems.
+ .
+ This package provides the ext2fs and e2p libraries, for userspace software
+ that directly accesses extended file systems. Programs that use libext2fs
+ include e2fsck, mke2fs, and tune2fs. Programs that use libe2p include
+ dumpe2fs, chattr, and lsattr.
+
+Package: libgcc-s1
+Description-md5: bbd60d723e97d8e06c04228ee4c76f10
+Description-zh_TW: GCC 支援函式庫
+ 共用版本的支援函式庫(內部副程式函式庫)，GCC 用以解決特定機器的 不足、或某些語言的特殊需求。
+
+Package: libgcc-s1-arm64-cross
+Description-md5: 30f5e940c21e92b2411b37b0a95424d1
+Description-zh_TW: GCC support library (arm64)
+ 共用版本的支援函式庫(內部副程式函式庫)，GCC 用以解決特定機器的 不足、或某些語言的特殊需求。
+ .
+ This package contains files for arm64 architecture, for use in cross-
+ compile environment.
+
+Package: libgcc-s1-armhf-cross
+Description-md5: ddfd6d748c065dc8fa2a5a0e14e971c9
+Description-zh_TW: GCC support library (armhf)
+ 共用版本的支援函式庫(內部副程式函式庫)，GCC 用以解決特定機器的 不足、或某些語言的特殊需求。
+ .
+ This package contains files for armhf architecture, for use in cross-
+ compile environment.
+
+Package: libgcc-s1-ppc64el-cross
+Description-md5: afcfa605b0f63aa529a832a3cb480a86
+Description-zh_TW: GCC support library (ppc64el)
+ 共用版本的支援函式庫(內部副程式函式庫)，GCC 用以解決特定機器的 不足、或某些語言的特殊需求。
+ .
+ This package contains files for ppc64el architecture, for use in cross-
+ compile environment.
+
+Package: libgcc-s1-riscv64-cross
+Description-md5: 477d3fda890f6445bbd199516aed7b4e
+Description-zh_TW: GCC support library (riscv64)
+ 共用版本的支援函式庫(內部副程式函式庫)，GCC 用以解決特定機器的 不足、或某些語言的特殊需求。
+ .
+ This package contains files for riscv64 architecture, for use in cross-
+ compile environment.
+
+Package: libgcc-s1-s390x-cross
+Description-md5: 7d651d554ddf8fc473fd6d6feda218a1
+Description-zh_TW: GCC support library (s390x)
+ 共用版本的支援函式庫(內部副程式函式庫)，GCC 用以解決特定機器的 不足、或某些語言的特殊需求。
+ .
+ This package contains files for s390x architecture, for use in cross-
+ compile environment.
+
+Package: libgdbm-compat-dev
+Description-md5: 68956d8d8e91b72a6d2c87e9c7328883
+Description-zh_TW: GNU dbm database routines (legacy support development files)
+ GNU dbm ('gdbm') 是個用於可擴展性雜湊與相似於標準 UNIX 'dbm' 函數的函式庫。
+ .
+ The basic use of 'gdbm' is to store key/data pairs in a data file, thus
+ providing a persistent version of the 'dictionary' Abstract Data Type
+ ('hash' to perl programmers). This package includes development files,
+ required to build old programs, that use legacy 'dbm' interface. For new
+ programs, please use modern interface, provided by libgdbm6t64 and
+ libgdbm-dev.
+
+Package: libgdbm-compat4t64
+Description-md5: e4fe19564d8e4459b9cd2705308cc2a0
+Description-zh_TW: GNU dbm database routines (legacy support runtime version)
+ GNU dbm ('gdbm') 是個用於可擴展性雜湊與相似於標準 UNIX 'dbm' 函數的函式庫。
+ .
+ The basic use of 'gdbm' is to store key/data pairs in a data file, thus
+ providing a persistent version of the 'dictionary' Abstract Data Type
+ ('hash' to perl programmers). This package includes library files,
+ required to run old programs, that use legacy 'dbm' interface. For new
+ programs, please use modern interface, provided by libgdbm6t64 and
+ libgdbm-dev.
+
+Package: libgdbm-dev
+Description-md5: 538569a1f92ab25ef8f4a46ecbbf6126
+Description-zh_TW: GNU dbm database routines (development files)
+ GNU dbm ('gdbm') 是個用於可擴展性雜湊與相似於標準 UNIX 'dbm' 函數的函式庫。
+ .
+ The basic use of 'gdbm' is to store key/data pairs in a data file, thus
+ providing a persistent version of the 'dictionary' Abstract Data Type
+ ('hash' to perl programmers). Note, that to build old programs, that use
+ legacy 'dbm' interface, you have to install libgdbm-compat-dev binary
+ package.
+
+Package: libgdbm6t64
+Description-md5: 24b8412dee6fcbfee343c973abac1e5a
+Description-zh_TW: GNU dbm database routines (runtime version)
+ GNU dbm ('gdbm') 是個用於可擴展性雜湊與相似於標準 UNIX 'dbm' 函數的函式庫。
+ .
+ 'gdbm' 的基本用途在於儲存鍵值與資料對至一檔案，如此便可提供持久版本的「字典」 抽象資料型態，也就是 Perl 程式設計師所說的
+ 'hash'。
+
+Package: libidn2-0
+Description-md5: 6db3016f9ad1788327b1e04cd1c8616e
+Description-zh_TW: Internationalized domain names (IDNA2008/TR46) library
+ Libidn2 implements the revised algorithm for internationalized domain
+ names called IDNA2008/TR46.
+ .
+ 這個套件包含執行階段用函式庫。
+
+Package: libldap2
+Description-md5: 198db781f85a21d6d3c302c304d6e0fb
+Description-zh_TW: OpenLDAP 函式庫
+ 這個套件包含了 OpenLDAP (Lightweight Directory Access Protocol) 伺服器及用
+ 戶端所使用的執行時期函式庫。
+
+Package: liblocale-gettext-perl
+Description-md5: 0a002213d8a0ad34a0f605e0204c21ee
+Description-zh_TW: module using libc functions for internationalization in Perl
+ The Locale::gettext module permits access from perl to the gettext()
+ family of functions for retrieving message strings from databases
+ constructed to internationalize software.
+ .
+ 這個模組提供有 gettext()、dgettext()、dcgettext()、textdomain()、
+ bindtextdomain()、bind_textdomain_codeset()、ngettext()、 dcngettext()，以及
+ dngettext()。
+
+Package: liblzo2-2
+Description-md5: 6acbb2b98752f4160eba6ec78c11bb54
+Description-zh_TW: 資料壓縮函式庫
+ LZO 是個具有可攜性、無失真資料壓縮函式庫。 提供相當快的壓縮與非常快的解壓縮功能，而且解壓縮時不需使用記憶體空間。
+ 另外還有較慢的壓縮級別來完成更具競爭力的壓縮比例，並保持在解壓縮時的 高速水準。
+
+Package: libnewt0.52
+Description-md5: cfc4271054d35387b5e0576f9d7af19a
+Description-zh_TW: 不是 Erik 的視窗工具組 - 使用 S-Lang 的文字模式視窗處理
+ Newt 是建構自 S-Lang 函式庫的文字模式視窗工具組。它讓彩色文字模式的 應用軟體可以輕易使用堆疊式視窗、按紐、複選框、單選紐、清單列表、
+ 輸入欄、標籤、還有顯示文字。支援捲動軸，也可以使用巢狀表單提供額外 功能。這個套件包含了共用函式庫，供建構自 newt 的程式使用。
+
+Package: libnss-db
+Description-md5: 86085c093ffb06245b4f694a84b2427a
+Description-zh_TW: 使用 Berkeley Databases 提供 naming service 的 NSS 模組
+ nss_db 是一組 C 語言函式庫擴充套件，允許使用 Berkeley Databases
+ 作為aliases、ethers、groups、hosts、networks、protocol、users、
+ RPCs、services、shadow passwords 的主要來源 （可取代名稱服務檔案或 NIS、也可另外附加使用）。
+ 如果你的名稱服務檔案(flat name service files)太大、查詢太慢， 請安裝 nss_db。
+
+Package: libpam-modules
+Description-md5: 234b9429528430ead853cc8bbe97ffb4
+Description-zh_TW: 給PAM用的驗證模組
+ This package completes the set of modules for PAM. It includes the
+  pam_unix.so module as well as some specialty modules.
+
+
+Package: libpam-runtime
+Description-md5: bc15ddbf92ee7965a8588141c54bb5a1
+Description-zh_TW: PAM函式庫執行時會用到的檔案
+ 內含Debian系統驗證時需要的設定檔和目錄。幾乎所有的安裝都會用到。 裝就是了。
+
+Package: libpam0g
+Description-md5: af00a40029e1e1d2ad04c042c3b18095
+Description-zh_TW: 嵌入式認證模組函式庫
+ Contains the shared library for Linux-PAM, a library that enables the
+ local system administrator to choose how applications authenticate users.
+ In other words, without rewriting or recompiling a PAM-aware application,
+ it is possible to switch between the authentication mechanism(s) it uses.
+ One may entirely upgrade the local authentication system without touching
+ the applications themselves.
+
+Package: libpcap-dev
+Description-md5: 10078daf2f68ccb78a8fc1970d8c94f5
+Description-zh_TW: libpcap 的開發函式庫 (過渡套件)
+ Empty package to facilitate upgrades, can be safely removed.
+
+Package: libpopt-dev
+Description-md5: ace33b20a6121b7b5a6c26940bbab356
+Description-zh_TW: lib for parsing cmdline parameters - development files
+ Popt 是個相當受 getopt() 與 getopt_long() 函數影響的函式庫，但它允許更多 強大的引數擴張機能。它可以分析任意
+ argv[] 風格的陣列、以及自動根據命令列 的參數來設定變數，同時也允許透過組態檔案將命令列參數別名，並包含使用類似 介殼的規則來分析
+ argv[] 陣列中任意字串。
+ .
+ This package contains the popt static library and header file.
+
+Package: libpopt0
+Description-md5: 1bc14780a06cc6b9a0c726cd091c6d96
+Description-zh_TW: 分析命令列參數的函式庫
+ Popt 是個相當受 getopt() 與 getopt_long() 函數影響的函式庫，但它允許更多 強大的引數擴張機能。它可以分析任意
+ argv[] 風格的陣列、以及自動根據命令列 的參數來設定變數，同時也允許透過組態檔案將命令列參數別名，並包含使用類似 介殼的規則來分析
+ argv[] 陣列中任意字串。
+ .
+ 本套件包含執行期函式庫與地區資料。
+
+Package: libpsl5t64
+Description-md5: 737acdacc0f014d042db24cf175d47b8
+Description-zh_TW: Library for Public Suffix List (shared libraries)
+ Libpsl allows checking domains against the Public Suffix List. It can be
+ used to avoid privacy-leaking 'super-cookies', 'super domain'
+ certificates, for domain highlighting purposes sorting domain lists by
+ site and more.
+ .
+ Please see https://publicsuffix.org for more detailed information.
+ .
+ 這個套件包含執行階段用函式庫。
+
+Package: libreadline-dev
+Description-md5: 3793ef1d4c2c0318abafe0980aadcd30
+Description-zh_TW: GNU readline and history libraries, development files
+ GNU readline 函式庫協助「需要提供命令行介面的不同程式」一致的 使用者介面。
+ .
+ GNU history 函式庫提供一致的使用者介面，用以取回之前鍵入的輸入行。
+ .
+ This package contains development files.
+
+Package: libreadline8t64
+Description-md5: 02109af5819248ca867891090079f329
+Description-zh_TW: GNU readline 與 history 函式庫，執行時期函式庫
+ GNU readline 函式庫協助「需要提供命令行介面的不同程式」一致的 使用者介面。
+ .
+ GNU history 函式庫提供一致的使用者介面，用以取回之前鍵入的輸入行。
+
+Package: libreoffice-help-zh-tw
+Description-md5: ee9697d616e7c4173187caaaecafb1b2
+Description-zh_TW: 辦公套裝軟體 -- 正體中文說明
+ LibreOffice is a full-featured office productivity suite that provides a
+ near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the help of LibreOffice in Chinese_traditional.
+
+Package: libreoffice-l10n-zh-tw
+Description-md5: 166e08e5f36a4b8b8968bda48d5eb24e
+Description-zh_TW: 辦公軟體套裝 -- 正體中文語言套件
+ LibreOffice is a full-featured office productivity suite that provides a
+ near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the localization of LibreOffice in
+ Chinese_traditional. It contains the user interface, the templates and the
+ autotext features. (please note that not all this is available for all
+ possible languages). You can switch user interface language using the
+ locales system.
+ .
+ Spelling dictionaries, hyphenation patterns, thesauri and help are not
+ included in this package. There are some available in separate packages
+ (myspell-*, hyphen-*, mythes-*, libreoffice-help-*)
+ .
+ If you just want to be able to spellcheck etc. in other languages, you can
+ install extra dictionaries/hyphenation patterns/thesauri independently of
+ the language packs.
+
+Package: libsasl2-2
+Description-md5: d811c9b198bbabf125251a777e13f648
+Description-zh_TW: Cyrus SASL - 身分核對抽象函式庫
+ This is the Cyrus SASL API implementation, version 2.1.
+ .
+ SASL is the Simple Authentication and Security Layer, a method for adding
+ authentication support to connection-based protocols. To use SASL, a
+ protocol includes a command for identifying and authenticating a user to a
+ server and for optionally negotiating protection of subsequent protocol
+ interactions. If its use is negotiated, a security layer is inserted
+ between the protocol and the connection. See RFC 2222 for more
+ information.
+ .
+ Any of: ANONYMOUS, SCRAM, CRAM-MD5, DIGEST-MD5, GSSAPI (MIT or Heimdal
+ Kerberos 5), NTLM, OTP, PLAIN, or LOGIN can be used.
+
+Package: libsasl2-dev
+Description-md5: d7f32bc5a3915152e13a4ce1d8983dbc
+Description-zh_TW: Cyrus SASL - 用於外掛式身分核對模組的開發檔案
+ This is the Cyrus SASL API implementation, version 2. See package
+ libsasl2-2 and RFC 2222 for more information.
+ .
+ This package includes development files for compiling programs with SASL
+ support. It is needed for development purposes only.
+
+Package: libsasl2-modules
+Description-md5: 1c79646c25958ae1e2788bc07a1b1804
+Description-zh_TW: Cyrus SASL - 外掛式身分核對模組
+ This is the Cyrus SASL API implementation, version 2.1. See package
+ libsasl2-2 and RFC 2222 for more information.
+ .
+ This package provides the following SASL modules: LOGIN, PLAIN, ANONYMOUS,
+ NTLM, SCRAM, CRAM-MD5, and DIGEST-MD5 (with DES support, deprecated).
+
+Package: libsasl2-modules-gssapi-mit
+Description-md5: b1eb80e47fbc2a5ec747847f924fba48
+Description-zh_TW: Cyrus SASL - 外掛式身分核對模組 (GSSAPI)
+ This is the Cyrus SASL API implementation, version 2.1. See package
+ libsasl2-2 and RFC 2222 for more information.
+ .
+ This package provides the GSSAPI plugin, compiled with the MIT Kerberos 5
+ library.
+
+Package: libsasl2-modules-sql
+Description-md5: 1d3931918dd7a4d68b405fdd4c3c75e0
+Description-zh_TW: Cyrus SASL - 外掛式身分核對模組 (SQL)
+ This is the Cyrus SASL API implementation, version 2.1. See package
+ libsasl2-2 and RFC 2222 for more information.
+ .
+ This package provides the SQL plugin, which supports MySQL, PostgreSQL and
+ SQLite.
+
+Package: libsepol2
+Description-md5: d569fae7efa3328b3d40879b104d9a63
+Description-zh_TW: SELinux library for manipulating binary security policies
+ Security-enhanced Linux is a patch of the Linux kernel and a number of
+ utilities with enhanced security functionality designed to add mandatory
+ access controls to Linux.  The Security-enhanced Linux kernel contains new
+ architectural components originally developed to improve the security of
+ the Flask operating system. These architectural components provide general
+ support for the enforcement of many kinds of mandatory access control
+ policies, including those based on the concepts of Type Enforcement®,
+ Role-based Access Control, and Multi-level Security.
+ .
+ libsepol 提供一組處理 SELinux 執行檔原則的 API。 它用在 checkpolicy (原則編譯器) 及類似的工具中。
+ 自定原則切換設定等等，透過 load_policy 執行特定執行原則轉換的程式 也會用到。
+
+Package: libsigc++-2.0-0v5
+Description-md5: 0f629177a6b7e6200b446de8a0a45992
+Description-zh_TW: 具型別安全性 (type-safety) 的 C++ 訊息系統架構 (Signal Framework) - 執行環境
+ 這個函式庫實作了完整的回傳系統 (callback system) 用於 widget 函式庫，抽象介
+ 面，以及一般化程式設計。它提供了一些用能用來連結抽象回傳系統至類別方法、函 式、函式物件、及包含可調適類別用於連接不同的回傳。
+ .
+ 這些檔案是 libsigc++ 的執行環境，只有在你想使用依賴這個函式庫的程式時，才需 要安裝。
+
+Package: libsigc++-2.0-dev
+Description-md5: 2fc5e630cb35c41ccaccff38822cd939
+Description-zh_TW: type-safe Signal Framework for C++ - development files
+ 這個函式庫實作了完整的回傳系統 (callback system) 用於 widget 函式庫，抽象介
+ 面，以及一般化程式設計。它提供了一些用能用來連結抽象回傳系統至類別方法、函 式、函式物件、及包含可調適類別用於連接不同的回傳。
+ .
+ These are the development files for libsigc++, needed only if you wish to
+ write software which uses it.
+
+Package: libsigc++-2.0-doc
+Description-md5: 66182e93dcf0771a483485fd7d8542bc
+Description-zh_TW: type-safe Signal Framework for C++ - reference documentation
+ 這個函式庫實作了完整的回傳系統 (callback system) 用於 widget 函式庫，抽象介
+ 面，以及一般化程式設計。它提供了一些用能用來連結抽象回傳系統至類別方法、函 式、函式物件、及包含可調適類別用於連接不同的回傳。
+ .
+ This package contains the reference documentation for libsigc++, needed
+ only if you wish to write software which uses it.
+
+Package: libsigc++-3.0-0
+Description-md5: 0f629177a6b7e6200b446de8a0a45992
+Description-zh_TW: 具型別安全性 (type-safety) 的 C++ 訊息系統架構 (Signal Framework) - 執行環境
+ 這個函式庫實作了完整的回傳系統 (callback system) 用於 widget 函式庫，抽象介
+ 面，以及一般化程式設計。它提供了一些用能用來連結抽象回傳系統至類別方法、函 式、函式物件、及包含可調適類別用於連接不同的回傳。
+ .
+ 這些檔案是 libsigc++ 的執行環境，只有在你想使用依賴這個函式庫的程式時，才需 要安裝。
+
+Package: libsigc++-3.0-dev
+Description-md5: 2fc5e630cb35c41ccaccff38822cd939
+Description-zh_TW: type-safe Signal Framework for C++ - development files
+ 這個函式庫實作了完整的回傳系統 (callback system) 用於 widget 函式庫，抽象介
+ 面，以及一般化程式設計。它提供了一些用能用來連結抽象回傳系統至類別方法、函 式、函式物件、及包含可調適類別用於連接不同的回傳。
+ .
+ These are the development files for libsigc++, needed only if you wish to
+ write software which uses it.
+
+Package: libsigc++-3.0-doc
+Description-md5: 66182e93dcf0771a483485fd7d8542bc
+Description-zh_TW: type-safe Signal Framework for C++ - reference documentation
+ 這個函式庫實作了完整的回傳系統 (callback system) 用於 widget 函式庫，抽象介
+ 面，以及一般化程式設計。它提供了一些用能用來連結抽象回傳系統至類別方法、函 式、函式物件、及包含可調適類別用於連接不同的回傳。
+ .
+ This package contains the reference documentation for libsigc++, needed
+ only if you wish to write software which uses it.
+
+Package: libslang2
+Description-md5: 63cf6009be68fe5fb7a6729e8527359d
+Description-zh_TW: S-Lang programming library - runtime version
+ S 語言是一套 C 程式設計師使用的函式庫，包含一些幫助快速開發精密、友善、 跨平台應用程式的常式。
+ .
+ 本套件僅收錄共用函式庫 libslang.so.* 與版權資訊。只有使用此函式庫的程式 (例如 jed 與 slrn)
+ 需要安裝本套件。如果你計劃使用 S 語言開發，你會需要安裝 之於本套件的 -dev 開發套件。
+
+Package: libslang2-dev
+Description-md5: 9978b57decbe8c7b64fa0e4fd3c9cf8b
+Description-zh_TW: S-Lang programming library, development version
+ S 語言是一套 C 程式設計師使用的函式庫，包含一些幫助快速開發精密、友善、 跨平台應用程式的常式。
+ .
+ The S-Lang library includes the following:
+  * Low level tty input routines for reading single characters at a time.
+  * Keymap routines for defining keys and manipulating multiple keymaps.
+  * A high-level key processing interface (SLkp) for
+    handling function and arrow keys.
+  * High level screen management routines for manipulating both
+    monochrome and color terminals. These routines are very
+    efficient. (SLsmg)
+  * Low level terminal-independent routines for manipulating the display
+    of a terminal. (SLtt)
+  * Routines for reading single line input with line editing and recall
+    capabilities. (SLrline)
+  * Searching functions: both ordinary searches and regular expression
+    searches. (SLsearch)
+  * An embedded stack-based language interpreter with a C-like syntax.
+
+
+Package: libss2
+Description-md5: d3d9f89af5755a413e24d2dc0cb7df81
+Description-zh_TW: 指令行介面的語法解析函式庫
+ libss provides a simple command-line interface parser which will accept
+ input from the user, parse the command into an argv argument vector, and
+ then dispatch it to a handler function.
+ .
+ 這個函式庫最初是受到 Multics 子系統函式庫的啟發。
+
+Package: libstdc++-13-dev
+Description-md5: a197f2aec835e5fc6f8f76039d8a7c4e
+Description-zh_TW: GNU Standard C++ Library v3 (development files)
+ This package contains the headers and static library files necessary for
+ building C++ programs which use libstdc++.
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+
+Package: libstdc++-13-dev-arm64-cross
+Description-md5: b3cf592d4bba33e3b225bbffa19ad85f
+Description-zh_TW: GNU Standard C++ Library v3 (development files) (arm64)
+ This package contains the headers and static library files necessary for
+ building C++ programs which use libstdc++.
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+ .
+ This package contains files for arm64 architecture, for use in cross-
+ compile environment.
+
+Package: libstdc++-13-dev-armhf-cross
+Description-md5: 5c94411e364c10e6c08261a0a964d7c8
+Description-zh_TW: GNU Standard C++ Library v3 (development files) (armhf)
+ This package contains the headers and static library files necessary for
+ building C++ programs which use libstdc++.
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+ .
+ This package contains files for armhf architecture, for use in cross-
+ compile environment.
+
+Package: libstdc++-13-dev-ppc64el-cross
+Description-md5: 813d263957e8d32c052437fddcfd908e
+Description-zh_TW: GNU Standard C++ Library v3 (development files) (ppc64el)
+ This package contains the headers and static library files necessary for
+ building C++ programs which use libstdc++.
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+ .
+ This package contains files for ppc64el architecture, for use in cross-
+ compile environment.
+
+Package: libstdc++-13-dev-riscv64-cross
+Description-md5: 4ece25cff1ca3aab6c0da4e011b01872
+Description-zh_TW: GNU Standard C++ Library v3 (development files) (riscv64)
+ This package contains the headers and static library files necessary for
+ building C++ programs which use libstdc++.
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+ .
+ This package contains files for riscv64 architecture, for use in cross-
+ compile environment.
+
+Package: libstdc++-13-dev-s390x-cross
+Description-md5: 2e07343add09b92b671f67aa5b4d02b8
+Description-zh_TW: GNU Standard C++ Library v3 (development files) (s390x)
+ This package contains the headers and static library files necessary for
+ building C++ programs which use libstdc++.
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+ .
+ This package contains files for s390x architecture, for use in cross-
+ compile environment.
+
+Package: libstdc++6
+Description-md5: 724ab84919e0e220afb960e36463914d
+Description-zh_TW: GNU Standard C++ Library v3
+ 本套件包含用GNU編譯器編譯的C++程式執行時所需要的額外函式庫。
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+
+Package: libstdc++6-arm64-cross
+Description-md5: 273206a5eff82dce70c2ec7e21f24331
+Description-zh_TW: GNU Standard C++ Library v3 (arm64)
+ 本套件包含用GNU編譯器編譯的C++程式執行時所需要的額外函式庫。
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+ .
+ This package contains files for arm64 architecture, for use in cross-
+ compile environment.
+
+Package: libstdc++6-armhf-cross
+Description-md5: 29799fad64bd0a4edebdfa94e68524a2
+Description-zh_TW: GNU Standard C++ Library v3 (armhf)
+ 本套件包含用GNU編譯器編譯的C++程式執行時所需要的額外函式庫。
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+ .
+ This package contains files for armhf architecture, for use in cross-
+ compile environment.
+
+Package: libstdc++6-ppc64el-cross
+Description-md5: 80e494cee802c3add0788db6c6260365
+Description-zh_TW: GNU Standard C++ Library v3 (ppc64el)
+ 本套件包含用GNU編譯器編譯的C++程式執行時所需要的額外函式庫。
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+ .
+ This package contains files for ppc64el architecture, for use in cross-
+ compile environment.
+
+Package: libstdc++6-riscv64-cross
+Description-md5: c2263126b51b2daf86c1979a285ea4de
+Description-zh_TW: GNU Standard C++ Library v3 (riscv64)
+ 本套件包含用GNU編譯器編譯的C++程式執行時所需要的額外函式庫。
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+ .
+ This package contains files for riscv64 architecture, for use in cross-
+ compile environment.
+
+Package: libstdc++6-s390x-cross
+Description-md5: 3124ed676d265dad1471e7aaff0bb093
+Description-zh_TW: GNU Standard C++ Library v3 (s390x)
+ 本套件包含用GNU編譯器編譯的C++程式執行時所需要的額外函式庫。
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+ .
+ This package contains files for s390x architecture, for use in cross-
+ compile environment.
+
+Package: libtasn1-6
+Description-md5: 535058cbce5722d1c5d399c0854dd71f
+Description-zh_TW: 管理 ASN.1 結構 (執行階段)
+ Manage ASN1 (Abstract Syntax Notation One) structures. The main features of this library are:
+   * on-line ASN1 structure management that doesn't require any C code
+     file generation.
+   * off-line ASN1 structure management with C code file generation
+     containing an array.
+   * DER (Distinguish Encoding Rules) encoding
+   * no limits for INTEGER and ENUMERATED values
+ .
+ 這個套件包含執行階段用函式庫。
+
+Package: libtext-charwidth-perl
+Description-md5: 30483f9a76c70cf6313cecc3a60f2a13
+Description-zh_TW: 取得終端機上的字元顯示寬度
+ Text::CharWidth permits one to get the display widths of characters and
+ strings on the terminal, using wcwidth() and wcswidth() from libc.
+ .
+ 這個模組提供有 mbwidth()、mbswidth()、mblen()。
+
+Package: libtext-iconv-perl
+Description-md5: 10c6fd1eca31671f3487b084467ed3f5
+Description-zh_TW: module to convert between character sets in Perl
+ The iconv() family of functions from XPG4 defines an API for converting
+ between character sets (e.g. UTF-8 to Latin1, EBCDIC to ASCII). They are
+ provided by libc6.
+ .
+ 本套件讓Perl可以用Text::Iconv套件呼叫上述API，以轉換字元編碼。
+
+Package: libtext-wrapi18n-perl
+Description-md5: 6444c64be001648094335df7a6b952d0
+Description-zh_TW: Text::Wrap 的國際化代換
+ The Text::WrapI18N module is a substitution for Text::Wrap, supporting
+ multibyte characters such as UTF-8, EUC-JP, and GB2312, fullwidth
+ characters such as east Asian characters, combining characters such as
+ diacritical marks and Thai, and languages which don't use whitespaces
+ between words such as Chinese and Japanese.
+ .
+ 這個模組提供 wrap()。
+
+Package: libtextwrap-dev
+Description-md5: c51099bbc17a2a3b0334e07f4cd5e364
+Description-zh_TW: text-wrapping library with i18n - development files
+ Text-wrapping(或 line-folding)函式庫是用來在終端機顯示字串。 這個版本支援國際化，也就是能自動偵測編碼語系、多位元組編碼
+ (例如 UTF-8、EUC-JP，還有其它的)、 全型字元(每個字元佔用兩個 column，例如中日韓表意文字)、 複合字元(每一字元只佔零個
+ column，例如泰文和表音符號)、 還有單字間不使用空白分隔的語言(例如中文和日文)。
+ .
+ This package contains files needed for development using this library.
+
+Package: libtextwrap1
+Description-md5: 89e2d4016bf3c5a25b2992b7772fafc9
+Description-zh_TW: 國際化的 text-wrapping 函式庫 - 執行時期
+ Text-wrapping(或 line-folding)函式庫是用來在終端機顯示字串。 這個版本支援國際化，也就是能自動偵測編碼語系、多位元組編碼
+ (例如 UTF-8、EUC-JP，還有其它的)、 全型字元(每個字元佔用兩個 column，例如中日韓表意文字)、 複合字元(每一字元只佔零個
+ column，例如泰文和表音符號)、 還有單字間不使用空白分隔的語言(例如中文和日文)。
+
+Package: libtiff-dev
+Description-md5: 9da8bcdaa4c04ca6ee4ae233236c1927
+Description-zh_TW: Tag 圖像檔案格式 (TIFF)，開發檔案
+ libtiff is a library providing support for the Tag Image File Format
+ (TIFF), a widely used format for storing image data.  This package
+ includes the development files, static library, and header files.
+
+Package: libtiff6
+Description-md5: bdf182da5cc17db1c9eb4ccb03647efc
+Description-zh_TW: Tag 圖像檔案格式 (TIFF) 函式庫
+ libtiff is a library providing support for the Tag Image File Format
+ (TIFF), a widely used format for storing image data.  This package
+ includes the shared library.
+
+Package: libtiffxx6
+Description-md5: 3947dc613cbd7efbe601b6c89e20c44f
+Description-zh_TW: Tag 圖像檔案格式 (TIFF) 函式庫 -- C++ 介面
+ libtiff is a library providing support for the Tag Image File Format
+ (TIFF), a widely used format for storing image data.  This package
+ includes the shared library for the experimental C++ interfaces.
+
+Package: libtotem0
+Description-md5: 7d2aeb5ec1c18da8164341eae2c62153
+Description-zh_TW: Totem 媒體播放器的主函式庫
+ This package contains the main library used by the Totem media player. It
+ is used both by the media player itself and by the plugins.
+ .
+ This library is only useful within Totem. You should not have to manually
+ install this package.
+
+Package: libusb-0.1-4
+Description-md5: 2dcfdc1b1a0fdb8e8f86496cec6f9062
+Description-zh_TW: 使用者空間 USB 程式設計函式庫
+ 用於開發 USB 應用程式而不需要理解 Linux 核心內部知識的函式庫。
+ .
+ This package contains what you need to run programs that use this library.
+
+Package: libusb-1.0-0
+Description-md5: 2dcfdc1b1a0fdb8e8f86496cec6f9062
+Description-zh_TW: 使用者空間 USB 程式設計函式庫
+ 用於開發 USB 應用程式而不需要理解 Linux 核心內部知識的函式庫。
+ .
+ This package contains what you need to run programs that use this library.
+
+Package: libusb-1.0-0-dev
+Description-md5: 07c28a16589d7bc7f4eda04968bb1f5a
+Description-zh_TW: userspace USB programming library development files
+ 用於開發 USB 應用程式而不需要理解 Linux 核心內部知識的函式庫。
+ .
+ This package contains what you need for compiling sources that use this
+ library in your own code.
+
+Package: libusb-1.0-doc
+Description-md5: 82949d8bf4827404203382fc14d3c4b0
+Description-zh_TW: documentation for userspace USB programming
+ 用於開發 USB 應用程式而不需要理解 Linux 核心內部知識的函式庫。
+ .
+ This package contains the libusb 1.0 API reference manual in HTML format.
+
+Package: libusb-dev
+Description-md5: 07c28a16589d7bc7f4eda04968bb1f5a
+Description-zh_TW: userspace USB programming library development files
+ 用於開發 USB 應用程式而不需要理解 Linux 核心內部知識的函式庫。
+ .
+ This package contains what you need for compiling sources that use this
+ library in your own code.
+
+Package: libwrap0
+Description-md5: 398b420d625f5f15bad603d35ce5acb9
+Description-zh_TW: Wietse Venema 的 TCP 包裝函式庫
+ Wietse Venema 的網路紀錄器，亦稱為 TCPD 或 LOG_TCP。
+ .
+ 這個程式會將連入的telnet、ftp、rsh、rlogin、finger… 等連線的客戶端主機名稱紀錄下來。
+ .
+ Security options are:
+  - access control per host, domain and/or service;
+  - detection of host name spoofing or host address spoofing;
+  - booby traps to implement an early-warning system.
+
+
+Package: libwrap0-dev
+Description-md5: f53a3d19bcd15b4fdd53b720ab2cb8b8
+Description-zh_TW: Wietse Venema's TCP wrappers library, development files
+ Wietse Venema 的網路紀錄器，亦稱為 TCPD 或 LOG_TCP。
+ .
+ 這個程式會將連入的telnet、ftp、rsh、rlogin、finger… 等連線的客戶端主機名稱紀錄下來。
+ .
+ Security options are:
+  - access control per host, domain and/or service;
+  - detection of host name spoofing or host address spoofing;
+  - booby traps to implement an early-warning system.
+
+
+Package: libx32gcc-s1
+Description-md5: 23c4abc6ef9d972b6f047316897bf30d
+Description-zh_TW: GCC support library (x32)
+ 共用版本的支援函式庫(內部副程式函式庫)，GCC 用以解決特定機器的 不足、或某些語言的特殊需求。
+
+Package: libx32stdc++-13-dev
+Description-md5: a197f2aec835e5fc6f8f76039d8a7c4e
+Description-zh_TW: GNU Standard C++ Library v3 (development files)
+ This package contains the headers and static library files necessary for
+ building C++ programs which use libstdc++.
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+
+Package: libx32stdc++6
+Description-md5: f336833aedca4cda1d9923ce79172164
+Description-zh_TW: GNU Standard C++ Library v3 (x32)
+ 本套件包含用GNU編譯器編譯的C++程式執行時所需要的額外函式庫。
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+
+Package: linux-headers-generic
+Description-md5: 9c9742ab9c289b1e900fab477bc0070d
+Description-zh_TW: 通用 Linux 內核標頭
+ This package will always depend on the latest generic kernel headers
+ available.
+
+Package: linux-headers-generic-hwe-24.04
+Description-md5: 9c9742ab9c289b1e900fab477bc0070d
+Description-zh_TW: 通用 Linux 內核標頭
+ This package will always depend on the latest generic kernel headers
+ available.
+
+Package: linux-headers-generic-hwe-24.04-edge
+Description-md5: 9c9742ab9c289b1e900fab477bc0070d
+Description-zh_TW: 通用 Linux 內核標頭
+ This package will always depend on the latest generic kernel headers
+ available.
+
+Package: linux-headers-generic-oem-24.04
+Description-md5: 9c9742ab9c289b1e900fab477bc0070d
+Description-zh_TW: 通用 Linux 內核標頭
+ This package will always depend on the latest generic kernel headers
+ available.
+
+Package: linux-image-generic
+Description-md5: 6d632579c673704f44b290b16e7dbfd1
+Description-zh_TW: 通用 Linux 內核映像
+ This package will always depend on the latest generic kernel image
+ available.
+
+Package: linux-image-generic-hwe-24.04
+Description-md5: 6d632579c673704f44b290b16e7dbfd1
+Description-zh_TW: 通用 Linux 內核映像
+ This package will always depend on the latest generic kernel image
+ available.
+
+Package: linux-image-generic-hwe-24.04-edge
+Description-md5: 6d632579c673704f44b290b16e7dbfd1
+Description-zh_TW: 通用 Linux 內核映像
+ This package will always depend on the latest generic kernel image
+ available.
+
+Package: linux-image-generic-oem-24.04
+Description-md5: 6d632579c673704f44b290b16e7dbfd1
+Description-zh_TW: 通用 Linux 內核映像
+ This package will always depend on the latest generic kernel image
+ available.
+
+Package: login
+Description-md5: d0499c2dea8faa45484daa5ced2d38b5
+Description-zh_TW: 系統登入工具
+ This package provides some required infrastructure for logins and for changing effective user or group IDs, including:
+  * login, the program that invokes a user shell on a virtual terminal;
+  * nologin, a dummy shell for disabled user accounts;
+
+
+Package: logrotate
+Description-md5: bb73169bb75b2b8a2fda1453d214416d
+Description-zh_TW: 紀錄循環工具
+ Logrotate 工具設計用於簡化大量系統紀錄檔案的管理工作，允許自動分頁壓縮、
+ 移除與寄發紀錄檔，也可設定在每天、每週、每個月、或紀錄檔到達一定的檔案大小 時進行處理。通常 logrotate 為每天的例行性命令工作。
+
+Package: lsof
+Description-md5: df6eff5e3fcd44e35327c894b54c92a3
+Description-zh_TW: utility to list open files
+ Lsof 是 Unix 特有的診斷工具，全稱為「LiSt Open Files」，做的事情也
+ 如其名所稱。它可以列出任何由正在系統執行的進程，所開啟中的檔案資訊。
+
+Package: m4
+Description-md5: 4d2d2315ae3e9465f92825939c8db872
+Description-zh_TW: macro processing language
+ GNU `m4' 是傳統 UNIX 巨集處理器的實作。它幾乎都和 SVR4 相容， 不過它有一些延伸功能（例如，可處理給巨集超過九個以上的
+ positional parameters）。`m4' 也有內建的函數，可以用來 include 檔案、 執行 shell
+ 指令、做些運算之類的。Autoconf 需要 GNU `m4' 來產生 `configure' 指令稿，不過執行 configure 時並不需要。
+
+Package: manpages
+Description-md5: c655b859b2e2d890cebc6b412a58ef93
+Description-zh_TW: GNU/Linux 系統使用手冊
+ This package contains GNU/Linux manual pages for these sections:
+  4 = Devices (e.g. hd, sd).
+  5 = File formats and protocols, syntaxes of several system
+      files (e.g. wtmp, /etc/passwd, nfs).
+  7 = Conventions and standards, macro packages, etc.
+      (e.g. nroff, ascii).
+ .
+ Beside the intro man page describing the section, a few manual pages from
+ sections 1,6 and 8 are also provided.
+ .
+ 使用手冊同時也描述了幾個系統檔案的語法。
+
+Package: manpages-dev
+Description-md5: 8a10ff7bcfd700d46fc7906a26abf372
+Description-zh_TW: 給開發者參考使用的 GNU/Linux 說明手冊
+ These man pages describe the Linux programming interface, including these two sections:
+  2 = Linux system calls.
+  3 = Library calls (note that a more comprehensive source of information
+      may be found in the glibc-doc and glibc-doc-reference packages).
+
+
+Package: mawk
+Description-md5: 05965bfcd1a2333e963d9f1945d161fc
+Description-zh_TW: Pattern scanning and text processing language
+ Mawk 是 AWK 程式語言的解譯器。AWK 語言對處理資料檔案和 文字擷取處理非常實用，也很適合製作演算法的雛型與實驗。 Mawk 是個新版的
+ awk, 實作了 1988 年 Addison-Wesley 出版的「AWK 程式語言」中， Aho、Kernighan、Weinberger
+ 三人定義的 AWK 語言。 （這本書後來都被稱作 AWK 之書，the AWK book。） Mawk 完全實現 POSIX 1003.2
+ (draft 11.3) 定義的 AWK 語言， 其中少數特點並沒有在 AWK 之書中敘述。另外 mawk 還提供少量的擴充功能。
+ .
+ Mawk 比 gawk 小多了，也快多了。不過它有一些編譯時期的限制， 例如 NF = 32767，還有 sprintf buffer =
+ 1020。
+
+Package: mount
+Description-md5: 90e187380786a435bb9c85b37afa2c5f
+Description-zh_TW: tools for mounting and manipulating filesystems
+ 這個套件提供 mount(8), umount(8), swapon(8), swapoff(8), 和 losetup(8)等指令.
+
+Package: mtools
+Description-md5: 713405d74e85e434832c80a5fd847511
+Description-zh_TW: 處理 MSDOS 檔案的工具
+ Mtools 是一整套工具，讓 Unix 不用掛載就可以讀寫 MS-DOS 碟片。 它支援 Win'95 格式的長檔名、OS/2 的 Xdf
+ 碟片、ZIP/JAZ 碟片、 還有 2m 的軟碟(在高密度 3 1/2 軟碟上儲存高達 1992kB 資料)。
+ .
+ 這個套件也包含退片指令，還有處理 Zip 碟片的寫入和密碼保護管理。
+
+Package: mtr-tiny
+Description-md5: 1bfbca08bdef8b364895eace26dac3e1
+Description-zh_TW: ncurses 介面的全螢幕  traceroute (路由追蹤) 工具
+ mtr 結合 traceroute (路由追蹤) 與 ping 程式功能， 成為單一的網路診斷工具。
+ .
+ As mtr starts, it investigates the network connection between the host mtr
+ runs on and a user-specified destination host.  After it determines the
+ address of each network hop between the machines, it sends a sequence of
+ ICMP ECHO requests to each one to determine the quality of the link to
+ each machine.  As it does this, it prints running statistics about each
+ machine.
+ .
+ mtr-tiny 編譯時取消了對 X 的支援，可節省磁碟空間。
+
+Package: mutt
+Description-md5: 14c29b7cb02b614c08865f8fb8a0ac39
+Description-zh_TW: 以文字模式為基礎、支援 MIME、GPG、PGP、與多執行緒的郵件閱讀器
+ Mutt 是一套以文字模式為基礎的精密郵件傳輸代理程式。主要的特色有：
+ .
+  * MIME support (including RFC1522 encoding/decoding of 8-bit message
+    headers and UTF-8 support).
+  * PGP/MIME support (RFC 2015).
+  * Advanced IMAP client supporting SSL encryption and SASL authentication.
+  * POP3 support.
+  * ESMTP support.
+  * Message threading (both strict and non-strict).
+  * Keybindings are configurable, default keybindings are much like ELM;
+    Mush and PINE-like ones are provided as examples.
+  * Handles MMDF, MH and Maildir in addition to regular mbox format.
+  * Messages may be (indefinitely) postponed.
+  * Colour support.
+  * Highly configurable through easy but powerful rc file.
+  * Support for compressed mailboxes.
+  * An optional Sidebar.
+
+
+Package: net-tools
+Description-md5: 08f345ee19e62d4fd85e960d3a061a33
+Description-zh_TW: NET-3 networking toolkit
+ 本套件包含控制 Linux 核心網路子系統的重要工具。包括 arp, ifconfig, netstat, rarp, nameif 與 route
+ 等工具。此外，本套件還收錄特定網路設備相關的工具， 比如 plipconfig, slattach, mii-tool 等，以及高階 IP 設定工具
+ iptunnel 與 ipmaddr。
+ .
+ 上游套件 'hostname' 與相關工具原屬於本套件。 自從出現特別的 "hostname*.deb" 後，這些工具便不是由本套件進行部署了。
+
+Package: netbase
+Description-md5: 0067051a6900632d08b20b289ccd8331
+Description-zh_TW: 基本 TCP/IP 連線作業系統
+ 本套件提供基於 TCP/IP 連線作業的基礎架構。
+ .
+ In particular, it supplies common name-to-number mappings in
+ /etc/services, /etc/rpc, /etc/protocols and /etc/ethertypes.
+
+Package: nfs-common
+Description-md5: c2f5fd5a7d525f1cc35fbb49cc8628fd
+Description-zh_TW: 客戶端與伺服端共用的 NFS 支援檔案
+ Use this package on any machine that uses NFS, either as client or server.
+ Programs included: lockd, statd, showmount, nfsstat, gssd, idmapd and
+ mount.nfs.
+
+Package: openssh-client
+Description-md5: 8cde3280ebad71c16b3e8c661dae6c6d
+Description-zh_TW: secure shell (SSH) client, for secure access to remote machines
+ 這是 OpenSSH 的可攜版，是 Secure Shell 協定（由 IETF secsh 工作群組定義） 的開放實作。
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and for
+ executing commands on a remote machine. It provides secure encrypted
+ communications between two untrusted hosts over an insecure network. X11
+ connections and arbitrary TCP/IP ports can also be forwarded over the
+ secure channel. It can be used to provide applications with a secure
+ communication channel.
+ .
+ 這個套件提供 ssh、scp、sftp 等客戶端程式，ssh-agent 與 ssh-add 程式方便進行 公鑰認證， 還有 ssh-
+ keygen、ssh-keyscan、ssh-copy-id、ssh-argv0 等工具。
+ .
+ 任何未經特別許可就使用的加密通訊，在某些國家可能是違法的。
+ .
+ ssh replaces the insecure rsh, rcp and rlogin programs, which are obsolete
+ for most purposes.
+
+Package: openssh-server
+Description-md5: 842cc998cae371b9d8106c1696373919
+Description-zh_TW: secure shell (SSH) server, for secure access from remote machines
+ 這是 OpenSSH 的可攜版，是 Secure Shell 協定（由 IETF secsh 工作群組定義） 的開放實作。
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and for
+ executing commands on a remote machine. It provides secure encrypted
+ communications between two untrusted hosts over an insecure network. X11
+ connections and arbitrary TCP/IP ports can also be forwarded over the
+ secure channel. It can be used to provide applications with a secure
+ communication channel.
+ .
+ This package provides the sshd server.
+ .
+ 任何未經特別許可就使用的加密通訊，在某些國家可能是違法的。
+ .
+ sshd replaces the insecure rshd program, which is obsolete for most
+ purposes.
+
+Package: openssh-sftp-server
+Description-md5: b9a6d4f71758c154615deaec42e8415d
+Description-zh_TW: secure shell (SSH) sftp server module, for SFTP access from remote machines
+ 這是 OpenSSH 的可攜版，是 Secure Shell 協定（由 IETF secsh 工作群組定義） 的開放實作。
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and for
+ executing commands on a remote machine. It provides secure encrypted
+ communications between two untrusted hosts over an insecure network. X11
+ connections and arbitrary TCP/IP ports can also be forwarded over the
+ secure channel. It can be used to provide applications with a secure
+ communication channel.
+ .
+ This package provides the SFTP server module for the SSH server. It is
+ needed if you want to access your SSH server with SFTP. The SFTP server
+ module also works with other SSH daemons like dropbear.
+ .
+ OpenSSH's sftp and sftp-server implement revision 3 of the SSH filexfer
+ protocol described in:
+ .
+  http://www.openssh.com/txt/draft-ietf-secsh-filexfer-02.txt
+ .
+ Newer versions of the draft will not be supported, though some features
+ are individually implemented as extensions.
+
+Package: passwd
+Description-md5: 5bbd70e421ed3367a8299e53bd7afed4
+Description-zh_TW: 更動、管理密碼及群組資料
+ 這個套件包括有 passwd、chsh、chfn 及其它程式，用以維護密碼及 群組資料。
+ .
+ 支援 shadow 密碼保護。請參閱 /usr/share/doc/passwd/README.Debian。
+
+Package: patch
+Description-md5: d56076980d5ce0f54f9dd685e6ca0ce7
+Description-zh_TW: 在原始檔案套用 diff 檔
+ Patch 在原始檔案套用修補檔，產生修正後的版本。 修補檔是 diff 程式產生的，內含四種格式其中一種的 相異點列表。patch
+ 可以讀取每一種格式。
+
+Package: pciutils
+Description-md5: 2bcf99ab1ff1c7c9d93e8d7b4b480e4b
+Description-zh_TW: PCI utilities
+ 本套件包含了數個工具，讓你可以審視及設定 PCI bus 上的裝置。
+
+Package: perl
+Description-md5: 603cb1e5fe66da8106c364f4e9b84082
+Description-zh_TW: Larry Wall 的實用萃取與報告語言(PERL)
+ Perl is a highly capable, feature-rich programming language with over 20
+ years of development. Perl 5 runs on over 100 platforms from portables to
+ mainframes. Perl is suitable for both rapid prototyping and large scale
+ development projects.
+ .
+ Perl 5 supports many programming styles, including procedural, functional,
+ and object-oriented. In addition to this, it is supported by an ever-
+ growing collection of reusable modules which accelerate development. Some
+ of these modules include Web frameworks, database integration, networking
+ protocols, and encryption. Perl provides interfaces to C and C++ for
+ custom extension development.
+
+Package: perl-modules-5.38
+Description-md5: 88d356fbb9bf61ab866e304310350a9e
+Description-zh_TW: 核心 Perl 模組
+ 不依賴特定硬體架構的 Perl 模組。這些模組是 Perl 的一部份， 如果安裝 `perl' 套件就必定需要。
+ .
+ Note that this package only exists to save archive space and should be
+ considered an internal implementation detail of the `perl' package. Other
+ packages should not depend on `perl-modules-5.38' directly, they should
+ use `perl' (which depends on `perl-modules-5.38') instead.
+
+Package: printer-driver-gutenprint
+Description-md5: 5f4c29079db880e202fde946549381ae
+Description-zh_TW: CUPS 的印表機驅動程式
+ 本套件包含基於 Gutenprint 的 CUPS 驅動程式。
+ .
+ CUPS 驅動程式包含在 Gutenprint 支援印表機進行相片質素列印所需的全部檔案。更多有關「通用 UNIX 列印系統」
+ ("CUPS")，這個基於 IPP 的 UNIX/Linux 列印系統，的資訊見：
+ .
+   http://www.cups.org
+ .
+ Gutenprint is the print facility for the GIMP, and in addition a suite of
+ drivers that may be used with common UNIX spooling systems using
+ GhostScript or CUPS.  These drivers provide printing quality for
+ UNIX/Linux on a par with proprietary vendor-supplied drivers in many
+ cases, and can be used for many of the most demanding printing tasks.
+ Gutenprint was formerly known as Gimp-Print.
+
+Package: procmail
+Description-md5: 5fe1752f436b234d8c33cb0e7484299f
+Description-zh_TW: 多功能電子郵件處理器
+ 本程式可用於建立郵件伺服器、通信論壇、整理寄進來的信件到不同的資料夾或 檔案 (在按優先順序處理郵件或訂閱一或數個通信論壇時尤其方便)、前置處理
+ 郵件、當郵件到達時啟動任何程式 (例如根據不同的信件，在你的工作站上產生 不同的通報聲音)、或選擇性自動轉寄郵件給其他人。
+
+Package: procps
+Description-md5: 943f3288c1aaa379fca73a3ff1a35278
+Description-zh_TW: /proc 檔案系統工具
+ This package provides command line and full screen utilities for browsing
+ procfs, a "pseudo" file system dynamically generated by the kernel to
+ provide information about the status of entries in its process table (such
+ as whether the process is running, stopped, or a "zombie").
+ .
+ It contains free, kill, pkill, pgrep, pmap, ps, pwdx, skill, slabtop,
+ snice, sysctl, tload, top, uptime, vmstat, w, and watch.
+
+Package: python3-debconf
+Description-md5: 6eb68ef192205a26cb3bc6cddf1fd404
+Description-zh_TW: interact with debconf from Python 3
+ Debconf 是 debian 套件的設定管理系統。 套件安裝時可透過 Debconf 詢問問題。
+ .
+ This package provides a debconf module to allow Python 3 programs to
+ interact with a debconf frontend.
+
+Package: python3-pkg-resources
+Description-md5: 455aab7092c23bbca0a002df43ba97e4
+Description-zh_TW: 以 pkg_resources 探索套件和存取資源
+ The pkg_resources module provides an API for Python libraries to access
+ their resource files, and for extensible applications and frameworks to
+ automatically discover plugins.  It also provides runtime support for
+ using C extensions that are inside zipfile-format eggs, support for
+ merging packages that have separately-distributed modules or subpackages,
+ and APIs for managing Python's current "working set" of active packages.
+
+Package: python3-software-properties
+Description-md5: 2404b69e069f73169a1d424cb63f1d53
+Description-zh_TW: 管理您要從哪些套件庫安裝軟體
+ This software provides an abstraction of the used apt repositories. It
+ allows you to easily manage your distribution and independent software
+ vendor software sources.
+
+Package: readline-common
+Description-md5: c8e28b105311ffa41fe6e8f86c041f82
+Description-zh_TW: GNU readline and history libraries, common files
+ GNU readline 函式庫協助「需要提供命令行介面的不同程式」一致的 使用者介面。
+ .
+ GNU history 函式庫提供一致的使用者介面，用以取回之前鍵入的輸入行。
+
+Package: readline-doc
+Description-md5: c8534f555dbe0fd59472187417afcf19
+Description-zh_TW: GNU readline and history libraries, documentation and examples
+ GNU readline 函式庫協助「需要提供命令行介面的不同程式」一致的 使用者介面。
+ .
+ GNU history 函式庫提供一致的使用者介面，用以取回之前鍵入的輸入行。
+
+Package: reiser4progs
+Description-md5: 6cd3dd444c74d161d74938c6f19e2462
+Description-zh_TW: 管理 Reiser4 檔案系統的工具程式
+ The following utilities to manage Reiser4 filesystems are provided:
+ .
+   - debugfs.reiser4
+   - fsck.reiser4
+   - measurefs.reiser4
+   - mkfs.reiser4
+
+
+Package: reiserfsprogs
+Description-md5: 2e1145bff0ae4baf3abf769bcd287358
+Description-zh_TW: ReiserFS 檔案系統工具組
+ 這個套件包含了數個工具，可以建立、檢查 ReiserFS 檔案系統，並且可以用來調整 大小和進行 debug。
+
+Package: rhythmbox
+Description-md5: 263e21c49721f582dd2ee234ff4fedb7
+Description-zh_TW: GNOME 的音樂播放及管理程式
+ Rhythmbox 是個非常易用的音樂播放管理程式，支援相當多的音樂格式 (包括 mp3 和 ogg)。 介面設計受到 Apple 的 iTunes
+ 啟發，目前的版本也支援網路電台、iPod 整合、一般的 可攜性音樂播放裝置、音樂 CD 燒錄、音樂 CD 播放、音樂分享，以及 Podcasts。
+
+Package: rhythmbox-data
+Description-md5: 42958a23b3c14ae41a3238d088043e3e
+Description-zh_TW: data files for rhythmbox
+ Rhythmbox 是個非常易用的音樂播放管理程式，支援相當多的音樂格式 (包括 mp3 和 ogg)。 介面設計受到 Apple 的 iTunes
+ 啟發，目前的版本也支援網路電台、iPod 整合、一般的 可攜性音樂播放裝置、音樂 CD 燒錄、音樂 CD 播放、音樂分享，以及 Podcasts。
+ .
+ This package contains pictures, localization files and other data needed
+ by rhythmbox.
+
+Package: rhythmbox-plugins
+Description-md5: 65ef9a9b2e372031a3ca07a0b4e3427c
+Description-zh_TW: plugins for rhythmbox music player
+ Rhythmbox 是個非常易用的音樂播放管理程式，支援相當多的音樂格式 (包括 mp3 和 ogg)。 介面設計受到 Apple 的 iTunes
+ 啟發，目前的版本也支援網路電台、iPod 整合、一般的 可攜性音樂播放裝置、音樂 CD 燒錄、音樂 CD 播放、音樂分享，以及 Podcasts。
+ .
+ This package contains the following plugins:
+  - Cover art search
+  - Audio CD Player
+  - Last.fm
+  - DAAP Music Sharing
+  - FM Radio
+  - Grilo media browser
+  - IM Status
+  - Internet Radio
+  - Song Lyrics
+  - Magnatune Store
+  - Media Player Keys
+  - Portable Players (generic, iPod, MTP)
+  - Notification
+  - Power Manager
+  - Python Console
+  - LIRC
+  - Replay Gain
+  - MediaServer2 D-Bus interface
+  - MPRIS D-Bus interface
+  - Web remote control
+
+
+Package: sasl2-bin
+Description-md5: fa33321a828f08fecd44db10c0f59feb
+Description-zh_TW: Cyrus SASL - 用於 SASL 使用者資料庫的管理程式
+ This is the Cyrus SASL API implementation, version 2.1. See package
+ libsasl2-2 and RFC 2222 for more information.
+ .
+ This package contains administration programs for the SASL users database
+ and common binary files for plugin modules.
+
+Package: sed
+Description-md5: 2ed71305ee7a49ce4438c58140980d2f
+Description-zh_TW: GNU stream editor for filtering/transforming text
+ sed 讀取特定檔案(如果沒指定檔案則讀取標準輸入)，根據指令清單進行 編輯、更改，然後將結果寫到標準輸出。
+
+Package: spamassassin
+Description-md5: 57aa0023793e736d071444c63b04f053
+Description-zh_TW: 以 perl 為基礎使用文本分析的垃圾郵件過濾器
+ SpamAssassin (垃圾郵件刺客) 是一個非常強悍而且可完全自由設定的垃圾郵件過濾 器，它包含了許多特性，如：white-listing
+ (白名單)、RBL testing (即時黑名單測 試)、Bayesian analysis (貝氏分析)、檔頭與郵件內容分析。雖然它被設計成透過使
+ 用者的 .procmail 或 .forward 檔案呼叫，但也可以直接整合進郵件傳送代理 (MTA)。
+ .
+ If you use spamassassin on a moderately high-volume mail server, you may
+ which to consider installing the spamc and spamd packages, which provide a
+ daemonized variant of spamassassin that avoids the need to start a full
+ perl runtime for each message processed.
+
+Package: ss-dev
+Description-md5: 9f7a224dc59f72d5dc2ab6204013b575
+Description-zh_TW: command-line interface parsing library - headers and static libraries
+ 這個套件包含的工具可以解析指令表格、產生簡單的指令行介面 語法解析器(parser)。還有編譯及使用時所需的檔案和靜態聯結函式庫。
+ .
+ 這個函式庫最初是受到 Multics 子系統函式庫的啟發。
+ .
+ This package contains the development environment for the ss library.
+
+Package: strace
+Description-md5: a6e8380fce2adad855bb56e32092b29f
+Description-zh_TW: System call tracer
+ strace is a system call tracer: i.e. a debugging tool which prints out a
+ trace of all the system calls made by another process/program. The program
+ to be traced need not be recompiled for this, so you can use it on
+ binaries for which you don't have source.
+ .
+ 系統呼叫與信號是發生在使用者與核心介面的事件。在範圍內做更進一步的檢查 對程式錯誤的分離、理智檢驗、以及嘗試記錄競爭情形，是相當有用的。
+
+Package: sudo
+Description-md5: acd82d558698567df941afe9b1ac35df
+Description-zh_TW: 針對特定使用者提供受限制的超級使用者權限
+ Sudo 是一個允許系統管理員開放給使用者受限的 root 權限，並紀錄 root 的動作的程式。
+ 基本的哲學是：在盡量開放最少的權限之下，仍然讓使用者能完成他們的工作。
+ .
+ This version is built with minimal shared library dependencies, use the
+ sudo-ldap package instead if you need LDAP support for sudoers.
+
+Package: time
+Description-md5: 3482b423b592147357279e93ec9d47e4
+Description-zh_TW: GNU time program for measuring CPU resource usage
+ The 'time' command runs another program, then displays information about
+ the resources used by that program, collected by the system while the
+ program was running.  You can select which information is reported and the
+ format in which it is shown, or have 'time' save the information in a file
+ instead of display it on the screen.
+ .
+ The resources that 'time' can report on fall into the general categories
+ of time, memory, I/O, and IPC calls.
+ .
+ GNU 版本的 `time' 可以任何方式、藉著使用 printf 特色格式化輸出，並加入各種 資源的測量資訊。
+
+Package: totem
+Description-md5: 3773374b409bb5710c492c328fe37f78
+Description-zh_TW: Simple media player for the GNOME desktop based on GStreamer
+ Totem 是 GNOME 選用的媒體播放程式，簡潔但功能強大，能播放各式各樣的檔案格式。其功能包括：
+ .
+    * Shoutcast, m3u, asx, SMIL and ra playlists support
+    * DVD (with menus), VCD and Digital CD (with CDDB) playback
+    * TV-Out configuration with optional resolution switching
+    * 4.0, 5.0, 5.1 and stereo audio output
+    * Full-screen mode (move your mouse and you get nice controls) with
+      Xinerama, dual-head and RandR support
+    * Aspect ratio toggling, scaling based on the video's original size
+    * Full keyboard control
+    * Simple playlist with repeat mode and saving feature
+    * GNOME, Nautilus and GIO integration
+    * Screenshot of the current movie
+    * Brightness and Contrast control
+    * Visualisation plugin when playing audio-only files
+    * Video thumbnailer for nautilus
+    * Nautilus properties page
+    * Works on remote displays
+    * DVD, VCD and OGG/OGM subtitles with automatic language selection
+    * Extensible with plugins
+
+
+Package: totem-common
+Description-md5: e5e4dab953a289de510184357646dc10
+Description-zh_TW: Totem 媒體播放器的資料檔
+ Totem 是 GNOME 選用的媒體播放程式，簡潔但功能強大，能播放各式各樣的檔案格式。
+ .
+ This package contains common data files and translations.
+
+Package: totem-plugins
+Description-md5: bfaf3e55fb6fc19bcd47f3c7c8db4e6d
+Description-zh_TW: Totem 媒體播放器的外掛程式
+ Totem 是 GNOME 選用的媒體播放程式，簡潔但功能強大，能播放各式各樣的檔案格式。
+ .
+ This package contains a set of recommended plugins for Totem:
+ .
+    * Control Totem with an Infrared remote control
+    * Control Totem with the keyboard's media player keys
+    * Display movie properties
+    * Deactivate the screensaver when a movie is playing
+    * Skip to a defined time in the movie
+    * Set the away status in the instant messenger when a movie is
+      playing
+    * Control totem with a mobile phone using the Bluetooth protocol
+    * Share the current playlist via HTTP
+    * Search, browse for and play videos from YouTube
+ .
+ Additional plugins can be written in C or Python.
+
+Package: tzdata
+Description-md5: a77a3cc9a67658dd7cfdc6547391b8f8
+Description-zh_TW: 有關時區與日光節約時間的資料
+ 這套件包含全球各地代表性地點的資料。這資料將會定期的更新，
+  以反應各地在時區界線、世界協調時(UTC)與日光節約規則所帶來
+  的改變。
+
+
+Package: tzdata-legacy
+Description-md5: e9abab063129c60dae9d14447e549234
+Description-zh_TW: time zone data for TAI minus ten seconds
+ 這套件包含全球各地代表性地點的資料。這資料將會定期的更新，
+  以反應各地在時區界線、世界協調時(UTC)與日光節約規則所帶來
+  的改變。
+ .
+ This package contains timezones counted in International Atomic Time with
+ a -10 second offset (TAI-10s) in /usr/share/zoneinfo/right. This is the
+ current IBM recommended setting of hardware clocks on IBM mainframes,
+ which ran on GMT until the inception of UTC in 1972 when TAI was 10
+ seconds ahead of UTC. IBM switched to running clocks at the atomic rate
+ and introduced the 10-second offset in order to avoid a discontinuity.
+ .
+ This package also contains legacy timezone symlinks that are not following
+ the current rule of using the geographical region (continent or ocean) and
+ city name.
+ .
+ You do not need this package if you are unsure.
+
+Package: ubuntu-keyring
+Description-md5: 50b1d2c58bfd75a47173455de2fe5cfe
+Description-zh_TW: Ubuntu archive 的 GnuPG 金鑰
+ The Ubuntu project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
+Package: udev
+Description-md5: e875ddb09f46f1f7672af537f0c875ca
+Description-zh_TW: /dev/ 及 熱插拔管理伺服程式
+ udev 是一個背景伺服程式用來動態的建立及移除 /dev/ 底下的設備檔，處理熱插拔 (hotplug) 事件並且於啟動時載入驅動程式。
+
+Package: vim
+Description-md5: 59e8b8f7757db8b53566d5d119872de8
+Description-zh_TW: Vi IMproved - 加強版 vi 編輯器
+ Vim 是個幾乎與 UNIX Vi 相容的編輯器。
+ .
+ 加入了許多新功能：多層次的動作復原、語法標記(syntax highlighting)、
+ 命令列歷史記錄、線上說明、自動完成檔名、區塊命令、摺疊、Unicode支援等等。
+ .
+ 此套件所包含的版本僅提供相對一般的功能。此套件不提供圖形使用者介面(GUI) 版本的 Vim。如需更多(或更少)的功能，請參見其他 vim-*
+ 套件。
+
+Package: vim-common
+Description-md5: 30b64c3dceccc4faef229eafc38d0069
+Description-zh_TW: Vi IMproved - Common files
+ Vim 是個幾乎與 UNIX Vi 相容的編輯器。
+ .
+ This package contains files shared by all non GUI-enabled vim variants
+ available in Debian.  Examples of such shared files are: manpages and
+ configuration files.
+
+Package: vim-doc
+Description-md5: bba166bf0174232f296031de0b68b351
+Description-zh_TW: Vi IMproved - HTML documentation
+ Vim 是個幾乎與 UNIX Vi 相容的編輯器。
+ .
+ This package contains the HTML version of the online documentation.  It is
+ built from the runtime/doc directory of the source tree.
+
+Package: vim-runtime
+Description-md5: 97bb83c83cb35767c340c5066ce9be0c
+Description-zh_TW: Vi IMproved - Runtime files
+ Vim 是個幾乎與 UNIX Vi 相容的編輯器。
+ .
+ This package contains vimtutor and the architecture independent runtime
+ files, used, if available, by all vim variants available in Debian.
+ Example of such runtime files are: online documentation, rules for
+ language-specific syntax highlighting and indentation, color schemes, and
+ standard plugins.
+
+Package: vim-tiny
+Description-md5: fe73b8215543cb5fd9e09b0b6e59a151
+Description-zh_TW: Vi IMproved - 加強版的 vi 編輯器 - 精簡版
+ Vim 是個幾乎與 UNIX Vi 相容的編輯器。
+ .
+ This package contains a minimal version of Vim compiled with no GUI and a
+ small subset of features. This package's sole purpose is to provide the vi
+ binary for base installations.
+ .
+ If a vim binary is wanted, try one of the following more featureful
+ packages: vim, vim-nox, vim-motif, or vim-gtk3.
+
+Package: w3m
+Description-md5: 26efbac8f49a7336867e47878e631edd
+Description-zh_TW: 具出色的表格與框架支援的 WWW 可瀏覽閱讀器
+ w3m 是一套具 IPv6 支援的全球資訊網文字瀏覽器。 它具有相當傑出的表格與框架支援，亦可用於獨立執行的檔案閱讀器。
+ .
+  * You can follow links and/or view images in HTML.
+  * Internet message preview mode, you can browse HTML mail.
+  * You can follow links in plain text if it includes URL forms.
+  * With w3m-img, you can view inline images.
+ .
+ This package provides Debian's w3m, forked from the original version
+ <https://sourceforge.net/projects/w3m/>.
+
+Package: wamerican
+Description-md5: ea52704df710a9095c3201e3426ac6ff
+Description-zh_TW: /usr/share/dict 的美式英文字典語彙
+ 這個套件提供 /usr/share/dict/american-english 這個檔案， 內含美式拼法的英文單字列表。這份列表可讓拼字檢查程式、
+ 以及 look(1) 之類的程式使用。
+ .
+ 另外還有 -small、-large、-huge 等大小不同版本的單字列表， 同時也有 wbritish*(英式英文) 及
+ wcanadian*(加拿大英文) 等套件。
+
+Package: wget
+Description-md5: 63a4a740bcd9e8e94bf661e4f1806e02
+Description-zh_TW: 從網路擷取檔案的工具
+ Wget is a network utility to retrieve files from the web using HTTP(S) and
+ FTP, the two most widely used internet protocols. It works non-
+ interactively, so it will work in the background, after having logged off.
+ The program supports recursive retrieval of web-authoring pages as well as
+ FTP sites -- you can use Wget to make mirrors of archives and home pages
+ or to travel the web like a WWW robot.
+ .
+ Wget works particularly well with slow or unstable connections by
+ continuing to retrieve a document until the document is fully downloaded.
+ Re-getting files from where it left off works on servers (both HTTP and
+ FTP) that support it. Both HTTP and FTP retrievals can be time stamped, so
+ Wget can see if the remote file has changed since the last retrieval and
+ automatically retrieve the new version if it has.
+ .
+ Wget 支援代理伺服器；使用這個功能可減輕網路負擔、增加擷取速度、並 提供在防火牆的環境內存取。
+
+Package: whiptail
+Description-md5: 845a08009ef9f0ef4ecc0aedd3a36ffa
+Description-zh_TW: 由介殼腳本顯示友善的對話方塊
+ Whiptail 是一個使用 newt 而非 ncurses 的對話方塊替代方案。提供由介殼腳本
+ 顯示多種不同類型對話方塊的方法。允許開發人員撰寫與使用者以更親切的方式來 互動的腳本。
+
+Package: x11-xserver-utils
+Description-md5: 7bc6b40d32fbe568c9539995f7b1053e
+Description-zh_TW: X 伺服器公用程式
+ An X client is a program that interfaces with an X server (almost always
+ via the X libraries), and thus with some input and output hardware like a
+ graphics card, monitor, keyboard, and pointing device (such as a mouse).
+ .
+ This package provides a miscellaneous assortment of X Server utilities that ship with the X Window System, including:
+  - iceauth, a tool for manipulating ICE protocol authorization records;
+  - rgb;
+  - sessreg, a simple program for managing utmp/wtmp entries;
+  - xcmsdb, a device color characteristic utility for the X Color Management
+    System;
+  - xgamma, a tool for querying and setting a monitor's gamma correction;
+  - xhost, a very dangerous program that you should never use;
+  - xmodmap, a utility for modifying keymaps and pointer button mappings in X;
+  - xrandr, a command-line interface to the RandR extension;
+  - xrdb, a tool to manage the X server resource database;
+  - xrefresh, a tool that forces a redraw of the X screen;
+  - xset, a tool for setting miscellaneous X server parameters;
+  - xsetmode and xsetpointer, tools for handling X Input devices;
+  - xsetroot, a tool for tailoring the appearance of the root window;
+  - xstdcmap, a utility to selectively define standard colormap properties;
+  - xvidtune, a tool for customizing X server modelines for your monitor.
+
+
+Package: xbrlapi
+Description-md5: 53f480ad337051c6a36a0d285d13603c
+Description-zh_TW: Access software for a blind person using a braille display - xbrlapi
+ BRLTTY 讓使用凸字顯示的盲人能存取文字模式的 Linux 主控台。其能驅動凸字顯示裝置，並提供完備的螢幕檢視功能。
+ .
+ This package provides xbrlapi, a brltty X11 helper which handles proper
+ keyboard simulation and window selection.
+
+Package: xfsdump
+Description-md5: 8448ced317c37d3587808bf000f24a98
+Description-zh_TW: XFS 檔案系統管理工具
+ The xfsdump package contains xfsdump, xfsrestore and a number of other
+ administrative utilities for managing XFS filesystems.
+ .
+ xfsdump examines files in a filesystem, determines which need to be backed
+ up, and copies those files to a specified disk, tape or other storage
+ medium.  It uses XFS-specific directives for optimizing the dump of an XFS
+ filesystem, and also knows how to backup XFS extended attributes.  Backups
+ created with xfsdump are "endian safe" and can thus be transfered between
+ Linux machines of different architectures and also between IRIX machines.
+ .
+ xfsrestore performs the inverse function of xfsdump; it can restore a full
+ backup of a filesystem.  Subsequent incremental backups can then be
+ layered on top of the full backup.  Single files and directory subtrees
+ may be restored from full or partial backups.
+
+Package: xfsprogs
+Description-md5: 11edfc24e752c0542cb7648c8934181f
+Description-zh_TW: 管理 XFS 檔案系統的工具程式
+ A set of commands to use the XFS filesystem, including mkfs.xfs.
+ .
+ XFS is a high performance journaling filesystem which originated on the
+ SGI IRIX platform.  It is completely multi-threaded, can support large
+ files and large filesystems, extended attributes, variable block sizes, is
+ extent based, and makes extensive use of Btrees (directories, extents,
+ free space) to aid both performance and scalability.
+ .
+ Refer to the documentation at https://xfs.wiki.kernel.org/ for complete
+ details.
+
+Package: xinit
+Description-md5: d1a59408a40e4b7d5f1e952907662c93
+Description-zh_TW: X 伺服器初始化工具
+ xinit and startx are programs which facilitate starting an X server, and
+ loading a base X session.
+
+Package: xserver-common
+Description-md5: be03943b6955ee9fae7163ad516c772f
+Description-zh_TW: 由多個 X 伺服器使用的共用檔案
+ This package provides files necessary for all X.Org based X servers.
+
+Package: xserver-xorg
+Description-md5: 3d8c1d268e8af6b69f54d86fbd5a3939
+Description-zh_TW: X.Org X 伺服器
+ This package depends on the full suite of the server and drivers for the
+ X.Org X server.  It does not provide the actual server itself.
+
+Package: xserver-xorg-core
+Description-md5: 018a15965c91ba9a09e0652c1c0fb9ac
+Description-zh_TW: Xorg X 伺服器 - 核心伺服器
+ The Xorg X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The Xorg server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ More information about X.Org can be found at: <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xserver-xorg-input-all
+Description-md5: 6dc6019c398114619eba5fcd5806f328
+Description-zh_TW: X.Org X 伺服器 -- 輸入驅動程式元套件
+ This package depends on the full suite of input drivers for the X.Org X
+ server (Xorg).  It does not provide any drivers itself, and may be removed
+ if you wish to only have certain drivers installed.
+
+Package: xserver-xorg-input-wacom
+Description-md5: 990a6fd67780d38db31b26b3018b5519
+Description-zh_TW: X.Org X 伺服器 -- Wacom 輸入驅動程式
+ This package provides the X.Org driver for Wacom tablet devices.
+
+Package: xserver-xorg-video-all
+Description-md5: d6c33380f65bba53cd75efae633435bf
+Description-zh_TW: X.Org X 伺服器 -- 輸出驅動程式元套件
+ This package depends on the full suite of output drivers for the X.Org X
+ server (Xorg).  It does not provide any drivers itself, and may be removed
+ if you wish to only have certain drivers installed.
+
+Package: xserver-xorg-video-ati
+Description-md5: f033d1f2dd0d21738c7fdc5296ac1d8d
+Description-zh_TW: X.Org X 伺服器 -- AMD/ATI display driver wrapper
+ This package provides the 'ati' driver for the AMD/ATI Mach64, Rage128,
+ Radeon, FireGL, FireMV, FirePro and FireStream series. This driver is
+ actually a wrapper that loads one of the 'mach64', 'r128' or 'radeon' sub-
+ drivers depending on the hardware. These sub-drivers are brought through
+ package dependencies.
+ .
+ Users of Rage, Mach, or Radeon boards may remove this package only if they
+ use Driver "r128", "mach64", or "radeon" in /etc/X11/xorg.conf instead of
+ relying on autodetection.
+ .
+ More information about X.Org can be found at: <URL:https://www.X.org>
+ .
+ This package is built from the X.org xf86-video-ati driver module.
+
+Package: xserver-xorg-video-intel
+Description-md5: 6f99289cb68f1933937f7c2f79305530
+Description-zh_TW: X.Org X 伺服器 -- Intel i8xx, i9xx 顯示卡驅動程式
+ This package provides the driver for the Intel i8xx and i9xx family of
+ chipsets, including i810, i815, i830, i845, i855, i865, i915, i945 and
+ i965 series chips.
+ .
+ This package also provides XvMC (XVideo Motion Compensation) drivers for
+ i810/i815 and i9xx and newer chipsets.
+ .
+ This package is built from the X.org xf86-video-intel driver module.
+ .
+ The use of this driver is discouraged if your GPU is new enough (ca. 2007
+ and newer). You can try uninstalling this driver and let the server use
+ its built-in modesetting driver instead.
+
+Package: xserver-xorg-video-qxl
+Description-md5: 9d2c19c3827f1261a65414b2acd67b67
+Description-zh_TW: X.Org X 伺服器 -- QXL 顯示卡驅動程式
+ This package provides the driver for QXL video device, i.e. if Linux is
+ running inside a RedHat Enterprise Virtualization (RHEV) environment, or
+ other SPICE-compatible KVM/Qemu emulator.
+ .
+ More information about X.Org can be found at: <URL:https://www.X.org>
+ .
+ This package is built from the X.org xf86-video-qxl driver module.
+
+Package: xserver-xorg-video-radeon
+Description-md5: 0fde75386f38d2861207c166e64f19d4
+Description-zh_TW: X.Org X 伺服器 -- AMD/ATI Radeon 顯示卡驅動程式
+ This package provides the 'radeon' driver for the AMD/ATI cards. The
+ following chips should be supported: R100, RV100, RS100, RV200, RS200,
+ RS250, R200, RV250, RV280, RS300, RS350, RS400/RS480, R300, R350, R360,
+ RV350, RV360, RV370, RV380, RV410, R420, R423/R430, R480/R481,
+ RV505/RV515/RV516/RV550, R520, RV530/RV560, RV570/R580, RS600/RS690/RS740,
+ R600, RV610/RV630, RV620/RV635, RV670, RS780/RS880, RV710/RV730,
+ RV740/RV770/RV790, CEDAR, REDWOOD, JUNIPER, CYPRESS, HEMLOCK, PALM,
+ SUMO/SUMO2, BARTS, TURKS, CAICOS, CAYMAN, ARUBA, TAHITI, PITCAIRN, VERDE,
+ OLAND, HAINAN, BONAIRE, KABINI, MULLINS, KAVERI, HAWAII.
+ .
+ More information about X.Org can be found at: <URL:https://www.X.org>
+ .
+ This package is built from the X.org xf86-video-ati driver module.
+
+Package: xserver-xorg-video-vesa
+Description-md5: 09beb2a31bd27ae3444fb260bf0f887f
+Description-zh_TW: X.Org X 伺服器 -- VESA 顯示卡驅動程式
+ This driver for the X.Org X server (see xserver-xorg for a further
+ description) uses the standard VESA interface provided on all video cards,
+ but runs unaccelerated.  This driver is not recommended for use unless you
+ have a problem with the normal driver for your card, because it will
+ perform very badly.
+ .
+ More information about X.Org can be found at: <URL:https://www.X.org>
+ .
+ This package is built from the X.org xf86-video-vesa driver module.
+
+Package: xserver-xorg-video-vmware
+Description-md5: 21afce1387bf1052ec99956e90ec2d1c
+Description-zh_TW: X.Org X 伺服器 -- VMware 顯示卡驅動程式
+ This package provides the driver for VMware client sessions, i.e. if Linux
+ is running inside a VMware session.
+ .
+ More information about X.Org can be found at: <URL:http://www.X.org>
+ .
+ This package is built from the X.org xf86-video-vmware driver module.
+
+Package: zlib1g
+Description-md5: 567f396aeeb2b2b63295099aed237057
+Description-zh_TW: 壓縮函式庫 - 跑程式時用(runtime)
+ zlib是在gzip和PKZIP中用到的演算法函式庫。本套件包括共享函式庫。 通常裝gzip或zip及相關套件時就會要妳裝了，很常用的。
+
+Package: zsh-doc
+Description-md5: 9b5459fce7bedf54d5694a22e68389c7
+Description-zh_TW: zsh 文件 - info/HTML 格式
+ Zsh is a UNIX command interpreter (shell) usable as an interactive login
+ shell and as a shell script command processor. Of the standard shells, zsh
+ most closely resembles ksh but includes many enhancements. Zsh has
+ command-line editing, built-in spelling correction, programmable command
+ completion, shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ 此文檔包含在 GNU 資訊和 HTML 格式的文檔。
+
+Package: lib64gcc-s1
+Description-md5: 3fa6e907907011d66479852df2d160b2
+Description-zh_TW: GCC support library (64bit)
+ 共用版本的支援函式庫(內部副程式函式庫)，GCC 用以解決特定機器的 不足、或某些語言的特殊需求。
+
+Package: lib64readline-dev
+Description-md5: 8cc45075e945d3b096b1308cf10078b5
+Description-zh_TW: GNU readline and history libraries, development files (64-bit)
+ GNU readline 函式庫協助「需要提供命令行介面的不同程式」一致的 使用者介面。
+ .
+ GNU history 函式庫提供一致的使用者介面，用以取回之前鍵入的輸入行。
+
+Package: lib64readline8
+Description-md5: 00a13288424388ae43765b5040434241
+Description-zh_TW: GNU readline and history libraries, run-time libraries (64-bit)
+ GNU readline 函式庫協助「需要提供命令行介面的不同程式」一致的 使用者介面。
+ .
+ GNU history 函式庫提供一致的使用者介面，用以取回之前鍵入的輸入行。
+
+Package: lib64stdc++-13-dev
+Description-md5: a197f2aec835e5fc6f8f76039d8a7c4e
+Description-zh_TW: GNU Standard C++ Library v3 (development files)
+ This package contains the headers and static library files necessary for
+ building C++ programs which use libstdc++.
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+
+Package: lib64stdc++6
+Description-md5: 0b7bd88ae533336258d0ca3201397c0f
+Description-zh_TW: GNU Standard C++ Library v3 (64bit)
+ 本套件包含用GNU編譯器編譯的C++程式執行時所需要的額外函式庫。
+ .
+ libstdc++-v3是從前一版g++-2.95的libstdc++-v2重寫而來。第一版的libstdc++-v3 是在g++-3.0中。
+ 如果程式是用GNU編譯器編的，那它執行時就會需要這個套件。
+
+Package: sysconfig-hardware
+Description-md5: e0ef032c46472250bc10b85024663646
+Description-zh_TW: 硬體設定
+ 用於非自動設定之硬體裝置的硬體設定。
+

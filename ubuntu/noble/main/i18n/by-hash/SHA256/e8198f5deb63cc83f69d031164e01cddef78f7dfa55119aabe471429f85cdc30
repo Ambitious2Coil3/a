@@ -1,0 +1,663 @@
+Package: adduser
+Description-md5: a5681e7bad8d90695043c6eab9784701
+Description-eu: Erabiltzaile eta taldeak gehitu eta ezabatu
+ Pakete honek erabiltzaileak sortu eta kentzeko 'adduser' eta 'deluser'
+ komandoak ditu.
+ .
+  - 'adduser' creates new users and groups and adds existing users to
+    existing groups;
+  - 'deluser' removes users and groups and removes users from a given
+    group.
+ .
+ Adding users with 'adduser' is much easier than adding them manually.
+ 'Adduser' will choose UID and GID values that conform to Debian policy,
+ create a home directory, copy skeletal user configuration, and automate
+ setting initial values for the user's password, real name and so on.
+ .
+ 'Deluser' can back up and remove users' home directories and mail spool or
+ all the files they own on the system.
+ .
+ Script pertsonalizartu bat exekutatu daiteke hauetako komando bakoitzaren
+ ondoren.
+ .
+ 'Adduser' and 'Deluser' are intended to be used by the local administrator
+ in lieu of the tools from the 'useradd' suite, and they provide support
+ for easy use from Debian package maintainer scripts, functioning as kind
+ of a policy layer to make those scripts easier and more stable to write
+ and maintain.
+
+Package: base-files
+Description-md5: 6d16337f57b84c4747f56438355b2395
+Description-eu: Debian oinarrizko sistemaren fitxategi ezberdinak
+ This package contains the basic filesystem hierarchy of a Debian system,
+ and several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others, and the
+ text of several common licenses in use on Debian systems.
+
+Package: base-passwd
+Description-md5: aad0cc52ee72b2469af5552851e49f03
+Description-eu: Debian oinarri sistemaren talde eta pasahitzak
+ Hauek erabiltzaileen datu-base fitxategien (/etc/passwd eta /etc/group)
+ jatorrizko kopia kanonikoak dira eta erreserbaturiko erabiltzaile eta ID-
+ ak dituzte. 'update-passwd' lanabesak banatzen da sistema datu-baseak
+ fitxategi hauekin sinkronizaturik mantentzeko.
+
+Package: bash
+Description-md5: 3522aa7b4374048d6450e348a5bb45d9
+Description-eu: GNU Bourne Again SHell
+ Bash sh-rekin bateragarri den sarrera estandarretik edo fitxategi
+ batetatik irakurritako komandoak exekutatzen dituen komando hizkuntza
+ interprete bat da. Bash-ek Korn eta C (ksh eta csh) interpreteetako
+ ezaugarri  erabilgarriak barneratzen ditu.
+ .
+ Bash IEEE Posix shell eta tresna espezifikazioekin (IEEE Lan Taldea
+ 1003.2) bat datorren inplementazio bat izatera bideraturik dago.
+ .
+ "Kode osatze progrmanablea" (Programmable Completion Code), Ian Macdonald-
+ ek garatua bash-completion paketean aurki daiteke aurrerantzean.
+
+Package: bash-doc
+Description-md5: 232b3e580e9136f4e0c8f65a0c7a5b36
+Description-eu: Documentation and examples for the GNU Bourne Again SHell
+ Bash sh-rekin bateragarri den sarrera estandarretik edo fitxategi
+ batetatik irakurritako komandoak exekutatzen dituen komando hizkuntza
+ interprete bat da. Bash-ek Korn eta C (ksh eta csh) interpreteetako
+ ezaugarri  erabilgarriak barneratzen ditu.
+ .
+ This package contains the distributable documentation, all the examples
+ and the main changelog.
+
+Package: cpio
+Description-md5: 5f492bf139a41f29fd2d6fcadf43606e
+Description-eu: gnu CPIO -- fitxategi artxiboak kudeatzeko programa
+ GNU cpio artxiboak sortu edo erauzteko edo fitxategiak toki batetatik
+ besterako kopiatzeko tresna bat da. Berauk cpio formatu kopuru bat
+ kudeatzen du eta horrez gain tar fixtaetgiak irakurri eta idazteko
+ ahalmena du.
+
+Package: cron
+Description-md5: 7384e614068d48b9ac2335cb05added3
+Description-eu: Prozesu antolaketa deabrua
+ The cron daemon is a background process that runs particular programs at
+ particular times (for example, every minute, day, week, or month), as
+ specified in a crontab. By default, users may also create crontabs of
+ their own so that processes are run on their behalf.
+ .
+ Output from the commands is usually mailed to the system administrator (or
+ to the user in question); you should probably install a mail system as
+ well so that you can receive these messages.
+ .
+ This cron package does not provide any system maintenance tasks. Basic
+ periodic maintenance tasks are provided by other packages, such as
+ checksecurity.
+
+Package: debconf
+Description-md5: 85b82bf406dfc9a635114f44ab7fb66d
+Description-eu: Debian konfigurazio kudeaketa sistema
+ Debconf debian paketeen konfigruazio kudeaketa sistema da. Paketeek
+ Debconf erabiltzen dute galderak egiteko instalatzen direnean.
+
+Package: debconf-i18n
+Description-md5: 3f303f9083a6c63ddcfd70b4738cca54
+Description-eu: guztizko internazionalizazio onarpena debconf-entzat
+ Pakete honek debconf-entzat guztizko internazionalizazio onarpenaz,
+ eskuragarri dauden hizkuntza guzietako itzulpenak, itzulitako debconf
+ txantiloi erabiltzeko onarpena eta byte-anitzeko karaktere jokoak behar
+ bezala bistaratzeko onarpenaz hornitzen du.
+
+Package: debianutils
+Description-md5: 133cfb7cff1ec5713bc396f059f97013
+Description-eu: Debianerako bereizi diren lanabes ezberdinak
+ Pakete honek nahiz zuk eskuz erabili ditzakezun nagusiki Debian paketeen
+ instalazio script-ek erabiltzen dituzten lanabes txiki multzo batez
+ hornitzen du.
+ .
+ The specific utilities included are: add-shell installkernel ischroot
+ remove-shell run-parts savelog update-shells which
+
+Package: diffutils
+Description-md5: 5cf0bc18e36aa2957e62b309d6aa34f9
+Description-eu: Fitxategi parekatze lanabesak
+ The diffutils package provides the diff, diff3, sdiff, and cmp programs.
+ .
+ `diff'-ek bi fitxategi edo bi direktoriotako dagokion fitxategien arteko
+ ezberdintasunak erakusten ditu. `cmp'-ek fitxategien ezberdintasunetako
+ lerro eta karaktere zenbakiak erakusten ditu. `cmp' bi fitxategien arteko
+ karaktere ezberdinak alderik-aldez erakusteko erabili daiteke.
+ `diff3'-ek hiru fitxategien arteko ezberdintasunak  erakusten ditu.
+ `sdiff'-ek bi fitxategi interaktiboki batzen ditu.
+ .
+ `diff'-ek sorturiko ezberdintasun bildumak testu fitxategietara (programa
+ ituburua bezalakoetara) eguneraketak zabaltzeko erabili daitezke. Metodo
+ hau ezberdintasunak jatorrizko fitxategiarekin alderatuz txikiak direnean
+ bereiziki erabilgarri da.  `diff' irteera emanaz, `patch' programak
+ fitxategiaren kopia bat eguneratu dezake.
+
+Package: dpkg
+Description-md5: 2f156c6a30cc39895ad3487111e8c190
+Description-eu: Debian pakete kudeaketa sistema
+ Pakete honek Debian software paketeak isntalatu eta kentzea kudeatzeko
+ maila-baxuko azpiegituraz hornitzen du.
+ .
+ Debian paketeen garapen tresnetarako dpkg-dev paketea instalatu
+
+Package: ed
+Description-md5: 10ab4f4d0d094d088419c432af89cf48
+Description-eu: classic UNIX line editor
+ ed komnado-lerro testu editore bat da. Berau testu fitxategiak sortu,
+ bistarazi, eraldatu eta beste zenbait modutan manipulatzeko erabili
+ daiteke.
+ .
+ red mugaturiko ed bat da: honek uneko direktorioan dauden fitxategiak
+ bakarrik edita ditzake eta ezin ditu shell komandoak exekutatu.
+
+Package: findutils
+Description-md5: ad1a783819241ffdf3ff5f37a676af59
+Description-eu: fitxategiak bilatzeko lanabesak: find eta xargs
+ GNUren findutils-ek ematen den kriterioa betetzen duten fitxategiak
+ bilatzeko eta aurkitutako fitxategietan ekintza ezberdinak betetzeko
+ lanabesez hornitzen du. Pakete honek 'find' eta 'xargs' ditu; beste pakete
+ bereizi batetan ipini da 'locate'.
+
+Package: gcc-13-aarch64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-eu: GCC, the GNU Compiler Collection (base package)
+ Pakete honek GNU konpila bildumean (GCC) dauden hizkuntza eta liburutegi
+ guztientzat berdinak diren fitxategiak ditu.
+
+Package: gcc-13-arm-linux-gnueabihf-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-eu: GCC, the GNU Compiler Collection (base package)
+ Pakete honek GNU konpila bildumean (GCC) dauden hizkuntza eta liburutegi
+ guztientzat berdinak diren fitxategiak ditu.
+
+Package: gcc-13-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-eu: GCC, the GNU Compiler Collection (base package)
+ Pakete honek GNU konpila bildumean (GCC) dauden hizkuntza eta liburutegi
+ guztientzat berdinak diren fitxategiak ditu.
+
+Package: gcc-13-powerpc64le-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-eu: GCC, the GNU Compiler Collection (base package)
+ Pakete honek GNU konpila bildumean (GCC) dauden hizkuntza eta liburutegi
+ guztientzat berdinak diren fitxategiak ditu.
+
+Package: gcc-13-riscv64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-eu: GCC, the GNU Compiler Collection (base package)
+ Pakete honek GNU konpila bildumean (GCC) dauden hizkuntza eta liburutegi
+ guztientzat berdinak diren fitxategiak ditu.
+
+Package: gcc-13-s390x-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-eu: GCC, the GNU Compiler Collection (base package)
+ Pakete honek GNU konpila bildumean (GCC) dauden hizkuntza eta liburutegi
+ guztientzat berdinak diren fitxategiak ditu.
+
+Package: gcc-14-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-eu: GCC, the GNU Compiler Collection (base package)
+ Pakete honek GNU konpila bildumean (GCC) dauden hizkuntza eta liburutegi
+ guztientzat berdinak diren fitxategiak ditu.
+
+Package: gnupg
+Description-md5: 2421c574774486effdededa540cfb1c7
+Description-eu: GNU privacy guard - PGP ordezte libre bat
+ GnuPG is GNU's tool for secure communication and data storage. It can be
+ used to encrypt data and to create digital signatures. It includes an
+ advanced key management facility and is compliant with the proposed
+ OpenPGP Internet standard as described in RFC4880.
+ .
+ This package contains the full suite of GnuPG tools for cryptographic
+ communications and data storage.
+
+Package: gnupg-utils
+Description-md5: e668452bd037f231e404937c9a963ac3
+Description-eu: GNU privacy guard - utility programs
+ GnuPG komunikazio eta datu biltegiratze segururako GNU tresna da.
+ .
+ This package contains several useful utilities for manipulating OpenPGP
+ data and other related cryptographic elements.  It includes:
+ .
+  * addgnupghome -- create .gnupg home directories
+  * applygnupgdefaults -- run gpgconf --apply-defaults for all users
+  * gpgcompose -- an experimental tool for constructing arbitrary
+                  sequences of OpenPGP packets (e.g. for testing)
+  * gpgparsemail -- parse an e-mail message into annotated format
+  * gpgsplit -- split a sequence of OpenPGP packets into files
+  * gpgtar -- encrypt or sign files in an archive
+  * kbxutil -- list, export, import Keybox data
+  * lspgpot -- convert PGP ownertrust values to GnuPG
+  * migrate-pubring-from-classic-gpg -- use only "modern" formats
+  * symcryptrun -- use simple symmetric encryption tool in GnuPG framework
+  * watchgnupg -- watch socket-based logs
+
+
+Package: gpgconf
+Description-md5: a54470fd043c15b13d18d29306678637
+Description-eu: GNU privacy guard - core configuration utilities
+ GnuPG komunikazio eta datu biltegiratze segururako GNU tresna da.
+ .
+ This package contains core utilities used by different tools in the suite
+ offered by GnuPG.  It can be used to programmatically edit config files
+ for tools in the GnuPG suite, to launch or terminate per-user daemons (if
+ installed), etc.
+
+Package: gpgv
+Description-md5: 4ea8f4f4d6a0a387a4a3aeba3e6cc888
+Description-eu: GNU pribazitate babesa - sinadura egiaztapen tresna
+ GnuPG komunikazio eta datu biltegiratze segururako GNU tresna da.
+ .
+ gpgv is actually a stripped-down version of gpg which is only able to
+ check signatures. It is somewhat smaller than the fully-blown gpg and uses
+ a different (and simpler) way to check that the public keys used to make
+ the signature are valid. There are no configuration files and only a few
+ options are implemented.
+
+Package: groff-base
+Description-md5: 106eb90e9251712205de3a823876b349
+Description-eu: GNU troff testu-formateatze sistema (onarri sistema osagaiak)
+ Pakete honek troff, nroff, tbl, eqn, eta pic UN*X testu formateatze
+ lanabes tradizionalak ditu. Lanabes hauek man-db paketearekin batera
+ ezinbestekoak dira sare-bidezko manual orrialdeak ikusteko.
+ .
+ groff-base ASCII, Latin-1 eta UTF-8 gehi PostScript gailuko (lehenetsia)
+ manual orrialdeak ikusi ahal izateko beharrezkoak dituen murrizturiko
+ pakete bat da. Gailu, letra-tipo, macro eta dokumentazio guztien duen
+ groff instalazio oso bat bahi duten erabiltzaileek groff paketea instalatu
+ beharko dute.
+
+Package: gzip
+Description-md5: 100720c9e2c6508f1a1f3731537b38e5
+Description-eu: GNU konpresio lanabesak
+ Pakete honek GNU fitxategi konpresio lanabesez hornitzen du, zein Debian-
+ en lehenetsiriko konpresio lanabesak diren. Normalean '.gz' amaiera duten
+ fitxategiekin lan egiten dute, baina 'compress' erabiliaz sortutako '.Z'
+ fitxategiak ere deskonprimitu ditzake.
+
+Package: hostname
+Description-md5: a5a22acc3c69a7f40f07f1a8dfc93af1
+Description-eu: Ostalari izena edo domeinu izena ezarri/ikusteko lanabesa
+ This package provides commands which can be used to display the system's
+ DNS name, and to display or set its hostname or NIS domain name.
+
+Package: info
+Description-md5: 98475bbce3804b8961f7886328b1baea
+Description-eu: Info dokumentazio GNU nabigatzaile autonomoa
+ Info fitxategi formatua sareko dokumentuen errepresentazio erraz-
+ prozesagarri bat da. Programa honek /usr/share/info-en gordetakoen
+ antzerako Info dokumentuak ikusteko aukera ematen du.
+ .
+ Debianen datorren software askok sare dokumnetazio Info fitxategi
+ formatuan dakar, beraz ziurrenik hau instalatu nahiko duzu.
+
+Package: iputils-ping
+Description-md5: d70a0a65fee86f2e5c78f759703e9922
+Description-eu: Sare ostalarien eskuragarritasuna probatzeko tresnak
+ Ping komandoak ICMP ECHO_REQUEST paketeak bidaltzen ditu ostalarira sare
+ bidez eskuragarri den ala ez probatzeko.
+ .
+ Pakete honek IPv6 onartzen duen ping6 lanabesa du.
+
+Package: kmod
+Description-md5: 0cd8f9566ff621a593309a12fd64999f
+Description-eu: Linux kernel moduluak kudeatzeko tresnak
+ This package contains a set of programs for loading, inserting, and
+ removing kernel modules for Linux. It replaces module-init-tools.
+
+Package: liblocale-gettext-perl
+Description-md5: 0a002213d8a0ad34a0f605e0204c21ee
+Description-eu: module using libc functions for internationalization in Perl
+ The Locale::gettext module permits access from perl to the gettext()
+ family of functions for retrieving message strings from databases
+ constructed to internationalize software.
+ .
+ Hurrengoez hornitzen du: gettext(), dgettext(), dcgettext(), textdomain(),
+ bindtextdomain(), bind_textdomain_codeset(), ngettext(), dcngettext() and
+ dngettext().
+
+Package: libpam-modules
+Description-md5: 234b9429528430ead853cc8bbe97ffb4
+Description-eu: PAM-en autentifikazio modulu txertagarriak
+ This package completes the set of modules for PAM. It includes the
+  pam_unix.so module as well as some specialty modules.
+
+
+Package: libpcap-dev
+Description-md5: 10078daf2f68ccb78a8fc1970d8c94f5
+Description-eu: development library for libpcap (transitional package)
+ Bertsio-berritzeak errazteko pakete hutsa, ziurtasunez ezabatu daiteke
+
+Package: libtext-charwidth-perl
+Description-md5: 30483f9a76c70cf6313cecc3a60f2a13
+Description-eu: terminalean eskuratu pantailaren karaktere zabalera
+ Text::CharWidth permits one to get the display widths of characters and
+ strings on the terminal, using wcwidth() and wcswidth() from libc.
+ .
+ Pakete honek mbwidth(), mbswidth(), eta mblen() dakartza.
+
+Package: libtext-wrapi18n-perl
+Description-md5: 6444c64be001648094335df7a6b952d0
+Description-eu: Text::Wrap ordezte internazionalizatua
+ The Text::WrapI18N module is a substitution for Text::Wrap, supporting
+ multibyte characters such as UTF-8, EUC-JP, and GB2312, fullwidth
+ characters such as east Asian characters, combining characters such as
+ diacritical marks and Thai, and languages which don't use whitespaces
+ between words such as Chinese and Japanese.
+ .
+ Pakete honek wrap() dakar.
+
+Package: login
+Description-md5: d0499c2dea8faa45484daa5ced2d38b5
+Description-eu: Sistema saio-haste tresnak
+ This package provides some required infrastructure for logins and for changing effective user or group IDs, including:
+  * login, the program that invokes a user shell on a virtual terminal;
+  * nologin, a dummy shell for disabled user accounts;
+
+
+Package: logrotate
+Description-md5: bb73169bb75b2b8a2fda1453d214416d
+Description-eu: Erregistro errotazio lanabesa
+ logrotate lanabesa erregistro fitxategi anitz sortzen diren sistemetako
+ erregistro-fitxategien kudeaketa errazteko diseinaturik dago. Logrotatek
+ errotazio konpresio automatikoa, ezabatzea eta posta bidezko bidalketa
+ onartzen du. Logrotate erregistro fitxategi bat egunero, astero,
+ hilabetero edo erregistro-fitxategia tamaina jakin bat izatean kudeatzeko
+ konfiguratu daiteke. Arruntean logrotate eguneroko cron lan bat bezala
+ exekutatzen da.
+
+Package: lsb-release
+Description-md5: d169c747869c77674a82667e31928deb
+Description-eu: Linux Standard Base version reporting utility (minimal implementation)
+ Linux Standard Base (http://www.linuxbase.org/) Linux-entzako hirugarrenek
+ egindako aplikazioaek behar dezaketen muin sistema estandar bat da.
+ .
+ The lsb_release command is a simple tool to help identify the Linux
+ distribution being used and its compliance with the Linux Standard Base.
+ .
+ This package contains a bare-bones implementation that uses the
+ information in /etc/os-release instead of relying on LSB packages.
+
+Package: mawk
+Description-md5: 05965bfcd1a2333e963d9f1945d161fc
+Description-eu: Pattern scanning and text processing language
+ Mawk AWK programazio hizkuntzarako interprete bat da. AWK hizkuntza datu
+ fitxategiak manipulatzeko, testu eskuratze eta prozesurako, eta
+ algoritmoekin esperimentatu eta prototipoak egiteko da erabilgarria. Mawk
+ awk berri bat da eta honek AWK hizkuntza Aho,  Kernighan and Weinberger,
+ The AWK Programming Language, Addison-Wesley  Publishing, 1988 liburuan
+ zehazten den bezala inplementatzen dela esan nahi du. (hemendik aurrera
+ AWK liburua bezala izendatuko da.) Mawk-ek POSIX 1003.2-eko (11.3
+ zirriborroa) AWK liburuan azaltzen ez diren AWK hizkuntza ezaugarri
+ berrien definizioak betetzen ditu eta mawk-ek hesapen kopuru txiki batez
+ hornitzen du.
+ .
+ Mawk gawk baino txikiago eta askosaz azkarragoa da. Honek konpilazio-une
+ muga batzuej ditu NF = 32767 eta sprintf buffer = 1020 bezalakoak.
+
+Package: mount
+Description-md5: 90e187380786a435bb9c85b37afa2c5f
+Description-eu: tools for mounting and manipulating filesystems
+ Pakete honek mount(8), umount(8), swapon(8),  swapoff(8), eta losetup(8)
+ komandoez hornitzen ditu.
+
+Package: ncurses-base
+Description-md5: 2cbef17322c0de7f007682de54ca0d4a
+Description-eu: oinarrizko terminal mota definizioak
+ The ncurses library routines are a terminal-independent method of updating
+ character screens with reasonable optimization.
+ .
+ Pakete honek terminal mota arrunteneen onarpen eta datu fitxategiak ditu,
+ ansi, dumb, linux, rxvt, screen, sun, vt100, vt102, vt220, vt52, eta xterm
+ motek osatzen dutelarik.
+
+Package: ncurses-bin
+Description-md5: 682ee2624c08c54a53ecaefd778a4d86
+Description-eu: terminal-inguruko programa eta man orrialdeak
+ The ncurses library routines are a terminal-independent method of updating
+ character screens with reasonable optimization.
+ .
+ Pakete honek terminfo datu-basea eta banakako terminfo sarrerak
+ manipulatzeko programak ditu, baita terminalak berrabiarazteko eta
+ horrelakoetarako programak.
+
+Package: netcat-openbsd
+Description-md5: d6f7da83d4c946b2cb127e466fba1e0e
+Description-eu: TCP/IP suitzar armadako aiztoa
+ A simple Unix utility which reads and writes data across network
+ connections using TCP or UDP protocol. It is designed to be a reliable
+ "back-end" tool that can be used directly or easily driven by other
+ programs and scripts. At the same time it is a feature-rich network
+ debugging and exploration tool, since it can create almost any kind of
+ connection you would need and has several interesting built-in
+ capabilities.
+ .
+ This package contains the OpenBSD rewrite of netcat, including support for
+ IPv6, proxies, and Unix sockets.
+
+Package: passwd
+Description-md5: 5bbd70e421ed3367a8299e53bd7afed4
+Description-eu: administrazio pasahitza eta talde datuak aldatu
+ Pakete hau pasahitza eta talde datuak mantetzeko passwd, chsh, chfn eta
+ beste zenbait programak osatzen dute.
+ .
+ Itzalpeko pasahitzak onartzen dira. Ikusi
+ /usr/share/doc/passwd/README.Debian
+
+Package: perl-base
+Description-md5: ece2e9985a7181373ff7eca2ef962ca7
+Description-eu: gutxienezko Perl sistema
+ Perl zenbait sistema script eta lanabesetan erbailitato script-sortze
+ hizkuntza bat da
+ .
+ This package provides a Perl interpreter and the small subset of the
+ standard run-time library required to perform basic tasks. For a full Perl
+ installation, install "perl" (and its dependencies, "perl-modules-5.38"
+ and "perl-doc").
+
+Package: procps
+Description-md5: 943f3288c1aaa379fca73a3ff1a35278
+Description-eu: /proc fitxategi-sistemaren lanabesak
+ This package provides command line and full screen utilities for browsing
+ procfs, a "pseudo" file system dynamically generated by the kernel to
+ provide information about the status of entries in its process table (such
+ as whether the process is running, stopped, or a "zombie").
+ .
+ It contains free, kill, pkill, pgrep, pmap, ps, pwdx, skill, slabtop,
+ snice, sysctl, tload, top, uptime, vmstat, w, and watch.
+
+Package: python3-debconf
+Description-md5: 6eb68ef192205a26cb3bc6cddf1fd404
+Description-eu: interact with debconf from Python 3
+ Debconf debian paketeen konfigruazio kudeaketa sistema da. Paketeek
+ Debconf erabiltzen dute galderak egiteko instalatzen direnean.
+ .
+ This package provides a debconf module to allow Python 3 programs to
+ interact with a debconf frontend.
+
+Package: sed
+Description-md5: 2ed71305ee7a49ce4438c58140980d2f
+Description-eu: GNU stream editor for filtering/transforming text
+ sd-ek ezarritako fitxategiak eta ezartzen ez den kasuan sarrera
+ estandarretik irakurtzen du komando zerrenda batetan oinarritutik edizio
+ aldaketa batzuek egin eta emaitzak irteera estandarrean idazten ditu.
+
+Package: sensible-utils
+Description-md5: 0cae32d4822230d3085b3b32b05a416c
+Description-eu: Alternatiba hautapen sensible lanabesak
+ This package provides a number of small utilities which are used by
+ programs to sensibly select and spawn an appropriate browser, editor,
+ pager, or terminal emulator.
+ .
+ The specific utilities included are: sensible-browser sensible-editor
+ sensible-pager sensible-terminal
+
+Package: sysvinit-utils
+Description-md5: 6de18cd5530693b7e1a01d243c037661
+Description-eu: System-V antzerako sistemen lanabesak
+ Pakete honek System-V sistementzako lanabes garrantzitsuak ditu.
+ .
+ Specifically, this package includes: init-d-script, fstab-decode,
+ killall5, pidof
+ .
+ It also contains the library scripts sourced by init-d-script and other
+ initscripts that were formally in lsb-base.
+
+Package: tar
+Description-md5: 48033bf96442788d1f697785773ad9bb
+Description-eu: tar artxibo lanabesaren GNU bertsioa
+ Tar fitxategi bilduma bat tar formatuko artxibo bakar batetan biltzeko
+ programa bat da.  Betetzen duen funtzioa cpio-renaren antzekoa da, eta DOS
+ munduko PKZIP bezalako programena.  Asko erabiltzen du Debian pakete
+ kudeaketa sisteman, eta oso erabilgarria da sistema babeskopiak egin eta
+ besteekin fitxategi bildumak elkar-trukatzeko.
+
+Package: tzdata
+Description-md5: a77a3cc9a67658dd7cfdc6547391b8f8
+Description-eu: ordu-zonalde eta ordutegi-aldaketa datuak
+ Pakete honek munduan zehar kokagune errepresentagarri gehienen ordutegi
+ lokala inplementatzeko datuak ditu. Aldiro eguneratzen da munduan zehar
+ politikoek ordutegi-aldaketa, UTC atzerapena eta ordu zonalde mugetan
+ egindako aldaketak adierazteko.
+
+Package: tzdata-legacy
+Description-md5: e9abab063129c60dae9d14447e549234
+Description-eu: time zone data for TAI minus ten seconds
+ Pakete honek munduan zehar kokagune errepresentagarri gehienen ordutegi
+ lokala inplementatzeko datuak ditu. Aldiro eguneratzen da munduan zehar
+ politikoek ordutegi-aldaketa, UTC atzerapena eta ordu zonalde mugetan
+ egindako aldaketak adierazteko.
+ .
+ This package contains timezones counted in International Atomic Time with
+ a -10 second offset (TAI-10s) in /usr/share/zoneinfo/right. This is the
+ current IBM recommended setting of hardware clocks on IBM mainframes,
+ which ran on GMT until the inception of UTC in 1972 when TAI was 10
+ seconds ahead of UTC. IBM switched to running clocks at the atomic rate
+ and introduced the 10-second offset in order to avoid a discontinuity.
+ .
+ This package also contains legacy timezone symlinks that are not following
+ the current rule of using the geographical region (continent or ocean) and
+ city name.
+ .
+ You do not need this package if you are unsure.
+
+Package: update-inetd
+Description-md5: 9a09f5c7959d1200217cfebee811fa42
+Description-eu: inetd konfigurazio fitxategi eguneratzailea
+ Pakete honek beste paketeek /etc/inted.conf fitxategia (internet super-
+ zerbitzailearen inplementazio guztiek partekatutako konfigurazio
+ fitxategia) lokalki eguneratzeko erabiltzen duten programa batez hornitzen
+ du.
+ .
+ Note that xinetd is not supported by this package.
+
+Package: vim
+Description-md5: 59e8b8f7757db8b53566d5d119872de8
+Description-eu: Vi IMproved - enhanced vi editor
+ Vim UNIX-eko vi editorearen bertsio ia bateragarri bat da.
+ .
+ Zenbait ezaugarri gehitu zaizkio: maila-anitzeko desegitea, sintaxi
+ nabarmentzea, komando-lerro historia, sare-bidezko laguntza, fitxategi-
+ izen osatzea, ekintza blokeak, tolestea, Unicode onarpena, etab.
+ .
+ This package contains a version of vim compiled with a rather standard set
+ of features.  This package does not provide a GUI version of Vim.  See the
+ other vim-* packages if you need more (or less).
+
+Package: vim-common
+Description-md5: 30b64c3dceccc4faef229eafc38d0069
+Description-eu: Vi IMproved - Common files
+ Vim UNIX-eko vi editorearen bertsio ia bateragarri bat da.
+ .
+ This package contains files shared by all non GUI-enabled vim variants
+ available in Debian.  Examples of such shared files are: manpages and
+ configuration files.
+
+Package: vim-doc
+Description-md5: bba166bf0174232f296031de0b68b351
+Description-eu: Vi IMproved - HTML documentation
+ Vim UNIX-eko vi editorearen bertsio ia bateragarri bat da.
+ .
+ This package contains the HTML version of the online documentation.  It is
+ built from the runtime/doc directory of the source tree.
+
+Package: vim-runtime
+Description-md5: 97bb83c83cb35767c340c5066ce9be0c
+Description-eu: Vi IMproved - Runtime files
+ Vim UNIX-eko vi editorearen bertsio ia bateragarri bat da.
+ .
+ This package contains vimtutor and the architecture independent runtime
+ files, used, if available, by all vim variants available in Debian.
+ Example of such runtime files are: online documentation, rules for
+ language-specific syntax highlighting and indentation, color schemes, and
+ standard plugins.
+
+Package: vim-tiny
+Description-md5: fe73b8215543cb5fd9e09b0b6e59a151
+Description-eu: Vi IMproved - Hedaturiko vi editorea - bertsio trinkoa
+ Vim UNIX-eko vi editorearen bertsio ia bateragarri bat da.
+ .
+ This package contains a minimal version of Vim compiled with no GUI and a
+ small subset of features. This package's sole purpose is to provide the vi
+ binary for base installations.
+ .
+ If a vim binary is wanted, try one of the following more featureful
+ packages: vim, vim-nox, vim-motif, or vim-gtk3.
+
+Package: wget
+Description-md5: 63a4a740bcd9e8e94bf661e4f1806e02
+Description-eu: webetik fitxategiak eskuratzen ditu
+ Wget is a network utility to retrieve files from the web using HTTP(S) and
+ FTP, the two most widely used internet protocols. It works non-
+ interactively, so it will work in the background, after having logged off.
+ The program supports recursive retrieval of web-authoring pages as well as
+ FTP sites -- you can use Wget to make mirrors of archives and home pages
+ or to travel the web like a WWW robot.
+ .
+ Wget works particularly well with slow or unstable connections by
+ continuing to retrieve a document until the document is fully downloaded.
+ Re-getting files from where it left off works on servers (both HTTP and
+ FTP) that support it. Both HTTP and FTP retrievals can be time stamped, so
+ Wget can see if the remote file has changed since the last retrieval and
+ automatically retrieve the new version if it has.
+ .
+ Wget-ek proxy zerbitzariak onartzen ditu; honek sare erabilera gutxitu
+ deskarga abiadura handitu eta suebaki atzealdetik sarrera ahaltzen
+ duelarik.
+
+Package: whiptail
+Description-md5: 845a08009ef9f0ef4ecc0aedd3a36ffa
+Description-eu: Shell script-etatik ekarrizketa kutxa erabilterrazak bistaratzen ditu
+ Whiptail ncurses erabili beharrean newt erabiltzen duen "dialog" ordezte
+ bat da. Shell script-etatik elkarrizketa kurtxa ezberdinak bistaratzeko
+ metodoaz hornitzen du sistema. Honek script baten garatzaileari
+ erabiltzailearekin modu errazago batetan elkarreragiteko aukera ematen
+ dio.
+
+Package: zsh-doc
+Description-md5: 9b5459fce7bedf54d5694a22e68389c7
+Description-eu: zsh documentation - info/HTML format
+ Zsh is a UNIX command interpreter (shell) usable as an interactive login
+ shell and as a shell script command processor. Of the standard shells, zsh
+ most closely resembles ksh but includes many enhancements. Zsh has
+ command-line editing, built-in spelling correction, programmable command
+ completion, shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ Honek dokumentazioa biltzen du GNU info eta HTML formatutan.
+
+Package: powerpc-ibm-utils
+Description-md5: a0b7f43a4f1655545d52671105cda789
+Description-eu: IBM PowerPC plataformen mantenu lanabesak
+ powerpc-ibm-uti.s paketeak behean zerrendaturiko PowerPC plataformen
+ mantenua egiteko lanabesez hornitzen du. Lanabes bakoitzaren dokumentazio
+ hedatua bakoitzaren man orrialdean aurkitu daiteke.
+ .
+  * nvram - NVRAM access utility
+  * bootlist - boot configuration utility
+  * ofpathname - translate logical device names to OF names
+  * snap - system configuration snapshot
+  * ppc64_cpu - cpu settings utility
+
+

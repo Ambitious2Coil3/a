@@ -1,0 +1,7 @@
+Package: accountsservice
+Description-md5: 8aeed0a03c7cd494f0c4b8d977483d7e
+Description-bs: Ispitati i manipulisat informacije korsničkog računa
+ The AccountService project provides a set of D-Bus interfaces for querying
+ and manipulating user account information and an implementation of these
+ interfaces, based on the useradd, usermod and userdel commands.
+

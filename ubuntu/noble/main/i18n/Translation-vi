@@ -1,0 +1,962 @@
+Package: adduser
+Description-md5: a5681e7bad8d90695043c6eab9784701
+Description-vi: thêm và gỡ bỏ người dùng và nhóm
+ Gói này bao gồm hai lệnh « adduser » (tạo người dùng) và « deluser » (gỡ
+ bỏ người dùng).
+ .
+  - 'adduser' creates new users and groups and adds existing users to
+    existing groups;
+  - 'deluser' removes users and groups and removes users from a given
+    group.
+ .
+ Adding users with 'adduser' is much easier than adding them manually.
+ 'Adduser' will choose UID and GID values that conform to Debian policy,
+ create a home directory, copy skeletal user configuration, and automate
+ setting initial values for the user's password, real name and so on.
+ .
+ 'Deluser' can back up and remove users' home directories and mail spool or
+ all the files they own on the system.
+ .
+ Một văn lệnh tự chọn cũng có thể được thực hiện sau khi chạy lệnh như vậy.
+ .
+ 'Adduser' and 'Deluser' are intended to be used by the local administrator
+ in lieu of the tools from the 'useradd' suite, and they provide support
+ for easy use from Debian package maintainer scripts, functioning as kind
+ of a policy layer to make those scripts easier and more stable to write
+ and maintain.
+
+Package: base-files
+Description-md5: 6d16337f57b84c4747f56438355b2395
+Description-vi: Các tập tin linh tinh của hệ thống cơ bản Debian
+ This package contains the basic filesystem hierarchy of a Debian system,
+ and several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others, and the
+ text of several common licenses in use on Debian systems.
+
+Package: base-passwd
+Description-md5: aad0cc52ee72b2469af5552851e49f03
+Description-vi: Các tập tin cơ bản cho nhóm và mật khẩu của hệ thống
+ Trong gói này có bản sao chủ tác chuẩn của tập tin cơ sở dữ liệu người
+ dùng (/etc/passwd và /etc/group) mà chứa các mã số người dùng (UID) và mã
+ số nhóm (GID) được Debian phân cấp. Công cụ update-passwd cũng được cung
+ cấp để bảo tồn cơ sở dữ liệu hệ thống đồng bộ được với những tập tin chủ
+ này.
+
+Package: bash
+Description-md5: 3522aa7b4374048d6450e348a5bb45d9
+Description-vi: GNU Bourne Again SHell
+ Bash là một trình đọc ngôn ngữ lệnh tương thích với sh mà thực hiện câu
+ lệnh được đọc từ đầu vào tiêu chuẩn hay một tập tin nào đó. Bash cũng bao
+ gồm một số tính năng hữu ích từ hai trình bao Korn (ksh) và C (csh).
+ .
+ Cuối cùng dự định bash là một bản thực hiện tuân theo Đặc tả Công cụ và
+ Trình bao POSIX IEEE (Nhóm làm việc IEEE 1003.2).
+ .
+ Mã điền nốt có khả năng lập trình (Programmable Completion Code) của Ian
+ Macdonald giờ có sẵn trong gói « bash-completion ».
+
+Package: bash-doc
+Description-md5: 232b3e580e9136f4e0c8f65a0c7a5b36
+Description-vi: Documentation and examples for the GNU Bourne Again SHell
+ Bash là một trình đọc ngôn ngữ lệnh tương thích với sh mà thực hiện câu
+ lệnh được đọc từ đầu vào tiêu chuẩn hay một tập tin nào đó. Bash cũng bao
+ gồm một số tính năng hữu ích từ hai trình bao Korn (ksh) và C (csh).
+ .
+ This package contains the distributable documentation, all the examples
+ and the main changelog.
+
+Package: coreutils
+Description-md5: d0d975dec3625409d24be1238cede238
+Description-vi: Bộ tiện ích lõi của GNU
+ Gói này chứa những tiện ích cơ bản về tập tin, trình bao và thao tác văn
+ bản đều mong đợi trên mọi hệ điều hành.
+ .
+ Specifically, this package includes: arch base64 basename cat chcon chgrp
+ chmod chown chroot cksum comm cp csplit cut date dd df dir dircolors
+ dirname du echo env expand expr factor false flock fmt fold groups head
+ hostid id install join link ln logname ls md5sum mkdir mkfifo mknod mktemp
+ mv nice nl nohup nproc numfmt od paste pathchk pinky pr printenv printf
+ ptx pwd readlink realpath rm rmdir runcon sha*sum seq shred sleep sort
+ split stat stty sum sync tac tail tee test timeout touch tr true truncate
+ tsort tty uname unexpand uniq unlink users vdir wc who whoami yes
+
+Package: cpio
+Description-md5: 5f492bf139a41f29fd2d6fcadf43606e
+Description-vi: cpio của GNU — một chương trình quản lý kho nén tập tin
+ cpio của GNU là một công cụ để tạo và giải nén kho lưu, hoặc sao chép tập
+ tin từ vị trí đây đến vị trí đó. Nó quản lý một số định dạng cpio, cũng
+ như đọc và ghi tập tin dạng « .tar ».
+
+Package: dash
+Description-md5: 8d4d9c32c6b2b70328f7f774a0cc1248
+Description-vi: Trình bao tuân theo POSIX
+ Trình bao Debian Almquist Shell (dash) là một trình bao tuân theo POSIX
+ bắt nguồn từ « ash ».
+ .
+ Vì nó thực hiện văn lệnh một cách nhanh hơn « bash » và có ít quan hệ phụ
+ thuộc vào thư viện hơn (thì chống lại nhiều hơn sự thất bại của phần mềm
+ hay phần cứng), trình bao « dash » được dùng làm trình bao hệ thống mặc
+ định trên hệ thống Debian.
+
+Package: debconf
+Description-md5: 85b82bf406dfc9a635114f44ab7fb66d
+Description-vi: Hệ thống quản lý cấu hình Debian
+ Debconf là một hệ thống quản lý cấu hình cho các gói Debian. Cài đặt gói
+ Debian thì nó sử dụng Debconf để hỏi câu về thiết lập thích hợp.
+
+Package: debconf-i18n
+Description-md5: 3f303f9083a6c63ddcfd70b4738cca54
+Description-vi: hỗ trợ quốc tế hoá đầy đủ cho debconf
+ Gói này cung cấp chức năng quốc tế hoá đầy đủ cho debconf, gồm có bản dịch
+ sang tất cả các ngôn ngữ sẵn sàng, hỗ trợ sử dụng các mẫu debconf đã dịch,
+ và hỗ trợ hiển thị đúng các tập hợp ký tự đa byte.
+
+Package: debianutils
+Description-md5: 133cfb7cff1ec5713bc396f059f97013
+Description-vi: Các tiện ích linh tinh đặc trưng cho Debian
+ Gói này cung cấp một số tiện ích nhỏ mà được sử dụng chính bở văn lệnh cài
+ đặt của các gói Debian, dù bạn cũng có thể sử dụng trực tiếp.
+ .
+ The specific utilities included are: add-shell installkernel ischroot
+ remove-shell run-parts savelog update-shells which
+
+Package: diffutils
+Description-md5: 5cf0bc18e36aa2957e62b309d6aa34f9
+Description-vi: Các tiện ích so sánh tập tin
+ Gói diffutils cung cấp các chương trình diff, diff3, sdiff và cmp.
+ .
+ Lệnh « diff » hiển thị sự khác biệt giữa hai tập tin, hoặc theo từng dòng
+ tương ứng trong hai thư mục. Lệnh « cmp » hiển thị mỗi hiệu số và số thứ ở
+ đó hai tập tin khác biệt với nhau. « cmp » cũng có khả năng hiển thị cạnh
+ nhau tất cả các ký tự vẫn khác giữa hai tập tin. Lệnh « diff3 » hiển thị
+ các sự khác nhau giữa 3 tập tin. Lệnh « sdiff » trộn nhau hai tập tin một
+ cách tương tác.
+ .
+ Tập hợp các sự khác biệt được « diff » tạo cũng có thể được sử dụng để
+ phân phối bản cập nhật về tập tin văn bản (v.d. mã nguồn chương trình) ra
+ người khác. Phương pháp này có ích đặc biệt khi có sự khác biệt nhỏ sơ với
+ tập tin hoàn toàn. Đưa ra kết xuất của « diff » thì chương trình « patch »
+ có thể cập nhật (hoặc « vá ») một bản sao của tập tin đó.
+
+Package: dpkg
+Description-md5: 2f156c6a30cc39895ad3487111e8c190
+Description-vi: Hệ thống quản lý gói Debian
+ Gói này cung cấp hạ tầng cơ sở để quản lý tiến trình cài đặt và gỡ bỏ gói
+ phần mềm Debian.
+ .
+ Đối với công cụ phát triển gói Debian, hãy cài đặt gói dpkg-dev.
+
+Package: file-roller
+Description-md5: 38d3e4bf80de5287311da5585810d3db
+Description-vi: archive manager for GNOME
+ File-roller là một trình quản lý tệp kho lưu trong môi trường đồ họa
+ GNOME. Nó cho phép:
+ .
+  * Tạo và sửa đổi kho lưu.
+  * Xem nội dung trong kho lưu.
+  * Xem một tệp lẻ chứa trong kho lưu.
+  * Giải nén các tệp từ trong kho lưu.
+ .
+ File-roller supports the following formats:
+  * Tar (.tar) archives, including those compressed with
+    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),
+    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),
+    lzma (.tar.lzma) and xz (.tar.xz)
+  * Zip archives (.zip)
+  * Jar archives (.jar, .ear, .war)
+  * 7z archives (.7z)
+  * iso9660 CD images (.iso)
+  * Lha archives (.lzh)
+  * Archiver archives (.ar)
+  * Comic book archives (.cbz)
+  * Single files compressed with gzip (.gz), bzip (.bz), bzip2 (.bz2),
+    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)
+ .
+ File-roller can extract following formats:
+  * Cabinet archives (.cab)
+  * Debian binary packages (.deb)
+  * Xar archives (.xar)
+ .
+ File-roller doesn't perform archive operations by itself, but relies on
+ standard tools for this.
+
+Package: findutils
+Description-md5: ad1a783819241ffdf3ff5f37a676af59
+Description-vi: các tiện ích để tìm tập tin: find, xargs
+ findutils của GNU thì cung cấp các tiện ích để tìm tập tin tương ứng với
+ tiêu chuẩn đưa ra, và thực hiện hành vi chỉ định với những tập tin được
+ tìm. Gói này chứa « find » và « xargs », còn « locate » đã bị chia ra một
+ gói riêng.
+
+Package: gcc-13-aarch64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-arm-linux-gnueabihf-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-powerpc64le-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-riscv64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-s390x-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gnome-disk-utility
+Description-md5: 8bbfe121f73fcddf9e0a9c15f0e8afd8
+Description-vi: Quản lý và cấu hình các ổ cứng và phương tiện truyền thông
+ GNOME Disks is a tool to manage disk drives and media:
+ .
+  * Format and partition drives.
+  * Mount and unmount partitions.
+  * Query S.M.A.R.T. attributes.
+ .
+ It utilizes udisks.
+
+Package: gnupg-utils
+Description-md5: e668452bd037f231e404937c9a963ac3
+Description-vi: GNU privacy guard - utility programs
+ GPG (GnuPG) là công cụ GNU để liên lạc với nhau và lưu trữ dữ liệu một
+ cách bảo mật.
+ .
+ This package contains several useful utilities for manipulating OpenPGP
+ data and other related cryptographic elements.  It includes:
+ .
+  * addgnupghome -- create .gnupg home directories
+  * applygnupgdefaults -- run gpgconf --apply-defaults for all users
+  * gpgcompose -- an experimental tool for constructing arbitrary
+                  sequences of OpenPGP packets (e.g. for testing)
+  * gpgparsemail -- parse an e-mail message into annotated format
+  * gpgsplit -- split a sequence of OpenPGP packets into files
+  * gpgtar -- encrypt or sign files in an archive
+  * kbxutil -- list, export, import Keybox data
+  * lspgpot -- convert PGP ownertrust values to GnuPG
+  * migrate-pubring-from-classic-gpg -- use only "modern" formats
+  * symcryptrun -- use simple symmetric encryption tool in GnuPG framework
+  * watchgnupg -- watch socket-based logs
+
+
+Package: gpgconf
+Description-md5: a54470fd043c15b13d18d29306678637
+Description-vi: GNU privacy guard - core configuration utilities
+ GPG (GnuPG) là công cụ GNU để liên lạc với nhau và lưu trữ dữ liệu một
+ cách bảo mật.
+ .
+ This package contains core utilities used by different tools in the suite
+ offered by GnuPG.  It can be used to programmatically edit config files
+ for tools in the GnuPG suite, to launch or terminate per-user daemons (if
+ installed), etc.
+
+Package: gpgv
+Description-md5: 4ea8f4f4d6a0a387a4a3aeba3e6cc888
+Description-vi: GPG — công cụ thẩm tra chữ ký
+ GPG (GnuPG) là công cụ GNU để liên lạc với nhau và lưu trữ dữ liệu một
+ cách bảo mật.
+ .
+ gpgv is actually a stripped-down version of gpg which is only able to
+ check signatures. It is somewhat smaller than the fully-blown gpg and uses
+ a different (and simpler) way to check that the public keys used to make
+ the signature are valid. There are no configuration files and only a few
+ options are implemented.
+
+Package: grep
+Description-md5: f9188c5583d41955f3b3fe60b9d445f1
+Description-vi: grep, egrep và fgrep của GNU
+ « grep » là một tiện ích dùng để tìm kiếm đoạn văn trong tập tin; nó có
+ thể được sử dụng từ dòng lệnh hoặc trong văn lệnh. Thậm chí nếu bạn không
+ muốn sử dụng nó, rất có thể là gói phần mềm khác cần thiết nó.
+ .
+ Nhóm tiện ích grep của GNU có thể là « grep nhanh nhất có thể ». GNU grep
+ dựa vào một công cụ so sánh tất định có tình trạng biếng nhác vẫn nhanh
+ (khoảng tốc độ gấp đôi so với egrep UNIX tiêu chuẩn) gây giống lai với một
+ hàm tìm kiếm Boyer-Moore-Gosper đối với một chuỗi cố định mà loại trừ mọi
+ đoạn văn không thể có được ra cân nhắc của công cụ so sãnh biểu thức chính
+ quy đầy đủ mà không nhất thiết phải xem lại mọi ký tự. Kết quả bình thường
+ nhan gấp nhiều hơn grep hay egrep của UNIX. (Tuy nhiên, biểu thức chính
+ quy chứa tham chiếu ngược thì chạy chậm hơn.)
+
+Package: groff-base
+Description-md5: 106eb90e9251712205de3a823876b349
+Description-vi: Hệ thống định dạng văn bản troff của GNU (các thành phần hệ thống cơ bản)
+ Gói này chứa những công cụ định dạng văn bản truyền thống này: troff,
+ nroff, tbl, eqn, pic Các tiện ích này, cùng với gói « man-db », vẫn chủ
+ yếu để hiển thị trang hướng dẫn trực tuyến.
+ .
+ « groff-base » là một gói nhỏ gọn chứa những thành phần cần thiết để đọc
+ trang hướng dẫn bằng ASCII, Latin-1 và UTF-8, cùng với thiết bị PostScript
+ (mặc định). Người dùng muốn cài đặt groff đầy đủ (có tập hợp tiêu chuẩn
+ các thiết bị, phông chữ, vĩ lệnh và tài liệu hướng dẫn) thì nên cài đặt
+ gói « groff ».
+
+Package: gzip
+Description-md5: 100720c9e2c6508f1a1f3731537b38e5
+Description-vi: Các tiện ích nén của GNU
+ Gói này cung cấp các tiện ích nén tập tin của GNU, mà cũng là các công cụ
+ nén mặc định cho Debian. Bình thường thao tác tập tin kết thúc bằng « .gz
+ »; cũng có thể giải nén tập tin kết thúc bằng « .Z » được tạo bằng lệnh «
+ compress ».
+
+Package: hostname
+Description-md5: a5a22acc3c69a7f40f07f1a8dfc93af1
+Description-vi: tiện ích để lập/hiện tên máy chủ hay tên miền
+ Gói này cung cấp các lệnh có thể sử dụng để hiển thị tên DNS của hệ thống,
+ và để hiển thị hoặc hoạt đặt tên máy chủ hay tên miền NIS.
+
+Package: hyphen-pl
+Description-md5: 86fb13e848cc82c9df265b4d3fdfe085
+Description-vi: Polish hyphenation patterns for LibreOffice/OpenOffice.org
+ Openoffice.org là một bộ phần mềm văn phòng toàn diện có thể thay thế cho
+ Microsoft(R) Office.
+ .
+ This package contains the Polish hyphenation patterns for
+ LibreOffice/OpenOffice.org
+
+Package: info
+Description-md5: 98475bbce3804b8961f7886328b1baea
+Description-vi: Trình duyệt tài liệu Info độc lập của GNU
+ Định dạng tập tin Info là một sự đại diện dễ phân tích cho tài liệu trực
+ tuyến. Chương trình này cho phép bạn xem tài liệu Info, chẳng hạn những
+ tài liệu nằm trong thư mục « /usr/share/info ».
+ .
+ Phần lớn phần mềm trong Debian có sẵn tài liệu hướng dẫn trực tuyến theo
+ định dạng Info thì rất có thể là bạn muốn cài đặt gói này.
+
+Package: install-info
+Description-md5: 1fc51f7aec70d7bdeff2e1bf59b3ebbc
+Description-vi: Quản lý tài liệu hướng dẫn được cài đặt theo định dạng info
+ Tiện ích « install-info » tạo chỉ mục của tất cả các tài liệu hướng dẫn
+ được cài đặt theo định dạng info, và làm cho nó sẵn sàng cho trình đọc mà
+ hỗ trợ định dạng đó.
+
+Package: iproute2
+Description-md5: d10cc46ca4a9e5489b7d2c879fcfba17
+Description-vi: bộ công cụ chạy mạng và điều khiển trọng tải
+ The iproute2 suite is a collection of utilities for networking and traffic
+ control.
+ .
+ Tập hợp công cụ này liên lạc với hạt nhân Linux thông qua giao diện
+ (rt)netlink, cung cấp tính năng tăng cường không sẵn sàng khi dùng công cụ
+ net-tools thừa tự « ifconfig » và « route ».
+
+Package: iptables
+Description-md5: dc4b91f4ed9a9f9fb4896c64ab1f7992
+Description-vi: bộ công cụ quản trị chức năng lọc gói tin và NAT
+ The iptables/xtables framework has been replaced by nftables. You should
+ consider migrating now.
+ .
+ iptables is the userspace command line program used to configure the Linux
+ packet filtering and NAT ruleset. It is targeted towards systems and
+ networks administrators.
+ .
+ This package contains several different utilities, the most important
+ ones:
+ .
+ iptables-nft, iptables-nft-save, iptables-nft-restore (nft-based version)
+ .
+ iptables-legacy, iptables-legacy-save, iptables-legacy-restore (legacy
+ version)
+ .
+ ip6tables-nft, ip6tables-nft-save, ip6tables-nft-restore (nft-based
+ version)
+ .
+ ip6tables-legacy, ip6tables-legacy-save, ip6tables-legacy-restore (legacy
+ version)
+ .
+ arptables-nft, arptables-nft-save, arptables-nft-restore (nft-based
+ version)
+ .
+ ebtables-nft, ebtables-nft-save, ebtables-nft-restore (nft-based version)
+
+Package: iputils-ping
+Description-md5: d70a0a65fee86f2e5c78f759703e9922
+Description-vi: Bộ công cụ để thử tính truy cập của máy trên mạng
+ Lệnh « ping » gửi gói tin ECHO_REQUEST ICMP cho một máy để thử nếu máy đó
+ có thể được truy cập qua mạng không.
+ .
+ Gói này bao gồm một tiện ích ping6 mà hỗ trợ kết nối mạng IPv6.
+
+Package: kmod
+Description-md5: 0cd8f9566ff621a593309a12fd64999f
+Description-vi: bộ công cụ để quản lý các mô-đụn hạt nhân Linux
+ This package contains a set of programs for loading, inserting, and
+ removing kernel modules for Linux. It replaces module-init-tools.
+
+Package: lib32readline-dev
+Description-md5: 668df0fb60b54c6018797f8b7e97a1eb
+Description-vi: GNU readline and history libraries, development files (32-bit)
+ Thư viện readline của GNU giúp bảo tồn một giao diện người dùng qua các
+ chương trình khác nhau mà cần cung cấp một giao diện dòng lệnh.
+ .
+ Thư viện history của GNU cung cấp một giao diện người dùng hợp nhất để lấy
+ lại dòng đầu vào đã gõ trước.
+
+Package: lib32readline8
+Description-md5: 4803b78bfa952422311277cc70d77bea
+Description-vi: GNU readline and history libraries, run-time libraries (32-bit)
+ Thư viện readline của GNU giúp bảo tồn một giao diện người dùng qua các
+ chương trình khác nhau mà cần cung cấp một giao diện dòng lệnh.
+ .
+ Thư viện history của GNU cung cấp một giao diện người dùng hợp nhất để lấy
+ lại dòng đầu vào đã gõ trước.
+
+Package: libc-bin
+Description-md5: 23bffd7c48b5ed8394d07f8132ceb64c
+Description-vi: GNU C Library: Binaries
+ Gói này chứa các chương trình tiện ích liên quan đến thư viện C của GNU.
+ .
+  * getconf: query system configuration variables
+  * getent: get entries from administrative databases
+  * iconv, iconvconfig: convert between character encodings
+  * ldd, ldconfig: print/configure shared library dependencies
+  * locale, localedef: show/generate locale definitions
+  * tzselect, zdump, zic: select/dump/compile time zones
+
+
+Package: liblocale-gettext-perl
+Description-md5: 0a002213d8a0ad34a0f605e0204c21ee
+Description-vi: module using libc functions for internationalization in Perl
+ The Locale::gettext module permits access from perl to the gettext()
+ family of functions for retrieving message strings from databases
+ constructed to internationalize software.
+ .
+ Gói này cung cấp: gettext(), dgettext(), dcgettext(), textdomain(),
+ bindtextdomain(), bind_textdomain_codeset(), ngettext(), dcngettext(),
+ dngettext().
+
+Package: libnewt0.52
+Description-md5: cfc4271054d35387b5e0576f9d7af19a
+Description-vi: NEWT — tạo cửa sổ chế độ văn bản (với slang)
+ Newt là một bộ công cụ tạo cửa sổ cho chế độ văn bản được xây dựng từ thư
+ viện slang. Nó cho phép ứng dụng chế độ văn bản màu sắc cũng dễ dàng sử
+ dụng cửa sổ có thể xếp đống, cái nút bấm, hộp chọn, hộp chọn một, danh
+ sách, trường nhập, nhãn và văn bản có thể hiển thị. Thanh cuộn cũng được
+ hỗ trợ, và đơn cũng có thể được lồng nhau để cung cấp thêm chức năng. Gói
+ này chứa thư viện dùng chung cho chương trình được xây dựng bằng newt.
+
+Package: libpam-modules
+Description-md5: 234b9429528430ead853cc8bbe97ffb4
+Description-vi: Mô-đun xác thực dễ kết hợp cho PAM
+ This package completes the set of modules for PAM. It includes the
+  pam_unix.so module as well as some specialty modules.
+
+
+Package: libpam-runtime
+Description-md5: bc15ddbf92ee7965a8588141c54bb5a1
+Description-vi: Hỗ trợ lúc chạy cho thư viện PAM
+ Chứa các tập tin cấu hình và thư mục yêu cầu để chức năng xác thực có tác
+ động trên hệ thống Debian. Gói này cần thiết trên gần mọi bản cài đặt.
+
+Package: libreadline-dev
+Description-md5: 3793ef1d4c2c0318abafe0980aadcd30
+Description-vi: GNU readline and history libraries, development files
+ Thư viện readline của GNU giúp bảo tồn một giao diện người dùng qua các
+ chương trình khác nhau mà cần cung cấp một giao diện dòng lệnh.
+ .
+ Thư viện history của GNU cung cấp một giao diện người dùng hợp nhất để lấy
+ lại dòng đầu vào đã gõ trước.
+ .
+ This package contains development files.
+
+Package: libreadline8t64
+Description-md5: 02109af5819248ca867891090079f329
+Description-vi: GNU readline and history libraries, run-time libraries
+ Thư viện readline của GNU giúp bảo tồn một giao diện người dùng qua các
+ chương trình khác nhau mà cần cung cấp một giao diện dòng lệnh.
+ .
+ Thư viện history của GNU cung cấp một giao diện người dùng hợp nhất để lấy
+ lại dòng đầu vào đã gõ trước.
+
+Package: libsepol2
+Description-md5: d569fae7efa3328b3d40879b104d9a63
+Description-vi: Thư viện SELinux để thao tác chính sách bảo mật nhị phân
+ SELinux (Linux do bảo mật tăng cường) là một đắp vá của hạt nhân Linux, và
+ một số tiện ích có chức năng bảo mật cấp cao, được thiết kế để thêm vào
+ Linux điều khiển truy cập bắt buộc phải sử dụng. Hạt nhân SELinux chứa
+ thành phần kiến trúc mới được thiết kế gốc để cải tiến mức bảo mật của hệ
+ điều hành Flask. Thành phần kiến trúc này cung cấp hỗ trợ chung để ép buộc
+ nhiều loại chính sách điều khiển truy cập bắt buộc phải sử dụng, bao gồm
+ những chính sách dựa vào ý niệm Type Enforcement® (ép buộc loại), Role-
+ Based Access Control (điều khiển truy cập dựa vào nhiệm vụ), và Multi-
+ Level Security (bảo mật đa cấp).
+ .
+ Gói « libsepol » cung cấp một API (giao diện lập trình ứng dụng) để thao
+ tác các chính sách nhị phân SELinux. Nó dùng bởi « checkpolicy » (bộ biên
+ dịch chính sách) và các công cụ tương tự, cũng như chương trình như «
+ loadpolicy » mà cần thực hiện việc chuyển dạng riêng với chính sách nhị
+ phân (v.d. tùy chỉnh thiết lập đúng/sai về chính sách).
+
+Package: libtext-charwidth-perl
+Description-md5: 30483f9a76c70cf6313cecc3a60f2a13
+Description-vi: lấy chiều dài hiển thị của ký tự trên thiết bị cuối
+ Text::CharWidth permits one to get the display widths of characters and
+ strings on the terminal, using wcwidth() and wcswidth() from libc.
+ .
+ Nó cung cấp mbwidth(), mbswidth(), mblen().
+
+Package: libtext-wrapi18n-perl
+Description-md5: 6444c64be001648094335df7a6b952d0
+Description-vi: thay thế quốc tế hoá cho Text::Wrap
+ The Text::WrapI18N module is a substitution for Text::Wrap, supporting
+ multibyte characters such as UTF-8, EUC-JP, and GB2312, fullwidth
+ characters such as east Asian characters, combining characters such as
+ diacritical marks and Thai, and languages which don't use whitespaces
+ between words such as Chinese and Japanese.
+ .
+ Nó cung cấp wrap().
+
+Package: login
+Description-md5: d0499c2dea8faa45484daa5ced2d38b5
+Description-vi: các công cụ đăng nhập vào hệ thống
+ This package provides some required infrastructure for logins and for changing effective user or group IDs, including:
+  * login, the program that invokes a user shell on a virtual terminal;
+  * nologin, a dummy shell for disabled user accounts;
+
+
+Package: logrotate
+Description-md5: bb73169bb75b2b8a2fda1453d214416d
+Description-vi: Tiện ích quay lại sổ theo dõi
+ Tiện ích « logrotate » được thiết kế để làm đơn giản quá trình quản trị
+ các tập tin theo dõi trên một hệ thống rất hoạt động. Gói này cho phép tự
+ động quay lại, nén, gỡ bỏ và gửi đính kèm thư các tập tin theo dõi. Có thể
+ lập « logrotate » để quản lý một tập tin theo dõi hằng ngày, hằng tuần,
+ hàng tháng hoặc khi tập tin theo dõi tới một kích cỡ đưa ra. Bình thường,
+ chương trình « logrotate » chạy như là một công việc định thời (cron) hằng
+ ngày.
+
+Package: lsb-release
+Description-md5: d169c747869c77674a82667e31928deb
+Description-vi: Linux Standard Base version reporting utility (minimal implementation)
+ Cơ bản Tiêu chuẩn Linux (Linux Standard Base: http://www.linuxbase.org/)
+ là một hệ thống lõi tiêu chuẩn đáng tin cây của các ứng dụng nhóm ba được
+ tạo cho Linux.
+ .
+ The lsb_release command is a simple tool to help identify the Linux
+ distribution being used and its compliance with the Linux Standard Base.
+ .
+ This package contains a bare-bones implementation that uses the
+ information in /etc/os-release instead of relying on LSB packages.
+
+Package: manpages
+Description-md5: c655b859b2e2d890cebc6b412a58ef93
+Description-vi: Các trang hướng dẫn về cách sử dụng hệ thống GNU/Linux
+ This package contains GNU/Linux manual pages for these sections:
+  4 = Devices (e.g. hd, sd).
+  5 = File formats and protocols, syntaxes of several system
+      files (e.g. wtmp, /etc/passwd, nfs).
+  7 = Conventions and standards, macro packages, etc.
+      (e.g. nroff, ascii).
+ .
+ Beside the intro man page describing the section, a few manual pages from
+ sections 1,6 and 8 are also provided.
+ .
+ Trang hướng dẫn cũng diễn tả cú pháp của vài tập tin hệ thống.
+
+Package: mawk
+Description-md5: 05965bfcd1a2333e963d9f1945d161fc
+Description-vi: Pattern scanning and text processing language
+ Mawk là một công cụ đọc ngôn ngữ lập trình AWK. Ngôn ngữ AWK hữu ích khi
+ thao tác các tập tin dữ liệu, lấy và xử lý văn bản, và tạo thuật toán mẫu
+ tử và làm thử nghiệm thuật toán. Mawk là một awk mới, nghĩa là nó thực
+ hiện ngôn ngữ lập trình AWK như xác định trong cuốn sách: Aho, Kernighan
+ and Weinberger, The AWK Programming Language, Addison-Wesley Publishing,
+ 1988 (sau đây được gọi « sách AWK »). Mawk tùy theo tiêu chuẩn POSIX
+ 1003.2 (bản nháp 11.3) về ngôn ngữ AWK, mà chứa vài tính năng không được
+ diễn tả trong sách AWK, và mawk cũng cung cấp một số phần mở rộng.
+ .
+ Mawk chậm hơn và rất nhanh hơn gawk. Nó có một số thời hạn biên dịch, v.d.
+ NF = 32767 và sprintf buffer = 1020.
+
+Package: mount
+Description-md5: 90e187380786a435bb9c85b37afa2c5f
+Description-vi: tools for mounting and manipulating filesystems
+ Gói này cung cấp những lệnh này: mount(8), umount(8), swapon(8),
+ swapoff(8), losetup(8)
+
+Package: mutt
+Description-md5: 14c29b7cb02b614c08865f8fb8a0ac39
+Description-vi: trình đọc thư tín dựa vào văn bản cũng hỗ trợ MIME, GPG, PGP và nhánh thư
+ Mutt là một tác nhân người dùng thư tín (MUA) dựa vào văn bản mà tinh tế
+ và đầy tính năng. Chẳng hạn:
+ .
+  * MIME support (including RFC1522 encoding/decoding of 8-bit message
+    headers and UTF-8 support).
+  * PGP/MIME support (RFC 2015).
+  * Advanced IMAP client supporting SSL encryption and SASL authentication.
+  * POP3 support.
+  * ESMTP support.
+  * Message threading (both strict and non-strict).
+  * Keybindings are configurable, default keybindings are much like ELM;
+    Mush and PINE-like ones are provided as examples.
+  * Handles MMDF, MH and Maildir in addition to regular mbox format.
+  * Messages may be (indefinitely) postponed.
+  * Colour support.
+  * Highly configurable through easy but powerful rc file.
+  * Support for compressed mailboxes.
+  * An optional Sidebar.
+
+
+Package: mythes-en-au
+Description-md5: 7ba8c201fd7908b37ed84e4a8b468dd5
+Description-vi: Australian English Thesaurus for OpenOffice.org
+ Openoffice.org là một bộ phần mềm văn phòng toàn diện có thể thay thế cho
+ Microsoft(R) Office.
+ .
+ This package contains an Australian English thesaurus for OpenOffice.org.
+ It is based on the American version, but has American spellings removed.
+
+Package: mythes-pl
+Description-md5: 3a107343aebe7b885d6bcbd43aff3668
+Description-vi: Polish thesaurus for LibreOffice/OpenOffice.org
+ Openoffice.org là một bộ phần mềm văn phòng toàn diện có thể thay thế cho
+ Microsoft(R) Office.
+ .
+ This package contains the Polish thesaurus for LibreOffice/OpenOffice.org.
+
+Package: nano
+Description-md5: af29527665aea4297c3c5acbb24cf1fa
+Description-vi: trình chỉnh sửa văn bản vẫn nhỏ và thân thiện, bắt nguồn từ Pico
+ « nano » của GNU là một trình chỉnh sửa văn bản dễ sử dụng được thiết kế
+ gốc để thay thế Pico, trình chỉnh sửa dựa vào ncurses từ gói trình thư
+ khác tự do Pine (chính nó giờ sẵn sàng dưới Giấy Phép Apache với tên «
+ Alpine »).
+ .
+ However, GNU nano also implements many features missing in Pico, including:
+  - undo/redo
+  - line numbering
+  - syntax coloring
+  - soft-wrapping of overlong lines
+  - selecting text by holding Shift
+  - interactive search and replace (with regular expression support)
+  - a go-to line (and column) command
+  - support for multiple file buffers
+  - auto-indentation
+  - tab completion of filenames and search terms
+  - toggling features while running
+  - and full internationalization support
+
+
+Package: net-tools
+Description-md5: 08f345ee19e62d4fd85e960d3a061a33
+Description-vi: NET-3 networking toolkit
+ Gói này bao gồm những công cụ quan trọng để điều khiển hệ thống phụ mạng
+ của hạt nhân Linux. Gồm có arp, ifconfig, netstat, rarp, nameif, route.
+ Cũng có tiện ích liên quan đến kiểu phần cững mạng đặc riêng (plipconfig,
+ slattach, mii-tool) và khía cạnh cấp cao của cấu hình IP (iptunnel,
+ ipmaddr).
+ .
+ Trong gói của dự án gốc cũng gồm có « hostname » và các tiện ích tương
+ ứng. Chúng không được cài đặt bởi gói này, vì có một gói « hostname*.deb »
+ đặc biệt.
+
+Package: netbase
+Description-md5: 0067051a6900632d08b20b289ccd8331
+Description-vi: Hệ thống chạy mạng TCP/IP cơ bản
+ Gói này cung cấp hạ tầng cơ sở cần thiết cho chức năng chạy mạng TCP/IP cơ
+ bản.
+ .
+ In particular, it supplies common name-to-number mappings in
+ /etc/services, /etc/rpc, /etc/protocols and /etc/ethertypes.
+
+Package: netcat-openbsd
+Description-md5: d6f7da83d4c946b2cb127e466fba1e0e
+Description-vi: Tiện ích TCP/IP đa mục đích
+ A simple Unix utility which reads and writes data across network
+ connections using TCP or UDP protocol. It is designed to be a reliable
+ "back-end" tool that can be used directly or easily driven by other
+ programs and scripts. At the same time it is a feature-rich network
+ debugging and exploration tool, since it can create almost any kind of
+ connection you would need and has several interesting built-in
+ capabilities.
+ .
+ This package contains the OpenBSD rewrite of netcat, including support for
+ IPv6, proxies, and Unix sockets.
+
+Package: passwd
+Description-md5: 5bbd70e421ed3367a8299e53bd7afed4
+Description-vi: thay đổi và quản trị dữ liệu về mật khẩu và nhóm
+ Gói này chứa passwd, chsh, chfn và nhiều chương trình khác để duy trì dữ
+ liệu về mật khẩu và nhóm.
+ .
+ Cũng hỗ trợ mật khẩu bóng (shadow password). Xem tài liệu Đọc Đi «
+ /usr/share/doc/passwd/README.Debian ».
+
+Package: perl-base
+Description-md5: ece2e9985a7181373ff7eca2ef962ca7
+Description-vi: hệ thống Perl tối thiểu
+ Perl là một ngôn ngữ tạo văn lệnh được dùng trong rất nhiều văn lệnh và
+ tiện ích của hệ thống.
+ .
+ This package provides a Perl interpreter and the small subset of the
+ standard run-time library required to perform basic tasks. For a full Perl
+ installation, install "perl" (and its dependencies, "perl-modules-5.38"
+ and "perl-doc").
+
+Package: procmail
+Description-md5: 5fe1752f436b234d8c33cb0e7484299f
+Description-vi: Bộ xử lý thư điện tử đầy khả năng
+ Chương trình này có thể được sử dụng để tạo trình phục vụ thư tín, hộp thư
+ chung, sắp xếp các thư gửi đến vào các thư mục hay tập tin khác nhau (rất
+ tiện lợi khi đăng ký với một hay nhiều hộp thư chung, hoặc để định quyền
+ ưu tiên cho thư), tiền xử lý thư, khởi chạy chương trình nào khi nhận thư
+ (v.d. để phát các âm thanh khác nhau trên máy tính cho các kiểu thư khác
+ nhau) hoặc lựa chọn tự động chuyển tiếp thư gửi đến cho ai đó.
+
+Package: procps
+Description-md5: 943f3288c1aaa379fca73a3ff1a35278
+Description-vi: Các tiện ích hệ thống tập tin /proc
+ Gói này cung cấp các tiện ích dòng lệnh và toàn màn hình để duyệt qua hệ
+ thống tập tin « procfs », một hệ thống tập tin « giả » được tạo động bởi
+ hạt nhân để cung cấp thông tin về trạng thái về các mục nhập trong bảng
+ tiến trình (v.d. đang chạy, bị dừng, « ma »).
+ .
+ Gói này bao gồm những tiện ích theo đây: free, kill, pkill, pgrep, pmap,
+ ps, pwdx, skill, slabtop, snice, sysctl, tload, top, uptime, vmstat, w,
+ watch
+
+Package: python3-debconf
+Description-md5: 6eb68ef192205a26cb3bc6cddf1fd404
+Description-vi: interact with debconf from Python 3
+ Debconf là một hệ thống quản lý cấu hình cho các gói Debian. Cài đặt gói
+ Debian thì nó sử dụng Debconf để hỏi câu về thiết lập thích hợp.
+ .
+ This package provides a debconf module to allow Python 3 programs to
+ interact with a debconf frontend.
+
+Package: readline-common
+Description-md5: c8e28b105311ffa41fe6e8f86c041f82
+Description-vi: Các thư viện readline và history, tập tin dùng chung của GNU
+ Thư viện readline của GNU giúp bảo tồn một giao diện người dùng qua các
+ chương trình khác nhau mà cần cung cấp một giao diện dòng lệnh.
+ .
+ Thư viện history của GNU cung cấp một giao diện người dùng hợp nhất để lấy
+ lại dòng đầu vào đã gõ trước.
+
+Package: readline-doc
+Description-md5: c8534f555dbe0fd59472187417afcf19
+Description-vi: GNU readline and history libraries, documentation and examples
+ Thư viện readline của GNU giúp bảo tồn một giao diện người dùng qua các
+ chương trình khác nhau mà cần cung cấp một giao diện dòng lệnh.
+ .
+ Thư viện history của GNU cung cấp một giao diện người dùng hợp nhất để lấy
+ lại dòng đầu vào đã gõ trước.
+
+Package: sed
+Description-md5: 2ed71305ee7a49ce4438c58140980d2f
+Description-vi: GNU stream editor for filtering/transforming text
+ sed đọc các tập tin đưa ra hay đầu vào tiêu chuẩn (stdin) nếu không đưa ra
+ gì. Nó sửa đổi tập tin tùy theo danh sách câu lệnh, và ghi kết quả vào đầu
+ ra tiêu chuẩn (stdout).
+
+Package: sensible-utils
+Description-md5: 0cae32d4822230d3085b3b32b05a416c
+Description-vi: Các tiện ích cho lựa chọn xen kẽ hợp lý
+ This package provides a number of small utilities which are used by
+ programs to sensibly select and spawn an appropriate browser, editor,
+ pager, or terminal emulator.
+ .
+ The specific utilities included are: sensible-browser sensible-editor
+ sensible-pager sensible-terminal
+
+Package: sysvinit-utils
+Description-md5: 6de18cd5530693b7e1a01d243c037661
+Description-vi: Các tiện ích kiểu System-V
+ Gói này chứa các tiện ích kiểu System-V quan trọng.
+ .
+ Specifically, this package includes: init-d-script, fstab-decode,
+ killall5, pidof
+ .
+ It also contains the library scripts sourced by init-d-script and other
+ initscripts that were formally in lsb-base.
+
+Package: tar
+Description-md5: 48033bf96442788d1f697785773ad9bb
+Description-vi: Phiên bản GNU của tiện ích nén tar
+ Tar là một chương trình để nén một tập hợp các tập tin thành một kho nén
+ riêng lẻ theo định dạng tar. Chức năng này tương tự với cpio, và với phần
+ mềm như PKZIP trên hệ thống DOS. Tar được sử dụng nặng bởi hệ thống quản
+ lý gói Debian, và hữu ích để thực hiện quá trình sao lưu hệ thống, và trao
+ đổi tập hợp các tập tin với người khác.
+
+Package: tzdata
+Description-md5: a77a3cc9a67658dd7cfdc6547391b8f8
+Description-vi: dữ liệu về múi giờ và giờ giữ ban ngày
+ Gói này chứa dữ liệu yêu cầu để thực hiện thời gian địa phương tiêu chuẩn
+ cho nhiều vị trí đại diện trên khắp thế giới. Nó được cập nhật một cách
+ định kỳ để phản ánh thay đổi được làm bởi nhóm chính trị về biên giới múi
+ giờ, khoảng bù UTC và quy tắc giờ giữ ban ngày.
+
+Package: tzdata-legacy
+Description-md5: e9abab063129c60dae9d14447e549234
+Description-vi: time zone data for TAI minus ten seconds
+ Gói này chứa dữ liệu yêu cầu để thực hiện thời gian địa phương tiêu chuẩn
+ cho nhiều vị trí đại diện trên khắp thế giới. Nó được cập nhật một cách
+ định kỳ để phản ánh thay đổi được làm bởi nhóm chính trị về biên giới múi
+ giờ, khoảng bù UTC và quy tắc giờ giữ ban ngày.
+ .
+ This package contains timezones counted in International Atomic Time with
+ a -10 second offset (TAI-10s) in /usr/share/zoneinfo/right. This is the
+ current IBM recommended setting of hardware clocks on IBM mainframes,
+ which ran on GMT until the inception of UTC in 1972 when TAI was 10
+ seconds ahead of UTC. IBM switched to running clocks at the atomic rate
+ and introduced the 10-second offset in order to avoid a discontinuity.
+ .
+ This package also contains legacy timezone symlinks that are not following
+ the current rule of using the geographical region (continent or ocean) and
+ city name.
+ .
+ You do not need this package if you are unsure.
+
+Package: udev
+Description-md5: e875ddb09f46f1f7672af537f0c875ca
+Description-vi: Trình nền quản lý « /dev » và chức năng cắm nóng
+ « udev » là một trình nền mà tạo và gỡ bỏ một cách động các nút thiết bị
+ trong/ra thư mục « /dev ». Nó cũng quản lý các sự kiện cắm nóng, và nạp
+ các trình điều khiển vào lúc khởi động.
+
+Package: vim
+Description-md5: 59e8b8f7757db8b53566d5d119872de8
+Description-vi: Vi IMproved - enhanced vi editor
+ Vim là một phiên bản gần tương thích của trình chỉnh sửa UNIX, « Vi ».
+ .
+ Nhiều tính năng mới đã được thêm vào (v.d.):
+    hủy bước đa cấp
+    tô sáng cú pháp
+    lược sử dòng lệnh
+    trợ giúp trực tuyến
+    điền nốt tên tập tin
+    thao tác khối
+    gấp lại
+    hỗ trợ UTF-8
+ .
+ This package contains a version of vim compiled with a rather standard set
+ of features.  This package does not provide a GUI version of Vim.  See the
+ other vim-* packages if you need more (or less).
+
+Package: vim-common
+Description-md5: 30b64c3dceccc4faef229eafc38d0069
+Description-vi: VIM — các tập tin chung
+ Vim là một phiên bản gần tương thích của trình chỉnh sửa UNIX, « Vi ».
+ .
+ This package contains files shared by all non GUI-enabled vim variants
+ available in Debian.  Examples of such shared files are: manpages and
+ configuration files.
+
+Package: vim-doc
+Description-md5: bba166bf0174232f296031de0b68b351
+Description-vi: Vi IMproved - HTML documentation
+ Vim là một phiên bản gần tương thích của trình chỉnh sửa UNIX, « Vi ».
+ .
+ This package contains the HTML version of the online documentation.  It is
+ built from the runtime/doc directory of the source tree.
+
+Package: vim-runtime
+Description-md5: 97bb83c83cb35767c340c5066ce9be0c
+Description-vi: Vi IMproved - Runtime files
+ Vim là một phiên bản gần tương thích của trình chỉnh sửa UNIX, « Vi ».
+ .
+ This package contains vimtutor and the architecture independent runtime
+ files, used, if available, by all vim variants available in Debian.
+ Example of such runtime files are: online documentation, rules for
+ language-specific syntax highlighting and indentation, color schemes, and
+ standard plugins.
+
+Package: vim-tiny
+Description-md5: fe73b8215543cb5fd9e09b0b6e59a151
+Description-vi: VIM — trình chỉnh sửa vi tăng cường — phiên bản nhỏ gọn
+ Vim là một phiên bản gần tương thích của trình chỉnh sửa UNIX, « Vi ».
+ .
+ This package contains a minimal version of Vim compiled with no GUI and a
+ small subset of features. This package's sole purpose is to provide the vi
+ binary for base installations.
+ .
+ If a vim binary is wanted, try one of the following more featureful
+ packages: vim, vim-nox, vim-motif, or vim-gtk3.
+
+Package: wget
+Description-md5: 63a4a740bcd9e8e94bf661e4f1806e02
+Description-vi: lấy tập tin từ Web
+ Wget is a network utility to retrieve files from the web using HTTP(S) and
+ FTP, the two most widely used internet protocols. It works non-
+ interactively, so it will work in the background, after having logged off.
+ The program supports recursive retrieval of web-authoring pages as well as
+ FTP sites -- you can use Wget to make mirrors of archives and home pages
+ or to travel the web like a WWW robot.
+ .
+ Wget works particularly well with slow or unstable connections by
+ continuing to retrieve a document until the document is fully downloaded.
+ Re-getting files from where it left off works on servers (both HTTP and
+ FTP) that support it. Both HTTP and FTP retrievals can be time stamped, so
+ Wget can see if the remote file has changed since the last retrieval and
+ automatically retrieve the new version if it has.
+ .
+ wget hỗ trợ máy phục vụ ủy nhiệm: tính năng này có thể giảm tải trên mạng,
+ tăng tốc lấy, và cung cấp truy cập ở đằng sau tường lửa.
+
+Package: whiptail
+Description-md5: 845a08009ef9f0ef4ecc0aedd3a36ffa
+Description-vi: Hiển thị hộp thoại thân thiện với người dùng từ văn lệnh trình bao
+ Gói « whiptail » là một sự thay thế « dialog » bằng « newt » hơn là «
+ ncurses ». Nó cung cấp một phương pháp hiển thị vài kiểu hộp thoại khác
+ nhau từ văn lệnh trình bao. Chức năng này cho phép nhà phát triển sử dụng
+ văn lệnh để tương tác với người dùng bằng một cách rất thân thiện hơn.
+
+Package: lib64readline-dev
+Description-md5: 8cc45075e945d3b096b1308cf10078b5
+Description-vi: GNU readline and history libraries, development files (64-bit)
+ Thư viện readline của GNU giúp bảo tồn một giao diện người dùng qua các
+ chương trình khác nhau mà cần cung cấp một giao diện dòng lệnh.
+ .
+ Thư viện history của GNU cung cấp một giao diện người dùng hợp nhất để lấy
+ lại dòng đầu vào đã gõ trước.
+
+Package: lib64readline8
+Description-md5: 00a13288424388ae43765b5040434241
+Description-vi: GNU readline and history libraries, run-time libraries (64-bit)
+ Thư viện readline của GNU giúp bảo tồn một giao diện người dùng qua các
+ chương trình khác nhau mà cần cung cấp một giao diện dòng lệnh.
+ .
+ Thư viện history của GNU cung cấp một giao diện người dùng hợp nhất để lấy
+ lại dòng đầu vào đã gõ trước.
+
+Package: powerpc-ibm-utils
+Description-md5: a0b7f43a4f1655545d52671105cda789
+Description-vi: các tiện ích để duy trì nền tảng PowerPC IBM
+ Gói « powerpc-ibm-utils » cung cấp những tiện ích đưa ra dưới đây, dự định
+ để duy trì nền tảng PowerPC (PPC). Để tìm thêm thông tin, xem trang hướng
+ dẫn tương ứng.
+ .
+  * nvram - NVRAM access utility
+  * bootlist - boot configuration utility
+  * ofpathname - translate logical device names to OF names
+  * snap - system configuration snapshot
+  * ppc64_cpu - cpu settings utility
+
+

@@ -1,0 +1,16 @@
+Package: sl-modem-daemon
+Description-md5: dd33edc29e8f6ca6bd7aaea974c49391
+Description-et: SmartLinki tarkvaralise modemi deemon
+ SmartLinki modemideemon on rakenduseosa hiljutiste Smart Link Ltd.
+ toodetud modemite draiverile.
+ .
+ See pakett (koos riistvaralise juurdepääsu draiveritega) asendab vana
+ draiveripõlvkonna (2.7.x), mis koosnes ainult kernelimoodulitest.
+ .
+ It needs a kernel driver to access the hardware. This can be either recent
+ ALSA (shipped with a newer kernel (>=2.6.4) with ALSA support and snd-
+ intel8x0m module) which is sufficient for basic operation and
+ data/Internet connection, or the SmartLink kernel driver which is provided
+ by separate packages which you can build using the source from the sl-
+ modem-dkms package.
+

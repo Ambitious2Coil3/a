@@ -1,0 +1,391 @@
+Package: aptdaemon
+Description-md5: 5ed476246aefb12d0c1b0deb4818778b
+Description-ro: transaction based package management service
+ Aptdaemon allows normal users to perform package management tasks, e.g.
+ refreshing the cache, upgrading the system, installing or removing
+ software packages.
+ .
+ În această versiune sunt implementate următoarele facilități principale:
+ .
+  - Programming language independent D-Bus interface, which allows one to
+    write clients in several languages
+  - Runs only if required (D-Bus activation)
+  - Fine grained privilege management using PolicyKit, e.g. allowing all
+    desktop user to query for updates without entering a password
+  - Support for media changes during installation from DVD/CDROM
+  - Support for debconf (Debian's package configuration system)
+  - Support for attaching a terminal to the underlying dpkg call
+ .
+ This package contains the aptd script and all the data files required to
+ run the daemon. Moreover it contains the aptdcon script, which is a
+ command line client for aptdaemon. The API is not stable yet.
+
+Package: autopkgtest
+Description-md5: 31d9217a487d44cfd80f0588068648cd
+Description-ro: program pentru testarea pachetelor Debian instalate pe sisteme de încercare
+ autopkgtest testează pachete executabile. Aceste teste sunt efectuate pe
+ sisteme de încercare (care pot fi obținute prin virtualizare sau printr-un
+ sistem „container”. Testele sunt de regulă incluse în pachetele
+ corespondente cu surse Debian.
+ .
+ See autopkgtest(1) and /usr/share/doc/autopkgtest. Depending on which
+ virtualization server you want to use, you need to install additional
+ packages (schroot, lxc, lxd, or qemu-system)
+ .
+ For generating tests of well-known source packages such as Perl and Ruby
+ libraries you should install the autodep8 package.
+
+Package: bash
+Description-md5: 3522aa7b4374048d6450e348a5bb45d9
+Description-ro: GNU Bourne Again SHell
+ Bash este un intepretor pentru limbaje de comenzi compatibil cu sh ce
+ execută comenzi introduse direct sau citite dintr-un fișier. Bash,
+ deasemenea, include facilități din interpretoarele Korn și C (ksh și csh).
+ .
+ Bash intenționează să fie o implementare conform specificației IEEE POSIX
+ Shell and Tools (IEEE Working Group 1003.2).
+ .
+ Codul pentru completare programabilă de Ian Macdonald se găsește în
+ pachetul bash-completion.
+
+Package: bash-doc
+Description-md5: 232b3e580e9136f4e0c8f65a0c7a5b36
+Description-ro: Documentation and examples for the GNU Bourne Again SHell
+ Bash este un intepretor pentru limbaje de comenzi compatibil cu sh ce
+ execută comenzi introduse direct sau citite dintr-un fișier. Bash,
+ deasemenea, include facilități din interpretoarele Korn și C (ksh și csh).
+ .
+ This package contains the distributable documentation, all the examples
+ and the main changelog.
+
+Package: bind9
+Description-md5: 2cdf89d501b5ca6fe55e945de47cc047
+Description-ro: Sistemul DNS (Domain Name Server) pentru Internet
+ The Berkeley Internet Name Domain (BIND 9) implements an Internet domain
+ name server.  BIND 9 is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium,
+ www.isc.org.
+ .
+ This package provides the server and related configuration files.
+
+Package: bison
+Description-md5: 3b8154d16aa228f689bcd81364e7088c
+Description-ro: YACC-compatible parser generator
+ Bison este un generator de analize în scopuri generale care convertește o
+ sintaxă pentru un context liber LALR(1) într-un program C pentru
+ analizarea acelei sintaxe. Odată ce stăpâniți Bison, îl puteți folosi la
+ dezvoltarea unei game largi de limbaje pentru analiză, de la cele
+ utilizate în calculatoarele pentru calcule aritmetice simple până la
+ limbajele complexe de programare.
+ .
+ Bison este compatibil cu Yacc: toate sintaxele Yacc scrise bine trebuie să
+ lucreze cu Bison fără probleme. Oricine cunoaște Yacc ar trebui să poată
+ folosi Bison fără multe bătăi de cap. Documentația programului este
+ conținută în pachetul bison-doc.
+
+Package: bison-doc
+Description-md5: fa66ecf8b2aadc0777e1c4b1847c3b77
+Description-ro: Documentation for the Bison parser generator
+ Bison este un generator de analize în scopuri generale care convertește o
+ sintaxă pentru un context liber LALR(1) într-un program C pentru
+ analizarea acelei sintaxe. Odată ce stăpâniți Bison, îl puteți folosi la
+ dezvoltarea unei game largi de limbaje pentru analiză, de la cele
+ utilizate în calculatoarele pentru calcule aritmetice simple până la
+ limbajele complexe de programare.
+ .
+ This package contains the PDF and Info documentation for Bison.
+
+Package: blt
+Description-md5: 76f41827b0148185045bf32900e8cacb
+Description-ro: graphics extension library for Tcl/Tk - run-time
+ BLT este o bibliotecă care conține extensii utile ale limbajului Tcl și
+ ale trusei de unelte grafice, foarte populare, Tk. Ea aduce date de tip
+ vectorial și structură arborescentă, execuție în fundal și câteva
+ utilitare pentru depanarea Tcl, precum și câteva controale pentru Tk,
+ printre care grafice, diagrame, ierarhii, categorii, caneluri și hiper-
+ legături, un administrator geometric nou, suport „trage și plasează” (drag
+ & drop), și altele.
+ .
+ This package is a dummy package which depends on the current BLT library.
+
+Package: blt-dev
+Description-md5: 44af66f352120a6c751bc742de4a0748
+Description-ro: graphics extension library for Tcl/Tk - development files
+ BLT este o bibliotecă care conține extensii utile ale limbajului Tcl și
+ ale trusei de unelte grafice, foarte populare, Tk. Ea aduce date de tip
+ vectorial și structură arborescentă, execuție în fundal și câteva
+ utilitare pentru depanarea Tcl, precum și câteva controale pentru Tk,
+ printre care grafice, diagrame, ierarhii, categorii, caneluri și hiper-
+ legături, un administrator geometric nou, suport „trage și plasează” (drag
+ & drop), și altele.
+ .
+ This package contains the headers and libraries needed to extend or embed
+ BLT.
+
+Package: bogl-bterm
+Description-md5: fe97701510fdc5e5e434e93cc1a3672c
+Description-ro: Ben's Own Graphics Library - terminal grafic
+ Ben's Own Graphics Library is a small framebuffer library, including basic
+ widgets, support for text in multiple languages, and mouse handling.
+ .
+ Acest pachet conține bterm, un editor de platforme cu suport UTF.
+
+Package: build-essential
+Description-md5: 90ef0ef86cafda0bd16f746eb621d9da
+Description-ro: Informational list of build-essential packages
+ If you do not plan to build Debian packages, you don't need this package.
+ Starting with dpkg (>= 1.14.18) this package is required for building
+ Debian packages.
+ .
+ This package contains an informational list of packages which are
+ considered essential for building Debian packages.  This package also
+ depends on the packages on that list, to make it easy to have the build-
+ essential packages installed.
+ .
+ Dacă ați instalat acest pachet, trebuie doar să instalați doar
+ dependențele specificate de un anumit pachet în timpul construirii
+ dependențelor. Pe cale de consecință, dacă identificați pachetele necesare
+ ca dependențe pentru instalarea unui anumit pachet, puteți ignora
+ pachetele de care depinde build-essential.
+ .
+ This package is NOT the definition of what packages are build-essential;
+ the real definition is in the Debian Policy Manual. This package contains
+ merely an informational list, which is all most people need.   However, if
+ this package and the manual disagree, the manual is correct.
+
+Package: busybox-initramfs
+Description-md5: 07bc91bcf5e1da8f300c48c3d990ca10
+Description-ro: Consolă independentă pentru configurarea initframs
+ BusyBox combines tiny versions of many common UNIX utilities into a single
+ small executable. It provides minimalist replacements for the most common
+ utilities you would usually find on your desktop system (i.e., ls, cp, mv,
+ mount, tar, etc.). The utilities in BusyBox generally have fewer options
+ than their full-featured GNU cousins; however, the options that are
+ included provide the expected functionality and behave very much like
+ their GNU counterparts.
+ .
+ busybox-initramfs provides a simple stand alone shell that provides only
+ the basic utilities needed for the initramfs.
+
+Package: bzip2
+Description-md5: 1e71313ce794d3de1e3bc63ac58885b5
+Description-ro: arhivator de fișiere, de calitate foarte bună, pe algoritmul de sortare de blocuri - utilitare
+ bzip2 is a freely available, patent free, data compressor.
+ .
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding.  Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.
+ .
+ The archive file format of bzip2 (.bz2) is incompatible with that of its
+ predecessor, bzip (.bz).
+
+Package: bzip2-doc
+Description-md5: 2cfb09927b68e01a771bb52d416c05ba
+Description-ro: arhivator de fișiere, de calitate foarte bună, pe algoritmul de sortare de blocuri - documentație
+ This package contains the bzip2 user manual in HTML, PDF, PS and Texinfo
+ formats.
+ .
+ bzip2 is a freely available, patent free, data compressor.
+ .
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding.  Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.
+ .
+ The archive file format of bzip2 (.bz2) is incompatible with that of its
+ predecessor, bzip (.bz).
+
+Package: ca-certificates
+Description-md5: e867d2a359bea1800b5bff209fc65bd1
+Description-ro: Certificate CA comune
+ Contains the certificate authorities shipped with Mozilla's browser to
+ allow SSL-based applications to check for the authenticity of SSL
+ connections.
+ .
+ Please note that Debian can neither confirm nor deny whether the
+ certificate authorities whose certificates are included in this package
+ have in any way been audited for trustworthiness or RFC 3647 compliance.
+ Full responsibility to assess them belongs to the local system
+ administrator.
+
+Package: ca-certificates-java
+Description-md5: 304cd3554728e5d076f8ecbb3b5057d8
+Description-ro: Certificate CA comune (fișiere stocare chei JKS)
+ Acest pachet utilizează legăturile certificatelor CA din pachet pentru
+ actualizarea fișierelor JKS cacert folosite în multe executări java.
+
+Package: debconf
+Description-md5: 85b82bf406dfc9a635114f44ab7fb66d
+Description-ro: Sistemul de management al configuratiei
+ Debconf este un sistem de management al configuratiei pentru pachetele din
+ Debian. Pachetele folosesc Debconf pentru a pune intrebari atunci cand
+ sunt instalate.
+
+Package: diffutils
+Description-md5: 5cf0bc18e36aa2957e62b309d6aa34f9
+Description-ro: Utilitare pentru compararea fișierelor
+ The diffutils package provides the diff, diff3, sdiff, and cmp programs.
+ .
+ „diff” arată diferențele dintre două fișiere, sau dintre fișierele
+ corespondente din două directoare. „cmp” indică numărul liniei și
+ deplasamentul locului unde apar diferențe între două fișiere. „cmp” poate,
+ de asemenea, indica toate caracterele care diferă în cele două fișiere,
+ unele lângă altele. „diff3” arată diferențele a trei fișiere. „sdiff”
+ combină două fișiere interactiv.
+ .
+ Setul de diferențe produs de „diff” poate fi folosit pentru a distribui
+ îmbunătățiri ale fișierelor text (cum ar fi codul sursă al programelor)
+ altor persoane. Această metodă este foarte utilă când diferențele sunt
+ mici, în comparație cu fișierele întregi. Cu rezultatele lui „diff”,
+ programul „patch” poate actualiza sau „peteci” o copie a fișierului.
+
+Package: e2fsprogs
+Description-md5: 92d0fdf684262bbfa702eaea3f50b97e
+Description-ro: Unelte pentru sistemele de fișiere ext2/ext3/ext4
+ Sistemele de fișiere ext2, ext3 și ext4 sunt succesorii sistemului de
+ fișiere original ext („extended”). Ele sunt principalele tipuri de sisteme
+ de fișiere utilizate pe hard discuri în Debian și alte sisteme Linux.
+ .
+ This package contains programs for creating, checking, and maintaining
+ ext2/3/4-based file systems.  It also includes the "badblocks" program,
+ which can be used to scan for bad blocks on a disk or other storage
+ device.
+
+Package: e2fsprogs-l10n
+Description-md5: 807b6cb4fcea4e66152bf7951fcc5515
+Description-ro: ext2/ext3/ext4 file system utilities - translations
+ Sistemele de fișiere ext2, ext3 și ext4 sunt succesorii sistemului de
+ fișiere original ext („extended”). Ele sunt principalele tipuri de sisteme
+ de fișiere utilizate pe hard discuri în Debian și alte sisteme Linux.
+ .
+ This package provides translations for messages for programs found in the
+ 'e2fsprogs' package.
+
+Package: grep
+Description-md5: f9188c5583d41955f3b3fe60b9d445f1
+Description-ro: grep, egrep și fgrep GNU
+ „grep” este o unealtă pentru căutare de text în fișiere; ea poate fi
+ folosită din linia de comandă sau în scripturi. Chiar dacă nu o veți
+ folosi, este probabil ca alte pachete din sistemul dumneavoastră să o
+ folosească.
+ .
+ Familia GNU de unelete grep poate fi „cea mai rapidă familie grep din
+ vest”. GNU grep este bazat pe un algoritm rapid de potrivire lazy-state
+ (aproape de două ori mai rapid decât grep-ul standard din Unix) hibridizat
+ cu căutarea Boyer-Moore-Gosper pentru un șir fix ce evită ca textul
+ nepotrivit să fie prelucrat de algoritmul de potrivire regexp fără ca să
+ fie studiat fiecare caracter în parte. Rezultatul este de câteva ori mai
+ rapid decât grep sau egrep din Unix. (Totuși, expresiile regulare ce
+ conțin referințe înapoi vor rula mai încet.)
+
+Package: hostname
+Description-md5: a5a22acc3c69a7f40f07f1a8dfc93af1
+Description-ro: unealtă pentru setarea/afișarea numelui gazdei sau domeniului
+ This package provides commands which can be used to display the system's
+ DNS name, and to display or set its hostname or NIS domain name.
+
+Package: libbison-dev
+Description-md5: 9e58100d40bcef7ed1b8baab2a762770
+Description-ro: YACC-compatible parser generator - development library
+ Bison este un generator de analize în scopuri generale care convertește o
+ sintaxă pentru un context liber LALR(1) într-un program C pentru
+ analizarea acelei sintaxe. Odată ce stăpâniți Bison, îl puteți folosi la
+ dezvoltarea unei game largi de limbaje pentru analiză, de la cele
+ utilizate în calculatoarele pentru calcule aritmetice simple până la
+ limbajele complexe de programare.
+ .
+ This package provides the liby.a file including functions needed by yacc
+ parsers.
+
+Package: libext2fs-dev
+Description-md5: 6c413fbf2fbe007c87112b744560fc94
+Description-ro: ext2/ext3/ext4 file system libraries - headers and static libraries
+ Sistemele de fișiere ext2, ext3 și ext4 sunt succesorii sistemului de
+ fișiere original ext („extended”). Ele sunt principalele tipuri de sisteme
+ de fișiere utilizate pe hard discuri în Debian și alte sisteme Linux.
+ .
+ This package contains the development environment for the ext2fs and e2p
+ libraries.
+
+Package: libext2fs2t64
+Description-md5: ba4f61a3e0b238831f03143cbdce696e
+Description-ro: ext2/ext3/ext4 file system libraries
+ Sistemele de fișiere ext2, ext3 și ext4 sunt succesorii sistemului de
+ fișiere original ext („extended”). Ele sunt principalele tipuri de sisteme
+ de fișiere utilizate pe hard discuri în Debian și alte sisteme Linux.
+ .
+ This package provides the ext2fs and e2p libraries, for userspace software
+ that directly accesses extended file systems. Programs that use libext2fs
+ include e2fsck, mke2fs, and tune2fs. Programs that use libe2p include
+ dumpe2fs, chattr, and lsattr.
+
+Package: login
+Description-md5: d0499c2dea8faa45484daa5ced2d38b5
+Description-ro: Utilitare pentru logarea in sistem
+ This package provides some required infrastructure for logins and for changing effective user or group IDs, including:
+  * login, the program that invokes a user shell on a virtual terminal;
+  * nologin, a dummy shell for disabled user accounts;
+
+
+Package: mount
+Description-md5: 90e187380786a435bb9c85b37afa2c5f
+Description-ro: tools for mounting and manipulating filesystems
+ Acest pachet contine mount(8), umount(8), swapon(8), swapoff(8), and
+ losetup(8).
+
+Package: python3-debconf
+Description-md5: 6eb68ef192205a26cb3bc6cddf1fd404
+Description-ro: interact with debconf from Python 3
+ Debconf este un sistem de management al configuratiei pentru pachetele din
+ Debian. Pachetele folosesc Debconf pentru a pune intrebari atunci cand
+ sunt instalate.
+ .
+ This package provides a debconf module to allow Python 3 programs to
+ interact with a debconf frontend.
+
+Package: tar
+Description-md5: 48033bf96442788d1f697785773ad9bb
+Description-ro: Versiunea GNU a utilitarului pentru arhivare tar
+ Tar este un program pentru impachetarea unor fisiere intr-o singura arhiva
+ in format tar. Functiile pe care le indeplineste sunt similare conceptual
+ cu cele ale programului cpio si PKZIP in DOS. Este utilizat intensiv de
+ sistemul de management al pachetelo in Debian si este folositor pentru a
+ realiza copii de siguranta ale sistemului si pentru schimbul de fisiere.
+
+Package: tk8.6-blt2.5
+Description-md5: f2cf073b47eb71bb74c64136d9c7d699
+Description-ro: graphics extension library for Tcl/Tk - library
+ BLT este o bibliotecă care conține extensii utile ale limbajului Tcl și
+ ale trusei de unelte grafice, foarte populare, Tk. Ea aduce date de tip
+ vectorial și structură arborescentă, execuție în fundal și câteva
+ utilitare pentru depanarea Tcl, precum și câteva controale pentru Tk,
+ printre care grafice, diagrame, ierarhii, categorii, caneluri și hiper-
+ legături, un administrator geometric nou, suport „trage și plasează” (drag
+ & drop), și altele.
+ .
+ This package contains everything you need to use BLT with your Tcl/Tk
+ scripts and Tcl/Tk-enabled apps.
+
+Package: unzip
+Description-md5: b83e2b495da5d292f3fe6ab67b088c47
+Description-ro: De-archiver for .zip files
+ InfoZIP's unzip program. With the exception of multi-volume archives (ie,
+ .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+ .
+ Această versiune conține suport pentru criptare.
+
+Package: zip
+Description-md5: 581928d34d669e63c353cd694bd040b0
+Description-ro: Arhivator pentru fișierele .zip
+ This is InfoZIP's zip program. It produces files that are fully compatible
+ with the popular PKZIP program; however, the command line options are not
+ identical. In other words, the end result is the same, but the methods
+ differ. :-)
+ .
+ Această versiune conține suport pentru criptare.
+

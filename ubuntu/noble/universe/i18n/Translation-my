@@ -1,0 +1,51 @@
+Package: 3depict
+Description-md5: 246db3da16c5305f24976464271087a5
+Description-my: visualisation and analysis for single valued point data
+ This program provides a graphical interface for the scientific analysis of
+ real valued point data (x,y,z,value). This is primarily targeted towards
+ Atom probe tomography applications, but may prove useful to other
+ applications as well.
+
+Package: vim-snipmate
+Description-md5: b32d99279c72a1dbfce80f206863cd65
+Description-my: Vim script that implements some of TextMate's snippets features.
+ SnipMate.vim aims to be an unobtrusive, concise vim script that implements
+ some of TextMate's snippets features in Vim. A snippet is a piece of
+ often-typed text that you can insert into your document using a trigger
+ word followed by a <tab>.
+ .
+ For instance, in a C file using the default installation of snipMate.vim,
+ if you type "for<tab>" in insert mode, it will expand a typical for loop
+ in C:
+ .
+ for (i = 0; i < count; i++) {
+ .
+ Project-Id-Version: ddtp-ubuntu
+ Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>
+ PO-Revision-Date: 2024-04-23 08:50+0000
+ Last-Translator: FULL NAME <EMAIL@ADDRESS>
+ Language-Team: Burmese <my@li.org>
+ MIME-Version: 1.0
+ Content-Type: text/plain; charset=UTF-8
+ Content-Transfer-Encoding: 8bit
+ X-Launchpad-Export-Date: 2024-04-23 19:43+0000
+ X-Generator: Launchpad (build 67d34a19aaa1df7be4dd8bf498cbc5bbd785067b)
+ .
+ To go to the next item in the loop, simply <tab> over to it; if there is
+ repeated code, such as the "i" variable in this example, you can simply
+ start typing once it's highlighted and all the matches specified in the
+ snippet will be updated.
+ .
+ snipMate.vim has the following features among others:
+ .
+  - The syntax of snippets is very similar to TextMate's, allowing easy
+    conversion.
+  - The position of the snippet is kept transparently (i.e., it does not use
+    marks/placeholders inserted into the buffer), allowing you to escape out
+    of an incomplete snippet, something particularly useful in Vim.
+  - Variables in snippets are updated as-you-type.
+  - Snippets can have multiple matches.
+  - Snippets can be out of order. For instance, in a do...while loop, the
+    condition can be added before the code.
+
+

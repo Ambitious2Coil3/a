@@ -1,0 +1,3850 @@
+Package: abicheck
+Description-md5: a38281f070a37064c10336aabb05a83f
+Description-cs: Nástroj na testování binární kompatibility
+ ABIcheck je nástroj pro kontrolu shody aplikace s knihovní definicí
+ Applicacion Binary Interface (ABI). Závisí na definiční informaci ABI,
+ která je obsažená v knihovně. Jsou poskytnuty příklady definic pro GNOME a
+ glibc.
+
+Package: abook
+Description-md5: b3df98dd5a16801ef603bb31eff45bf6
+Description-cs: Textový adresář používající ncurses
+ abook je textový adresář založený na ncurses. Program má řadu různých
+ políček s informacemi o kontaktu. abook je vytvořen tak, aby ho bylo možno
+ používat s programem mutt, ale také ho lze používat samostatně.
+
+Package: accerciser
+Description-md5: 7806dc55e95ea2b46c6c1541f59644ce
+Description-cs: interactive Python accessibility explorer for the GNOME desktop
+ Používá AT-SPI na prozkoumání a kontrolu prvků uživatelského rozhraní a
+ umožňuje vám kontrolovat, jestli aplikace poskytuje správné údaje pomocným
+ technologiím a testovacím frameworkům. Accerciser má jednoduchý modul,
+ který můžete použít k vytvoření vlastních náhledů s informacemi o
+ přístupnosti.
+
+Package: ack
+Description-md5: e50a48f3af6e02593eb6155b28aaed6e
+Description-cs: program podobný grepu určený pro obsáhlé zdrojové stromy
+ Ack is designed as an alternative for 99% of the uses of grep. ack is
+ intelligent about the files it searches. It knows about certain file
+ types, based on both the extension on the file and, in some cases, the
+ contents of the file.
+ .
+ Ack ignores backup files and files under CVS and .svn directories. It also
+ highlights matches to help you see where the match was. Ack uses perl
+ regular expressions.
+
+Package: acl2-doc
+Description-md5: 5c7f73fe4a8d5c6db72b616db6a620bc
+Description-cs: Computational Logic for Applicative Common Lisp: documentation
+ ACL2 is both a programming language in which you can model computer
+ systems and a tool to help you prove properties of those models.
+ .
+ Tento balík obsahuje dokumentaci k ACL2.
+
+Package: acpitool
+Description-md5: 8bfbe99c5e1bf2100b04aac2628220b1
+Description-cs: ACPI klient pro příkazovou řádku
+ AcpiTool je linuxový ACPI klient. Jedná se o malou aplikaci pro příkazovou
+ řádku, která nahrazuje nástroj apm. Primárně je aplikace určena pro
+ uživatele notebooků, protože právě je zpravidla zajímá stav baterie,
+ teplota a také uložení (hibernace) stavu počítače. Tento program jednoduše
+ přistupuje k /proc/acpi nebo /sysfs a získává nebo nastavuje hodnoty ACPI.
+ Také podporuje různá rozšíření notebooků Toshiba, Asus a IBM Thinkpad.
+
+Package: adplay
+Description-md5: ca1ace79ff4381b414ffeb4fd4683073
+Description-cs: textově založený OPL2 audio přehrávač
+ AdPlay is AdPlug's console-based frontend. AdPlug is a free, universal
+ OPL2 audio playback library. AdPlay/UNIX supports the full range of
+ AdPlug's file format playback features. Despite this, at the moment, only
+ emulated OPL2 output is supported by AdPlay, but this on a wide range of
+ output devices.
+
+Package: alevt
+Description-md5: b69b5f3f83c41724d16a921f749fbcd1
+Description-cs: Prohlížeč teletextu/videotextu pro Xka
+ AleVT is an X11 program for browsing and searching Teletext/Videotext
+ pages received by a compatible decoder (bttv and DVB receivers).
+ .
+ Features include:
+ .
+   * Multiple windows
+   * Page cache
+   * Regular expression searching
+   * Built-in manual
+ .
+ Additional command line utilities can
+ .
+   * receive the time from Teletext/Videotext
+   * capture pages and write them to disk
+ .
+ Teletext/Videotext is used by TV channels to transmit textual information
+ pages (it's transmitted via non-visible scan lines).
+
+Package: alpine
+Description-md5: 3ddd074b130edc15ad4419408e6d3266
+Description-cs: Text-based email client, friendly for novices but powerful
+ Alpine is an upgrade of the well-known PINE email client.  Its name
+ derives from the use of the Apache License and its ties to PINE.
+ .
+ Má plnou podporu protokolů IMAP, SMTP a dalších. Také bezpečnostní
+ protokoly jako TSL. Používá prostředí curses.
+
+Package: alpine-pico
+Description-md5: 26a939a9b42d10bb338f5e7cb4ba132b
+Description-cs: Jednoduchý textový editor, který je součástí konzolového e-mailového klienta Alpine.
+ "pico" je jednoduchý, ale velmi mocný, textový editor používaný v
+ e-mailovém klientu pine pro psaní e-mailových zpráv.
+ .
+ Je  také používán mnohými uživateli jako samostatný textový editor.
+ .
+ It is similar to but less powerful than GNU Nano, an editor created with
+ the pico interface when the pico license was non-free.
+
+Package: amideco
+Description-md5: 9472bf7f77b7b944a3ca7c59cac2f1c6
+Description-cs: Dekomprimuje flashovací soubory AMI BIOS
+ Amideco je program, který dekomprimuje obrazy BIOSu obsažené v AMI BIOS.
+
+Package: apt-forktracer
+Description-md5: 5f2bbc0825c48dc896c9836bd1edfdb9
+Description-cs: utility for tracking non-official package versions
+ apt-forktracer se snaží řešit problém s tím, že APT přestává po
+ zablokování či instalaci novější verze balíčku sledovat oficiální vydání
+ balíčku.
+ .
+ apt-forktracer displays a list of packages which are in an inconsistent
+ state, or whose installed version is different than the newest official
+ one. You can choose to ignore certain packages - if they match certain
+ criteria - using a configuration file.
+
+Package: apt-move
+Description-md5: 822a3c3c140c24f028e4e1f35062786a
+Description-cs: maintain Debian packages in a package pool
+ apt-move je používán k přesunu souboru balíčků Debianu do příslušné
+ hierarchie tak, jak je použita v oficiálním archivu Debianu. Je navržen
+ jako nástroj pro pomoc se správou souborové keše apt-get(8). Může však být
+ nastaven také pro spolupráci s libovolnou kolekcí balíčků Debianu.
+ .
+ Running apt-move periodically will assist in managing the resulting
+ partial mirror by optionally removing obsolete packages, and creating
+ valid local Packages.gz files. It can also build a partial or complete
+ local mirror of a Debian binary distribution (including an ``installed-
+ packages only'' mirror).
+
+Package: audacity
+Description-md5: f3049c5343ef448931624eb10a0c6627
+Description-cs: fast, cross-platform audio editor
+ Audacity is a multi-track audio editor for Linux/Unix, MacOS and Windows.
+ It is designed for easy recording, playing and editing of digital audio.
+ Audacity features digital effects and spectrum analysis tools.  Editing is
+ very fast and provides unlimited undo/redo.
+ .
+ Podporované formáty souborů jsou Ogg Vorbis, MP2, MP3, WAV, AIFF a AU.
+
+Package: bacula-bscan
+Description-md5: 44a01e27d6f81c2f40774f7989a68e8b
+Description-cs: network backup service - bscan tool
+ Bacula je sada programů sloužících ke správě záloh, obnově a ověřování dat
+ dat přes síť mezi různými druhy počítačů.
+ .
+ The storage daemon performs the storage and recovery of the file
+ attributes and data to the physical media; in other words, it is
+ responsible for reading and writing the backups.
+ .
+ This package contains the bscan utility, which is used for recovery when
+ Bacula's catalog is unavailable.
+
+Package: bacula-client
+Description-md5: c7615bb83ae944dfb220e188d71eb440
+Description-cs: network backup service - client metapackage
+ Bacula je sada programů sloužících ke správě záloh, obnově a ověřování dat
+ dat přes síť mezi různými druhy počítačů.
+ .
+ The Bacula Director service supervises all the backup, restore, verify and
+ archive operations. It can run as a daemon or as a foreground service
+ which administrators can use to schedule backups and recover files.
+ .
+ The package is a metapackage for client installations (file daemon and
+ console only).
+
+Package: bacula-common
+Description-md5: ea0a644926ceb853a5dc7364f1c409cc
+Description-cs: network backup service - common support files
+ Bacula je sada programů sloužících ke správě záloh, obnově a ověřování dat
+ dat přes síť mezi různými druhy počítačů.
+ .
+ This package provides files that are useful for other Bacula packages.
+
+Package: bacula-common-mysql
+Description-md5: 64bc48d168e93df5fe6d8ddece4e207d
+Description-cs: network backup service - MySQL common files
+ Bacula je sada programů sloužících ke správě záloh, obnově a ověřování dat
+ dat přes síť mezi různými druhy počítačů.
+ .
+ This package provides files that are useful for other Bacula packages for
+ the MySQL database.
+
+Package: bacula-common-pgsql
+Description-md5: bbcb90bc499ef2794cf5aa8caefe2a7f
+Description-cs: network backup service - PostgreSQL common files
+ Bacula je sada programů sloužících ke správě záloh, obnově a ověřování dat
+ dat přes síť mezi různými druhy počítačů.
+ .
+ This package provides files that are useful for other Bacula packages for
+ the PostgreSQL database.
+
+Package: bacula-common-sqlite3
+Description-md5: 5dd5383fa711d37f105290c46d19905e
+Description-cs: network backup service - SQLite v3 common files
+ Bacula je sada programů sloužících ke správě záloh, obnově a ověřování dat
+ dat přes síť mezi různými druhy počítačů.
+ .
+ This package provides files that are useful for other Bacula packages for
+ the SQLite v3 database.
+ .
+ Please be aware that using SQLite 3 databases is no longer supported by
+ the author.
+
+Package: bacula-console
+Description-md5: 0a204f8e90989252b1663adf774d9184
+Description-cs: network backup service - text console
+ Bacula je sada programů sloužících ke správě záloh, obnově a ověřování dat
+ dat přes síť mezi různými druhy počítačů.
+ .
+ The management console allows the administrator or user to communicate
+ with the Bacula Director.
+ .
+ This package provides the text-interface version of the console.
+
+Package: bacula-console-qt
+Description-md5: fd343e90994bc4bcfd4464344357d28f
+Description-cs: network backup service - Bacula Administration Tool
+ Bacula je sada programů sloužících ke správě záloh, obnově a ověřování dat
+ dat přes síť mezi různými druhy počítačů.
+ .
+ The management console allows the administrator or user to communicate
+ with the Bacula Director.
+ .
+ This package provides the most advanced GUI to Bacula: the Bacula
+ Administration Tool (BAT) console.
+ .
+ This GUI interface has been designed to ease restore operations as much as
+ possible as compared to the basic text console.
+
+Package: bacula-director
+Description-md5: 6f0024bae002141382406db5c20bf965
+Description-cs: network backup service - Director daemon
+ Bacula je sada programů sloužících ke správě záloh, obnově a ověřování dat
+ dat přes síť mezi různými druhy počítačů.
+ .
+ The Bacula Director service supervises all the backup, restore, verify and
+ archive operations. It can run as a daemon or as a foreground service
+ which administrators can use to schedule backups and recover files.
+ .
+ This package provides the Bacula Director daemon.
+
+Package: bacula-director-mysql
+Description-md5: 248fa558b5e2e2b84005e44333d46718
+Description-cs: network backup service - MySQL storage for Director
+ Bacula je sada programů sloužících ke správě záloh, obnově a ověřování dat
+ dat přes síť mezi různými druhy počítačů.
+ .
+ The Bacula Director service supervises all the backup, restore, verify and
+ archive operations. It can run as a daemon or as a foreground service
+ which administrators can use to schedule backups and recover files.
+ .
+ This package stores Bacula's catalog in a MySQL database and thus is
+ suitable for medium-sized installations.
+
+Package: bacula-director-pgsql
+Description-md5: 9663dd70c2b7b8af49840e9b15672027
+Description-cs: network backup service - PostgreSQL storage for Director
+ Bacula je sada programů sloužících ke správě záloh, obnově a ověřování dat
+ dat přes síť mezi různými druhy počítačů.
+ .
+ The Bacula Director service supervises all the backup, restore, verify and
+ archive operations. It can run as a daemon or as a foreground service
+ which administrators can use to schedule backups and recover files.
+ .
+ This package stores Bacula's catalog in a PostgreSQL database and thus is
+ suited for large installations.
+
+Package: bacula-director-sqlite3
+Description-md5: ca500032cad106223f9840f1e7d2fcab
+Description-cs: network backup service - SQLite 3 storage for Director
+ Bacula je sada programů sloužících ke správě záloh, obnově a ověřování dat
+ dat přes síť mezi různými druhy počítačů.
+ .
+ The Bacula Director service supervises all the backup, restore, verify and
+ archive operations. It can run as a daemon or as a foreground service
+ which administrators can use to schedule backups and recover files.
+ .
+ This package stores Bacula's catalog in an SQLite 3 database and thus is
+ only suitable for small or test installations.
+ .
+ Please be aware that using SQLite 3 databases is no longer supported by
+ the author.
+
+Package: bacula-fd
+Description-md5: 3f35bd3a108c70141218cdf190a0ec97
+Description-cs: network backup service - file daemon
+ Bacula je sada programů sloužících ke správě záloh, obnově a ověřování dat
+ dat přes síť mezi různými druhy počítačů.
+ .
+ The file daemon has to be installed on the machine to be backed up. It is
+ responsible for providing the file attributes and data when requested by
+ the Director and also for the file system-dependent part of restoration.
+
+Package: bacula-sd
+Description-md5: 62128350f6771f6c2952ce19f11cffea
+Description-cs: network backup service - storage daemon
+ Bacula je sada programů sloužících ke správě záloh, obnově a ověřování dat
+ dat přes síť mezi různými druhy počítačů.
+ .
+ The storage daemon performs the storage and recovery of the file
+ attributes and data to the physical media; in other words, it is
+ responsible for reading and writing the backups.
+ .
+ It runs on the machine which has access to the backup device(s) - usually
+ a tape drive, but alternatively other storage media, such as files.
+
+Package: bacula-server
+Description-md5: 6dda915ea1962f81a01b5beba6c56634
+Description-cs: network backup service - server metapackage
+ Bacula je sada programů sloužících ke správě záloh, obnově a ověřování dat
+ dat přes síť mezi různými druhy počítačů.
+ .
+ This metapackage provides a standard server install, consisting of the
+ director and storage daemons.
+
+Package: bacula-tray-monitor
+Description-md5: 76605f612a112974fa0d112badbbd841
+Description-cs: network backup service - Bacula Tray Monitor
+ Bacula je sada programů sloužících ke správě záloh, obnově a ověřování dat
+ dat přes síť mezi různými druhy počítačů.
+ .
+ This package provides a graphical tray monitor for the Bacula backup
+ system.
+ .
+ The tray monitor allows the monitoring of the bacula daemons.
+
+Package: bkchem
+Description-md5: c22af3466e5c7c500d53dc9f5e106335
+Description-cs: Chemical structures editor
+ BKchem je chemický kreslící program zdarma napsaný v Pythonu.
+ .
+ Some of the features, you can expect:
+  * Drawing (bond-by-bond drawing; templates for common rings; expanding of
+    common-groups; draws radicals, charges, arrows; color support ...)
+  * Editing (unlimited undo and redo capabilities; aligning; scaling;
+    rotation (2D, 3D) ...)
+  * Export/Import (fully supported SVG-, OpenOffice.org-Draw-, EPS-export;
+    basic support for CML1 and CML2 import and export)
+
+
+Package: bsdgames
+Description-md5: ee2b3dea43e65b12b02f017e797d05ae
+Description-cs: collection of classic textual unix games
+ Tento balíček je souborem některých textově orientovaných her a
+ kratochvílí, které na unixových systémech baví lidi už desetiletí.
+ .
+ It includes these programs: adventure, arithmetic, atc, backgammon,
+ battlestar, caesar, canfield, cribbage, dab, go-fish, gomoku, hack,
+ hangman, pom, primes, robots, sail, snake, tetris, trek, worm, wtf, wump
+
+Package: ceferino-data
+Description-md5: 45046c487f430401286178a2dc28022c
+Description-cs: action game similar to Super Pang
+ A game similar to 'Super Pang'. You are attacked by little green balls
+ which are bouncing around and which you have to destroy with your knife.
+ Your knife however is limited to being thrown upwards, thus you have to
+ get under the balls to destroy them. Even worse, if you destroy a large
+ ball, it doesn't just vanish, but breaks apart into two smaller balls.
+ Levels consist of little platforms connected by ladders, so you can go up
+ and down or find cover if needed.
+ .
+ Tento balík obsahuje data ke hře.
+
+Package: chalow
+Description-md5: a91a6eaf852e4bca0f81d2d955f948b2
+Description-cs: Nástroj webového logu, který převede ChangeLog na HTML
+ chalow (CHAngeLog On the Web) je nástroj weblogu napsaný v Perlu. Umí
+ převádět ChangeLog na HTML a RSS.
+ .
+ chalow podporuje témata šablon systému weblogu tDiary. Pro použití témat
+ tDiary nainstalujte prosím balíček tdiary-theme.
+
+Package: checkinstall
+Description-md5: 65a8e9c4837c96312620e0e3daa0cd3f
+Description-cs: Stopování instalace
+ CheckInstall vysleduje soubory vytvořené nebo upravené nějakým instalačním
+ skriptem ("make install", "make install_modules", "setup", atd.), vytvoří
+ standardní binární balíček a nainstaluje ho ve vašem systému tak, aby ho
+ bylo možno odinstalovat pomocí standardních nástrojů správy balíčků.
+
+Package: cksfv
+Description-md5: 06bb000e7bdabdb59542a19d5b0db755
+Description-cs: Kontrolor a generátor sfv
+ SFV (Simple File Verification) používá při kontrole souborů součty crc32.
+ cksfv automatizuje proces vytváření a kontroly .sfv. Pro kontrolu
+ integrity jsou pravděpodobně lepší kontrolní součty md5, na druhou stranu
+ se metoda ověření svf běžně používá v diskuzních skupinách souborů USENET
+ a na dalších místech.
+
+Package: claws-mail-tools
+Description-md5: 38d2e1956f817d4610778a5eac021743
+Description-cs: Nástroje a pomocníci pro emailový klient Claws Mail
+ Různé skripty v řadě jazyků, které vám pomohou vyřešit běžné problémy
+ nalezené uživateli Claws Mail.
+ .
+ See README files for further details about included scripts.
+
+Package: coco-cpp
+Description-md5: 02d009ce52ba1690b30aabdb24096e50
+Description-cs: Coco/R Compiler Generator (C++ Version)
+ Coco/R je generátor kompilátoru, který použije gramatiku zdrojového jazyka
+ a vytvoří skener a analyzátor tohoto jazyka. Skener funguje jako určitý
+ omezený automat. Analyzátor používá rekurzivní postup. Konflikty LL(1) je
+ možno řešit pomocí více-symbolové metody lookahead nebo kontroly významu.
+ Z tohoto důvodu je třídou akceptované gramatiky LL(k) pro libovolné k.
+ .
+ To start Coco call cococpp, which is a shell script in /usr/bin.
+
+Package: coco-cs
+Description-md5: 6ea15825c902eb6288a63b12b257493b
+Description-cs: Coco/R Compiler Generator (C-Sharp Version)
+ Coco/R je generátor kompilátoru, který použije gramatiku zdrojového jazyka
+ a vytvoří skener a analyzátor tohoto jazyka. Skener funguje jako určitý
+ omezený automat. Analyzátor používá rekurzivní postup. Konflikty LL(1) je
+ možno řešit pomocí více-symbolové metody lookahead nebo kontroly významu.
+ Z tohoto důvodu je třídou akceptované gramatiky LL(k) pro libovolné k.
+ .
+ To start Coco call cococs, which is a shell script in /usr/bin.
+
+Package: coco-doc
+Description-md5: 87e4b53a6c80ad089570c8e26204bf47
+Description-cs: Documentation for the Coco/R Compiler Generator
+ Coco/R je generátor kompilátoru, který použije gramatiku zdrojového jazyka
+ a vytvoří skener a analyzátor tohoto jazyka. Skener funguje jako určitý
+ omezený automat. Analyzátor používá rekurzivní postup. Konflikty LL(1) je
+ možno řešit pomocí více-symbolové metody lookahead nebo kontroly významu.
+ Z tohoto důvodu je třídou akceptované gramatiky LL(k) pro libovolné k.
+ .
+ See /usr/share/doc/cocosourcesdoc.
+
+Package: coco-java
+Description-md5: 13a3bbb6c3c3c725c1b9c1e771dfa17a
+Description-cs: Coco/R Compiler Generator (Java verze)
+ Coco/R je generátor kompilátoru, který použije gramatiku zdrojového jazyka
+ a vytvoří skener a analyzátor tohoto jazyka. Skener funguje jako určitý
+ omezený automat. Analyzátor používá rekurzivní postup. Konflikty LL(1) je
+ možno řešit pomocí více-symbolové metody lookahead nebo kontroly významu.
+ Z tohoto důvodu je třídou akceptované gramatiky LL(k) pro libovolné k.
+ .
+ Pro spuštění Coco zavolejte cocoj, skript shellu v /usr/bin.
+
+Package: codec2
+Description-md5: 6828e17e97c3e2afb27bd64c3e1ef09f
+Description-cs: command line tools for handling Codec2 data
+ Codec2 is an audio codec especially designed for compressing voice at very
+ low bit-rates for applications such as digital voice radio.
+ .
+ Tento balíček obsahuje enkodér a dekodér pro příkazovou řádku.
+
+Package: collatinus
+Description-md5: 2b502b7be683c2b8175e8307263d0e4c
+Description-cs: lemmatizátor latinských textů
+ Collatinus se používá k lemmatizaci latinských textů, tj. extrahuje z
+ textu slova a vytváří lexikon kde pro každé slovo ukazuje kanonickou formu
+ a jak forma uvedená v textu z něj byla odvozena - například skloňováním.
+ Příklad: rosam dává : rosa-rosae -- acc. sing. Collatinus poskytuje všem
+ operacím hezké grafické prostředí.
+ .
+ Collatinus-nouus (stands for Collatinus, new generation) replaces every
+ previous version of Collatinus.
+ .
+ This package provides a documentation in HTML format.
+
+Package: collectd
+Description-md5: 4cab05e1aaeb16dba768fed7b2d14922
+Description-cs: statistics collection and monitoring daemon
+ Collectd je malý daemon, který pravidelně sbírá systémové informace a
+ přitom obsahuje mechanismus kontroly a ukládání hodnot různým způsobem.
+ Protože není třeba daemon vždy spouštět v okamžiku kdy chcete aktualizovat
+ hodnoty, je velmi rychlý a snadno použitelný. Získaná statistika je přitom
+ velmi přesná, protože jsou soubory aktualizovány každých 10 sekund.
+ .
+ Získané informace je možno použít pro nalezení omezení vašeho systému
+ (analýzu jeho výkonu) a k předpovědi další zátěže systému (při plánování
+ dalšího posílení výkonu počítače).
+ .
+ This package provides a full installation of the daemon, including the
+ configuration. For the core system, see the "collectd-core" package, which
+ allows sites to, e.g., provide customizations (like a custom default
+ configuration) on top of it without having to modify the "collectd"
+ package.
+
+Package: collectd-core
+Description-md5: 20e62bdb1c1a5e1e76aefab4cbea7f2d
+Description-cs: statistics collection and monitoring daemon (core system)
+ Collectd je malý daemon, který pravidelně sbírá systémové informace a
+ přitom obsahuje mechanismus kontroly a ukládání hodnot různým způsobem.
+ Protože není třeba daemon vždy spouštět v okamžiku kdy chcete aktualizovat
+ hodnoty, je velmi rychlý a snadno použitelný. Získaná statistika je přitom
+ velmi přesná, protože jsou soubory aktualizovány každých 10 sekund.
+ .
+ Získané informace je možno použít pro nalezení omezení vašeho systému
+ (analýzu jeho výkonu) a k předpovědi další zátěže systému (při plánování
+ dalšího posílení výkonu počítače).
+ .
+ This package contains the main program file and the plugins listed below
+ (some of those plugins require additional libraries - for more details see
+ /usr/share/doc/collectd-core/README.Debian.plugins) but no configuration.
+ For a full installation (including configuration), see the "collectd"
+ package. This package allows sites to, e.g., provide customizations (like
+ a custom default configuration) on top of it without having to modify the
+ "collectd" package.
+ .
+   * AMQP output plugin: amqp
+   * AMQP 1.0 output plugin: amqp1
+   * Apache and lighttpd statistics provided by mod_status: apache
+   * APC UPS's charge, load, input/output/battery voltage, etc.: apcups
+   * Ascent server statistics: ascent
+   * Bosch and Freescale barometers: barometer
+   * battery status: battery
+   * bind9 name-server and zone statistics: bind
+   * Ceph distributed storage system statitics: ceph
+   * CGroups resource usage: cgroups
+   * Chrony daemon statistics: Local clock drift, offset to peers: chrony
+   * connection tracking table size: conntrack
+   * number of context switches done by the operating system: contextswitch
+   * CPU utilization: cpu
+   * CPU frequency: cpufreq
+   * CPU sleep: Time spent in suspend : cpusleep
+   * output to comma separated values (CSV) files: csv
+   * parse statistics from websites: curl
+   * parse JSON files: curl_json
+   * parse XML data: curl_xml
+   * query data from a relational database: dbi
+   * disk space usage: df
+   * disk and partition throughput: disk
+   * DNS traffic information: dns
+   * DPDK link status and keep alive events: dpdkevents
+   * DPDK interface statistics: dpdkstat
+   * Distributed Replicated Block Device status: drbd
+   * E-Mail statistics (count, traffic, spam scores and checks): email
+   * amount of available entropy: entropy
+   * execution of external programs: exec
+   * count the number of open file handles: fhcount
+   * count the number of files in directories: filecount
+   * Linux file-system based caching framework statistics: fscache
+   * Monitor gps related data through gpsd: gps
+   * Send or receive values over the network using the gRPC framework: grpc
+   * query data from Java processes using JMX: GenericJMX (Java based plugin)
+   * Report the number of used and free hugepages: hugepages
+   * Intel Resource Director Technology statistics: intel_rdt
+   * network traffic: interface
+   * IPC statistics: ipc
+   * IPMI sensors information: ipmi
+   * iptables statistics: iptables
+   * IPVS connection statistics: ipvs
+   * IRQ counters: irq
+   * embedded Java Virtual Machine: java
+   * system load averages: load
+   * logging to files, STDOUT and STDERR: logfile
+   * logging in logstash's JSON event format: log_logstash
+   * embedded Lua interpreter: lua
+   * Machine Check Exceptions notifications: mcelog
+   * Atheros wireless LAN chipset statistics: madwifi
+   * motherboard monitor: mbmon
+   * query and parse data from a memcache daemon: memcachec
+   * statistics of the memcached distributed caching system: memcached
+   * memory usage: memory
+   * read values from Modbus/TCP enabled devices: modbus
+   * statistics from mon.itor.us: Monitorus (Perl based plugin)
+   * Publishes and subscribes to MQTT topics: mqtt
+   * multimeter statistics: multimeter
+   * MySQL statistics provided by MySQL's "show status" command: mysql
+   * detailed Linux network interface and routing statistics: netlink
+   * IO via the network: network
+   * NFS utilization: nfs
+   * Nginx (a HTTP and E-Mail server/proxy) statistics: nginx
+   * send desktop notifications to a notification daemon: notify_desktop
+   * send notification E-mails: notify_email
+   * send notifications to nagios: notify_nagios
+   * NTP daemon's local clock drift, offset to peers, etc.: ntpd
+   * UPS information: nut
+   * Optimized Link State Routing daemon statistics: olsrd
+   * OpenLDAP's cn=Monitor statistics: openldap
+   * OpenVPN traffic and compression statistics: openvpn
+   * OpenVZ statistics: OpenVZ (Perl based plugin)
+   * Open vSwitch link state events: ovs_events
+   * Open vSwitch bridge / interface statistics: ovs_stats
+   * embedded Perl interpreter: perl
+   * timing values from Pinba: pinba
+   * network latency statistics: ping
+   * PostgreSQL database statistics: postgresql
+   * PowerDNS name server statistics: powerdns
+   * number of processes: processes
+   * information about network protocols: protocols
+   * embedded Python interpreter: python
+   * Redis server statistics: redis
+   * write data via the RRD accelerator daemon: rrdcached
+   * output to RRD files: rrdtool
+   * lm_sensors information (e.g. CPU temperature, fan speeds): sensors
+   * serial port traffic: serial
+   * values from SNMP enabled network devices: snmp
+   * receive and handle queries from SNMP master agent: snmp_agent
+   * aggregate values received with the StatsD protocol: statsd
+   * SMART statistics: smart
+   * swap usage: swap
+   * Linux synproxy statistics: synproxy
+   * logging to syslog: syslog
+   * parse table-like structured files: table
+   * incremental parsing of logfiles: tail
+   * incremental parsing of CSV files: tail_csv
+   * number of TCP connections to specific ports: tcpconns
+   * TeamSpeak2 server statistics: teamspeak2
+   * power consumption measurements from "The Energy Detective" (TED): ted
+   * Linux ACPI thermal zone information: thermal
+   * check thresholds and for missing values: threshold
+   * statistics from Intel turbo-capable processors: turbostat
+   * external runtime interface: unixsock
+   * system uptime: uptime
+   * number of users logged into the system: users
+   * set the hostname to an unique identifier: uuid
+   * CPU, disk, network statistics of guest systems: virt
+   * detailed virtual memory statistics: vmem
+   * system resources used by Linux-VServers: vserver
+   * wireless network stats: wireless
+   * send collected values to a graphite server: write_graphite
+   * send collected values to a web-server: write_http
+   * send collected values to an Apache Kafka message broker: write_kafka
+   * send collected values to the logging subsystem: write_log
+   * send collected values to MongoDB, a NoSQL database: write_mongodb
+   * publish collected values as a Prometheus exporter: write_prometheus
+   * send collected values to a Redis server: write_redis
+   * send collected values to a Riemann server: write_riemann
+   * send collected values to a Sensu client: write_sensu
+   * send collected values to Google Stackdriver: write_stackdriver
+   * send collected values to an OpenTSDB server: write_tsdb
+   * XEN Hypervisor CPU stats: xencpu
+   * ZFS's Adaptive Replacement Cache statistics: zfs_arc
+   * data from Zookeeper's MNTR command: zookeeper
+
+
+Package: collectd-dev
+Description-md5: f3446ffaf6495cfe6eeded886300ad69
+Description-cs: statistics collection and monitoring daemon (development files)
+ Collectd je malý daemon, který pravidelně sbírá systémové informace a
+ přitom obsahuje mechanismus kontroly a ukládání hodnot různým způsobem.
+ Protože není třeba daemon vždy spouštět v okamžiku kdy chcete aktualizovat
+ hodnoty, je velmi rychlý a snadno použitelný. Získaná statistika je přitom
+ velmi přesná, protože jsou soubory aktualizovány každých 10 sekund.
+ .
+ This package contains the development files needed to create your own
+ plugins.
+
+Package: collectd-utils
+Description-md5: 9e642f2a954c69592f11d4db8ecd29e0
+Description-cs: statistics collection and monitoring daemon (utilities)
+ Collectd je malý daemon, který pravidelně sbírá systémové informace a
+ přitom obsahuje mechanismus kontroly a ukládání hodnot různým způsobem.
+ Protože není třeba daemon vždy spouštět v okamžiku kdy chcete aktualizovat
+ hodnoty, je velmi rychlý a snadno použitelný. Získaná statistika je přitom
+ velmi přesná, protože jsou soubory aktualizovány každých 10 sekund.
+ .
+ This package contains the following utility:
+ .
+   * collectdctl: Control interface for collectd
+   * collectd-nagios: Nagios plugin for querying collectd
+
+
+Package: compizconfig-settings-manager
+Description-md5: 675304338d841d1ad811fa71af2f89f7
+Description-cs: Compiz configuration settings manager
+ Projekt OpenCompositing (Compiz) umožňuje využívání 3D efektů, které
+ zlepšují použitelnost X Window systému a zvyšují produktivitu práce.
+ .
+ This package contains the compizconfig settings manager.
+
+Package: crip
+Description-md5: f7a527a76147d54006c2be017c1adf4f
+Description-cs: Nástroj pro rippování/kódování/označování v terminálu
+ crip vytváří soubory Ogg Vorbis/FLAC/MP3. Hodí se pro každého (zejména pro
+ perfekcionisty), kdo chce vytvořit soubory z CD a přitom je chce mít
+ správně popsané a v profesionální kvalitě záznamu. Přitom vás to bude stát
+ minimum úsilí a bude mít kontrolu nad vytvářeným záznamem plně v rukou.
+ Současná verze crip podporuje pouze Ogg Vorbis a FLAC.
+ .
+ Tento skript je speciální v tom, že umí pracovat s vorbisgain/replaygain a
+ také umí provádět normalizaci (nastavení hlasitosti přehrávání na co
+ nejvyšší úroveň bez ořezu/deformace), hromadné označení/přejmenování,
+ které vám umožní snadno spojovat související stopy dohromady. Také umí
+ ořezat ticho na začátku a konci zvukové stopy.
+
+Package: cron-apt
+Description-md5: 2e64c2fc7f0c5ac0fd844be065a8a152
+Description-cs: automatic update of packages using apt-get
+ Obsahuje nástroje, které jsou v pravidelných intervalech spouštěny pomocí
+ cronu. Ve výchozím nastavení pouze aktualizuje seznam balíčků a stahuje
+ nové balíčky bez vlastní instalace. Program je možno instruovat, aby
+ spustil cokoliv co dokáže spustit apt-get (nebo aptitude).
+ .
+ V případě chyb  umí poslat správci systému email.
+ .
+ Observe that this tool may be a security risk, so you should not set it to
+ do more than necessary. Automatic upgrade of all packages is NOT
+ recommended unless you are in full control of the package repository.
+
+Package: cvs-buildpackage
+Description-md5: 91156391ecfea2ae1fa81271aac239e0
+Description-cs: set of Debian package scripts for CVS source trees
+ Tento balíček vám umožní naplnit nebo naimportovat zdrojové balíčky
+ Debianu do nějakého repozitáře CVS, vytvořit nějaký balíček Debianu z
+ repozitáře CVS a přitom vám pomoci s integrací změn provedených autory
+ programu v repositáři.
+ .
+ Import nebo naplnění provádí soubor dsc (Debian source control) a
+ importuje do CVS. Cesta modulu může obsahovat distribuční a průřezové
+ informace; např. někdo může vložit hemm/hemm/devel/make do repozitáře.
+ .
+ Proces sestavení funguje podobně jako dpkg-buildpackage a můžete ho použít
+ přímo ze zdrojového stromu nebo pokud zadáte další informace, lze ho volat
+ odkudkoliv. Jinými slovy, můžete vytvořit libovolnou předchozí verzi
+ balíčku, až do té doby co bude k dispozici odpovídající orig.tar.gz.
+ Sestavovací skript kontroluje významné verze repositáře CVS a spouští
+ dpkg-buildpackage, který vytváří balíčky Debianu.
+ .
+ Kombinováním těchto nástrojů vytváříte infrastrukturu, kterou mohou
+ používat správci Debianu. To vám umožní souběžně uchovávat rozdílné verze
+ CVS pro stabilní, nestabilní a volitelně i experimentální distribuci,
+ spolu s dalšími výhodami kontrolního systému.
+ .
+ Používá se ke generování jednotného zdrojového stromu CVS.
+
+Package: cvsd
+Description-md5: e7db47439c785f41c3ae167bc30095e8
+Description-cs: Nadstavba chroot určená k bezpečnému spuštění 'cvs pserver'
+ cvsd je nadstavbou cvs v módu pserver. Spouští 'cvs pserver' pod
+ speciálním uid/gid ve vězení chroot. cvsd běží jako daemon, který můžete
+ nastavovat pomocí konfiguračního souboru. Snadno se nastavuje a obsahuje
+ nástroje pro nastavení vězení chroot.
+ .
+ Tento server se hodí především pokud budete chtít provozovat veřejný cvs
+ pserver. Přitom byste si měli být vědomi bezpečnostních omezení běžícího
+ serveru cvs pserver. Pokud chcete používat nějakou formu autentizace, měli
+ byste popřemýšlet o použití ssh jako o bezpečném mechanismu transportu.
+ Hesla používaná v cvs pserver jsou totiž odesílaná v čistě textové podobě.
+ .
+ Také byste měli pravděpodobně vypnout pserver obsažený v balíčku cvs.
+
+Package: cvsweb
+Description-md5: a1de50af23045f23fe567826179544e7
+Description-cs: Rozhraní CGI k vašemu repositáři CVS
+ cvsweb je WWW CGI skript, který vám umožní vzdáleně přistupovat k vašemu
+ repositáři CVS. Umožní vám procházet stromem a nastavovat přístup do
+ jednotlivých částí. Také zobrazuje adresář s revizemi nějakého souboru,
+ stejně jako vytváří diffy mezi revizemi a navíc umožňuje stažení
+ libovolných revizí souboru.
+
+Package: dh-lisp
+Description-md5: 763690cb3ab0445034a94405681fad1c
+Description-cs: Debhelper pro podporu balíčků Common Lisp
+ Tento přídavek debhelper je určen správcům balíčků souvisejících s Common
+ Lisp. V souladu s Common Lisp dle manuálu Debianu automatizuje proces
+ vytváření balíčku.
+ .
+ Přidává závislosti vyžadované implementací Common Lisp v případě, že jsou
+ pro ně v balíčku předkompilované objektové soubory.
+
+Package: dibbler-relay
+Description-md5: f88188c3457bc9cab23d11c08a90915b
+Description-cs: Portovatelný DHCPv6 relay
+ Relay se používá jako proxy mezi servery a klienty. Hlavní předností je
+ podpora různých vzdálených spojů pomocí jednoho serveru. Díky instalaci
+ Dibbler budete moci obsluhovat více různých spojů, které nejsou fyzicky
+ propojeny, pomocí jednoho serveru DHCPv6.
+
+Package: dibbler-relay-dbg
+Description-md5: cfb8eba35548b9316c88886e117b45d6
+Description-cs: Portovatelný DHCPv6 relay
+ Relay se používá jako proxy mezi servery a klienty. Hlavní předností je
+ podpora různých vzdálených spojů pomocí jednoho serveru. Díky instalaci
+ Dibbler budete moci obsluhovat více různých spojů, které nejsou fyzicky
+ propojeny, pomocí jednoho serveru DHCPv6.
+ .
+ This package contains the debugging symbols for dibbler-relay.
+
+Package: dict-wn
+Description-md5: 6f0bb13548fc3e09edb1f19285e99ae8
+Description-cs: electronic lexical database of English language for dict
+ WordNet(C) je online slovníkový referenční systém jehož design byl
+ inspirován aktuálními psycholingvistickými teoriemi o lidské slovní
+ zásobě. Podstatná a přídavná jména, slovesa a příslovce jsou organizována
+ do skupin synonym, každá přitom reprezentuje jeden slovní pojem. Množiny
+ synonym spojují rozdílné vztahy.
+ .
+ WordNet was developed by the Cognitive Science Laboratory at Princeton
+ University under the direction of Professor George A. Miller (Principal
+ Investigator).
+ .
+ This package will be of limited use without the server found in the dictd
+ package.
+
+Package: doc-debian
+Description-md5: 169f4de7b5c458ff7ffd0eff507c042a
+Description-cs: Debian Project documentation and other documents
+ Projekt Debian je sdružení jednotlivců, kteří společně vytváří svobodný
+ operační systém.
+ .
+ In this package, you will find:
+   * Debian Linux Manifesto,
+   * Constitution for the Debian Project,
+   * Debian Social Contract,
+   * Debian Free Software Guidelines.
+ .
+ Additionally provided are:
+   * Debian Bug Tracking System documentation, and
+   * Introduction to the Debian mailing lists.
+ .
+ All of these files are available at http://ftp.debian.org/debian/doc/ and
+ mirrors thereof.
+
+Package: dzen2
+Description-md5: ad3731d926486924dab0bcc6a64d3569
+Description-cs: Univerzální program pro posílání zpráv a upozornění v X11
+ Dzen byl vytvořen tak, abyste mohli vytvářet skripty v libovolném jazyku a
+ integrovat ho s takovými správci oken jako je dwm, wmii a monad. V
+ principu by program mohl fungovat se zcela libovolným správcem oken.
+
+Package: epiphany-browser
+Description-md5: 767a0ee0cafbd123a7d0ad923e60350d
+Description-cs: Intuitive GNOME web browser
+ Epiphany je jednoduchý prohlížeč určený pro prostředí GNOME a zaměřený
+ především na ne-technické uživatele. Mezi jeho vlastnosti patří
+ jednoduchost a dodržování standardů.
+ .
+ Simplicity is achieved by a well designed user interface and reliance on
+ external applications for performing external tasks (such as reading
+ email). Simplicity does not mean less features; Epiphany has everything a
+ modern web browser is expected to have.
+ .
+ Standards compliance is achieved on the HTML side by using the WebKitGTK+
+ rendering engine (which is based on the engine used by Apple Safari and
+ Google Chrome); and on the user interface side by closely following the
+ GNOME Human Interface Guidelines (HIG) and by close integration with the
+ GNOME desktop.
+
+Package: epiphany-browser-data
+Description-md5: 602cd9c52c5ffccb213ecf3dec85b99d
+Description-cs: Datové soubory pro hlavní webový prohlížeč prostředí GNOME
+ Epiphany je jednoduchý prohlížeč určený pro prostředí GNOME a zaměřený
+ především na ne-technické uživatele. Mezi jeho vlastnosti patří
+ jednoduchost a dodržování standardů.
+ .
+ Tento balík obsahuje společné soubory, grafické prvky a překlady pro
+ Epiphany.
+
+Package: etw
+Description-md5: 95603e847377d32fc5a84171132df014
+Description-cs: Fotbalová arkáda
+ Eat The Whistle je fotbalová hra podobná hrám Kick Off či Sensible Soccer,
+ které můžete znát z počítače Amiga. Hra má různé módy, které vám umožní
+ hrát za celý tým i za jediného hráče, a také spravovat týmy hrající v
+ pohárech a ligách. Dokonce je k dispozici i mód s řadou vylepšení a
+ bonusy, podobně jako ve hře SpeedBall 2.
+ .
+ Eat The Whistle nabízí 30 různých hřišť a různé zvukové efekty. Hru je
+ vidět z pohledu ze strany a můžete ji ovládat pomocí joysticku i
+ klávesnice.
+ .
+ Většina herních nastavení je konfigurovatelných, je to např. hřiště,
+ počasí, čas utkání, což má vliv na vlastní hru. K dispozici je také mód
+ pro přehrání, který vám umožní načíst a uložit ty nejlepší okamžiky hry,
+ editor herní taktiky a kromě toho všeho také budete moci přímo importovat
+ týmy ze Sensible World of Soccer.
+
+Package: etw-data
+Description-md5: 64921b161fa5e0bb3ea10db0f311a732
+Description-cs: graphics and audio data for etw
+ Eat The Whistle je fotbalová hra podobná hrám Kick Off či Sensible Soccer,
+ které můžete znát z počítače Amiga. Hra má různé módy, které vám umožní
+ hrát za celý tým i za jediného hráče, a také spravovat týmy hrající v
+ pohárech a ligách. Dokonce je k dispozici i mód s řadou vylepšení a
+ bonusy, podobně jako ve hře SpeedBall 2.
+ .
+ This package contains the architecture-independent data for etw. For more
+ information, see the etw package.
+
+Package: exo-utils
+Description-md5: 4388e12c644c2672008d98dc0e1fbc13
+Description-cs: Utility pro libexo
+ This package contains the Xfce settings plugin and the utility files for libexo-2-0 which are:
+   - exo-desktop-item-edit
+   - exo-open
+
+
+Package: extremetuxracer
+Description-md5: f1c4f423f79ec3be6015a4a71053d9ce
+Description-cs: 3D závodní hra s Tuxem, linuxovým tučňákem
+ Extreme Tux Racer, zkráceně etracer, je jednoduchá OpenGL závodní hra s
+ Tuxem, maskotem Linuxu. Cílem této hry je sklouznout se dolů po sněhem a
+ ledem pokrytých horách co nejrychleji je možné. Přitom se musíte vyhýbat
+ stromům a skálám, které vás zpomalí.
+ .
+ Collect herrings and other goodies while sliding down the hill, but avoid
+ fish bones.
+ .
+ This game is based on the GPL version of the famous game TuxRacer.
+ .
+ Ke hraní hry je nutná funkční 3D akcelerace, jinak hra nebude fungovat.
+
+Package: extremetuxracer-data
+Description-md5: e833770f2c00924281bb422694cf51cb
+Description-cs: data files for the game Extreme Tux Racer
+ Extreme Tux Racer, zkráceně etracer, je jednoduchá OpenGL závodní hra s
+ Tuxem, maskotem Linuxu. Cílem této hry je sklouznout se dolů po sněhem a
+ ledem pokrytých horách co nejrychleji je možné. Přitom se musíte vyhýbat
+ stromům a skálám, které vás zpomalí.
+ .
+ This game is based on the GPL version of famous game TuxRacer.
+ .
+ This package contains data like graphics and courses. If you want to play
+ the game, you need to install the package extremetuxracer.
+
+Package: fapg
+Description-md5: be8013fed806e7b3dd3ee7168dfd91d6
+Description-cs: Fast Audio Playlist Generator
+ FAPG je nástroj určený ke generování seznamu zvukových souborů (Wav, MP3,
+ Ogg, atd.) v různých výstupních formátech (M3U, PLS, XSPF, HTML, atd.).
+
+Package: feynmf
+Description-md5: 87b3a03f70462a8374ce25b744caed1e
+Description-cs: sada LaTeXových maker pro tvorbu Feynmanových diagramů
+ FeynMF is LaTeXový balík pro snadné vykreslování Feynmanových diagramů v
+ profesionální kvalitě. Jedná se o ilustrace, které zobrazují základní
+ interakce subatomárních částic. Diagramy mohou být vytvořeny použitím
+ programů Metafont a MetaPost. FeynMF vykreslí většinu diagramů ze
+ struktury grafu uspokojivě bez jakékoliv potřeby manuálního zásahu. Přesto
+ je k dispozici veškerá síla Metafontu i MetaPostu pro obskurnější případy.
+ .
+ Poznamenejme, že pro verzi FeynMF založenou na MetaPostu budete potřebovat
+ balíček texlive-metapost.
+
+Package: flawfinder
+Description-md5: ed876d319635944119725ff09befb5f2
+Description-cs: Prověří zdrojový kód a pokusí se nalézt slabá místa zabezpečení
+ Flawfinder prohledává zdrojový kód jazyka C/C++ a hledá v něm
+ potencionální slabá místa. Program vytváří výstup popisující potencionální
+ slabiny zdrojového kódu a hodnotí je podle jejich důležitosti.
+ .
+ Podobně jako RATS, informace Flawfinder přímo neukazuje na zranitelnost,
+ ale pouze ukazuje startovací bod pro ruční provedení ověření zabezpečení
+ ve zdrojovém kódu programu.
+ .
+ Flawfinder také generuje různé zprávy odkazující se na soubory záplat
+ (diff) popisující změny ve zdrojovém kódu programu. Tímto způsobem je
+ možno odhalit zvýšení/snížení potencionálních děr zabezpečení ve zdrojovém
+ kódu po odeslání záplat do CVS nebo Subersion.
+
+Package: flobopuyo
+Description-md5: 5222c101e471080d9f9d95233cf8d243
+Description-cs: Varianta hry PuyoPuyo
+ The goal of FloboPuyo is to make groups of four or more Puyos (coloured
+ bubbles) to make them explode and send bad ghost Puyos to your opponent.
+ You win the game if your opponent reaches the top of the board. You can
+ play against computer or another human.
+
+Package: foxtrotgps
+Description-md5: e21a55299859dc67931a14808ade6839
+Description-cs: Atlas a GPS aplikace pro GTK+
+ foxtrotGPS is a map and GPS application. By default, it uses maps from
+ OpenStreetMap. The available features include downloading and displaying
+ tiled maps, recording GPS tracks, automatic map centering, storing points
+ of interest, geocoding photos, setting waypoints, monitoring heartrate via
+ Bluetooth, planning travel routes and finding travel routes using external
+ services on the Internet based on OpenStreetMap.
+
+Package: fraqtive
+Description-md5: f232e2d9d35118266eb8b336d9d8b7e1
+Description-cs: Vykresluje Mandelbrotovy a Juliovy fractaly
+ Fraqtive je program určený ke kreslení Mandelbrotových a Juliových
+ fraktálů. Používá velmi rychlý algoritmus, který produkuje vysoce kvalitní
+ a přitom příjemné obrázky. Je plně interaktivní čímž umožní navigaci a
+ dynamické vytváření náhledu Juliových fraktálů. Vykreslování 3D pohledu
+ OpenGL fraktálů je podporováno také.
+
+Package: ftp.app
+Description-md5: d79864dd07365a936819d664b8c0f4b4
+Description-cs: FTP aplikace pro GNUstep
+ Tato FTP aplikace (RFC 765) vyniká kompaktním a snadno použitelným
+ rozhraním Jako většina aplikací GAP je určena pro GNUstep a MacOS X a
+ přitom se snaží o to, abyste s ní mohli stejně snadno pracovat v obou
+ podporovaných prostředích.
+ .
+ FTP podporuje různé módy: „výchozí“, normu „PORT“ (také známou jako
+ aktivní) a normu „PASV“ (také známou jako pasivní).
+
+Package: fusefat
+Description-md5: f6ee1ab1b61b3e87caf314cbfd75302a
+Description-cs: FUSE (File System in User Space) - moduly pro FAT
+ Tento modul FUSE umožní uživatelům FUSE připojovat souborové systémy FAT.
+ .
+ Modul byl původně napsán pro UMView, implementaci View-OS. Pokud chcete
+ povolit plnou podporu připojování diskových oddílů (bez podpory
+ jádra/superuživatele), podívejte se na umview-mod-umfusefat a jeho
+ závislosti.
+
+Package: fuseiso
+Description-md5: ed981e9aa4f7032565f4f02511f85fe4
+Description-cs: Modul FUSE pro připojení obrazů souborových systémů ISO
+ Tento balíček obsahuje modul sloužící k připojení obrazů souborových
+ systémů ISO pomocí FUSE. Za pomoci FUSE je možno plně přistupovat k
+ souborovému systému za pomoci uživatelské části programu.
+ .
+ Také umí připojit stopy .BIN, .MDF, .IMG a .NRG.
+
+Package: gamine
+Description-md5: 03d8be163375b08e650a6b987a3dc08a
+Description-cs: Interactive game for young children
+ Gamine je hra určená pro 2 leté děti, které neumí používat klávesnici.
+ .
+ Ke kreslení barevných teček a čar na obrazovce se používá myš.
+
+Package: gammu
+Description-md5: 12551c0ae5fdb3bc3de3855bc96d1015
+Description-cs: Nástroje pro správu mobilního telefonu
+ Gammu je pomůcka pro příkazovou řádku a knihovna pro práci s mobilními
+ telefony od spousty výrobců. Podpora pro různé modely se liší, ale
+ základní funkce by měly fungovat s většinou modelů. Program umí pracovat s
+ kontakty, zprávami (SMS, EMS a MMS), kalendáři, úkoly, souborovými
+ systémy, integrovanými rádii, fotoaparáty atd. Rovněž podporuje režim
+ démona pro posílání a příjem SMS zpráv.
+ .
+ V současné době podporované modely zahrnují:
+ .
+  * Many Nokia models.
+  * Alcatel BE5 (501/701), BF5 (715), BH4 (535/735).
+  * AT capable phones (Siemens, Nokia, Alcatel, IPAQ).
+  * OBEX and IrMC capable phones (Sony-Ericsson, Motorola).
+  * Symbian phones through gnapplet.
+ .
+ Tento balíček obsahuje program Gammu a několik příkladů použití.
+
+Package: gammu-smsd
+Description-md5: e36e4d0f7657805b68533f3d10f281f5
+Description-cs: SMS message daemon
+ Gammu je pomůcka pro příkazovou řádku a knihovna pro práci s mobilními
+ telefony od spousty výrobců. Podpora pro různé modely se liší, ale
+ základní funkce by měly fungovat s většinou modelů. Program umí pracovat s
+ kontakty, zprávami (SMS, EMS a MMS), kalendáři, úkoly, souborovými
+ systémy, integrovanými rádii, fotoaparáty atd. Rovněž podporuje režim
+ démona pro posílání a příjem SMS zpráv.
+ .
+ V současné době podporované modely zahrnují:
+ .
+  * Many Nokia models.
+  * Alcatel BE5 (501/701), BF5 (715), BH4 (535/735).
+  * AT capable phones (Siemens, Nokia, Alcatel, IPAQ).
+  * OBEX and IrMC capable phones (Sony-Ericsson, Motorola).
+  * Symbian phones through gnapplet.
+ .
+ This package contains Gammu SMS Daemon and tool to inject messages into
+ the queue.
+
+Package: gaupol
+Description-md5: cc7a23011862f3776d478085982806b9
+Description-cs: Editor titulků pro textové soubory s titulky
+ Textové titulky se používají spolu s videem DivX. Gaupol podporuje různé
+ formáty těchto titulků a umožní vám provádět jejich opravy a úpravy
+ časových značek. Uživatelské rozhraní je vytvořeno s ohledem na dávkové
+ zpracování více dokumentů a hodí se pro vytváření překladů.
+ .
+ Supported formats are:
+   * Advanced Sub Station Alpha (.ssa)
+   * MicroDVD (.sub)
+   * MPL2 (.txt)
+   * SubRip (.srt)
+   * Sub Station Alpha (.ssa)
+   * SubViewer2 (.sub)
+   * TMPlayer (.txt)
+ .
+ VobSubs (DVD titulky používající obrázky) nejsou podporovány.
+
+Package: gbgoffice
+Description-md5: d064da4ffe6aaca5f43f436b263b2806
+Description-cs: Frontend slovníku bgoffice (GTK2)
+ bgoffice je projekt, který si klade za cíl vytvoření komplexního
+ desktopového prostředí přeloženého a lokalizovaného pro bulharské
+ uživatele.
+ .
+ Tento balíček obsahuje gbgoffice - GTK2 program pracující se všemi
+ slovníky obsaženými v bgoffice. Program má jednoduché rozhraní, podporuje
+ integraci do oznamovací oblasti GNOME a monitorování schránky. Všechny
+ vlastnosti je možno dál nastavovat.
+ .
+ Pro Qt/KDE verzi programu se podívejte na balíček kbedic.
+
+Package: gcal
+Description-md5: d68f4287a5ce806da0696a2c1a27fd3c
+Description-cs: Program určený k počítání a tisku kalendářů
+ Gcal displays a calendar for a month or a year, eternal holiday lists and
+ fixed date lists, in many ways. The program correctly omits the dates that
+ were skipped when the current Gregorian calendar replaced the earlier
+ Julian calendar.
+ .
+ Apart from the usual and well known calendar functions like the output of
+ a month or a year calendar sheet, or the output of an eternal holiday
+ list, Gcal offers the facility to display fixed dates on the day of their
+ occurrence and to remind or inform the user about them. So it is possible
+ for users to receive an on-screen notification, at bootup or login, of all
+ holidays or appointments which take place on that day. Notification by
+ electronic mail is also possible.
+
+Package: gearman
+Description-md5: fa6766ee62d622a4698745c58ef106f9
+Description-cs: Distributed job queue
+ Gearman je systém předávání práce ostatním počítačům, odeslání příkazů
+ počítačům, které jsou pro tuto práci lépe vybaveni tak, aby práci provedli
+ současně. Program se používá pro snížení zátěže v případě volání velkého
+ množství funkcí nebo při volání funkcí mezi jazyky.
+ .
+ This package is an empty package that depends on both the client and the
+ server.
+
+Package: gearman-job-server
+Description-md5: f1497cc9463c528ddc67462ff143594d
+Description-cs: Job server for the Gearman distributed job queue
+ Gearman je systém předávání práce ostatním počítačům, odeslání příkazů
+ počítačům, které jsou pro tuto práci lépe vybaveni tak, aby práci provedli
+ současně. Program se používá pro snížení zátěže v případě volání velkého
+ množství funkcí nebo při volání funkcí mezi jazyky.
+ .
+ This package contains the C reimplementation of the job server daemon
+
+Package: gearman-tools
+Description-md5: bd89e9e6b98b528ff8da8b6d4149b229
+Description-cs: Tools for the Gearman distributed job queue
+ Gearman je systém předávání práce ostatním počítačům, odeslání příkazů
+ počítačům, které jsou pro tuto práci lépe vybaveni tak, aby práci provedli
+ současně. Program se používá pro snížení zátěže v případě volání velkého
+ množství funkcí nebo při volání funkcí mezi jazyky.
+ .
+ This package contains some command line tools for manipulating gearman
+ jobs.
+
+Package: gff2aplot
+Description-md5: f6913bf739701d38714a2d126513514d
+Description-cs: párové alignmenty genomových sekvencí v PostScriptu
+ A program to visualize the alignment of two genomic sequences together with their annotations. From GFF-format input files it produces PostScript figures for that alignment. The following menu lists many features of gff2aplot:
+  * Comprehensive alignment plots for any GFF-feature. Attributes are defined
+    separately so you can modify only whatsoever attributes for a given file or
+    share same customization across different data-sets.
+  * All parameters are set by default within the program, but it can be also
+    fully configured via gff2ps-like flexible customization files. Program can
+    handle several of such files, summarizing all the settings before producing
+    the corresponding figure. Moreover, all customization parameters can be set
+    via command-line switches, which allows users to play with those parameters
+    before adding any to a customization file.
+  * Source order is taken from input files, if you swap file order you can
+    visualize alignment and its annotation with the new input arrangement.
+  * All alignment scores can be visualized in a PiP box below gff2aplot area,
+    using grey-color scale, user-defined color scale or score-dependent
+    gradients.
+  * Scalable fonts, which can also be chosen among the basic PostScript default
+    fonts. Feature and group labels can be rotated to improve readability in
+    both annotation axes.
+  * The program is still defined as a Unix filter so it can handle data from
+    files, redirections and pipes, writing output to standard-output and
+    warnings to standard error.
+  * gff2aplot is able to manage many physical page formats (from A0 to A10, and
+    more -see available page sizes in its manual-), including user-defined ones.
+    This allows, for instance, the generation of poster size genomic maps, or
+    the use of a continuous-paper supporting plotting device, either in portrait
+    or landscape.
+  * You can draw different alignments on same alignment plot and distinguish
+    them by using different colors for each.
+  * Shape dictionary has been expanded, so that further feature shapes are now
+    available (see manual).
+  * Annotation projections through alignment plots (so called ribbons) emulate
+    transparencies via complementary color fill patterns. This feature allows
+    one to show color pseudo-blending when horizontal and vertical ribbons
+    overlap.
+
+
+Package: ghex
+Description-md5: 67cf246af8ab12639e8fc0d8c020bd11
+Description-cs: Editor šestnáctkových souborů pro GNOME
+ Program GHex umí prohlížet a editovat soubory dvěma způsoby, v
+ šestnáctkové podobě nebo v ascii. To je vhodné pro úpravu uložených
+ souborů hry.
+
+Package: gir1.2-gtk-vnc-2.0
+Description-md5: 94a704f0a9b22ca2b780aec8bba8f812
+Description-cs: GObject introspection data for GTK-VNC
+ This package contains introspection data for the GTK-VNC library.
+ .
+ Byl sestaven tak, aby byl plně asynchronní a přitom jedno-vlákenný.
+ Podporuje protokoly RFB 3.3 až 3.8 a rozšíření autentizace VeNCrypt
+ obsahující šifrování SSL/TLS včetně certifikátu x509.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
+Package: git-all
+Description-md5: 7eb276543374432338c2d9bf7a76e9b6
+Description-cs: fast, scalable, distributed revision control system (all subpackages)
+ Git je populární verzí kontrolního systému vytvořeného pro rychlou a
+ efektivní obsluhu velmi rozsáhlých projektů; používá se v řadě vysoce
+ odborných opensource projektech, za všechny jmenujme projekt jádra Linuxu.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This is a dummy package which brings in all subpackages.
+
+Package: git-cvs
+Description-md5: 5c201c3115375a8b8f735f8e7775526c
+Description-cs: fast, scalable, distributed revision control system (cvs interoperability)
+ Git je populární verzí kontrolního systému vytvořeného pro rychlou a
+ efektivní obsluhu velmi rozsáhlých projektů; používá se v řadě vysoce
+ odborných opensource projektech, za všechny jmenujme projekt jádra Linuxu.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the git cvsimport, cvsexportcommit, and cvsserver
+ tools, which allow Git to read from and write to CVS repositories and
+ offer access over CVS protocol to Git repositories.
+ .
+ The git cvsimport tool can incrementally import from a repository that is
+ being actively developed and only requires remote access over CVS
+ protocol. Unfortunately, in many situations the import leads to incorrect
+ results. For reliable, one-shot imports, cvs2git from the cvs2svn package
+ or parsecvs may be a better fit.
+
+Package: git-daemon-run
+Description-md5: f22f55ff44557b91f4d1ad32ba7df1be
+Description-cs: fast, scalable, distributed revision control system (git-daemon service)
+ Git je populární verzí kontrolního systému vytvořeného pro rychlou a
+ efektivní obsluhu velmi rozsáhlých projektů; používá se v řadě vysoce
+ odborných opensource projektech, za všechny jmenujme projekt jádra Linuxu.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ git-daemon, as provided by the git package, is a simple server for git
+ repositories, ideally suited for read-only updates, i.e. pulling from git
+ repositories through the network.  This package provides a runit service
+ for running git-daemon permanently.  This configuration is simpler and
+ more reliable than git-daemon-sysvinit, at a cost of being less familiar
+ for administrators accustomed to sysvinit.
+
+Package: git-daemon-sysvinit
+Description-md5: b9035bef841508be61c9ba878690987d
+Description-cs: fast, scalable, distributed revision control system (git-daemon service)
+ Git je populární verzí kontrolního systému vytvořeného pro rychlou a
+ efektivní obsluhu velmi rozsáhlých projektů; používá se v řadě vysoce
+ odborných opensource projektech, za všechny jmenujme projekt jádra Linuxu.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ git-daemon, as provided by the git package, is a simple server for git
+ repositories, ideally suited for read-only updates, i.e. pulling from git
+ repositories through the network.  This package provides a sysvinit
+ service for running git-daemon permanently.  Unlike git-daemon-run, this
+ package provides the usual sysvinit service management commands ("service
+ git-daemon start/stop") for git-daemon.
+
+Package: git-email
+Description-md5: 5e0c38a8609078b06fbbe0e8e9e432b4
+Description-cs: fast, scalable, distributed revision control system (email add-on)
+ Git je populární verzí kontrolního systému vytvořeného pro rychlou a
+ efektivní obsluhu velmi rozsáhlých projektů; používá se v řadě vysoce
+ odborných opensource projektech, za všechny jmenujme projekt jádra Linuxu.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the git-send-email program for sending series of
+ patch emails.
+
+Package: git-gui
+Description-md5: 699969d903b4df59976ab85a9e250838
+Description-cs: fast, scalable, distributed revision control system (GUI)
+ Git je populární verzí kontrolního systému vytvořeného pro rychlou a
+ efektivní obsluhu velmi rozsáhlých projektů; používá se v řadě vysoce
+ odborných opensource projektech, za všechny jmenujme projekt jádra Linuxu.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the git graphical user interface.
+ .
+ If aspell is installed, it can check the spelling of commit messages as
+ the user types.
+ .
+ If meld is installed, it can be used for displaying diffs and for
+ interactive merge conflict resolution.
+
+Package: git-mediawiki
+Description-md5: 68f824126adee99ee64bf2b96e49bb2c
+Description-cs: fast, scalable, distributed revision control system (MediaWiki remote helper)
+ Git je populární verzí kontrolního systému vytvořeného pro rychlou a
+ efektivní obsluhu velmi rozsáhlých projektů; používá se v řadě vysoce
+ odborných opensource projektech, za všechny jmenujme projekt jádra Linuxu.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the mediawiki remote helper, which allows Git to
+ read from and write to a wiki such as Wikipedia as though it were a remote
+ Git repository, and a 'git mw' command that can show a preview of how wiki
+ markup will be rendered before pushing.
+
+Package: git-svn
+Description-md5: fe9279673cf6573640700aabf410ef25
+Description-cs: fast, scalable, distributed revision control system (svn interoperability)
+ Git je populární verzí kontrolního systému vytvořeného pro rychlou a
+ efektivní obsluhu velmi rozsáhlých projektů; používá se v řadě vysoce
+ odborných opensource projektech, za všechny jmenujme projekt jádra Linuxu.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides tools for interoperating with Subversion
+ repositories, and importing SVN development history.
+
+Package: gitk
+Description-md5: 09d5ab78b8aa2f432bbf841a62bb9abc
+Description-cs: fast, scalable, distributed revision control system (revision tree visualizer)
+ Git je populární verzí kontrolního systému vytvořeného pro rychlou a
+ efektivní obsluhu velmi rozsáhlých projektů; používá se v řadě vysoce
+ odborných opensource projektech, za všechny jmenujme projekt jádra Linuxu.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the gitk program, a tcl/tk revision tree visualizer.
+
+Package: gitweb
+Description-md5: 2140d89702ec1cd621b41c71a95a910a
+Description-cs: fast, scalable, distributed revision control system (web interface)
+ Git je populární verzí kontrolního systému vytvořeného pro rychlou a
+ efektivní obsluhu velmi rozsáhlých projektů; používá se v řadě vysoce
+ odborných opensource projektech, za všechny jmenujme projekt jádra Linuxu.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package configures a web interface for browsing git repositories.
+ .
+ If apache2 is installed, the web interface is automatically made available
+ at http://localhost/gitweb.  Other servers that support CGI or mod_perl
+ are supported through manual configuration.
+ .
+ If libcgi-fast-perl is installed, gitweb can also be run over FastCGI (and
+ served by nginx, for example).
+
+Package: gkrellm
+Description-md5: 73229655651f0072be499e6775eada06
+Description-cs: GNU Krell Monitors
+ With a single process, gkrellm manages multiple stacked monitors and
+ supports applying themes to match the monitors appearance to your window
+ manager, Gtk, or any other theme.
+
+Package: gkrellmd
+Description-md5: 08607ba309948e20134f4aded447b339
+Description-cs: GNU Krell Monitors Server
+ Gkrellmd Listens for connections from gkrellm clients. When a gkrellm
+ client connects to a gkrellmd server all builtin monitors collect their
+ data from the server.
+
+Package: gnokii-cli
+Description-md5: 49371a804e94482a554eaa4650cf852e
+Description-cs: Kolekce programů pro správu mobilního telefonu (pro konzoli)
+ Gnokii is a suite of programs that allows communication with mobile
+ phones. It currently supports many Nokia mobile phones, all AT capable
+ ones as well as many Symbian based.
+ .
+ Tento balíček obsahuje nástroje příkazové řádky a virtuální modemový
+ daemon pro telefony bez podpory AT.
+
+Package: gnuchess-book
+Description-md5: 7ec41d8b782d477e49e514a06cac7fa8
+Description-cs: Opening book for gnuchess
+ Toto je kniha otevření pro gnuchess. Původně byla dodávána přímo jako
+ součást gnuchess, v současné době je ale součástí vlastního balíčku (z
+ důvodu velikosti a nezávislosti na platformě). Pokud chcete používat
+ gnuchess, pak si nainstalujte i tento balíček.
+
+Package: gnustep-games
+Description-md5: ccb0bfaff1d7a5c398647ae23633ca76
+Description-cs: GNUstep based games
+ Tento balíček obsahuje několik her pro GNUstep.
+ .
+ This is a metapackage that depends on (almost) all games designed for the
+ GNUstep environment.
+
+Package: goldendict-wordnet
+Description-md5: a960f41576a465e043851fa792893ee6
+Description-cs: electronic lexical database of English language (goldendict)
+ WordNet(C) je online slovníkový referenční systém jehož design byl
+ inspirován aktuálními psycholingvistickými teoriemi o lidské slovní
+ zásobě. Podstatná a přídavná jména, slovesa a příslovce jsou organizována
+ do skupin synonym, každá přitom reprezentuje jeden slovní pojem. Množiny
+ synonym spojují rozdílné vztahy.
+ .
+ WordNet was developed by the Cognitive Science Laboratory at Princeton
+ University under the direction of Professor George A. Miller (Principal
+ Investigator).
+ .
+ This package contains an adaptation wordnet database for such dictionaries
+ as goldendict.
+
+Package: gpart
+Description-md5: 4adc170a5c4ff7927ed10795940f56ee
+Description-cs: Guess PC disk partition table, find lost partitions
+ Gpart je nástroj, který se pokusí rozluštit primární tabulku rozdělení
+ oblastí na disku PC a to v takových situacích, kdy byla poškozena nebo
+ smazána tabulka rozdělení disku v sektoru 0.
+ .
+ Také se hodí při hledání a zobrazení typů, umístění a velikosti neúmyslně
+ smazaných oblastí, jak primárních, tak logických. Zobrazí vám informace,
+ které jsou potřeba pro obnovu disku (pomocí fdisk, cfdisk, sfdisk, atd.).
+ .
+ Získanou tabulku je možné zapsat do souboru nebo (pokud si opravdu
+ myslíte, že je získaná tabulka skutečně správná) přímo na disk.
+ .
+ V současné době jsou podporovány tyto souborové systémy a oblasti:
+ .
+  * BeOS filesystem type.
+  * BtrFS filesystem type.
+  * FreeBSD/NetBSD/386BSD disklabel sub-partitioning scheme used on Intel
+    platforms.
+  * Linux second extended filesystem (Ext2).
+  * MS-DOS FAT12, FAT16 and FAT32 "filesystems".
+  * IBM OS/2 High Performance filesystem.
+  * Linux LVM and LVM2 physical volumes.
+  * Linux swap partitions (versions 0 and 1).
+  * The Minix operating system filesystem type.
+  * MS Windows NT/2000 filesystem.
+  * QNX 4.x filesystem.
+  * The Reiser filesystem (version 3.5.X, X > 11).
+  * Sun Solaris on Intel platforms uses a sub-partitioning scheme on PC hard
+    disks similar to the BSD disklabels.
+  * Silicon Graphics journaled filesystem for Linux.
+ .
+ Gpart is useful in recovery actions and forensics investigations.
+
+Package: gpsbabel
+Description-md5: 5e710de842143c2b9995f75608b2ea0d
+Description-cs: Konverze souboru GPS a jeho přesun z/do zařízení GPS
+ GPSBabel converts waypoints, tracks, and routes from one format to
+ another, whether that format is a common mapping format like Delorme,
+ Streets and Trips, or even a serial upload or download to a GPS unit such
+ as those from Garmin and Magellan.
+ .
+ GPSBabel supports dozens of data formats and will be useful for tasks such
+ as geocaching, mapping, and converting from one GPS unit to another. Among
+ the interesting formats it supports are several GPS devices via a serial
+ link, various PDA-based mapping programs, and various Geocaching data
+ formats.
+ .
+ Among others GPSBabel supports the following formats:
+ .
+ CSV, Custom CSV DNA, EasyGPS Binary, Fugawi, Garmin serial, Geocaching.com
+ loc, GPSDrive, GPX, Holux, IGC, Magellan serial, Magellan SD,
+ Mapopolis.Com Mapconverter, Mapsource, Maptech, Microsoft Streets and
+ Trips, NIMA/GNIS Geographic Names, NMEA sentences, OziExplorer, Tab-
+ separated data, Topo by National Geographic, xcsv
+
+Package: grhino
+Description-md5: 72a85f8745f4691404e8419db8cc4545
+Description-cs: Desková hra Othello/Reversi
+ grhino, or rhino its former name, is an Othello/Reversi game.  What
+ distinguish grhino from most other Othello games is that grhino is
+ targeted for experienced Othello players. Strong AI is the main focus. Its
+ AI can be used with quarry.
+
+Package: gringotts
+Description-md5: a7a36dcc9d48e26aac0cbc1afea0d55f
+Description-cs: Bezpečný správce hesel a dat
+ Gringotts je malý nástroj, který vám umožní ukládat a organizovat citlivá
+ data (hesla, čísla kreditních karet, PINy, atd.) ve snadno čitelné, snadno
+ použitelné a chráněné podobě.
+
+Package: grub-linuxbios
+Description-md5: 8d63829707a75c424f8ce33f10391cc0
+Description-cs: GRand Unified Bootloader, version 2 (dummy package)
+ Toto je fiktivní přechodový balíček, který závisí na grub-coreboot.
+
+Package: gsalliere
+Description-md5: 5f0d63ff6ca07cbbdd6d6674f8eaf1ad
+Description-cs: Bridge duplicate scorer (GUI frontend)
+ Salliere je skórovací program pro hledání cesty. Program vezme nějaký
+ soubor párových čísel a ohodnotí jejích skóre pro dosažení cíle. Potom
+ vytvoří pěknou tabulku průměrných výsledků.
+ .
+ This package contains the GUI frontend for salliere.
+
+Package: gtklp
+Description-md5: cf7dfc0d41bfe6e9ff15fdb64f4ac0af
+Description-cs: printing tool for CUPS on the GNOME Desktop
+ GtkLP vám umožní tisknout soubory přes CUPS (Common Unix Printing System).
+ Napsán je pomocí GTK+ 2.0 a určen pro desktopové prostředí GNOME.
+ Podporuje řadu nastavení u každé tiskárny, kterou zná spolu se všemi
+ dostupnými standardními volbami CUPS.
+ .
+ Other features include localized dialogs for several languages, as well as
+ multiple interfaces; with a little more effort, you can use GtkLP as a
+ drop-in replacement for `lp'.
+
+Package: gvncviewer
+Description-md5: ec74ac2b96e27f8fea8f0aff0a83cc41
+Description-cs: VNC prohlížeč používající gtk-vnc
+ Byl sestaven tak, aby byl plně asynchronní a přitom jedno-vlákenný.
+ Podporuje protokoly RFB 3.3 až 3.8 a rozšíření autentizace VeNCrypt
+ obsahující šifrování SSL/TLS včetně certifikátu x509.
+ .
+ The core library is written in C and a bindings for other languages are
+ available via GObject introspection. The networking layer supports
+ connections over both IPv4 and IPv6.
+ .
+ This package contains the VNC viewer and VNC capture utility.
+
+Package: haskell-devscripts
+Description-md5: 3b1fa6764d1165d142fae372bfb2f402
+Description-cs: Debian tools to build Haskell packages (with hscolour)
+ Tento balíček obsahuje sadu nástrojů, které vám pomohou při sestavování
+ balíčků Haskell v Debianu. Oproti haskell-utils, tento balíček neočekává
+ svou instalaci na klientském počítači u koncových uživatelů.
+ .
+ Tento balíček je vytvořen s podporou knihoven Haskell Cabalized. Je
+ vytvořen pro vytváření knihoven podporovaných kompilátorem nebo
+ interpretrem obsaženým v Debianu, generuje odpovídající před/po-instalační
+ soubory, generuje odpovídající položky substvars a také instaluje balíček
+ na nějaké dočasné místo (to je součástí samotného procesu sestavování).
+ .
+ This package is actually an empty package and is only useful for its
+ dependency on hscolour.
+
+Package: haskell-devscripts-minimal
+Description-md5: f72f8fd50d6f812e6f9c5dc006bec61d
+Description-cs: Pomocné nástroje vývojářů Debianu sestavujících balíčky Haskell
+ Tento balíček obsahuje sadu nástrojů, které vám pomohou při sestavování
+ balíčků Haskell v Debianu. Oproti haskell-utils, tento balíček neočekává
+ svou instalaci na klientském počítači u koncových uživatelů.
+ .
+ Tento balíček je vytvořen s podporou knihoven Haskell Cabalized. Je
+ vytvořen pro vytváření knihoven podporovaných kompilátorem nebo
+ interpretrem obsaženým v Debianu, generuje odpovídající před/po-instalační
+ soubory, generuje odpovídající položky substvars a také instaluje balíček
+ na nějaké dočasné místo (to je součástí samotného procesu sestavování).
+ .
+ This package doesn't provide functionality for generating coloured
+ documentation and is mostly intended for bootstrapping a new architecture.
+ If you want coloured documentation, use haskell-devscripts.
+
+Package: hatari
+Description-md5: 0d4554dc3f1466ddaa3e899620f71348
+Description-cs: Emulátor počítačů Atari ST, STE, TT a Falcon
+ Hatari je emulátor řady počítačů Atari ST.
+ .
+ Atari ST byl 16/32 bitový počítač, který byl poprvé vydán společností
+ Atari v roce 1985. Používal CPU Motorola 68000 a ve své době se jednalo o
+ velmi oblíbený počítač, protože měl díky tomuto CPU dostatečný výkon.
+ .
+ Unlike most other open source Atari ST emulators which try to provide a
+ good environment for running GEM applications, Hatari tries to emulate the
+ hardware of a ST as close as possible so that it is able to run most of
+ the old Atari games and demos. Because of this, it may be somewhat slower
+ than less accurate emulators.
+
+Package: hfsprogs
+Description-md5: 2227b7676c8238af395d98e3c4d3e103
+Description-cs: Mkfs a fsck pro souborový systém HFS a HFS+
+ HFS+ je souborový systém používaný společností Apple Computer na jejich
+ počítačích Mac OS a je podporován přímo linuxovým jádrem. Apple vybavuje
+ mkfs a fsck pro HFS+ unixovým jádrem svého operačního systému, Darwin.
+ .
+ Tento balíček je portem nástrojů Apple pro souborové systémy HFS+.
+ .
+ HFS+ je dobré používat zejména v situaci, kdy chcete přenášet soubory mezi
+ MacOS X a Linuxem, HFS+ navíc netrpí problémy FAT32 jako je:
+ .
+  * huge space waste (in slack space as devices grow faster);
+  * ability to create files that are more than 4GB in size (especially
+    good for those working with multimedia and that need to carry large
+    ISO files);
+  * ability to use case preserving (and even sensitivity!);
+  * ability to use uid's and gid's on the filesystem.
+ .
+ Uživatelé mohou nyní ještě víc využívat těchto možností, protože Apple
+ oznámilo rozšíření Macintoshů na platformu ix86-64, tento souborový systém
+ je také už od počátku podporován systémy PowerPC.
+
+Package: httrack
+Description-md5: b81551baf54e5a0e8679bd1840c13912
+Description-cs: Zkopíruje webové stránky do vašeho počítače (prohlížení offline)
+ HTTrack is an offline browser utility, allowing you to download a World
+ Wide website from the Internet to a local directory, building recursively
+ all directories, getting html, images, and other files from the server to
+ your computer.
+ .
+ HTTrack uspořádá původní stránky do relativní struktury odkazů. Jednoduše
+ otevřete stránku "zrcadleného" webu ve vašem prohlížeči a můžete procházet
+ webem stejně jako byste byli online. HTTrack umí také aktualizovat
+ stávající mirrorované stránky a pokračovat v přerušeném stahování. HTTrack
+ je plně nastavitelný a má integrovaný systém nápovědy.
+
+Package: hugin-data
+Description-md5: 0dc76a2ce827e15a9b09fe843bb5bd44
+Description-cs: panorama photo stitcher - common data files
+ Hugin je program pro slepování panorámat.
+ .
+ Tento balíček obsahuje datové soubory vyžadované balíčky hugin a hugin-
+ tools.
+
+Package: hugin-tools
+Description-md5: 0d6015ce460c9721663f3f64489401a7
+Description-cs: panorama photo stitcher - commandline tools
+ Hugin je program pro slepování panorámat.
+ .
+ This package includes command-line tools used by hugin and other packages for image stitching and High Dynamic Range (HDR) images:
+  * align_image_stack  - Align overlapping images for HDR creation.
+  * autooptimiser      - Optimize image positions.
+  * celeste_standalone - Remove cloud-like control points.
+  * cpclean            - Remove wrong control points.
+  * cpfind             - Patent-free control-point detector
+  * deghosting_mask    - Creates mask for removing ghosting in images.
+  * fulla              - Correct lens distortion, vignetting, and
+                         chromatic aberration.
+  * geocpset           - Set geometric control points.
+  * hugin_executor     - CLI stitching tool.
+  * hugin_hdrmerge     - Merge overlapping images.
+  * hugin_lensdb       - Hugin lens database maintenance.
+  * icpfind            - Control-point detector wrapper program.
+  * linefind           - Detect vertical features in images.
+  * nona               - Remap images. (Also does simple stitching.)
+  * pano_modify        - Change output parameters of project file.
+  * pto_gen            - Generate a Hugin project file from a list of images.
+  * pto_lensstack      - Modify assigned lenses and stack in pto files.
+  * pto_mask           - Apply a mask.
+  * pto_merge          - Merges two or more Hugin project files.
+  * pto_move           - Move a project file with all images in it.
+  * pto_template       - Apply a template file.
+  * pto_var            - Change image variables inside Hugin .pto project
+                         files
+  * tca_correct        - Calculate transverse chromatic aberration.
+  * verdandi           - Blend images using watershed algorithm.
+  * vig_optimize       - Determine the radial vignetting.
+
+
+Package: hwinfo
+Description-md5: 970442d853c387b8e2c5e7373c497270
+Description-cs: Nástroj pro identifikaci hardwaru
+ hwinfo is the hardware detection tool used in SuSE Linux.
+ .
+ In Debian Edu (Skolelinux) hwinfo has shown better results than discover
+ when detecting mouse, keyboard and monitor.
+ .
+ hwinfo získává informace o HW nainstalovaném na počítači. Kromě jiných,
+ libhd obsahuje informace o mechanikách cdrom, zip, disketových
+ mechanikách, diskách a oblastech, síťových a grafických kartách,
+ monitorech, kamerách, myši, zvukové kartě, pppoe, isdn, modemu, tiskárně,
+ scanneru, biosu, cpu, usb, paměti a smp.
+ .
+ Tento balíček neobsahuje binární soubory hwscan, hwscand a hwscanqueue.
+ Pokud si myslíte, že by měli být tyto nástroje obsaženy, pak prosím
+ kontaktujte správce balíčku na adrese hwinfo@packages.debian.org.
+
+Package: imagej
+Description-md5: d64a1d4b24bcb1fe82817a5a62d85a46
+Description-cs: Image processing program with a focus on microscopy images
+ Program umí zobrazit, upravit, analyzovat, zpracovat, uložit a vytisknout
+ 8-bitové, 16-bitové a 32-bitové obrázky. Také umí přečíst spoustu formátů
+ obrázků včetně TIFF, GIF, JPEG, BMP, DICOM, FITS a „surové formáty“.
+ Podporuje „zásobník“, série obrázků sdílejících jediné okno.
+ .
+ Umí vypočítat oblast a statistiku hodnot pixelů uživatelsky definovaného
+ výběru. Umí změřit vzdálenost a úhly. Umí vytvořit histogram hustoty a
+ nakreslit profilový graf. Podporuje standardní funkce zpracování obrázků
+ jako je úprava kontrastu, ostrosti, měkkosti, detekovat okraje a také
+ filtrovat medián.
+ .
+ K dispozici jsou prostorové kalibrace, které vám umožní měření skutečného
+ světa v milimetrech. Také můžete měřit hustotu nebo kalibrovat měřítko
+ šedivosti.
+ .
+ ImageJ vytvořil Wayne Rasband (wayne@codon.nih.gov), v Research Services
+ Branch, National Institute of Mental Health, Bethesda, Maryland, USA.
+
+Package: ink
+Description-md5: 0f3afbb9a7893c7aaa55688c30a26da3
+Description-cs: Nástroj pro kontrolu hladiny inkoustu ve vaší tiskárně
+ Ink is a command line tool based on libinklevel5 to check ink level of
+ your local printer.
+ .
+ Printers of Canon, Epson, HP and Sony are supported. Complete list can be
+ found at README.Debian of libinklevel5 package.
+
+Package: inorwegian
+Description-md5: 3270cdccbf6d154ac3497747bff95d27
+Description-cs: Norwegian dictionary for ispell
+ Tento balíček obsahuje norský slovník pro použití s ispellem ke kontrole
+ správného hláskování v norských textech.
+
+Package: isag
+Description-md5: 10d9efc76195047a9a61b2432a52444d
+Description-cs: Interactive System Activity Grapher for sysstat
+ Tento balíček obsahuje příkaz isag, který graficky zobrazuje aktivitu
+ systému uloženou v binárním logu vytvořeném pomocí sar (balíček sysstat).
+
+Package: javahelp2
+Description-md5: 10a23138899d3c2d8c1d9840ad4aa236
+Description-cs: Systém nápovědy používající Javu
+ Systém JavaHelp je online pomocný systém, který vývojářům pomůže přidat
+ online nápovědu do jejich aplikací postavených na této platformě. JavaHelp
+ obsahuje standardní, komplexní a snadno použitelný systém zobrazování
+ online informací v aplikacích Java. Systém JavaHelp obsahuje rozšiřitelné
+ API napsané kompletně v jazyce Java. JavaHelp používá implementace
+ založené na JFC (Java Foundation Classes, také známé jako Swing), vytváří
+ standardní rozhraní, které vám pomůže snadno zpřístupnit nápovědu ve vaší
+ aplikaci.
+
+Package: javahelp2-doc
+Description-md5: fed43edd73cbc3518a2039585e223879
+Description-cs: Java based help system - contains Javadoc API documentation
+ Systém JavaHelp je online pomocný systém, který vývojářům pomůže přidat
+ online nápovědu do jejich aplikací postavených na této platformě. JavaHelp
+ obsahuje standardní, komplexní a snadno použitelný systém zobrazování
+ online informací v aplikacích Java. Systém JavaHelp obsahuje rozšiřitelné
+ API napsané kompletně v jazyce Java. JavaHelp používá implementace
+ založené na JFC (Java Foundation Classes, také známé jako Swing), vytváří
+ standardní rozhraní, které vám pomůže snadno zpřístupnit nápovědu ve vaší
+ aplikaci.
+ .
+ This package contains Javadoc API documentation.
+
+Package: javahelper
+Description-md5: d45b9daf1c52a4839fc72a1c8d80017d
+Description-cs: Pomocné skripty pro balíčkování programů v Javě
+ Javahelper contains several scripts which help in packaging Java programs.
+ .
+ jh_depends searches jars to find which packages they depend on, similar to
+ dh_shlibdeps. It will also add depends on jarwrapper for packages with
+ executable jars.
+ .
+ jh_classpath will register the classpath dependencies for each jar so that
+ they can be automatically loaded when that jar is used by other programs.
+ .
+ jh_manifest updates the manifest in jar files according to a provided spec
+ so that the resultant jar files will work with jarwrapper-enabled
+ packages.
+ .
+ jh_exec looks for symlinks to jars which should be executable and makes
+ them executable
+ .
+ jh_build builds java files to jars for you.
+ .
+ jh_installlibs installs library jars into the correct locations
+ .
+ jh_makepkg generates a template for a Debian Java package for you
+ .
+ jh_installeclipse installs features/plugins built by pde-build.
+ .
+ jh_setupenvironment prepares an out of source built for eclipse builds.
+ .
+ jh_generateorbitdir creates and populates an orbit dir for eclipse builds.
+ .
+ jh_compilefeatures compiles eclipse features based on feature ids.
+ .
+ /usr/share/javahelper/java-vars.mk provides a selection of useful
+ variables such as various JVM paths and the JVM name for the architecture
+ .
+ /usr/share/javahelper/java-arch.sh converts Debian architecture names into
+ java names to locate libjvm.so in non-make build systems
+ .
+ javahelper provides CDBS and dh macros so that it can be used with those
+ package build systems.
+ .
+ Note that some of the eclipse helpers depends on packages not pulled by
+ default (like with devscripts). You can find these scripts in Suggests.
+
+Package: jgraph
+Description-md5: 878a8b1bfab4656e60e8fc53fd5e6ee5
+Description-cs: Jim Plank's program for producing PostScript graphs
+ Jgraph takes a description of a graph or graphs and produces a PostScript
+ file on the standard output.
+ .
+ Jgraph is ideal for plotting any mixture of scatter point graphs, line
+ graphs, and/or bar graphs, and embedding the output into LaTeX, or any
+ other text processing system which can read PostScript.
+ .
+ Popisný jazyk graphu je jednoduchý a přesto dává pěkně vypadající grafy s
+ vynaložením minimální námahy. Můžete si dostatečně pružně přizpůsobit
+ vzhled grafů svým individuálním preferencím. To zahrnuje kreslení více
+ grafů a umísťování je odděleně na stránce (nebo stránkách).
+
+Package: jigzo
+Description-md5: c057f12dcc6dc1228328e6c18b252cd7
+Description-cs: Skládačka fotografií pro děti
+ jigzo (formerly glpuzzle) is a jigsaw puzzle game. Choose from 12 puzzles
+ of increasing difficult. The difficulty ranges from 4 to 25 puzzle pieces.
+ This game requires a OpenGl hardware acceleration.
+
+Package: junior-internet
+Description-md5: ce5f524af34a9ba0dd0dfa3e86aa5fbc
+Description-cs: Debian Jr. - internetové nástroje
+ Aby děti mohly začít s Internetem, nepotřebují širokou škálu nástrojů.
+ Většina uživatelů zjistí, že webový prohlížeč Iceweasel pokrývá jejich
+ potřeby. Jak se u dětí rozvíjí sblížení a porozumnění Internetu,
+ pravděpodobně jim budete chtít do počítače přidat další internetové
+ klienty.
+
+Package: kball-data
+Description-md5: 104f288a0598552ec5eef7a900cab9fe
+Description-cs: game of skill and reflexes for all the family - data files
+ A game of skill and reflexes, non violent, suitable for all ages. The idea
+ is to move the ball around the map, without falling, without running out
+ of time, and getting the prizes, in order to reach the exit. The main
+ feature of the game is the built-in map editor, so anybody can make their
+ own maps.
+ .
+ Tento balík obsahuje data ke hře.
+
+Package: kdepim
+Description-md5: 13df2537eaec012b9e735cdc8dac9d49
+Description-cs: Personal Information Management apps from the official KDE release
+ KDE (K Desktop Environment) je mocné grafické desktopové prostředí pro
+ unixové stanice vydané jako Open Source. Kombinuje snadné používání,
+ dobrou funkcionalitu a vynikající grafický design spolu s technologickou
+ převahou na operačních systémech typu Unix.
+ .
+ This metapackage includes a collection of Personal Information Management
+ (PIM) desktop applications provided with the official release of KDE.
+
+Package: kdepim-addons
+Description-md5: d8f289f91688d93a9ada54d9d00a30ef
+Description-cs: Addons for KDE PIM applications
+ KDE (K Desktop Environment) je mocné grafické desktopové prostředí pro
+ unixové stanice vydané jako Open Source. Kombinuje snadné používání,
+ dobrou funkcionalitu a vynikající grafický design spolu s technologickou
+ převahou na operačních systémech typu Unix.
+ .
+ This package includes a collection of extensions for the Personal
+ Information Management (PIM) desktop applications provided with the
+ official release of KDE Applications.
+
+Package: kdevelop-php
+Description-md5: d91180b50795db82f54deddad643d239
+Description-cs: PHP plugin for KDevelop
+ KDevelop je snadno použitelné vývojové prostředí pro KDE. Podporuje
+ širokou škálu programovacích jazyků a voleb týkajících se správy projektu,
+ má pokročilý textový editor, prohlížeč tříd a integrovaný debugger.
+ .
+ This package contains the PHP language support plugin.
+
+Package: kdevelop-python
+Description-md5: fb61067133e49cf20097c70cdb545f69
+Description-cs: Python 3 plugin for KDevelop
+ KDevelop je snadno použitelné vývojové prostředí pro KDE. Podporuje
+ širokou škálu programovacích jazyků a voleb týkajících se správy projektu,
+ má pokročilý textový editor, prohlížeč tříd a integrovaný debugger.
+ .
+ This package contains the Python 3 language support plugin.
+
+Package: kdevelop-python-data
+Description-md5: 62bea8202cdbba59059b6cf7c87bc1a5
+Description-cs: Python 3 plugin for KDevelop - data files
+ KDevelop je snadno použitelné vývojové prostředí pro KDE. Podporuje
+ širokou škálu programovacích jazyků a voleb týkajících se správy projektu,
+ má pokročilý textový editor, prohlížeč tříd a integrovaný debugger.
+ .
+ This package contains the data files for Python 3 language support plugin.
+
+Package: kildclient
+Description-md5: 50f93acd669695460a77bcbe955a2664
+Description-cs: powerful MUD client with a built-in Perl interpreter
+ KildClient is a MUD Client written with the GTK+ windowing toolkit. It
+ supports many common features of other clients, such as triggers, gags,
+ aliases, macros, timers, and much more. But its main feature is the built-
+ in Perl interpreter. You can at any moment execute Perl statements and
+ functions to do things much more powerful than simply sending text the
+ mud. Perl statements can also be run, for example, as the action of a
+ trigger, allowing you to do complex things. Some built-in functions of
+ KildClient allow interaction with the world, such as sending commands to
+ it.
+ .
+ Široká podpora KildClient ANSI: podporuje nejen běžných 16 barev, ale také
+ podtržený (jednou i dvojitou čarou) text, text psaný kurzivou, přeškrtnutý
+ text, obrácené video a tzv. „skrytý“ text. Také podporuje vykreslování
+ znaků vt100 a zpětné sekvence xtermu pro režim 256 barev. Všechny tyto
+ schopnosti předurčují KildClient mezi ty nejlepší klienty zobrazující
+ výstup mud.
+ .
+ Kildclient podporuje protokol MCCP (Mud Client Compression Protocol) verze
+ 1 a 2, což redukuje zatížení sítě.
+ .
+ KildClient allows connection through SOCKS4/5 and HTTP proxy servers.
+ .
+ KildClient supports the GMCP (also called ATCP2) and MSDP protocols for
+ out-of-band communications between server and client.
+ .
+ This package contains the main program. Install the kildclient-doc package
+ to access the HTML manual.
+
+Package: kildclient-doc
+Description-md5: 9156327ee50acd2ae7b64d66a9dafabf
+Description-cs: powerful MUD client with a built-in Perl interpreter - manual
+ KildClient is a MUD Client written with the GTK+ windowing toolkit. It
+ supports many common features of other clients, such as triggers, gags,
+ aliases, macros, timers, and much more. But its main feature is the built-
+ in Perl interpreter. You can at any moment execute Perl statements and
+ functions to do things much more powerful than simply sending text the
+ mud. Perl statements can also be run, for example, as the action of a
+ trigger, allowing you to do complex things. Some built-in functions of
+ KildClient allow interaction with the world, such as sending commands to
+ it.
+ .
+ Široká podpora KildClient ANSI: podporuje nejen běžných 16 barev, ale také
+ podtržený (jednou i dvojitou čarou) text, text psaný kurzivou, přeškrtnutý
+ text, obrácené video a tzv. „skrytý“ text. Také podporuje vykreslování
+ znaků vt100 a zpětné sekvence xtermu pro režim 256 barev. Všechny tyto
+ schopnosti předurčují KildClient mezi ty nejlepší klienty zobrazující
+ výstup mud.
+ .
+ Kildclient podporuje protokol MCCP (Mud Client Compression Protocol) verze
+ 1 a 2, což redukuje zatížení sítě.
+ .
+ KildClient allows connection through SOCKS4/5 and HTTP proxy servers.
+ .
+ KildClient supports the GMCP (also called ATCP2) and MSDP protocols for
+ out-of-band communications between server and client.
+ .
+ This package contains the HTML manual for KildClient.
+
+Package: kmymoney
+Description-md5: 49de8a9f7525de7bb25a7171b3e764a1
+Description-cs: personal finance manager for KDE
+ KMyMoney je správce osobních financí pro KDE. Program pracuje podobně jako
+ MS-Money a Quicken, podporuje různé typy účtů, kategorie nákladů, import a
+ export QIF, více různých měn a počáteční podporu online bankovnictví.
+
+Package: kmymoney-common
+Description-md5: 31bd7293497ef7f025bc3697e844770a
+Description-cs: KMyMoney architecture independent files
+ KMyMoney je správce osobních financí pro KDE. Program pracuje podobně jako
+ MS-Money a Quicken, podporuje různé typy účtů, kategorie nákladů, import a
+ export QIF, více různých měn a počáteční podporu online bankovnictví.
+ .
+ This package contains architecture independent files needed for KMyMoney
+ to run properly. It also provides KMyMoney documentation. Therefore,
+ unless you have 'kmymoney' package installed, you will hardly find this
+ package useful.
+
+Package: kwave
+Description-md5: cf8fd11b2cbd7594058323d9a9860004
+Description-cs: zvukový editor pro KDE
+ Kwave is a sound editor designed for the KDE Desktop Environment.
+ .
+ With Kwave you can record, play back, import and edit many sorts of audio
+ files including multi-channel files.
+ .
+ Kwave includes some plugins to transform audio files in several ways and
+ presents a graphical view with a complete zoom- and scroll capability.
+ .
+ Its features include:
+  * 24 Bit Support
+  * Undo/Redo
+  * Use of multicore CPUs (SMP, hyperthreading)
+  * Simple Drag & Drop
+  * Realtime Pre-Listen for some effects
+  * Support for multi-track files
+  * Playback and recording via native ALSA, PulseAudio (or OSS deprecated)
+  * Playback via Phonon
+  * Load and edit-capability for large files (can use virtual memory)
+  * Reading and auto-repair of damaged wav-files
+  * Supports multiple windows
+  * Extendable Plugin interface
+  * a nice splashscreen
+  * some label handling
+
+
+Package: lazygal
+Description-md5: 5d08c026d834afe8e4fa027cba0fa3d7
+Description-cs: Generátor statické galerie
+ Lazygal je další generátor statické galerie napsaný v Pythonu. Je určen
+ pro příkazovou řádku a je líný - regeneruje pouze ty části, které byly
+ změněny.
+ .
+ K dispozici je také podpora zajímavých vole jako jsou podgalerie,
+ informace EXIF, témata a vlastní adresářová metadata. Obsažená témata
+ používají pouze XHTML a CSS.
+
+Package: libgammu-dev
+Description-md5: edd57e45f8c49e9140d3d02bd2f8a25b
+Description-cs: mobile phone management library (development files)
+ Gammu je pomůcka pro příkazovou řádku a knihovna pro práci s mobilními
+ telefony od spousty výrobců. Podpora pro různé modely se liší, ale
+ základní funkce by měly fungovat s většinou modelů. Program umí pracovat s
+ kontakty, zprávami (SMS, EMS a MMS), kalendáři, úkoly, souborovými
+ systémy, integrovanými rádii, fotoaparáty atd. Rovněž podporuje režim
+ démona pro posílání a příjem SMS zpráv.
+ .
+ V současné době podporované modely zahrnují:
+ .
+  * Many Nokia models.
+  * Alcatel BE5 (501/701), BF5 (715), BH4 (535/735).
+  * AT capable phones (Siemens, Nokia, Alcatel, IPAQ).
+  * OBEX and IrMC capable phones (Sony-Ericsson, Motorola).
+  * Symbian phones through gnapplet.
+ .
+ This package contains header files needed for compiling programs with
+ Gammu and developer documentation.
+
+Package: libgammu-i18n
+Description-md5: 545e21badad930bd5c1dae878f31ce4a
+Description-cs: mobile phone management library (i18n files)
+ Gammu je pomůcka pro příkazovou řádku a knihovna pro práci s mobilními
+ telefony od spousty výrobců. Podpora pro různé modely se liší, ale
+ základní funkce by měly fungovat s většinou modelů. Program umí pracovat s
+ kontakty, zprávami (SMS, EMS a MMS), kalendáři, úkoly, souborovými
+ systémy, integrovanými rádii, fotoaparáty atd. Rovněž podporuje režim
+ démona pro posílání a příjem SMS zpráv.
+ .
+ V současné době podporované modely zahrnují:
+ .
+  * Many Nokia models.
+  * Alcatel BE5 (501/701), BF5 (715), BH4 (535/735).
+  * AT capable phones (Siemens, Nokia, Alcatel, IPAQ).
+  * OBEX and IrMC capable phones (Sony-Ericsson, Motorola).
+  * Symbian phones through gnapplet.
+ .
+ This package contains i18n files for Gammu shared library and binary.
+
+Package: libgammu8t64
+Description-md5: 56f1325a9dd659a19ed4453a5c3f9a21
+Description-cs: mobile phone management library
+ Gammu je pomůcka pro příkazovou řádku a knihovna pro práci s mobilními
+ telefony od spousty výrobců. Podpora pro různé modely se liší, ale
+ základní funkce by měly fungovat s většinou modelů. Program umí pracovat s
+ kontakty, zprávami (SMS, EMS a MMS), kalendáři, úkoly, souborovými
+ systémy, integrovanými rádii, fotoaparáty atd. Rovněž podporuje režim
+ démona pro posílání a příjem SMS zpráv.
+ .
+ V současné době podporované modely zahrnují:
+ .
+  * Many Nokia models.
+  * Alcatel BE5 (501/701), BF5 (715), BH4 (535/735).
+  * AT capable phones (Siemens, Nokia, Alcatel, IPAQ).
+  * OBEX and IrMC capable phones (Sony-Ericsson, Motorola).
+  * Symbian phones through gnapplet.
+ .
+ This package contains Gammu shared library.
+
+Package: libgearman-client-perl
+Description-md5: 807a6d8ffe49c4eefed838bd28fa489c
+Description-cs: client for the Gearman distributed job system
+ Gearman je systém předávání práce ostatním počítačům, odeslání příkazů
+ počítačům, které jsou pro tuto práci lépe vybaveni tak, aby práci provedli
+ současně. Program se používá pro snížení zátěže v případě volání velkého
+ množství funkcí nebo při volání funkcí mezi jazyky.
+ .
+ This package contains the Gearman::Client module, a client class for the
+ Gearman distributed job system, providing a framework for sending jobs to
+ one or more Gearman servers. For more information, see
+ <URL:http://www.danga.com/gearman/>.
+
+Package: libgearman-dev
+Description-md5: 02fca8c0e3465ce85c6486e7087ec973
+Description-cs: Development files for the Gearman Library
+ Gearman je systém předávání práce ostatním počítačům, odeslání příkazů
+ počítačům, které jsou pro tuto práci lépe vybaveni tak, aby práci provedli
+ současně. Program se používá pro snížení zátěže v případě volání velkého
+ množství funkcí nebo při volání funkcí mezi jazyky.
+ .
+ This package contains the development headers for the libgearman library.
+
+Package: libgearman-doc
+Description-md5: e5f20b82c1914462a576ec8f01b0fde0
+Description-cs: API Documentation for the Gearman Library
+ Gearman je systém předávání práce ostatním počítačům, odeslání příkazů
+ počítačům, které jsou pro tuto práci lépe vybaveni tak, aby práci provedli
+ současně. Program se používá pro snížení zátěže v případě volání velkého
+ množství funkcí nebo při volání funkcí mezi jazyky.
+ .
+ This package contains the API docs for the libgearman library.
+
+Package: libgearman8t64
+Description-md5: e060387fdc315e3257026627291d0124
+Description-cs: Library providing Gearman client and worker functions
+ Gearman je systém předávání práce ostatním počítačům, odeslání příkazů
+ počítačům, které jsou pro tuto práci lépe vybaveni tak, aby práci provedli
+ současně. Program se používá pro snížení zátěže v případě volání velkého
+ množství funkcí nebo při volání funkcí mezi jazyky.
+ .
+ This package contains the C reimplementation of the client library.
+
+Package: libgsmsd8t64
+Description-md5: 184df381819c3cd620ea38d91af3649c
+Description-cs: SMS daemon helper library
+ Gammu je pomůcka pro příkazovou řádku a knihovna pro práci s mobilními
+ telefony od spousty výrobců. Podpora pro různé modely se liší, ale
+ základní funkce by měly fungovat s většinou modelů. Program umí pracovat s
+ kontakty, zprávami (SMS, EMS a MMS), kalendáři, úkoly, souborovými
+ systémy, integrovanými rádii, fotoaparáty atd. Rovněž podporuje režim
+ démona pro posílání a příjem SMS zpráv.
+ .
+ V současné době podporované modely zahrnují:
+ .
+  * Many Nokia models.
+  * Alcatel BE5 (501/701), BF5 (715), BH4 (535/735).
+  * AT capable phones (Siemens, Nokia, Alcatel, IPAQ).
+  * OBEX and IrMC capable phones (Sony-Ericsson, Motorola).
+  * Symbian phones through gnapplet.
+ .
+ This package contains Gammu SMS daemon shared library.
+
+Package: libgtk-vnc-2.0-0
+Description-md5: c75b76bee0970ec7a0dcfeef71bfa506
+Description-cs: VNC viewer widget for GTK+3 (runtime libraries)
+ Byl sestaven tak, aby byl plně asynchronní a přitom jedno-vlákenný.
+ Podporuje protokoly RFB 3.3 až 3.8 a rozšíření autentizace VeNCrypt
+ obsahující šifrování SSL/TLS včetně certifikátu x509.
+ .
+ The core library is written in C and a bindings for other languages are
+ available via GObject introspection. The networking layer supports
+ connections over both IPv4 and IPv6.
+ .
+ This package contains the shared library built for GTK+3.
+
+Package: libgtk-vnc-2.0-dev
+Description-md5: 0174175a8a727897d51087792378817d
+Description-cs: VNC viewer widget for GTK+3 (development files)
+ Byl sestaven tak, aby byl plně asynchronní a přitom jedno-vlákenný.
+ Podporuje protokoly RFB 3.3 až 3.8 a rozšíření autentizace VeNCrypt
+ obsahující šifrování SSL/TLS včetně certifikátu x509.
+ .
+ The core library is written in C and a bindings for other languages are
+ available via GObject introspection. The networking layer supports
+ connections over both IPv4 and IPv6.
+ .
+ This package contains the development headers for libgtk-vnc-2.0 and Vala
+ bindings.
+
+Package: libgtkhex-4-1
+Description-md5: f81f777084af4f0e366139989583957c
+Description-cs: GNOME Hex editor for files (shared library)
+ Program GHex umí prohlížet a editovat soubory dvěma způsoby, v
+ šestnáctkové podobě nebo v ascii. To je vhodné pro úpravu uložených
+ souborů hry.
+ .
+ This package contains the shared library.
+
+Package: libgtkhex-4-dev
+Description-md5: c5000b405b171c424c6a09b37604a269
+Description-cs: GNOME Hex editor for files (development headers)
+ Program GHex umí prohlížet a editovat soubory dvěma způsoby, v
+ šestnáctkové podobě nebo v ascii. To je vhodné pro úpravu uložených
+ souborů hry.
+ .
+ This package contains the development headers.
+
+Package: libgvnc-1.0-0
+Description-md5: 06fa496658789fbfc6514726e1dffdb5
+Description-cs: VNC GObject wrapper (runtime libraries)
+ Byl sestaven tak, aby byl plně asynchronní a přitom jedno-vlákenný.
+ Podporuje protokoly RFB 3.3 až 3.8 a rozšíření autentizace VeNCrypt
+ obsahující šifrování SSL/TLS včetně certifikátu x509.
+ .
+ The core library is written in C and a bindings for other languages are
+ available via GObject introspection. The networking layer supports
+ connections over both IPv4 and IPv6.
+ .
+ This package contains the shared library.
+
+Package: libgvnc-1.0-dev
+Description-md5: 6d0a556dcb8d27b59ace98a4439d94d0
+Description-cs: VNC GObject wrapper (development files)
+ Byl sestaven tak, aby byl plně asynchronní a přitom jedno-vlákenný.
+ Podporuje protokoly RFB 3.3 až 3.8 a rozšíření autentizace VeNCrypt
+ obsahující šifrování SSL/TLS včetně certifikátu x509.
+ .
+ The core library is written in C and a bindings for other languages are
+ available via GObject introspection. The networking layer supports
+ connections over both IPv4 and IPv6.
+ .
+ This package contains the development headers for libgvnc-1.0 and Vala
+ bindings.
+
+Package: libhd-dev
+Description-md5: 59c83d99599ac15262c22aee15952c73
+Description-cs: Hardware identification system library and headers
+ hwinfo is the hardware detection tool used in SuSE Linux.
+ .
+ In Debian Edu (Skolelinux) hwinfo has shown better results than discover
+ when detecting mouse, keyboard and monitor.
+ .
+ hwinfo získává informace o HW nainstalovaném na počítači. Kromě jiných,
+ libhd obsahuje informace o mechanikách cdrom, zip, disketových
+ mechanikách, diskách a oblastech, síťových a grafických kartách,
+ monitorech, kamerách, myši, zvukové kartě, pppoe, isdn, modemu, tiskárně,
+ scanneru, biosu, cpu, usb, paměti a smp.
+ .
+ This package contains the static library and header files from the hwinfo
+ package.
+
+Package: libhd-doc
+Description-md5: f0f47cbd1b70b413a4b71b6c7070a4f6
+Description-cs: Hardware identification system library documentation
+ hwinfo is the hardware detection tool used in SuSE Linux.
+ .
+ In Debian Edu (Skolelinux) hwinfo has shown better results than discover
+ when detecting mouse, keyboard and monitor.
+ .
+ hwinfo získává informace o HW nainstalovaném na počítači. Kromě jiných,
+ libhd obsahuje informace o mechanikách cdrom, zip, disketových
+ mechanikách, diskách a oblastech, síťových a grafických kartách,
+ monitorech, kamerách, myši, zvukové kartě, pppoe, isdn, modemu, tiskárně,
+ scanneru, biosu, cpu, usb, paměti a smp.
+ .
+ This package contains the documentation for the libhd21-dev package.
+
+Package: libhd21t64
+Description-md5: e05daec8e9a04bdca77c25fbe97e5e96
+Description-cs: Hardware identification system library
+ hwinfo is the hardware detection tool used in SuSE Linux.
+ .
+ In Debian Edu (Skolelinux) hwinfo has shown better results than discover
+ when detecting mouse, keyboard and monitor.
+ .
+ hwinfo získává informace o HW nainstalovaném na počítači. Kromě jiných,
+ libhd obsahuje informace o mechanikách cdrom, zip, disketových
+ mechanikách, diskách a oblastech, síťových a grafických kartách,
+ monitorech, kamerách, myši, zvukové kartě, pppoe, isdn, modemu, tiskárně,
+ scanneru, biosu, cpu, usb, paměti a smp.
+ .
+ This package contains the shared library from the hwinfo package.
+
+Package: libhsqldb1.8.0-java
+Description-md5: 214a2c1ad31e54bb2dc0632a9a88f65a
+Description-cs: Java SQL database engine
+ HSQLDB je SQL relační databázový server napsaný v Javě. Obsahuje ovladač
+ JDBC a podporuje širokou množinu rozšíření SQL-92 (stromový formát BNF),
+ SQL:1999 a SQL:2003. Nabízí malý a rychlý databázový stroj s tabulkami v
+ paměti i na disku. K dispozici jsou také další rozšíření serveru. Kromě
+ toho obsahuje takové nástroje jako je minimální webový server, dotazy v
+ paměti a nástroje pro správu (mohou být spuštěny jako applety) a řadu
+ dalších demonstračních příkladů.
+ .
+ Webová stránka: http://hsqldb.org/
+
+Package: libiodbc2
+Description-md5: 28db562dffbe690878759315a006f3df
+Description-cs: iODBC Driver Manager
+ Správce ovladače iODBC (intrinsic Open Database Connectivity) je
+ kompatibilní se specifikací ODBC 2.x a 3.x a umí provádět všechny úkoly
+ správce ovladače ODBC (např. načtení ovladače, kontrolu parametrů a
+ funkcí, vyvolávat funkce ovladače, atd.). Libovolný ovladač ODBC, který
+ funguje s ODBC 2.0 a 3.x bude také fungovat s ovladačem iODBC a naopak.
+ .
+ Aplikace (používající volání funkcí ODBC) linkované vůči ovladači iODBC
+ budou moci současně přistupovat k různým datovým strukturám skrz jeden
+ proces a pomocí vhodných ovladačů iODBC.
+ .
+ This package contains the library files. Look for the iodbc package, too!
+
+Package: libiodbc2-dev
+Description-md5: d130ba790976d31df335175ab1a2c1f8
+Description-cs: iODBC Driver Manager (development files)
+ Správce ovladače iODBC (intrinsic Open Database Connectivity) je
+ kompatibilní se specifikací ODBC 2.x a 3.x a umí provádět všechny úkoly
+ správce ovladače ODBC (např. načtení ovladače, kontrolu parametrů a
+ funkcí, vyvolávat funkce ovladače, atd.). Libovolný ovladač ODBC, který
+ funguje s ODBC 2.0 a 3.x bude také fungovat s ovladačem iODBC a naopak.
+ .
+ Aplikace (používající volání funkcí ODBC) linkované vůči ovladači iODBC
+ budou moci současně přistupovat k různým datovým strukturám skrz jeden
+ proces a pomocí vhodných ovladačů iODBC.
+ .
+ This package contains the development files.
+
+Package: libmatchbox-dev
+Description-md5: 996b1cb852ac4f0ca6b6348d9d6c0aab
+Description-cs: shared library for Matchbox Project applications [development]
+ Matchbox je základní prostředí pro systém X Window běžící na ne-
+ desktopových platformách jako jsou handheldy, set-top boxy, kiosky a
+ cokoliv dalšího s nějakou obrazovkou, vstupním mechanismem a omezenými
+ zdroji.
+ .
+ libmatchbox provides core functionality used by several Matchbox project
+ applications.
+ .
+ This package contains libmatchbox development files.
+
+Package: libmatchbox-doc
+Description-md5: 005ef41912cfb29d498f6efb5272faf8
+Description-cs: shared library for Matchbox Project applications [documentation]
+ Matchbox je základní prostředí pro systém X Window běžící na ne-
+ desktopových platformách jako jsou handheldy, set-top boxy, kiosky a
+ cokoliv dalšího s nějakou obrazovkou, vstupním mechanismem a omezenými
+ zdroji.
+ .
+ libmatchbox provides core functionality used by several Matchbox project
+ applications.
+ .
+ This package contains the libmatchbox documentation.
+
+Package: libmatchbox1
+Description-md5: 43f7e83b7704824f6044bb370492d2a9
+Description-cs: shared library for Matchbox Project applications [runtime]
+ Matchbox je základní prostředí pro systém X Window běžící na ne-
+ desktopových platformách jako jsou handheldy, set-top boxy, kiosky a
+ cokoliv dalšího s nějakou obrazovkou, vstupním mechanismem a omezenými
+ zdroji.
+ .
+ libmatchbox provides core functionality used by several Matchbox project
+ applications.
+ .
+ This package contains the libmatchbox runtime library.
+
+Package: libopenscenegraph-dev
+Description-md5: a64373fee457d50bacc3205834dad47b
+Description-cs: 3D scene graph, development files
+ Přenositelný, vysokoúrovňový grafický toolkit orientovaný na výkon a
+ vhodný pro vývoj grafických aplikací jako letecké simulátory, hry, vědecké
+ vizualizace a virtuální reality. Poskytuje objektově orientovaný framework
+ nad OpenGL a tím osvobozuje vývojáře od implementačních a optimalizačních
+ nízkoúrovňových volání, mimoto poskytuje i mnoho doplňkových nástrojů pro
+ rychlý vývoj grafických aplikací.
+ .
+ This package contains the development headers.
+
+Package: libopenscenegraph161
+Description-md5: a75df68b0adcf71b7736ef2a388be345
+Description-cs: 3D scene graph, shared libs
+ Přenositelný, vysokoúrovňový grafický toolkit orientovaný na výkon a
+ vhodný pro vývoj grafických aplikací jako letecké simulátory, hry, vědecké
+ vizualizace a virtuální reality. Poskytuje objektově orientovaný framework
+ nad OpenGL a tím osvobozuje vývojáře od implementačních a optimalizačních
+ nízkoúrovňových volání, mimoto poskytuje i mnoho doplňkových nástrojů pro
+ rychlý vývoj grafických aplikací.
+ .
+ This package contains the shared libraries.
+
+Package: lilypond-data
+Description-md5: 15b6a8707411fca217f45f5290242bd1
+Description-cs: Sazeč hudby LilyPond (datové soubory)
+ LilyPond is a music typesetter, an automated engraving system.  It
+ produces beautiful sheet music using a high level description file as
+ input.
+ .
+ Tento balíček obsahuje soubory pro LilyPond nezávislé na architektuře.
+
+Package: lime-forensics-dkms
+Description-md5: cb370b8d5216a7ee6a5025cd0a804f1f
+Description-cs: kernel module to memory dump (DKMS)
+ LiME (Linux Memory Extractor, formerly DMD) is a Loadable Kernel Module
+ (LKM), which allows the acquisition of volatile memory (RAM) from Linux
+ and Linux-based devices, such as those powered by Android. In others
+ words, you can use it to get a memory image from a machine.
+ .
+ The tool supports acquiring memory either to the file system of the device
+ or over the network. LiME is unique in that it is the first tool that
+ allows full memory captures from Android devices. It also minimizes its
+ interaction between user and kernel space processes during acquisition. It
+ will produce memory captures that are more forensically sound than those
+ of other tools designed for Linux memory acquisition. The dump format
+ provided as "lime" is fully compatible with volatility framework.
+ .
+ This package provides the source code for the lime-forensics kernel
+ modules to be build with dkms.
+ .
+ Pro zkompilování těchto modulů je potřeba zdrojový kód nebo hlavičky
+ jádra.
+
+Package: links2
+Description-md5: 9a74b5001abe6d9597ea0d0eb9b7e17d
+Description-cs: Webový prohlížeč běžící v grafickém i textovém módu
+ Links je grafický i textový WWW prohlížeč zároveň, podobně jako Lynx.
+ Zobrazuje tabulky, framy, podporuje stahování na pozadí, používá HTTP/1.1.
+ V grafickém módu umí zobrazit soubory PNG, JPEG, GIF, TIFF a XBM, dál umí
+ spouštět externí programy podle typu souboru. Také má vyhlazené písmo,
+ plynulé přibližování obrázku, 48b dithering, opravu gamma a poměru stran.
+
+Package: matchbox-common
+Description-md5: 64d37d4a4c16636243d93d49d02be542
+Description-cs: common files for Matchbox Project applications
+ This package contains files used by several Matchbox Project applications.
+ .
+ Matchbox je základní prostředí pro systém X Window běžící na ne-
+ desktopových platformách jako jsou handheldy, set-top boxy, kiosky a
+ cokoliv dalšího s nějakou obrazovkou, vstupním mechanismem a omezenými
+ zdroji.
+
+Package: matchbox-desktop
+Description-md5: 4a1fc3c7dd1e2658c673568d2acfe4b8
+Description-cs: desktop application launcher for resource-limited systems
+ matchbox-desktop uses the desktop background to provide an application
+ launcher. It reads the standard desktop entry specification files also
+ used by GNOME and KDE to discover the applications available on the
+ system.
+ .
+ matchbox-desktop allows modules to be loaded for additional functionality.
+ This package includes modules for a task switcher and simple file browser.
+ .
+ Matchbox je základní prostředí pro systém X Window běžící na ne-
+ desktopových platformách jako jsou handheldy, set-top boxy, kiosky a
+ cokoliv dalšího s nějakou obrazovkou, vstupním mechanismem a omezenými
+ zdroji.
+
+Package: matchbox-keyboard
+Description-md5: edcc71ae6e4e88ffe597589c133f0b69
+Description-cs: on-screen keyboard
+ Matchbox-keyboard is an on-screen 'virtual' or 'software' keyboard,
+ designed for touch-screen devices running X.
+ .
+ Matchbox je základní prostředí pro systém X Window běžící na ne-
+ desktopových platformách jako jsou handheldy, set-top boxy, kiosky a
+ cokoliv dalšího s nějakou obrazovkou, vstupním mechanismem a omezenými
+ zdroji.
+
+Package: matchbox-keyboard-im
+Description-md5: 94f8f1856f4cb05fe918b268cb196632
+Description-cs: GTK+ input module for on-screen keyboard
+ Matchbox-keyboard is an on-screen 'virtual' or 'software' keyboard,
+ designed for touch-screen devices running X.
+ .
+ Matchbox je základní prostředí pro systém X Window běžící na ne-
+ desktopových platformách jako jsou handheldy, set-top boxy, kiosky a
+ cokoliv dalšího s nějakou obrazovkou, vstupním mechanismem a omezenými
+ zdroji.
+ .
+ This package provides a GTK+ input module for use with Matchbox-keyboard
+ or other on-screen keyboards.
+
+Package: matchbox-panel
+Description-md5: f4963bc9814aa371d21e6f1e29438b33
+Description-cs: desktop panel for resource-limited systems
+ Matchbox je základní prostředí pro systém X Window běžící na ne-
+ desktopových platformách jako jsou handheldy, set-top boxy, kiosky a
+ cokoliv dalšího s nějakou obrazovkou, vstupním mechanismem a omezenými
+ zdroji.
+ .
+ This package contains the Matchbox desktop panel.
+
+Package: matchbox-panel-manager
+Description-md5: e1d93f7d4cf7437f5801342e8e5bbcc2
+Description-cs: panel manager for matchbox-panel
+ Matchbox je základní prostředí pro systém X Window běžící na ne-
+ desktopových platformách jako jsou handheldy, set-top boxy, kiosky a
+ cokoliv dalšího s nějakou obrazovkou, vstupním mechanismem a omezenými
+ zdroji.
+ .
+ This package contains a utility to manage the Matchbox panel.
+
+Package: matchbox-themes-extra
+Description-md5: 10b0ef9849e5867c71aba28da23f5576
+Description-cs: extra themes for matchbox-window-manager
+ Matchbox je základní prostředí pro systém X Window běžící na ne-
+ desktopových platformách jako jsou handheldy, set-top boxy, kiosky a
+ cokoliv dalšího s nějakou obrazovkou, vstupním mechanismem a omezenými
+ zdroji.
+ .
+ This package contains some extra themes for the Matchbox window manager.
+
+Package: matchbox-window-manager
+Description-md5: f87b15fbd6f82a3cce31fa8cabd171c5
+Description-cs: window manager for resource-limited systems
+ Matchbox je základní prostředí pro systém X Window běžící na ne-
+ desktopových platformách jako jsou handheldy, set-top boxy, kiosky a
+ cokoliv dalšího s nějakou obrazovkou, vstupním mechanismem a omezenými
+ zdroji.
+ .
+ This package contains the Matchbox window manager.
+
+Package: mathomatic-primes
+Description-md5: 8b61ad5701036bccc076ea6177ca21bc
+Description-cs: Nástroje prvočísel pro mathomatic
+ This package contains the integer math tools from Mathomatic to:
+ .
+  * quickly generate any amount of consecutive prime numbers
+  * calculate large primorials
+  * sum and multiply large integers
+  * calculate and display Pascal's triangle
+  * find the minimum number of positive integers that when squared and
+    added together, equal the given number
+
+
+Package: mdf2iso
+Description-md5: 0cf2729140f5019f13e1e6a5505ea174
+Description-cs: simple utility to convert mdf to iso / cue / toc images
+ mdf2iso je velmi jednoduchý nástroj, který vám umožní převádět obraz mdf
+ programu Alcoho 120% na obrazy iso, toc / dat a cue /bin.
+
+Package: memstat
+Description-md5: 9d09d69a80d71802d857028417947648
+Description-cs: Určí co využívá virtuální paměť
+ Zobrazí seznam všech procesů, spustitelných souborů a sdílených knihoven,
+ které jsou obsaženy ve virtuální paměti. Hodí se pro zobrazení využití
+ sdílené paměti a ukáže vám, které „staré“ knihovny zůstaly načteny.
+
+Package: mirmon
+Description-md5: 11fd30dc8f5873cc6fea361d5e8eba98
+Description-cs: Monitoruje stav zrcadel
+ Mirmon pomáhá správcům sledovat stav zrcadel. Ve zhuštěném grafickém
+ formátu pak zobrazuje historii každého zrcadla za poslední dva týdny.
+ Pomocí něj snadno najdete stará nebo mrtvá zrcadla.
+
+Package: mono-xsp4
+Description-md5: c9d8af6079da836c08a9cce5e865130a
+Description-cs: simple web server to run ASP.NET 4.0 applications
+ XSP is a simple web server written in C# that can be used to run your
+ ASP.NET 4.0 applications.
+ .
+ Toto je samostatný webový server ASP.NET. Pokud chcete spustit ASP.NET v
+ Apache, podívejte se na mono-apache-server.
+
+Package: mp3val
+Description-md5: 44147cb1e5d49f679631cf3ca3895cfd
+Description-cs: Program pro validaci zvukového streamu MPEG
+ MP3val je malý, rychlý nástroj pro validaci zvukových souborů MPEG a
+ (volitelně) opravu jejich problémů.
+ .
+ Primárně je určen pro ověření souborů MPEG 1 Layer III (MP3), ale
+ podporuje také ostatní verze a vrstvy MPEG.
+ .
+ Hodí se pro vyhledání poškozených souborů (např. těch, které nejsou
+ kompletně stažené).
+
+Package: mp3wrap
+Description-md5: e7b48dcdf27fe73d0c6b074930207b4b
+Description-cs: Utility for MP3 wrapping (rolling multiple MP3s into one)
+ Nástroj příkazové řádky, který spojí více souborů MP3 do jednoho
+ přehratelného souboru bez ztráty jmen souborů nebo informací ID3 a také
+ bez nutnosti opětovného rekódování. Také podporuje taková ne-zvuková data
+ jako jsou seznamy skladeb, soubory info a obrázky z obalů uvnitř souborů
+ MP3. Tyto soubory je možno později rozbalit (např. pomocí mp3splt); běžné
+ přehrávače MP3 přehrávají tento soubor jako jednu velkou zvukovou stopu.
+ .
+ This is a free, independent alternative to AlbumWrap:
+ http://www.infamus.com/albumwrap/
+
+Package: mpdscribble
+Description-md5: ee9ed0183dff0c94649b757c0e640091
+Description-cs: Last.fm reporting client for mpd
+ MPD (Music Player Daemon) klient sbírá informace o přehrávaných stopách a
+ odesílá je do sítě Last.fm (dříve známé jako Audioscrobbler). Pokud nejsou
+ servery k dispozici, jsou příspěvky uloženy do fronty na disku.
+ .
+ The client can be also configured to use other scrobbling services like
+ Libre.fm.
+ .
+ Tento balíček obsahuje daemon, který je možno používat v celém systému.
+
+Package: ncdt
+Description-md5: 78deba6dd910c63e3e413540c99ce23c
+Description-cs: Zobrazuje stromovou strukturu adresářů
+ NcdT displays directory tree, much like standard tree(1), but with few improvements:
+  - it prints summary info instead of directory special file size
+  - it prints MP3 file info
+  It's particularly useful for indexing CDs.
+
+
+Package: njplot
+Description-md5: 8475cd4a0146132aeafe2fa0b4f9a35b
+Description-cs: phylogenetic tree drawing program
+ NJplot je schopný nakreslit libovolný dendogram vyjádřený ve formátu
+ Newickova standardního fylogenetického stromu (např. formátu použitého v
+ balíčku Phylip). NJplot zvláště vhodný pro zakořenění stromů bez kořene
+ získaného některou z metod pro budování stromů - maximální parsimonie,
+ vzdálenosti nebo podobnost.
+
+Package: octave-pfstools
+Description-md5: e70318b67b9c2f5a91a7931e373082d1
+Description-cs: octave bindings for pfstools
+ PFS je obrazový formát s vysokým dynamickým rozsahem (HDR). Jedná se o
+ pokus integrovat stávající souborové formáty vytvořením jednoduchého
+ datového formátu, který je možno použít pro výměnu dat mezi aplikacemi.
+ .
+ This package contains octave bindings to read and write PFS files.
+
+Package: openscenegraph
+Description-md5: 27966e992343026df0aa45a868c88816
+Description-cs: 3D scene graph, utilities and examples (binaries)
+ Přenositelný, vysokoúrovňový grafický toolkit orientovaný na výkon a
+ vhodný pro vývoj grafických aplikací jako letecké simulátory, hry, vědecké
+ vizualizace a virtuální reality. Poskytuje objektově orientovaný framework
+ nad OpenGL a tím osvobozuje vývojáře od implementačních a optimalizačních
+ nízkoúrovňových volání, mimoto poskytuje i mnoho doplňkových nástrojů pro
+ rychlý vývoj grafických aplikací.
+ .
+ This package contains utilities and examples (binaries).
+
+Package: openscenegraph-doc
+Description-md5: 4331c0bf73a1158c62d9f2f247402d5e
+Description-cs: 3D scene graph, documentation
+ Přenositelný, vysokoúrovňový grafický toolkit orientovaný na výkon a
+ vhodný pro vývoj grafických aplikací jako letecké simulátory, hry, vědecké
+ vizualizace a virtuální reality. Poskytuje objektově orientovaný framework
+ nad OpenGL a tím osvobozuje vývojáře od implementačních a optimalizačních
+ nízkoúrovňových volání, mimoto poskytuje i mnoho doplňkových nástrojů pro
+ rychlý vývoj grafických aplikací.
+ .
+ This package contains the documentation.
+
+Package: openscenegraph-examples
+Description-md5: 07eed8e92dbd876b829ff3687c6e11a8
+Description-cs: 3D scene graph, examples (sources)
+ Přenositelný, vysokoúrovňový grafický toolkit orientovaný na výkon a
+ vhodný pro vývoj grafických aplikací jako letecké simulátory, hry, vědecké
+ vizualizace a virtuální reality. Poskytuje objektově orientovaný framework
+ nad OpenGL a tím osvobozuje vývojáře od implementačních a optimalizačních
+ nízkoúrovňových volání, mimoto poskytuje i mnoho doplňkových nástrojů pro
+ rychlý vývoj grafických aplikací.
+ .
+ This package contains examples (sources).
+
+Package: par
+Description-md5: 71660063a9c5d8d7c0aae26ef5f56aeb
+Description-cs: Reformátuje odstavec
+ Greatly enhanced fmt type program by Adam M. Costello.
+ .
+ Can be used within vi or other editor to automatically reformat text in a
+ variety of ways.
+ .
+ Perfect for use with email & usenet messages as it correctly handles
+ multiple levels of quoting characters.
+ .
+ This version includes a patch allowing multi-byte and multi-width
+ character encodings.
+
+Package: pasco
+Description-md5: 84f00698b3205245a24ece8369a8c139
+Description-cs: Internet Explorer cache forensic analysis tool
+ Pasco is a forensic tool that examines the content of cache files
+ (index.dat) produced by Microsoft Internet Explorer.
+ .
+ Program analyzuje soubor a výstupem jsou jednotlivé položky, které je
+ možno zobrazit v tabulkovém programu.
+ .
+ This package is useful in forensics investigations.
+
+Package: pdfsam
+Description-md5: 91b6582b463e9d90cd973f46a1e383ba
+Description-cs: Rozdělí a spojí soubory PDF
+ PDF Split and Merge se používá velmi snadno, navíc je svobodný a
+ opensource. Program umí rozdělovat a spojovat soubory pdf. Má jednoduché
+ grafické rozhraní, které uživateli umožní vybrat soubory pdf a
+ rozdělit/spojit je.
+
+Package: pfsglview
+Description-md5: d4cdbf3a6ea3b49b20a2b79466a61948
+Description-cs: Programy pro manipulaci s HDR (prohlížeč OpenGL/GLUT)
+ PFS je obrazový formát s vysokým dynamickým rozsahem (HDR). Jedná se o
+ pokus integrovat stávající souborové formáty vytvořením jednoduchého
+ datového formátu, který je možno použít pro výměnu dat mezi aplikacemi.
+ .
+ Tento balíček obsahuje prohlížeč vytvořený v OpenGL/GLUT.
+
+Package: pfsview
+Description-md5: 9bbe0c942e5a402f685231c125067757
+Description-cs: command line HDR manipulation programs (Qt viewer)
+ PFS je obrazový formát s vysokým dynamickým rozsahem (HDR). Jedná se o
+ pokus integrovat stávající souborové formáty vytvořením jednoduchého
+ datového formátu, který je možno použít pro výměnu dat mezi aplikacemi.
+ .
+ This package contains a viewer implemented in Qt.
+
+Package: pgpdump
+Description-md5: 39148b4f72637f69982d6426857cf7e9
+Description-cs: Vizualizer paketů PGP
+ pgpdump zobrazuje sekvence OpenPGP a PGP verze 2 obsažené v nějakém
+ souboru.
+ .
+ Výstup tohoto příkazu se podobá výstupu příkazu GnuPG `list packets',
+ pgpdump oproti němu však vytváří detailnější a lépe pochopitelný výstup.
+
+Package: phnxdeco
+Description-md5: e51838b203c719d6d6d957f11a952780
+Description-cs: Dekomprimuje soubory flash obsažené v BIOSu PHOENIX
+ Phnxdeco je program, který dekomprimuje obrazy BIOSu, které jsou uloženy v
+ BIOSu PHOENIX.
+
+Package: pingus
+Description-md5: 8f187cbdfe37306cb6fe8e7d8b3c02a6
+Description-cs: Free Lemmings(TM) clone
+ Pingus is a free clone of the popular Lemmings game.
+ .
+ Vašim cílem je ovládat dav tučňáků ve světě plném nástrah a odvést je tak
+ do bezpečí. Ačkoliv jsou tučňáci (oproti lemnigům) chytřejší, je nutné nad
+ nim držet ochranou ruku, neboť se spoléhají na to, že je zachráníte.
+ .
+ This package contains the main program.
+
+Package: pingus-data
+Description-md5: f91ae05891fb77aaf8c6a1ce8ca5ea6a
+Description-cs: Data files for pingus, a free Lemmings(TM) clone
+ Pingus is a free clone of the popular Lemmings game.
+ .
+ Vašim cílem je ovládat dav tučňáků ve světě plném nástrah a odvést je tak
+ do bezpečí. Ačkoliv jsou tučňáci (oproti lemnigům) chytřejší, je nutné nad
+ nim držet ochranou ruku, neboť se spoléhají na to, že je zachráníte.
+ .
+ This package contains the data files.
+
+Package: pixelize
+Description-md5: 08a00d712e15ff02bc578da2f6ff0fe7
+Description-cs: Create an image consisting of many small images
+ Pixelize is a program that will use many scaled down images to try to
+ duplicate, as closely as possible, another image.
+ .
+ Pixelize funguje tak, že rozděluje obrázek, který chcete vykreslit (nebo
+ duplikovat) na spoustu malých obdélníkových částí. Každá z těchto částí je
+ dál analyzována a nahrazena obrázkem z rozsáhlé databáze obrázků. Pixelize
+ se přitom snaží vybrat ty obrázky, které co nejlépe odpovídají dané
+ oblasti.
+
+Package: planets
+Description-md5: 75d0cf86e6d669c54b5cf707b7412bb7
+Description-cs: Simulace gravitace planetárních těles
+ Planets je jednoduchý interaktivní program kde si můžete hrát se simulací
+ planetárního systému. Je výborný pro výuku gravitace na planetární úrovni.
+ .
+ The user interface is aimed at being simple enough for a fairly young kid
+ to enjoy it, there is a special kid-mode for this purpose.
+
+Package: plopfolio.app
+Description-md5: f7edc043f9c9c111defc2961dcfe0814
+Description-cs: Osobní přístrojová deska pro GNUstep
+ Toto je svobodná náhrada proprietární aplikace KlipFolio od Serence.
+ PlopFolio podporuje Klipy dostupné na KlipFarm (http://klipfarm.com).
+ PlopFolio byl vytvořen pomocí jazyka Objective-C a funguje s GNUstep (na
+ GNU/Linuxu, FreeBSD a dalších) a Cocoa na Mac OS X.
+
+Package: pmount
+Description-md5: fb7e7dec158c24424e211a9ae41f5053
+Description-cs: mount removable devices as normal user
+ pmount is a wrapper around the standard mount program which permits normal
+ users to mount removable devices without a matching /etc/fstab entry. This
+ provides a robust basis for automounting frameworks like GNOME's Utopia
+ project and confines the amount of code that runs as root to a minimum.
+ .
+ Pokud nainstalujete také balíček cryptsetup s LUKS, pmount bude schopen
+ také transparentně připojovat šifrované oddíly.
+
+Package: projectcenter.app
+Description-md5: 81013719da2a050097edb12d679b16fb
+Description-cs: Rozhraní IDE pro vývoj GNUstep
+ ProjectCenter is an integrated development environment (IDE) for GNUstep
+ systems.  It is a clone of the ProjectBuilder application for NextStep,
+ which became popular for its ease of use and speed of development.
+
+Package: pyflakes3
+Description-md5: 2472c90073cc1ab41ffe6ecd43e0b8d7
+Description-cs: passive checker of Python 3 programs
+ Pyflakes je program, který analyzuje zdrojový soubor, neimportuje ho,
+ takže je při použití modulů bezpečný a nehrozí žádné postranní efekty.
+ Také je velmi rychlý.
+ .
+ Oproti PyLint, Pyflakes kontroluje pouze logické chyby programů; neprovádí
+ žádné kontroly stylu.
+ .
+ This is the Python 3 command line `pyflakes3` program.
+
+Package: pyracerz
+Description-md5: 6231a50959812b6f3933259983593287
+Description-cs: 2D závodní hra pro více hráčů
+ Vyznačuje se hrou pro více hráčů (na jednom počítači), turnaji, nejvyšším
+ skóre, přehráním záznamu, 6 drahami (ve skutečnosti 12, protože každou z
+ nich je možno hrát i opačným směrem), 9 auty, základním počítačovým
+ hráčem, 3 různými úrovněmi obtížnosti a hudebním přehrávačem, který umí
+ přehrávat soubory .ogg z libovolného adresáře.
+
+Package: python-mpmath-doc
+Description-md5: d338629e7c2421c1961c35170d8b2fb8
+Description-cs: library for arbitrary-precision floating-point arithmetic - Documentation
+ Mpmath is a pure-Python library for multiprecision floating-point
+ arithmetic. It provides an extensive set of transcendental functions,
+ unlimited exponent sizes, complex numbers, interval arithmetic, numerical
+ integration and differentiation, root-finding, linear algebra, and much
+ more. Almost any calculation can be performed just as well at 10-digit or
+ 1000-digit precision, and in many cases mpmath implements asymptotically
+ fast algorithms that scale well for extremely high precision work.
+ .
+ If available, mpmath will (optionally) use gmpy to speed up high precision
+ operations. If matplotlib is available, mpmath also provides a convenient
+ plotting interface.
+ .
+ Mezi jeho vlastnosti patří:
+ .
+   * Fair performance -- typically 10-100x faster than Python's
+     decimal library
+   * Transcendental functions -- all functions from Python's math and
+     cmath modules, plus a few more like gamma, factorial, erf
+   * Complex numbers -- with support for transcendental functions
+   * Directed rounding -- floor, ceiling, down, up, half-down,
+     half-up, half-even
+   * Unlimited exponents -- no overflow or underflow
+ .
+ This package contains the documentation for mpmath Python module.
+
+Package: python3-mpmath
+Description-md5: 1fe0defc6bc8924e23914d13b987ed7a
+Description-cs: library for arbitrary-precision floating-point arithmetic (Python3)
+ Mpmath is a pure-Python library for multiprecision floating-point
+ arithmetic. It provides an extensive set of transcendental functions,
+ unlimited exponent sizes, complex numbers, interval arithmetic, numerical
+ integration and differentiation, root-finding, linear algebra, and much
+ more. Almost any calculation can be performed just as well at 10-digit or
+ 1000-digit precision, and in many cases mpmath implements asymptotically
+ fast algorithms that scale well for extremely high precision work.
+ .
+ If available, mpmath will (optionally) use gmpy to speed up high precision
+ operations. If matplotlib is available, mpmath also provides a convenient
+ plotting interface.
+ .
+ Mezi jeho vlastnosti patří:
+ .
+   * Fair performance -- typically 10-100x faster than Python's
+     decimal library
+   * Transcendental functions -- all functions from Python's math and
+     cmath modules, plus a few more like gamma, factorial, erf
+   * Complex numbers -- with support for transcendental functions
+   * Directed rounding -- floor, ceiling, down, up, half-down,
+     half-up, half-even
+   * Unlimited exponents -- no overflow or underflow
+ .
+ This package contains the Python 3 version of mpmath.
+
+Package: python3-pyflakes
+Description-md5: 30dc8cb13fbb6b058928484897a808d6
+Description-cs: passive checker of Python 3 programs - Python modules
+ Pyflakes je program, který analyzuje zdrojový soubor, neimportuje ho,
+ takže je při použití modulů bezpečný a nehrozí žádné postranní efekty.
+ Také je velmi rychlý.
+ .
+ Oproti PyLint, Pyflakes kontroluje pouze logické chyby programů; neprovádí
+ žádné kontroly stylu.
+ .
+ This is the Python 3 library version.
+
+Package: python3-reportbug
+Description-md5: a3f9f8c6d3fdd866d293b889a1d6b47a
+Description-cs: Moduly Pythonu pro interakci se systémem hlášení chyb Debianu
+ reportbug je speciální nástroj vytvořený pro bezbolestné hlášení chyb v
+ Debianu a podobných distribucích.
+ .
+ Tento balíček obsahuje moduly Pythonu, které je možné použít i v ostatních
+ nástrojích, které chtějí pracovat se systémem hlášení chyb v Debianu
+ (Debian Bug Tracking System).
+ .
+ Pokud chcete pouze nahlásit nějakou chybu, nainstalujte si balíček
+ reportbug.
+
+Package: razor
+Description-md5: faecd6c972a016b7f0b48f3a9d192a0e
+Description-cs: spam-catcher using a collaborative filtering network
+ Vipul's Razor je distribuovaná, kolaborativní a filtrovací síť
+ zachytávající spam. Razor vytváří a neustále aktualizuje katalog
+ obsahující spam. Tento katalog pak používají klientské programy k
+ filtrování známého spamu. Jakmile obdrží spam, oznamovací agent Razor
+ (spuštěný koncovým uživatelem nebo serverem) spočítá a odešle 20-ti
+ znakovou jedinečnou identifikaci spamu (nějaký digest SHA) na ten
+ nejbližší server s katalogem Razoru. Ten pak rozešle tuto signaturu dalším
+ důvěryhodným serverům. Podle nastavení pak klienti Razor (spuštěné
+ koncovým uživatelem nebo MTA) kontrolují příchozí poštu proti serveru s
+ katalogem a filtrují příchozí provoz podle jejich signatur. Katalogizovaný
+ spam tak je možno jednoduše blokovat v celém zbytku sítě, který tento
+ katalog používá.
+
+Package: rdtool
+Description-md5: 3e50332f9d70a1a430858e8def2f9a42
+Description-cs: Formátovač dokumentace RD
+ RD je víceúčelový formátovač dokumentace vytvořený pro tvorbu dokumentace
+ Ruby.
+ .
+ RD je možno použít ve skriptech. RD má čistou syntaxi, která vám pomůže
+ číst dokument ve skriptech Ruby. Jinak řečeno, RD se umí odkazovat na
+ třídy.
+ .
+ RDtool je frontend k RD. Tento balíček obsahuje příkaz rd2.
+
+Package: rdtool-elisp
+Description-md5: 98b4a957d3441e618fc0b7a539287e69
+Description-cs: Emacs-lisp rd-mode for writing RD document
+ RD je víceúčelový formátovač dokumentace vytvořený pro tvorbu dokumentace
+ Ruby.
+ .
+ RD je možno použít ve skriptech. RD má čistou syntaxi, která vám pomůže
+ číst dokument ve skriptech Ruby. Jinak řečeno, RD se umí odkazovat na
+ třídy.
+ .
+ This package provides Emacs major-mode for RD editing.
+
+Package: redet
+Description-md5: 1d7e28cc57606e00d91a0f6557c1f937
+Description-cs: Nástroj pro vývoj a vykonávání regulárních výrazů
+ Redet uživateli umožní vytvářet regulární výrazy a testovat je na různá
+ vstupní data spuštěním různých vyhledávacích programů, editorů a
+ programovacích jazyků, které umožňují použití regulárních výrazů. Jakmile
+ vytvoříte vhodné regulární výrazy, můžete je uložit do nějakého souboru.
+ .
+ Redet znamená "Regular Expression Development and Execution Tool". Pro
+ každý program je k dispozici paleta zobrazující dostupné regulární výrazy.
+ Z ní je pak možno provádět výběry a kopírovat regulární výrazy jedním
+ kliknutím. Uživatelé mohou skrz konfigurační soubor přidávat do palety své
+ vlastní definice. Redet také sleduje seznam vykonaných regulárních výrazů,
+ z kterého je možno zpětně kopírovat vytvářené regulární výrazy. Seznam
+ obsahující historii výrazů se ukládá do nějakého souboru a je při startu
+ programu opět obnoven, takže zůstává trvale k dispozici.
+ .
+ Stejně tak jak používané programy používají Unicode, také Redet umí
+ pracovat s UTF-8.
+
+Package: remind
+Description-md5: 838d7ef52c0a84e08057d198e1f386a9
+Description-cs: sophisticated calendar and alarm program - remind executable
+ Remind allows you to remind yourself of upcoming events and appointments.
+ Each reminder or alarm can consist of a message sent to standard output,
+ or a program to be executed.
+ .
+ It also features: sophisticated date calculation, moon phases,
+ sunrise/sunset, Hebrew calendar, alarms, PostScript output, tcl/tk front-
+ end and proper handling of holidays.
+ .
+ Připomínky je možno vytvářet pomocí speciálního skriptovacího jazyka nebo
+ za pomoci grafického frontendu, který se nazývá „tkremind“.
+
+Package: rolldice
+Description-md5: fc24e9e12c794a8f92ab0ca6e1058501
+Description-cs: virtual dice roller
+ rolldice je jsou virtuální kostky, které z příkazové řádky převezmou
+ nějaký text ve formátu některých fantazijních her jako je Advanced
+ Dungeons & Dragons [1] a vrátí výsledek.
+ .
+ [1] Advanced Dungeons & Dragons je registrovaná známka TSR, Inc.
+
+Package: rsstail
+Description-md5: 11e58d909657f8c6c3df30dbf978198f
+Description-cs: console RSS reader that monitors a feed and outputs new entries
+ This small, simple application reads an RSS feed and outputs it like the
+ 'tail' command.
+ .
+ Tento nástroje je možno použít jako plugin v MultiTail.
+
+Package: ruby-rd
+Description-md5: cc1c9d8c71e5fcac9a5eaedde08c1d2e
+Description-cs: RDTool library for Ruby - library
+ RD je víceúčelový formátovač dokumentace vytvořený pro tvorbu dokumentace
+ Ruby.
+ .
+ RD je možno použít ve skriptech. RD má čistou syntaxi, která vám pomůže
+ číst dokument ve skriptech Ruby. Jinak řečeno, RD se umí odkazovat na
+ třídy.
+ .
+ This package contains a library which is used by RDTool.
+
+Package: runit-services
+Description-md5: 0b6b94e39ac5487a81b9eeb5eae44905
+Description-cs: UNIX init scheme with service supervision (services)
+ runit nahrazuje SysV-init a další schémata init. Běží na Debian
+ GNU/Linuxu, *BSD, MacOSX a Solaris a je ho možno upravit pro libovolný
+ unixový operační systém runit implementuje jednoduchý tří-stavový koncept.
+ Stupeň 1 provádí úlohy související s inicializací systému. Stupeň 2
+ spouští systémové služby (pomocí programu runsvdir). Stupeň 3 obsluhuje
+ služby důležité pro ukončení, vypnutí a restartování počítače.
+ .
+ Pro více informací se podívejte na http://smarden.org/runit/
+ .
+ This package contains services directories for a collection of services
+ available in Debian, to have them run under runit service supervision
+ instead of sysvinit or systemd. Services directories are installed under
+ /usr/share/runit/sv/ and only services of packages that are installed on
+ the system are copied to /etc/sv/. The cpsv utility can be used to copy,
+ inspect and update runscripts in /etc/sv/ after the first installation.
+ It's recommended to read
+ https://salsa.debian.org/Lorenzo.ru.g-guest/runit-
+ services/-/blob/master/README before installing this package.
+
+Package: rwho
+Description-md5: 42b7a3086700d4863106da7b0a9dba2c
+Description-cs: klienti pro dotazování serveru rwho
+ Příkaz rwho vytváří výstup podobný who, ale pro všechny stroje na místní
+ síti. Když nedostane zprávu od nějakého počítače během 11 minut, považuje
+ tento počítač za vypnutý a nevypisuje posledního známeho uživatele
+ zalogovaného na tomto stroji.
+ .
+ Příkaz ruptime zobrazuje stavovou řádku podobnou uptime pro každý stroj na
+ lokální síti. Data jsou každou minutu sestavena z paketů vysílaných každým
+ počítačem v síti.
+
+Package: rwhod
+Description-md5: bbd85ec40111b12fc3615b107b219c70
+Description-cs: server systémového stavu
+ rwhod je server, který udržuje databázi používanou programy rwho(1) a
+ ruptime(1). Jeho funkce je založena na možnosti vysílání všesměrových
+ (broadcast) paketů na síti.
+
+Package: s3cmd
+Description-md5: 08e7d9875f2367de96bad2a1d2281966
+Description-cs: command-line Amazon S3 client
+ Command-line tool to upload, retrieve and manage data in Amazon S3 service (http://www.amazon.com/s3/), designed for use in scripts. Features:
+  - creating and destroying S3 buckets
+  - uploading and downloading files
+  - listing remote files
+  - removing remote files
+  - synchronizing local directories to S3 buckets
+  - getting various information about buckets and disk usage
+ .
+ s3cmd podporuje obě (US i EU) datová centra S3.
+
+Package: salliere
+Description-md5: 57b0f570369399e9657291fe0cb4678a
+Description-cs: Skórování cesty
+ Salliere je skórovací program pro hledání cesty. Program vezme nějaký
+ soubor párových čísel a ohodnotí jejích skóre pro dosažení cíle. Potom
+ vytvoří pěknou tabulku průměrných výsledků.
+
+Package: samba-ad-dc
+Description-md5: eba517f15cc7dff6d61d4bf8f68630b3
+Description-cs: Samba control files to run AD Domain Controller
+ Samba je implementace protokolu SMB/CIFS pro Unixové systémy, poskytující
+ podporu pro sdílení souborů a tiskáren napříč platformami Microsoft
+ Windows, OS X a Unixovými systémy.
+ .
+ This package contains control files to run an Active Directory Domain
+ Controller (AD DC).  For now, this is just a metapackage pulling in all
+ the required dependencies.
+
+Package: sox
+Description-md5: 333cd274ebee7570f357dafba9b6461d
+Description-cs: Swiss army knife of sound processing
+ SoX je nástroj příkazové řádky, který umí konvertovat různé formáty
+ počítačového zvuku na jiné formáty. Také umí aplikovat různé efekty těchto
+ zvukových souborů během jejich konverze. Jako bonus, SoX umí přehrávat a
+ nahrávat zvukové soubory na různých unixových platformách.
+ .
+ SoX is able to handle formats like Ogg Vorbis, MP3, WAV, AIFF, VOC, SND,
+ AU, GSM and several more. Any format support requires at least libsox-fmt-
+ base. Some formats have their own package e.g. mp3 read and write support
+ is provided by libsox-fmt-mp3.
+ .
+ SoX supports most common sound architectures i.e. Alsa, Libao, OSS and
+ Pulse (respectively provided by libsox-fmt-alsa, libsox-fmt-ao, libsox-
+ fmt-oss and libsox-fmt-pulse). It also supports LADSPA plugins.
+
+Package: speex
+Description-md5: 30acf610b7bb12b7f7c8d43f2518349b
+Description-cs: Nástroje příkazové řádky kodeku Speex
+ Speex je zvukový kodek speciálně vytvořený pro kompresi zvuku na nízký
+ datový tok. Toho využívají např. VoIP telefony. V určitém ohledu se jedná
+ o doplněk kodeku Vorbis, u kterého se klade větší důraz na vysokou kvalitu
+ hudební reprodukce.
+ .
+ Tento balíček obsahuje enkodér a dekodér pro příkazovou řádku.
+
+Package: srs
+Description-md5: 829f6888336d5f8ed06080d21c72cce2
+Description-cs: command-line Sender Rewriting Scheme client
+ The Sender Rewriting Scheme preserves .forward functionality in an SPF-
+ compliant world.
+ .
+ SPF requires the SMTP client IP to match the envelope sender (return-
+ path). When a message is forwarded through an intermediate server, that
+ intermediate server may need to rewrite the return-path to remain SPF
+ compliant. If the message bounces, that intermediate server needs to
+ validate the bounce and forward the bounce to the original sender.
+ .
+ Tento balíček obsahuje klienta srs, který se používá v souborech .forward.
+
+Package: statnews
+Description-md5: e2e9f3c87ac6cf169ded14e7a1aa4c9f
+Description-cs: Zobrazí užitečné statistiky o diskuzní skupině či newsgroup
+ Tento program se hodí pro analýzu skupin newsgroup s ohledem na jména
+ autorů, délku zpráv a jejich frekvenci, atd.
+ .
+ At this moment, it operates on local spools only (it has neither NNTP nor
+ HTTP capabilities); the spool has to store one message per file in
+ traditional mbox format.
+
+Package: swi-prolog
+Description-md5: 968044007060e3198e5494b54b00e14b
+Description-cs: Interpretr Prologu ve stylu ISO/Edinburgh
+ SWI-Prolog je rychlý a mocný překladač Prologu ve stylu ISO/Edinburgh s
+ bohatou množinou vestavěných predikátů. Nabízí rychlé, robustní a malé
+ prostředí, které umožní vývoj bytelných aplikací.
+ .
+ SWI-Prolog additionally offers:
+ .
+  * A powerful module system
+  * Garbage collection
+  * Unicode character set handling
+  * Unbounted integer and rational number arithmetic
+  * Multithreading support
+  * A powerful C/C++ interface
+  * GNU Readline interface
+ .
+ This is a metapackage, it installs SWI-Prolog suit (except Java, ODBC,
+ Berkeley DB support and tests).
+
+Package: swi-prolog-bdb
+Description-md5: 37ed9a920a5b6e2c51d2df8a982c93e5
+Description-cs: Berkeley DB interface for SWI-Prolog
+ SWI-Prolog je rychlý a mocný překladač Prologu ve stylu ISO/Edinburgh s
+ bohatou množinou vestavěných predikátů. Nabízí rychlé, robustní a malé
+ prostředí, které umožní vývoj bytelných aplikací.
+ .
+ SWI-Prolog additionally offers:
+ .
+  * A powerful module system
+  * Garbage collection
+  * Unicode character set handling
+  * Unbounted integer and rational number arithmetic
+  * Multithreading support
+  * A powerful C/C++ interface
+  * GNU Readline interface
+ .
+ This package provides a foreign language extension to the Berkeley DB
+ (libdb) embedded database.
+
+Package: swi-prolog-core
+Description-md5: ed44eaf49fd4e7fc65f2f52593ff7119
+Description-cs: ISO/Edinburgh-style Prolog interpreter - core system
+ SWI-Prolog je rychlý a mocný překladač Prologu ve stylu ISO/Edinburgh s
+ bohatou množinou vestavěných predikátů. Nabízí rychlé, robustní a malé
+ prostředí, které umožní vývoj bytelných aplikací.
+ .
+ SWI-Prolog additionally offers:
+ .
+  * A powerful module system
+  * Garbage collection
+  * Unicode character set handling
+  * Unbounted integer and rational number arithmetic
+  * Multithreading support
+  * A powerful C/C++ interface
+  * GNU Readline interface
+ .
+ This package contains a working SWI-Prolog core system.
+
+Package: swi-prolog-core-packages
+Description-md5: 3e552c304e4894c203d6dfc0d7d74261
+Description-cs: ISO/Edinburgh-style Prolog interpreter - core packages
+ SWI-Prolog je rychlý a mocný překladač Prologu ve stylu ISO/Edinburgh s
+ bohatou množinou vestavěných predikátů. Nabízí rychlé, robustní a malé
+ prostředí, které umožní vývoj bytelných aplikací.
+ .
+ SWI-Prolog additionally offers:
+ .
+  * A powerful module system
+  * Garbage collection
+  * Unicode character set handling
+  * Unbounted integer and rational number arithmetic
+  * Multithreading support
+  * A powerful C/C++ interface
+  * GNU Readline interface
+ .
+ This package contains a working SWI-Prolog core packages.
+
+Package: swi-prolog-doc
+Description-md5: f6e4aaaf4c6283034832e682353d9c3c
+Description-cs: documentation and examples for SWI-Prolog
+ SWI-Prolog je rychlý a mocný překladač Prologu ve stylu ISO/Edinburgh s
+ bohatou množinou vestavěných predikátů. Nabízí rychlé, robustní a malé
+ prostředí, které umožní vývoj bytelných aplikací.
+ .
+ SWI-Prolog additionally offers:
+ .
+  * A powerful module system
+  * Garbage collection
+  * Unicode character set handling
+  * Unbounted integer and rational number arithmetic
+  * Multithreading support
+  * A powerful C/C++ interface
+  * GNU Readline interface
+ .
+ This package provides a documentation and examples.
+
+Package: swi-prolog-full
+Description-md5: 1435377ef13fad1ca735fa909c97d2a4
+Description-cs: ISO/Edinburgh-style Prolog interpreter - full suit
+ SWI-Prolog je rychlý a mocný překladač Prologu ve stylu ISO/Edinburgh s
+ bohatou množinou vestavěných predikátů. Nabízí rychlé, robustní a malé
+ prostředí, které umožní vývoj bytelných aplikací.
+ .
+ SWI-Prolog additionally offers:
+ .
+  * A powerful module system
+  * Garbage collection
+  * Unicode character set handling
+  * Unbounted integer and rational number arithmetic
+  * Multithreading support
+  * A powerful C/C++ interface
+  * GNU Readline interface
+ .
+ This is a metapackage, it installs full SWI-Prolog suit (except tests).
+
+Package: swi-prolog-java
+Description-md5: bb640c85523e53bee4fa6f55663867ef
+Description-cs: Bidirectional interface between SWI-Prolog and Java
+ SWI-Prolog je rychlý a mocný překladač Prologu ve stylu ISO/Edinburgh s
+ bohatou množinou vestavěných predikátů. Nabízí rychlé, robustní a malé
+ prostředí, které umožní vývoj bytelných aplikací.
+ .
+ SWI-Prolog additionally offers:
+ .
+  * A powerful module system
+  * Garbage collection
+  * Unicode character set handling
+  * Unbounted integer and rational number arithmetic
+  * Multithreading support
+  * A powerful C/C++ interface
+  * GNU Readline interface
+ .
+ This library provides JPL, a bidirectional interface between SWI-Prolog
+ and the Java runtime.
+
+Package: swi-prolog-nox
+Description-md5: 99ad09f347d1413561aeae50b2b55d33
+Description-cs: ISO/Edinburgh-style Prolog interpreter - without X support
+ SWI-Prolog je rychlý a mocný překladač Prologu ve stylu ISO/Edinburgh s
+ bohatou množinou vestavěných predikátů. Nabízí rychlé, robustní a malé
+ prostředí, které umožní vývoj bytelných aplikací.
+ .
+ SWI-Prolog additionally offers:
+ .
+  * A powerful module system
+  * Garbage collection
+  * Unicode character set handling
+  * Unbounted integer and rational number arithmetic
+  * Multithreading support
+  * A powerful C/C++ interface
+  * GNU Readline interface
+ .
+ This package contains a working SWI-Prolog installation without GUI
+ components.
+
+Package: swi-prolog-odbc
+Description-md5: 85939e38f96ef3179ed6910db98d7c8e
+Description-cs: ODBC library for SWI-Prolog
+ SWI-Prolog je rychlý a mocný překladač Prologu ve stylu ISO/Edinburgh s
+ bohatou množinou vestavěných predikátů. Nabízí rychlé, robustní a malé
+ prostředí, které umožní vývoj bytelných aplikací.
+ .
+ SWI-Prolog additionally offers:
+ .
+  * A powerful module system
+  * Garbage collection
+  * Unicode character set handling
+  * Unbounted integer and rational number arithmetic
+  * Multithreading support
+  * A powerful C/C++ interface
+  * GNU Readline interface
+ .
+ This package provides a foreign language extension to ODBC, a standard for
+ interfacing with database systems.
+
+Package: swi-prolog-test
+Description-md5: 216188dbd57291a482e33ed1d8adfd6f
+Description-cs: tests and checks for SWI-Prolog
+ SWI-Prolog je rychlý a mocný překladač Prologu ve stylu ISO/Edinburgh s
+ bohatou množinou vestavěných predikátů. Nabízí rychlé, robustní a malé
+ prostředí, které umožní vývoj bytelných aplikací.
+ .
+ SWI-Prolog additionally offers:
+ .
+  * A powerful module system
+  * Garbage collection
+  * Unicode character set handling
+  * Unbounted integer and rational number arithmetic
+  * Multithreading support
+  * A powerful C/C++ interface
+  * GNU Readline interface
+ .
+ This package provides a set of prepared tests and checks for installed
+ SWI-Prolog system. This package is intended for SWI-Prolog development and
+ is of no use for ordinary users. If you're not sure about this package,
+ you don't need it.
+
+Package: swi-prolog-x
+Description-md5: 348565382a37ab54f194a1d785c7ddcb
+Description-cs: User interface library for SWI-Prolog - with X support
+ SWI-Prolog je rychlý a mocný překladač Prologu ve stylu ISO/Edinburgh s
+ bohatou množinou vestavěných predikátů. Nabízí rychlé, robustní a malé
+ prostředí, které umožní vývoj bytelných aplikací.
+ .
+ SWI-Prolog additionally offers:
+ .
+  * A powerful module system
+  * Garbage collection
+  * Unicode character set handling
+  * Unbounted integer and rational number arithmetic
+  * Multithreading support
+  * A powerful C/C++ interface
+  * GNU Readline interface
+ .
+ XPCE is an object-oriented symbolic programming environment for user
+ interfaces. Although XPCE was designed to be language-independent, it has
+ gained popularity most with Prolog.
+
+Package: sympa
+Description-md5: f7b0e7f08562536810997073c968428b
+Description-cs: Modern mailing list manager
+ Sympa je dostupný a vysoce nastavitelný moderní správce diskuzních skupin
+ vhodný pro obsluhy i rozsáhlých nastavení: 20 000 skupin s 700 000
+ uživateli.
+ .
+ Here are some of its many features:
+  - Advanced MIME support, including digests, anonymization and S/MIME
+    encryption
+  - Builtin password-based authentication, HTTPS X.509 certificates or
+    use of LDAP database or Single Sign-On CAS or Shibboleth servers
+  - Archive management with web access and RSS feeds
+  - Moderation and administration via email, web and SOAP interface
+  - Multi-lingual, translated to more than 30 languages
+  - Virtual domains (virtual robots)
+  - Local SQLite subscriber database or use of MySQL, PostgreSQL or LDAP
+  - Integrated scripting language to extend and automate routines
+  - Web interface called WWSympa providing homogenous access for both
+    users and admins to list overviews, customization, administration,
+    searchable archives and optional web-based email reply form.
+  - Clean moderation and expiration processing
+  - Customizable service messages (templates) for owner and listmaster
+  - Semi-automatic bounces management
+ .
+ SYMPA is French for 'SYstème de Multi-Postage Automatique', which means
+ 'Automatic Multi Mailing System'.
+
+Package: tack
+Description-md5: cf00daedb113ad640f6b8818e8b91c71
+Description-cs: Kontrolor akcí terminfo
+ Program „tack“ je diagnostický nástroj, který slouží k vytváření a
+ ověřování správnosti terminfo. Tento program se používá k vytváření popisů
+ nového terminálu, který není obsažen ve standardním vydání ncurses.
+ .
+ Přestože je „tack“ distribuován spolu s ncurses-bin, nejedná se o nedílnou
+ součást ncurses a tak byl umístěn autorem do samostatného programu.
+
+Package: talksoup.app
+Description-md5: 15f9f346644d7e146b5559a4d1f4af19
+Description-cs: Klient IRC k GNUstep
+ TalkSoup je GNUstep IRC klient využívající rozšiřitelnosti jazyka
+ Objective-C. Kompletní IRC klient je tvořen řadou pluginů, takže si
+ kdokoliv může vybrat co z něj chce opravdu používat.
+
+Package: tetrinetx
+Description-md5: 731609c616ee10857e8cd56db572cbde
+Description-cs: Herní server Tetrinet
+ Poskytuje server pro hostování her Tetrinet. Tetrinet je varianta hry
+ Tetris hraná přes Internet. Až šest lidí současně se může připojit k
+ serveru, aby se zúčastnili hry.
+ .
+ Pro více informací o hře Tetrinet se podívejte na http://www.tetrinet.us/
+
+Package: thin
+Description-md5: 8309d3e838caed8b87e6560e8951d182
+Description-cs: fast and very simple Ruby web server
+ Thin is a Ruby web server that glues together 3 of the best Ruby libraries in web history:
+   * the Mongrel parser, the root of Mongrel's speed and security
+   * Event Machine, a network I/O library with extremely high
+     scalability, performance and stability
+   * Rack, a minimal interface between webservers and Ruby frameworks
+ .
+ To dohromady tvoří bezpečný, stabilní, rychlý a rozšiřitelný webový server
+ v jednoduše použitelném balíčku pro radost.
+
+Package: tk5
+Description-md5: 3555c2c86ced90df3b6ab10ea1766080
+Description-cs: Experimentální program pro ICOM IC-R5 Receiver
+ tk5 je opensource software vytvořený pro přijímač ICOM IC-R5. Současná
+ verze umí:
+ .
+ Číst obraz paměti přijímače IC-R5 ze souboru ICF, IC5 a nativního souboru
+ tr5. Pomocí grafického rozhraní zobrazuje data obsažená v obrazu paměti a
+ nechává na uživateli omezení hledání, seznamu televizí a většiny dalších
+ nastavení. Importovat data kanálu ze souboru csv (hodnoty oddělené
+ čárkami). Exportovat data do souboru csv. Povolit skrytý 70. kanál. Zapsat
+ výsledek zpět do přijímače.
+
+Package: topgit
+Description-md5: af291594a768fe709018fb8ab10e5417
+Description-cs: Správce fronty záplat Git
+ TopGit spravuje frontu záplat pomocí tématických větví Git, jedna záplata
+ na každou větev. Umožní vám záplatování pomocí závislostí a tak spravovat
+ nelineární série záplat.
+ .
+ TopGit stojí hned na Git a tak neomezuje uživatele v užití všech funkcí
+ Git (jako je index). Přísně uchovává historii až do doby, kde je záplata
+ akceptována do hlavního proudu. Také ho můžete použít mezi distribuovanými
+ repositáři.
+
+Package: transcend
+Description-md5: f9f932fb86684427bd353e1de1670a30
+Description-cs: Abstraktní retro 2D střílečka
+ Transcend je možno popsat jako abstraktní retro 2-D střílečku. Grafika je
+ geometrická a její tempo je občas šílené.
+ .
+ Two features set Transcend apart from other games. First, its dynamic
+ graphical engine, which can smoothly morph from one complex shape to
+ another, produces striking displays. Combining these dynamic shapes with
+ subtle randomizations makes each play through a Transcend level visually
+ different from the last. The second novel feature is Transcend's musical
+ power-up system. As you play through a level, you are simultaneously
+ assembling an abstract visual collage and arranging a unique piece of
+ music. Transcend merges video games with pure art---it can be viewed
+ either as a game or as a multimedia sculpture.
+
+Package: userinfo
+Description-md5: ce66c28deb23057905823e2a15cfc08a
+Description-cs: Zobrazí informace o lokálních uživatelích
+ Userinfo je malý konzolový nástroj, který zobrazuje tolik informací o
+ uživatelích, co je jenom možné. Podporuje zobrazení informací o souboru s
+ hesly, domovských adresářích, informace o mailu, posledním přihlášení a
+ mnohem víc.
+ .
+ Po instalaci můžete spustit userinfo zadáním příkazu ui.
+
+Package: vim-snipmate
+Description-md5: b32d99279c72a1dbfce80f206863cd65
+Description-cs: Vim script that implements some of TextMate's snippets features.
+ SnipMate.vim aims to be an unobtrusive, concise vim script that implements
+ some of TextMate's snippets features in Vim. A snippet is a piece of
+ often-typed text that you can insert into your document using a trigger
+ word followed by a <tab>.
+ .
+ For instance, in a C file using the default installation of snipMate.vim,
+ if you type "for<tab>" in insert mode, it will expand a typical for loop
+ in C:
+ .
+ for (i = 0; i < count; i++) {
+ .
+ Project-Id-Version: ddtp-ubuntu
+ Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>
+ PO-Revision-Date: 2024-04-23 08:50+0000
+ Last-Translator: FULL NAME <EMAIL@ADDRESS>
+ Language-Team: Czech <cs@li.org>
+ MIME-Version: 1.0
+ Content-Type: text/plain; charset=UTF-8
+ Content-Transfer-Encoding: 8bit
+ X-Launchpad-Export-Date: 2024-04-23 20:07+0000
+ X-Generator: Launchpad (build 67d34a19aaa1df7be4dd8bf498cbc5bbd785067b)
+ .
+ To go to the next item in the loop, simply <tab> over to it; if there is
+ repeated code, such as the "i" variable in this example, you can simply
+ start typing once it's highlighted and all the matches specified in the
+ snippet will be updated.
+ .
+ snipMate.vim has the following features among others:
+ .
+  - The syntax of snippets is very similar to TextMate's, allowing easy
+    conversion.
+  - The position of the snippet is kept transparently (i.e., it does not use
+    marks/placeholders inserted into the buffer), allowing you to escape out
+    of an incomplete snippet, something particularly useful in Vim.
+  - Variables in snippets are updated as-you-type.
+  - Snippets can have multiple matches.
+  - Snippets can be out of order. For instance, in a do...while loop, the
+    condition can be added before the code.
+
+
+Package: warzone2100
+Description-md5: ee73db23fc6dca6f64a0d1c5fe0e9235
+Description-cs: 3D real time strategy game
+ In Warzone 2100 you command the forces of “The Project” in a battle to
+ rebuild the world after mankind has almost been destroyed by nuclear
+ missiles.
+ .
+ Hra nabízí módy kampaň, tutoriál, multi-player a single-player.
+ .
+ K dispozici je více jak 400 různých technologií kombinovaných s konstrukcí
+ jednotlivých zařízení což dohromady vytváří širokou škálu možných zařízení
+ a také taktických možností.
+ .
+ Warzone 2100 was created by Pumpkin Studios, published by Eidos
+ Interactive and is currently developed by the Warzone 2100 Project.
+ .
+ The campaign video sequences are not yet distributed here, please see the
+ Warzone 2100 website for details on downloading and installing them.
+
+Package: webhttrack
+Description-md5: f7c1c11c1bf49544d2f00c20bf8c4157
+Description-cs: Zkopíruje kompletní weby do vašeho počítače, webové rozhraní
+ WebHTTrack je nástroj pro offline prohlížení webu, která umožňuje stáhnout
+ webové stránky přímo z Internetu do lokálního adresáře, rekurzivně
+ sestavit všechny adresáře, získat html, obrázky a další soubory ze serveru
+ a k tomu navíc používá webové rozhraní.
+ .
+ WebHTTrack uspořádá původní web relativně do struktury odkazů. Jednoduše
+ stačí v prohlížeči otevřít "mirorovanou" stránku a můžete tento web
+ procházet tak jako kdybyste byli online. HTTrack umí také aktualizovat
+ jednou mirrorované stránky a pokračovat v přerušeném stahování. WebHTTrack
+ je plně konfigurovatelný a má integrovaný systém nápovědy.
+ .
+  Snapshots: http://www.httrack.com/page/21/
+
+Package: wings3d
+Description-md5: 88ba36efe6a79eb7da891157b8a42d94
+Description-cs: Modelování spojů 3D mnohoúhelníků podobně jako Nendo
+ Wings 3D modeluje spoje mnohoúhelníků napsaných kompletně v Erlang.
+ Uživatelské rozhraní bylo vytvořeno tak, aby ho mohli snadno používat jak
+ začátečníci, tak i pokročilí uživatelů. Program byl inspirován modelovacím
+ systémem Nendo (od Izware).
+ .
+ Oproti podobným modelovacím programům (jako je Blender), tento program
+ neobsahuje nativní podporu animací (i když můžete tyto modely dál
+ zpracovávat řadou animačních nástrojů).
+ .
+ Wings 3D podporuje následující importní formáty: Nendo (NDO), 3D Studio
+ (3DS), Wavefront (OBJ) a Adobe Illustrator 8 (AI).
+ .
+ Wings 3D podporuje následující exportní formáty: Nendo (NDO), 3D Studio
+ (3DS), Wavefront (OBJ), VRML (WRL), Renderman (RIB), Hash:Animation Master
+ (MDL), Renderware (RWX), Yafray, Toxic, a FBX skrz pluginy třetích stran.
+ .
+ Open Source Erlang is a functional programming language designed at the
+ Ericsson Computer Science Laboratory.
+
+Package: wmitime
+Description-md5: ed8bfdcf19aa6c04086e79f870d8fa06
+Description-cs: Dokovatelné hodiny zobrazující místní i internetový čas
+ WMitime is clock dock app, which shows standard time, date. The unique
+ feature is that it can also show Internet time with notation @TIME. See
+ <http://www.swatch.com/> for more about Internet time.
+
+Package: wmshutdown
+Description-md5: 52cb04b139633f2ee2f7d3038166ebe7
+Description-cs: dockapp to shutdown or reboot your machine
+ Toto je dokovatelná aplikace prostředí Window Maker, která vám umožní
+ vypnout nebo restartovat počítač, jednoduše kliknutím na tlačítko na
+ desktopu a potvrzením. Hodí se především pro desktopové počítače.
+
+Package: wordnet
+Description-md5: 791162978c67c87be997340ea3bad976
+Description-cs: Elektronická lexikální databáze anglického jazyka
+ WordNet(C) je online slovníkový referenční systém jehož design byl
+ inspirován aktuálními psycholingvistickými teoriemi o lidské slovní
+ zásobě. Podstatná a přídavná jména, slovesa a příslovce jsou organizována
+ do skupin synonym, každá přitom reprezentuje jeden slovní pojem. Množiny
+ synonym spojují rozdílné vztahy.
+ .
+ WordNet was developed by the Cognitive Science Laboratory at Princeton
+ University under the direction of Professor George A. Miller (Principal
+ Investigator).
+ .
+ WordNet is considered to be the most important resource available to
+ researchers in computational linguistics, text analysis, and many related
+ areas.
+ .
+ Balíček obsahuje binární program, manuálové stránky WordNet i obecné
+ manuálové stránky vztahující se k tématu.
+
+Package: wordnet-base
+Description-md5: 780ba37270d38405be0d5a622e626eb0
+Description-cs: electronic lexical database of English language (base data)
+ WordNet(C) je online slovníkový referenční systém jehož design byl
+ inspirován aktuálními psycholingvistickými teoriemi o lidské slovní
+ zásobě. Podstatná a přídavná jména, slovesa a příslovce jsou organizována
+ do skupin synonym, každá přitom reprezentuje jeden slovní pojem. Množiny
+ synonym spojují rozdílné vztahy.
+ .
+ WordNet was developed by the Cognitive Science Laboratory at Princeton
+ University under the direction of Professor George A. Miller (Principal
+ Investigator).
+ .
+ Dictionary data and manuals which describe them.
+
+Package: wordnet-dev
+Description-md5: 2d3b071fedc636631c6bbb7c77ae8b22
+Description-cs: electronic lexical database of English language (devel)
+ WordNet(C) je online slovníkový referenční systém jehož design byl
+ inspirován aktuálními psycholingvistickými teoriemi o lidské slovní
+ zásobě. Podstatná a přídavná jména, slovesa a příslovce jsou organizována
+ do skupin synonym, každá přitom reprezentuje jeden slovní pojem. Množiny
+ synonym spojují rozdílné vztahy.
+ .
+ WordNet was developed by the Cognitive Science Laboratory at Princeton
+ University under the direction of Professor George A. Miller (Principal
+ Investigator).
+ .
+ Header files and library as well as manpages for section 3 (development).
+
+Package: wordnet-grind
+Description-md5: f378d460c4910aa3b6d0e562ddcf4e8a
+Description-cs: WordNet lexicographer files processor
+ WordNet(C) je online slovníkový referenční systém jehož design byl
+ inspirován aktuálními psycholingvistickými teoriemi o lidské slovní
+ zásobě. Podstatná a přídavná jména, slovesa a příslovce jsou organizována
+ do skupin synonym, každá přitom reprezentuje jeden slovní pojem. Množiny
+ synonym spojují rozdílné vztahy.
+ .
+ WordNet was developed by the Cognitive Science Laboratory at Princeton
+ University under the direction of Professor George A. Miller (Principal
+ Investigator).
+ .
+ This package contains the grind processor for WordNet lexicographer files.
+ It can be used to process the lexicographer files from the Debian  source
+ tarball into a WordNet binary database file or other lexicographer filese
+ provided by the user.
+
+Package: wordnet-gui
+Description-md5: acc41796a869230478a9f03dff461e8b
+Description-cs: electronic lexical database of English language (GUI)
+ WordNet(C) je online slovníkový referenční systém jehož design byl
+ inspirován aktuálními psycholingvistickými teoriemi o lidské slovní
+ zásobě. Podstatná a přídavná jména, slovesa a příslovce jsou organizována
+ do skupin synonym, každá přitom reprezentuje jeden slovní pojem. Množiny
+ synonym spojují rozdílné vztahy.
+ .
+ WordNet was developed by the Cognitive Science Laboratory at Princeton
+ University under the direction of Professor George A. Miller (Principal
+ Investigator).
+ .
+ WordNet is considered to be the most important resource available to
+ researchers in computational linguistics, text analysis, and many related
+ areas.
+ .
+ This package contains a Tcl/Tk Gui to browse wordnet dictionary.
+
+Package: wordnet-sense-index
+Description-md5: 2ffca7e7c45e20f656d0323b731662df
+Description-cs: electronic lexical database of English language (index)
+ WordNet(C) je online slovníkový referenční systém jehož design byl
+ inspirován aktuálními psycholingvistickými teoriemi o lidské slovní
+ zásobě. Podstatná a přídavná jména, slovesa a příslovce jsou organizována
+ do skupin synonym, každá přitom reprezentuje jeden slovní pojem. Množiny
+ synonym spojují rozdílné vztahy.
+ .
+ WordNet was developed by the Cognitive Science Laboratory at Princeton
+ University under the direction of Professor George A. Miller (Principal
+ Investigator).
+ .
+ This package contains a large database index.sense which is not necessary
+ for normal operation of the wordnet package but is useful when using the
+ WordNet::QueryData module which is available at
+ http://search.cpan.org/dist/WordNet-QueryData/ .
+
+Package: wordpress
+Description-md5: 3558d680fa97c6a3f32c5c5e9f4a182a
+Description-cs: Správce weblogu
+ WordPress is a full featured web blogging tool:
+    * Instant publishing (no rebuilding)
+    * Comment pingback support with spam protection
+    * Non-crufty URLs
+    * Themable
+    * Plugin support
+
+
+Package: xbattbar
+Description-md5: 3362d1f69b93496a2d4c53f2af44488b
+Description-cs: Display battery status in X11
+ Xbattbar displays the current (laptop) battery status in the X window
+ environment. Battery status is obtained through the APM interface.
+ .
+ The battery indicator of this program is very simple: a simple bar at the
+ top/bottom of your display. With its color, it indicates the AC-line
+ status (plugged in or off-line), and battery charging/remaining level.
+ Also, if the mouse cursor enters the indicator window, a popup diagnosis
+ window comes up in the center of your display showing the current AC line
+ status and battery level.
+ .
+ Tento balíček získá informace o baterii z ACPI a APM.
+
+Package: xcompmgr
+Description-md5: 440e89397bbfb8d694f7eb100b8100e1
+Description-cs: Správce kompozitoru X
+ xcompmgr je standardní správce komozitoru pro kompozitní rozšíření X,
+ které klientům umožní upravovat vykreslovanou obrazovku ještě předtím než
+ k tomu dojde. Tento kompozitní správce obsahuje stíny, ztmavení,
+ průhlednost a další.
+
+Package: xdemineur
+Description-md5: 9847ff3d2e16ee40e16367be4ac0a4ba
+Description-cs: Yet another minesweeper for X
+ The object of this game is to find the location of the mines hidden in the
+ minefield and to mark their location by placing a warning flag.
+ .
+ Her typu minové pole existuje mnohem víc. Tato se více podobá těm ze
+ systému Windows a hraje se také podobně.
+
+Package: xdms
+Description-md5: c0805de2776a6513c4702f4996477277
+Description-cs: Uncompressor for Amiga DMS archives
+ Tento nástroj je určen k dekompresi souborů Amiga DMS. Soubory DMS
+ obsahují obrazy disků, které se používají při emulaci Amiga. Program umí
+ rozbalit obrazy DMS do formátu ADF.
+
+Package: xdrawchem
+Description-md5: 2f501c2eb27510db93e7692d4b634682
+Description-cs: Editor chemických struktur a reakcí
+ Xdrawchem je 2D editor chemických struktur a reakcí. Má stejné schopnosti
+ jako komerční ChemDraw suite a je s ním souborově kompatibilní.
+ Prostřednictvím OpenBabel je kompatibliní i s dalšími chemickými formáty.
+ .
+ This packaged version comes from a fork available at
+ https://gitlab.com/yamanq/xdrawchem, as the previous version was no longer
+ actively maintained. More information about it in the copyright file.
+
+Package: xfburn
+Description-md5: ce8a24ab8509037449da10bb5e6bbaed
+Description-cs: CD vypalovací program pro desktopové prostředí Xfce
+ Xfburn je nástroj, který vám pomůže s vypalováním CD a DVD. Používá se v
+ desktopovém prostředí Xfce, ale můžete ho použít také kdekoliv jinde.
+
+Package: xfce4
+Description-md5: c59e6128ce63c4ddc8c403ac8284c19d
+Description-cs: Meta-package for the Xfce Lightweight Desktop Environment
+ Xfce je lehké desktopové prostředí pro unixové operační systémy. Snaží se
+ být rychlé a lehké a přitom vhledově pěkné a jednoduché na používání.
+ Jelikož je navrženo pro produktivitu, nahrává a spouští aplikace velmi
+ rychle a šetří systémové prostředky.
+ .
+ This package is a metapackage; it depends on the core packages of the
+ Xfce4 desktop environment and recommends some extra Xfce4 packages.  If
+ you intend to use Xfce4 and want the full experience then installing this
+ package and the packages it Recommends is a great place to start.
+ .
+ If you just want to pick and choose the core components then feel free to
+ remove this package.
+
+Package: xpenguins
+Description-md5: 648f693c7a18b44b5bfa4a83d583f1a6
+Description-cs: malý tučnák pochodující v okně
+ Ever wanted cute little penguins walking along the tops of your windows?
+ Ever wanted to send an army of cute little penguins to invade the screen
+ of someone else on your network? Probably not, but why not try this
+ program out anyway, it's cool!
+
+Package: xxdiff
+Description-md5: 16740c13d4a0ad8696745102d5c96da2
+Description-cs: Grafické porovnání a spojení souboru/adresáře
+ xxdiff je šikovný nástroj pro prohlížení a sledování rozdílů mezi dvěma
+ nebo třemi soubory či dvěma adresáři. Program se používá k vytváření
+ spojených verzí. Textové zobrazení dvou nebo třech souborů se zobrazuje po
+ stranách a jejich rozdíly jsou barevně zvýrazněny. Kromě toho program umí:
+ .
+  * Compares two or three files, or two directories (shallow and recursive)
+  * Horizontal highlighting of diffs
+  * Interactive merges, previewing and saving of the resulting output
+  * Unmerges CVS conflicts and displays two files, to help resolve conflicts
+  * Fully customizable with a resource file
+  * Features and output that ease integration with scripts
+ .
+ The scripts that accompany xxdiff can be found in the xxdiff-scripts
+ package.
+
+Package: xzgv
+Description-md5: 115ac4d91316aecf2f7478f10ce7e34d
+Description-cs: Picture viewer for X with a thumbnail-based selector
+ xzgv is a picture viewer for X, with a thumbnail-based file selector. Most
+ file formats are supported, and the thumbnails used are compatible with
+ xv, zgv, and the Gimp. It can also be used with `xzgv file(s)', to
+ effectively bypass the file selector.
+ .
+ xzgv differs from other picture viewers for X in that it uses one window
+ for both the file selector and viewer, it (unlike xv) allows both
+ scrolling and fit-to-window methods of viewing large pictures, and it
+ (unlike xv and some others) doesn't ever mangle the picture's aspect
+ ratio.
+ .
+ It also provides extensive keyboard support; if you prefer using the
+ keyboard, this is almost certainly the best viewer for you. But it doesn't
+ skimp on the mousey stuff, either.
+ .
+ Note that this program is written by the author of the svgalib-based
+ "zgv", and has similar features.
+ .
+ Domovská stránka: http://sourceforge.net/projects/xzgv
+
+Package: yabause-qt
+Description-md5: 35831d8d5aa1e57acd46bb71db0605c8
+Description-cs: Pěkný emulátor Saturn - port Qt
+ Yabause is a Sega Saturn emulator. It has the following features:
+  * booting games from CD-ROM and ISO files
+  * booting games with either an emulated or original BIOS
+  * screenshot support
+  * savegame backups
+  * cheat system
+  * fullscreen playing
+  * multiple debugging options
+  * joystick support
+  * region select
+ .
+ Tento balíček obsahuje Qt verzi Yabause.
+
+Package: yacpi
+Description-md5: 76b032f5f4d3d006e7a8b8f187a49acf
+Description-cs: Monitor acpi používající ncurses pro textovou konzoli
+ yacpi (yet another configuration and power interface) is an ncurses based
+ ACPI monitoring program for notebooks. There is also a text-only output so
+ it is possible to include it in scripts. It displays various ACPI
+ information like battery status, temperature, charging circuits and AC
+ status. Additionally it displays CPU governor and current frequency.
+
+Package: yaret
+Description-md5: b69e9d25cc468c9b36e6543f32b78eab
+Description-cs: console tool to turn CDs into encoded music
+ YaRET je skript napsaný v Perlu, který automatizuje ripování, normalizaci
+ a kódování CD. Díky modulu Audio::CD podporuje CDDB a také umí pracovat s
+ oblíbenými rippery/normalizery/enkodéry (např. cdparanoia, cdda2wav,
+ normalize, atd.). Program podporuje užitečné volby jako více současně
+ běžících enkodérů a díky snadno použitelném konfiguračnímu souboru vám
+ umožní přizpůsobit YaRET přesně vašim potřebám (např. pojmenování souborů
+ podle informací CDDB).
+
+Package: yeahconsole
+Description-md5: f98dfd125e550e81cee69205a493b23c
+Description-cs: drop-down X terminal emulator wrapper
+ Yeahconsole zobrazí emulátor terminálu nahoře na vaší obrazovce. Tento
+ terminál se přitom rozbaluje podobně jako konzole obsažená v řadě her
+ (jako quake). Jeho viditelnost je přitom možno měnit pomocí zkratkových
+ kláves. V současné době je podporován xterm, urxvt a mrxvt.
+
+Package: zim
+Description-md5: cb2802579d1cba73992002139ffdc61c
+Description-cs: Grafický textový editor používající technologie wiki
+ Zim is a graphical text editor used to maintain a collection of wiki
+ pages.
+ .
+ Each page can contain links to other pages, simple formatting and inline
+ images. Pages are stored in a folder structure, like in an outliner, and
+ can have attachments. Creating a new page is as easy as linking to a
+ nonexistent page.
+ .
+ All data is stored in plain text files with wiki formatting. Various
+ plugins provide additional functionality, like a task list manager, an
+ equation editor, a tray icon, and support for version control.
+ .
+ Zim can be used to:
+  * Keep an archive of notes
+  * Take notes during meetings or lectures
+  * Organize task lists
+  * Draft blog entries and emails
+  * Do brainstorming
+
+

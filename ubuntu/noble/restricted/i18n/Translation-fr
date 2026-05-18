@@ -1,0 +1,641 @@
+Package: libnvidia-cfg1-470
+Description-md5: 7dce7edcd194e980223937b38f49e8b9
+Description-fr: Bibliothèque de configuration OpenGL/GLX binaire NVIDIA
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server for
+ graphics cards using NVIDIA chip sets.
+ .
+ Ce paquet contient la bibliothèque d’exécution libnvidia-cfg.so.1.
+
+Package: libnvidia-cfg1-470-server
+Description-md5: 7dce7edcd194e980223937b38f49e8b9
+Description-fr: Bibliothèque de configuration OpenGL/GLX binaire NVIDIA
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server for
+ graphics cards using NVIDIA chip sets.
+ .
+ Ce paquet contient la bibliothèque d’exécution libnvidia-cfg.so.1.
+
+Package: libnvidia-cfg1-535
+Description-md5: 7dce7edcd194e980223937b38f49e8b9
+Description-fr: Bibliothèque de configuration OpenGL/GLX binaire NVIDIA
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server for
+ graphics cards using NVIDIA chip sets.
+ .
+ Ce paquet contient la bibliothèque d’exécution libnvidia-cfg.so.1.
+
+Package: libnvidia-cfg1-535-server
+Description-md5: 7dce7edcd194e980223937b38f49e8b9
+Description-fr: Bibliothèque de configuration OpenGL/GLX binaire NVIDIA
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server for
+ graphics cards using NVIDIA chip sets.
+ .
+ Ce paquet contient la bibliothèque d’exécution libnvidia-cfg.so.1.
+
+Package: libnvidia-cfg1-550
+Description-md5: 7dce7edcd194e980223937b38f49e8b9
+Description-fr: Bibliothèque de configuration OpenGL/GLX binaire NVIDIA
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server for
+ graphics cards using NVIDIA chip sets.
+ .
+ Ce paquet contient la bibliothèque d’exécution libnvidia-cfg.so.1.
+
+Package: libnvidia-common-470
+Description-md5: 259c61ba4e777f5a2f1e7ee2fd1957bc
+Description-fr: Fichiers partagés utilisés par les bibliothèques NVIDIA
+ Ce paquet fournit un ensemble de fichiers nécessaires aux bibliothèques
+ NVIDIA.
+
+Package: libnvidia-common-470-server
+Description-md5: 259c61ba4e777f5a2f1e7ee2fd1957bc
+Description-fr: Fichiers partagés utilisés par les bibliothèques NVIDIA
+ Ce paquet fournit un ensemble de fichiers nécessaires aux bibliothèques
+ NVIDIA.
+
+Package: libnvidia-common-535
+Description-md5: 259c61ba4e777f5a2f1e7ee2fd1957bc
+Description-fr: Fichiers partagés utilisés par les bibliothèques NVIDIA
+ Ce paquet fournit un ensemble de fichiers nécessaires aux bibliothèques
+ NVIDIA.
+
+Package: libnvidia-common-535-server
+Description-md5: 259c61ba4e777f5a2f1e7ee2fd1957bc
+Description-fr: Fichiers partagés utilisés par les bibliothèques NVIDIA
+ Ce paquet fournit un ensemble de fichiers nécessaires aux bibliothèques
+ NVIDIA.
+
+Package: libnvidia-common-550
+Description-md5: 259c61ba4e777f5a2f1e7ee2fd1957bc
+Description-fr: Fichiers partagés utilisés par les bibliothèques NVIDIA
+ Ce paquet fournit un ensemble de fichiers nécessaires aux bibliothèques
+ NVIDIA.
+
+Package: libnvidia-compute-470
+Description-md5: c7c5b2d5b16b7e02eed65de795271363
+Description-fr: Paquet libcompute NVIDIA
+ Ce paquet fournit un ensemble de bibliothèques qui permettent au pilote
+ NVIDIA d'utiliser les processeurs graphiques pour des calculs génériques
+ parallèles via CUDA et OpenGL.
+
+Package: libnvidia-compute-470-server
+Description-md5: 11b7b8b816402e282453221bd66903b4
+Description-fr: Paquet libcompute NVIDIA
+ This package provides a set of libraries which enable the NVIDIA Server
+ Driver to use GPUs for parallel general purpose computation through CUDA
+ and OpenCL.
+
+Package: libnvidia-compute-535
+Description-md5: c7c5b2d5b16b7e02eed65de795271363
+Description-fr: Paquet libcompute NVIDIA
+ Ce paquet fournit un ensemble de bibliothèques qui permettent au pilote
+ NVIDIA d'utiliser les processeurs graphiques pour des calculs génériques
+ parallèles via CUDA et OpenGL.
+
+Package: libnvidia-compute-535-server
+Description-md5: 11b7b8b816402e282453221bd66903b4
+Description-fr: Paquet libcompute NVIDIA
+ This package provides a set of libraries which enable the NVIDIA Server
+ Driver to use GPUs for parallel general purpose computation through CUDA
+ and OpenCL.
+
+Package: libnvidia-compute-550
+Description-md5: c7c5b2d5b16b7e02eed65de795271363
+Description-fr: Paquet libcompute NVIDIA
+ Ce paquet fournit un ensemble de bibliothèques qui permettent au pilote
+ NVIDIA d'utiliser les processeurs graphiques pour des calculs génériques
+ parallèles via CUDA et OpenGL.
+
+Package: libnvidia-decode-470
+Description-md5: 82c3a05b45f86380632898c9b339df7a
+Description-fr: Bibliothèques d'exécution de décodage vidéo NVIDIA
+ This package includes the NVIDIA CUDA Video Decoder (NVCUVID) library
+ which provides an interface to hardware video decoding capabilities on
+ NVIDIA GPUs with CUDA.
+ .
+ The package also provides a VDPAU (Video Decode and Presentation API for
+ Unix-like systems) library for the NVIDIA vendor implementation.
+
+Package: libnvidia-decode-470-server
+Description-md5: 82c3a05b45f86380632898c9b339df7a
+Description-fr: Bibliothèques d'exécution de décodage vidéo NVIDIA
+ This package includes the NVIDIA CUDA Video Decoder (NVCUVID) library
+ which provides an interface to hardware video decoding capabilities on
+ NVIDIA GPUs with CUDA.
+ .
+ The package also provides a VDPAU (Video Decode and Presentation API for
+ Unix-like systems) library for the NVIDIA vendor implementation.
+
+Package: libnvidia-decode-535
+Description-md5: 82c3a05b45f86380632898c9b339df7a
+Description-fr: Bibliothèques d'exécution de décodage vidéo NVIDIA
+ This package includes the NVIDIA CUDA Video Decoder (NVCUVID) library
+ which provides an interface to hardware video decoding capabilities on
+ NVIDIA GPUs with CUDA.
+ .
+ The package also provides a VDPAU (Video Decode and Presentation API for
+ Unix-like systems) library for the NVIDIA vendor implementation.
+
+Package: libnvidia-decode-535-server
+Description-md5: 82c3a05b45f86380632898c9b339df7a
+Description-fr: Bibliothèques d'exécution de décodage vidéo NVIDIA
+ This package includes the NVIDIA CUDA Video Decoder (NVCUVID) library
+ which provides an interface to hardware video decoding capabilities on
+ NVIDIA GPUs with CUDA.
+ .
+ The package also provides a VDPAU (Video Decode and Presentation API for
+ Unix-like systems) library for the NVIDIA vendor implementation.
+
+Package: libnvidia-decode-550
+Description-md5: 82c3a05b45f86380632898c9b339df7a
+Description-fr: Bibliothèques d'exécution de décodage vidéo NVIDIA
+ This package includes the NVIDIA CUDA Video Decoder (NVCUVID) library
+ which provides an interface to hardware video decoding capabilities on
+ NVIDIA GPUs with CUDA.
+ .
+ The package also provides a VDPAU (Video Decode and Presentation API for
+ Unix-like systems) library for the NVIDIA vendor implementation.
+
+Package: libnvidia-encode-470
+Description-md5: 21b4191ea88e49a7e948a2b89cfed901
+Description-fr: Bibliothèque d’exécution d'encodage vidéo NVENC
+ The NVENC Video Encoding library provides an interface to video encoder
+ hardware on supported NVIDIA GPUs.
+ .
+ Ce paquet contient la bibliothèque d'exécution nvidia-encode.
+
+Package: libnvidia-encode-470-server
+Description-md5: 21b4191ea88e49a7e948a2b89cfed901
+Description-fr: Bibliothèque d’exécution d'encodage vidéo NVENC
+ The NVENC Video Encoding library provides an interface to video encoder
+ hardware on supported NVIDIA GPUs.
+ .
+ Ce paquet contient la bibliothèque d'exécution nvidia-encode.
+
+Package: libnvidia-encode-535
+Description-md5: 21b4191ea88e49a7e948a2b89cfed901
+Description-fr: Bibliothèque d’exécution d'encodage vidéo NVENC
+ The NVENC Video Encoding library provides an interface to video encoder
+ hardware on supported NVIDIA GPUs.
+ .
+ Ce paquet contient la bibliothèque d'exécution nvidia-encode.
+
+Package: libnvidia-encode-535-server
+Description-md5: 21b4191ea88e49a7e948a2b89cfed901
+Description-fr: Bibliothèque d’exécution d'encodage vidéo NVENC
+ The NVENC Video Encoding library provides an interface to video encoder
+ hardware on supported NVIDIA GPUs.
+ .
+ Ce paquet contient la bibliothèque d'exécution nvidia-encode.
+
+Package: libnvidia-encode-550
+Description-md5: 21b4191ea88e49a7e948a2b89cfed901
+Description-fr: Bibliothèque d’exécution d'encodage vidéo NVENC
+ The NVENC Video Encoding library provides an interface to video encoder
+ hardware on supported NVIDIA GPUs.
+ .
+ Ce paquet contient la bibliothèque d'exécution nvidia-encode.
+
+Package: libnvidia-fbc1-470
+Description-md5: 19123a53d351a2e540ca869d1e74f9d2
+Description-fr: NVIDIA OpenGL-based Framebuffer Capture runtime library
+ The NVIDIA OpenGL-based Framebuffer Capture (NvFBCOpenGL) library provides
+ a high performance, low latency interface to capture and optionally encode
+ an OpenGL framebuffer. NvFBCOpenGL is a private API that is only available
+ to approved partners for use in remote graphics scenarios.
+ .
+ Ce paquet contient la bibliothèque d'exécution NvFBCOpenGL.
+
+Package: libnvidia-fbc1-470-server
+Description-md5: 19123a53d351a2e540ca869d1e74f9d2
+Description-fr: NVIDIA OpenGL-based Framebuffer Capture runtime library
+ The NVIDIA OpenGL-based Framebuffer Capture (NvFBCOpenGL) library provides
+ a high performance, low latency interface to capture and optionally encode
+ an OpenGL framebuffer. NvFBCOpenGL is a private API that is only available
+ to approved partners for use in remote graphics scenarios.
+ .
+ Ce paquet contient la bibliothèque d'exécution NvFBCOpenGL.
+
+Package: libnvidia-fbc1-535
+Description-md5: 19123a53d351a2e540ca869d1e74f9d2
+Description-fr: NVIDIA OpenGL-based Framebuffer Capture runtime library
+ The NVIDIA OpenGL-based Framebuffer Capture (NvFBCOpenGL) library provides
+ a high performance, low latency interface to capture and optionally encode
+ an OpenGL framebuffer. NvFBCOpenGL is a private API that is only available
+ to approved partners for use in remote graphics scenarios.
+ .
+ Ce paquet contient la bibliothèque d'exécution NvFBCOpenGL.
+
+Package: libnvidia-fbc1-535-server
+Description-md5: 19123a53d351a2e540ca869d1e74f9d2
+Description-fr: NVIDIA OpenGL-based Framebuffer Capture runtime library
+ The NVIDIA OpenGL-based Framebuffer Capture (NvFBCOpenGL) library provides
+ a high performance, low latency interface to capture and optionally encode
+ an OpenGL framebuffer. NvFBCOpenGL is a private API that is only available
+ to approved partners for use in remote graphics scenarios.
+ .
+ Ce paquet contient la bibliothèque d'exécution NvFBCOpenGL.
+
+Package: libnvidia-fbc1-550
+Description-md5: 19123a53d351a2e540ca869d1e74f9d2
+Description-fr: NVIDIA OpenGL-based Framebuffer Capture runtime library
+ The NVIDIA OpenGL-based Framebuffer Capture (NvFBCOpenGL) library provides
+ a high performance, low latency interface to capture and optionally encode
+ an OpenGL framebuffer. NvFBCOpenGL is a private API that is only available
+ to approved partners for use in remote graphics scenarios.
+ .
+ Ce paquet contient la bibliothèque d'exécution NvFBCOpenGL.
+
+Package: libnvidia-gl-470
+Description-md5: d899ab089124230e29489e7dcc9f137a
+Description-fr: Bibliothèques NVIDIA OpenGL/GLX/EGL/GLES GLVND et ICD Vulkan
+ Ce paquet fournit les bibliothèques NVIDIA OpenGL/GLX/EGL/GLES GLVND et
+ l'ICD Vulkan.
+
+Package: libnvidia-gl-470-server
+Description-md5: d899ab089124230e29489e7dcc9f137a
+Description-fr: Bibliothèques NVIDIA OpenGL/GLX/EGL/GLES GLVND et ICD Vulkan
+ Ce paquet fournit les bibliothèques NVIDIA OpenGL/GLX/EGL/GLES GLVND et
+ l'ICD Vulkan.
+
+Package: libnvidia-gl-535
+Description-md5: d899ab089124230e29489e7dcc9f137a
+Description-fr: Bibliothèques NVIDIA OpenGL/GLX/EGL/GLES GLVND et ICD Vulkan
+ Ce paquet fournit les bibliothèques NVIDIA OpenGL/GLX/EGL/GLES GLVND et
+ l'ICD Vulkan.
+
+Package: libnvidia-gl-535-server
+Description-md5: d899ab089124230e29489e7dcc9f137a
+Description-fr: Bibliothèques NVIDIA OpenGL/GLX/EGL/GLES GLVND et ICD Vulkan
+ Ce paquet fournit les bibliothèques NVIDIA OpenGL/GLX/EGL/GLES GLVND et
+ l'ICD Vulkan.
+
+Package: libnvidia-gl-550
+Description-md5: d899ab089124230e29489e7dcc9f137a
+Description-fr: Bibliothèques NVIDIA OpenGL/GLX/EGL/GLES GLVND et ICD Vulkan
+ Ce paquet fournit les bibliothèques NVIDIA OpenGL/GLX/EGL/GLES GLVND et
+ l'ICD Vulkan.
+
+Package: libnvidia-ifr1-470
+Description-md5: ed00f275619e715136fe0176e6f7fd69
+Description-fr: NVIDIA OpenGL-based Inband Frame Readback runtime library
+ The NVIDIA OpenGL-based Inband Frame Readback (NvIFROpenGL) library
+ provides a high performance, low latency interface to capture and
+ optionally encode an OpenGL framebuffer. NvIFROpenGL is a private API that
+ is only available to approved partners for use in remote graphics
+ scenarios.
+ .
+ Ce paquet contient la bibliothèque d'exécution NvIFROpenGL.
+
+Package: libnvidia-ifr1-470-server
+Description-md5: ed00f275619e715136fe0176e6f7fd69
+Description-fr: NVIDIA OpenGL-based Inband Frame Readback runtime library
+ The NVIDIA OpenGL-based Inband Frame Readback (NvIFROpenGL) library
+ provides a high performance, low latency interface to capture and
+ optionally encode an OpenGL framebuffer. NvIFROpenGL is a private API that
+ is only available to approved partners for use in remote graphics
+ scenarios.
+ .
+ Ce paquet contient la bibliothèque d'exécution NvIFROpenGL.
+
+Package: nvidia-compute-utils-470
+Description-md5: bf6fab9efc1024a52f79dd543478f871
+Description-fr: Utilitaires de calcul NVIDIA
+ This package provides utility binaries for paraller general purpose
+ computing use cases with the NVIDIA driver.
+ .
+ CUDA MPS is a feature that allows multiple CUDA processes to share a
+ single GPU context. CUDA MPS should be transparent to CUDA programs.
+ .
+ CUDA MPS requires a device that supports Unified Virtual Address (UVA) and
+ has compute capability SM 3.5 or higher. Pre-CUDA 4.0 APIs are not
+ supported under CUDA MPS.
+
+Package: nvidia-compute-utils-470-server
+Description-md5: 22d91d0fcba51df4741637e102ab12c2
+Description-fr: Utilitaires de calcul NVIDIA
+ This package provides utility binaries for paraller general purpose
+ computing use cases with the NVIDIA Server Driver.
+ .
+ CUDA MPS is a feature that allows multiple CUDA processes to share a
+ single GPU context. CUDA MPS should be transparent to CUDA programs.
+ .
+ CUDA MPS requires a device that supports Unified Virtual Address (UVA) and
+ has compute capability SM 3.5 or higher. Pre-CUDA 4.0 APIs are not
+ supported under CUDA MPS.
+
+Package: nvidia-compute-utils-535
+Description-md5: bf6fab9efc1024a52f79dd543478f871
+Description-fr: Utilitaires de calcul NVIDIA
+ This package provides utility binaries for paraller general purpose
+ computing use cases with the NVIDIA driver.
+ .
+ CUDA MPS is a feature that allows multiple CUDA processes to share a
+ single GPU context. CUDA MPS should be transparent to CUDA programs.
+ .
+ CUDA MPS requires a device that supports Unified Virtual Address (UVA) and
+ has compute capability SM 3.5 or higher. Pre-CUDA 4.0 APIs are not
+ supported under CUDA MPS.
+
+Package: nvidia-compute-utils-535-server
+Description-md5: 22d91d0fcba51df4741637e102ab12c2
+Description-fr: Utilitaires de calcul NVIDIA
+ This package provides utility binaries for paraller general purpose
+ computing use cases with the NVIDIA Server Driver.
+ .
+ CUDA MPS is a feature that allows multiple CUDA processes to share a
+ single GPU context. CUDA MPS should be transparent to CUDA programs.
+ .
+ CUDA MPS requires a device that supports Unified Virtual Address (UVA) and
+ has compute capability SM 3.5 or higher. Pre-CUDA 4.0 APIs are not
+ supported under CUDA MPS.
+
+Package: nvidia-compute-utils-550
+Description-md5: bf6fab9efc1024a52f79dd543478f871
+Description-fr: Utilitaires de calcul NVIDIA
+ This package provides utility binaries for paraller general purpose
+ computing use cases with the NVIDIA driver.
+ .
+ CUDA MPS is a feature that allows multiple CUDA processes to share a
+ single GPU context. CUDA MPS should be transparent to CUDA programs.
+ .
+ CUDA MPS requires a device that supports Unified Virtual Address (UVA) and
+ has compute capability SM 3.5 or higher. Pre-CUDA 4.0 APIs are not
+ supported under CUDA MPS.
+
+Package: nvidia-dkms-470
+Description-md5: ec8c193060b5458922cc0bda62df7796
+Description-fr: Paquet DKMS NVIDIA
+ This package builds the NVIDIA kernel module needed by the userspace
+ driver, using DKMS. Provided that you have the kernel header packages
+ installed, the kernel module will be built for your running kernel, and
+ automatically rebuilt for any new kernel headers that are installed.
+
+Package: nvidia-dkms-470-server
+Description-md5: ec8c193060b5458922cc0bda62df7796
+Description-fr: Paquet DKMS NVIDIA
+ This package builds the NVIDIA kernel module needed by the userspace
+ driver, using DKMS. Provided that you have the kernel header packages
+ installed, the kernel module will be built for your running kernel, and
+ automatically rebuilt for any new kernel headers that are installed.
+
+Package: nvidia-dkms-535
+Description-md5: ec8c193060b5458922cc0bda62df7796
+Description-fr: Paquet DKMS NVIDIA
+ This package builds the NVIDIA kernel module needed by the userspace
+ driver, using DKMS. Provided that you have the kernel header packages
+ installed, the kernel module will be built for your running kernel, and
+ automatically rebuilt for any new kernel headers that are installed.
+
+Package: nvidia-dkms-535-server
+Description-md5: ec8c193060b5458922cc0bda62df7796
+Description-fr: Paquet DKMS NVIDIA
+ This package builds the NVIDIA kernel module needed by the userspace
+ driver, using DKMS. Provided that you have the kernel header packages
+ installed, the kernel module will be built for your running kernel, and
+ automatically rebuilt for any new kernel headers that are installed.
+
+Package: nvidia-driver-470
+Description-md5: 7ee67126cd018c11559fdac7f576d8eb
+Description-fr: Métapaquet pilote NVIDIA
+ This metapackage depends on the NVIDIA binary driver and on all of its
+ libraries, to provide hardware acceleration for OpenGL/GLX/EGL/GLES/Vulkan
+ applications on either X11 or on Wayland.
+ .
+ See /usr/share/doc/nvidia-driver-470/README.txt.gz for a complete list of
+ supported GPUs and PCI IDs.
+
+Package: nvidia-driver-535
+Description-md5: 2a1d1ca6d1a8a1c42985758946a60e15
+Description-fr: Métapaquet pilote NVIDIA
+ This metapackage depends on the NVIDIA binary driver and on all of its
+ libraries, to provide hardware acceleration for OpenGL/GLX/EGL/GLES/Vulkan
+ applications on either X11 or on Wayland.
+ .
+ See /usr/share/doc/nvidia-driver-535/README.txt.gz for a complete list of
+ supported GPUs and PCI IDs.
+
+Package: nvidia-driver-550
+Description-md5: 08df5b2f046093c565c547cd951040a6
+Description-fr: Métapaquet pilote NVIDIA
+ This metapackage depends on the NVIDIA binary driver and on all of its
+ libraries, to provide hardware acceleration for OpenGL/GLX/EGL/GLES/Vulkan
+ applications on either X11 or on Wayland.
+ .
+ See /usr/share/doc/nvidia-driver-550/README.txt.gz for a complete list of
+ supported GPUs and PCI IDs.
+
+Package: nvidia-headless-470
+Description-md5: b76db062926ec54be11eda34b8dc03a5
+Description-fr: Métapaquet sans en-tête NVIDIA
+ This metapackage installs the NVIDIA driver and the libraries that enable
+ parallel general purpose computation through CUDA and OpenCL.
+ .
+ Install this package if you do not need X11 or Wayland support, which is
+ provided by the nvidia-driver-470 metapackage.
+
+Package: nvidia-headless-470-server
+Description-md5: d3cf2b72eb70250ca0db011e9a93ff53
+Description-fr: Métapaquet sans en-tête NVIDIA
+ This metapackage installs the NVIDIA Server Driver and the libraries that
+ enable parallel general purpose computation through CUDA and OpenCL.
+ .
+ Install this package if you do not need X11 or Wayland support, which is
+ provided by the nvidia-driver-470-server metapackage.
+
+Package: nvidia-headless-535
+Description-md5: c10f485d5cd854f8f145e94ba5a1ee52
+Description-fr: Métapaquet sans en-tête NVIDIA
+ This metapackage installs the NVIDIA driver and the libraries that enable
+ parallel general purpose computation through CUDA and OpenCL.
+ .
+ Install this package if you do not need X11 or Wayland support, which is
+ provided by the nvidia-driver-535 metapackage.
+
+Package: nvidia-headless-535-server
+Description-md5: 0ff7922ff323245dcc05ec05b38c6df0
+Description-fr: Métapaquet sans en-tête NVIDIA
+ This metapackage installs the NVIDIA Server Driver and the libraries that
+ enable parallel general purpose computation through CUDA and OpenCL.
+ .
+ Install this package if you do not need X11 or Wayland support, which is
+ provided by the nvidia-driver-535-server metapackage.
+
+Package: nvidia-headless-no-dkms-470
+Description-md5: b2a4cc4ffbc9dfcd5c8b9b0f930eedef
+Description-fr: Métapaquet NVIDIA sans en-tête - sans DKMS
+ This metapackage installs the NVIDIA driver and the libraries that enable
+ parallel general purpose computation through CUDA and OpenCL. DKMS will
+ not be installed, and, therefore, the kernel module will not be built.
+ .
+ Install this package if you do not need X11 or Wayland support, which is
+ provided by the nvidia-driver-470 metapackage.
+
+Package: nvidia-headless-no-dkms-470-server
+Description-md5: d77eda7994c51f299436c6e0a32144eb
+Description-fr: Métapaquet NVIDIA sans en-tête - sans DKMS
+ This metapackage installs the NVIDIA Server Driver and the libraries that
+ enable parallel general purpose computation through CUDA and OpenCL. DKMS
+ will not be installed, and, therefore, the kernel module will not be
+ built.
+ .
+ Install this package if you do not need X11 or Wayland support, which is
+ provided by the nvidia-driver-470-server metapackage.
+
+Package: nvidia-headless-no-dkms-535
+Description-md5: 52c573bafa1b747ad3a50428efea2231
+Description-fr: Métapaquet NVIDIA sans en-tête - sans DKMS
+ This metapackage installs the NVIDIA driver and the libraries that enable
+ parallel general purpose computation through CUDA and OpenCL. DKMS will
+ not be installed, and, therefore, the kernel module will not be built.
+ .
+ Install this package if you do not need X11 or Wayland support, which is
+ provided by the nvidia-driver-535 metapackage.
+
+Package: nvidia-headless-no-dkms-535-server
+Description-md5: 673bb0117fea4132d63048940b83be3a
+Description-fr: Métapaquet NVIDIA sans en-tête - sans DKMS
+ This metapackage installs the NVIDIA Server Driver and the libraries that
+ enable parallel general purpose computation through CUDA and OpenCL. DKMS
+ will not be installed, and, therefore, the kernel module will not be
+ built.
+ .
+ Install this package if you do not need X11 or Wayland support, which is
+ provided by the nvidia-driver-535-server metapackage.
+
+Package: nvidia-kernel-common-470
+Description-md5: caa64a2a10d329a0475baf9ebcdb40d5
+Description-fr: Fichiers partagés utilisés avec le module noyau
+ Ce paquet installe les fichiers accessoires optionnels pour le module
+ noyau NVIDIA.
+ .
+ Install this package if you want to blacklist any conflicting kernel
+ modules, and if you want udev to load the the NVIDIA kernel modules, and
+ to create the uvm devices automatically.
+
+Package: nvidia-kernel-common-470-server
+Description-md5: caa64a2a10d329a0475baf9ebcdb40d5
+Description-fr: Fichiers partagés utilisés avec le module noyau
+ Ce paquet installe les fichiers accessoires optionnels pour le module
+ noyau NVIDIA.
+ .
+ Install this package if you want to blacklist any conflicting kernel
+ modules, and if you want udev to load the the NVIDIA kernel modules, and
+ to create the uvm devices automatically.
+
+Package: nvidia-kernel-common-535
+Description-md5: caa64a2a10d329a0475baf9ebcdb40d5
+Description-fr: Fichiers partagés utilisés avec le module noyau
+ Ce paquet installe les fichiers accessoires optionnels pour le module
+ noyau NVIDIA.
+ .
+ Install this package if you want to blacklist any conflicting kernel
+ modules, and if you want udev to load the the NVIDIA kernel modules, and
+ to create the uvm devices automatically.
+
+Package: nvidia-kernel-common-535-server
+Description-md5: caa64a2a10d329a0475baf9ebcdb40d5
+Description-fr: Fichiers partagés utilisés avec le module noyau
+ Ce paquet installe les fichiers accessoires optionnels pour le module
+ noyau NVIDIA.
+ .
+ Install this package if you want to blacklist any conflicting kernel
+ modules, and if you want udev to load the the NVIDIA kernel modules, and
+ to create the uvm devices automatically.
+
+Package: nvidia-kernel-common-550
+Description-md5: caa64a2a10d329a0475baf9ebcdb40d5
+Description-fr: Fichiers partagés utilisés avec le module noyau
+ Ce paquet installe les fichiers accessoires optionnels pour le module
+ noyau NVIDIA.
+ .
+ Install this package if you want to blacklist any conflicting kernel
+ modules, and if you want udev to load the the NVIDIA kernel modules, and
+ to create the uvm devices automatically.
+
+Package: nvidia-kernel-common-550-server
+Description-md5: caa64a2a10d329a0475baf9ebcdb40d5
+Description-fr: Fichiers partagés utilisés avec le module noyau
+ Ce paquet installe les fichiers accessoires optionnels pour le module
+ noyau NVIDIA.
+ .
+ Install this package if you want to blacklist any conflicting kernel
+ modules, and if you want udev to load the the NVIDIA kernel modules, and
+ to create the uvm devices automatically.
+
+Package: nvidia-kernel-source-470
+Description-md5: dc60d6861ca351f7cadc7d8fcc74e854
+Description-fr: Paquet source du noyau NVIDIA
+ This package provides the NVIDIA kernel source needed by the userspace
+ driver.
+
+Package: nvidia-kernel-source-470-server
+Description-md5: dc60d6861ca351f7cadc7d8fcc74e854
+Description-fr: Paquet source du noyau NVIDIA
+ This package provides the NVIDIA kernel source needed by the userspace
+ driver.
+
+Package: nvidia-kernel-source-535
+Description-md5: dc60d6861ca351f7cadc7d8fcc74e854
+Description-fr: Paquet source du noyau NVIDIA
+ This package provides the NVIDIA kernel source needed by the userspace
+ driver.
+
+Package: nvidia-kernel-source-535-open
+Description-md5: 2694f1253ed6bd4cfbccf1e22ec25a3d
+Description-fr: Paquet source du noyau NVIDIA
+ This package provides the open NVIDIA kernel source needed by the
+ userspace driver.
+
+Package: nvidia-kernel-source-535-server
+Description-md5: dc60d6861ca351f7cadc7d8fcc74e854
+Description-fr: Paquet source du noyau NVIDIA
+ This package provides the NVIDIA kernel source needed by the userspace
+ driver.
+
+Package: nvidia-kernel-source-535-server-open
+Description-md5: 2694f1253ed6bd4cfbccf1e22ec25a3d
+Description-fr: Paquet source du noyau NVIDIA
+ This package provides the open NVIDIA kernel source needed by the
+ userspace driver.
+
+Package: nvidia-kernel-source-550
+Description-md5: dc60d6861ca351f7cadc7d8fcc74e854
+Description-fr: Paquet source du noyau NVIDIA
+ This package provides the NVIDIA kernel source needed by the userspace
+ driver.
+
+Package: nvidia-utils-470
+Description-md5: d81f3aa17f8585f803913263abcf99e2
+Description-fr: Binaires de prise en charge du pilote NVIDIA
+ Ce paquet contient des binaires de prise en charge du pilote NVIDIA.
+
+Package: nvidia-utils-535
+Description-md5: d81f3aa17f8585f803913263abcf99e2
+Description-fr: Binaires de prise en charge du pilote NVIDIA
+ Ce paquet contient des binaires de prise en charge du pilote NVIDIA.
+
+Package: nvidia-utils-550
+Description-md5: d81f3aa17f8585f803913263abcf99e2
+Description-fr: Binaires de prise en charge du pilote NVIDIA
+ Ce paquet contient des binaires de prise en charge du pilote NVIDIA.
+
+Package: sl-modem-daemon
+Description-md5: dd33edc29e8f6ca6bd7aaea974c49391
+Description-fr: Le démon pour les modems logiciels SmartLink
+ Le démon logiciel SmartLink est la partie applicative du pilote pour les
+ modems récents produits par Smart Link Ltd.
+ .
+ Ce paquet remplace (avec les pilotes d'accès au matériel) la vieille
+ génération du pilotes (2.7.x) qui était simplement constituée de modules
+ du noyau.
+ .
+ Il a besoin d'un pilote de noyau pour accéder au matériel. Il peut s'agir
+ d'ALSA récent (livré avec un noyau plus récent (>= 2.6.4) avec prise en
+ charge ALSA et module snd-intel8x0m) ce qui est suffisant pour le
+ fonctionnement basique et les connexions données/Internet, ou le pilote du
+ noyau SmartLink qui est fourni par des paquets distincts que vous pouvez
+ compiler en utilisant la source du paquet sl-modem-dkms.
+

@@ -1,0 +1,16 @@
+Package: sl-modem-daemon
+Description-md5: dd33edc29e8f6ca6bd7aaea974c49391
+Description-ms: Daemon modem perisian SmartLink
+ Daemon modem SmartLink merupakan sebahagian aplikasi pemacu untuk modem
+ kini yang dihasilkan oleh Smart Link Ltd.
+ .
+ Pakej ini menggantikan (bersama-sama pemacu capaian perkakasan) pemacu
+ lama generasi (2.7.x) yang dikandungi modul kernel sahaja.
+ .
+ It needs a kernel driver to access the hardware. This can be either recent
+ ALSA (shipped with a newer kernel (>=2.6.4) with ALSA support and snd-
+ intel8x0m module) which is sufficient for basic operation and
+ data/Internet connection, or the SmartLink kernel driver which is provided
+ by separate packages which you can build using the source from the sl-
+ modem-dkms package.
+

@@ -1,0 +1,17 @@
+Package: sl-modem-daemon
+Description-md5: dd33edc29e8f6ca6bd7aaea974c49391
+Description-el: Υπηρεσία λογισμικού μόντεμ SmartLink
+ Η υπηρεσία λογισμικού μόντεμ SmartLink είναι το μέρος του οδηγού που
+ αποτελείται από λογισμικό για τα πρόσφατα μόντεμ που παράγει η Smart Link
+ Ltd.
+ .
+ Αυτό το πακέτο αντικαθιστά (μαζί με τους οδηγούς πρόσβασης υλικού) την
+ παλιά γενιά του οδηγού (2.7.x) που αποτελούνταν μόνο από αρθρώματα πυρήνα.
+ .
+ It needs a kernel driver to access the hardware. This can be either recent
+ ALSA (shipped with a newer kernel (>=2.6.4) with ALSA support and snd-
+ intel8x0m module) which is sufficient for basic operation and
+ data/Internet connection, or the SmartLink kernel driver which is provided
+ by separate packages which you can build using the source from the sl-
+ modem-dkms package.
+

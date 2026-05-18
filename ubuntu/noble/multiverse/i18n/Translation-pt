@@ -1,0 +1,540 @@
+Package: abs-guide
+Description-md5: c70e528b8b624e5738bdbd1b89e8b349
+Description-pt: Guia Avançado para "Scripts" de Bash
+ Exploração a fundo da arte de programar "scripts" na consola.
+ .
+ Este tutorial não assume qualquer conhecimento de programação ou
+ "scripts", mas evolui rapidamente para um nível intermédio ou avançado de
+ instrução... de quando em quando com pequenos bocadinhos de código de
+ UNIX(R). Serve como um livro de texto, um manual para auto-aprendizagem ,
+ e uma referência ou fonte de conhecimento das técnicas de programação
+ ("script") da shell. Os exercícios e os exemplos plenamente comentados
+ convidam à activa participação do leitor, na permissa que a única maneira
+ de realmente aprender programação é escrever o código ("script").
+ .
+ Este livro é adequado para uso em sala de aula com uma introdução geral
+ aos conceitos de programação.
+
+Package: afio
+Description-md5: ca88467cccd23b8f150ff01185566a6c
+Description-pt: Programa de manipulação de ficheiros de arquivo
+ Afio manipula grupos de ficheiros, copiando-os do interior ou de entre
+ sistemas de ficheiros e um arquivo afio.
+ .
+ Os arquivos afio são portáveis porque contêm a informação de cabeçalhos
+ formatada apenas em ASCII. Afio faz arquivos em formato cpio. Afio lida
+ graciosamente (de um certo modo) com dados de entrada corrompidos. Afio
+ suporta arquivos de múltiplos volumes durante a operação interactiva. Afio
+ pode fazer arquivos comprimidos que são muito mais seguros do que os
+ arquivos comprimidos pelo tar ou cpio.
+ .
+ Afio é melhor usado como um 'motor de arquivamento' em um script de cópias
+ de salvaguarda.
+
+Package: album
+Description-md5: 3eaaefa453087570fb45ac51eeccbe7c
+Description-pt: Gerador de álbuns de fotos em HTML com suporte de temas
+ Album is a perl script that can create HTML photo albums for your
+ directories of images. It supports themes that determine the visual
+ appearance of the albums. Album creates thumbnails if necessary, and
+ 'medium sized' versions of images for web viewing to avoid large downloads
+ of original images. You can also customize your photo albums in many other
+ ways.
+ .
+ Este programa não precisa de um servidor web para trabalhar. Quando o HTML
+ for gerado, pode colocá-lo na pasta "www".
+
+Package: album-data
+Description-md5: 34adea76df6b2c02712e3838461edbb2
+Description-pt: temas, extensões e traduções para o Album
+ Album é um script em perl que pode criar álbuns fotográficos em HTML das
+ suas pastas de imagens. Este pacote fornece temas, extensões e traduções
+ para o Album.
+ .
+ The available languages are Catalan, Chinese, Czech, German, Spanish,
+ French, Hebrew, Hungarian, Italian, Korean, Dutch, Polish, Russian,
+ Swedish Chef, and Leet Hacker. The original Album package is in English.
+ .
+ Theme's demo site:     http://davepics.com/Theme_Album Translations
+ status:   http://marginalhacks.com/Hacks/album/Languages.html Screenshots
+ of themes: http://davepics.com/Theme_Album/
+
+Package: alien-arena
+Description-md5: de2b3d0db5845c79b22ffc0c38842f1b
+Description-pt: Standalone 3D first person online deathmatch shooter
+ ALIEN ARENA is a standalone 3D first person online death-match shooter
+ crafted from the original source code of Quake II and Quake III, released
+ by id Software under the GPL license. With features including 32-bit
+ graphics, a new particle engine and effects, light blooms, reflective
+ water, hi-resolution textures and skins, and hi-poly models and stain
+ maps, ALIEN ARENA pushes the envelope of graphical beauty rivaling today's
+ top games.
+ .
+ Este pacote instala o cliente SDL para o Alien Arena.
+
+Package: alien-arena-data
+Description-md5: f930829d2a1207940bee317dc2015735
+Description-pt: Ficheiros de dados de jogo para Alien Arena
+ ALIEN ARENA is a standalone 3D first person online death-match shooter
+ crafted from the original source code of Quake II and Quake III, released
+ by id Software under the GPL license. With features including 32-bit
+ graphics, a new particle engine and effects, light blooms, reflective
+ water, hi-resolution textures and skins, and hi-poly models and stain
+ maps, ALIEN ARENA pushes the envelope of graphical beauty rivaling today's
+ top games.
+ .
+ This package installs the data, botinfo, and arena files needed to run
+ Alien Arena.
+
+Package: alien-arena-server
+Description-md5: 5096fa975d49e1d2781f93bd7781f913
+Description-pt: Servidor dedicado para o Alien Arena
+ ALIEN ARENA is a standalone 3D first person online death-match shooter
+ crafted from the original source code of Quake II and Quake III, released
+ by id Software under the GPL license. With features including 32-bit
+ graphics, a new particle engine and effects, light blooms, reflective
+ water, hi-resolution textures and skins, and hi-poly models and stain
+ maps, ALIEN ARENA pushes the envelope of graphical beauty rivaling today's
+ top games.
+ .
+ Este pacote instala o servidor dedicado para Alien Arena.
+
+Package: alsa-firmware-loaders
+Description-md5: 631dd818c28b45f8af844a1ba49ddcd6
+Description-pt: ALSA software loaders for specific hardware
+ Uma colecção de carregadores de software para hardware específico:
+ .
+  cspctl - Sound Blaster 16 ASP/CSP control program
+  hdsploader - firmware loader for the RME Hammerfall DSP cards
+  mixartloader - firmware loader for Digigram's miXart board sound drivers
+  pcxhrloader - firmware loader for Digigram pcxhr compatible soundcards
+  sscape_ctl - SoundScape control utility and firmware loader
+  usx2yloader - firmware loader for Tascam USX2Y USB soundcards
+  vxloader - firmware loader for Digigram VX soundcards
+
+
+Package: amoeba
+Description-md5: d79071f380a0fcf700f7b1ed1856dab1
+Description-pt: Demonstração OpenGL polida e de passo acelerado por Excess
+ Amoeba é uma demonstração OpenGL de passo acelerado e de múltipla
+ plataforma feita por Excess, mostrando efeitos gráficos de tempo real em
+ perfeito sincronismo com música. Disponibiliza um motor de demonstração
+ totalmente personalizável, vários efeitos visuais, montes de gráficos e
+ uma trilha sonora bombástica.
+ .
+ Amoeba won first prize in the demo competition at Underscore 02, a
+ demoscene party held in Gothenburg, Sweden.
+ .
+ Note que isto é apenas o motor de demonstrações -- para ver a
+ demonstração, você também precisa do pacote amoeba-data.
+
+Package: amoeba-data
+Description-md5: 034c9cfac5217a9a6eb4db71c1f05423
+Description-pt: Demonstração rápida e afinada de OpenGL por Excess (dados)
+ Amoeba is a fast-paced, cross-platform OpenGL demonstration by Excess,
+ showing effects using your 3D card in perfect sync with Ogg Vorbis music.
+ It features a full XML-scripted GPLed demo engine, several object
+ manipulations, lots of graphics and a pumping soundtrack.
+ .
+ Amoeba won first price in the demo competition at Underscore 02, a
+ sceneparty held in Joenkoeping, Sweden (http://www.underscore.sh/)
+ .
+ This package contains the data required for the demo -- to watch the demo,
+ you will also need the package amoeba, which contains the demo engine.
+
+Package: atari800
+Description-md5: 9526e2deeb23f4395bbefbf22fb9ee74
+Description-pt: Atari 8-bit emulator for SDL
+ Atari800 is an emulator of Atari 8-bit computer systems including the 400,
+ 800, 1200XL, 600XL, 800XL, 65XE, 130XE, 800XE and the XE Game System, and
+ also of the Atari 5200 SuperSystem console.
+ .
+ As ROMs de sistema operativo do Atari não estão disponíveis neste pacote,
+ devido a direitos de autor (copyright). Você vai ter que: ou criar cópias
+ delas a partir de um velho computador Atari, ou ver README.Debian para
+ outras maneiras de como as obter.
+
+Package: basilisk2
+Description-md5: e83e142cb49b01600e0e123d5566127b
+Description-pt: Emulador do Macintosh 68K
+ Basilisk II é um emulador em código aberto para os Macintosh 68k. Ou seja,
+ ele permite que você execute software do MacOS 68k no seu computador,
+ mesmo se estiver a usar um sistema operativo diferente. No entanto, ainda
+ precisa de uma cópia do MacOS e uma imagem ROM do Macintosh para usar o
+ Basilisk II.
+ .
+ Some features of Basilisk II:
+  - Emulates either a Mac Classic (which runs MacOS 0.x thru 7.5)
+    or a Mac II series machine (which runs MacOS 7.x, 8.0 and 8.1),
+    depending on the ROM being used
+  - Color video display
+  - CD quality sound output
+  - Floppy disk driver (only 1.44MB disks supported)
+  - Driver for HFS partitions and hardfiles
+  - CD-ROM driver with basic audio functions
+  - Easy file exchange with the host OS via a "Host Directory Tree" icon
+    on the Mac desktop
+  - Ethernet driver
+  - Serial drivers
+  - SCSI Manager (old-style) emulation
+  - Emulates extended ADB keyboard and 3-button mouse
+  - Uses UAE 68k emulation or (under AmigaOS and NetBSD/m68k) real 68k
+    processor
+
+
+Package: darkice
+Description-md5: 1912539adeede843fe4a648780292b75
+Description-pt: Corrente de áudio Live
+ DarkIce is an IceCast, IceCast2 and ShoutCast live audio streamer. It
+ takes audio input from a sound card, encodes it into mp3 and/or Ogg
+ Vorbis, and sends the mp3 stream to one or more IceCast and/or ShoutCast
+ servers, the Ogg Vorbis stream to one or more IceCast2 servers. DarkIce
+ uses lame as a shared object as its mp3 encoder, and the Ogg Vorbis as its
+ Ogg Vorbis encoder.
+ .
+ A legacy SYSV init script is provided for existing configurations. You
+ have to set RUN=yes in /etc/default/darkice to run darkice as a daemon.
+ With modern systems, this is not needed as realtime scheduling is
+ available to normal users.
+
+Package: gnuboy-sdl
+Description-md5: d0afd5157478841c7d01808a8cbd6f99
+Description-pt: Binários SDL para o gnuboy - Emulador do Game Boy
+ Gnuboy é um emulador portável de Game Boy. Basicamente permite-lhe jogar a
+ maioria dos jogos desenhados para o Game Boy e Game Boy Color no seu PC ou
+ estação de trabalho.
+ .
+ Este pacote inclui binários SDL.
+
+Package: gnuboy-x
+Description-md5: 7dc3af652e412edd9627cb088cd2b13d
+Description-pt: Binários X para o gnuboy - Emulador de Game Boy
+ Gnuboy é um emulador portável de Game Boy. Basicamente permite-lhe jogar a
+ maioria dos jogos desenhados para o Game Boy e Game Boy Color no seu PC ou
+ estação de trabalho.
+ .
+ Este pacote inclui binários X.
+
+Package: hannah-foo2zjs
+Description-md5: 17bd5e201d7e7be1fb42ba47260c88bd
+Description-pt: Descarregador de firmware gráfico para o pacote foo2zjs
+ Hannah é um descarregador de firmware gráfico para o pacote foo2zjs. Você
+ pode seleccionar um ou mais firmware(s) a partir de uma lista e deixar o
+ hannah descarrega-los e instala-los.
+ .
+ Com este software você poderá potencialmente instalar software não-livre
+ (non-free), portanto esteja consciente disso.
+
+Package: mp3diags
+Description-md5: 27a41b67e8f0c1d350bd807507e1bc57
+Description-pt: Procura problemas em ficheiros MP3 e ajuda a resolvê-los
+ O MP3 Diags é uma aplicação baseada em GUI que permite aos utilizadores
+ identificar problemas com os seus ficheiros MP3, corrigir alguns dos
+ problemas e fazer outras alterações, como adicionar informação da pista.
+ Também permite ao utilizador "olhar" para dentro de um ficheiro MP3.
+ .
+ Ao contrário de programas que estão desenhados para lidar com um único
+ tópico (como corrigir os cabeçalhos do VBR ou adicionar imagens de capas),
+ o MP3 Diags é uma solução que identifica mais de 50 problemas diferentes
+ em ficheiros MP3 e disponibiliza os meios para corrigir muitos deles.
+ .
+ Alguns dos problemas mais importantes que são detectados:
+ .
+  * Broken tags / headers / audio.
+  * Duplicate tags / headers.
+  * Incorrect placement of tags / headers (ID3V2, ID3V1, LAME, Xing, etc).
+  * Low quality audio.
+  * Missing VBR header.
+  * Missing track info / cover art.
+  * Broken track info / cover art.
+  * Missing normalization data.
+  * Character encoding issues (for languages other than English).
+ .
+ Algumas das correcções e alterações que o MP3 Diags pode fazer:
+ .
+  * Adding / fixing track info, including album cover; information can be
+    retrieved from several sources: Internet, clipboard, file name, local
+    files, and (obviously) keyboard.
+  * Correcting files that show incorrect song duration.
+  * Correcting files in which the player cannot seek correctly.
+  * Converting characters for non-English names.
+  * Adding composer name to the artist field, for players that don't handle
+    the composer field.
+  * Renaming files based on their fields.
+  * Changing word case for track info.
+
+
+Package: playonlinux
+Description-md5: 729a863a5c2d8eb304d4e8e17ffbeafe
+Description-pt: frontend para o Wine
+ PlayOnLinux is a front-end for wine. It permits you to easily install
+ Windows Games and software on Linux. It is advised to have a functional
+ internet connection.
+
+Package: qcomicbook
+Description-md5: 5e1e59ae80d5250683bcf393eda201bc
+Description-pt: Visualizador qt para arquivos de livros cómicos (cbr/cbz/cba/cbg/cbb)
+ QComicBook é um visualizador para aquivos de livros cómicos contendo
+ imagens jpeg/png, orientado para a conveniência e simplicidade.
+ Funcionalidades incluidas: descompressão automática, modo de écran
+ completo, escalamento de páginas, navegação por rato ou teclado, etc.
+ .
+ QComicBook for now supports archives:
+  - cbr - rar-compressed
+  - cbz - zip-compressed
+  - cba - ace-compressed
+  - cbg - targzipped
+  - cbb - tarbzip2ped
+
+
+Package: spectemu-common
+Description-md5: 26bc6bd9e66de9535a2d1d86848d0e2c
+Description-pt: Fast 48k ZX Spectrum Emulator (common files)
+ Spectemu emulates the 48k ZX Spectrum, which uses the Z80 microprocessor.
+ This package contains common configuration files and utilities which are
+ or can be used by either the X11 or the SVGAlib frontend.
+ .
+ Emula o processador Z80 assim como o outro hardware do Spectrum 48k:
+ teclado, écran, som, fita I/O. A emulação é muito próxima do real, mas
+ mesmo assim é bastante rápido (Foi reportado funcionar bem num portátil
+ com 486 a 25MHz!). Por outro lado, a interface de utilizador não é das
+ melhores.
+ .
+ Features include:
+    - Sound support through Linux kernel sound-card driver.
+    - Snapshot saving and loading (.Z80 and .SNA format)
+    - Tape emulation: loading from tape files (.TAP and .TZX format)
+    - Optional quick loading of tapes.
+    - Saving to tape files.
+    - Separate utility to save tape files to real tape
+    - Configurable with config files and from command line
+
+
+Package: spectemu-x11
+Description-md5: 0bf9dc39a82ac7415decd677a04bcf9b
+Description-pt: Emulador rápido do ZX Spectrum 48k para o X11
+ xspect é a versão X11 do Spectemu o qual emula o ZX Spectrum 48k, que usa
+ o microprocessador Z80.
+ .
+ Emula o processador Z80 assim como o outro hardware do Spectrum 48k:
+ teclado, écran, som, fita I/O. A emulação é muito próxima do real, mas
+ mesmo assim é bastante rápido (Foi reportado funcionar bem num portátil
+ com 486 a 25MHz!). Por outro lado, a interface de utilizador não é das
+ melhores.
+ .
+ Features include:
+    - Sound support through Linux kernel sound-card driver.
+    - Snapshot saving and loading (.Z80 and .SNA format)
+    - Tape emulation: loading from tape files (.TAP and .TZX format)
+    - Optional quick loading of tapes.
+    - Saving to tape files.
+    - Separate utility to save tape files to real tape
+    - Configurable with config files and from command line
+
+
+Package: tiemu
+Description-md5: 1102e21f878c7b4ba0911b7e6e5634f0
+Description-pt: Emulador das calculadoras Texas Instruments (sem GDB)
+ TiEmu emula calculadoras Texas Instruments TI-89/92/92+/V200PLT.
+ .
+ É baseado no XTiger, o emulador TI original para Linux, o qual usa o
+ núcleo de emulação 68k do UAE (O Ultimate Amiga Emulator).
+ .
+ Você precisa; ou de despejar a ROM da sua calculadora (pode fazê-lo com o
+ TiLP), ou obter um upgrade de FLASH da Texas Instrument (veja a secção de
+ software respeitante à sua calculadora, depois descarregue o arquivo e
+ extraia o ficheiro) para usar este emulador. *Não* há nenhuma ROM TI
+ disponibilizada por este pacote, porque elas têm copyright da Texas
+ Instruments, Inc.
+ .
+ No entanto, uma ROM livre (referindo livre discurso) é agora
+ disponibilizada com o TiEmu, chamada PedRom. Experimente-a!
+ .
+ Esta versão inclui um depurador de assemblagem estilo VTI.
+ .
+ Por favor note que existe outra versão (tiemu-gdb) não disponibilizada na
+ própria Debian que inclui um depurador de assemblagem estilo GDB para usar
+ com TIGCC e/ou KTIGCC.
+
+Package: tightvnc-java
+Description-md5: 40a38acc917ddb191772cd544459f689
+Description-pt: aplicativo java do TightVNC e programa de linha de comandos
+ VNC significa Virtual Network Computing. É essencialmente um sistema de
+ écran remoto que lhe permite visualizar um ambiente de trabalho não apenas
+ da máquina onde está a correr, mas de qualquer localização na Internet e
+ de uma grande variedade de arquitecturas de máquinas.
+ .
+ This is the vnc java applet file that the tightvncserver can distribute to
+ the client. In addition a command line program that starts the java based
+ vnc viewer locally is included.
+
+Package: uqm
+Description-md5: d1146c2aa42142ead5a25d96122ee383
+Description-pt: The Ur-Quan Masters - An inter-galactic adventure game
+ Você regressa à Terra com uma nave construída a partir de tecnologia
+ descoberta de uma raça anciã camada de Precursors apenas para descobrir
+ que a Terra foi escravizada. Junte aliados de uma vasta variedade de
+ raças, envolva-se em combates espaciais com vários inimigos, e salve a
+ galáxia dos Ur-Quan!
+ .
+ O Ur-Quan Masters é derivado do jogo clássico Star Control II. Inclui
+ ambos, o jogo de aventura descrita em cima e um Super Melee de velocidade
+ acelerada.
+
+Package: uqm-content
+Description-md5: d7f7f708308d54e508318be3eb7c3bcf
+Description-pt: The Ur-Quan Masters - Game data files
+ Você regressa à Terra com uma nave construída a partir de tecnologia
+ descoberta de uma raça anciã camada de Precursors apenas para descobrir
+ que a Terra foi escravizada. Junte aliados de uma vasta variedade de
+ raças, envolva-se em combates espaciais com vários inimigos, e salve a
+ galáxia dos Ur-Quan!
+ .
+ This package contains all the game data files for The Ur-Quan Masters.
+
+Package: uqm-music
+Description-md5: e30a0c3c7725aff364033433f48e819a
+Description-pt: The Ur-Quan Masters - Game music files
+ Você regressa à Terra com uma nave construída a partir de tecnologia
+ descoberta de uma raça anciã camada de Precursors apenas para descobrir
+ que a Terra foi escravizada. Junte aliados de uma vasta variedade de
+ raças, envolva-se em combates espaciais com vários inimigos, e salve a
+ galáxia dos Ur-Quan!
+ .
+ This package contains higher quality game music files for The Ur-Quan
+ Masters, in ogg vorbis format. If you don't install this package, the game
+ will use lower-quality mod music files.
+
+Package: uqm-russian
+Description-md5: 267ce4366adc55d3942d0f2c8c1c723a
+Description-pt: Russian addon for 'The Ur-Quan Masters' game
+ Você regressa à Terra com uma nave construída a partir de tecnologia
+ descoberta de uma raça anciã camada de Precursors apenas para descobrir
+ que a Terra foi escravizada. Junte aliados de uma vasta variedade de
+ raças, envolva-se em combates espaciais com vários inimigos, e salve a
+ galáxia dos Ur-Quan!
+ .
+ O Ur-Quan Masters é derivado do jogo clássico Star Control II. Inclui
+ ambos, o jogo de aventura descrita em cima e um Super Melee de velocidade
+ acelerada.
+ .
+ This package provides Russian menus and dialogs for the game.
+
+Package: uqm-voice
+Description-md5: 97d3042297f40db281c3216b6096a25e
+Description-pt: The Ur-Quan Masters - Voice files
+ Você regressa à Terra com uma nave construída a partir de tecnologia
+ descoberta de uma raça anciã camada de Precursors apenas para descobrir
+ que a Terra foi escravizada. Junte aliados de uma vasta variedade de
+ raças, envolva-se em combates espaciais com vários inimigos, e salve a
+ galáxia dos Ur-Quan!
+ .
+ This package contains all the voice recordings used in the game. Note that
+ it is over 100Mb! You can play the game without these files if the package
+ is too big.
+
+Package: virtualbox
+Description-md5: 30f96d22c1a6ca04db16bdc1e79ad965
+Description-pt: Solução de virtualização x86 - binários base
+ O VirtualBox é uma solução livre de virtualização x86 que permite a um
+ grande leque de sistemas operativos x86 como Windows, DOS, BSD ou Linux
+ correr um sistema Linux.
+ .
+ Este pacote fornece os binários para o VirtualBox. É necessário ter ou o
+ pacote virtualbox-dkms ou o pacote virtualbox-source para compilar os
+ módulos do kernel necessários para o virtualbox. Há uma interface gráfica
+ para o VirtualBox no pacote virtualbox-qt.
+
+Package: virtualbox-dkms
+Description-md5: 4d42f0fe51c4a92f2aed5071f84524ae
+Description-pt: x86 virtualization solution - kernel module sources for dkms
+ O VirtualBox é uma solução livre de virtualização x86 que permite a um
+ grande leque de sistemas operativos x86 como Windows, DOS, BSD ou Linux
+ correr um sistema Linux.
+ .
+ This package provides the source code for the virtualbox kernel module to
+ be build with dkms. Kernel sources or headers are required to compile this
+ module.
+
+Package: virtualbox-guest-additions-iso
+Description-md5: 11a9eaac064138ec238f7c2ee4c018df
+Description-pt: guest additions iso image for VirtualBox
+ O VirtualBox é uma solução livre de virtualização x86 que permite a um
+ grande leque de sistemas operativos x86 como Windows, DOS, BSD ou Linux
+ correr um sistema Linux.
+ .
+ This package provides an iso image which contains the guest additions for
+ Linux, Solaris and Windows to be installed on the host system. The guest
+ systems then can mount the iso and install the guest additions from there.
+
+Package: virtualbox-guest-utils
+Description-md5: 0c420aa026ad03a572b15c6e38dbebf7
+Description-pt: x86 virtualization solution - non-X11 guest utilities
+ O VirtualBox é uma solução livre de virtualização x86 que permite a um
+ grande leque de sistemas operativos x86 como Windows, DOS, BSD ou Linux
+ correr um sistema Linux.
+ .
+ This package provides the non-X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine. They provide
+ closer integration and allow to share data through shared folders between
+ the host system and the virtual machine.
+
+Package: virtualbox-guest-utils-hwe
+Description-md5: 0c420aa026ad03a572b15c6e38dbebf7
+Description-pt: x86 virtualization solution - non-X11 guest utilities
+ O VirtualBox é uma solução livre de virtualização x86 que permite a um
+ grande leque de sistemas operativos x86 como Windows, DOS, BSD ou Linux
+ correr um sistema Linux.
+ .
+ This package provides the non-X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine. They provide
+ closer integration and allow to share data through shared folders between
+ the host system and the virtual machine.
+
+Package: virtualbox-guest-x11
+Description-md5: 3487afde0b114ec7e205b11f1dd3f7a5
+Description-pt: x86 virtualization solution - X11 guest utilities
+ O VirtualBox é uma solução livre de virtualização x86 que permite a um
+ grande leque de sistemas operativos x86 como Windows, DOS, BSD ou Linux
+ correr um sistema Linux.
+ .
+ This package provides the X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine. They provide
+ closer integration and improve the interactive performance.
+
+Package: virtualbox-guest-x11-hwe
+Description-md5: 3487afde0b114ec7e205b11f1dd3f7a5
+Description-pt: x86 virtualization solution - X11 guest utilities
+ O VirtualBox é uma solução livre de virtualização x86 que permite a um
+ grande leque de sistemas operativos x86 como Windows, DOS, BSD ou Linux
+ correr um sistema Linux.
+ .
+ This package provides the X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine. They provide
+ closer integration and improve the interactive performance.
+
+Package: virtualbox-qt
+Description-md5: 41ed29f36ba23b3ce0155f9a8efcff60
+Description-pt: x86 virtualization solution - Qt based user interface
+ O VirtualBox é uma solução livre de virtualização x86 que permite a um
+ grande leque de sistemas operativos x86 como Windows, DOS, BSD ou Linux
+ correr um sistema Linux.
+ .
+ This package provides the Qt based graphical user interface for
+ VirtualBox.
+
+Package: virtualbox-source
+Description-md5: 53035ede584988f3413156cb7a5dbe8b
+Description-pt: x86 virtualization solution - kernel module source
+ O VirtualBox é uma solução livre de virtualização x86 que permite a um
+ grande leque de sistemas operativos x86 como Windows, DOS, BSD ou Linux
+ correr um sistema Linux.
+ .
+ This package provides the source code for the virtualbox kernel module.
+ The virtualbox package is also required in order to make use of these
+ modules. Kernel sources or headers are required to compile this module.
+ .
+ The source is placed under /usr/src, and after decompression it can be
+ built to produce a virtualbox-modules-_KVERS_ providing "virtualbox-
+ modules" package.
+

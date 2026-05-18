@@ -1,0 +1,308 @@
+Package: alex4
+Description-md5: 3566f87583f865118de0e26a364d6511
+Description-sk: Alex the Allegator 4 - retro plošinovka
+ Preveďte aligátora Alexa džungľou, aby zachránil svoju priateľku Lolu od
+ zlých ľudí, ktorí si z nej chcú urobiť pár topánok. Zaručená dávka
+ plošinovkovej akcie v štyroch pekných farbách!
+ .
+ Hra obsahuje vstavaný editor, takže môžete navrhovať a zdieľať svoje
+ vlastné mapy.
+
+Package: alien-arena
+Description-md5: de2b3d0db5845c79b22ffc0c38842f1b
+Description-sk: samostatná 3D strieľačka z pohľadu prvej osoby s online deathmatch
+ ALIEN ARENA is a standalone 3D first person online death-match shooter
+ crafted from the original source code of Quake II and Quake III, released
+ by id Software under the GPL license. With features including 32-bit
+ graphics, a new particle engine and effects, light blooms, reflective
+ water, hi-resolution textures and skins, and hi-poly models and stain
+ maps, ALIEN ARENA pushes the envelope of graphical beauty rivaling today's
+ top games.
+ .
+ Tento balík nainštaluje SDL klienta Alien Arena.
+
+Package: assaultcube
+Description-md5: 7576f391baa8701ed9ad64162252916a
+Description-sk: realistická strieľačka z pohľadu prvej osoby
+ AssaultCube, formerly ActionCube, is a first-person-shooter based on the
+ game Cube.
+ .
+ Set in a realistic looking environment, as far as that's possible with
+ this engine, while gameplay stays fast and arcade. This game is all about
+ team oriented multiplayer fun.
+ .
+ The game data required to play this game will be downloaded automatically
+ when this package is installed.
+
+Package: clustalx
+Description-md5: a79728f91dcfed21b62f89dea1743319
+Description-sk: balík na viacnásobné zarovnávanie sekvencií nukleových kyselín a bielkovín - grafické rozhranie
+ Tento balík ponúka grafické používateľské rozhranie k programu Clustal
+ Multiple Sequence Alignment (MSA). Poskytuje integrované prostredie na
+ viacnásobné zarovnávanie sekvencií a profilov na analyzovanie výsledkov.
+ Zarovnanie sekvencií sa zobrazuje v okne na obrazovke. Všestranná schéma
+ farieb zvýrazňuje zachované rysy zarovnania. Na profesionálnu prezentáciu
+ by ste mali použiť balíky LaTeXu texshade alebo boxshade.
+ .
+ Roletové menu v hornej časti okna vám umožňujú zvoliť všetky voľby
+ potrebné pre tradičné viacnásobné zarovnávanie sekvencií a profilov .
+ Môžete vkladať sekvencie, aby ste zmenili poradie zarovnania. Môžete
+ vybrať podmnožinu sekvencií, ktoré chcete zarovnať. Môžete vybrať
+ podrozsah zarovnania, ktorý chcete znovu zarovnať a vložiť späť do
+ pôvodného zarovnania.
+ .
+ Môžete vykonať analýzu kvality zarovnania a zvýrazniť úseky s nízkym
+ počtom bodov alebo výnimočné rezíduá.
+
+Package: devede
+Description-md5: a80b48eb4e84ed4081919926d540e84b
+Description-sk: jednoduchá aplikácia na tvorbu Video DVD
+ DeVeDe is a program to create video DVDs, suitable for home players, from
+ any number of video files, in any of the formats supported by Mplayer.
+ .
+ It allows the user to create subtitles and even menus.
+
+Package: exult
+Description-md5: 9c39d06a3da0bc0cfd896163aa1493f5
+Description-sk: engine pre Ultimu VII (BG, FOV, SI, SS)
+ Exult je open source engine pre hranie Ultimy VII na roznych operačných
+ systémoch a prostrediach. Black Gate (vrátane Forge of Virtune) a Serpent
+ Isle (plus Silver Seed) sú oba hratelné až do konca. Zopár rozdielov
+ oproti originálnej hre existuje; pozri sekcie 5.3/5.4 na FAQ.
+ .
+ Hoci je možné použiť engine na ďalšie hry, žiadna ďalšia hra zatiaľ nebola
+ napísaná. Preto, Exult je zbytočný pokiaľ vlastníte jednu z kópií Ultimy
+ VII.
+
+Package: gstreamer1.0-fdkaac
+Description-md5: 8a6ba7d84515005d9fd880d33f218f45
+Description-sk: GStreamer FDK AAC plugins
+ GStreamer je platforma na streamovanie multimédií založená na grafoch
+ filtrov, ktoré pracujú s dátami multimédií. Aplikácie používajúce túto
+ knižnicu môžu robiť čokoľvek súvisiace s multimédiami od spracovania zvuku
+ v reálnom čase po prehrávanie videa. Jeho architektúra založená na
+ zásuvných moduloch umožňuje ľahké pridávanie nových údajových typov alebo
+ možností spracovania jednoduchou inštaláciou modulu.
+ .
+ Sada zásuvných modulov „bad“ obsahuje moduly, ktoré nedosahujú kvalít
+ ostatných. Môžu byť blízko dobrej kvality, ale niečo im chýba - či už
+ dobrá kontrola kódu, dokumentácia, sada testov, aktívny správca alebo
+ široké použitie.
+ .
+ This package contains the FDK AAC plugins.
+
+Package: kubuntu-restricted-addons
+Description-md5: d1762d094551b6ebca85a1049fc60dc1
+Description-sk: bežne používané obmedzené balíky pre Kubuntu
+ This package depends on some commonly used packages in the Kubuntu
+ universe and multiverse repositories.
+ .
+ You should not install this package directly, but instead install the
+ kubuntu-restricted-extras package.
+
+Package: p7zip-rar
+Description-md5: db884766fbb0af653ae84909ccef976a
+Description-sk: prechodový balík
+ Toto je prechodový balík. Je bezpečné odstrániť ho.
+
+Package: playonlinux
+Description-md5: 729a863a5c2d8eb304d4e8e17ffbeafe
+Description-sk: rozhranie pre Wine
+ PlayOnLinux is a front-end for wine. It permits you to easily install
+ Windows Games and software on Linux. It is advised to have a functional
+ internet connection.
+
+Package: qcomicbook
+Description-md5: 5e1e59ae80d5250683bcf393eda201bc
+Description-sk: QT prehliadač archívov komiksov (cbr/cbz/cba/cbg/cbb)
+ QComicBook je prehliadač archívov komiksov, obsahujúcich obrázky jpeg/png,
+ čo je výhodné na ich pohodlné a jednoduché prezeranie. Medzi jeho
+ vlastnosti patrí: automatická dekompresia, režim na celú obrazovku, zmena
+ mierky strany, navigácia myšou i klávesnicou a pod.
+ .
+ QComicBook teraz podporuje archívy:
+  * cbr - komprimácia rar
+  * cbz - komprimácia zip
+  * cba - komprimácia ace
+  * cbg - komprimácia tar.gzip
+  * cbb - komprimácia tar.bzip2
+
+
+Package: rar
+Description-md5: 649b872741c4c5402456879832c70c03
+Description-sk: archivátor súborov .rar
+ This is the RAR archiver from Eugene Roshal. It supports multiple volume
+ archives and damage protection. It can also create SFX-archives. There are
+ versions which run on DOS, Windows, FreeBSD, BSDI.
+ .
+ Tento program je shareware musíte si ho zaregistrovať po 40 dňoch
+ používania.
+
+Package: rott
+Description-md5: 33b73fa3a3248365bd54091b7dbb5f4d
+Description-sk: SDL-Port of Rise of the Triad
+ Rise of the Triad je kvalitná, rýchla akčná 3D strieľačka z pohľady prvej
+ osoby. Obsahuje množstvo deštruktívnych nepriateľov, arzenál zbraní od
+ jednoduchých pištolí po raketomety, brnenie ochraňujúce život a množstvo
+ pascí a útokov zo zálohy.
+ .
+ UPOZORNENIE: Rise of the Triad obsahuje svojvoľné a bezdôvodné násilie.
+ .
+ This package contains no data files: use `game-data-packager' to generate
+ a suitable data package from the publicly available "Rise of the Triad:
+ The HUNT Begins" shareware episode.
+
+Package: seaview
+Description-md5: a82e7d5dbc9d5aa2cf6662e48d7aa245
+Description-sk: multiplatformné rozhranie na zarovnanie sekvencií a fylogenetiku
+ SeaView is a viewer and editor of multiple sequence alignments, i.e. DNA
+ or protein sequences are positioned each in their own separate line, such
+ that the nucleotide/amino acid at a particular position (column) is
+ presumed to have the same biochemical property.
+ .
+ SeaView reads and writes various file formats (NEXUS, MSF, CLUSTAL, FASTA,
+ PHYLIP, MASE, Newick) of DNA and protein sequences and of phylogenetic
+ trees. Alignments can be manually edited. It drives the programs Muscle or
+ Clustal Omega for multiple sequence alignment, and also allows one to use
+ any external alignment algorithm able to read and write FASTA-formatted
+ files. It computes phylogenetic trees by parsimony using PHYLIP's
+ dnapars/protpars algorithm, by distance with NJ or BioNJ algorithms on a
+ variety of evolutionary distances, or by maximum likelihood using the
+ program PhyML 3.0.
+ .
+ SeaView draws phylogenetic trees on screen or PostScript files, and allows
+ one to download sequences from EMBL/GenBank/UniProt using the Internet.
+
+Package: ubuntu-restricted-addons
+Description-md5: 1a61890ad8e3fb16727ca6a6b66aacbf
+Description-sk: bežne používané obmedzené balíky pre Ubuntu
+ This package depends on some commonly used packages in the Ubuntu universe
+ and multiverse repositories.
+
+Package: unrar
+Description-md5: 363f696bb115028ffafb265ccc9f32fb
+Description-sk: rozbaľovač súborov .rar - neslobodná verzia
+ Unrar can extract files from .rar archives. If you want to create .rar
+ archives, install package rar.
+
+Package: vice
+Description-md5: 08c1a2e701ce8fd760ff934904ea4135
+Description-sk: Versatile Commodore Emulator
+ VICE dobre emuluje hardvér Commodore Business Machines z éry pred Amigou.
+ Podporuje rôzne Pets, VIC-20, Commodore 64, Commodore 128, sériu CBM-II, a
+ PLUS/4.
+ .
+ Some alternate keywords for the above: VIC20, C64, C=64, C64 DTV, C128,
+ C=128, CBM-500, CBM-600, CBM-700, PLUS4 .
+ .
+ Tento balík neobsahuje rozličné obrazy ROM potrebné na vlastné použitie
+ emulátorov, tie sú dostupné samostatne z iných miest (pozri súbor
+ README.ROMs) Spoločnosť v Holandsku zvaná Tulip drží autorské práva k
+ týmto obrazom a šírenie nie je povolené, ale samotný VICE tým nie je
+ zaťažený.
+
+Package: virtualbox
+Description-md5: 30f96d22c1a6ca04db16bdc1e79ad965
+Description-sk: riešenie na virtualizáciu x86 - základné binárne súbory
+ VirtualBox je slobodné riešenie na virtualizáciu x86 umožňujúce
+ prevádzkovať na linuxovom systéme široké spektrum operačných systémov pre
+ x86 ako Windows, DOS, BSD alebo Linux.
+ .
+ Tento balík poskytuje binárne súbory VirtualBox. Na kompiláciu modulov
+ jadra potrebných pre virtualbox je tiež potrebný buď balík virtualbox-dkms
+ alebo virtualbox-source. Grafické používateľské rozhranie pre VirtualBox
+ poskytuje balík virtualbox-qt.
+
+Package: virtualbox-dkms
+Description-md5: 4d42f0fe51c4a92f2aed5071f84524ae
+Description-sk: x86 virtualization solution - kernel module sources for dkms
+ VirtualBox je slobodné riešenie na virtualizáciu x86 umožňujúce
+ prevádzkovať na linuxovom systéme široké spektrum operačných systémov pre
+ x86 ako Windows, DOS, BSD alebo Linux.
+ .
+ This package provides the source code for the virtualbox kernel module to
+ be build with dkms. Kernel sources or headers are required to compile this
+ module.
+
+Package: virtualbox-guest-additions-iso
+Description-md5: 11a9eaac064138ec238f7c2ee4c018df
+Description-sk: guest additions iso image for VirtualBox
+ VirtualBox je slobodné riešenie na virtualizáciu x86 umožňujúce
+ prevádzkovať na linuxovom systéme široké spektrum operačných systémov pre
+ x86 ako Windows, DOS, BSD alebo Linux.
+ .
+ This package provides an iso image which contains the guest additions for
+ Linux, Solaris and Windows to be installed on the host system. The guest
+ systems then can mount the iso and install the guest additions from there.
+
+Package: virtualbox-guest-utils
+Description-md5: 0c420aa026ad03a572b15c6e38dbebf7
+Description-sk: x86 virtualization solution - non-X11 guest utilities
+ VirtualBox je slobodné riešenie na virtualizáciu x86 umožňujúce
+ prevádzkovať na linuxovom systéme široké spektrum operačných systémov pre
+ x86 ako Windows, DOS, BSD alebo Linux.
+ .
+ This package provides the non-X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine. They provide
+ closer integration and allow to share data through shared folders between
+ the host system and the virtual machine.
+
+Package: virtualbox-guest-utils-hwe
+Description-md5: 0c420aa026ad03a572b15c6e38dbebf7
+Description-sk: x86 virtualization solution - non-X11 guest utilities
+ VirtualBox je slobodné riešenie na virtualizáciu x86 umožňujúce
+ prevádzkovať na linuxovom systéme široké spektrum operačných systémov pre
+ x86 ako Windows, DOS, BSD alebo Linux.
+ .
+ This package provides the non-X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine. They provide
+ closer integration and allow to share data through shared folders between
+ the host system and the virtual machine.
+
+Package: virtualbox-guest-x11
+Description-md5: 3487afde0b114ec7e205b11f1dd3f7a5
+Description-sk: x86 virtualization solution - X11 guest utilities
+ VirtualBox je slobodné riešenie na virtualizáciu x86 umožňujúce
+ prevádzkovať na linuxovom systéme široké spektrum operačných systémov pre
+ x86 ako Windows, DOS, BSD alebo Linux.
+ .
+ This package provides the X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine. They provide
+ closer integration and improve the interactive performance.
+
+Package: virtualbox-guest-x11-hwe
+Description-md5: 3487afde0b114ec7e205b11f1dd3f7a5
+Description-sk: x86 virtualization solution - X11 guest utilities
+ VirtualBox je slobodné riešenie na virtualizáciu x86 umožňujúce
+ prevádzkovať na linuxovom systéme široké spektrum operačných systémov pre
+ x86 ako Windows, DOS, BSD alebo Linux.
+ .
+ This package provides the X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine. They provide
+ closer integration and improve the interactive performance.
+
+Package: virtualbox-qt
+Description-md5: 41ed29f36ba23b3ce0155f9a8efcff60
+Description-sk: x86 virtualization solution - Qt based user interface
+ VirtualBox je slobodné riešenie na virtualizáciu x86 umožňujúce
+ prevádzkovať na linuxovom systéme široké spektrum operačných systémov pre
+ x86 ako Windows, DOS, BSD alebo Linux.
+ .
+ This package provides the Qt based graphical user interface for
+ VirtualBox.
+
+Package: virtualbox-source
+Description-md5: 53035ede584988f3413156cb7a5dbe8b
+Description-sk: x86 virtualization solution - kernel module source
+ VirtualBox je slobodné riešenie na virtualizáciu x86 umožňujúce
+ prevádzkovať na linuxovom systéme široké spektrum operačných systémov pre
+ x86 ako Windows, DOS, BSD alebo Linux.
+ .
+ This package provides the source code for the virtualbox kernel module.
+ The virtualbox package is also required in order to make use of these
+ modules. Kernel sources or headers are required to compile this module.
+ .
+ The source is placed under /usr/src, and after decompression it can be
+ built to produce a virtualbox-modules-_KVERS_ providing "virtualbox-
+ modules" package.
+

@@ -1,0 +1,433 @@
+Package: 0ad-data
+Description-md5: 26581e685027d5ae84824362a4ba59ee
+Description-bg: Стратегическа игра в реално време за древни войни (файлове с данни)
+ 0 A.D. (pronounced "zero ey-dee") is a free, open-source, cross-platform
+ real-time strategy (RTS) game of ancient warfare. In short, it is a
+ historically-based war/economy game that allows players to relive or
+ rewrite the history of Western civilizations, focusing on the years
+ between 500 B.C. and 500 A.D. The project is highly ambitious, involving
+ state-of-the-art 3D graphics, detailed artwork, sound, and a flexible and
+ powerful custom-built game engine.
+ .
+ Този пакет съдържа основните файлове с данни, изисквани от 0 A.D.
+
+Package: 0ad-data-common
+Description-md5: 8d014b839c4c4e9b6f82c7512d7e3496
+Description-bg: Стратегическа игра в реално време за древни войни (общи файлове с данни)
+ 0 A.D. (pronounced "zero ey-dee") is a free, open-source, cross-platform
+ real-time strategy (RTS) game of ancient warfare. In short, it is a
+ historically-based war/economy game that allows players to relive or
+ rewrite the history of Western civilizations, focusing on the years
+ between 500 B.C. and 500 A.D. The project is highly ambitious, involving
+ state-of-the-art 3D graphics, detailed artwork, sound, and a flexible and
+ powerful custom-built game engine.
+ .
+ Този пакет съдържа файловете с данни (конфигурация и инструменти),
+ изисквани от 0 A.D.
+
+Package: 3270-common
+Description-md5: a1fad8fe7f911b2c01164ff75d013e53
+Description-bg: Файлове, необходими за емулиране на IBM 3270 и pr3287
+ 3270-common съдържа файлове, необходими в други 3270 пакета
+
+Package: 389-ds
+Description-md5: 72b0f037b5c7bab3e3a681a127817467
+Description-bg: 389 Directory Server — метапакет
+ Based on the Lightweight Directory Access Protocol (LDAP), the 389
+ Directory Server is designed to manage large directories of users and
+ resources robustly and scalably.
+ .
+ This is a metapackage depending on the LDAPv3 server and a Cockpit UI
+ plugin for administration.
+
+Package: 389-ds-base
+Description-md5: 9c56eb26e44476f95f66b09921fcbf22
+Description-bg: 389 Directory Server — сървър
+ Based on the Lightweight Directory Access Protocol (LDAP), the 389
+ Directory Server is designed to manage large directories of users and
+ resources robustly and scalably.
+ .
+ Its key features include:
+  * four-way multi-master replication;
+  * great scalability;
+  * extensive documentation;
+  * Active Directory user and group synchronization;
+  * secure authentication and transport;
+  * support for LDAPv3;
+  * graphical management console;
+  * on-line, zero downtime update of schema, configuration, and
+    in-tree Access Control Information.
+
+
+Package: 389-ds-base-libs
+Description-md5: d2ef365214ac1295f734f49594c9b579
+Description-bg: 389 Directory Server — библиотеки
+ Based on the Lightweight Directory Access Protocol (LDAP), the 389
+ Directory Server is designed to manage large directories of users and
+ resources robustly and scalably.
+ .
+ Този пакет съдържа основните библиотеки за 389 Directory Server.
+
+Package: 3dchess
+Description-md5: 12d01b96d7645ee302ebc29cde999e92
+Description-bg: Игра на шах едновременно на три дъски!
+ There are three boards, stacked vertically; 96 pieces of which most are
+ the traditional chess pieces with just a couple of additions; 26 possible
+ directions in which to move. Provides a challenging enough game to all but
+ the most highly skilled players.
+
+Package: 6tunnel
+Description-md5: 860002e3477a2706be336a14451bba8e
+Description-bg: TCP-прокси за програми без IPv6 поддръжка
+ 6tunnel ви позволява да използвате услуги, предоставяни от IPv6 хостове,
+ заедно с програми, поддържащи само IPv4 и обратно. Програмата може да се
+ свърже с всеки ваш IPv4 или IPv6 адрес и да препраща данните на IPv4 или
+ IPv6 хост.
+ .
+ Tunnelling for application that don't speak IPv6. It can be used for
+ example as an IPv6-capable IRC proxy in other network.
+
+Package: a2ps
+Description-md5: 732bd45324c6fce1aa914b7b0167c68a
+Description-bg: GNU a2ps - 'Anything to PostScript' converter and pretty-printer
+ GNU a2ps превръща файлове в PostScript с цел разпечатка или разглеждане.
+ Използва стандартен формат, обикновено две страници върху една, полета
+ около страниците, заглавки с полезна информация (номер на страницата, дата
+ на отпечатване, име на файла или друга приложена заглавка), номера на
+ страниците, замяна на символи, както и оцветяване за редица програмни
+ езици.
+ .
+ Historically, a2ps started as a text to PostScript converter, but thanks
+ to powerful delegations it is able to let you use it for any kind of
+ files, ie it can also digest manual pages, dvi files, texinfo, ....
+ .
+ Among the other most noticeable features of a2ps are:
+  - various encodings (all the Latins and others),
+  - various fonts (automatic font downloading),
+  - various medias,
+  - various printer interfaces,
+  - various output styles,
+  - various programming languages,
+  - various helping applications,
+  - and various spoken languages.
+
+
+Package: abcmidi
+Description-md5: 698e90e5569ad6cf07f3d57abc0b5f7a
+Description-bg: преобразувател от ABC в MIDI формат и обратно
+ This package contains the programs `abc2midi' and `midi2abc',  which
+ convert from the abc musical notation format to standard MIDI format and
+ vice-versa. They can generate accompaniment from guitar chords in the abc
+ file, as well as insert various MIDI events; the MIDI-to-abc translation
+ tries to figure out bars, triplets and accidentals on its own.
+ .
+ The package also contains `abc2abc' (an abc prettyprinter/transposer),
+ `mftext' (a program that dumps a MIDI file as text), and `midicopy' (a
+ program that extracts specific tracks, channels or time intervals from a
+ MIDI file).
+ .
+ The package also contains Yet another ABC to PostScript converter (yaps)
+ which translates tunes written in the ABC format to PostScript, which can
+ then be viewed on screen or printed. It is essentially a (non-exclusive)
+ alternative to abc2ps, being based on the abc2ps PostScript code together
+ with the ABC parser from the abcmidi package.
+
+Package: libvlc-bin
+Description-md5: 06cd16e155538e2ee49a354477f87189
+Description-bg: tools for VLC's base library
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This package contains the vlc-cache-gen binary.
+
+Package: libvlc-dev
+Description-md5: 12dd7b707396cd811cd0c9fd70dd8122
+Description-bg: development files for libvlc
+ This package contains headers and a static library required to build
+ standalone applications that use VLC features.
+ .
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+
+Package: libvlc5
+Description-md5: aa50eb20ebe126a4c5f468a6be6f8f8d
+Description-bg: multimedia player and streamer library
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This package contains the shared library required by applications using
+ VLC features.
+
+Package: libvlccore-dev
+Description-md5: 2a56521a556c4ea31988a96ec2901955
+Description-bg: development files for libvlccore
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This package contains headers and a static library required to build
+ plugins for VLC.
+
+Package: libvlccore9
+Description-md5: c0a034effd010ff692cde9da58320cb4
+Description-bg: base library for VLC and its modules
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This package contains the shared library required by VLC modules and
+ libvlc.
+
+Package: vim-snipmate
+Description-md5: b32d99279c72a1dbfce80f206863cd65
+Description-bg: Vim script that implements some of TextMate's snippets features.
+ SnipMate.vim aims to be an unobtrusive, concise vim script that implements
+ some of TextMate's snippets features in Vim. A snippet is a piece of
+ often-typed text that you can insert into your document using a trigger
+ word followed by a <tab>.
+ .
+ For instance, in a C file using the default installation of snipMate.vim,
+ if you type "for<tab>" in insert mode, it will expand a typical for loop
+ in C:
+ .
+ for (i = 0; i < count; i++) {
+ .
+ Project-Id-Version: ddtp-ubuntu
+ Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>
+ PO-Revision-Date: 2024-04-23 08:50+0000
+ Last-Translator: FULL NAME <EMAIL@ADDRESS>
+ Language-Team: Bulgarian <bg@li.org>
+ MIME-Version: 1.0
+ Content-Type: text/plain; charset=UTF-8
+ Content-Transfer-Encoding: 8bit
+ X-Launchpad-Export-Date: 2024-04-23 19:31+0000
+ X-Generator: Launchpad (build 67d34a19aaa1df7be4dd8bf498cbc5bbd785067b)
+ .
+ To go to the next item in the loop, simply <tab> over to it; if there is
+ repeated code, such as the "i" variable in this example, you can simply
+ start typing once it's highlighted and all the matches specified in the
+ snippet will be updated.
+ .
+ snipMate.vim has the following features among others:
+ .
+  - The syntax of snippets is very similar to TextMate's, allowing easy
+    conversion.
+  - The position of the snippet is kept transparently (i.e., it does not use
+    marks/placeholders inserted into the buffer), allowing you to escape out
+    of an incomplete snippet, something particularly useful in Vim.
+  - Variables in snippets are updated as-you-type.
+  - Snippets can have multiple matches.
+  - Snippets can be out of order. For instance, in a do...while loop, the
+    condition can be added before the code.
+
+
+Package: vkeybd
+Description-md5: 0d2d394ff06dcef1fd62dcb0f7ece48a
+Description-bg: Виртуална клавиатура MIDI
+ Програмата използва Linux драйвера AWE32, OSS MIDI синтезатор или ALSA
+ MIDI синтезатор и предоставя виртуална клавиатура (музикална), на която
+ може да се "играе" с помощта на клавиатурата или мишката.
+
+Package: vlc
+Description-md5: d96da6b991aa50928533b16fb11b3136
+Description-bg: multimedia player and streamer
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ VLC can also be used as a streaming server that duplicates the stream it
+ reads and multicasts them through the network to other clients, or serves
+ them through HTTP.
+ .
+ VLC has support for on-the-fly transcoding of audio and video formats, either for broadcasting purposes or for movie format transformations. Support for most output methods is provided by this package, but features can be added by installing additional plugins:
+  * vlc-plugin-access-extra
+  * vlc-plugin-fluidsynth
+  * vlc-plugin-jack
+  * vlc-plugin-notify
+  * vlc-plugin-samba
+  * vlc-plugin-skins2
+  * vlc-plugin-svg
+  * vlc-plugin-video-splitter
+  * vlc-plugin-visualization
+
+
+Package: vlc-bin
+Description-md5: 95daedaad0e0f925e24501938e2ec38b
+Description-bg: binaries from VLC
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This package contains the VLC's binaries.
+
+Package: vlc-data
+Description-md5: ba0fd1de1b53a2231022b0fff46b7280
+Description-bg: common data for VLC
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This package contains HTTP interface files, and Lua scripts for VLC media
+ player.
+
+Package: vlc-l10n
+Description-md5: d5f59a6e5491d82c57f09523ce6360ec
+Description-bg: translations for VLC
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This package contains localisations for VLC media player.
+
+Package: vlc-plugin-access-extra
+Description-md5: eaf30470cf6ffebe05b13b2d1afe473a
+Description-bg: multimedia player and streamer (extra access plugins)
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This package contains additional access plugins.
+
+Package: vlc-plugin-base
+Description-md5: 103cb021db8e172eaddc03ab0f07e203
+Description-bg: multimedia player and streamer (base plugins)
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This package contains most plugins which are shipped in more specialied
+ plugin packages.
+
+Package: vlc-plugin-fluidsynth
+Description-md5: 987977beb56246deecee22dce0cacc10
+Description-bg: FluidSynth плъгин за VLC
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ Този плъгин добавя поддръжка за възпроизвеждане на MIDI файлове чрез
+ софтуерен синтезатор FluidSynth към медия плейъра VLC.
+
+Package: vlc-plugin-jack
+Description-md5: c4d2077c730fa32d1421efc81f3cd32c
+Description-bg: JACK audio plugins for VLC
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ These plugins add support for JACK to the VLC media player. To activate
+ the audio output module, use the `--aout jack' flag or select the `jack'
+ audio output plugin from the preferences menu. For the jack input, use
+ `vlc jack://channels=...:ports=...'
+
+Package: vlc-plugin-notify
+Description-md5: 41baa12a2792d2ee801f697598ebd183
+Description-bg: LibNotify плъгин за VLC
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This plugin adds support for libnotify track change notification to the
+ VLC media player.
+
+Package: vlc-plugin-pipewire
+Description-md5: 4f96947ef87c4d47795e085f94a6a153
+Description-bg: PipeWire audio plugins for VLC
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This plugin provides seamless integration with PipeWire inside the VLC
+ media player and LibVLC-based applications.
+
+Package: vlc-plugin-qt
+Description-md5: b369abb6f163cfcb1cbc0011ed281468
+Description-bg: multimedia player and streamer (Qt plugin)
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This package contains VLC's Qt interface.
+
+Package: vlc-plugin-samba
+Description-md5: 23d77f3b1665060dfae5f3cef669e2b3
+Description-bg: Samba plugin for VLC
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This plugin adds support to access Samba shares from the VLC media player.
+
+Package: vlc-plugin-skins2
+Description-md5: 9743a8607505f1e6a575e18a62e6e280
+Description-bg: multimedia player and streamer (Skins2 plugin)
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This package contains VLC's Skins2 interface.
+
+Package: vlc-plugin-svg
+Description-md5: 0849a5da981125db8b598c3d38646f16
+Description-bg: SVG плъгин за VLC
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This plugin allows you to render SVG graphics on top of the video. It is a
+ text renderer, and must be activated through the '--text-renderer svg'
+ option. When sent non-SVG data, it will convert it to SVG using a template
+ that can be specified by the svg-template-file option.
+
+Package: vlc-plugin-video-output
+Description-md5: 304efe8a3dcaf595b6085adb45316c41
+Description-bg: multimedia player and streamer (video output plugins)
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This package contains the video output plugins.
+
+Package: vlc-plugin-video-splitter
+Description-md5: 782ab557a4f2909b787f11ea7b8081ae
+Description-bg: multimedia player and streamer (video splitter plugins)
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This package contains the video splitter plugins.
+
+Package: vlc-plugin-visualization
+Description-md5: e6dede36648e266b9d6e6bb8dd2556c8
+Description-bg: multimedia player and streamer (visualization plugins)
+ VLC е медия плеър от VideoLAN проекта. Той поддържа формати като MPEG,
+ MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis
+ files, DVD, VCD и може да възпроизвежда мултимедийни потоци от различни
+ източници в мрежата.
+ .
+ This package contains the visualization plugins.
+

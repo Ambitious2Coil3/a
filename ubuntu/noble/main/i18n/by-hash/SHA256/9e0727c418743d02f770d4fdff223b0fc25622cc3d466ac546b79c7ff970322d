@@ -1,0 +1,2009 @@
+Package: accountsservice
+Description-md5: 8aeed0a03c7cd494f0c4b8d977483d7e
+Description-el: αναζήτηση και επεξεργασία πληροφοριών από λογαριασμούς χρήστων
+ The AccountService project provides a set of D-Bus interfaces for querying
+ and manipulating user account information and an implementation of these
+ interfaces, based on the useradd, usermod and userdel commands.
+
+Package: acct
+Description-md5: 2411ebcaa9bca02b21c19f927d3e1bda
+Description-el: GNU Accounting utilities for process and login accounting
+ Τα Εργαλεία λογιστικής του GNU είναι ένα σύνολο από εργαλεία το οποίο
+ αναφέρει και συνοψίζει πληροφορίες για το χρόνο σύνδεσης των χρηστών και
+ στατιστικά για την εκτέλεση διεργασιών.
+ .
+ Η «Λογιστική εισόδων» παρέχει συνόψεις χρήσης πόρων του συστήματος βάσει
+ χρόνου σύνδεσης, και η «λογιστική διεργασιών» παρέχει συνόψεις βάσει των
+ εντολών που εκτελέστηκαν στο σύστημα.
+ .
+ The 'last' command is provided by the util-linux package and not included
+ here.
+
+Package: acpid
+Description-md5: 6a7c4e4695f570d8fbcaec667cdcfcfe
+Description-el: Δαίμονας για διαχείριση γεγονότων ACPI
+ Οι σύγχρονοι υπολογιστές υποστηρίζουν το πρωτόκολλο Advanced Configuration
+ and Power Interface (ACPI) για έξυπνη διαχείριση του συστήματος σας και
+ για να πάρουν στοιχεία για την μπαταρία και τις ρυθμίσεις του.
+ .
+ Το ACPID είναι ένας πολύ ευέλικτος, πλήρως επεκτάσιμος δαίμονας για την
+ διαχείριση γεγονότων ACPI. Αφουγκράζεται τη διεπαφή netlink (ή στο
+ παρωχημένο αρχείο /proc/acpi/event), και όταν συμβαίνει ένα γεγονός,
+ εκτελεί προγράμματα για να χειριστεί το γεγονός. Τα προγράμματα που
+ εκτελεί ρυθμίζονται από ένα σύνολο αρχείων ρύθμισης, η οποία μπορεί να
+ έχουν τοποθετηθεί από πακέτα ή από το διαχειριστή.
+
+Package: adduser
+Description-md5: a5681e7bad8d90695043c6eab9784701
+Description-el: προσθέστε και αφαιρέστε χρήστες και ομάδες
+ Αυτό το πακέτο περιέχει τις εντολές 'adduser' και 'deluser' για τη
+ δημιουργία και τη διαγραφή χρηστών.
+ .
+  - η 'adduser' δημιουργεί  νέους χρήστες και ομάδες και προσθέτει 
+    υπάρχοντες χρήστες σε υπάρχουσες ομάδες
+  - η 'deluser' διαγράφει χρήστες και ομάδες και αφαιρεί χρήστες
+    από μια συγκεκριμμένη ομάδα.
+ .
+ Adding users with 'adduser' is much easier than adding them manually.
+ 'Adduser' will choose UID and GID values that conform to Debian policy,
+ create a home directory, copy skeletal user configuration, and automate
+ setting initial values for the user's password, real name and so on.
+ .
+ 'Deluser' can back up and remove users' home directories and mail spool or
+ all the files they own on the system.
+ .
+ Ένα αρχείο εντολών μπορεί να εκτελεστεί μετά από κάθε εντολή.
+ .
+ 'Adduser' and 'Deluser' are intended to be used by the local administrator
+ in lieu of the tools from the 'useradd' suite, and they provide support
+ for easy use from Debian package maintainer scripts, functioning as kind
+ of a policy layer to make those scripts easier and more stable to write
+ and maintain.
+
+Package: advancecomp
+Description-md5: 45269d7ed6ff6092f699fce2e0061b74
+Description-el: συλλογή εργαλείων επανασυμπίεσης
+ Το AdvanceCOMP περιλαμβάνει βοηθητικά προγράμματα για επανασυμπίεση των
+ .zip αρχείων σας, εικόνων .png, βίντεο κλιπ  .mng και αρχείων .gz.
+ .
+ Για επανασυμπίεση, χρησιμοποιείται το 7-Zip (http://www.7-zip.com) το
+ οποίο δίνει συνήθως 5-10% περισσότερη συμπίεση από το zLib.
+
+Package: aide
+Description-md5: 1d70ba920a3b80bc791be197bf18814c
+Description-el: Advanced Intrusion Detection Environment - dynamic binary
+ Το AIDE είναι ένα σύστημα ανίχνευσης εισβολέων που ανιχνεύει αλλαγές σε
+ αρχεία του τοπικού συστήματος. Δημιουργεί μια βάση δεδομένων από τις
+ κανονικές εκφράσεις που βρίσκει στο αρχείο ρυθμίσεων. Αφού αρχικοποιηθεί η
+ βάση, μπορεί να χρησιμοποιηθεί για τον έλεγχο ορθότητας των αρχείων.
+ Περιέχει αρκετούς αλγόριθμους message digest (md5, sha1, rmd160, tiger,
+ haval, κ.λπ.) που μπορούν να χρησιμοποιηθούν. Περαιτέρω αλγόριθμοι μπορούν
+ να προστεθούν με σχετική ευκολία. Όλες οι συνήθεις ιδιότητες των αρχείων
+ μπορούν, επίσης, να ελεγχθούν για ασυνέπεια.
+
+Package: aide-common
+Description-md5: 7a8490e442a29581e6cca1b191be3f62
+Description-el: Προχωρημένο Σύστημα Ανίχνευσης Εισβολέων - Κοινά αρχεία
+ Το AIDE είναι ένα σύστημα ανίχνευσης εισβολέων που ανιχνεύει αλλαγές σε
+ αρχεία του τοπικού συστήματος. Δημιουργεί μια βάση δεδομένων από τις
+ κανονικές εκφράσεις που βρίσκει στο αρχείο ρυθμίσεων. Αφού αρχικοποιηθεί η
+ βάση, μπορεί να χρησιμοποιηθεί για τον έλεγχο ορθότητας των αρχείων.
+ Περιέχει αρκετούς αλγόριθμους message digest (md5, sha1, rmd160, tiger,
+ haval, κ.λπ.) που μπορούν να χρησιμοποιηθούν. Περαιτέρω αλγόριθμοι μπορούν
+ να προστεθούν με σχετική ευκολία. Όλες οι συνήθεις ιδιότητες των αρχείων
+ μπορούν, επίσης, να ελεγχθούν για ασυνέπεια.
+ .
+ Αυτό το πακέτο περιέχει βασικά αρχεία και αρχεία ρυθμίσεων που είναι
+ αναγκαία για την εκτέλεση των δυαδικών αρχείων.
+ .
+ Πιθανότατα θα θέλετε να επεμβείτε στο αρχείο ρυθμίσεων /etc/aide/aide.conf
+ ή να τοποθετήσετε τις δικές σας παραμέτρους στο /etc/aide/aide.conf.d.
+
+Package: alsa-base
+Description-md5: 14d30d1beb8026b3d2636c32c5a92cca
+Description-el: Αρχεία ρυθμίσεων για οδηγούς ALSA
+ Αυτό το πακέτο περιέχει διάφορα αρχεία ρυθμίσεων για τους οδηγούς ALSA.
+ .
+ Για να λειτουργήσει το σύστημα ALSA με κάποια κάρτα ήχου, θα πρέπει να
+ υπάρχει ένα οδηγός ALSA για την κάρτα στον πυρήνα. Το Linux 2.6, όπως
+ περιέχεται στα πακέτα linux-image, περιλαμβάνει οδηγούς για όλες τις
+ υποστηριζόμενες κάρτες ήχου σε μορφή φορτώσιμων αρθρωμάτων (loadable
+ modules). Εξειδικευμένα πακέτα alsa-modules μπορούν θα δημιουργηθούν από
+ τον πηγαίο κώδικα στο πακέτο alsa-source με τη χρήση του βοηθήματος m-a
+ (περιλαμβάνεται στο πακέτο module-assistant). Παρακαλώ διαβάστε το αρχείο
+ README.Debian για περαιτέρω πληροφορίες για τη φόρτωση και την κατασκευή
+ αρθρωμάτων.
+ .
+ ALSA is the Advanced Linux Sound Architecture.
+
+Package: alsa-utils
+Description-md5: a4e555adf5e969eded25828df3763172
+Description-el: Βοηθητικά προγράμματα για τη ρύθμιση και τη χρήση του ALSA
+ Included tools:
+  - alsactl: advanced controls for ALSA sound drivers
+  - alsaloop: create loopbacks between PCM capture and playback devices
+  - alsamixer: curses mixer
+  - alsaucm: alsa use case manager
+  - amixer: command line mixer
+  - amidi: read from and write to ALSA RawMIDI ports
+  - aplay, arecord: command line playback and recording
+  - aplaymidi, arecordmidi: command line MIDI playback and recording
+  - aconnect, aseqnet, aseqdump: command line MIDI sequencer control
+  - iecset: set or dump IEC958 status bits
+  - speaker-test: speaker test tone generator
+ .
+ ALSA is the Advanced Linux Sound Architecture.
+
+Package: amavisd-new
+Description-md5: d95fd9c270e69763b2674a7c7629b731
+Description-el: Διεπαφή μεταξύ του MTA και σαρωτή ιών/φίλτρων περιεχομένου
+ Το AMaViSd-new είναι ένα σενάριο εντολών που αποτελεί διεπαφή μεταξύ ενός
+ παράγοντα μεταφοράς αλληλογραφίας (mail transport agent - MTA) και κανενός
+ ή περισσότερων σαρωτών ιών, και του spamassassin (προαιρετικά).
+ .
+ Υποστηρίζει όλους τους κοινούς σαρωτές ιών (περισσότερα από 20 διαφορετικά
+ προγράμματα κατά ιών), με άμεση υποστήριξη για επικοινωνία με τους
+ δαίμονες των ClamAV, OpenAntiVirus, Trophie, AVG, f-prot, και Sophos.
+ .
+ Το AMaViSd-new υποστηρίζει όλους τους MTA μέσω της γενικής λειτουργίας
+ φίλτρου SMTP/LMTP (ιδανική για postfix και exim). Είναι γρηγορότερη και
+ ασφαλέστερη η χρήση της λειτουργίας φίλτρου SMTP/LMPT από τη χρήση του
+ πελάτη διασωλήνωσης AMaViS. Υποστηρίζει φίλτρο αλληλογραφίας sendmail μέσω
+ του πακέτου amavisd-new-milter.
+
+Package: anacron
+Description-md5: cd9f07726e1ee3bc93fcfdb799520070
+Description-el: ένα πρόγραμμα σαν το cron που δεν πάει με το χρόνο
+ Anacron (like "anac(h)ronistic") is a periodic command scheduler.  It
+ executes commands at intervals specified in days.  Unlike cron, it does
+ not assume that the system is running continuously.  It can therefore be
+ used to control the execution of daily, weekly, and monthly jobs (or
+ anything with a period of n days), on systems that don't run 24 hours a
+ day.  When installed and configured properly, Anacron will make sure that
+ the commands are run at the specified intervals as closely as machine
+ uptime permits.
+ .
+ This package is pre-configured to execute the daily jobs of the Debian
+ system.  You should install this program if your system isn't powered on
+ 24 hours a day to make sure the maintenance jobs of other Debian packages
+ are executed each day.
+
+Package: apg
+Description-md5: d919baea3108b57df48112b188dca442
+Description-el: Αυτοματοποιημένη Γεννήτρια Κωδικών πρόσβασης - Αυτόνομη έκδοση
+ APG (Automated Password Generator) is the tool set for random password generation. It generates some random words of required type and prints them to standard output. This binary package contains only the standalone version of apg. Advantages:
+  * Built-in ANSI X9.17 RNG (Random Number Generator)(CAST/SHA1)
+  * Built-in password quality checking system (now it has support for Bloom
+    filter for faster access)
+  * Two Password Generation Algorithms:
+     1. Pronounceable Password Generation Algorithm (according to NIST
+        FIPS 181)
+     2. Random Character Password Generation Algorithm with 35
+        configurable modes of operation
+  * Configurable password length parameters
+  * Configurable amount of generated passwords
+  * Ability to initialize RNG with user string
+  * Support for /dev/random
+  * Ability to crypt() generated passwords and print them as additional output.
+  * Special parameters to use APG in script
+  * Ability to log password generation requests for network version
+  * Ability to control APG service access using tcpd
+  * Ability to use password generation service from any type of box (Mac,
+    WinXX, etc.) that connected to network
+  * Ability to enforce remote users to use only allowed type of password
+    generation
+  The client/server version of apg has been deliberately omitted.
+ .
+ Please note that there are security flaws in pronounceable password
+ generation schemes (see Ganesan / Davis "A New Attack on Random
+ Pronounceable Password Generators", in "Proceedings of the 17th National
+ Computer Security Conference (NCSC), Oct. 11-14, 1994 (Volume 1)",
+ http://csrc.nist.gov/publications/history/nissc/ 1994-17th-NCSC-
+ proceedings-vol-1.pdf, pages 203-216)
+ .
+ Also note that the FIPS 181 standard from 1993 has been withdrawn by NIST
+ in 2015 with no superseding publication. This means that the document is
+ considered by its publicher as obsolete and not been updated to reference
+ current or revised voluntary industry standards, federal specifications,
+ or federal data standards.
+ .
+ apg has not seen upstream attention since 2003, upstream is not answering
+ e-mail, and the upstream web page does not look like it is in good working
+ order. The Debian maintainer plans to discontinue apg maintenance as soon
+ as an actually maintained software with a compariable feature set becomes
+ available.
+
+Package: apport
+Description-md5: c04626471654f9246cf5e28b560d262e
+Description-el: αυτόματη δημιουργία αναφορών κολλήματος για αποσφαλμάτωση
+ Το apport συλλέγει αυτόματα πληροφορίες για διεργασίες που κατέρρευσαν και
+ δημιουργεί μια αναφορά προβλήματος στο /var/crash/. Αυτό χρησιμοποιεί το
+ crashdump helper hook που παρέχει ο πυρήνας του Ubuntu.
+ .
+ Αυτό το πακέτο παρέχει επίσης ένα περιβάλλον γραμμής εντολών για περιήγηση
+ και χειρισμό των αναφορών κολλήματος. Για γραφικές επιφάνειες εργασίας,
+ εξετάστε το ενδεχόμενο να εγκαταστήσετε τα περιβάλλοντα εργασίας σε GTK+ ή
+ QT (apport-gtk ή apport-kde).
+
+Package: apport-core-dump-handler
+Description-md5: 014ec4edf03384dcdf5dcac2a8da318e
+Description-el: Kernel core dump handler for Apport
+ Το apport συλλέγει αυτόματα πληροφορίες για διεργασίες που κατέρρευσαν και
+ δημιουργεί μια αναφορά προβλήματος στο /var/crash/. Αυτό χρησιμοποιεί το
+ crashdump helper hook που παρέχει ο πυρήνας του Ubuntu.
+ .
+ This package provides the service that configures the kernel (via
+ /proc/sys/kernel/core_pattern) to forward the crash dumps to apport.
+
+Package: apport-gtk
+Description-md5: 2f45e17d5bf22355d7921dba196ae6dd
+Description-el: Περιβάλλον εργασίας σε GTK+ για το σύστημα αναφοράς κολλημάτων apport.
+ Το apport συλλέγει αυτόματα πληροφορίες για διεργασίες που κατέρρευσαν και
+ δημιουργεί μια αναφορά προβλήματος στο /var/crash/. Αυτό χρησιμοποιεί το
+ crashdump helper hook που παρέχει ο πυρήνας του Ubuntu.
+ .
+ Αυτό το πακέτο παρέχει ένα γραφικό περιβάλλον εργασίας GTK+ για περιήγηση
+ και χειρισμό αναφορών κολλήματος.
+
+Package: apport-retrace
+Description-md5: 7608c287131a28c4611767ba61f02050
+Description-el: εργαλεία για επανεπεξεργασία αναφορών κολλήματος του Apport
+ apport-retrace recombines an Apport crash report (either a file or a
+ Launchpad bug) and debug symbol packages (.ddebs) into fully symbolic
+ stack traces. This can optionally use a sandbox for installing debug
+ symbol packages and doing the processing, so that entire process of
+ retracing crashes can happen with normal user privileges without changing
+ the system.
+ .
+ You need to install gdb-multiarch if you want to be able to retrace crash
+ reports which happened on a different architecture than the one you run
+ apport-retrace on.
+
+Package: apport-symptoms
+Description-md5: 685dc189a71c0847d5bc525d477c0d11
+Description-el: σενάρια εντολών symptom για το apport
+ Το apport παρακολουθεί τα κολλήματα των προγραμμάτων, συλλέγει πληροφορίες
+ αποσφαλμάτωσης για το κόλλημα και για το περιβάλλον του λειτουργικού
+ συστήματος, και τις στέλνει σε ανιχνευτές σφαλμάτων σε μια προτυποποιημένη
+ μορφή. Παρέχει επίσης στο χρήστη την επιλογή να αναφέρει ένα σφάλμα
+ σχετικά με ένα πακέτο, και πάλι μαζεύοντας όσες περισσότερες πληροφορίες
+ μπορεί.
+ .
+ Αυτό το πακέτο επεκτείνει το Apport με μερικά σενάρια εντολών «symptom»,
+ ώστε οι χρήστες που αναφέρουν σφάλματα να μη χρειάζεται να μαντέψουν το
+ σωστό πακέτο, αλλά να αναφέρουν προβλήματα βάσει των συμπτωμάτων τους
+ (όπως «πρόβλημα ήχου»), μέσα από μια διαδραστική διαδικασία.
+
+Package: apt
+Description-md5: 9fb97a88cb7383934ef963352b53b4a7
+Description-el: διαχειριστής πακέτων από την γραμμή εντολών
+ Αυτό το πακέτο παρέχει εργαλεία της γραμμής εντολών για αναζήτηση και
+ διαχείριση, όπως επίσης και παροχή πληροφοριών, σχετικά με πακέτα, ως μια
+ χαμηλού επιπέδου πρόσβαση σε όλα τα χαρακτηριστικά της βιβλιοθήκης libapt-
+ pkg.
+ .
+ Αυτά περιλαμβάνουν:
+   * Apt-get για την ανάκτηση των συσκευασιών και πληροφορίων σχετικά με τις
+     επικυρωμένα από τις πηγές και για την εγκατάσταση, την αναβάθμιση και
+     την αφαίρεση των πακέτων, μαζί με τις εξαρτήσεις τους
+   * Apt-cache για την αναζήτηση διαθέσιμων πληροφοριών σχετικά με τις εγκατεστημένες
+     καθώς και πακέτα εγκατάστασης
+   * Apt-cdrom για να χρησιμοποιήσετε αφαιρούμενα μέσα ως πηγή για τα πακέτα
+   * Apt-config ως διεπαφή για τις ρυθμίσεις διαμόρφωσης
+   * Apt-key ως διεπαφή για τη διαχείριση πλήκτρων ελέγχου ταυτότητας
+
+
+Package: apt-doc
+Description-md5: bc2b838ed28e60af95d78926380a3300
+Description-el: documentation for APT
+ Αυτό το πακέτο περιλαμβάνει τον οδηγό χρήστη και οδηγό άνευ σύνδεσης για
+ διάφορα εργαλεία του APT που παρέχονται σε ένα αρχείο  html και μια έκδοση
+ απλού κειμένου.
+
+Package: apt-listchanges
+Description-md5: ff242d11e25a826706c61be7ebf92ad4
+Description-el: εργαλείο ειδοποίησης ιστορικού αλλαγής πακέτων
+ Το εργαλείο apt-listchanges μπορεί να συγκρίνει μια νέα έκδοση ενός
+ πακέτου με την τρέχουσα εγκατεστημένη και να εμφανίσει τις αλλαγές,
+ εξάγοντας τις σχετικές καταχωρήσεις από τα αρχεία Debian changelοg και
+ NEWS.
+ .
+ Μπορεί να εκτελεστεί σε πολλά αρχεία .deb τη φορά για να πάρει μια λίστα
+ με όλες τις αλλαγές που μπορεί να προκλήθηκαν από την εγκατάσταση ή την
+ αναβάθμιση μιας ομάδας πακέτων. Όταν είναι ρυθμισμένο ως πρόσθετο του APT
+ θα το κάνει αυτό αυτόματα κατά τις αναβαθμίσεις.
+
+Package: aptdaemon
+Description-md5: 5ed476246aefb12d0c1b0deb4818778b
+Description-el: υπηρεσία διαχείρισης πακέτων βάσει συναλλαγών
+ Το Aptdaemon επιτρέπει σε απλούς χρήστες να κάνουν εργασίες διαχείρισης
+ πακέτων, π.χ. ανανέωση της προσωρινής μνήμης, αναβάθμισης του συστήματος,
+ εγκατάστασης ή απομάκρυνσης πακέτων λογισμικού.
+ .
+ Μέχρι στιγμής έχει τα εξής κύρια χαρακτηριστικά:
+ .
+  - Programming language independent D-Bus interface, which allows one to
+    write clients in several languages
+  - Runs only if required (D-Bus activation)
+  - Fine grained privilege management using PolicyKit, e.g. allowing all
+    desktop user to query for updates without entering a password
+  - Support for media changes during installation from DVD/CDROM
+  - Support for debconf (Debian's package configuration system)
+  - Support for attaching a terminal to the underlying dpkg call
+ .
+ Αυτό το πακέτο περιέχει την εντολή aptd και όλα τα αρχεία δεδομένων που
+ χρειάζονται για να τρέξει ο δαίμονας. Επιπλέον περιέχει την εντολή
+ aptdcon, που έιναι ο πελάτης γραμμής εντολών για το aptdaemon. Το API
+ είναι ακόμη ασταθές.
+
+Package: aptdaemon-data
+Description-md5: 3985974f0d80501bf717f4eee701d6e5
+Description-el: αρχεία δεδομένων για τους πελάτες
+ Aptdaemon is a transaction based package management daemon. It allows
+ normal users to perform package management tasks, e.g. refreshing the
+ cache, upgrading the system, installing or removing software packages.
+ .
+ Αυτό το πακέτο παρέχει κοινά αρχεία  δεδομένων (π.χ. εικονίδια) για τους
+ πελάτες της aptdaemon.
+
+Package: aspell
+Description-md5: 21dcab5448cba7f61ba8df4ace46f1af
+Description-el: Ορθογραφικός έλεγχος GNU Aspell
+ Το GNU Aspell είναι ένας ορθογραφικός ελεγκτής ο οποίος μπορεί να
+ χρησιμοποιηθεί είτε ως αυτόνομη εφαρμογή είτε ενσωματωμένος σε άλλα
+ προγράμματα. Το κύριο χαρακτηριστικό του είναι ότι κάνει πολύ καλύτερη
+ δουλειά στην εύρεση εισηγήσεων από σχεδόν οποιοδήποτε άλλο ελεγκτή που
+ διατίθεται για την Αγγλική γλώσσα, συμπεριλαμβανομένων των Ispell και
+ Microsoft Word. Έχει επίσης αρκετές τεχνικές βελτιώσεις έναντι του Ispell
+ όπως τη χρήση μοιρασμένης μνήμης για τα λεξικά και τον έξυπνο χειρισμό
+ προσωπικών λεξικών όταν περισσότερες από μία διεργασίες του Aspell είναι
+ ανοικτές ταυτόχρονα.
+ .
+ Το Aspell είναι σχεδιασμένο για να αντικαθιστά επί τόπου το Ispell.
+
+Package: aspell-doc
+Description-md5: 33c68b861d6f2e2ef1b189909b98b741
+Description-el: Τεκμηρίωση για τον ορθογραφικό ελεγκτή GNU Aspell
+ Αυτό το πακέτο περιέχει την τεκμηρίωση για το GNU Aspell σε διάφορες
+ μορφές. Το πακέτο aspell έρχεται με ελάχιστες σελίδες man. Εγκαταστήστε
+ αυτό το πακέτο αν θέλετε περισσότερες πληροφορίες για τη διαδικασία
+ ανάπτυξης και τον τρόπο λειτουργίας του Aspell.
+
+Package: aspell-en
+Description-md5: c94b13744f65f4d57e191f183fc7c9c9
+Description-el: Αγγλικό λεξικό για το GNU Aspell
+ Αυτό το πακέτο περιέχει όλα τα απαιτούμενα αρχεία για την προσθήκη
+ υποστήριξης για την Αγγλική γλώσσα στον ορθογραφικό ελεγκτή GNU Aspell.
+ .
+ American, British, Canadian and Australian spellings are included.
+
+Package: at-spi2-doc
+Description-md5: e4ecae3df3f427dece5859c37aad6173
+Description-el: Assistive Technology Service Provider Interface (Τεκμηρίωση)
+ Αυτό το πακέτο περιλαμβάνει τεκμηρίωση για τη διεπαφή at-spi2.
+
+Package: attr
+Description-md5: eba64610d62d0ff261b3286c19b2e130
+Description-el: utilities for manipulating filesystem extended attributes
+ Μια ομάδα από εργαλεία για το χειρισμό των εκτεταμένων ιδιοτήτων σε
+ αντικείμενα συστήματος αρχείων, συγκεκριμένα τα getfattr(1) και
+ setfattr(1). Επίσης παρέχεται μια εντολή attr(1) η οποία είναι σε μεγάλο
+ βαθμό συμβατή με το ομώνυμο εργαλείο του SGI IRIX.
+
+Package: authbind
+Description-md5: 6ffd268fa04a5e344832e2275265da15
+Description-el: Επιτρέπει σε προγράμματα χωρίς δικαιώματα υπερχρήστη να εκτελούν bind() σε θύρες χαμηλού επιπέδου.
+ Αυτό το πακέτο επιτρέπει σε ένα άλλο πακέτο να ξεκινήσει χωρίς δικαιώματα
+ υπερχρήστη αλλά να μπορεί να συνδεθεί σε θύρες χαμηλού επιπέδου χωρίς
+ αλλαγές στην εφαρμογή.
+
+Package: autoconf
+Description-md5: 4336cf24a71f6337447f744a61a67166
+Description-el: δημιουργός σεναρίων εντολών αυτόματης ρύθμισης
+ Το πρότυπο για τα πακέτα πηγαίου κώδικα του FSF. Είναι χρήσιμο μόνο αν
+ γράφετε δικά σας προγράμματα ή αν κάνετε εκτεταμένες τροποποιήσεις σε
+ προγράμματα άλλων.
+ .
+ Για μια εκτενή βιβλιοθήκη με επιπρόσθετες μακροεντολές Autoconf,
+ εγκαταστήστε το πακέτο «autoconf-archive».
+ .
+ This version of autoconf is not compatible with scripts meant for Autoconf
+ 2.13 or earlier.
+
+Package: autoconf-doc
+Description-md5: dc69587d1394618608d9fd7ec1c59833
+Description-el: τεκμηρίωση του δημιουργού σεναρίων εντολών αυτόματης ρύθμισης
+ GNU Autoconf is a package for creating scripts to configure source code
+ packages using templates and an M4 macro package.  This package contains
+ the manual for GNU Autoconf.
+
+Package: autofs
+Description-md5: c2943d4026686519e74f5ea404af6a90
+Description-el: kernel-based automounter for Linux
+ Το Autofs ελέγχει τη λειτουργία των δαιμόνων του automount. Οι δαίμονες
+ του automount προσαρτούν αυτομάτως τα συστήματα αρχείων, όταν
+ χρησιμοποιούνται και τα αποπροσαρτούν μετά από μια περίοδο αδράνειας. Αυτό
+ γίνεται με βάση ένα σύνολο προ-ρυθμισμένων χαρτών.
+ .
+ Το πρόγραμμα αυτόματης προσάρτησης του πυρήνα (automount) υλοποιεί μία
+ σχεδόν πλήρη αυτόματη προσάρτηση σε στυλ SunOS, αλλά σε περιβάλλον Linux.
+ Απαιτείται μια πρόσφατη έκδοση του αρθρώματος autofs4 του πυρήνα (είτε
+ ενσωματωμένη, είτε ξεχωριστά) .
+ .
+ This is the autofs daemon.
+
+Package: automake
+Description-md5: cab2176975a43b42c86cd4289740737e
+Description-el: Tool for generating GNU Standards-compliant Makefiles
+ To Automake είναι ένα εργαλείο για την αυτόματη δημιουργία αρχείων
+ «Makefile.in» από αρχεία «Makefile.am».
+ .
+ Ο σκοπός του Automake είναι να αφαιρέσει τον φόρτο συντήρησης των Makefile
+ από τα καθήκοντα του συγκεκριμένου συντηρητή GNU (και να τον μεταθέσει
+ στον συντηρητή του Automake)
+ .
+ To «Makefile.am» είναι σε γενικές γραμμές μια σειρά από ορισμούς
+ μακροεντολών make (με κάποιους κανόνες, περιστασιακά). Τα παραγόμενα
+ αρχεία «Makefile.in» είναι συμβατά με τα πρότυπα Makefile του GNU.
+ .
+ Automake 1.16 fails to work in a number of situations that Automake 1.11,
+ and 1.15 did, so some previous versions are available as separate
+ packages.
+
+Package: autopkgtest
+Description-md5: 31d9217a487d44cfd80f0588068648cd
+Description-el: αυτόματη ως-εγκατεστημένη δοκιμή για τα πακέτα του Debian
+ Το autopkgtest εκτελεί δοκιμασίες σε δυαδικά εκτελέσιμα πακέτα. Οι
+ δοκιμασίες αυτές εκτελούνται στο πακέτο, όπως όταν εγκαθίσταται σε ένα
+ σύστημα testbed (που μπορεί να βρεθεί μέσω μίας απεικόνισης ή μέσω ενός
+ συστήματος  συγκράτησης (containment system)).  Οι δοκιμασίες θα
+ περιέχονται, κανονικά, στο αντίστοιχο πηγαίο πακέτο Debian.
+ .
+ See autopkgtest(1) and /usr/share/doc/autopkgtest. Depending on which
+ virtualization server you want to use, you need to install additional
+ packages (schroot, lxc, lxd, or qemu-system)
+ .
+ For generating tests of well-known source packages such as Perl and Ruby
+ libraries you should install the autodep8 package.
+
+Package: autotools-dev
+Description-md5: 32ffa2f2f5e89ec7409d0b4d9086ce91
+Description-el: Ενημέρωση υποδομής για αρχεία config.{guess,sub}
+ Αυτό το πακέτο εγκαθιστά μια ενημερωμένη έκδοση των config.guess και
+ config.sub, που χρησιμοποιούνται από τα πακέτα automake και libtool.
+ Προσφέρει το κανονικό αντίγραφο αυτών των αρχείων και για άλλα πακέτα.
+ .
+ Επίσης, τεκμηριώνει στο /usr/share/doc/autotools-dev/README.Debian.gz τις
+ καλύτερες πρακτικές και τις κατευθυντήριες οδηγίες για τη χρήση των
+ autoconf, automake και των συναφών εφαρμογών, σε πακέτα Debian. Αυτό είναι
+ απαραίτητο να διαβαστεί από όλους τους προγραμματιστές που πακετάρουν
+ λογισμικό το οποίο χρησιμοποιεί τα GNU autotools ή το GNU gettext.
+ .
+ Additionally this package provides seamless integration into Debhelper or
+ CDBS, allowing maintainers to easily update config.{guess,sub} files in
+ their packages.
+
+Package: avahi-daemon
+Description-md5: 13d651a25febc553220e03e75c6f4c7b
+Description-el: Δαίμονας Avahi mDNS/DNS-SD
+ Avahi is a fully LGPL framework for Multicast DNS Service Discovery. It
+ allows programs to publish and discover services and hosts running on a
+ local network with no specific configuration. For example you can plug
+ into a network and instantly find printers to print to, files to look at
+ and people to talk to.
+ .
+ Αυτό το πακέτο περιέχει το δαίμονα Avahi, ο οποίος αντιπροσωπεύει το
+ μηχάνημά σας πάνω στο δίκτυο και επιτρέπει σε άλλες εφαρμογές να
+ δημοσιεύουν και να επιλύουν καταχωρήσεις mDNS/DNS-SD.
+
+Package: avahi-utils
+Description-md5: 58895f03e39692a5213ffb4d5bbc3564
+Description-el: Περιήγηση Avahi, εργαλεία ανακάλυψης και δημοσίευσης
+ Το Avahi είναι ένα πλήρες LGPL πλαίσιο για ανακάλυψη Multicast DNS
+ υπηρεσιών. Επιτρέπει στα προγράμματα να δημοσιοποιούν και να ανακαλύπτουν
+ υπηρεσίες και υπολογιστές που τρέχουν στο δίκτυο χωρίς κάποιες
+ συγκεκριμένες ρυθμίσεις. Για παράδειγμα μπορείτε να συνδεθείτε σε ένα
+ δίκτυο και να βρείτε αυτόματα εκτυπωτές για να τυπώσετε, αρχεία για να
+ κοιτάξετε και άτομα για να μιλήσετε.
+ .
+ Αυτό το πακέτο παρέχει αρκετά βοηθητικά προγράμματα που επιτρέπουν την
+ αλληλεπίδραση με το δαίμονα Avahi, περιλαμβανομένων των υπηρεσιών
+ δημοσίευσης, περιήγησης και ανακάλυψης.
+
+Package: awstats
+Description-md5: 13563117d747b5d1acdce35986df9f8a
+Description-el: ισχυρός και πλούσιος σε χαρακτηριστικά αναλυτής αρχείων καταγραφής του διακομιστή διαδικτύου
+ Το Advanced Web Statistics (Προχωρημένες Στατιστικές Διαδικτύου/AWStats)
+ είναι ένας ισχυρός αναλυτής αρχείων καταγραφής διακομιστή διαδικτύου, που
+ γράφτηκε σε perl, και ο οποίος σας δείχνει όλες τις διαδικτυακές σας
+ στατιστικές, περιλαμβανομένων των επισκέψεων, των μοναδικών επισκεπτών,
+ των σελίδων, των hits, των ωρών αιχμής, των μηχανών αναζήτησης, των
+ λέξεων-κλειδί που χρησιμοποιήθηκαν για την ανεύρεση του ιστοτόπου σας, των
+ robots, των σπασμένων συνδέσμων και πολλών άλλων. Σας δίνει πιο
+ λεπτομερείς πληροφορίες και καλύτερες γραφικές παραστάσεις από ότι ο
+ webalizer και είναι ευκολότερος στη χρήση. Δουλεύει με πολλές και διάφορες
+ μορφές αρχείου καταγραφής διαδικτυακών διακομιστών, σαν το CGI και/ή από
+ την γραμμή εντολών. Υποστηρίζει περισσότερες από 30 γλώσσες.
+
+Package: backuppc
+Description-md5: b6f406334b3551715e06ad0d1f9cbb05
+Description-el: υψηλής απόδοσης, επιπέδου επιχειρήσεων σύστημα για δημιουργία αντιγράφων ασφαλείας υπολογιστών
+ BackupPC is disk based and not tape based. This particularity allows
+ features not found in any other backup solution:
+ .
+  * Clever pooling scheme minimizes disk storage and disk I/O.
+    Identical files across multiple backups of the same or different PC are
+    stored only once resulting in substantial savings in disk storage and disk
+    writes. Also known as "data deduplication".
+  * Optional compression provides additional reductions in storage.
+    CPU impact of compression is low since only new files (those not already
+    in the pool) need to be compressed.
+  * A powerful http/cgi user interface allows administrators to view log files,
+    configuration, current status and allows users to initiate and cancel
+    backups and browse and restore files from backups very quickly.
+  * No client-side software is needed. On WinXX the smb protocol is used.
+    On Linux or Unix clients, rsync or tar (over ssh/rsh/nfs) can be used
+  * Flexible restore options. Single files can be downloaded from any backup
+    directly from the CGI interface. Zip or Tar archives for selected files
+    or directories can also be downloaded from the CGI interface.
+  * BackupPC supports mobile environments where laptops are only intermittently
+    connected to the network and have dynamic IP addresses (DHCP).
+  * Flexible configuration parameters allow multiple backups to be performed
+    in parallel.
+  * and more to discover in the manual...
+ .
+ If you intent to backup Linux/Unix/macOS hosts, you'll typically need the
+ recommended packages backup-rsync and openssh-client installed on the
+ server side and the normal rsync package on the client side.
+ .
+ A less performant alternative is using tar over SSH instead of rsync, e.g.
+ in case of rsync server/client protocol incompatibilities.
+ .
+ If you intent to backup Windows hosts, you'll typically need the
+ recommended package smbclient installed.
+ .
+ There is also the possibility to backup Windows hosts over SSH and rsync
+ or tar if you have an SSH daemon installed on the Windows host, e.g. via
+ Cygwin or Windows subsystem for Linux (WSL). In that case the same
+ packages as with Linux/Unix/macOS are needed.
+
+Package: base-files
+Description-md5: 6d16337f57b84c4747f56438355b2395
+Description-el: Το Debian βασίζεται σε διάφορα αρχεία
+ This package contains the basic filesystem hierarchy of a Debian system,
+ and several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others, and the
+ text of several common licenses in use on Debian systems.
+
+Package: base-passwd
+Description-md5: aad0cc52ee72b2469af5552851e49f03
+Description-el: Αρχεία κύριου κωδικού και ομάδων ενός συστήματος με βάση το Debian
+ Αυτά  είναι τα κύρια αντίγραφα των αρχείων βάσης δεδομένων χρήστη
+ (/etc/passwd και /etc/group), τα οποία περιέχουν τον χρήστη και τις
+ ταυτότητες των ομάδων που έχουν κατανεμηθεί από το Debian. Το εργαλείο
+ update-passwd παρέχεται ώστε να διατηρείται ο συγχρονισμός των βάσεων
+ δεδομένων του συστήματος με αυτά τα κύρια αρχεία.
+
+Package: bash
+Description-md5: 3522aa7b4374048d6450e348a5bb45d9
+Description-el: GNU Bourne Again SHell
+ Το Bash είναι ένας συμβατός με sh διερμηνέας γλώσσας εντολών οι οποίες
+ αναγιγνώσκονται από την τυπική είσοδο ή από ένα αρχείο. Το Bash επίσης
+ ενσωματώνει χρήσιμες λειτουργίες από τα κελύφη Korn και C (ksh και csh).
+ .
+ Το κέλυφος Bash έχει ως τελικό σκοπό να είναι μία υλοποίηση η οποία θα
+ συμμορφώνεται με το πρότυπο κελύφους και εργαλείων IEEE POSIX Shell and
+ Tools specification (IEEE Working Group 1003.2).
+ .
+ Ο κώδικας προγραμματισμού ολοκλήρωσης, από τον Ian Macdonald, βρίσκεται
+ τώρα στο πακέτο bash-completion.
+
+Package: bash-completion
+Description-md5: 00158d11d140744fbdcfdd08e81901ad
+Description-el: Προγραμματιζόμενη για την ολοκλήρωση του φλοιού Bash
+ Το εργαλείο bash completion επεκτείνει την τυπική συμπεριφορά συμπλήρωσης
+ του bash ώστε να επιτυγχάνονται πολύπλοκες γραμμές εντολών με λίγα μόνο
+ πατήματα πλήκτρων. Η σύλληψη του έργου αυτού έγινε με σκοπό την παραγωγή
+ προγραμματισμένων ρουτινών συμπλήρωσης για τις περισσότερες κοινές εντολές
+ του Linux/UNIX , ελαττώνοντας το μέγεθος της πληκτρολόγησης την οποία
+ είναι απαραίτητο να κάνουν οι διαχειριστές συστημάτων και οι
+ προγραμματιστές σε ημερήσια βάση.
+
+Package: bash-doc
+Description-md5: 232b3e580e9136f4e0c8f65a0c7a5b36
+Description-el: Documentation and examples for the GNU Bourne Again SHell
+ Το Bash είναι ένας συμβατός με sh διερμηνέας γλώσσας εντολών οι οποίες
+ αναγιγνώσκονται από την τυπική είσοδο ή από ένα αρχείο. Το Bash επίσης
+ ενσωματώνει χρήσιμες λειτουργίες από τα κελύφη Korn και C (ksh και csh).
+ .
+ Το πακέτο αυτό περιλαμβάνει την διανεμόμενη τεκμηρίωση, όλα τα
+ παραδείγματα και την κύρια καταγραφή αλλαγών.
+
+Package: bind9
+Description-md5: 2cdf89d501b5ca6fe55e945de47cc047
+Description-el: Εξυπηρετητής ονομάτων τομέα διαδικτύου
+ The Berkeley Internet Name Domain (BIND 9) implements an Internet domain
+ name server.  BIND 9 is the most widely-used name server software on the
+ Internet, and is supported by the Internet Software Consortium,
+ www.isc.org.
+ .
+ This package provides the server and related configuration files.
+
+Package: binutils
+Description-md5: fde49b4cfeaad346a6e094f973da28d7
+Description-el: GNU assembler, linker and binary utilities
+ Τα προγράμματα σε αυτό το πακέτο χρησιμοποιούνται για τη συμβολομετάφραση,
+ τη διασύνδεση και το χειρισμό δυαδικών αρχείων και αρχείων αντικειμένων.
+ Γίνεται να χρησιμοποιηθούν σε συνδυασμό με έναν μεταγλωττιστή και διάφορες
+ βιβλιοθήκες για την κατασκευή προγραμμάτων.
+
+Package: binutils-dev
+Description-md5: ddc22c04156534b000b4f021b88a6023
+Description-el: GNU binary utilities (BFD development files)
+ Αυτό το πακέτο περιέχει αρχεία επικεφαλίδων και στατικές βιβλιοθήκες
+ απαραίτητες για την κατασκευή προγραμμάτων που χρησιμοποιούν τη βιβλιοθήκη
+ GNU BFD, η οποία είναι μέρος του πακέτου binutils. Σημειώστε πως δεν
+ επιτρέπεται η κατασκευή πακέτων Debian τα οποία εξαρτώνται από την κοινή
+ βιβλιοθήκη libbfd.
+
+Package: binutils-doc
+Description-md5: 61fd9f95707b9eb9ad8fe9b13a862636
+Description-el: Πληροφοριακό υλικό για το GNU συναρμολογητή κώδικα, πρόγραμμα σύνδεσης (linker) και δυαδικά βοηθητικά προγράμματα
+ Αυτό το πακέτο αποτελείται από την τεκμηρίωση για τον συμβολομεταφραστή
+ GNU,, τον διασυνδέτη και δυαδικές εφαρμογές σε μορφή πληροφοριών.
+
+Package: bison
+Description-md5: 3b8154d16aa228f689bcd81364e7088c
+Description-el: YACC-compatible parser generator
+ Το Bison είναι μια γεννήτρια συντακτικών αναλυτών γενικής χρήσης που
+ μετατρέπει την περιγραφή μιας γραμματικής χωρίς συμφραζόμενα LALR(1) σε
+ ένα πρόγραμμα σε C που μπορεί να διαβάσει αυτήν τη γραμματική. Με το Bison
+ μπορείτε να αναπτύξετε συντακτικούς αναλυτές για πολλές γλώσσες, από απλές
+ γλώσσες αριθμομηχανών μέχρι πολύπλοκες γλώσσες προγραμματισμού.
+ .
+ Το Bison είναι συμβατό με το Yacc: όλες οι σωστές γραμματικές του Yacc
+ πρέπει να δουλεύουν και στο Bison χωρίς αλλαγές. Οι χρήστες του Yacc δε θα
+ έπρεπε να συναντήσουν κάποιο πρόβλημα στη χρήση του Bison. Η τεκμηρίωση
+ του προγράμματος βρίσκεται στο πακέτο bison-doc.
+
+Package: bison-doc
+Description-md5: fa66ecf8b2aadc0777e1c4b1847c3b77
+Description-el: Τεκμηρίωση της γεννήτριας συντακτικών αναλυτών Bison
+ Το Bison είναι μια γεννήτρια συντακτικών αναλυτών γενικής χρήσης που
+ μετατρέπει την περιγραφή μιας γραμματικής χωρίς συμφραζόμενα LALR(1) σε
+ ένα πρόγραμμα σε C που μπορεί να διαβάσει αυτήν τη γραμματική. Με το Bison
+ μπορείτε να αναπτύξετε συντακτικούς αναλυτές για πολλές γλώσσες, από απλές
+ γλώσσες αριθμομηχανών μέχρι πολύπλοκες γλώσσες προγραμματισμού.
+ .
+ Το πακέτο αυτό περιέχει τεκμηρίωση για το Bison σε μορφή PDF και Info.
+
+Package: blt
+Description-md5: 76f41827b0148185045bf32900e8cacb
+Description-el: graphics extension library for Tcl/Tk - run-time
+ Η BLT είναι μια βιβλιοθήκη χρήσιμων επεκτάσεων της γλώσσας Tcl και της
+ δημοφιλούς εργαλειοθήκης γραφικών Tk. Στην Tcl προσθέτει τύπους δεδομένων
+ διανύσματος και δέντρου, εκτέλεση στο παρασκήνιο και εργαλεία
+ αποσφαλμάτωσης. Στην Tk προσθέτει αρκετά νέα στοιχεία γραφικών (widgets),
+ που περιλαμβάνουν γραφικές παραστάσεις, ραβδογράμματα, δέντρα,
+ επικεφαλίδες (tabs), καμπύλες (splines) και υπερσυνδέσμους, έναν νέο
+ διαχειριστή γεωμετρίας, υποστήριξη σύρε-και-άφησε (drag & drop), και άλλα
+ χαρακτηριστικά.
+ .
+ This package is a dummy package which depends on the current BLT library.
+
+Package: blt-dev
+Description-md5: 44af66f352120a6c751bc742de4a0748
+Description-el: graphics extension library for Tcl/Tk - development files
+ Η BLT είναι μια βιβλιοθήκη χρήσιμων επεκτάσεων της γλώσσας Tcl και της
+ δημοφιλούς εργαλειοθήκης γραφικών Tk. Στην Tcl προσθέτει τύπους δεδομένων
+ διανύσματος και δέντρου, εκτέλεση στο παρασκήνιο και εργαλεία
+ αποσφαλμάτωσης. Στην Tk προσθέτει αρκετά νέα στοιχεία γραφικών (widgets),
+ που περιλαμβάνουν γραφικές παραστάσεις, ραβδογράμματα, δέντρα,
+ επικεφαλίδες (tabs), καμπύλες (splines) και υπερσυνδέσμους, έναν νέο
+ διαχειριστή γεωμετρίας, υποστήριξη σύρε-και-άφησε (drag & drop), και άλλα
+ χαρακτηριστικά.
+ .
+ Το πακέτο αυτό περιέχει τις κεφαλίδες και τις βιβλιοθήκες για να
+ επεκτείνει ή να ενσωματώσει BLT.
+
+Package: bluez
+Description-md5: ef25d6a9f4a57e78f32faa7b58ef4e59
+Description-el: Εργαλεία Bluetooth και λογισμικό οπτικής εξομοίωσης (daemons)
+ Αυτό το πακέτο περιέχει εργαλεία και δαίμονες συστήματος για τη χρήση
+ συσκευών Bluetooth.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-cups
+Description-md5: 4e5f0a66844f2292ecbf023e856b77d4
+Description-el: Πρόγραμμα οδήγησης εκτυπωτή bluetooth  για CUPS
+ Αυτό το πακέτο περιέχει έναν οδηγό που επιτρέπει στο CUPS να τυπώνει
+ χρησιμοποιώντας εκτυπωτές συνδεδεμένους μέσω Bluetooth.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bogl-bterm
+Description-md5: fe97701510fdc5e5e434e93cc1a3672c
+Description-el: Ben's Own Graphics Library - γραφικό τερματικό
+ Ben's Own Graphics Library is a small framebuffer library, including basic
+ widgets, support for text in multiple languages, and mouse handling.
+ .
+ Αυτό το πακέτο περιέχει το bterm, ένα τερματικό που χρησιμοποιεί την
+ προσωρινή μνήμη γραφικών (framebuffer) και υποστηρίζει το πρότυπο UTF.
+
+Package: bridge-utils
+Description-md5: bc06a038a6315377cf0871ca4de79aac
+Description-el: Εργαλεία για τη ρύθμιση της γέφυρας Ethernet του Linux
+ This package contains utilities for configuring the Linux Ethernet bridge
+ in Linux. The Linux Ethernet bridge can be used for connecting multiple
+ Ethernet devices together. The connecting is fully transparent: hosts
+ connected to one Ethernet device see hosts connected to the other Ethernet
+ devices directly.
+
+Package: brltty
+Description-md5: 7a5f7509a70f80406cf9f9a599ae705e
+Description-el: Λογισμικό πρόσβασης για άτομα με προβλήματα όρασης που χρησιμοποιούν οθόνη μπράιγ
+ BRLTTY is a daemon which provides access to the console (text mode) for a blind person using a braille display.  It drives the braille display and provides complete screen review functionality. The following display models are supported:
+  * Alva/Optelec (ABT3xx, Delphi, Satellite, Braille System 40, BC 640/680)
+  * Baum
+  * BrailComm
+  * BrailleLite
+  * BrailleNote
+  * Cebra
+  * EcoBraille
+  * EuroBraille (AzerBraille, Clio, Esys, Iris, NoteBraille, Scriba)
+  * Freedom Scientific (Focus and PacMate)
+  * Handy Tech
+  * HIMS (Braille Sense, SyncBraille)
+  * HumanWare (Brailliant)
+  * Iris
+  * LogText 32
+  * MDV
+  * Metec (BD-40)
+  * NinePoint
+  * Papenmeier
+  * Pegasus
+  * Seika
+  * Tieman (Voyager, CombiBraille, MiniBraille, MultiBraille,
+            BraillePen/EasyLink)
+  * Tivomatic (Albatross)
+  * TSI (Navigator, PowerBraille)
+  * VideoBraille
+  * VisioBraille
+ .
+ BRLTTY also provides a client/server based infrastructure for applications
+ wishing to utilize a Braille display.  The daemon process listens for
+ incoming TCP/IP connections on a certain port.  A shared object library
+ for clients is provided in the package libbrlapi0.8.  A static library,
+ header files and documentation is provided in package libbrlapi-dev.
+ Bindings to other programming languages can be found in cl-brlapi (Lisp),
+ libbrlapi-java (Java) and python3-brlapi (Python).
+
+Package: build-essential
+Description-md5: 90ef0ef86cafda0bd16f746eb621d9da
+Description-el: Informational list of build-essential packages
+ Αν δεν πρόκειται να κατασκευάσετε πακέτα Debian δε χρειάζεστε αυτό το
+ πακέτο. Από την έκδοση 1.14.18 του dpkg και ύστερα αυτό το πακέτο
+ χρειάζεται για την κατασκευή πακέτων Debian.
+ .
+ This package contains an informational list of packages which are
+ considered essential for building Debian packages.  This package also
+ depends on the packages on that list, to make it easy to have the build-
+ essential packages installed.
+ .
+ If you have this package installed, you only need to install whatever a
+ package specifies as its build-time dependencies to build the package.
+ Conversely, if you are determining what your package needs to build-depend
+ on, you can always leave out the packages this package depends on.
+ .
+ This package is NOT the definition of what packages are build-essential;
+ the real definition is in the Debian Policy Manual. This package contains
+ merely an informational list, which is all most people need.   However, if
+ this package and the manual disagree, the manual is correct.
+
+Package: ca-certificates
+Description-md5: e867d2a359bea1800b5bff209fc65bd1
+Description-el: Κοινά πιστοποιητικά CA
+ Contains the certificate authorities shipped with Mozilla's browser to
+ allow SSL-based applications to check for the authenticity of SSL
+ connections.
+ .
+ Please note that Debian can neither confirm nor deny whether the
+ certificate authorities whose certificates are included in this package
+ have in any way been audited for trustworthiness or RFC 3647 compliance.
+ Full responsibility to assess them belongs to the local system
+ administrator.
+
+Package: comerr-dev
+Description-md5: 2188fc96978a9083bb050c70bc3cab2a
+Description-el: common error description library - headers and static libraries
+ libcom_err is an attempt to present a common error-handling mechanism to
+ manipulate the most common form of error code in a fashion that does not
+ have the problems identified with mechanisms commonly in use.
+ .
+ Το πακέτο αυτό περιλαμβάνει το περιβάλλον ανάπτυξης για τη βιβλιοθήκη
+ com_err.
+
+Package: cpp
+Description-md5: aa450f6a454bdd6b0d8d9862a9240255
+Description-el: GNU C preprocessor (cpp)
+ Ο προεπεξεργαστής GNU C είναι ένας επεξεργαστής μακροεντολών που
+ χρησιμοποιείται αυτόματα από το μεταγλωττιστή GNU C για να τροποποιήσει
+ προγράμματα πριν από την πραγματική μεταγλώττιση.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the compiler.
+ .
+ This is a dependency package providing the default GNU C preprocessor.
+
+Package: cpp-13-doc
+Description-md5: 22a9ba311e91d8d744a9e4df2030d2bf
+Description-el: Τεκμηρίωση για τον προεπεξεργαστή GNU C (cpp)
+ Τεκμηρίωση για τον προεπεξεργαστή GNU C σε μορφή «info».
+
+Package: cpp-aarch64-linux-gnu
+Description-md5: 847bfa1f1fa8ea6c301d29042617b520
+Description-el: GNU C preprocessor (cpp) for the arm64 architecture
+ Ο προεπεξεργαστής GNU C είναι ένας επεξεργαστής μακροεντολών που
+ χρησιμοποιείται αυτόματα από το μεταγλωττιστή GNU C για να τροποποιήσει
+ προγράμματα πριν από την πραγματική μεταγλώττιση.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for arm64
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the arm64 architecture.
+
+Package: cpp-arm-linux-gnueabihf
+Description-md5: 3ede27b920020c7d18e2f24cf4e4fb91
+Description-el: GNU C preprocessor (cpp) for the armhf architecture
+ Ο προεπεξεργαστής GNU C είναι ένας επεξεργαστής μακροεντολών που
+ χρησιμοποιείται αυτόματα από το μεταγλωττιστή GNU C για να τροποποιήσει
+ προγράμματα πριν από την πραγματική μεταγλώττιση.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for armhf
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the armhf architecture.
+
+Package: cpp-doc
+Description-md5: bedc30e6ac711bb807bb5f49569e8b35
+Description-el: Τεκμηρίωση για τον προεπεξεργαστή GNU C (cpp)
+ Documentation for the GNU C preprocessor in info format (dependency
+ package).
+
+Package: cpp-for-build
+Description-md5: 45bd906e0002b57184a287b6a98b9a3c
+Description-el: GNU C preprocessor (cpp) for the build architecture
+ Ο προεπεξεργαστής GNU C είναι ένας επεξεργαστής μακροεντολών που
+ χρησιμοποιείται αυτόματα από το μεταγλωττιστή GNU C για να τροποποιήσει
+ προγράμματα πριν από την πραγματική μεταγλώττιση.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the compiler.
+ .
+ When using cpp via this metapackage, all tools must be used without an
+ architecture prefix.
+
+Package: cpp-for-host
+Description-md5: f8eacd9f2ead585c3ac02e7200c3192f
+Description-el: GNU C preprocessor (cpp) for the host architecture
+ Ο προεπεξεργαστής GNU C είναι ένας επεξεργαστής μακροεντολών που
+ χρησιμοποιείται αυτόματα από το μεταγλωττιστή GNU C για να τροποποιήσει
+ προγράμματα πριν από την πραγματική μεταγλώττιση.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the compiler.
+ .
+ When using cpp via this metapackage, all tools must be used with an
+ architecture prefix.
+
+Package: cpp-i686-linux-gnu
+Description-md5: f0c7fc42e445847cc34131612b7ac74b
+Description-el: GNU C preprocessor (cpp) for the i386 architecture
+ Ο προεπεξεργαστής GNU C είναι ένας επεξεργαστής μακροεντολών που
+ χρησιμοποιείται αυτόματα από το μεταγλωττιστή GNU C για να τροποποιήσει
+ προγράμματα πριν από την πραγματική μεταγλώττιση.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for i386 architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the i386 architecture.
+
+Package: cpp-powerpc64le-linux-gnu
+Description-md5: 2e5c9173d04e923d48a3f7990f0cd11c
+Description-el: GNU C preprocessor (cpp) for the ppc64el architecture
+ Ο προεπεξεργαστής GNU C είναι ένας επεξεργαστής μακροεντολών που
+ χρησιμοποιείται αυτόματα από το μεταγλωττιστή GNU C για να τροποποιήσει
+ προγράμματα πριν από την πραγματική μεταγλώττιση.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for ppc64el
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the ppc64el architecture.
+
+Package: cpp-riscv64-linux-gnu
+Description-md5: 5a307b042c792c9410b683d2235294d2
+Description-el: GNU C preprocessor (cpp) for the riscv64 architecture
+ Ο προεπεξεργαστής GNU C είναι ένας επεξεργαστής μακροεντολών που
+ χρησιμοποιείται αυτόματα από το μεταγλωττιστή GNU C για να τροποποιήσει
+ προγράμματα πριν από την πραγματική μεταγλώττιση.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for riscv64
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the riscv64 architecture.
+
+Package: cpp-s390x-linux-gnu
+Description-md5: dc03ec196671c21e740c0d0ed3eb42bc
+Description-el: GNU C preprocessor (cpp) for the s390x architecture
+ Ο προεπεξεργαστής GNU C είναι ένας επεξεργαστής μακροεντολών που
+ χρησιμοποιείται αυτόματα από το μεταγλωττιστή GNU C για να τροποποιήσει
+ προγράμματα πριν από την πραγματική μεταγλώττιση.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for s390x
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the s390x architecture.
+
+Package: cpp-x86-64-linux-gnu
+Description-md5: 3fbc5e8c78ef39c4933d03ea07322966
+Description-el: GNU C preprocessor (cpp) for the amd64 architecture
+ Ο προεπεξεργαστής GNU C είναι ένας επεξεργαστής μακροεντολών που
+ χρησιμοποιείται αυτόματα από το μεταγλωττιστή GNU C για να τροποποιήσει
+ προγράμματα πριν από την πραγματική μεταγλώττιση.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for amd64
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the amd64 architecture.
+
+Package: dash
+Description-md5: 8d4d9c32c6b2b70328f7f774a0cc1248
+Description-el: Κέλυφος συμβατό με POSIX
+ To Debian Almquist Shell (dash) είναι ένα κέλυφος συμβατό με POSIX που
+ προήλθε από το ash.
+ .
+ Μιας και εκτελεί τα σενάρια γρηγορότερα από το bash, και έχει λιγότερες
+ εξαρτήσεις από βιβλιοθήκες (κάνοντας το πιο στιβαρό σε περιπτώσεις
+ αποτυχίας λογισμικού ή υλικού), χρησιμοποιείται ως προεπιλεγμένο κέλυφος
+ συστήματος στα συστήματα Debian.
+
+Package: desktop-file-utils
+Description-md5: b235afbde001f33936d80b8419f367f5
+Description-el: Εργαλεία για αρχεία .desktop
+ Some utilities to make dealing with .desktop files easier:
+  * update-desktop-database -- update the desktop-MIME mapping
+  * desktop-file-validate -- validate a desktop file
+  * desktop-file-install -- install a desktop file, munging en route.
+
+
+Package: dh-make
+Description-md5: 49189f3da1d1311b194d89a6376ec4e1
+Description-el: tool that converts source archives into Debian package source
+ This package allows you to take a standard (or upstream) source package
+ and convert it into a format that will allow you to build Debian packages.
+ .
+ Ύστερα από την προσθήκη απάντησης σε μερικές ερωτήσεις, στη συνέχεια το
+ dh_make προσφέρει ένα σύνολο προτύπων, μετά από μια μικρή επεξεργασία,  το
+ οποίο θα σας επιτρέπει να δημιουργείτε ένα πακέτο Debian.
+
+Package: doc-base
+Description-md5: 0c744430d509257c78d1c510663f42ac
+Description-el: utilities to manage online documentation
+ This package contains utilities to manage documentation installed on a
+ Debian system. It generates a database of document metadata, which other
+ packages such as dwww, dhelp, dochelp, and doc-central can use to provide
+ a catalog of available documentation.
+ .
+ Για περισσότερες πληροφορίες συμβουλευτείτε το Debian εγχειρίδιο χρήσης
+ του doc-base που περιέχεται σε αυτό το πακέτο.
+
+Package: dpkg-dev
+Description-md5: 2eaf4b4a1cef9584869950f3a52106fc
+Description-el: Εργαλεία ανάπτυξης για πακέτα Debian
+ Το πακέτο αυτό περιλαμβάνει τα εργαλεία ανάπτυξης (συμπεριλαμβανομένου του
+ dpkg-source) που απαιτούνται για την αποσυμπίεση, εγκατάσταση και αποστολή
+ πηγαίων πακέτων Debian.
+ .
+ Τα περισσότερα πηγαία πακέτα Debian θα απαιτήσουν επιπρόσθετα εργαλεία για
+ να εγκατασταθούν· για παράδειγμα, τα περισσότερα πακέτα χρειάζονται το
+ make και τον μεταγλωττιστή της C gcc.
+
+Package: dselect
+Description-md5: 269b383010cda7ddc3f6381398082aec
+Description-el: Debian package management front-end
+ Το dselect είναι μία υψηλού επιπέδου διεπαφή για τη διαχείριση, την
+ εγκατάσταση και την απομάκρυνση Debian πακέτων λογισμικού.
+ .
+ Πολλοί χρήστες βρίσκουν το dselect αποθαρρυντικό και οι νέοι χρήστες
+ προτιμούν να χρησιμοποιούν γραφικά περιβάλλοντα βασισμένα στο apt.
+
+Package: eog
+Description-md5: a17b1b698fda7b280b8e85d7b08c5d27
+Description-el: Πρόγραμμα προβολής γραφικών Eye of GNOME
+ Το eog ή αλλιώς Eye of GNOME είναι ένα απλό πρόγραμμα προβολής γραφικών
+ για επιφάνεια εργασίας GNOME που χρησιμοποιεί τη βιβλιοθήκη gdk-pixbuf.
+ Μπορεί να διαχειριστεί μεγάλες εικόνες, να κάνει μεγέθυνση και μετακίνηση
+ με συνεχή χρήση μνήμης.  Οι στόχοι του είναι η απλότητα και η συμμόρφωση
+ προτύπων.
+
+Package: file-roller
+Description-md5: 38d3e4bf80de5287311da5585810d3db
+Description-el: archive manager for GNOME
+ Το File-roller είναι ένας διαχειριστής αρχείων για περιβάλλον GNOME. Σας
+ επιτρέπει να:
+ .
+  * Δημιουργήσετε και να επεξεργαστείτε αρχεία.
+  * Προβάλλετε τα περιεχόμενα ενός αρχείου.
+  * Προβολή αρχείου που περιέχεται σε αρχείο.
+  * Εξαγωγή αρχείων από το αρχείο.
+ .
+ File-roller supports the following formats:
+  * Tar (.tar) archives, including those compressed with
+    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),
+    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),
+    lzma (.tar.lzma) and xz (.tar.xz)
+  * Zip archives (.zip)
+  * Jar archives (.jar, .ear, .war)
+  * 7z archives (.7z)
+  * iso9660 CD images (.iso)
+  * Lha archives (.lzh)
+  * Archiver archives (.ar)
+  * Comic book archives (.cbz)
+  * Single files compressed with gzip (.gz), bzip (.bz), bzip2 (.bz2),
+    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)
+ .
+ File-roller can extract following formats:
+  * Cabinet archives (.cab)
+  * Debian binary packages (.deb)
+  * Xar archives (.xar)
+ .
+ Το File-roller δεν εκτελεί λειτουργίες αρχείου μόνο, αλλά βασίζεται σε
+ βασικά εργαλεία για αυτό.
+
+Package: gir1.2-gkbd-3.0
+Description-md5: 16f5d54ee1cc6d63963a1713fa8aea2c
+Description-el: GObject introspection data for the GnomeKbd library
+ το libgnomekbd προσφέρει ένα API για τη διαχείριση του πληκτρολογίου σε
+ εφαρμογές GNOME.
+ .
+ libgnomekbdui offers an API to display a graphical user interface for
+ libgnomekbd operations.
+ .
+ This package contains introspection data for the GnomeKbd library.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
+Package: gir1.2-gnomebluetooth-3.0
+Description-md5: eaf5b6e0a4c10828824d324c8ac01ee5
+Description-el: Introspection data for GnomeBluetooth
+ Αυτό το πακέτο περιέχει εργαλεία για τη διαχείριση και το χειρισμό
+ Bluetooth συσκευών χρησιμοποιώντας την επιφάνεια εργασίας GNOME.
+ .
+ The libraries included provide support to gnome-bluetooth.
+ .
+ This package contains the introspection data for GnomeBluetooth
+
+Package: gir1.2-gst-plugins-base-1.0
+Description-md5: b3ee9d18697c0db6a7a856f56ea20867
+Description-el: GObject introspection data for the GStreamer Plugins Base library
+ This package contains introspection data for the GStreamer Plugins Base
+ library.
+ .
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
+Package: gir1.2-gstreamer-1.0
+Description-md5: 690d41f7ae6f89096e0ae65e4d4ffe68
+Description-el: GObject introspection data for the GStreamer library
+ This package contains introspection data for the GStreamer streaming media
+ framework.
+ .
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
+Package: gkbd-capplet
+Description-md5: 65ffcddd4edc575be93bb55c3d0acc08
+Description-el: GNOME control center tools for libgnomekbd
+ το libgnomekbd προσφέρει ένα API για τη διαχείριση του πληκτρολογίου σε
+ εφαρμογές GNOME.
+ .
+ This package contains a helper for the GNOME control center to configure
+ and display keyboard mappings.
+
+Package: gnome-calculator
+Description-md5: edf337f4e3963467c2997a13fc81ad2a
+Description-el: Αριθμομηχανή επιφάνειας εργασίας για GNOME
+ The GNOME calculator is a powerful graphical calculator with financial,
+ logical and scientific modes. It uses a multiple precision package to do
+ its arithmetic to give a high degree of accuracy.
+
+Package: gnome-menus
+Description-md5: 340ecd22d4f56c95b252e114631d7311
+Description-el: GNOME implementation of the freedesktop menu specification
+ Αυτό το πακέτο περιέχει μια υλοποίηση του σχεδίου "Προδιαγραφή Μενού
+ Επιφάνειας Εργασίας" από το freedesktop.org:
+ .
+ http://www.freedesktop.org/Standards/menu-spec
+ .
+ Επίσης περιλαμβάνονται εδώ τα αρχεία ρύθμισης διάταξης μενού, αρχεία
+ .directory και βοηθητικά προγράμματα που σχετίζονται με ποικίλα μενού.
+
+Package: gnome-power-manager
+Description-md5: 1ece6a08127f01c856017ac9675775b5
+Description-el: Εργαλείο διαχείρισης ισχύος για την επιφάνεια εργασίας GNOME
+ Ο Διαχειριστής Ισχύος GNOME είναι ένας δαίμονας συνόδου για την επιφάνεια
+ εργασίας GNOME φροντίζει γεγονότα συστήματος ή επιφάνειας εργασίας σχετικά
+ με την ισχύ, και πυροδοτεί ενέργειες ανάλογα. Η φολοσοφία του είναι να
+ κρύψει τελείως αυτές τις πολύπλοκες εργασίες και να εμφανίζει μόνο κάποιες
+ ρυθμίσεις σημαντικές για τον χρήστη.
+ .
+ GNOME power manager displays and manages battery status, power plug
+ events, display brightness, CPU, graphics card and hard disk drive power
+ saving, and can trigger suspend-to-RAM, hibernate or shutdown events, all
+ integrated to other components of the GNOME desktop.
+
+Package: gnome-system-monitor
+Description-md5: bb5488674b14e5248e88189686b54d2d
+Description-el: Επιμελητής προβολής διεργασιών και πόρων συστήματος για GNOME
+ Αυτό το πακέτο σας επιτρέπει να προβάλετε γραφικά και χειρίζεστε όλες τις
+ διεργασίες που τρέχουν στο σύστημά σας.  Επίσης παρέχει μια επισκόπηση των
+ διαθέσιμων πόρων όπως ΚΜΕ και μνήμη.
+
+Package: gnome-terminal
+Description-md5: c385379e72ae70e0ca5a4dee09859951
+Description-el: GNOME terminal emulator application
+ GNOME Terminal is a terminal emulation application that you can use to perform the following actions:
+  - Access a UNIX shell in the GNOME environment.
+  - Run any application that is designed to run on VT102, VT220, and xterm
+  terminals.
+ .
+ Το Τερματικό GNOME διαθέτει την ικανότητα να χρησιμοποιεί πολλαπλά
+ τερματικά σε ένα μόνο παράθυρο (καρτέλες) και υποστήριξη προφίλ.
+
+Package: gparted
+Description-md5: 1caa85feb72cd19af74db3487848870c
+Description-el: επεξεργαστής κατατμήσεων GNOME
+ Το GParted βασίζεται στη βιβλιοθήκη libparted για να εντοπίζει και να
+ επεξεργάζεται συσκευές αποθήκευσης και πίνακες κατάτμησης. Μπορείτε να
+ δημιουργείτε κατατμήσεις, να αντιγράφετε, να διαγράφετε, να μετακινείτε
+ και άλλες σχετικές ενέργειες. Διάφορα άλλα (προαιρετικά) εργαλεία παρέχουν
+ υποστήριξη για συστήματα αρχείων που δεν περιλαμβάνονται στη βιβλιοθήκη
+ libparted.
+
+Package: gparted-common
+Description-md5: 8897121522406d93fc1db73f22b92ca4
+Description-el: GNOME partition editor -- common data
+ Το GParted βασίζεται στη βιβλιοθήκη libparted για να εντοπίζει και να
+ επεξεργάζεται συσκευές αποθήκευσης και πίνακες κατάτμησης. Μπορείτε να
+ δημιουργείτε κατατμήσεις, να αντιγράφετε, να διαγράφετε, να μετακινείτε
+ και άλλες σχετικές ενέργειες. Διάφορα άλλα (προαιρετικά) εργαλεία παρέχουν
+ υποστήριξη για συστήματα αρχείων που δεν περιλαμβάνονται στη βιβλιοθήκη
+ libparted.
+ .
+ This package contains architecture-independent data, such as documentation
+ and help, icons, and application metadata.
+
+Package: gpgv
+Description-md5: 4ea8f4f4d6a0a387a4a3aeba3e6cc888
+Description-el: διασφάλιση ιδιωτικότητας του GNU - εργαλείο επιβεβαίωσης υπογραφής
+ GnuPG is GNU's tool for secure communication and data storage.
+ .
+ gpgv is actually a stripped-down version of gpg which is only able to
+ check signatures. It is somewhat smaller than the fully-blown gpg and uses
+ a different (and simpler) way to check that the public keys used to make
+ the signature are valid. There are no configuration files and only a few
+ options are implemented.
+
+Package: gstreamer1.0-alsa
+Description-md5: 339f038172c486f3cef220df0c0e5ac4
+Description-el: GStreamer plugin for ALSA
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ This package contains the GStreamer plugin for the ALSA library.  ALSA is
+ the Advanced Linux Sound Architecture.
+
+Package: gstreamer1.0-gl
+Description-md5: bf297887fc963973c7834f126d83e02d
+Description-el: GStreamer plugins for GL
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ This package contains the GStreamer plugins for GL.
+
+Package: gstreamer1.0-gtk3
+Description-md5: c79f4ede217ec8cc138bb67e7e775fde
+Description-el: GStreamer plugin for GTK+3
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ This package contains the GStreamer plugin for GTK+3.
+
+Package: gstreamer1.0-plugins-base
+Description-md5: 73eb82d2de7fe71e4455e1742423e3e3
+Description-el: GStreamer plugins from the "base" set
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ This package contains the GStreamer plugins from the "base" set, an
+ essential exemplary set of elements.
+
+Package: gstreamer1.0-plugins-base-apps
+Description-md5: 72cc51baa52c95f36129fb0f74a62970
+Description-el: GStreamer helper programs from the "base" set
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ This package contains helper programs from the "base" set, an essential
+ exemplary set of elements.
+
+Package: gstreamer1.0-plugins-good
+Description-md5: 5af11b405c70a6a41fff183475cb6042
+Description-el: GStreamer plugins from the "good" set
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ This package contains the GStreamer plugins from the "good" set, a set of
+ good-quality plug-ins under the LGPL license.
+
+Package: gstreamer1.0-tools
+Description-md5: 909df9df4ba32a53040e4e54751c1cfa
+Description-el: Tools for use with GStreamer
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ This package contains versioned command-line tools for GStreamer.
+
+Package: gstreamer1.0-x
+Description-md5: f30e1dbce14d6ece228c6b4e6dfdfdbd
+Description-el: GStreamer plugins for X11 and Pango
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ This package contains the GStreamer plugins for X11 video output, both for
+ standard Xlib support and for the Xv extension, as well as the plugin for
+ Pango-based text rendering and overlay.
+
+Package: hostname
+Description-md5: a5a22acc3c69a7f40f07f1a8dfc93af1
+Description-el: βοήθημα για τον ορισμό/εμφάνιση του ονόματος οικοδεσπότη ή του ονόματος χώρου
+ Αυτό το πακέτο παρέχει εντολές οι οποίες μπορούν να χρησιμοποιηθούν για να
+ προβληθεί το όνομα DNS του συστήματος, και να προβληθεί η ορισθεί το
+ hostname του ή το NIS domain name.
+
+Package: ibus-chewing
+Description-md5: 41b0580d9f7567a74d302851c00d4d6c
+Description-el: Chewing engine for IBus
+ Το IBus είναι ένας Ευφυής Δίαυλος Εισόδου. Είναι ένα νέο πλαίσιο εισόδου
+ για Linux OS. Παρέχει πλήρη και φιλική προς το χρήστη διεπαφή μεθόδου
+ εισαγωγής. Μπορεί επίσης να βοηθήσει τους προγραμματιστές να αναπτύξουν
+ μέθοδο εισαγωγής εύκολα.
+ .
+ IBus-chewing is a IBus based IM Engine for Traditional Chinese
+
+Package: ibus-hangul
+Description-md5: 27773568696d2739f50262d3471be20b
+Description-el: Hangul engine for IBus
+ Το IBus είναι ένας Ευφυής Δίαυλος Εισόδου. Είναι ένα νέο πλαίσιο εισόδου
+ για Linux OS. Παρέχει πλήρη και φιλική προς το χρήστη διεπαφή μεθόδου
+ εισαγωγής. Μπορεί επίσης να βοηθήσει τους προγραμματιστές να αναπτύξουν
+ μέθοδο εισαγωγής εύκολα.
+ .
+ IBus-Hangul is a Korean input method engine for IBus.
+
+Package: ibus-mozc
+Description-md5: 88b12aa5cdc5ae186ce940b50e7ee25b
+Description-el: Mozc engine for IBus - Client of the Mozc input method
+ Το IBus είναι ένας Ευφυής Δίαυλος Εισόδου. Είναι ένα νέο πλαίσιο εισόδου
+ για Linux OS. Παρέχει πλήρη και φιλική προς το χρήστη διεπαφή μεθόδου
+ εισαγωγής. Μπορεί επίσης να βοηθήσει τους προγραμματιστές να αναπτύξουν
+ μέθοδο εισαγωγής εύκολα.
+ .
+ Mozc is a Japanese Input Method Editor (IME) designed for multi-platform
+ such as Chromium OS, Windows, Mac and Linux.
+ .
+ ibus-mozc provides client part of the Mozc input method.
+ .
+ This open-source project originates from Google Japanese Input.
+
+Package: ibus-unikey
+Description-md5: 985e023e854ac292f0b39058569a0321
+Description-el: Vietnamese Input Method Engine for IBus using Unikey Engine
+ Το IBus είναι ένας Ευφυής Δίαυλος Εισόδου. Είναι ένα νέο πλαίσιο εισόδου
+ για Linux OS. Παρέχει πλήρη και φιλική προς το χρήστη διεπαφή μεθόδου
+ εισαγωγής. Μπορεί επίσης να βοηθήσει τους προγραμματιστές να αναπτύξουν
+ μέθοδο εισαγωγής εύκολα.
+ .
+ Ibus-Unikey is a Vietnamese input method for Ibus Use Unikey engine to
+ process keyevent
+
+Package: init-system-helpers
+Description-md5: facafbf6c4b9fd95c34e95938629ecef
+Description-el: βοηθητικά εργαλεία για όλα τα συστήματα init
+ Αυτό το πακέτο περιέχει βοηθητικά εργαλεία που είναι απαραίτητα για
+ εναλλαγή μεταξύ των διαφόρων συστημάτων init που περιέχει το Debian (π.χ.
+ sysvinit ή systemd). Ένα παράδειγμα είναι το deb-systemd-helper, ένα
+ σενάριο το οποίο ενεργοποιεί τα systemd unit files χωρίς να εξαρτάται από
+ ένα systemd που ήδη τρέχει.
+ .
+ Επίσης περιλαμβάνει τα σενάρια "service", "invoke-rc.d" και "update-rc.d"
+ που παρέχουν ένα επίπεδο για ενεργοποίηση, απενεργοποίηση, εκκίνηση και
+ σταμάτημα υπηρεσιών για όλα τα υποστηριζόμενα συστήματα init του Debian
+ όπως καθορίζεται από την πολιτική.
+ .
+ Αν και αυτό το πακέτο συντηρείται από τους pkg-systemd-maintainers, ΔΕΝ
+ είναι καθόλου συσχετισμένο με το systemd. Οι συντηρητές από άλλα συστήματα
+ init είναι καλοδεχούμενοι να συμπεριλάβουν τα helper τους σε αυτό το
+ πακέτο.
+
+Package: language-selector-gnome
+Description-md5: 8b3b51c42b05b0c0a7cd417b01a9ae59
+Description-el: Language selector frontend for Ubuntu
+ This package lets you change and install language packs in Ubuntu.
+ .
+ Αυτό το πακέτο περιέχει την πρόσοψη GTK+.
+
+Package: libbison-dev
+Description-md5: 9e58100d40bcef7ed1b8baab2a762770
+Description-el: YACC-compatible parser generator - development library
+ Το Bison είναι μια γεννήτρια συντακτικών αναλυτών γενικής χρήσης που
+ μετατρέπει την περιγραφή μιας γραμματικής χωρίς συμφραζόμενα LALR(1) σε
+ ένα πρόγραμμα σε C που μπορεί να διαβάσει αυτήν τη γραμματική. Με το Bison
+ μπορείτε να αναπτύξετε συντακτικούς αναλυτές για πολλές γλώσσες, από απλές
+ γλώσσες αριθμομηχανών μέχρι πολύπλοκες γλώσσες προγραμματισμού.
+ .
+ This package provides the liby.a file including functions needed by yacc
+ parsers.
+
+Package: libgnome-bluetooth-3.0-13
+Description-md5: fb7ffa4304333886aac7571979da9db7
+Description-el: GNOME Bluetooth 3 support library
+ Αυτό το πακέτο περιέχει εργαλεία για τη διαχείριση και το χειρισμό
+ Bluetooth συσκευών χρησιμοποιώντας την επιφάνεια εργασίας GNOME.
+ .
+ The libraries included provide support to gnome-bluetooth.
+
+Package: libgnome-bluetooth-doc
+Description-md5: 631187083f27f11e0881bac7f9be9b73
+Description-el: GNOME Bluetooth 3 support library - reference docs
+ Αυτό το πακέτο περιέχει εργαλεία για τη διαχείριση και το χειρισμό
+ Bluetooth συσκευών χρησιμοποιώντας την επιφάνεια εργασίας GNOME.
+ .
+ This package contains the API reference.
+
+Package: libgnome-bluetooth-ui-3.0-13
+Description-md5: 6a50bbba416665e56a82444653433f40
+Description-el: GNOME Bluetooth 3 UI support library
+ Αυτό το πακέτο περιέχει εργαλεία για τη διαχείριση και το χειρισμό
+ Bluetooth συσκευών χρησιμοποιώντας την επιφάνεια εργασίας GNOME.
+ .
+ The libraries included provide support to gnome-bluetooth.
+
+Package: libgnome-menu-3-0
+Description-md5: c6885fb9ed6a22440597626b04ff66f5
+Description-el: GNOME implementation of the freedesktop menu specification
+ Αυτό το πακέτο περιέχει μια υλοποίηση του σχεδίου "Προδιαγραφή Μενού
+ Επιφάνειας Εργασίας" από το freedesktop.org:
+ .
+ http://www.freedesktop.org/Standards/menu-spec
+ .
+ Επίσης περιλαμβάνονται εδώ τα αρχεία ρύθμισης διάταξης μενού, αρχεία
+ .directory και βοηθητικά προγράμματα που σχετίζονται με ποικίλα μενού.
+ .
+ This package contains the shared library.
+
+Package: libgnomekbd-common
+Description-md5: 5975fb27dd14bb43c79c9935c681f328
+Description-el: GNOME library to manage keyboard configuration - common files
+ το libgnomekbd προσφέρει ένα API για τη διαχείριση του πληκτρολογίου σε
+ εφαρμογές GNOME.
+ .
+ libgnomekbdui offers an API to display a graphical user interface for
+ libgnomekbd operations.
+ .
+ This package contains files common to the various libgnomekbd packages.
+
+Package: libgnomekbd8
+Description-md5: af3a5d9e866a2d8042968d3f6510a8a8
+Description-el: GNOME library to manage keyboard configuration - shared library
+ το libgnomekbd προσφέρει ένα API για τη διαχείριση του πληκτρολογίου σε
+ εφαρμογές GNOME.
+ .
+ libgnomekbdui offers an API to display a graphical user interface for
+ libgnomekbd operations.
+ .
+ This package contains the shared library.
+
+Package: libgstreamer-gl1.0-0
+Description-md5: 91854c9a804af0893eda4cef0fa8ed83
+Description-el: GStreamer GL libraries
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ This package contains the GL library.
+
+Package: libgstreamer-plugins-base1.0-0
+Description-md5: 1f83d48f1815b1413bf5322dc753ba59
+Description-el: GStreamer libraries from the "base" set
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ This package contains libraries from the "base" set, an essential
+ exemplary set of elements.
+
+Package: libgstreamer-plugins-base1.0-dev
+Description-md5: 0acc042058e8c9e8d17fbca59836d2a0
+Description-el: GStreamer development files for libraries from the "base" set
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ This package contains development files for GStreamer libraries from the
+ "base" set, an essential exemplary set of elements.
+
+Package: libgstreamer-plugins-good1.0-0
+Description-md5: 99c064697a600533c69cdc00ad0f48ac
+Description-el: GStreamer development files for libraries from the "good" set
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ This package contains shared GStreamer libraries from the "good" set. The
+ API is not guaranteed to be stable.
+
+Package: libgstreamer-plugins-good1.0-dev
+Description-md5: d5b042b5551683fe8cf1d03a80a7c168
+Description-el: GStreamer development files for libraries from the "good" set
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ This package contains development files for GStreamer libraries from the
+ "good" set. The API is not guaranteed to be stable.
+
+Package: libgstreamer1.0-0
+Description-md5: f08b5d59945781d0a8d4897e45d5a847
+Description-el: Core GStreamer libraries and elements
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ This package contains the core library and elements.
+
+Package: libgstreamer1.0-dev
+Description-md5: de1692260510350a48f76ec91eae40a9
+Description-el: GStreamer core development files
+ Το GStreamer είναι ένα πλαίσιο ροής πολυμέσων, βασισμένο σε διαγράμματα
+ φίλτρων που λειτουργούν με δεδομένα πολυμέσων.  Οι εφαρμογές που
+ χρησιμοποιούν αυτή τη βιβλιοθήκη μπορούν να κάνουν τα πάντα από
+ επεξεργασία ήχου πραγματικού-χρόνου σε αναπαραγωγή βίντεο, και σχεδόν
+ οτιδήποτε άλλο σχετικό με πολυμέσα.  Η αρχιτεκτονική του βασισμένη σε
+ πρόσθετα σημαίνει ότι καινούριοι τύποι δεδομένων ή δυνατότητες
+ επεξεργασίας μπορούν να προστεθούν απλά εγκαθιστώντας νέα πρόσθετα.
+ .
+ This package contains development files for the core library and elements.
+
+Package: libmail-dkim-perl
+Description-md5: b1421cf8c7be9adc4d6bcfe00d4713d2
+Description-el: module to cryptographically identify the sender of email
+ To RFC 4871, δηλαδή το DomainKeys Identified Mail (DKIM), ορίζει ένα
+ πλαίσιο πιστοποίησης σε επίπεδο συστήματος για ηλεκτρονική αλληλογραφία,
+ χρησιμοποιώντας δημόσιο κλειδί και τεχνολογία διακομιστή κλειδιών για την
+ εξουσιοδότηση της επιβεβαίωσης κάποιας πηγής και των περιεχομένων των
+ μηνυμάτων είτε από το Mail Transport Agents (MTAs) ή το Mail User Agents
+ (MUAs).
+ .
+ Mail::DKIM is a Perl implementation created by Jason Long of Messiah
+ College. It performs signing as well as signature verification. It also
+ supports the older DomainKeys standard.
+ .
+ This library further includes support for adding and verifying
+ Authenticated Received Chain (ARC; RFC 8617) assertions.
+
+Package: nautilus-extension-gnome-terminal
+Description-md5: 50c7939faa3af14d1b31cd393715dd4e
+Description-el: GNOME terminal emulator application - Nautilus extension
+ GNOME Terminal is a terminal emulation application that you can use to perform the following actions:
+  - Access a UNIX shell in the GNOME environment.
+  - Run any application that is designed to run on VT102, VT220, and xterm
+  terminals.
+ .
+ Το Τερματικό GNOME διαθέτει την ικανότητα να χρησιμοποιεί πολλαπλά
+ τερματικά σε ένα μόνο παράθυρο (καρτέλες) και υποστήριξη προφίλ.
+ .
+ This package contains the extension for Nautilus, the GNOME Files app.
+
+Package: network-manager-gnome
+Description-md5: bdee3234d21720f04895a1051744f5d1
+Description-el: πλαίσιο διαχείρισης δικτύου (πρόσοψη GNOME)
+ NetworkManager is a system network service that manages your network
+ devices and connections, attempting to keep active network connectivity
+ when available. It manages ethernet, WiFi, mobile broadband (WWAN), and
+ PPPoE devices, and provides VPN integration with a variety of different
+ VPN services.
+ .
+ This package contains a systray applet for GNOME's notification area but
+ it also works for other desktop environments which provide a systray like
+ KDE or Xfce. It displays the available networks and allows users to easily
+ switch between them. For encrypted networks it will prompt the user for
+ the key/passphrase and it can optionally store them in the gnome-keyring.
+
+Package: nvidia-settings
+Description-md5: 9bb7c34dc84550e6fff415c0eb0eda37
+Description-el: Tool for configuring the NVIDIA graphics driver
+ Το βοήθημα nvidia-settings είναι ένα εργαλείο για τη ρύθμιση του οδηγού
+ γραφικών NVIDIA Linux.  Λειτουργεί επικοινωνώντας με τον οδηγό NVIDIA X,
+ υποβάλλοντας αιτήματα και ενημερώνοντας την κατάσταση ανάλογα με την
+ περίπτωση.  Αυτή η επικοινωνία γίνεται την επέκταση NV-CONTROL X.
+ .
+ Αξίες όπως φωτεινότητα και γάμμα, ιδιότητες XVideo, θερμοκρασία, και
+ ρυθμίσεις OpenGL μπορούν να ερωτηθούν και να ρυθμιστούν μέσω του nvidia-
+ settings.
+
+Package: openjdk-17-jre
+Description-md5: 13097853553de1ab39cc189225a9cbaa
+Description-el: OpenJDK εγκατάσταση Java, χρησιμοποιώντας Hotspot JIT
+ Full Java runtime environment - needed for executing Java GUI and Webstart
+ programs, using Hotspot JIT.
+
+Package: openjdk-21-jre
+Description-md5: 13097853553de1ab39cc189225a9cbaa
+Description-el: OpenJDK εγκατάσταση Java, χρησιμοποιώντας Hotspot JIT
+ Full Java runtime environment - needed for executing Java GUI and Webstart
+ programs, using Hotspot JIT.
+
+Package: orca
+Description-md5: 7e9825746bd4509b700a0a82b5f84c0b
+Description-el: Scriptable screen reader
+ A flexible, extensible, and powerful assistive technology that provides
+ end-user access to applications and toolkits that support the AT-SPI
+ (e.g., the GNOME desktop).
+ .
+ Το Orca ορίζει ένα σύνολο προεπιλεγμένων συμπεριφορών (αντιδράσεις σε
+ γεγονότα αίτησης) και δεσμεύσεων πλήκτρων (αντίδραση στο πάτημα πλήκτρων
+ από το χρήστη). Αυτές οι προεπιλεγμένες συμπεριφορές και δεσμεύσεις
+ κλειδιών μπορούν να αντικατασταθούν σε ανά-εφαρμογή βάση. Το Orca
+ δημιουργεί ένα αντικείμενο σεναρίου για κάθε εφαρμογή που τρέχει, το οποίο
+ συγχωνεύει και τις προεπιλεγμένες συμπεριφορές και τα δεσμευμένα κλειδιά,
+ και τα ειδικά για κάθε εφαρμογή. Το Orca παρέχει την υποδομή για να
+ ενεργοποιεί και να απενεργοποιεί τα σενάρια, καθώς και μια σειρά από
+ υπηρεσίες προσβάσιμες μέσα από τα σενάρια.
+
+Package: python3-software-properties
+Description-md5: 2404b69e069f73169a1d424cb63f1d53
+Description-el: διαχειριστείτε τους χώρους απόθεσης από τους οποίους εγκαθιστάτε λογισμικό
+ Αυτό το λογισμικό παρέχει μια αφαίρεση των χρησιμοποιούμενων χώρων
+ απόθεσης. Σας επιτρέπει να διαχειρίζεστε εύκολα τις πηγές λογισμικού του
+ λογισμικού διανομής και του ανεξάρτητο λογισμικό σας.
+
+Package: rhythmbox
+Description-md5: 263e21c49721f582dd2ee234ff4fedb7
+Description-el: πρόγραμμα αναπαραγωγής μουσικής και οργανωτής για GNOME
+ Το Rhythmbox είναι ένα πολύ απλό στη χρήση πρόγραμμα αναπαραγωγής και
+ διαχείρισης μουσικής που υποστηρίζει ένα ευρύ φάσμα μορφών ήχου
+ (συμπεριλαμβάνοντας mp3 και ogg). Αρχικά εμπνευσμένο από το iTunes της
+ Apple, η τρέχουσα έκδοση υποστηρίζει επίσης Ραδιόφωνο Internet, ενσωμάτωση
+ iPod και γενική υποστήριξη φορητών συσκευών ήχου, εγγραφή CD ήχου,
+ αναπαραγωγή CD ήχου, μοίρασμα μουσικής, και Podcasts.
+
+Package: rhythmbox-data
+Description-md5: 42958a23b3c14ae41a3238d088043e3e
+Description-el: data files for rhythmbox
+ Το Rhythmbox είναι ένα πολύ απλό στη χρήση πρόγραμμα αναπαραγωγής και
+ διαχείρισης μουσικής που υποστηρίζει ένα ευρύ φάσμα μορφών ήχου
+ (συμπεριλαμβάνοντας mp3 και ogg). Αρχικά εμπνευσμένο από το iTunes της
+ Apple, η τρέχουσα έκδοση υποστηρίζει επίσης Ραδιόφωνο Internet, ενσωμάτωση
+ iPod και γενική υποστήριξη φορητών συσκευών ήχου, εγγραφή CD ήχου,
+ αναπαραγωγή CD ήχου, μοίρασμα μουσικής, και Podcasts.
+ .
+ This package contains pictures, localization files and other data needed
+ by rhythmbox.
+
+Package: rhythmbox-plugins
+Description-md5: 65ef9a9b2e372031a3ca07a0b4e3427c
+Description-el: πρόσθετα για την εφαρμογή αναπαραγωγής μουσικής rhythmbox
+ Το Rhythmbox είναι ένα πολύ απλό στη χρήση πρόγραμμα αναπαραγωγής και
+ διαχείρισης μουσικής που υποστηρίζει ένα ευρύ φάσμα μορφών ήχου
+ (συμπεριλαμβάνοντας mp3 και ogg). Αρχικά εμπνευσμένο από το iTunes της
+ Apple, η τρέχουσα έκδοση υποστηρίζει επίσης Ραδιόφωνο Internet, ενσωμάτωση
+ iPod και γενική υποστήριξη φορητών συσκευών ήχου, εγγραφή CD ήχου,
+ αναπαραγωγή CD ήχου, μοίρασμα μουσικής, και Podcasts.
+ .
+ This package contains the following plugins:
+  - Cover art search
+  - Audio CD Player
+  - Last.fm
+  - DAAP Music Sharing
+  - FM Radio
+  - Grilo media browser
+  - IM Status
+  - Internet Radio
+  - Song Lyrics
+  - Magnatune Store
+  - Media Player Keys
+  - Portable Players (generic, iPod, MTP)
+  - Notification
+  - Power Manager
+  - Python Console
+  - LIRC
+  - Replay Gain
+  - MediaServer2 D-Bus interface
+  - MPRIS D-Bus interface
+  - Web remote control
+
+
+Package: seahorse
+Description-md5: 183c443db6e087b1bdd4087786203c38
+Description-el: πρόσοψη GNOME για GnuPG
+ Seahorse is a front end for GnuPG - the GNU Privacy Guard program - that
+ integrates to the GNOME desktop. It is a tool for secure communications
+ and data storage.  Data encryption and digital signature creation can
+ easily be performed through a GUI and Key Management operations can easily
+ be carried out through an intuitive interface.
+
+Package: software-properties-common
+Description-md5: d19f432480048ad00ac5c2bfd116cd00
+Description-el: manage the repositories that you install software from (common)
+ Αυτό το λογισμικό παρέχει μια αφαίρεση των χρησιμοποιούμενων χώρων
+ απόθεσης. Σας επιτρέπει να διαχειρίζεστε εύκολα τις πηγές λογισμικού του
+ λογισμικού διανομής και του ανεξάρτητο λογισμικό σας.
+ .
+ This package contains the common files for software-properties like the
+ D-Bus backend.
+
+Package: software-properties-gtk
+Description-md5: 1912baba2086cd851f5a53b65d6c9eea
+Description-el: manage the repositories that you install software from (gtk)
+ Αυτό το λογισμικό παρέχει μια αφαίρεση των χρησιμοποιούμενων χώρων
+ απόθεσης. Σας επιτρέπει να διαχειρίζεστε εύκολα τις πηγές λογισμικού του
+ λογισμικού διανομής και του ανεξάρτητο λογισμικό σας.
+ .
+ Αυτό το πακέτο περιέχει μια γραφική διεπαφή βασισμένη σε GTK+.
+
+Package: spamassassin
+Description-md5: 57aa0023793e736d071444c63b04f053
+Description-el: φίλτρο ανεπιθύμητης αλληλογραφίας, βασισμένο σε Perl, χρησιμοποιώντας ανάλυση κειμένου
+ Το SpamAssassin είναι ένα ισχυρό και πλήρως διαμορφώσιμο φίλτρο
+ ανεπιθύμητης αλληλογραφίας με πολλά χαρακτηριστικά όπως αυτόματο white-
+ listing, έλεγχος RBL, ανάλυση Bayesian, ανάλυση κειμένου κεφαλίδας και
+ σώματος. Είναι σχεδιασμένο να καλείται από έναν αρχείο χρήστη .procmail or
+ .forward, αλλά μπορεί επίσης να είναι ενσωματωμένο σε ένα Πράκτορα
+ Μεταφοράς Mail (MTA).
+ .
+ If you use spamassassin on a moderately high-volume mail server, you may
+ which to consider installing the spamc and spamd packages, which provide a
+ daemonized variant of spamassassin that avoids the need to start a full
+ perl runtime for each message processed.
+
+Package: tk8.6-blt2.5
+Description-md5: f2cf073b47eb71bb74c64136d9c7d699
+Description-el: graphics extension library for Tcl/Tk - library
+ Η BLT είναι μια βιβλιοθήκη χρήσιμων επεκτάσεων της γλώσσας Tcl και της
+ δημοφιλούς εργαλειοθήκης γραφικών Tk. Στην Tcl προσθέτει τύπους δεδομένων
+ διανύσματος και δέντρου, εκτέλεση στο παρασκήνιο και εργαλεία
+ αποσφαλμάτωσης. Στην Tk προσθέτει αρκετά νέα στοιχεία γραφικών (widgets),
+ που περιλαμβάνουν γραφικές παραστάσεις, ραβδογράμματα, δέντρα,
+ επικεφαλίδες (tabs), καμπύλες (splines) και υπερσυνδέσμους, έναν νέο
+ διαχειριστή γεωμετρίας, υποστήριξη σύρε-και-άφησε (drag & drop), και άλλα
+ χαρακτηριστικά.
+ .
+ Αυτό το πακέτο περιλαμβάνει όλα όσα χρειάζεστε για να χρησιμοποιήσετε BLT
+ με Tcl/ Tk σενάρια και Tcl/Tk-enabled εφαρμογές.
+
+Package: totem
+Description-md5: 3773374b409bb5710c492c328fe37f78
+Description-el: Simple media player for the GNOME desktop based on GStreamer
+ Το Totem είναι ένα απλό αλλά πλήρες πρόγραμμα αναπαραγωγής πολυμέσων για
+ GNOME το οποίο μπορεί να διαβάσει ένα μεγάλο αριθμό μορφών αρχείων.
+ Διαθέτει :
+ .
+    * Υποστήριξη λιστών αναπαραγωγής Shoutcast, m3u, asx, SMIL και ra
+    * Αναπαραγωγή DVD (με μενού), VCD και Digital CD (με CDDB)
+    * Διαμόρφωση TV-Out με προαιρετική αλλαγή ανάλυσης
+    * 4.0, 5.0, 5.1 και έξοδο στερεοφωνικού ήχου
+    * Προβολή πλήρους οθόνης (μετακινήστε το ποντίκι σας για να έχετε ωραίους έλεγχους) με
+      υποστήριξη Xinerama, dual-head και RandR
+    * Εναλλαγή λόγου διαστάσεων, κλιμάκωση με βάση το αρχικό μέγεθος του βίντεο
+    * Πλήρης έλεγχος πληκτρολογίου
+    * Απλή λίστα αναπαραγωγής με λειτουργία επανάληψης και επιλογή αποθήκευσης
+    * Ενσωμάτωση GNOME, Nautilus και GIO
+    * Στιγμιότυπο από την τρέχουσα ταινία
+    * Έλεγχος Φωτεινότητας και Αντίθεσης
+    * Πρόσθετο οπτικοποίησης όταν παίζονται αρχεία μόνο με ήχο
+    * Μικρογραφία βίντεο για nautilus
+    * Ιδιότητες σελίδας Nautilus
+    * Δουλεύει σε απομακρυσμένες οθόνες
+    * DVD, VCD και OGG/OGM υπότιτλοι με αυτόματη επιλογή γλώσσας
+    * Επεκτάσιμο με πρόσθετα
+
+
+Package: totem-plugins
+Description-md5: bfaf3e55fb6fc19bcd47f3c7c8db4e6d
+Description-el: Πρόσθετα για την εφαρμογή αναπαραγωγής ταινιών Totem
+ Totem is a simple yet featureful media player for GNOME which can read a
+ large number of file formats.
+ .
+ This package contains a set of recommended plugins for Totem:
+ .
+    * Control Totem with an Infrared remote control
+    * Control Totem with the keyboard's media player keys
+    * Display movie properties
+    * Deactivate the screensaver when a movie is playing
+    * Skip to a defined time in the movie
+    * Set the away status in the instant messenger when a movie is
+      playing
+    * Control totem with a mobile phone using the Bluetooth protocol
+    * Share the current playlist via HTTP
+    * Search, browse for and play videos from YouTube
+ .
+ Additional plugins can be written in C or Python.
+
+Package: unzip
+Description-md5: b83e2b495da5d292f3fe6ab67b088c47
+Description-el: De-archiver for .zip files
+ InfoZIP's unzip program. With the exception of multi-volume archives (ie,
+ .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+ .
+ Αυτή η έκδοση υποστηρίζει κρυπτογράφηση.
+
+Package: update-manager
+Description-md5: 590b36e19703392a6fe86ceaa8467c85
+Description-el: εφαρμογή GNOME που διαχειρίζεται τις αναβαθμίσεις apt
+ Αυτός είναι ένας διαχειριστής αναβαθμίσεων apt GNOME. Ελέγχει για
+ αναβαθμίσεις και επιτρέπει στο χρήστη να επιλέξει ποιες να εγκαταστήσει.
+
+Package: vim
+Description-md5: 59e8b8f7757db8b53566d5d119872de8
+Description-el: Vi IMproved - enhanced vi editor
+ Το Vim είναι μια σχεδόν συμβατή έκδοση του επεξεργαστή UNIX Vi.
+ .
+ Πολλά νέα χαρακτηριστικά έχουν προστεθεί: αναίρεση πολλαπλών επιπέδων,
+ υπογράμμιση σύνταξης, ιστορικό γραμμής εντολών, βοήθεια on-line,
+ συμπλήρωση ονομάτων αρχείων, λειτουργίες μπλοκ, αναδίπλωση, υποστήριξη
+ Unicode, κλπ.
+ .
+ This package contains a version of vim compiled with a rather standard set
+ of features.  This package does not provide a GUI version of Vim.  See the
+ other vim-* packages if you need more (or less).
+
+Package: vim-common
+Description-md5: 30b64c3dceccc4faef229eafc38d0069
+Description-el: Vi IMproved - Common files
+ Το Vim είναι μια σχεδόν συμβατή έκδοση του επεξεργαστή UNIX Vi.
+ .
+ This package contains files shared by all non GUI-enabled vim variants
+ available in Debian.  Examples of such shared files are: manpages and
+ configuration files.
+
+Package: vim-doc
+Description-md5: bba166bf0174232f296031de0b68b351
+Description-el: Vi IMproved - HTML documentation
+ Το Vim είναι μια σχεδόν συμβατή έκδοση του επεξεργαστή UNIX Vi.
+ .
+ This package contains the HTML version of the online documentation.  It is
+ built from the runtime/doc directory of the source tree.
+
+Package: vim-runtime
+Description-md5: 97bb83c83cb35767c340c5066ce9be0c
+Description-el: Vi IMproved - Runtime files
+ Το Vim είναι μια σχεδόν συμβατή έκδοση του επεξεργαστή UNIX Vi.
+ .
+ This package contains vimtutor and the architecture independent runtime
+ files, used, if available, by all vim variants available in Debian.
+ Example of such runtime files are: online documentation, rules for
+ language-specific syntax highlighting and indentation, color schemes, and
+ standard plugins.
+
+Package: vim-tiny
+Description-md5: fe73b8215543cb5fd9e09b0b6e59a151
+Description-el: Vi IMproved - enhanced vi editor - compact version
+ Το Vim είναι μια σχεδόν συμβατή έκδοση του επεξεργαστή UNIX Vi.
+ .
+ This package contains a minimal version of Vim compiled with no GUI and a
+ small subset of features. This package's sole purpose is to provide the vi
+ binary for base installations.
+ .
+ If a vim binary is wanted, try one of the following more featureful
+ packages: vim, vim-nox, vim-motif, or vim-gtk3.
+
+Package: yelp
+Description-md5: b660f3f94d2a495572d2b53c6824da41
+Description-el: Πρόγραμμα πλοήγησης βοήθειας για GNOME
+ Yelp is the help browser for the GNOME desktop.  Yelp provides a simple
+ graphical interface for viewing DocBook, Mallard, HTML, man, and info
+ formatted documentation.
+
+Package: zenity
+Description-md5: 0eaa042a6247aca86bac2f94a69fc906
+Description-el: Εμφάνιση γραφικών παραθύρων διαλόγου από σενάρια κελύφους
+ Το Zenity σας επιτρέπει να προβάλλετε διαλόγους GTK+ μέσα από σενάρια
+ εντολών κελύφους. Είναι ένα ξαναγραμμένο «gdialog» από το GNOME 1.
+ .
+ Το Zenity περιλαμβάνει ένα σενάριο διερμηνίας του gdialog, ώστε να μπορεί
+ να χρησιμοποιηθεί με πεπαλαιωμένα σενάρια εντολών.
+
+Package: zenity-common
+Description-md5: 31577d10cdc7dea3e76b1ffaca46c1f6
+Description-el: Display graphical dialog boxes from shell scripts (common files)
+ Το Zenity σας επιτρέπει να προβάλλετε διαλόγους GTK+ μέσα από σενάρια
+ εντολών κελύφους. Είναι ένα ξαναγραμμένο «gdialog» από το GNOME 1.
+ .
+ Το Zenity περιλαμβάνει ένα σενάριο διερμηνίας του gdialog, ώστε να μπορεί
+ να χρησιμοποιηθεί με πεπαλαιωμένα σενάρια εντολών.
+ .
+ This package contains architecture independent files.
+
+Package: zip
+Description-md5: 581928d34d669e63c353cd694bd040b0
+Description-el: Συμπιεστής για αρχεία .zip
+ This is InfoZIP's zip program. It produces files that are fully compatible
+ with the popular PKZIP program; however, the command line options are not
+ identical. In other words, the end result is the same, but the methods
+ differ. :-)
+ .
+ Αυτή η έκδοση υποστηρίζει κρυπτογράφηση.
+
+Package: zlib1g
+Description-md5: 567f396aeeb2b2b63295099aed237057
+Description-el: Συμπίεση βιβλιοθήκης-κατα την εκτέλεση
+ zlib is a library implementing the deflate compression method found in
+ gzip and PKZIP.  This package includes the shared library.
+
+Package: zlib1g-dev
+Description-md5: d7f4e8a626131fc83c643c5d59096290
+Description-el: βιβλιοθήκη συμπίεσης - ανάπτυξη
+ zlib is a library implementing the deflate compression method found in
+ gzip and PKZIP.  This package includes the development support files.
+
+Package: zsh
+Description-md5: a129d6b2d23d2d5d3a6b822d3f8f856d
+Description-el: shell with lots of features
+ Το zsh είναι ένας διερμηνέας εντολών (κελύφους) για το UNIX χρήσιμο ως ένα
+ διαδραστικό κέλυφος εισόδου και ως επεξεργαστής σεναρίων εντολών κελύφους.
+ Από τα πρότυπα κελύφη, το zsh μοιάζει περισσότερο με το ksh αλλά περιέχει
+ πολλές βελτιώσεις. Το zsh έχει επεξεργασία στη γραμμή εντολών,
+ ενσωματωμένο ορθογραφικό έλεγχο, προγραμματιζόμενη συμπλήρωση εντολών,
+ συναρτήσεις κελύφους (με αυτόματη φόρτωση), μηχανισμό ιστορικού, και
+ αρκετά άλλα χαρακτηριστικά.
+
+Package: zsh-common
+Description-md5: 8aac20ad1d93f2ea018a327bcfd5912f
+Description-el: architecture independent files for Zsh
+ Το zsh είναι ένας διερμηνέας εντολών (κελύφους) για το UNIX χρήσιμο ως ένα
+ διαδραστικό κέλυφος εισόδου και ως επεξεργαστής σεναρίων εντολών κελύφους.
+ Από τα πρότυπα κελύφη, το zsh μοιάζει περισσότερο με το ksh αλλά περιέχει
+ πολλές βελτιώσεις. Το zsh έχει επεξεργασία στη γραμμή εντολών,
+ ενσωματωμένο ορθογραφικό έλεγχο, προγραμματιζόμενη συμπλήρωση εντολών,
+ συναρτήσεις κελύφους (με αυτόματη φόρτωση), μηχανισμό ιστορικού, και
+ αρκετά άλλα χαρακτηριστικά.
+ .
+ This package contains the common zsh files shared by all architectures.
+
+Package: zsh-dev
+Description-md5: 958eee099c22df2f69105f5ecae036a2
+Description-el: shell with lots of features (development files)
+ Το zsh είναι ένας διερμηνέας εντολών (κελύφους) για το UNIX χρήσιμο ως ένα
+ διαδραστικό κέλυφος εισόδου και ως επεξεργαστής σεναρίων εντολών κελύφους.
+ Από τα πρότυπα κελύφη, το zsh μοιάζει περισσότερο με το ksh αλλά περιέχει
+ πολλές βελτιώσεις. Το zsh έχει επεξεργασία στη γραμμή εντολών,
+ ενσωματωμένο ορθογραφικό έλεγχο, προγραμματιζόμενη συμπλήρωση εντολών,
+ συναρτήσεις κελύφους (με αυτόματη φόρτωση), μηχανισμό ιστορικού, και
+ αρκετά άλλα χαρακτηριστικά.
+ .
+ Αυτό το πακέτο περιέχει τις απαραίτητες κεφαλίδες και σενάρια εντολών για
+ το κτίσιμο αρθρωμάτων από τρίτους.
+
+Package: zsh-doc
+Description-md5: 9b5459fce7bedf54d5694a22e68389c7
+Description-el: τεκμηρίωση του zsh - μορφή info/HTML
+ Το zsh είναι ένας διερμηνέας εντολών (κελύφους) για το UNIX χρήσιμο ως ένα
+ διαδραστικό κέλυφος εισόδου και ως επεξεργαστής σεναρίων εντολών κελύφους.
+ Από τα πρότυπα κελύφη, το zsh μοιάζει περισσότερο με το ksh αλλά περιέχει
+ πολλές βελτιώσεις. Το zsh έχει επεξεργασία στη γραμμή εντολών,
+ ενσωματωμένο ορθογραφικό έλεγχο, προγραμματιζόμενη συμπλήρωση εντολών,
+ συναρτήσεις κελύφους (με αυτόματη φόρτωση), μηχανισμό ιστορικού, και
+ αρκετά άλλα χαρακτηριστικά.
+ .
+ Περιέχει την τεκμηρίωση σε μορφή GNU info και HTML.
+

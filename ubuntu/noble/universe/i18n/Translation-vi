@@ -1,0 +1,919 @@
+Package: debian-archive-keyring
+Description-md5: 42ad5bca25566776e87c49efcb80168f
+Description-vi: Các khoá GnuPG của kho lưu Debian
+ Dự án Debian ký mỗi tập tin Release (phát hành) một cách thuật số. Gói này
+ chứa những khoá kho lưu được sử dụng nhằm mục đích đó.
+ .
+ In Ubuntu, those keys are disabled by default.
+
+Package: gcc-10-aarch64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-alpha-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-arm-linux-gnueabi-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-arm-linux-gnueabihf-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-hppa-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-i686-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-m68k-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-mips-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-mips64-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-mips64el-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-mipsel-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-mipsisa32r6-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-mipsisa32r6el-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-mipsisa64r6-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-mipsisa64r6el-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-powerpc-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-powerpc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-powerpc64le-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-riscv64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-s390x-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-sh4-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-sparc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-10-x86-64-linux-gnux32-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-aarch64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-alpha-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-arc-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-arm-linux-gnueabi-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-arm-linux-gnueabihf-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-hppa-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-i686-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-m68k-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-mips-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-mips64-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-mips64el-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-mipsel-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-mipsisa32r6-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-mipsisa32r6el-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-mipsisa64r6-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-mipsisa64r6el-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-powerpc-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-powerpc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-powerpc64le-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-riscv64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-s390x-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-sh4-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-sparc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-x86-64-linux-gnux32-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-aarch64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-alpha-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-arc-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-arm-linux-gnueabi-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-arm-linux-gnueabihf-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-hppa-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-i686-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-m68k-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-mips-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-mips64-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-mips64el-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-mipsel-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-mipsisa32r6-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-mipsisa32r6el-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-mipsisa64r6-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-mipsisa64r6el-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-powerpc-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-powerpc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-powerpc64le-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-riscv64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-s390x-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-sh4-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-sparc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-x86-64-linux-gnux32-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-alpha-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-arc-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-arm-linux-gnueabi-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-hppa-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-i686-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-m68k-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-mips-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-mips64-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-mips64el-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-mipsel-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-mipsisa32r6-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-mipsisa32r6el-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-mipsisa64r6-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-mipsisa64r6el-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-powerpc-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-powerpc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-sh4-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-sparc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-x86-64-linux-gnux32-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-aarch64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-alpha-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-arc-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-arm-linux-gnueabi-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-arm-linux-gnueabihf-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-hppa-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-i686-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-m68k-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-powerpc-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-powerpc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-powerpc64le-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-riscv64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-s390x-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-sh4-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-sparc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-x86-64-linux-gnux32-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-aarch64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-alpha-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-arm-linux-gnueabi-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-arm-linux-gnueabihf-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-hppa-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-i686-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-m68k-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-mips-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-mips64-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-mips64el-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-mipsel-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-mipsisa32r6-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-mipsisa32r6el-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-mipsisa64r6-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-mipsisa64r6el-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-powerpc-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-powerpc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-powerpc64le-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-riscv64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-s390x-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-sh4-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-sparc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-x86-64-linux-gnux32-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: ifupdown
+Description-md5: 442edbd184a6e1febc9b203604eb38f4
+Description-vi: các công cụ cấp cao để cấu hình giao diện chạy mạng
+ Gói này cung cấp những công cụ « ifup » (nếu lên) và « ifdown » (nếu
+ xuống) mà có thể được dùng để cấu hình (hoặc bỏ cấu hình) giao diện chạy
+ mạng, dựa vào các lời xác định giao diện trong tập tin «
+ /etc/network/interfaces ».
+
+Package: netcat-traditional
+Description-md5: 83fb6fcb16e6638fb447527fffff1e0a
+Description-vi: Tiện ích TCP/IP đa mục đích
+ Gói này cung cấp một tiện ích UNIX đơn giản mà đọc và ghi dữ liệu qua kết
+ nối mạng dùng giao thức TCP hay UDP. Nó được thiết kế như một công cụ «
+ hậu phương » đáng tin cậy có thể được sử dụng trực tiếp hoặc dễ điều khiển
+ bởi chương trình và văn lệnh khác. Nó cũng là một công cụ đầy tính năng để
+ gỡ rối và thám hiểm mạng, vì nó có thể tạo gần bất cứ kiểu kết nối nào bạn
+ yêu cầu, và có vài khả năng dựng sẵn có ích.
+ .
+ Đây là « netcat » cổ điển, viết bởi *Hobbit*. Nó thiếu nhiều tính năng của
+ « netcat-openbsd ».
+
+Package: vim-snipmate
+Description-md5: b32d99279c72a1dbfce80f206863cd65
+Description-vi: Vim script that implements some of TextMate's snippets features.
+ SnipMate.vim aims to be an unobtrusive, concise vim script that implements
+ some of TextMate's snippets features in Vim. A snippet is a piece of
+ often-typed text that you can insert into your document using a trigger
+ word followed by a <tab>.
+ .
+ For instance, in a C file using the default installation of snipMate.vim,
+ if you type "for<tab>" in insert mode, it will expand a typical for loop
+ in C:
+ .
+ for (i = 0; i < count; i++) {
+ .
+ Project-Id-Version: PACKAGE VERSION
+ Report-Msgid-Bugs-To: 
+ PO-Revision-Date: 2024-04-23 08:50+0000
+ Last-Translator: FULL NAME <EMAIL@ADDRESS>
+ Language-Team: LANGUAGE <LL@li.org>
+ MIME-Version: 1.0
+ Content-Type: text/plain; charset=UTF-8
+ Content-Transfer-Encoding: 8bit
+ X-Launchpad-Export-Date: 2024-04-24 03:04+0000
+ X-Generator: Launchpad (build 67d34a19aaa1df7be4dd8bf498cbc5bbd785067b)
+ .
+ To go to the next item in the loop, simply <tab> over to it; if there is
+ repeated code, such as the "i" variable in this example, you can simply
+ start typing once it's highlighted and all the matches specified in the
+ snippet will be updated.
+ .
+ snipMate.vim has the following features among others:
+ .
+  - The syntax of snippets is very similar to TextMate's, allowing easy
+    conversion.
+  - The position of the snippet is kept transparently (i.e., it does not use
+    marks/placeholders inserted into the buffer), allowing you to escape out
+    of an incomplete snippet, something particularly useful in Vim.
+  - Variables in snippets are updated as-you-type.
+  - Snippets can have multiple matches.
+  - Snippets can be out of order. For instance, in a do...while loop, the
+    condition can be added before the code.
+
+
+Package: gcc-10-x86-64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-11-x86-64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-12-x86-64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-13-x86-64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-14-x86-64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: gcc-9-x86-64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-vi: GCC, the GNU Compiler Collection (base package)
+ Gói này chứa các tập tin chung với tất cả các ngôn ngữ và thư viện nằm
+ trong tập hợp bộ biên dịch GNU (GCC).
+
+Package: mac-fdisk-cross
+Description-md5: 1f98524354e5776afc13ab81d2fde2cd
+Description-vi: Apple disk partition manipulation tool, cross version
+ Gói này chứa các tiện ích « fdisk » từ dự án MkLinux, giờ thích nghi với
+ Linux/m68k. « mac-fdisk » cho phép bạn tạo và chỉnh sửa bảng phân vùng của
+ một đĩa. Nó hỗ trợ chỉ định dạng phân vùng Apple được dùng trên máy tính
+ Mac và PowerMac (hãy dùng gói « pmac-fdisk » cho đĩa phân vùng kiểu PC
+ dùng trên máy PowerMac). « mac-fdisk » là một công cụ tương tác có một
+ trình đơn tương tự với « fdisk » kiểu PC, dù các tuỳ chọn được hỗ trợ hơi
+ khác với fdisk PC do định dạng phân vùng khác nhau.
+ .
+ This package contains the cross version of the package.
+

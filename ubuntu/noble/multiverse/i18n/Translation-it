@@ -1,0 +1,1666 @@
+Package: abs-guide
+Description-md5: c70e528b8b624e5738bdbd1b89e8b349
+Description-it: Advanced Bash-Scripting Guide
+ Un'esplorazione in profondità dell'arte degli script della shell.
+ .
+ Questo manuale non presume alcuna conoscenza precedente di script e
+ programmazione, ma procede rapidamente verso un livello di apprendimento
+ intermedio/avanzato... mentre infila di nascosto piccoli ritagli di
+ saggezza e tradizione UNIX®. Serve da libro di testo, da manuale per
+ autodidatti e come riferimento e fonte di conoscenza sulle tecniche degli
+ script della shell. Gli esercizi e gli esempi ampiamente commentati
+ invitano a una partecipazione attiva del lettore, con la premessa che
+ l'unico modo per imparare gli script è scriverli.
+ .
+ Questo libro è adatto per l'uso in classe come introduzione generale ai
+ concetti della programmazione.
+
+Package: afio
+Description-md5: ca88467cccd23b8f150ff01185566a6c
+Description-it: programma di manipolazione di file archivio
+ Afio gestisce gruppi di file, copiandoli all'interno di un filesystem o
+ tra un filesystem e un archivio afio.
+ .
+ Gli archivi Afio sono portabili poiché contengono solo intestazioni con
+ informazioni in formato ASCII; Afio crea archivi in formato cpio. Gestisce
+ in maniera abbastanza ragionevole dati di input corrotti e supporta
+ archivi multivolume nella modalità di funzionamento interattiva. Afio può
+ creare file compressi che sono più sicuri degli archivi compressi tar o
+ cpio.
+ .
+ Afio è usato al meglio come "motore per archiviazione" all'interno di
+ script di backup.
+
+Package: album
+Description-md5: 3eaaefa453087570fb45ac51eeccbe7c
+Description-it: HTML photo album generator with theme support
+ Album is a perl script that can create HTML photo albums for your
+ directories of images. It supports themes that determine the visual
+ appearance of the albums. Album creates thumbnails if necessary, and
+ 'medium sized' versions of images for web viewing to avoid large downloads
+ of original images. You can also customize your photo albums in many other
+ ways.
+ .
+ Questo programma non richiede un server web per funzionare. Una volta
+ generato l'HTML è possibile metterlo nella directory "www".
+
+Package: album-data
+Description-md5: 34adea76df6b2c02712e3838461edbb2
+Description-it: Temi, plugin e traduzioni per Album
+ Album è uno script in Perl che può creare album di foto in HTML per le
+ vostre directory di immagini. Questo pacchetto fornisce i temi,i plugin e
+ le traduzioni per Album.
+ .
+ The available languages are Catalan, Chinese, Czech, German, Spanish,
+ French, Hebrew, Hungarian, Italian, Korean, Dutch, Polish, Russian,
+ Swedish Chef, and Leet Hacker. The original Album package is in English.
+ .
+ Theme's demo site:     http://davepics.com/Theme_Album Translations
+ status:   http://marginalhacks.com/Hacks/album/Languages.html Screenshots
+ of themes: http://davepics.com/Theme_Album/
+
+Package: alex4
+Description-md5: 3566f87583f865118de0e26a364d6511
+Description-it: Alex the Allegator 4 - un gioco piattaforma vecchio stile
+ Guida Alex the Allegator (Alex l'alligatore) attraverso la giungla per
+ salvare Lola, la sua fidanzata, dai malefici umani che vogliono usarla per
+ farne un paio di scarpe. Sono garantite un'abbondanza di piattaforme
+ classiche in quattro colori gradevoli!
+ .
+ Il gioco include al suo interno un editor per poter creare e condividere
+ le proprie mappe.
+
+Package: alien-arena
+Description-md5: de2b3d0db5845c79b22ffc0c38842f1b
+Description-it: Sparatutto 3D online all'ultimo sangue in prima persona
+ ALIEN ARENA is a standalone 3D first person online death-match shooter
+ crafted from the original source code of Quake II and Quake III, released
+ by id Software under the GPL license. With features including 32-bit
+ graphics, a new particle engine and effects, light blooms, reflective
+ water, hi-resolution textures and skins, and hi-poly models and stain
+ maps, ALIEN ARENA pushes the envelope of graphical beauty rivaling today's
+ top games.
+ .
+ Questo pacchetto installa il client SDL per Alien Arena
+
+Package: alien-arena-data
+Description-md5: f930829d2a1207940bee317dc2015735
+Description-it: File dei dati di gioco per Alien Arena
+ ALIEN ARENA is a standalone 3D first person online death-match shooter
+ crafted from the original source code of Quake II and Quake III, released
+ by id Software under the GPL license. With features including 32-bit
+ graphics, a new particle engine and effects, light blooms, reflective
+ water, hi-resolution textures and skins, and hi-poly models and stain
+ maps, ALIEN ARENA pushes the envelope of graphical beauty rivaling today's
+ top games.
+ .
+ Questo pacchetto installa i dati, le informazioni sui bot e i file arena
+ necessari per lanciare Alien Arena.
+
+Package: alien-arena-server
+Description-md5: 5096fa975d49e1d2781f93bd7781f913
+Description-it: Server dedicato per Alien Arena
+ ALIEN ARENA is a standalone 3D first person online death-match shooter
+ crafted from the original source code of Quake II and Quake III, released
+ by id Software under the GPL license. With features including 32-bit
+ graphics, a new particle engine and effects, light blooms, reflective
+ water, hi-resolution textures and skins, and hi-poly models and stain
+ maps, ALIEN ARENA pushes the envelope of graphical beauty rivaling today's
+ top games.
+ .
+ Questo pacchetto installa il server dedicato per Alien Arena
+
+Package: amoeba
+Description-md5: d79071f380a0fcf700f7b1ed1856dab1
+Description-it: dimostrazione OpenGL elegante e con ritmo elevato creata da Excess
+ Amoeba è una dimostrazione in OpenGL multipiattaforma con ritmo elevato
+ creata da Excess, che mostra effetti grafici in tempo reale in perfetto
+ sincrono con la musica. Ha un motore demo completamente personalizzabile,
+ diversi effetti visivi, molta grafica ed una colonna sonora pulsante.
+ .
+ Amoeba ha vinto il primo premio alla competizione delle demo ad Underscore
+ 02, un party della scena demo che si è tenuto a Gothenburg in Svezia.
+ .
+ Si noti che questo è solo il motore per la demo: per vedere la demo stessa
+ è necessario anche il pacchetto amoeba-data.
+
+Package: assaultcube
+Description-md5: 7576f391baa8701ed9ad64162252916a
+Description-it: Sparatutto realistico in prima persona
+ AssaultCube, formerly ActionCube, is a first-person-shooter based on the
+ game Cube.
+ .
+ Set in a realistic looking environment, as far as that's possible with
+ this engine, while gameplay stays fast and arcade. This game is all about
+ team oriented multiplayer fun.
+ .
+ The game data required to play this game will be downloaded automatically
+ when this package is installed.
+
+Package: atari800
+Description-md5: 9526e2deeb23f4395bbefbf22fb9ee74
+Description-it: Atari 8-bit emulator for SDL
+ Atari800 is an emulator of Atari 8-bit computer systems including the 400,
+ 800, 1200XL, 600XL, 800XL, 65XE, 130XE, 800XE and the XE Game System, and
+ also of the Atari 5200 SuperSystem console.
+ .
+ Le ROM del sistema operativo Atari non sono disponibili all'interno di
+ questo pacchetto, a causa del loro copyright. Si dovrà o farne una copia
+ da un vecchio computer Atari, oppure leggere il file README.Debian per
+ scoprire altri metodi per ottenerle.
+
+Package: autodir
+Description-md5: 0b6913d4b30fa8f1270054260e535bdb
+Description-it: crea automaticamente le directory home e di gruppo per account LDAP/NIS/SQL/locali
+ Uno strumento modulare e abilitato ai thread per creare o montare e
+ gestire magicamente e trasparentemente, a richiesta, le directory
+ utente/di gruppo.
+ .
+ Può lavorare con qualsiasi infrastruttura di autenticazione (ad es. file
+ di sistema, NIS, LDAP o SQL) e non richiede PAM, che è una funzionalità
+ richiesta per servizi senza sessione come server SMTP.
+ .
+ Automounter versione 4 (autofs4) deve essere abilitato quando si compila
+ il kernel. I kernel pacchettizzati di Debian lo hanno abilitato come
+ modulo.
+
+Package: basilisk2
+Description-md5: e83e142cb49b01600e0e123d5566127b
+Description-it: emulatore di Macintosh 68k
+ Basilisk II è un emulatore Open Source di Macintosh 68k. Permette cioè di
+ eseguire software MacOS 68k sul proprio computer, anche se si sta usando
+ un diverso sistema operativo. Per usare Basilisk II è tuttavia comunque
+ necessario avere una copia di MacOS e un'immagine ROM Macintosh.
+ .
+ Some features of Basilisk II:
+  - Emulates either a Mac Classic (which runs MacOS 0.x thru 7.5)
+    or a Mac II series machine (which runs MacOS 7.x, 8.0 and 8.1),
+    depending on the ROM being used
+  - Color video display
+  - CD quality sound output
+  - Floppy disk driver (only 1.44MB disks supported)
+  - Driver for HFS partitions and hardfiles
+  - CD-ROM driver with basic audio functions
+  - Easy file exchange with the host OS via a "Host Directory Tree" icon
+    on the Mac desktop
+  - Ethernet driver
+  - Serial drivers
+  - SCSI Manager (old-style) emulation
+  - Emulates extended ADB keyboard and 3-button mouse
+  - Uses UAE 68k emulation or (under AmigaOS and NetBSD/m68k) real 68k
+    processor
+
+
+Package: beast-mcmc
+Description-md5: 347f87629165216c55313b0035e8c195
+Description-it: inferenza filogenetica bayesiana MCMC
+ BEAST è un programma multipiattaforma per l'analisi bayesiana MCMC di
+ sequenze molecolari. È interamente orientato verso filogenie con radici,
+ misurate nel tempo e inferite usando modelli di orologio rigidi o
+ rilassati. Può essere usato come un metodo di ricostruzione di filogenie
+ ma è anche un'infrastruttura per testare ipotesi evolutive senza
+ condizionamento su una singola topologia dell'albero. BEAST usa MCMC per
+ mediare sullo spazio dell'albero, in modo che ogni albero sia pesato
+ proporzionalmente alla sua probabilità a posteriori. È incluso un
+ programma con un'interfaccia utente semplice da usare per impostare
+ analisi standard e una suite di programmi per analizzare i risultati.
+
+Package: beast-mcmc-examples
+Description-md5: c63bad5feea098eb39bb86db8b6f8d33
+Description-it: Bayesian MCMC phylogenetic inference - example data
+ BEAST è un programma multipiattaforma per l'analisi bayesiana MCMC di
+ sequenze molecolari. È interamente orientato verso filogenie con radici,
+ misurate nel tempo e inferite usando modelli di orologio rigidi o
+ rilassati. Può essere usato come un metodo di ricostruzione di filogenie
+ ma è anche un'infrastruttura per testare ipotesi evolutive senza
+ condizionamento su una singola topologia dell'albero. BEAST usa MCMC per
+ mediare sullo spazio dell'albero, in modo che ogni albero sia pesato
+ proporzionalmente alla sua probabilità a posteriori. È incluso un
+ programma con un'interfaccia utente semplice da usare per impostare
+ analisi standard e una suite di programmi per analizzare i risultati.
+ .
+ Questo pacchetto contiene i dati di esempio.
+
+Package: bgoffice-dict-downloader
+Description-md5: 4999911e18e26881818d162507bf0e44
+Description-it: Scarica dizionari per gbgoffice
+ Il progetto bgoffice è finalizzato alla creazione di un ambiente desktop
+ completo, tradotto e localizzato per gli utenti bulgari.
+ .
+ Questo pacchetto contiene script di aiuto per automatizzare lo
+ scaricamento e l'installazione di dizionari per gbgoffice. Questi non
+ possono essere distribuiti a causa della loro licenza.
+
+Package: boinc-virtualbox
+Description-md5: 690093958a0070907b98b36b21fb062c
+Description-it: metapackage for virtualbox-savvy projects
+ La Berkeley Open Infrastructure for Network Computing (BOINC) è una
+ piattaforma software per il calcolo distribuito: alcune iniziative di
+ varie discipline scientifiche competono tutte per il tempo idle dei
+ computer desktop. Il sito web degli sviluppatori all'Università di
+ Berkeley serve come portale comune ai progetti altrimenti portati avanti
+ indipendentemente.
+ .
+ Regular users (righteously) often find it an unbearable nuisance to care
+ for the exact configuration of BOINC for virtualbox-based projects. This
+ package adds a series of dependencies from the contrib section to the
+ regular boinc package. This also meant this binary package to be
+ redistributed in the contrib section of Debian.
+
+Package: brother-cups-wrapper-bh7
+Description-md5: 9ac663666ffc15075ec9dcb4c537ef64
+Description-it: Cups Wrapper drivers for bh7 brother printers
+ Il pacchetto fornisce tutti i driver cups wrapper per i modelli DCP-130C
+ DCP-330C DCP-540CN DCP-750CW FAX-1860C FAX-1960C FAX-2480C FAX-2580C
+ MFC-240C MFC-3360C MFC-440CN MFC-5460CN MFC-5860CN MFC-660CN MFC-665CW
+ MFC-845CW
+
+Package: brother-cups-wrapper-extra
+Description-md5: e0bb8f124726fa547849e8d440abea6b
+Description-it: Cups Wrapper drivers for extra brother printers
+ Il pacchetto fornisce tutti i driver cups wrapper per i modelli FAX-1815C
+ FAX-1820C FAX-1835C FAX-1840C FAX-1920CN FAX-1940CN FAX-2440C MFC-210C
+ MFC-3220C MFC-3240C MFC-3320CN MFC-3340CN MFC-3420C MFC-3820CN MFC-410CN
+ MFC-420CN MFC-5440CN MFC-5840CN MFC-620CN DCP-110C DCP-310CN DCP-560CN
+ DCP-770CW DCP-350C DCP-353C MFC-465CN MFC-680CN MFC-685CW MFC-885CW
+ MFC-230C MFC-235C MFC-260C DCP-135C DCP-150C DCP-153C
+
+Package: brother-cups-wrapper-laser
+Description-md5: b1d14f0fccd6bc964f51da864b253721
+Description-it: Cups Wrapper drivers for laser brother printers
+ Il pacchetto fornisce tutti i driver cups wrapper per i modelli DCP-7010
+ DCP-7020 DCP-7025 DCP-8060 DCP-8065DN FAX-2820 FAX-2920 HL-2030 HL-2040
+ HL-2070N HL-5240 HL-5250DN HL-5270DN HL-5280DW MFC-7220 MFC-7225N MFC-7420
+ MFC-7820N MFC-8460N MFC-8660DN MFC-8860DN MFC-8870DW
+
+Package: brother-cups-wrapper-laser1
+Description-md5: bcc145550d95f365305cfeb1201bfa32
+Description-it: Cups Wrapper drivers for laser1 brother printers
+ Il pacchetto fornisce tutti i driver cups wrapper per i modelli DCP-1000
+ DCP-1400 DCP-8020 DCP-8025D DCP-8040 DCP-8045D FAX-2850 FAX-2900 FAX-3800
+ FAX-4100 FAX-4750e FAX-5750e HL-1030 HL-1230 HL-1240 HL-1250 HL-1270N
+ HL-1430 HL-1440 HL-1450 HL-1470N HL-1650 HL-1670N HL-1850 HL-1870N HL-5030
+ HL-5040 HL-5050 HL-5070N HL-5130 HL-5140 HL-5150D HL-5170DN HL-6050
+ HL-6050D MFC-4800 MFC-6800 MFC-8420 MFC-8440 MFC-8500 MFC-8820D MFC-8840D
+ MFC-9030 MFC-9070 MFC-9160 MFC-9180 MFC-9660 MFC-9700 MFC-9760 MFC-9800
+ MFC-9860 MFC-9880
+
+Package: brother-lpr-drivers-bh7
+Description-md5: ee596a8df57d84fbdaee5161e27f44a8
+Description-it: LPR drivers for bh7 brother printers
+ Questo pacchetto contiene tutti i driver LPR per i modelli DCP-130C
+ DCP-330C DCP-540CN DCP-750CW FAX-1860C FAX-1960C FAX-2480C FAX-2580C
+ MFC-240C MFC-3360C MFC-440CN MFC-5460CN MFC-5860CN MFC-660CN MFC-665CW
+ MFC-845CW
+
+Package: brother-lpr-drivers-extra
+Description-md5: f595fa60a7e2031b268c9e3ee6b6318f
+Description-it: LPR drivers for extra brother printers
+ Questo pacchetto contiene tutti i driver LPR per i modelli FAX-1815C
+ FAX-1820C FAX-1835C FAX-1840C FAX-1920CN FAX-1940CN FAX-2440C MFC-210C
+ MFC-3220C MFC-3240C MFC-3320CN MFC-3340CN MFC-3420C MFC-3820CN MFC-410CN
+ MFC-420CN MFC-5440CN MFC-5840CN MFC-620CN DCP-110C DCP-310CN DCP-560CN
+ DCP-770CW DCP-350C DCP-353C MFC-465CN MFC-680CN MFC-685CW MFC-885CW
+ MFC-230C MFC-235C MFC-260C DCP-135C DCP-150C DCP-153C
+
+Package: brother-lpr-drivers-laser
+Description-md5: a0fc374172c63f660ac7fca929833494
+Description-it: Driver LPR per le stampanti laser Brother
+ Questo pacchetto contiene tutti i driver LPR per i modelli DCP-7010
+ DCP-7020 DCP-7025 DCP-8060 DCP-8065DN FAX-2820 FAX-2920 HL-2030 HL-2040
+ HL-2070N HL-5240 HL-5250DN HL-5270DN HL-5280DW MFC-7220 MFC-7225N MFC-7420
+ MFC-7820N MFC-8460N MFC-8660DN MFC-8860DN MFC-8870DW
+
+Package: brother-lpr-drivers-laser1
+Description-md5: 6ed095936b6a1517465a8778ace2ee3f
+Description-it: LPR drivers for laser1 brother printers
+ Questo pacchetto contiene tutti i driver LPR per i modelli DCP-1000
+ DCP-1400 DCP-8020 DCP-8025D DCP-8040 DCP-8045D FAX-2850 FAX-2900 FAX-3800
+ FAX-4100 FAX-4750e FAX-5750e HL-1030 HL-1230 HL-1240 HL-1250 HL-1270N
+ HL-1430 HL-1440 HL-1450 HL-1470N HL-1650 HL-1670N HL-1850 HL-1870N HL-5030
+ HL-5040 HL-5050 HL-5070N HL-5130 HL-5140 HL-5150D HL-5170DN HL-6050
+ HL-6050D MFC-4800 MFC-6800 MFC-8420 MFC-8440 MFC-8500 MFC-8820D MFC-8840D
+ MFC-9030 MFC-9070 MFC-9160 MFC-9180 MFC-9660 MFC-9700 MFC-9760 MFC-9800
+ MFC-9860 MFC-9880
+
+Package: brother-lpr-drivers-mfc9420cn
+Description-md5: 6ba30886958fe27faa54a9e980e3829f
+Description-it: Driver LPR per la stampante Brother MFC-9420CN
+ Questo pacchetto fornisce i driver per il modello MFC-9420CN
+
+Package: bsdgames-nonfree
+Description-md5: a0df62b17337e5cbd12de06fb52cd546
+Description-it: Rogue, il classico gioco di esplorazione
+ This is a text-based game common on (traditional) BSD systems.  It may not
+ be distributed freely, so it had to be broken off from the main bsdgames
+ package and placed in non-free.
+ .
+ Questo pacchetto contiene soltanto rogue, il classico gioco di
+ esplorazione.
+
+Package: chaplin
+Description-md5: 4b291946f818007dc5a07f07b10f6fbb
+Description-it: DVD chapter extractor
+ The tool parses a DVD disc or image and extracts the exact duration for
+ each chapter of a given title. Then the total list of chapters is split
+ into a user-selectable number of subsets. Each subset should have
+ approximately the same duration.
+ .
+ http://www.lallafa.de/bp/chaplin.html
+
+Package: cim-schema
+Description-md5: 7d2f73ec99fe6ac800286af990c46c9d
+Description-it: DMTF CIM Schema
+ The DMTF Common Information Model (CIM) Schema in Managed Object Format
+ (MOF).
+ .
+ This the final version of the CIM Schema.
+
+Package: cl-umlisp
+Description-md5: 862801106fe3fce0392e1fbafafe4f06
+Description-it: interfaccia Common Lisp per UMLS
+ UMLS (Unified Medical Language System, sistema unificato per il linguaggio
+ medico) è un database di svariati gigabyte di terminologia medica. Questa
+ è un'interfaccia per programmi Common Lisp che utilizza un motore di
+ database SQL e metaclassi Common Lisp per accesso e formattazione
+ efficienti.
+
+Package: cl-umlisp-orf
+Description-md5: 56177717a37fb571fe11ae0e6d490b77
+Description-it: Common Lisp Unified Medical Language System Interface, ORF
+ Unified Medical Language System è un database di diversi gigabyte di
+ terminologia medica. Questa è un'interfaccia per programmi Common Lisp che
+ utilizza un motore per database SQL e meta-classi Common Lisp per accesso
+ e formattazioni efficienti. Questo pacchetto permette la gestione dei file
+ ORF (Original Release Format).
+
+Package: cltl
+Description-md5: 981097f297a723afe41afec3b96d5a27
+Description-it: libro "Common Lisp the Language", seconda edizione (pre-ANSI)
+ Questo pacchetto installa la versione HTML del libro di Guy L. Steele
+ "Common Lisp the Language", seconda edizione. Questo libro descrive
+ un'istantanea del linguaggio Common Lisp durante il periodo in cui veniva
+ stabilito lo standard ANSI per il Common Lisp. Quindi questo libro
+ descrive una versione NON-STANDARD del Common Lisp che è molto simile ma
+ *NON* è il Common Lisp ANSI.
+ .
+ Come riferimento sul Common Lisp ANSI, si usi il pacchetto Debian
+ "hyperspec". Questo libro è incluso in Debian perché, sebbene differisca
+ dallo standard ANSI, contiene più dettagli di "hyperspec" sulla
+ progettazione e sull'uso del Lisp.
+ .
+ Questo pacchetto non contiene effettivamente i file HTML, ma piuttosto
+ scarica gli archivi HTML da Internet e li installa.
+
+Package: clustalx
+Description-md5: a79728f91dcfed21b62f89dea1743319
+Description-it: allineamento multiplo di sequenze di acidi nucleici e di proteine (interfaccia grafica)
+ Questo pacchetto offre un'interfaccia grafica per il programma di
+ allineamento di sequenze multiple Clustal. Fornisce un ambiente integrato
+ per effettuare allineamenti di sequenze e profili multipli per analizzare
+ i risultati. L'allineamento delle sequenze è visualizzato in una finestra
+ sullo schermo. Uno schema di colorazione versatile è stato incorporato per
+ evidenziare le caratteristiche conservate nell'allineamento. Per le
+ presentazioni professionali occorre usare il pacchetto LaTeX texshade o
+ boxshade.
+ .
+ Il menù a tendina in alto nella finestra permette di selezionare tutte le
+ opzioni richieste per l'allineamento tradizionale di sequenze e profili
+ multipli. Possono essere copiate ed incollate le sequenze per modificare
+ l'ordine dell'allineamento; si può selezionare un sottoinsieme di sequenze
+ che devono essere allineate; si può selezionare un sottointervallo
+ dell'allineamento per essere riallineato e reinserito in quello originale.
+ .
+ Può essere fatta un'analisi qualitativa dell'allineamento e possono essere
+ evidenziati i segmenti con basso punteggio o i residui eccezionali.
+
+Package: coq-doc
+Description-md5: 8162cc95ca212365bc0155b6cfef283a
+Description-it: documentation for Coq
+ Coq è un assistente alle dimostrazioni per logiche di ordine superiore che
+ permette lo sviluppo di programmi per computer coerenti con la loro
+ specifica formale. È sviluppato con Objective Caml e Camlp5.
+ .
+ This is a dummy package which will install the documentation in html and
+ pdf formats.
+
+Package: coq-doc-html
+Description-md5: 2a1cea3031ba67430a5917f291c6087a
+Description-it: documentation for Coq in html format
+ Coq è un assistente alle dimostrazioni per logiche di ordine superiore che
+ permette lo sviluppo di programmi per computer coerenti con la loro
+ specifica formale. È sviluppato con Objective Caml e Camlp5.
+ .
+ This package contains its documentation and tutorials in html format.
+
+Package: coq-doc-pdf
+Description-md5: 6406c20f936aa913c3dfc9f90c15fc8a
+Description-it: documentation for Coq in pdf format
+ Coq è un assistente alle dimostrazioni per logiche di ordine superiore che
+ permette lo sviluppo di programmi per computer coerenti con la loro
+ specifica formale. È sviluppato con Objective Caml e Camlp5.
+ .
+ This package contains its documentation and tutorials in pdf format.
+
+Package: cuneiform
+Description-md5: 9f477b4fb4e65a4b7e58c9e4d6cc05f6
+Description-it: Sistema OCR multilingua
+ Cuneiform is an OCR system. In addition to text recognition it also does
+ layout analysis and text format recognition.
+ .
+ The following languages are supported: Bulgarian, Croatian, Czech, Danish,
+ Dutch, English, Estonian, French, German, Hungarian, Italian, Latvian,
+ Lithuanian, Polish, Portuguese, Romanian, Russian, Serbian, Slovenian,
+ Spanish, Swedish, Turkish and Ukrainian.
+
+Package: cuneiform-common
+Description-md5: 26ff2ce2ac800318b04976471b4bf01d
+Description-it: Sistema OCR multilingua (comuni)
+ Cuneiform is an OCR system. In addition to text recognition it also does
+ layout analysis and text format recognition.
+ .
+ The following languages are supported: Bulgarian, Croatian, Czech, Danish,
+ Dutch, English, Estonian, French, German, Hungarian, Italian, Latvian,
+ Lithuanian, Polish, Portuguese, Romanian, Russian, Serbian, Slovenian,
+ Spanish, Swedish, Turkish and Ukrainian.
+ .
+ Questo pacchetto contiene i file comuni.
+
+Package: darkice
+Description-md5: 1912539adeede843fe4a648780292b75
+Description-it: crea stream audio al volo
+ DarkIce crea stream audio IceCast, IceCast2 e ShoutCast al volo. Prende
+ l'input audio da una scheda sonora, lo codifica in MP3 o Ogg Vorbis e
+ invia lo stream MP3 a uno o più server IceCast o ShoutCast oppure lo
+ stream Ogg Vorbis a uno o più server IceCast2. DarkIce usa lame, come
+ oggetto condiviso, per codificare MP3 e Ogg Vorbis come codificatore Ogg
+ Vorbis.
+ .
+ Viene fornito uno script init SYSV obsoleto per le configurazioni
+ esistenti. Per eseguire darkice come demone deve essere impostato RUN=yes
+ in /etc/default/darkice. Con i sistemi moderni ciò non è necessario dato
+ che la schedulazione in tempo reale è disponibile per i normali utenti.
+
+Package: devede
+Description-md5: a80b48eb4e84ed4081919926d540e84b
+Description-it: semplice applicazione per creare DVD video
+ DeVeDe è un programma per creare DVD video, adatti per i lettori da
+ tavolo, a partire da qualsiasi numero di file video in qualsiasi formato
+ gestito da Mplayer.
+ .
+ Permette agli utenti di creare sottotitoli e persino menu.
+
+Package: dvd-slideshow
+Description-md5: 980a2a115f819879a10ed6533ae6f66f
+Description-it: insieme di strumenti per creare proiezioni di diapositive su DVD con menu
+ DVD Slideshow consists in a set of tools which allows one to create slideshows-style videos from a collection of pictures. This package provides the following programs:
+  * dir2slideshow: Generates a listing of the pictures in a given
+    directory for easy input to dvd-slideshow.
+  * dvd-slideshow: This is the main script. It generates a DVD-compatible
+    MPEG2 video file with audio from a text file input listing of pictures
+    and effects.
+  * dvd-menu: Creates a simple DVD menu with buttons that link to MPEG2
+    files generated with dvd-slideshow or ones created by the user.
+  * gallery1-to-slideshow: Generates a text file listing of the pictures
+    visible in a given "Gallery" (http://gallery.sourceforge.net) photo
+    album in order to easily pass the information to dvd_slideshow.
+  * jigl2slideshow: Does the same thing as gallery2slideshow, but works
+    on a jigl gallery.
+
+
+Package: dynare-matlab
+Description-md5: 90e8fcabb135fcf60e09f0be51774946
+Description-it: MATLAB support for Dynare
+ Dynare is a software platform for handling a wide class of economic
+ models, in particular dynamic stochastic general equilibrium (DSGE) and
+ overlapping generations (OLG) models. The models solved by Dynare include
+ those relying on the rational expectations hypothesis, wherein agents form
+ their expectations about the future in a way consistent with the model.
+ But Dynare is also able to handle models where expectations are formed
+ differently: on one extreme, models where agents perfectly anticipate the
+ future; on the other extreme, models where agents have limited rationality
+ or imperfect knowledge of the state of the economy and, hence, form their
+ expectations through a learning process. In terms of types of agents,
+ models solved by Dynare can incorporate consumers, productive firms,
+ governments, monetary authorities, investors and financial intermediaries.
+ Some degree of heterogeneity can be achieved by including several distinct
+ classes of agents in each of the aforementioned agent categories.
+ .
+ Dynare offers a user-friendly and intuitive way of describing these
+ models. It is able to perform simulations of the model given a calibration
+ of the model parameters and is also able to estimate these parameters
+ given a dataset. In practice, the user will write a text file containing
+ the list of model variables, the dynamic equations linking these variables
+ together, the computing tasks to be performed and the desired graphical or
+ numerical outputs.
+ .
+ Questo pacchetto è utile soltanto agli utenti che hanno MATLAB installato
+ sui loro computer. Contiene i sorgenti dei file MEX e li ricompilerà
+ tramite l'installazione di MATLAB esistente.
+
+Package: f2j
+Description-md5: 166f686ad8732369697da87e1906ecd3
+Description-it: compilatore da Fortran a Java
+ Il pacchetto contiene un convertitore da Fortran a Java utilizzato anche
+ per creare il pacchetto libf2j-java. Converte file Fortran in sorgenti e
+ file di classe Java.
+
+Package: fasttracker2
+Description-md5: 3e6d7c8107fa3ff0b02bf9771284fa56
+Description-it: pacchetto fittizio di transizione
+ This is a transitional dummy package for migration from fasttracker2 to
+ ft2-clone.
+ .
+ This package can be safely removed.
+
+Package: gentle
+Description-md5: 60adf1620c650c216b9ae673b5d248ca
+Description-it: suite per pianificare clonazioni genetiche
+ GENtle è un software per modifica di DNA e aminoacidi, gestione di
+ database, mappe plasmidiche, restrizione e ligazione, allineamenti,
+ importazione di dati di sequenziatori, calcolatori, visualizzazione di
+ immagini di gel, PCR e molto altro.
+
+Package: gnuboy-sdl
+Description-md5: d0afd5157478841c7d01808a8cbd6f99
+Description-it: eseguibili SDL per gnuboy - emulatore di Game Boy
+ Gnuboy è un emulatore portabile di Game Boy. Permette di giocare alla
+ maggior parte dei giochi per Game Boy e Game Boy Color sul proprio PC o
+ workstation.
+ .
+ Questo pacchetto contiene gli eseguibili per SDL.
+
+Package: gnuboy-x
+Description-md5: 7dc3af652e412edd9627cb088cd2b13d
+Description-it: Binari per terminale di gnuboy - Emulatore Game Boy
+ Gnuboy è un emulatore portabile di Game Boy. Permette di giocare alla
+ maggior parte dei giochi per Game Boy e Game Boy Color sul proprio PC o
+ workstation.
+ .
+ Questo pacchetto include i binari per terminale.
+
+Package: hannah-foo2zjs
+Description-md5: 17bd5e201d7e7be1fb42ba47260c88bd
+Description-it: interfaccia grafica per scaricare firmware per il pacchetto foo2zjs
+ Hannah è un'interfaccia grafica per scaricare firmware per il pacchetto
+ foo2zjs. Si possono selezionare uno o più firmware da un elenco e lasciare
+ che hannah li scarichi e li installi.
+ .
+ Con questo programma si può potenzialmente installare software non libero,
+ vi si presti attenzione.
+
+Package: horae
+Description-md5: 05d8479ad180769d9adf3591fc732120
+Description-it: elaborazione ed analisi grafiche interattive di dati EXAFS
+ ATHENA è un'utilità grafica interattiva per l'elaborazione di dati EXAFS.
+ Fa la maggior parte dei comuni lavori di gestione dei dati, inclusi
+ deglitching, allineamento, unione, rimozione dello sfondo e trasformate di
+ Fourier.
+ .
+ ARTEMIS è un'utilità grafica interattiva per il fit di dati EXAFS usando
+ standard teorici da FEFF e per creazione di modelli sofisticati dai dati
+ insieme ad una visualizzazione e ad un'analisi statistica flessibili.
+ .
+ HEPHAESTUS è una tavola periodica potenziata per chi fa spettroscopia XAS;
+ fornisce svariate utilità che hanno a che fare con tabelle dei
+ coefficienti di assorbimento ed altri dati chimici.
+
+Package: hyperspec
+Description-md5: 51d7bf1353fb0967e7492a36a1d1a585
+Description-it: Common Lisp ANSI-standard Hyperspec
+ Questo è un pacchetto installatore per la versione in HTML dello standard
+ ANSI per Common Lisp. Si noti che queste pagine sono solo informative e
+ non sono valide come riferimento. Per il normale lavoro quotidiano, ai
+ fini pratici, sono comunque un riferimento abbastanza buono.
+
+Package: ifeffit
+Description-md5: 910f116c8e14fa8d361b031b45896347
+Description-it: programma interattivo per analisi XAFS
+ IFEFFIT è un programma interattivo per analisi XAFS. Combina gli algoritmi
+ di analisi di alta qualità di AUTOBK e FEFFIT con visualizzazione grafica
+ di dati XAFS e manipolazione di dati generica.
+ .
+ IFEFFIT viene fornito come programma a riga di comando, ma la funzionalità
+ sottostante è disponibile come una libreria di programmazione. La libreria
+ IFEFFIT può essere usata da programmi C, Fortran, Tcl e Perl.
+
+Package: ifeffit-doc
+Description-md5: 23588aa725d1361238e782379bbed9bc
+Description-it: esempi e documentazione per IFEFFIT
+ Questo pacchetto contiene tutta la documentazione disponibile per IFEFFIT
+ e i suoi programmi. Sono anche forniti, come tutorial, file di esempio per
+ analisi dei dati EXAFS.
+
+Package: ipadic
+Description-md5: eff1ec5477c7b450aa8e1a4494f38faf
+Description-it: dizionari per ChaSen (dati binari)
+ Dizionari per ChaSen, un sistema di analisi morfologica per segmentare e
+ dividere in token le stringhe di testo in giapponese. Fornisce molte
+ informazioni aggiuntive (pronuncia, informazioni semantiche e altro).
+ .
+ È basato sul dizionario ICOT.
+ .
+ Questo pacchetto contiene i dati binari indipendenti dall'architettura.
+
+Package: kdeplasma-applets-xrdesktop
+Description-md5: ca6c6146f67e07b8063852e48c753cfa
+Description-it: applet xrdesktop per KDE Plasma
+ Questo pacchetto contiene l'applet xrdesktop per KDE Plasma.
+
+Package: kubuntu-restricted-addons
+Description-md5: d1762d094551b6ebca85a1049fc60dc1
+Description-it: Pacchetti di uso comune con restrizioni per Kubuntu.
+ This package depends on some commonly used packages in the Kubuntu
+ universe and multiverse repositories.
+ .
+ You should not install this package directly, but instead install the
+ kubuntu-restricted-extras package.
+
+Package: ldraw-mklist
+Description-md5: 7f0b36129c83247e98ea1e2416fd0862
+Description-it: programma mklist per LDraw
+ I programmi CAD 3D e i programmi di rendering, che usano la libreria parts
+ per LDraw di parti LEGO, si affidano ad un file chiamato parts.lst che
+ contiene una lista di tutte le parti disponibili. Il programma ldraw-
+ mklist è usato per generare questa lista a partire da una directory di
+ parti LDraw.
+
+Package: lgeneral
+Description-md5: d3cd338c86e0144cd187ecea33e57ef8
+Description-it: gioco di strategia nella tradizione di Panzer General
+ LGeneral è un gioco di strategia a turni fortemente ispirato a Panzer
+ General. Si giocano turno dopo turno scenari singoli o intere campagne
+ contro un giocatore umano o l'intelligenza artificiale.
+ .
+ Trincee, difese consolidate, fuoco difensivo, contatti a sorpresa, resa,
+ rifornimento di unità, influenza delle condizioni meteorologiche, rinforzi
+ e altre implementazioni contribuiscono alla profondità tattica e
+ strategica del gioco.
+ .
+ Questo è solamente il motore di gioco. Per funzionare correttamente
+ LGeneral necessita di lgeneral-data o lgc-pg, che converte i dati di gioco
+ del gioco originale Panzer General.
+
+Package: libf2j-java
+Description-md5: 545bcec4a65e2d974a0e300c0f193fa5
+Description-it: libreria Java port delle librerie numeriche Fortran
+ Il pacchetto fornisce la libreria Java (API) per le librerie numeriche
+ originariamente scritte in Fortran (in particolare BLAS e LAPACK).
+
+Package: libforms-doc
+Description-md5: 2d31b9908f0fcc2b4d5add43805bddf9
+Description-it: documentazione per la libreria di interfaccia grafica XForms
+ Questo pacchetto contiene la documentazione in PDF e HTML per la libreria
+ XForms.
+
+Package: libifeffit-perl
+Description-md5: e6edcbfcf9214ca2748ec5d9024356e5
+Description-it: Perl extensions for IFEFFIT
+ IFEFFIT è un programma interattivo per analisi XAFS. Combina gli algoritmi
+ di analisi di alta qualità di AUTOBK e FEFFIT con visualizzazione grafica
+ di dati XAFS e manipolazione di dati generica.
+ .
+ This package provides an interface to IFEFFIT from Perl.
+
+Package: libnucleotidelikelihoodcore0
+Description-md5: 2beeba75259cb25079c34eef520b0bde
+Description-it: implementation of LikelihoodCore for nucleotides used by beast-mcmc
+ BEAST è un programma multipiattaforma per l'analisi bayesiana MCMC di
+ sequenze molecolari. È interamente orientato verso filogenie con radici,
+ misurate nel tempo e inferite usando modelli di orologio rigidi o
+ rilassati. Può essere usato come un metodo di ricostruzione di filogenie
+ ma è anche un'infrastruttura per testare ipotesi evolutive senza
+ condizionamento su una singola topologia dell'albero. BEAST usa MCMC per
+ mediare sullo spazio dell'albero, in modo che ogni albero sia pesato
+ proporzionalmente alla sua probabilità a posteriori. È incluso un
+ programma con un'interfaccia utente semplice da usare per impostare
+ analisi standard e una suite di programmi per analizzare i risultati.
+ .
+ This package provides an implementation of LikelihoodCore for nucleotides
+ that calls native methods for maximum speed.
+
+Package: libopenzwave-doc
+Description-md5: 1391b189d7f13f6d41b4a88932ed605b
+Description-it: documentazione per la libreria openzwave
+ OpenZWave è una libreria open source e multipiattaforma progettata per
+ permettere a chiunque di aggiungere la gestione di dispositivi di domotica
+ Z-Wave alle proprie applicazioni, senza la necessità di alcuna conoscenza
+ approfondita del protocollo Z-Wave.
+ .
+ Questo pacchetto contiene la documentazione.
+
+Package: libopenzwave1.6-dev
+Description-md5: eb57b245ab8d94734acd74b03f165761
+Description-it: header files for the openzwave library
+ OpenZWave è una libreria open source e multipiattaforma progettata per
+ permettere a chiunque di aggiungere la gestione di dispositivi di domotica
+ Z-Wave alle proprie applicazioni, senza la necessità di alcuna conoscenza
+ approfondita del protocollo Z-Wave.
+ .
+ This package contains files for developing.
+
+Package: libopenzwave1.6t64
+Description-md5: 6fd563f922d2ce455d13cf7e75020bb2
+Description-it: API to use a Z-Wave controller
+ OpenZWave è una libreria open source e multipiattaforma progettata per
+ permettere a chiunque di aggiungere la gestione di dispositivi di domotica
+ Z-Wave alle proprie applicazioni, senza la necessità di alcuna conoscenza
+ approfondita del protocollo Z-Wave.
+ .
+ This package contains the library.
+
+Package: libprimus-vk1
+Description-md5: 9cc616059b790cb11afff2f1a5f393d2
+Description-it: libreria layer vulkan per il layer primus-vk
+ Questa libreria implementa il layer primus-vk. Decide verso quale GPU
+ devono essere dirette le singole chiamate all'API Vulkan ed esegue la
+ copia delle immagini.
+
+Package: mame-extra
+Description-md5: 35baa04e70a76083d21e320c835f737b
+Description-it: Additional files for the Multiple Arcade Machine Emulator (MAME)
+ MAME (Multiple Arcade Machine Emulator, emulatore di molteplici macchine
+ arcade) è un emulatore hardware: esso riproduce fedelmente il
+ comportamento di molte macchine arcade (non è una simulazione). Questo
+ programma non è un gioco ma è in grado, attraverso immagini ROM, di
+ eseguire direttamente il sistema completo di queste vecchie macchine
+ arcade. Queste ROM sono soggette a copyright ed è, in molti casi, illegale
+ usarle se non si possiede la macchina arcade.
+ .
+ This package provides additional data files for the MAME arcade emulator:
+  nplayers.ini -- provide information about multi-player support
+  history.dat -- provides a brief historical overview of each game
+
+
+Package: mp3diags
+Description-md5: 27a41b67e8f0c1d350bd807507e1bc57
+Description-it: cerca problemi in file MP3 e aiuta a risolverli
+ MP3 Diags è un'applicazione grafica che permette agli utenti finali di
+ identificare problemi con i file MP3, ripararne alcuni ed effettuare altre
+ modifiche, come l'inserimento di informazioni delle tracce. Permette anche
+ di "guardare all'interno" di un file MP3.
+ .
+ Diversamente da alcuni programmi che sono progettati per trattare un
+ singolo argomento (come riparazione delle intestazioni VBR o l'aggiunta
+ delle copertine), MP3 Diags è una soluzione universale che identifica più
+ di 50 tipi differenti di problemi in file MP3 e fornisce gli strumenti per
+ ripararne molti.
+ .
+ Alcuni tra i principali problemi rilevati sono:
+ .
+  * Broken tags / headers / audio.
+  * Duplicate tags / headers.
+  * Incorrect placement of tags / headers (ID3V2, ID3V1, LAME, Xing, etc).
+  * Low quality audio.
+  * Missing VBR header.
+  * Missing track info / cover art.
+  * Broken track info / cover art.
+  * Missing normalization data.
+  * Character encoding issues (for languages other than English).
+ .
+ Alcune correzioni e modifiche che MP3 Diags è in grado di apportare sono:
+ .
+  * Adding / fixing track info, including album cover; information can be
+    retrieved from several sources: Internet, clipboard, file name, local
+    files, and (obviously) keyboard.
+  * Correcting files that show incorrect song duration.
+  * Correcting files in which the player cannot seek correctly.
+  * Converting characters for non-English names.
+  * Adding composer name to the artist field, for players that don't handle
+    the composer field.
+  * Renaming files based on their fields.
+  * Changing word case for track info.
+
+
+Package: mp3fs
+Description-md5: 8f548d5affaa2e87ffd6a47cb0cd77db
+Description-it: file system FUSE per la ricodifica di FLAC in MP3 al volo
+ MP3FS è un file system FUSE in sola lettura che ricodifica formati audio
+ (attualmente FLAC) in MP3 al volo quando vengono aperti per la lettura.
+ .
+ È anche una nuova alternativa alle tradizionali applicazioni per codifica
+ in MP3. Gli utenti possono usare il proprio navigatore di file preferito
+ per selezionare i file che desiderano codificare e copiarli da qualche
+ parte.
+
+Package: notion
+Description-md5: 09e7f6a1881d70d8ecd78d22041a49b7
+Description-it: window manager a finestre affiancate progettato per utenti della tastiera
+ Notion divide lo schermo in riquadri e posiziona le finestre in maniera
+ predefinita in tali riquadri. Ciascun riquadro ha un insieme di schede per
+ le finestre al suo interno. Permette anche di rendere le finestre
+ "galleggianti" e di posizionarle liberamente. Notion può essere
+ controllato dalla sola tastiera o insieme a un mouse.
+ .
+ Notion può essere configurato ed esteso usando il linguaggio Lua. È anche
+ compatibile con moduli di estensione scritti in C.
+
+Package: notion-dev
+Description-md5: cc63e31ab5c2f3d12f04e0160cfd72ff
+Description-it: Notion development files
+ Notion divide lo schermo in riquadri e posiziona le finestre in maniera
+ predefinita in tali riquadri. Ciascun riquadro ha un insieme di schede per
+ le finestre al suo interno. Permette anche di rendere le finestre
+ "galleggianti" e di posizionarle liberamente. Notion può essere
+ controllato dalla sola tastiera o insieme a un mouse.
+ .
+ This package contains the files necessary for building extension modules
+ to the Notion window manager
+
+Package: nvpy
+Description-md5: c44576128342ce7083deace26854b8d0
+Description-it: strumento per prendere appunti e sincronizzarli con simplenote
+ nvpy è uno strumento per scrivere appunti e sincronizzarli con simplenote
+ ispirato da Notational Velocity (e un pochino anche da nvALT) su OSX e
+ ResophNotes su Windows. È significativamente più brutto, ma è
+ multipiattaforma.
+
+Package: openmw
+Description-md5: 0e7cb2c3aa968e914308ed7101bb3450
+Description-it: motore di gioco per RPG a mondo aperto
+ OpenMW è un motore di gioco open source per RPG a mondo aperto che è
+ partito come reimplementazione del motore di gioco di Bethesda Game
+ Studios usato da The Elder Scrolls III: Morrowind. L'ambito del progetto
+ si è ampliato con il supporto a un numero maggiore di giochi e consente,
+ con l'aiuto dell'editor, agli sviluppatori e ai creatori di contenuti di
+ creare i propri giochi.
+ .
+ Per giocare a Morrowind sono necessari i "file dei dati" del gioco
+ originale.
+
+Package: openmw-cs
+Description-md5: 97d369b1e83cc500245a31596e1db5fb
+Description-it: editor di contenuti per un uso con OpenMW
+ OpenMW-CS è un editor di contenuti per OpenMW che fornisce il pieno
+ controllo sui contenuti del gioco e la possibilità di creare nuovi
+ contenuti, giochi e mod.
+ .
+ Benché inizialmente simile al "Construction Set" di Bethesda per
+ Morrowind, è adesso completamente indipendente e può essere usato per
+ creare mod, giochi e altri contenuti che non dipendono da Morrowind.
+
+Package: openmw-data
+Description-md5: 1b0b52812c8642f012df637b42864547
+Description-it: risorse per il motore OpenMW
+ Tutti gli shader, i modelli, i file XML mygui e le risorse aggiuntive
+ necessari per eseguire OpenMW.
+
+Package: openmw-launcher
+Description-md5: d11c2f0d33c93915d3b98fc24afd78dd
+Description-it: lanciatore per OpenMW che usa il toolkit Qt per GUI
+ Lanciatore per OpenMW per gestire l'installazione di giochi e delle loro
+ espansioni, mod e dettagli di configurazione.
+ .
+ Sebbene non necessario, automatizza l'impostazione e la configurazione
+ iniziale di OpenMW.
+
+Package: openttd-opensfx
+Description-md5: 107eb65077f6c64d7c21a0c757480def
+Description-it: insieme di suoni per l'uso con il gioco OpenTTD
+ OpenSFX è un rimpiazzo per i suoni base dell'originale TTD (Transport
+ Tycoon Deluxe) usati da OpenTTD e distribuiti con una licenza restrittiva.
+ Lo scopo principale di OpenSFX perciò è quello di fornire un insieme di
+ suoni, disponibili gratuitamente, che rendano possibile giocare a OpenTTD
+ senza che l'utente debba pagare per il gioco Transport Tycoon Deluxe
+ originale per il suo insieme di suoni.
+
+Package: openzwave
+Description-md5: 442706df5b6e40fa2ad015dc3c3b824c
+Description-it: Sample Program for libopenzwave
+ OpenZWave è una libreria open source e multipiattaforma progettata per
+ permettere a chiunque di aggiungere la gestione di dispositivi di domotica
+ Z-Wave alle proprie applicazioni, senza la necessità di alcuna conoscenza
+ approfondita del protocollo Z-Wave.
+
+Package: p7zip-rar
+Description-md5: db884766fbb0af653ae84909ccef976a
+Description-it: pacchetto di transizione
+ Questo è un pacchetto di transizione. Può essere rimosso senza problemi.
+
+Package: playonlinux
+Description-md5: 729a863a5c2d8eb304d4e8e17ffbeafe
+Description-it: frontend per Wine
+ PlayOnLinux is a front-end for wine. It permits you to easily install
+ Windows Games and software on Linux. It is advised to have a functional
+ internet connection.
+
+Package: python3-django-anymail
+Description-md5: acc7102a825f7f17ca83462b25225dd6
+Description-it: Django email backend for multiple ESPs (Python 3)
+ Anymail integrates several transactional email service providers (ESPs)
+ into Django, with a consistent API that lets you use ESP-added features
+ without locking your code to a particular ESP.
+ .
+ It currently fully supports Amazon SES (requires python3-boto3),
+ MailerSend, Mailgun, Mailjet, Mandrill (MailChimp transactional), Postal
+ (self-hosted ESP, requires python3-cryptography), Postmark, SendinBlue,
+ SendGrid, and SparkPost.
+ .
+ Anymail normalizes ESP functionality so it "just works" with Django's
+ built-in `django.core.mail` package. It includes:
+ .
+   * Support for HTML, attachments, extra headers, and other features of
+     Django's built-in email
+   * Extensions that make it easy to use extra ESP functionality, like tags,
+     metadata, and tracking, with code that's portable between ESPs
+   * Simplified inline images for HTML email
+   * Normalized sent-message status and tracking notification, by connecting
+     your ESP's webhooks to Django signals
+   * "Batch transactional" sends using your ESP's merge and template features
+ .
+ Questa è la versione per Python 3 del pacchetto.
+
+Package: python3-sparkpost
+Description-md5: c5cd3eb61351c9c9549c69e845f48a6d
+Description-it: SparkPost Python API client (Python 3)
+ Super-mega-official Python package for using the SparkPost API.
+ .
+ Python and Python-Django integration with SparkPost's email transmission
+ API.
+ .
+ Questa è la versione per Python 3 del pacchetto.
+
+Package: python3-vertica
+Description-md5: e4fe2897df4016619c5c391f68a42c8a
+Description-it: native Python client for the Vertica database (Python 3)
+ HP Vertica is a commercial column-oriented database.
+ .
+ This package provides all the source, examples and documentation you need
+ to easily connect to and interact with Vertica.
+ .
+ Questa è la versione per Python 3 del pacchetto.
+
+Package: qcomicbook
+Description-md5: 5e1e59ae80d5250683bcf393eda201bc
+Description-it: visualizzatore qt di archivi di fumetti (cbr/cbz/cba/cbg/cbb)
+ QComicBook è un visualizzatore per archivi di fumetti che contengono
+ immagini jpeg/png, che mira ad essere comodo e semplice. Le sue
+ caratteristiche includono: decompressione automatica, modalità a schermo
+ intero, ridimensionamento delle pagine, navigazione con mouse o tastiera,
+ ecc.
+ .
+ QComicBook for now supports archives:
+  - cbr - rar-compressed
+  - cbz - zip-compressed
+  - cba - ace-compressed
+  - cbg - targzipped
+  - cbb - tarbzip2ped
+
+
+Package: r-cran-surveillance
+Description-md5: c0b0bb231313eb8bbfdc0a5bb8199755
+Description-it: pacchetto GNU R per la modellazione e il monitoraggio di fenomeni epidemici
+ Metodi statistici per la modellazione e il monitoraggio di serie temporali
+ di conteggi, proporzioni e dati categorici, così come per la modellazione
+ di processi puntuali di fenomeni epidemici nel tempo continuo.
+ .
+ I metodi di monitoraggio si focalizzano sul rilevamento di aberrazioni in
+ serie temporali di conteggi da dati di sorveglianza per la salute pubblica
+ di malattie trasmissibili, ma potrebbero anche esserci applicazioni per
+ l'environmetrica, l'ingegneria dell'affidabilità, l'econometria o le
+ scienze sociali. Il pacchetto implementa molte comuni procedure di
+ rilevamento di epidemie, come l'algoritmo di Farrington (migliorato) o il
+ metodo GLR-CUSUM negativo binomiale di Höhle & Paul (2008)
+ <doi:10.1016/j.csda.2008.02.015>. È anche incluso un approccio CUSUM
+ innovativo che combina modellazione logistica e logistica multinomiale. Il
+ pacchetto contiene diversi insiemi di dati di casi reali, la capacità di
+ simulare dati di epidemie e di visualizzare i risultati del monitoraggio
+ in maniera temporale, spaziale o spazio-temporale. Una recente panoramica
+ delle procedure di monitoraggio disponibili è fornita in Salmon et al.
+ (2016) <doi:10.18637/jss.v070.i10>.
+ .
+ Per l'analisi retrospettiva di diffusioni epidemiche, il pacchetto
+ fornisce tre infrastrutture di modellazione endemica-epidemica con
+ strumenti per visualizzazione, inferenza di verosimiglianza e simulazione.
+ hhh4() stima modelli per serie temporali di conteggi (multivariate)
+ secondo Paul & Held (2011) <doi:10.1002/sim.4177> e Meyer & Held (2014)
+ <doi:10.1214/14-AOAS743>. twinSIR() modella la cronologia di eventi SIR
+ (suscettibili-infetti-rimossi) di una popolazione fissa, ad esempio
+ epidemie tra fattorie o reti, come un processo puntuale multivariato come
+ proposto da Höhle (2009) <doi:10.1002/bimj.200900050>. twinstim() stima
+ modelli di processi puntuali auto-eccitanti per un modello puntuale
+ spazio-temporale di eventi infettivi, ad esempio dati di sorveglianza
+ georeferenziati con marcatura temporale, come proposto da Meyer et al.
+ (2012) <doi:10.1111/j.1541-0420.2011.01684.x>. Una recente panoramica
+ delle infrastrutture di modellazione spazio-tempo implementate per i
+ fenomeni epidemici è fornita in Meyer et al. (2017)
+ <doi:10.18637/jss.v077.i11>.
+
+Package: rar
+Description-md5: 649b872741c4c5402456879832c70c03
+Description-it: Archiviatore per file .rar
+ This is the RAR archiver from Eugene Roshal. It supports multiple volume
+ archives and damage protection. It can also create SFX-archives. There are
+ versions which run on DOS, Windows, FreeBSD, BSDI.
+ .
+ This program is shareware and you must register it after 40 days of use.
+
+Package: raster3d
+Description-md5: 7017e40afb8a84c7aca1cff9519d06ba
+Description-it: strumenti per generare immagini di proteine o di altre molecole
+ Raster3D è un insieme di strumenti per generare immagini raster di alta
+ qualità di proteine o di altre molecole. Il programma principale fa il
+ rendering di superfici di sfere, triangoli, cilindri e quadriche con punti
+ luce riflessi, Phong shading e ombreggiature. Usa un algoritmo Z-buffer
+ software efficiente che è indipendente da ogni hardware grafico. Programmi
+ ausiliari elaborano coordinate atomiche da file PDB in descrizioni di
+ rendering per immagini composte da nastri, atomi che riempono lo spazio,
+ legami, sfere e stecche, ecc. Raster3D può anche essere usato per fare il
+ rendering di immagini composte in altri programmi come Molscript in
+ glorioso 3D con effetto luci, ombreggiatura, ecc. L'output è composto da
+ file di immagini di pixel con 24 bit di informazioni sul colore per pixel.
+
+Package: raster3d-doc
+Description-md5: c1fa8477bbb4f0ad2b3ab28130533382
+Description-it: documents and example files for Raster3D
+ Raster3D è un insieme di strumenti per generare immagini raster di alta
+ qualità di proteine o di altre molecole. Il programma principale fa il
+ rendering di superfici di sfere, triangoli, cilindri e quadriche con punti
+ luce riflessi, Phong shading e ombreggiature. Usa un algoritmo Z-buffer
+ software efficiente che è indipendente da ogni hardware grafico. Programmi
+ ausiliari elaborano coordinate atomiche da file PDB in descrizioni di
+ rendering per immagini composte da nastri, atomi che riempono lo spazio,
+ legami, sfere e stecche, ecc. Raster3D può anche essere usato per fare il
+ rendering di immagini composte in altri programmi come Molscript in
+ glorioso 3D con effetto luci, ombreggiatura, ecc. L'output è composto da
+ file di immagini di pixel con 24 bit di informazioni sul colore per pixel.
+ .
+ This package contains documents and example files for the raster3d
+ package.
+
+Package: rott
+Description-md5: 33b73fa3a3248365bd54091b7dbb5f4d
+Description-it: port SDL di Rise of the Triad
+ Rise of the Triad è un gioco d'azione 3D di alta qualità con una
+ prospettiva in prima persona a scorrimento veloce. Contiene un sacco di
+ nemici distruttivi, un arsenale di armi, dalle semplici pistole ai lancia-
+ missili, armature salva-vita, trappole e luoghi da imboscata.
+ .
+ ATTENZIONE: Rise of the Triad è pieno di violenza sfrenata e gratuita.
+ .
+ This package contains no data files: use `game-data-packager' to generate
+ a suitable data package from the publicly available "Rise of the Triad:
+ The HUNT Begins" shareware episode.
+
+Package: seaview
+Description-md5: a82e7d5dbc9d5aa2cf6662e48d7aa245
+Description-it: interfaccia multipiattaforma per l'allineamento di sequenze e filogenia
+ SeaView è un visualizzatore ed editor per allineamenti multipli di
+ sequenze, cioè sequenze di DNA o proteine sono posizionate ciascuna nella
+ propria riga separata, in modo che il nucleotide/aminoacido in una
+ particolare posizione (colonna) sia considerato avere la stessa proprietà
+ biochimica.
+ .
+ SeaView legge e scrive vari formati di file (NEXUS, MSF, CLUSTAL, FASTA,
+ PHYLIP, MASE, Newick) di sequenze di DNA e proteiche e di alberi
+ filogenetici. Gli allineamenti possono essere modificati a mano. È il
+ motore dei programmi Muscle o Clustal Omega per l'allineamento multiplo di
+ sequenze e permette anche di utilizzare qualsiasi algoritmo esterno di
+ allineamento in grado di leggere e scrivere file in formato FASTA. Calcola
+ gli alberi filogenetici in base alla parsimonia usando l'algoritmo
+ dnapars/protpars di PHYLIP, in base alla distanza su una varietà di
+ distanze evolutive con l'algoritmo NJ o BioNJ oppure in base alla massima
+ verosimiglianza usando il programma PhyML 3.0.
+ .
+ SeaView disegna alberi filogenetici sullo schermo o in file PostScript e
+ permette di scaricare sequenze da EMBL/GenBank/UniProt usando Internet.
+
+Package: sgb-doc
+Description-md5: eaae774ff38328532e7d72ab56f63004
+Description-it: Documentazione per lo Stanford GraphBase
+ This package contains the source code for the GraphBase library, which
+ forms the major documentation of the package.  It will be installed in
+ /usr/share/doc/sgb/src.
+ .
+ The source code is written in CWEB, a combination of TeX and C, using a
+ very readable literate programming style, making the code a joy to read.
+
+Package: sisu-markup-samples
+Description-md5: b2ee66a81b88ccb11bcd0a88a5a5a24f
+Description-it: document markup examples for sisu, publish and search framework
+ The document samples provided include:
+  * "Free as in Freedom (2.0)", Sam Williams, Richard M. Stallman
+  * "Free as in Freedom", Sam Williams
+  * "Viral Spiral", David Bollier
+  * "The Wealth of Networks", Jochai Benkler
+  * "Free Culture", Lawrence Lessig
+  * "CONTENT", Cory Doctorow
+  * "Two Bits", Christopher Kelty
+  * "Democratizing Innovation", Eric von Hippel
+  * "Free For All", Peter Wayner
+  * "The Cathedral and the Bazaar", Eric S. Raymond
+  * "Little Brother", Cory Doctorow
+  * "Down and Out in the Magic Kingdom", Cory Doctorow
+  * "For the Win", Cory Doctorow
+  * "Accelerando", Charles Stross
+  and a couple of additional texts.
+ .
+ The documents were shared by their authors under Creative Commons
+ licenses, that permit their distribution, though not within the main
+ Debian archive by Debian policy.
+ .
+  * "Free As In Freedom", on RMS by Sam Williams, is available as a markup
+ sample within the package sisu
+ .
+ SiSU is a lightweight markup based, command line oriented, document
+ structuring, publishing and search framework for document collections.
+ .
+ With minimal preparation of a plain-text, (UTF-8) file, using its native
+ markup syntax in your text editor of choice, SiSU can generate various
+ document formats (most of which share a common object numbering system for
+ locating content), including plain text, HTML, XHTML, XML, EPUB,
+ OpenDocument text (ODF:ODT), LaTeX, PDF files, and populate an SQL
+ database with objects (roughly paragraph-sized chunks) so searches may be
+ performed and matches returned with that degree of granularity: your
+ search criteria is met by these documents and at these locations within
+ each document. Object numbering is particularly suitable for "published"
+ works (finalized texts as opposed to works that are frequently changed or
+ updated) for which it provides a fixed means of reference of content.
+ Document outputs also share semantic meta-data provided.
+ .
+ SiSU also provides concordance files, document content certificates and
+ manifests of generated output.
+ .
+ Sono forniti pagine di manuale e aiuto interattivo.
+ .
+ Dependencies for additional features are taken care of in sisu related
+ packages.
+ .
+ The dummy package sisu-complete together with sisu-markup-samples installs
+ the whole of SiSU.
+
+Package: sl-modem-dkms
+Description-md5: a58074862ac671ccf741dfee54f7b6e0
+Description-it: Driver per il modem software SmartLink - sorgenti per la creazione dei moduli
+ This package contains source code for the low-level drivers for the
+ software modems produced by Smart Link Ltd. It supports PCI and USB
+ models.
+ .
+ In addition to this package, you will need the package sl-modem-daemon
+ which implements the application part of the driver.
+ .
+ Module packages can be built for the custom kernel package either by hand
+ or using DKMS.
+
+Package: spectemu-common
+Description-md5: 26bc6bd9e66de9535a2d1d86848d0e2c
+Description-it: Fast 48k ZX Spectrum Emulator (common files)
+ Spectemu emulates the 48k ZX Spectrum, which uses the Z80 microprocessor.
+ This package contains common configuration files and utilities which are
+ or can be used by either the X11 or the SVGAlib frontend.
+ .
+ Emula il processore Z80 e anche tutto l'altro hardware dello Spectrum 48k:
+ tastiera, schermo, suono, nastro di I/O. L'emulazione è molto vicina alla
+ realtà, anche se continua a essere più veloce (pare che funzioni
+ normalmente su un portatile con un 486 a 25MHz!). Purtroppo l'interfaccia
+ utente non è al meglio.
+ .
+ Features include:
+    - Sound support through Linux kernel sound-card driver.
+    - Snapshot saving and loading (.Z80 and .SNA format)
+    - Tape emulation: loading from tape files (.TAP and .TZX format)
+    - Optional quick loading of tapes.
+    - Saving to tape files.
+    - Separate utility to save tape files to real tape
+    - Configurable with config files and from command line
+
+
+Package: spectemu-x11
+Description-md5: 0bf9dc39a82ac7415decd677a04bcf9b
+Description-it: veloce emulatore dello ZX Spectrum 48k per X11
+ xspect è una versione per X11 di Spectemu, un emulatore dello ZX Spectrum
+ 48k che utilizza il microprocessore Z80.
+ .
+ Emula il processore Z80 e anche tutto l'altro hardware dello Spectrum 48k:
+ tastiera, schermo, suono, nastro di I/O. L'emulazione è molto vicina alla
+ realtà, anche se continua a essere più veloce (pare che funzioni
+ normalmente su un portatile con un 486 a 25MHz!). Purtroppo l'interfaccia
+ utente non è al meglio.
+ .
+ Features include:
+    - Sound support through Linux kernel sound-card driver.
+    - Snapshot saving and loading (.Z80 and .SNA format)
+    - Tape emulation: loading from tape files (.TAP and .TZX format)
+    - Optional quick loading of tapes.
+    - Saving to tape files.
+    - Separate utility to save tape files to real tape
+    - Configurable with config files and from command line
+
+
+Package: spread-phy
+Description-md5: 3adb36b53159c17b4ca86e0ba4d0f573
+Description-it: analizza e visualizza ricostruzioni filogeografiche
+ SPREAD è un'applicazione facile da usare per analizzare e visualizzare
+ ricostruzioni filogeografiche risultanti da inferenza bayesiana di
+ diffusione spazio-temporale.
+ .
+ C'è un tutorial per SPREAD in linea all'indirizzo http://www.kuleuven.be/a
+ idslab/phylogeography/tutorial/spread_tutorial.html
+ .
+ Originalmente questo programma è chiamato "spread". Tuttavia, c'è proprio
+ un pacchetto con quel nome in Debian e perciò è stato aggiunto "phy" per
+ phylogeny.
+
+Package: steam-devices
+Description-md5: f9b7ac135061c71ccbe81df2a894fb55
+Description-it: supporto per dispositivi hardware relativi a Steam
+ Questo pacchetto fornisce regole udev per vari dispositivi hardware
+ relativi a Steam, come Steam Controller (gamepad) e HTC Vive (visore per
+ realtà virtuale).
+
+Package: svtools
+Description-md5: 0e1af3ce7283b30f537bf151c85ac7d0
+Description-it: utilità per daemontools e multilog
+ Questo pacchetto fornisce alcuni utili programmi per avere servizi
+ supervisionati e per gestire file di log multilog:
+ .
+ svdir: trova la directory di servizio di daemontools; svinfo: ottiene
+ informazioni relative ad un processo supervisionato; svinitd: wrapper di
+ init.d per servizi daemontools; svinitd-create: crea uno script init.d per
+ un processo supervisionato; svsetup: strumento di configurazione dei
+ servizi per daemontools; mlcat: frontend di cat per file multilog; mlhead:
+ frontend di head per file multilog; mltail: frontend di tail per file
+ multilog.
+
+Package: tiemu
+Description-md5: 1102e21f878c7b4ba0911b7e6e5634f0
+Description-it: emulatore di calcolatrice Texas Instruments (senza GDB)
+ TiEmu emula le calcolatrici Texas Instruments TI-89/92/92+/V200PLT.
+ .
+ È basato su XTiger, l'emulatore originale di TI per Linux, che usa il
+ nucleo di emulazione del 68k di UAE (The Ultimate Amiga Emulator).
+ .
+ È necessario o fare un dump della ROM della propria calcolatrice (si può
+ fare con TiLP) o prendere un aggiornamento FLASH dalla Texas Instruments
+ (si veda la sezione software riguardante la propria calcolatrice, per
+ scaricare l'archivio ed estrarre il file) per usare questo emulatore. NON
+ ci sono ROM TI contenute in questo pacchetto, perché sono protette dal
+ copyright di Texas Instruments, Inc.
+ .
+ Comunque attualmente una ROM libera è allegata a TiEmu, chiamata PedRom.
+ Da provare!
+ .
+ Questa versione contiene un debugger assembler in stile VTI.
+ .
+ Si noti che esiste un'altra versione (tiemu-gdb), non fornita dalla
+ Debian, che include un debugger assembler in stile GDB da usare con TIGCC
+ e/o KTIGCC.
+
+Package: tightvnc-java
+Description-md5: 40a38acc917ddb191772cd544459f689
+Description-it: applet Java e programma a riga di comando TightVNC
+ VNC sta per "Virtual Network Computing". In sintesi è un sistema per
+ display remoto che permette di vedere un ambiente "desktop" in funzione
+ non solo sulla macchina su cui è in esecuzione, ma ovunque da Internet e
+ da una grande varietà di architetture.
+ .
+ Questo pacchetto fornisce i file VNC di un'applet Java che tightvncserver
+ può distribuire ai client. Inoltre è incluso un programma a riga di
+ comando che avvia localmente un visualizzatore VNC basato su Java.
+
+Package: tome
+Description-md5: 9efcf47839037501aa7357051f1287d3
+Description-it: single-player text-based roguelike dungeon simulation game
+ Tome, short for Troubles of Middle Earth, is a single-player, text-based,
+ dungeon simulation derived from the game angband, which in turn is derived
+ from the older game Moria, which was in turn based on Rogue. It is often
+ described as a "roguelike" game because the look and feel of the game is
+ still quite similar to Rogue.
+ .
+ In tome, the  player may choose from a number of races and classes when
+ creating a character, and then "run" that character over a period of days,
+ weeks, even months, attempting to win the game by defeating Morgoth, who
+ lurks somewhere in  the depths of the dungeon.
+ .
+ Lo scopo finale del gioco è di sviluppare un personaggio abbastanza
+ potente da sconfiggere Morgoth, che risiede nei sotterranei al centesimo
+ livello. Dopo aver fatto questo si riceverà lo status nobile di
+ "vincitore" e si potrà mandare in pensione il proprio personaggio.
+ .
+ The first main difference from Angband a new player to ToME will need to
+ be aware of is that it has implemented a skills based system where instead
+ of the  adventurer automatically improving in their abilities as they
+ become more experienced, they get 5 skill points to spend on their
+ character's abilities and can therefore customise what type of character
+ they play. See the skills help file for details
+ .
+ The second major difference is that the main dungeon from Angband has been
+ split  into 4 "dungeons", each of which cover a different portion of the
+ dungeon's  levels. Note that not all of the places are actually "dungeons"
+ - some are caves, forests, etc.
+ .
+ The third main difference between Vanilla Angband and ToME is the
+ difference  in character classes and races, as well as a very different
+ magic system. ToME also offers the player the ability to undertake a
+ series of  quests. It is not required for any adventurer to undertake  the
+ fixed  quests, but they can result in some nice rewards.
+ .
+ Morgoth was 'the Dark Enemy of Middle-Earth' during its First Age. He was
+ banished by the Valar (offspring of Eru, "god" of J.R.R. Tolkien's world)
+ at the end of the First Age and thus never appears in The Lord of the
+ Rings, set during the Third Age. Sauron, who does figure into those tales,
+ was the most powerful of his servants. Read Tolkien's 'The Silmarillion'
+ for more on the legends of Middle-Earth. Angband is a reference to
+ Morgoth's "prison of iron."
+
+Package: treeview
+Description-md5: ba1871fdfc7832e4ff41cecdd4a32563
+Description-it: re-implementazione in Java di TreeView di Michael Eisen
+ TreeView crea una visualizzazione simile a una matrice di dati di
+ espressione, conosciuta come raggruppamento di Eisen. L'implementazione
+ originale era un programma per Windows chiamato TreeView creato da Michael
+ Eisen. Questo pacchetto TreeView, talvolta chiamato jTreeView, è stato
+ riscritto in Java sotto una licenza libera.
+ .
+ Java TreeView è un visualizzatore estensibile dati di microarray in
+ formato CDT o PCL.
+
+Package: ubuntu-restricted-addons
+Description-md5: 1a61890ad8e3fb16727ca6a6b66aacbf
+Description-it: Pacchetti di uso comune con restrizioni per Ubuntu.
+ This package depends on some commonly used packages in the Ubuntu universe
+ and multiverse repositories.
+
+Package: ugene
+Description-md5: 9a10717d68a69dfaff1354fa2282b503
+Description-it: toolkit integrato per bioinformatica
+ Unipro UGENE è un ambiente visuale multipiattaforma per analisi di
+ sequenze di DNA e proteine. UGENE integra i più importanti algoritmi di
+ calcolo per bioinformatica e fornisce una GUI facile da usare per
+ effettuare analisi complesse dei dati genomici. Una delle funzionalità
+ principali di UGENE è uno strumento di progettazione per flussi di lavoro
+ personalizzati per bioinformatica.
+
+Package: ugene-data
+Description-md5: a0c0756b3f7b317ece195fedee3dde50
+Description-it: dati necessari per UGENE - toolkit integrato per bioinformatica
+ Unipro UGENE è un ambiente visuale multipiattaforma per analisi di
+ sequenze di DNA e proteine.
+ .
+ Questo pacchetto contiene vari dati e file d'esempio per UGENE.
+
+Package: unrar
+Description-md5: 363f696bb115028ffafb265ccc9f32fb
+Description-it: Scompattatore per file .rar (versione non-free)
+ Unrar can extract files from .rar archives. If you want to create .rar
+ archives, install package rar.
+
+Package: uqm
+Description-md5: d1146c2aa42142ead5a25d96122ee383
+Description-it: The Ur-Quan Masters - An inter-galactic adventure game
+ Ritornando al pianeta Terra, con un'astronave costruita grazie alla
+ tecnologia di un'antica razza chiamata i Precursori, si scopre che il
+ pianeta è stato schiavizzato. Bisogna radunare alleati da una vasta
+ varietà di razze, ingaggiare combattimenti spaziali con diversi nemici e
+ salvare la galassia dagli Ur-Quan!
+ .
+ The Ur-Quan Masters è derivato dal classico gioco Star Control II. Include
+ sia il gioco descritto qui sopra sia un veloce super combattimento
+ ravvicinato.
+
+Package: uqm-content
+Description-md5: d7f7f708308d54e508318be3eb7c3bcf
+Description-it: The Ur-Quan Masters - Game data files
+ Ritornando al pianeta Terra, con un'astronave costruita grazie alla
+ tecnologia di un'antica razza chiamata i Precursori, si scopre che il
+ pianeta è stato schiavizzato. Bisogna radunare alleati da una vasta
+ varietà di razze, ingaggiare combattimenti spaziali con diversi nemici e
+ salvare la galassia dagli Ur-Quan!
+ .
+ This package contains all the game data files for The Ur-Quan Masters.
+
+Package: uqm-music
+Description-md5: e30a0c3c7725aff364033433f48e819a
+Description-it: The Ur-Quan Masters - Game music files
+ Ritornando al pianeta Terra, con un'astronave costruita grazie alla
+ tecnologia di un'antica razza chiamata i Precursori, si scopre che il
+ pianeta è stato schiavizzato. Bisogna radunare alleati da una vasta
+ varietà di razze, ingaggiare combattimenti spaziali con diversi nemici e
+ salvare la galassia dagli Ur-Quan!
+ .
+ This package contains higher quality game music files for The Ur-Quan
+ Masters, in ogg vorbis format. If you don't install this package, the game
+ will use lower-quality mod music files.
+
+Package: uqm-russian
+Description-md5: 267ce4366adc55d3942d0f2c8c1c723a
+Description-it: Russian addon for 'The Ur-Quan Masters' game
+ Ritornando al pianeta Terra, con un'astronave costruita grazie alla
+ tecnologia di un'antica razza chiamata i Precursori, si scopre che il
+ pianeta è stato schiavizzato. Bisogna radunare alleati da una vasta
+ varietà di razze, ingaggiare combattimenti spaziali con diversi nemici e
+ salvare la galassia dagli Ur-Quan!
+ .
+ The Ur-Quan Masters è derivato dal classico gioco Star Control II. Include
+ sia il gioco descritto qui sopra sia un veloce super combattimento
+ ravvicinato.
+ .
+ This package provides Russian menus and dialogs for the game.
+
+Package: uqm-voice
+Description-md5: 97d3042297f40db281c3216b6096a25e
+Description-it: The Ur-Quan Masters - Voice files
+ Ritornando al pianeta Terra, con un'astronave costruita grazie alla
+ tecnologia di un'antica razza chiamata i Precursori, si scopre che il
+ pianeta è stato schiavizzato. Bisogna radunare alleati da una vasta
+ varietà di razze, ingaggiare combattimenti spaziali con diversi nemici e
+ salvare la galassia dagli Ur-Quan!
+ .
+ This package contains all the voice recordings used in the game. Note that
+ it is over 100Mb! You can play the game without these files if the package
+ is too big.
+
+Package: vice
+Description-md5: 08c1a2e701ce8fd760ff934904ea4135
+Description-it: emulatore Commodore versatile
+ VICE emula bene l'hardware Commodore Business Machines dell'era pre-Amiga.
+ Sono supportati vari tipi di Pet, il VIC-20, il Commodore 64, il Commodore
+ 128, la serie CBM-II e il PLUS/4.
+ .
+ Alcune parole chiave alternative per i modelli sopra citati: VIC20, C64,
+ C=64, C64 DTV, C128, C=128, CBM-500, CBM-600, CBM-700, PLUS4.
+ .
+ Questo pacchetto non contiene le varie immagini ROM necessarie per usare
+ realmente gli emulatori; esse sono disponibili separatamente da altre
+ fonti (si veda il file README.ROMs). Una società nei Paesi Bassi chiamata
+ Tulip possiede i diritti sulle immagini ROM e la ridistribuzione non è
+ permessa, ma VICE in sé stesso non è gravato da tali limitazioni.
+
+Package: videotrans
+Description-md5: e1f89ca2dddfd4e1fb8361b8e9ee4150
+Description-it: utilità per la creazione di DVD
+ A collection of utilities and scripts designed to help with DVD authoring:
+  * movie-to-dvd - convert video to MPEG2 + MP2 or AC3
+  * movie-title - combine video and title sequence into a menu
+  * movie-make-title - create background video for DVD menu
+  * movie-make-title-simple - create background image+audio for DVD menu
+  * movie-rip-tv.com - gather information about TV series from tv.com
+  * movie-rip-epg.data - convert EPG to .info for movie-title
+  * movie-compare-dvd - verify if DVD was burned correctly
+
+
+Package: virtualbox
+Description-md5: 30f96d22c1a6ca04db16bdc1e79ad965
+Description-it: soluzione per la virtualizzazione x86 - binari di base
+ VirtualBox è una soluzione libera per la virtualizzazione x86 che permette
+ di eseguire su un sistema Linux un'ampia gamma di sistemi operativi x86
+ come Windows, DOS, BSD o Linux.
+ .
+ Questo pacchetto fornisce i binari per VirtualBox. È necessario anche il
+ pacchetto virtualbox-dkms o virtualbox-source per poter compilare i moduli
+ del kernel necessari per virtualbox. Nel pacchetto virtualbox-qt viene
+ fornita un'interfaccia utente grafica per VirtualBox.
+
+Package: virtualbox-dkms
+Description-md5: 4d42f0fe51c4a92f2aed5071f84524ae
+Description-it: x86 virtualization solution - kernel module sources for dkms
+ VirtualBox è una soluzione libera per la virtualizzazione x86 che permette
+ di eseguire su un sistema Linux un'ampia gamma di sistemi operativi x86
+ come Windows, DOS, BSD o Linux.
+ .
+ This package provides the source code for the virtualbox kernel module to
+ be build with dkms. Kernel sources or headers are required to compile this
+ module.
+
+Package: virtualbox-guest-additions-iso
+Description-md5: 11a9eaac064138ec238f7c2ee4c018df
+Description-it: guest additions iso image for VirtualBox
+ VirtualBox è una soluzione libera per la virtualizzazione x86 che permette
+ di eseguire su un sistema Linux un'ampia gamma di sistemi operativi x86
+ come Windows, DOS, BSD o Linux.
+ .
+ This package provides an iso image which contains the guest additions for
+ Linux, Solaris and Windows to be installed on the host system. The guest
+ systems then can mount the iso and install the guest additions from there.
+
+Package: virtualbox-guest-utils
+Description-md5: 0c420aa026ad03a572b15c6e38dbebf7
+Description-it: x86 virtualization solution - non-X11 guest utilities
+ VirtualBox è una soluzione libera per la virtualizzazione x86 che permette
+ di eseguire su un sistema Linux un'ampia gamma di sistemi operativi x86
+ come Windows, DOS, BSD o Linux.
+ .
+ This package provides the non-X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine. They provide
+ closer integration and allow to share data through shared folders between
+ the host system and the virtual machine.
+
+Package: virtualbox-guest-utils-hwe
+Description-md5: 0c420aa026ad03a572b15c6e38dbebf7
+Description-it: x86 virtualization solution - non-X11 guest utilities
+ VirtualBox è una soluzione libera per la virtualizzazione x86 che permette
+ di eseguire su un sistema Linux un'ampia gamma di sistemi operativi x86
+ come Windows, DOS, BSD o Linux.
+ .
+ This package provides the non-X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine. They provide
+ closer integration and allow to share data through shared folders between
+ the host system and the virtual machine.
+
+Package: virtualbox-guest-x11
+Description-md5: 3487afde0b114ec7e205b11f1dd3f7a5
+Description-it: x86 virtualization solution - X11 guest utilities
+ VirtualBox è una soluzione libera per la virtualizzazione x86 che permette
+ di eseguire su un sistema Linux un'ampia gamma di sistemi operativi x86
+ come Windows, DOS, BSD o Linux.
+ .
+ This package provides the X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine. They provide
+ closer integration and improve the interactive performance.
+
+Package: virtualbox-guest-x11-hwe
+Description-md5: 3487afde0b114ec7e205b11f1dd3f7a5
+Description-it: x86 virtualization solution - X11 guest utilities
+ VirtualBox è una soluzione libera per la virtualizzazione x86 che permette
+ di eseguire su un sistema Linux un'ampia gamma di sistemi operativi x86
+ come Windows, DOS, BSD o Linux.
+ .
+ This package provides the X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine. They provide
+ closer integration and improve the interactive performance.
+
+Package: virtualbox-qt
+Description-md5: 41ed29f36ba23b3ce0155f9a8efcff60
+Description-it: x86 virtualization solution - Qt based user interface
+ VirtualBox è una soluzione libera per la virtualizzazione x86 che permette
+ di eseguire su un sistema Linux un'ampia gamma di sistemi operativi x86
+ come Windows, DOS, BSD o Linux.
+ .
+ This package provides the Qt based graphical user interface for
+ VirtualBox.
+
+Package: virtualbox-source
+Description-md5: 53035ede584988f3413156cb7a5dbe8b
+Description-it: x86 virtualization solution - kernel module source
+ VirtualBox è una soluzione libera per la virtualizzazione x86 che permette
+ di eseguire su un sistema Linux un'ampia gamma di sistemi operativi x86
+ come Windows, DOS, BSD o Linux.
+ .
+ This package provides the source code for the virtualbox kernel module.
+ The virtualbox package is also required in order to make use of these
+ modules. Kernel sources or headers are required to compile this module.
+ .
+ The source is placed under /usr/src, and after decompression it can be
+ built to produce a virtualbox-modules-_KVERS_ providing "virtualbox-
+ modules" package.
+
+Package: weirdx
+Description-md5: efd18efb16cda856c70bd010ee0ab87c
+Description-it: server X in Java
+ Implementazione completa in Java di un server X che può funzionare
+ autonomamente o come applet. Gestisce X in remoto e (usando libjsch-java)
+ X inoltrato su SSH.
+ .
+ Contiene anche una libreria per incapsulare WeirdX in altri programmi o
+ applet Java.
+
+Package: wnn7egg
+Description-md5: 7918444a5374084c8d0ad79a7e5c2c6a
+Description-it: wnn-nana-tamago - metodo di input EGG con Wnn7 per Emacs
+ EGG per Wnn7, chiamato "wnn-nana-tamago" è un metodo di input in
+ giapponese per Emacs. È basato su Tamago ver.3 (v3.09) e incorpora la
+ parte relativa alla libreria di comunicazione di Tamago Ver.4.
+ .
+ Può essere usato solo con Jserver di Wnn7.
+
+Package: xfractint
+Description-md5: 61c3738a20c978ffe1b6a4eaac35accf
+Description-it: Generatore di frattali basato su UNIX
+ Generate Mandelbrot, Julia, IFS, and many more fractals in 2D and 3D,
+ including those you design yourself. Version 19 now supports arbitrary
+ precision which allows zooming to a depth of 10^1600, as well as
+ generation of random dot stereograms.
+
+Package: xsnow
+Description-md5: 50f83ae2081d9d64cb36576ded637c7a
+Description-it: porta il Natale sul desktop
+ Xsnow è un'applicazione per X Window che farà nevicare sullo sfondo del
+ desktop. Babbo Natale e la sua renna completeranno l'atmosfera delle
+ feste. Xsnow gira in GNOME, KDE, FVWM e i desktop che derivano da questi.
+
+Package: xtide-data-nonfree
+Description-md5: 5198053f69c8e13dcd7b07b35926227a
+Description-it: Harmonics data for xtide (Canada, Netherlands, Germany and UK)
+ XTide è un pacchetto che fornisce le previsioni di marea e correnti in
+ vari formati. Possono essere generati grafici, liste e calendari, o
+ possono essere inseriti diversi tempi di marea nel desktop.
+ .
+ This package provides _extra_ harmonic station data for the xtide package.
+ XTide works fine without them using the (free) xtide-data package which
+ provides harmonics data for the US, but this package adds non-free data
+ for Canada, the Netherlands, Germany and the UK.
+ .
+ Questo pacchetto non è gratuito, perché la distribuzione commerciale dei
+ dati non è consentita.
+
+Package: ydpdict
+Description-md5: 1d8b03ebcd291c2d6c1dc8caf4e40e25
+Description-it: interfaccia per dizionari Collins e Langenscheidt
+ Questa è un'interfaccia ncurses per i dizionari Inglese-Polacco/Polacco-
+ Inglese Collins e Tedesco-Polacco/Polacco-Tedesco Langenscheidt
+ distribuiti da Young Digital Planet. Può anche riprodurre gli esempi di
+ pronuncia se è disponibile il CD.
+ .
+ Questo pacchetto è solo l'interfaccia, non contiene i file dizionario
+ stessi. Per usarlo, è necessaria una copia di un dizionario da YDP.
+
+Package: zangband
+Description-md5: f78402f3185f38d4b6019bda59d02d6a
+Description-it: Un gioco tipo rouge, testuale, a giocatore singolo
+ Zangband is a single-player, roguelike game, based on Angband. Like
+ Angband, Zangband features unique foes, artifacts, monster pits and
+ vaults.  Additionally, Zangband offers a new spell system (life, sorcery,
+ nature, chaos, death magic), a different monster list, speaking unique
+ foes, rumours, warrants, new ego items, backstabbing from rogues, poisoned
+ weapons, and much more.
+
+Package: zangband-data
+Description-md5: 976c44c586fad17925f2f71d99e97fab
+Description-it: Un gioco tipo rouge, testuale, a giocatore singolo (file di dati)
+ Zangband è un gioco tipo rogue a giocatore singolo, basato su Angband.
+ Come Angband, Zangband ha caratteristiche uniche, nemici, artefatti,
+ mostri, buche e volte.
+ .
+ This package contains the architecture-independent data files used by
+ zangband.
+

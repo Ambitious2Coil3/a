@@ -1,0 +1,31 @@
+Package: abs-guide
+Description-md5: c70e528b8b624e5738bdbd1b89e8b349
+Description-bg: Наръчник по Bash скриптинг за напреднали
+ An in-depth exploration of the art of shell scripting.
+ .
+ This tutorial assumes no previous knowledge of scripting or programming,
+ but progresses rapidly toward an intermediate/advanced level of
+ instruction ... all the while sneaking in little snippets of UNIX(R)
+ wisdom and lore. It serves as a textbook, a manual for self-study, and a
+ reference and source of knowledge on shell scripting techniques. The
+ exercises and heavily-commented examples invite active reader
+ participation, under the premise that the only way to really learn
+ scripting is to write scripts.
+ .
+ This book is suitable for classroom use as a general introduction to
+ programming concepts.
+
+Package: alien-arena-data
+Description-md5: f930829d2a1207940bee317dc2015735
+Description-bg: Файлове с данни за играта Alien Arena
+ ALIEN ARENA is a standalone 3D first person online death-match shooter
+ crafted from the original source code of Quake II and Quake III, released
+ by id Software under the GPL license. With features including 32-bit
+ graphics, a new particle engine and effects, light blooms, reflective
+ water, hi-resolution textures and skins, and hi-poly models and stain
+ maps, ALIEN ARENA pushes the envelope of graphical beauty rivaling today's
+ top games.
+ .
+ This package installs the data, botinfo, and arena files needed to run
+ Alien Arena.
+

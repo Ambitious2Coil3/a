@@ -1,0 +1,371 @@
+Package: acct
+Description-md5: 2411ebcaa9bca02b21c19f927d3e1bda
+Description-id: GNU Accounting utilities for process and login accounting
+ Utilitas Akuntansi GNU adalah seperangkat alat yang melaporkan dan
+ menjumlahkan data tentang waktu koneksi pengguna dan statistik eksekusi
+ proses.
+ .
+ "Login accounting" memberikan rangkuman penggunaan sumberdaya sistem
+ berdasar waktu koneksi, sementara "process accounting" memberikan
+ rangkuman berdasar perintah-perintah yang dijalankan pada sistem.
+ .
+ The 'last' command is provided by the util-linux package and not included
+ here.
+
+Package: acpid
+Description-md5: 6a7c4e4695f570d8fbcaec667cdcfcfe
+Description-id: Advanced Configuration and Power Interface event daemon
+ Komputer modern mendukung pengaturan canggih dan Antarmuka Daya (ACPI)
+ untuk memungkinkan manajemen daya cerdas di sistem anda dan untuk baterai
+ query dan status pengaturan.
+ .
+ ACPID is a completely flexible, totally extensible daemon for delivering
+ ACPI events. It listens on netlink interface (or on the deprecated file
+ /proc/acpi/event), and when an event occurs, executes programs to handle
+ the event. The programs it executes are configured through a set of
+ configuration files, which can be dropped into place by packages or by the
+ admin.
+
+Package: adduser
+Description-md5: a5681e7bad8d90695043c6eab9784701
+Description-id: tambah dan hapus pengguna dan grup
+ Paket ini termasuk 'adduser' dan 'deluser' perintah untuk membuat dan
+ menghapus pengguna.
+ .
+  -'adduser' dipakai untuk membuat akun pengguna baru dan grupnya, serta 
+    menambahkan akun pengguna yang telah ada ke suatu grup;
+  -'deluser' dipakai untuk menghapus akun pengguna dan grup, atau menghapus
+    akun pengguna tertentu dari suatu grup.
+ .
+ Adding users with 'adduser' is much easier than adding them manually.
+ 'Adduser' will choose UID and GID values that conform to Debian policy,
+ create a home directory, copy skeletal user configuration, and automate
+ setting initial values for the user's password, real name and so on.
+ .
+ 'Deluser' can back up and remove users' home directories and mail spool or
+ all the files they own on the system.
+ .
+ Skrip tertentu yang dapat dijalankan segera setelah setiap perintah.
+ .
+ 'Adduser' and 'Deluser' are intended to be used by the local administrator
+ in lieu of the tools from the 'useradd' suite, and they provide support
+ for easy use from Debian package maintainer scripts, functioning as kind
+ of a policy layer to make those scripts easier and more stable to write
+ and maintain.
+
+Package: aide
+Description-md5: 1d70ba920a3b80bc791be197bf18814c
+Description-id: Advanced Intrusion Detection Environment - dynamic binary
+ AIDE adalah sistem pendeteksi intrusi yang mengawasi perubahan berkas pada
+ sistem lokal. Aplikasi ini membuat basis data dari seperangkat aturan
+ regex yang diperoleh dari berkas konfigurasinya. Setelah basis data
+ dibuat, AIDE dapat digunakan untuk memverifikasi integritas berkas-berkas
+ sistem. AIDE mendukung beberapa algoritma message-digest (md5, sha1,
+ rmd160, tiger, haval, dll) yang dapat digunakan untuk memeriksa integritas
+ suatu berkas. Algoritma lain dapat ditambahkan dengan mudah. Semua atribut
+ berkas yang umum juga diperiksa untuk memastikan konsistensinya.
+
+Package: aide-common
+Description-md5: 7a8490e442a29581e6cca1b191be3f62
+Description-id: Advanced Intrusion Detection Environment - Berkas umum
+ AIDE adalah sistem pendeteksi intrusi yang mengawasi perubahan berkas pada
+ sistem lokal. Aplikasi ini membuat basis data dari seperangkat aturan
+ regex yang diperoleh dari berkas konfigurasinya. Setelah basis data
+ dibuat, AIDE dapat digunakan untuk memverifikasi integritas berkas-berkas
+ sistem. AIDE mendukung beberapa algoritma message-digest (md5, sha1,
+ rmd160, tiger, haval, dll) yang dapat digunakan untuk memeriksa integritas
+ suatu berkas. Algoritma lain dapat ditambahkan dengan mudah. Semua atribut
+ berkas yang umum juga diperiksa untuk memastikan konsistensinya.
+ .
+ Paket ini berisi berkas-berkas dasar dan konfigurasi yang diperlukan untuk
+ menjalankan binari aplikasinya.
+ .
+ Anda mungkin perlu untuk memodifikasi berkas konfigurasi
+ /etc/aide/aide.conf atau menyisipkan potongan konfigurasi milik sendiri ke
+ /etc/aide/aide.conf.d
+
+Package: anacron
+Description-md5: cd9f07726e1ee3bc93fcfdb799520070
+Description-id: Program semacam cron yang tidak menggunakan orientasi waktu
+ Anacron (like "anac(h)ronistic") is a periodic command scheduler.  It
+ executes commands at intervals specified in days.  Unlike cron, it does
+ not assume that the system is running continuously.  It can therefore be
+ used to control the execution of daily, weekly, and monthly jobs (or
+ anything with a period of n days), on systems that don't run 24 hours a
+ day.  When installed and configured properly, Anacron will make sure that
+ the commands are run at the specified intervals as closely as machine
+ uptime permits.
+ .
+ This package is pre-configured to execute the daily jobs of the Debian
+ system.  You should install this program if your system isn't powered on
+ 24 hours a day to make sure the maintenance jobs of other Debian packages
+ are executed each day.
+
+Package: base-passwd
+Description-md5: aad0cc52ee72b2469af5552851e49f03
+Description-id: Berkas utama grup dan sandi sistem dasar Debian
+ Ini adalah salinan utama dari berkas basis data pengguna (/etc/passwd dan
+ /etc/group), yang memuat ID pengguna dan grup yang dialokasikan oleh
+ Debian. Perkakas update-passwd disediakan untuk menjaga agar basis data
+ sistem selaras dengan berkas-berkas utama ini.
+
+Package: bash
+Description-md5: 3522aa7b4374048d6450e348a5bb45d9
+Description-id: GNU Bourne Again SHell
+ Bash adalah interpreter bahasa perintah yang kompatibel dengan sh, yang
+ menjalankan perintah yang dibaca dari masukan standar atau dari sebuah
+ berkas. Bash juga memasukkan fitur-fitur berguna dari shell Korn dan C
+ (ksh dan csh).
+ .
+ Bash pada akhirnya ditujukan sebagai sebuah implementasi yang memenuhi
+ spesifikasi IEEE POSIX Shell and Tools (IEEE Working Group 1003.2).
+ .
+ The Programmable Completion Code, karya Ian Macdonald, sekarang ada pada
+ paket bash-completion.
+
+Package: bash-doc
+Description-md5: 232b3e580e9136f4e0c8f65a0c7a5b36
+Description-id: Documentation and examples for the GNU Bourne Again SHell
+ Bash adalah interpreter bahasa perintah yang kompatibel dengan sh, yang
+ menjalankan perintah yang dibaca dari masukan standar atau dari sebuah
+ berkas. Bash juga memasukkan fitur-fitur berguna dari shell Korn dan C
+ (ksh dan csh).
+ .
+ This package contains the distributable documentation, all the examples
+ and the main changelog.
+
+Package: debconf
+Description-md5: 85b82bf406dfc9a635114f44ab7fb66d
+Description-id: Sistem manajemen konfigurasi Debian
+ Debconf adalah sebuah sistem manajemen konfigurasi bagi paket-paket
+ Debian. Paket-paket memakai Debconf untuk menyajikan berbagai pertanyaan
+ konfigurasi ketika mereka dipasang.
+
+Package: diffutils
+Description-md5: 5cf0bc18e36aa2957e62b309d6aa34f9
+Description-id: Utilitas pembanding berkas
+ The diffutils package provides the diff, diff3, sdiff, and cmp programs.
+ .
+ 'diff' menampilkan perbedaan antara dua berkas, atau antar masing- masing
+ berkas yang bersesuaian antara dua direktori. 'cmp' menampilkan ofset dan
+ nomor baris dimana kedua berkas berbeda. 'cmp' juga dapat menunjukkan
+ semua karakter yang berbeda antara kedua berkas, secara bersisian. 'diff3'
+ menampilkan perbedaan antara tiga buah berkas. 'sdiff' menggabungkan
+ penampilan perbedaan antara dua berkas secara interaktif.
+ .
+ Set perbedaan yang dihasilkan oleh 'diff' dapat dipakai untuk
+ mendistribusikan pembaruan ke berkas teks (seperti misalnya kode sumber
+ program) ke orang lain. Metoda ini sangat berguna ketika ukuran perbedaan
+ kecil dibanding berkas lengkap. Dari keluaran 'diff', program 'patch'
+ dapat memperbarui, atau "menambal", sebuah salinan dari berkas.
+
+Package: dpkg
+Description-md5: 2f156c6a30cc39895ad3487111e8c190
+Description-id: Sistem manajemen paket Debian
+ Paket ini menyediakan infrastruktur dasar bagi penanganan pemasangan dan
+ penghapusan paket perangkat lunak Debian.
+ .
+ Untuk aplikasi pengembangan paket Debian, pasang dpkg-dev.
+
+Package: e2fsprogs
+Description-md5: 92d0fdf684262bbfa702eaea3f50b97e
+Description-id: Utilitas sistem berkas ext2/ext3/ext4
+ Sistem berkas ext2, ext3, dan ext4 adalah kelanjutan dari sistem berkas
+ ext ("extended") yang asli. Mereka adalah tipe sistem berkas utama yang
+ dipakai untuk cakram keras pada Debian dan sistem Linux lain.
+ .
+ This package contains programs for creating, checking, and maintaining
+ ext2/3/4-based file systems.  It also includes the "badblocks" program,
+ which can be used to scan for bad blocks on a disk or other storage
+ device.
+
+Package: e2fsprogs-l10n
+Description-md5: 807b6cb4fcea4e66152bf7951fcc5515
+Description-id: ext2/ext3/ext4 file system utilities - translations
+ Sistem berkas ext2, ext3, dan ext4 adalah kelanjutan dari sistem berkas
+ ext ("extended") yang asli. Mereka adalah tipe sistem berkas utama yang
+ dipakai untuk cakram keras pada Debian dan sistem Linux lain.
+ .
+ This package provides translations for messages for programs found in the
+ 'e2fsprogs' package.
+
+Package: eog
+Description-md5: a17b1b698fda7b280b8e85d7b08c5d27
+Description-id: Program penampil gambar "Eye of GNOME"
+ eog atau Eye of GNOME adalah program penampil gambar sederhana untuk
+ desktop GNOME yang menggunakan pustaka gdk-pixbuf. Program ini dapat
+ menangani gambar berukuran besar, serta melakukan zoom dan gulung dengan
+ penggunaan memori yang konstan. Tujuan program ini adalah kesederhanaan
+ dan kesesuaian dengan standar.
+
+Package: file-roller
+Description-md5: 38d3e4bf80de5287311da5585810d3db
+Description-id: archive manager for GNOME
+ File-roller adalah manajer arsip untuk lingkungan GNOME. Program ini dapat
+ dipakai untuk:
+ .
+  * Create and modify archives.
+  * View the content of an archive.
+  * View a file contained in an archive.
+  * Extract files from the archive.
+ .
+ File-roller supports the following formats:
+  * Tar (.tar) archives, including those compressed with
+    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),
+    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),
+    lzma (.tar.lzma) and xz (.tar.xz)
+  * Zip archives (.zip)
+  * Jar archives (.jar, .ear, .war)
+  * 7z archives (.7z)
+  * iso9660 CD images (.iso)
+  * Lha archives (.lzh)
+  * Archiver archives (.ar)
+  * Comic book archives (.cbz)
+  * Single files compressed with gzip (.gz), bzip (.bz), bzip2 (.bz2),
+    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)
+ .
+ File-roller can extract following formats:
+  * Cabinet archives (.cab)
+  * Debian binary packages (.deb)
+  * Xar archives (.xar)
+ .
+ File-roller doesn't perform archive operations by itself, but relies on
+ standard tools for this.
+
+Package: findutils
+Description-md5: ad1a783819241ffdf3ff5f37a676af59
+Description-id: Aplikasi untuk mencari berkas--find, xargs
+ GNU findutils menyediakan aplikasi untuk mencari berkas yang sesuai dengan
+ kriteria yang diberikan dan melakukan berbagai aksi terhadap berkas yang
+ ditemukan. Paket ini berisi 'find' dan 'xargs'; 'locate' telah dipisahkan
+ ke dalam paket berbeda.
+
+Package: gnome-control-center-data
+Description-md5: 8bfe062731867305191b949e29fc5afa
+Description-id: configuration applets for GNOME - data files
+ Paket ini berisi berkas-berkas data (icon, pixmap, file locale) yang
+ diperlukan aplet konfigurasi pada paket gnome-control-center
+
+Package: libext2fs-dev
+Description-md5: 6c413fbf2fbe007c87112b744560fc94
+Description-id: ext2/ext3/ext4 file system libraries - headers and static libraries
+ Sistem berkas ext2, ext3, dan ext4 adalah kelanjutan dari sistem berkas
+ ext ("extended") yang asli. Mereka adalah tipe sistem berkas utama yang
+ dipakai untuk cakram keras pada Debian dan sistem Linux lain.
+ .
+ This package contains the development environment for the ext2fs and e2p
+ libraries.
+
+Package: libext2fs2t64
+Description-md5: ba4f61a3e0b238831f03143cbdce696e
+Description-id: ext2/ext3/ext4 file system libraries
+ Sistem berkas ext2, ext3, dan ext4 adalah kelanjutan dari sistem berkas
+ ext ("extended") yang asli. Mereka adalah tipe sistem berkas utama yang
+ dipakai untuk cakram keras pada Debian dan sistem Linux lain.
+ .
+ This package provides the ext2fs and e2p libraries, for userspace software
+ that directly accesses extended file systems. Programs that use libext2fs
+ include e2fsck, mke2fs, and tune2fs. Programs that use libe2p include
+ dumpe2fs, chattr, and lsattr.
+
+Package: login
+Description-md5: d0499c2dea8faa45484daa5ced2d38b5
+Description-id: perangkat login sistem
+ This package provides some required infrastructure for logins and for changing effective user or group IDs, including:
+  * login, the program that invokes a user shell on a virtual terminal;
+  * nologin, a dummy shell for disabled user accounts;
+
+
+Package: manpages
+Description-md5: c655b859b2e2d890cebc6b412a58ef93
+Description-id: Halaman manual tentang memakai suatu sistem GNU/Linux
+ This package contains GNU/Linux manual pages for these sections:
+  4 = Devices (e.g. hd, sd).
+  5 = File formats and protocols, syntaxes of several system
+      files (e.g. wtmp, /etc/passwd, nfs).
+  7 = Conventions and standards, macro packages, etc.
+      (e.g. nroff, ascii).
+ .
+ Beside the intro man page describing the section, a few manual pages from
+ sections 1,6 and 8 are also provided.
+ .
+ Halaman man menjelaskan sintaks-sintaks dari beberapa berkas sistem.
+
+Package: mawk
+Description-md5: 05965bfcd1a2333e963d9f1945d161fc
+Description-id: Pattern scanning and text processing language
+ Mawk adalah sebuah interpreter bagi Bahasa Pemrograman AWK. Bahasa AWK
+ berguna untuk memanipulasi berkas data, pengambilan dan pemrosesan teks,
+ dan untuk membuat prototipe dan bereksperimen dengan algoritma. Mawk
+ adaleh sebuah awk baru yang berarti dia mengimplementasi bahasa AWK
+ sebagaimana didefinisikan oleh Aho, Kernighan, dan Weinberger, The AWK
+ Programming Language, Addison-Wesley Publishing, 1998. (Seterusnya diacu
+ sebagai buku AWK). Mawk mentaati definisi POSIX 1003.2 (draft 11.3) dari
+ bahasa AWK yang memuat beberapa fitur yang tidak diuraikan di buku AWK,
+ dan mawk menyediakan sejumlah kecil ekstensi.
+ .
+ Mawk lebih kecil dan jauh lebih cepat daripada gawk. Dia memiliki beberapa
+ batas saat-kompilasi seperti misalnya NF = 32767 dan penyangga sprintf =
+ 1020.
+
+Package: mount
+Description-md5: 90e187380786a435bb9c85b37afa2c5f
+Description-id: tools for mounting and manipulating filesystems
+ Paket ini menyediakan perintah-perintah mount(8), umount(8), swapon(8),
+ swapoff(8), dan losetup(8).
+
+Package: ncurses-bin
+Description-md5: 682ee2624c08c54a53ecaefd778a4d86
+Description-id: program dan halaman man terkait terminal
+ The ncurses library routines are a terminal-independent method of updating
+ character screens with reasonable optimization.
+ .
+ Paket ini memuat program untuk memanipulasi basisdata terminfo dan masing-
+ masing entri terminfo, dan juga beberapa program untuk mereset terminal
+ dan semacamnya.
+
+Package: passwd
+Description-md5: 5bbd70e421ed3367a8299e53bd7afed4
+Description-id: ubah dan urus kata sandi dan data grup
+ Paket ini mencakup passwd, chsh, chfn, dan banyak program lain untuk
+ memelihara data grup dan kata sandi.
+ .
+ Kata sandi shadow didukung. Lihat /usr/share/doc/passwd/README.Debian
+
+Package: procps
+Description-md5: 943f3288c1aaa379fca73a3ff1a35278
+Description-id: utilitas sistem berkas /proc
+ This package provides command line and full screen utilities for browsing
+ procfs, a "pseudo" file system dynamically generated by the kernel to
+ provide information about the status of entries in its process table (such
+ as whether the process is running, stopped, or a "zombie").
+ .
+ It contains free, kill, pkill, pgrep, pmap, ps, pwdx, skill, slabtop,
+ snice, sysctl, tload, top, uptime, vmstat, w, and watch.
+
+Package: python3-debconf
+Description-md5: 6eb68ef192205a26cb3bc6cddf1fd404
+Description-id: interact with debconf from Python 3
+ Debconf adalah sebuah sistem manajemen konfigurasi bagi paket-paket
+ Debian. Paket-paket memakai Debconf untuk menyajikan berbagai pertanyaan
+ konfigurasi ketika mereka dipasang.
+ .
+ This package provides a debconf module to allow Python 3 programs to
+ interact with a debconf frontend.
+
+Package: sed
+Description-md5: 2ed71305ee7a49ce4438c58140980d2f
+Description-id: GNU stream editor for filtering/transforming text
+ sed membaca berkas yang dispesifikasikan atau masukan standar bila tidak
+ ada berkas yang dispesifikasikan, membuat penyuntingan sesuai daftar
+ perintah, dan menulis hasilnya ke keluaran standar
+
+Package: tar
+Description-md5: 48033bf96442788d1f697785773ad9bb
+Description-id: Versi GNU dari aplikasi pengarsip tar
+ Tar adalah program untuk memaketkan sekumpulan berkas ke dalam sebuah
+ berkas arsip dalam format tar. Fungsi yang dijalankan, secara konseptual,
+ mirip dengan cpio dan PKZIP dalam dunia DOS. Tar dipakai luas dalam sistem
+ manajemen paket Debian. Tar juga berguna untuk melakukan backup sistem dan
+ pertukaran berkas dengan orang lain.
+

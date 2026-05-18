@@ -1,0 +1,1540 @@
+Package: accountsservice
+Description-md5: 8aeed0a03c7cd494f0c4b8d977483d7e
+Description-ca: consultar i manipular la informació del compte d'usuari
+ The AccountService project provides a set of D-Bus interfaces for querying
+ and manipulating user account information and an implementation of these
+ interfaces, based on the useradd, usermod and userdel commands.
+
+Package: acct
+Description-md5: 2411ebcaa9bca02b21c19f927d3e1bda
+Description-ca: GNU Accounting utilities for process and login accounting
+ Les utilitats de compte del GNU és un conjunt d'utilitats que informa i
+ resumeix dades sobre els temps de connexió de l'usuari i les estadístiques
+ d'execució de processos.
+ .
+ La «comptabilitat d'entrades» proporciona resums de la utilització de
+ recursos del sistema basats en el temps de connexió i la «comptabilitat de
+ processos» proporciona resums basats en les ordres executades en el
+ sistema.
+ .
+ The 'last' command is provided by the util-linux package and not included
+ here.
+
+Package: acpid
+Description-md5: 6a7c4e4695f570d8fbcaec667cdcfcfe
+Description-ca: Dimoni de l'event de Configuració avançada i de la interfície d'energia.
+ Els ordinadors moderns utilitzen la configuració avançada i interfície
+ d'energia (Advanced Configuration and Power Interface - ACPI) per a
+ permetre una gestió d'energia intel·ligent en el vostre sistema i per a
+ obtenir l'estat de la bateria i de la configuració.
+ .
+ L'ACPID és un dimoni completament flexible i totalment extensible per al
+ lliurament d'esdeveniments ACPI. Escolta a la interfície de l'enllaç de
+ xarxa (o al fitxer obsolet /proc/acpi/event), i quan es produeix un
+ esdeveniment, executa programes per manegar l'esdeveniment. Els programes
+ que executa es configuren a través d'un conjunt de fitxers de
+ configuració, que poden posar-se al lloc adequat pels paquets o per
+ l'administrador.
+
+Package: adduser
+Description-md5: a5681e7bad8d90695043c6eab9784701
+Description-ca: afegeix o elimina usuaris i grups
+ Aquest paquet inclou les comandes 'adduser' i 'deluser' per crear i
+ eliminar usuaris
+ .
+  - 'adduser' crea nous usuaris i groups i afegeix usuaris a
+    grups existents;
+  - 'deluser' elimina usuaris i grups i elimina usuaris d'un determinat
+    grup.
+ .
+ Adding users with 'adduser' is much easier than adding them manually.
+ 'Adduser' will choose UID and GID values that conform to Debian policy,
+ create a home directory, copy skeletal user configuration, and automate
+ setting initial values for the user's password, real name and so on.
+ .
+ 'Deluser' can back up and remove users' home directories and mail spool or
+ all the files they own on the system.
+ .
+ Un script personalitzat pot ser executat després de cadascuna de les
+ comandes.
+ .
+ 'Adduser' and 'Deluser' are intended to be used by the local administrator
+ in lieu of the tools from the 'useradd' suite, and they provide support
+ for easy use from Debian package maintainer scripts, functioning as kind
+ of a policy layer to make those scripts easier and more stable to write
+ and maintain.
+
+Package: advancecomp
+Description-md5: 45269d7ed6ff6092f699fce2e0061b74
+Description-ca: col·lecció d'utilitats de recompressió
+ L'AdvanceCOMP conté utilitats de recompressió per als vostres fitxers
+ .zip, imatges .png, clips de vídeo .mng i fitxers .gz.
+ .
+ Per a la recompressió s'utilitza 7-Zip (http://www.7-zip.com), el que
+ generalment dóna 5-10% més de compressió que zlib.
+
+Package: aide
+Description-md5: 1d70ba920a3b80bc791be197bf18814c
+Description-ca: Advanced Intrusion Detection Environment - dynamic binary
+ AIDE és un sistema de detecció d'intrusions que detecta canvis a fitxers
+ en el sistema local. Crea una base de dades a partir de les regles
+ d'expressió regular que troba en l'arxiu de configuració. Una vegada
+ aquesta base de dades és inicialitzada, pot ser usada per verificar la
+ integritat dels arxius. Té diversos algoritmes d'assimilació de missatges
+ (md5, sha1, rmd160, tiger, haval, etc.) que són usats per comprovar la
+ integritat del fitxer. Més algorismes poden ser afegits amb relativa
+ facilitat. Tots els atributs usuals dels fitxers poden també ser
+ comprovats per inconsistències.
+
+Package: aide-common
+Description-md5: 7a8490e442a29581e6cca1b191be3f62
+Description-ca: Entorn de detecció d'intrusió avançat - fitxers comuns
+ AIDE és un sistema de detecció d'intrusions que detecta canvis a fitxers
+ en el sistema local. Crea una base de dades a partir de les regles
+ d'expressió regular que troba en l'arxiu de configuració. Una vegada
+ aquesta base de dades és inicialitzada, pot ser usada per verificar la
+ integritat dels arxius. Té diversos algoritmes d'assimilació de missatges
+ (md5, sha1, rmd160, tiger, haval, etc.) que són usats per comprovar la
+ integritat del fitxer. Més algorismes poden ser afegits amb relativa
+ facilitat. Tots els atributs usuals dels fitxers poden també ser
+ comprovats per inconsistències.
+ .
+ Aquest paquet conté els fitxers base i de configuració necessàris per fer
+ funcionar els binaris actuals.
+ .
+ Segur que voleu modificar el fitxer de configuració en /etc/aide/aide.conf
+ o posar els vostres propis fragments de configuració a
+ /etc/aide/aide.conf.d.
+
+Package: alsa-base
+Description-md5: 14d30d1beb8026b3d2636c32c5a92cca
+Description-ca: Fitxers de configuració del driver ALSA
+ Aquest paquet conté diversos fitxers de configuració pels drivers ALSA.
+ .
+ Perquè l'ALSA pugui treballar en un sistema amb una determinada targeta de
+ so, hi ha d'haver un controlador ALSA per a aquesta targeta al nucli. El
+ Linux 2.6, tal i com vé en els paquets d'imatges de linux (linux-image),
+ conté controlador ALSA per a totes les targetes de so suportades en forma
+ de mòduls carregables. Un mòdul d'alsa (alsa-modules) pot ser construït a
+ partir de la font en el paquet alsa-source utilitzant la utilitat m-a
+ (inclosa en el paquet module-assistant). Llegiu si us plau el fitxer
+ README.Debian per més informació sobre la càrrega i creació dels mòduls.
+ .
+ ALSA is the Advanced Linux Sound Architecture.
+
+Package: alsa-utils
+Description-md5: a4e555adf5e969eded25828df3763172
+Description-ca: Utilitats per a la configuració i per a l'ús d'ALSA
+ Eines incloses:
+   - alsactl: controls avançats per a controladors de so d'ALSA
+   - alsaloop: crea bucles entre dispositius PCD de captura i reproducció
+   - alsamixer: mesclador del curses
+   - alsaucm: gestor de casos d'usuari de l'alsa
+   - amixer: mesclador de la línia d'ordres
+   - amidi: llegeix i escriu als ports RawMIDI ALSA
+   - aplay, arecord: reproducció i enregistrament des de la línia d'ordres
+   - aplaymidi, arecordmidi: reproducció i enregistrament MIDI des de la línia d'ordres
+   - aconnect, aseqnet, aseqdump: controlador del seqüenciador MIDI des de la línia d'ordres
+   - iecset: estableix o bolca bits d'estat IEC958
+   - speaker-test: generador de tons de prova dels altaveus
+ .
+ ALSA is the Advanced Linux Sound Architecture.
+
+Package: amavisd-new
+Description-md5: d95fd9c270e69763b2674a7c7629b731
+Description-ca: Interfície entre l'MTA i els filtres de contingut/escanejador de virus
+ L'AMaViSd-new és un script que interconnecta un agent de transport de
+ correu (MTA) amb zero o més escàners de virus i el spamassassin
+ (opcional).
+ .
+ És compatible amb tots els escàners comuns de virus (més de 20 diferents
+ programes antivirus), amb suport directe de interacció amb el demoni per
+ al programes d'antivirus ClamAV, OpenAntiVirus, Trophie, AVG, f-prot, i
+ Sophos.
+ .
+ AMaViSd-new suporta tots els MTA a través del seu filtre genèric SMTP/LMTP
+ (ideal per al postfix i l'exim). És més ràpid i més segur d'utilitzar el
+ mode de filtre SMTP / LMTP que utilitzar el client de canalització AMaViS.
+ És compatible amb el sendmail milter mitjançant el paquet amavisd-new-
+ milter.
+
+Package: anacron
+Description-md5: cd9f07726e1ee3bc93fcfdb799520070
+Description-ca: programa tipus cron que no funciona amb temps
+ L'Anacron (d'«anac(h)ronistic"») és un planificador d'ordres periòdiques.
+ Executa ordres a intervals especificats en dies. A diferència del cron, no
+ suposa que el sistema està funcionant contínuament. Per tant, es pot
+ utilitzar per controlar l'execució dels treballs diaris, setmanals, i
+ mensuals (o qualsevol cosa amb un període de n dies), en sistemes que no
+ funcionin les 24 hores del dia. Quan està instal·lat i configurat
+ correctament, l'Anacron s'assegura que les ordres s'executen a intervals
+ especificats el més propers possible al temps d'activitat de la màquina.
+ .
+ Aquest paquet està pre-configurat per executar les tasques diàries del
+ sistema Debian. Heu d'instal·lar aquest programa si el vostre sistema no
+ està encès les 24 hores del dia per assegurar que les operacions de
+ manteniment d'altres paquets Debian s'executen cada dia.
+
+Package: apache2
+Description-md5: d02426bc360345e5acd45367716dc35c
+Description-ca: Apache HTTP Server
+ L'objetiu del projecte del servidor HTTP Apache és construir un servidor
+ HTTP segur, eficient i extensible com a programari de codi obert
+ compatible amb els estàndards. El resultat ha estat durant molt de temps
+ el servidor web número u a Internet.
+ .
+ La instal·lació d'aquest paquet resulta en una instal·lació completa,
+ incloent els fitxers de configuració, scripts d'inici i de suport.
+
+Package: apache2-bin
+Description-md5: 37901ca6bbb9305b61d0920ecc08204f
+Description-ca: Servidor HTTP Apache (mòduls i altres fitxers binaris)
+ L'objetiu del projecte del servidor HTTP Apache és construir un servidor
+ HTTP segur, eficient i extensible com a programari de codi obert
+ compatible amb els estàndards. El resultat ha estat durant molt de temps
+ el servidor web número u a Internet.
+ .
+ Aquest paquet conté només els binaris i no estableix una instància que
+ funcioni del servidor web. Instal·leu el paquet «apache2»per obtenir una
+ instància completament funcional.
+
+Package: apache2-data
+Description-md5: 9f2fab36019a61312dec627d1cd80365
+Description-ca: Servidor HTTP Apache (fitxers comuns)
+ L'objetiu del projecte del servidor HTTP Apache és construir un servidor
+ HTTP segur, eficient i extensible com a programari de codi obert
+ compatible amb els estàndards. El resultat ha estat durant molt de temps
+ el servidor web número u a Internet.
+ .
+ Aquest paquet conté fitxers comuns independents de l'arquitectura com ara
+ icones, pàgines d'error i fitxers d'índexs estàtics.
+
+Package: apache2-dev
+Description-md5: 8ba6f3b272c39cc7a08a802594285f02
+Description-ca: Apache HTTP Server (development headers)
+ L'objetiu del projecte del servidor HTTP Apache és construir un servidor
+ HTTP segur, eficient i extensible com a programari de codi obert
+ compatible amb els estàndards. El resultat ha estat durant molt de temps
+ el servidor web número u a Internet.
+ .
+ Aquest paquet proporciona capçaleres de desenvolupament i el binari apxs2
+ per al servidor HTTP Apache 2, útil per desenvolupar i vincular addicions
+ de tercers per al paquet del servidor HTTP Apache de Debian.
+ .
+ També proporciona dh_apache2 i complements de seqüència dh útils per instal·lar diverses extensions Debian Apache2 amb el debhelper. És compatible amb
+   - Les configuracions de mòduls i objectes compartits de l'Apache 2 
+   - Els fitxers de configuració del lloc
+   - Els fitxers de configuració global
+
+
+Package: apache2-doc
+Description-md5: 04f8562fb3fd21e5886e40af9aeb7b7d
+Description-ca: Servidor HTTP Apache (documentació al lloc)
+ L'objetiu del projecte del servidor HTTP Apache és construir un servidor
+ HTTP segur, eficient i extensible com a programari de codi obert
+ compatible amb els estàndards. El resultat ha estat durant molt de temps
+ el servidor web número u a Internet.
+ .
+ This package provides the documentation for the Apache 2 HTTP server. The
+ documentation is shipped in HTML format and can be accessed from a local
+ running Apache HTTP server instance or by browsing the file system
+ directly.
+
+Package: apache2-ssl-dev
+Description-md5: 160d9bdafec462b08db62740b1eb83d2
+Description-ca: Apache HTTP Server (mod_ssl development headers)
+ L'objetiu del projecte del servidor HTTP Apache és construir un servidor
+ HTTP segur, eficient i extensible com a programari de codi obert
+ compatible amb els estàndards. El resultat ha estat durant molt de temps
+ el servidor web número u a Internet.
+ .
+ This package provides the development header and the dependencies for
+ modules that interact with mod_ssl's internal openssl state.
+
+Package: apg
+Description-md5: d919baea3108b57df48112b188dca442
+Description-ca: Generador de contrasenyes automatitzades - Versió independent
+ APG (Automated Password Generator) is the tool set for random password generation. It generates some random words of required type and prints them to standard output. This binary package contains only the standalone version of apg. Advantages:
+  * Built-in ANSI X9.17 RNG (Random Number Generator)(CAST/SHA1)
+  * Built-in password quality checking system (now it has support for Bloom
+    filter for faster access)
+  * Two Password Generation Algorithms:
+     1. Pronounceable Password Generation Algorithm (according to NIST
+        FIPS 181)
+     2. Random Character Password Generation Algorithm with 35
+        configurable modes of operation
+  * Configurable password length parameters
+  * Configurable amount of generated passwords
+  * Ability to initialize RNG with user string
+  * Support for /dev/random
+  * Ability to crypt() generated passwords and print them as additional output.
+  * Special parameters to use APG in script
+  * Ability to log password generation requests for network version
+  * Ability to control APG service access using tcpd
+  * Ability to use password generation service from any type of box (Mac,
+    WinXX, etc.) that connected to network
+  * Ability to enforce remote users to use only allowed type of password
+    generation
+  The client/server version of apg has been deliberately omitted.
+ .
+ Please note that there are security flaws in pronounceable password
+ generation schemes (see Ganesan / Davis "A New Attack on Random
+ Pronounceable Password Generators", in "Proceedings of the 17th National
+ Computer Security Conference (NCSC), Oct. 11-14, 1994 (Volume 1)",
+ http://csrc.nist.gov/publications/history/nissc/ 1994-17th-NCSC-
+ proceedings-vol-1.pdf, pages 203-216)
+ .
+ Also note that the FIPS 181 standard from 1993 has been withdrawn by NIST
+ in 2015 with no superseding publication. This means that the document is
+ considered by its publicher as obsolete and not been updated to reference
+ current or revised voluntary industry standards, federal specifications,
+ or federal data standards.
+ .
+ apg has not seen upstream attention since 2003, upstream is not answering
+ e-mail, and the upstream web page does not look like it is in good working
+ order. The Debian maintainer plans to discontinue apg maintenance as soon
+ as an actually maintained software with a compariable feature set becomes
+ available.
+
+Package: apport
+Description-md5: c04626471654f9246cf5e28b560d262e
+Description-ca: genera automáticament informes d'errors per a la depuració
+ apport automatically collects data from crashed processes and compiles a
+ problem report in /var/crash/. This utilizes the crashdump helper hook
+ provided by the Ubuntu kernel.
+ .
+ Aquest paquet també proporciona un frontal de línia d'ordres per
+ l'exploració i manipulació dels informes de fallada.  Per a escriptoris,
+ heu de considerar la instal·lació de la interfície d'usuari GTK+ o Qt
+ (apport-gtk o apport-kde).
+
+Package: apport-gtk
+Description-md5: 2f45e17d5bf22355d7921dba196ae6dd
+Description-ca: Frontal GTK+ per al sistema d'informe de fallades apport
+ apport automatically collects data from crashed processes and compiles a
+ problem report in /var/crash/. This utilizes the crashdump helper hook
+ provided by the Ubuntu kernel.
+ .
+ Aquest paquet proporciona un frontal GTK+ per navegar i manipular els
+ informes de fallada.
+
+Package: apport-retrace
+Description-md5: 7608c287131a28c4611767ba61f02050
+Description-ca: eines per reprocessar informes de fallada de l'Apport
+ apport-retrace recombines an Apport crash report (either a file or a
+ Launchpad bug) and debug symbol packages (.ddebs) into fully symbolic
+ stack traces. This can optionally use a sandbox for installing debug
+ symbol packages and doing the processing, so that entire process of
+ retracing crashes can happen with normal user privileges without changing
+ the system.
+ .
+ You need to install gdb-multiarch if you want to be able to retrace crash
+ reports which happened on a different architecture than the one you run
+ apport-retrace on.
+
+Package: apport-symptoms
+Description-md5: 685dc189a71c0847d5bc525d477c0d11
+Description-ca: scripts símptoma per a l'apport
+ Apport intercepta fallades de programes, recopila informació de depuració
+ sobre la fallada i sobre l'entorn del sistema operatiu, i ho envia als
+ seguidors d'errors de forma estandarditzada. També ofereix a l'usuari
+ informar d'un error sobre un paquet, amb la recol·lecció de nou de la
+ major quantitat d'informació com sigui possible.
+ .
+ Aquest paquet estén l'Apport amb alguns scripts de "símptoma", perquè els
+ informadors d'errors no hagin d'esbrinar el paquet correcte, però
+ informant dels problemes basant-se en símptomes que tenen (com "problema
+ de so"), a través d'un procés interactiu.
+
+Package: apt
+Description-md5: 9fb97a88cb7383934ef963352b53b4a7
+Description-ca: commandline package manager
+ Aquest paquet proporciona eines de la línia d'ordres per a la cerca i
+ gestió, així com la consulta, d'informaciósobre paquets com un accés de
+ nivell baix a totes les funcionalitats de la biblioteca libapt-pkg
+ .
+ Això inclou:
+   * apt-get per a la recuperació de paquets i informació sobre ells
+    a partir de fonts autenticades i per a la instal·lació, actualització i
+    eliminació de paquets junt amb les seves dependències 
+   * apt-cache per consultar la informació disponible sobre els paquets
+    instal·lats així com sobre els paquets instal·lables
+   * Apt-cdrom per utilitzar mitjans extraïbles com a font de paquets
+   * Apt-config com una interfície per als paràmetres de configuració
+   * Apt-key com una interfície per gestionar les claus d'autenticació
+
+
+Package: apt-doc
+Description-md5: bc2b838ed28e60af95d78926380a3300
+Description-ca: documentation for APT
+ Aquest paquet conté el manual d'usuari i la guia fora de línia per a
+ diverses eines APT que es proporcionen en una versió de sols html o text.
+
+Package: apt-listchanges
+Description-md5: ff242d11e25a826706c61be7ebf92ad4
+Description-ca: eina de notificació de l'historial de canvis de paquets
+ L'eina apt-listchanges pot comparar una nova versió d'un paquet amb el que
+ actualment està instal·lat i mostrar el que ha canviat, extraient les
+ entrades rellevants del changelog del Debian i els fitxers NEWS.
+ .
+ Es pot executar a diversos fitxers .deb a l'hora per obtenir una llista de
+ tots els canvis que es causarian eninstal·lar o en actualitzar un grup de
+ paquets. Quan es configura com un connector de l'APT, ho farà
+ automàticament durant les actualitzacions.
+
+Package: aptdaemon
+Description-md5: 5ed476246aefb12d0c1b0deb4818778b
+Description-ca: servei de gestió de paquets basat en transaccions
+ L'aptdaemon permet als usuaris normals realitzar tasques de gestió de
+ paquets, per exemple l'actualització de la memòria cau, actualitzar el
+ sistema, instal·lar o eliminar els paquets de programari.
+ .
+ Actualment ve amb les següents característiques principals:
+ .
+  - Interfície D-Bus independent del llenguatge de programació, cosa que permet
+    escriure clients en diversos idiomes
+  - S'executa només si és necessari (activació D-Bus)
+  - Gestió detallada de privilegis usant PolicyKit, per exemple permetent que tots els
+    usuaris d'escriptori puguin veure si hi ha actualitzacions sense introduir una contrasenya
+  - Suport per a canvis de suport durant la instal·lació des de  DVD/CD-ROM
+  - Suport per al debconf (sistema de configuració de paquets del Debian)
+  - Suport per connectar un terminal a una crida al dpkg subjacent
+ .
+ This package contains the aptd script and all the data files required to
+ run the daemon. Moreover it contains the aptdcon script, which is a
+ command line client for aptdaemon. The API is not stable yet.
+
+Package: aspell-doc
+Description-md5: 33c68b861d6f2e2ef1b189909b98b741
+Description-ca: Documentació del corrector GNU Aspell
+ This package contains the documentation for GNU Aspell in various formats.
+ The aspell package comes with minimal man pages.  Install this package if
+ you need further information on the development process and workings of
+ Aspell.
+
+Package: aspell-en
+Description-md5: c94b13744f65f4d57e191f183fc7c9c9
+Description-ca: Diccionari anglès del GNU Aspell
+ This package contains all the required files to add support for English
+ language to the GNU Aspell spell checker.
+ .
+ American, British, Canadian and Australian spellings are included.
+
+Package: base-files
+Description-md5: 6d16337f57b84c4747f56438355b2395
+Description-ca: diversos fitxers del sistema base de Debian
+ This package contains the basic filesystem hierarchy of a Debian system,
+ and several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others, and the
+ text of several common licenses in use on Debian systems.
+
+Package: base-passwd
+Description-md5: aad0cc52ee72b2469af5552851e49f03
+Description-ca: Fitxers mestres de contrasenyes i grups del sistema base de Debian
+ Aquestes són les còpies mestres de les bases de dades d'usuaris
+ (/etc/passwd i /etc/group), que contenen els usuaris localitzats de Debian
+ i els identificadors de grup. L'eina proporcionada update-passwd permet
+ mantenir sincronitzades les bases de dades del sistema amb aquests fitxers
+ mestres.
+
+Package: cpp
+Description-md5: aa450f6a454bdd6b0d8d9862a9240255
+Description-ca: GNU C preprocessor (cpp)
+ El preprocessador de C de GNU és un processador de macros que utilitza
+ automàticament el compilador de C de GNU per transformar els programes
+ abans de la pròpia compilació.
+ .
+ Aquest paquet s'ha separat de gcc per beneficiar aquells que necessiten el
+ preprocessador però no el compilador.
+ .
+ Aquest és un paquet de dependència, que proporciona el preprocessador de C
+ de GNU predeterminat.
+
+Package: cpp-13
+Description-md5: 93a75b5e1f4b43c36eba0239b6fab6a3
+Description-ca: GNU C preprocessor
+ A macro processor that is used automatically by the GNU C compiler to
+ transform programs before actual compilation.
+ .
+ Aquest paquet s'ha separat de gcc per beneficiar aquells que necessiten el
+ preprocessador però no el compilador.
+
+Package: cpp-13-doc
+Description-md5: 22a9ba311e91d8d744a9e4df2030d2bf
+Description-ca: Documentació del preprocessador GNU C (cpp)
+ Documentació del preprocessador GNU C en format info.
+
+Package: cpp-aarch64-linux-gnu
+Description-md5: 847bfa1f1fa8ea6c301d29042617b520
+Description-ca: GNU C preprocessor (cpp) for the arm64 architecture
+ El preprocessador de C de GNU és un processador de macros que utilitza
+ automàticament el compilador de C de GNU per transformar els programes
+ abans de la pròpia compilació.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for arm64
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the arm64 architecture.
+
+Package: cpp-arm-linux-gnueabihf
+Description-md5: 3ede27b920020c7d18e2f24cf4e4fb91
+Description-ca: GNU C preprocessor (cpp) for the armhf architecture
+ El preprocessador de C de GNU és un processador de macros que utilitza
+ automàticament el compilador de C de GNU per transformar els programes
+ abans de la pròpia compilació.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for armhf
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the armhf architecture.
+
+Package: cpp-doc
+Description-md5: bedc30e6ac711bb807bb5f49569e8b35
+Description-ca: Documentació del preprocessador GNU C (cpp)
+ Documentation for the GNU C preprocessor in info format (dependency
+ package).
+
+Package: cpp-for-build
+Description-md5: 45bd906e0002b57184a287b6a98b9a3c
+Description-ca: GNU C preprocessor (cpp) for the build architecture
+ El preprocessador de C de GNU és un processador de macros que utilitza
+ automàticament el compilador de C de GNU per transformar els programes
+ abans de la pròpia compilació.
+ .
+ Aquest paquet s'ha separat de gcc per beneficiar aquells que necessiten el
+ preprocessador però no el compilador.
+ .
+ When using cpp via this metapackage, all tools must be used without an
+ architecture prefix.
+
+Package: cpp-for-host
+Description-md5: f8eacd9f2ead585c3ac02e7200c3192f
+Description-ca: GNU C preprocessor (cpp) for the host architecture
+ El preprocessador de C de GNU és un processador de macros que utilitza
+ automàticament el compilador de C de GNU per transformar els programes
+ abans de la pròpia compilació.
+ .
+ Aquest paquet s'ha separat de gcc per beneficiar aquells que necessiten el
+ preprocessador però no el compilador.
+ .
+ When using cpp via this metapackage, all tools must be used with an
+ architecture prefix.
+
+Package: cpp-i686-linux-gnu
+Description-md5: f0c7fc42e445847cc34131612b7ac74b
+Description-ca: GNU C preprocessor (cpp) for the i386 architecture
+ El preprocessador de C de GNU és un processador de macros que utilitza
+ automàticament el compilador de C de GNU per transformar els programes
+ abans de la pròpia compilació.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for i386 architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the i386 architecture.
+
+Package: cpp-powerpc64le-linux-gnu
+Description-md5: 2e5c9173d04e923d48a3f7990f0cd11c
+Description-ca: GNU C preprocessor (cpp) for the ppc64el architecture
+ El preprocessador de C de GNU és un processador de macros que utilitza
+ automàticament el compilador de C de GNU per transformar els programes
+ abans de la pròpia compilació.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for ppc64el
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the ppc64el architecture.
+
+Package: cpp-riscv64-linux-gnu
+Description-md5: 5a307b042c792c9410b683d2235294d2
+Description-ca: GNU C preprocessor (cpp) for the riscv64 architecture
+ El preprocessador de C de GNU és un processador de macros que utilitza
+ automàticament el compilador de C de GNU per transformar els programes
+ abans de la pròpia compilació.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for riscv64
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the riscv64 architecture.
+
+Package: cpp-s390x-linux-gnu
+Description-md5: dc03ec196671c21e740c0d0ed3eb42bc
+Description-ca: GNU C preprocessor (cpp) for the s390x architecture
+ El preprocessador de C de GNU és un processador de macros que utilitza
+ automàticament el compilador de C de GNU per transformar els programes
+ abans de la pròpia compilació.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for s390x
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the s390x architecture.
+
+Package: cpp-x86-64-linux-gnu
+Description-md5: 3fbc5e8c78ef39c4933d03ea07322966
+Description-ca: GNU C preprocessor (cpp) for the amd64 architecture
+ El preprocessador de C de GNU és un processador de macros que utilitza
+ automàticament el compilador de C de GNU per transformar els programes
+ abans de la pròpia compilació.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the cross-compiler for amd64
+ architecture.
+ .
+ This is a dependency package providing the default GNU C preprocessor for
+ the amd64 architecture.
+
+Package: cups-bsd
+Description-md5: 8ca999eda442e2096dafa2745e4db8de
+Description-ca: Common UNIX Printing System(tm) - comandes BSD
+ The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+ general replacement for lpr, lpd and the like.  It supports the Internet
+ Printing Protocol (IPP), and has its own filtering driver model for
+ handling various document types.
+ .
+ This package provides the BSD commands for interacting with CUPS.  It is
+ provided separately to allow CUPS to coexist with other printing systems
+ (to a small degree).
+
+Package: cups-client
+Description-md5: 49064ce8151bc5cfbb65936322a4e2ce
+Description-ca: Common UNIX Printing System(tm) - programes client (SysV)
+ The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+ general replacement for lpd and the like.  It supports the Internet
+ Printing Protocol (IPP), and has its own filtering driver model for
+ handling various document types.
+ .
+ This package provides the System V style print client programs.
+
+Package: cups-common
+Description-md5: ae28e55960aa62a85c88769b70d73eaa
+Description-ca: Common UNIX Printing System(tm) - fitxers comuns
+ The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+ general replacement for lpd and the like.  It supports the Internet
+ Printing Protocol (IPP), and has its own filtering driver model for
+ handling various document types.
+ .
+ This package provides common files for CUPS server and client packages.
+
+Package: cyrus-sasl2-doc
+Description-md5: d7d08ebfc592e9842e2cf44e2e6633b0
+Description-ca: Cyrus SASL - documentació
+ This is the Cyrus SASL API implementation, version 2.1. See package
+ libsasl2-2 and RFC 2222 for more information.
+ .
+ Aquest paquet conté documentació per als administradors de sistema.
+
+Package: dbus-1-doc
+Description-md5: 4ff746780e6dca0a27147236301ca4fd
+Description-ca: sistema simple de missatgeria entre processos (documentació)
+ D-Bus is a message bus, used for sending messages between applications.
+ Conceptually, it fits somewhere in between raw sockets and CORBA in terms
+ of complexity.
+ .
+ Aquest paquet conté la documentació de l'API del D-BUS, així com
+ l'especificació del protocol.
+ .
+ See the dbus description for more information about D-Bus in general.
+
+Package: debconf
+Description-md5: 85b82bf406dfc9a635114f44ab7fb66d
+Description-ca: sistema de gestió de configuració de Debian
+ Debconf és un sistema de gestió de configuració per paquets Debian. Els
+ paquets utilitzen Debconf per preguntar qüestions quan s'instal len.
+
+Package: debconf-doc
+Description-md5: da116c01af307835ff58f0c7931292af
+Description-ca: documentació del debconf
+ This package contains lots of additional documentation for Debconf,
+ including the debconf user's guide, documentation about using different
+ backend databases via the /etc/debconf.conf file, and a developer's guide
+ to debconf.
+
+Package: debconf-i18n
+Description-md5: 3f303f9083a6c63ddcfd70b4738cca54
+Description-ca: suport complet d'internacionalització per debconf
+ Aquest paquet proporciona internacionalització completa per debconf,
+ incloent traduccions a tots els idiomes disponibles, suport per utilitzar
+ traduccions de plantilles de debconf i suport per visualitzar adequadament
+ conjunts de caràcters multi-byte.
+
+Package: diffutils
+Description-md5: 5cf0bc18e36aa2957e62b309d6aa34f9
+Description-ca: utilitats de comparació de fitxers
+ The diffutils package provides the diff, diff3, sdiff, and cmp programs.
+ .
+ «diff» mostra les diferències entre dos fitxers, o entre cada fitxer
+ corresponent en dos directoris. «cmp» mostra l'òfset i número de línia on
+ difereixen dos fitxers. «cmp» també pot mostrar tots els caràcters que
+ difereixen entre dos fitxers, costat per costat. «diff3» mostra les
+ diferències entre tres fitxers. «sdiff» fusiona dos fitxers
+ interactivament.
+ .
+ El conjunt de diferències produït per «diff» es pot utilitzar per
+ distribuir actualitzacions a fitxers de text (com ara codi font) a altres
+ persones. Aquest mètode és especialment útil quan les diferències són
+ petites comparades amb els fitxers complets. Donada una sortida de «diff»,
+ el programa «patch» pot actualitzar, o apedaçar, una còpia del fitxer.
+
+Package: emacsen-common
+Description-md5: 181ad2d7eef0b855d8f6d9bbf2373d8a
+Description-ca: Instal lacions comunes per tots els emacs
+ Aquest paquet conté codi que és necessari per tots els paquets de
+ (x)emacs. S'instal larà automàticament quan es necessiti.
+
+Package: eog
+Description-md5: a17b1b698fda7b280b8e85d7b08c5d27
+Description-ca: Eye of GNOME graphics viewer program
+ L'eog o Eye of GNOME es un visualitzador d'imatges senzill per a
+ l'escriptori del GNOME que utilitza la biblioteca gdk-pixbuf. Aquest pot
+ gestionar imatges grans i ampliar-les i desplaçar-les amb una utilització
+ constant de memòria. Els seus objectius són la simplicitat i el ser
+ compatible amb els estàndards.
+
+Package: g++
+Description-md5: 4d44b18774ae5123b7c3f70d940cf655
+Description-ca: GNU C++ compiler
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ Aquest és un paquet de dependència que proporciona el compilador de C++ de
+ GNU predeterminat.
+
+Package: g++-13
+Description-md5: 0a3fad3367cb994bd16c61b0e16a8b9c
+Description-ca: GNU C++ compiler
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: g++-13-aarch64-linux-gnu
+Description-md5: b996f012975000f1ea76fd985d3446d1
+Description-ca: GNU C++ compiler for aarch64-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for aarch64-linux-gnu
+ architecture.
+
+Package: g++-13-arm-linux-gnueabihf
+Description-md5: 8217684381d0545df03fa8d52efefabb
+Description-ca: GNU C++ compiler for arm-linux-gnueabihf architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for arm-linux-gnueabihf
+ architecture.
+
+Package: g++-13-for-build
+Description-md5: 6b662a2a3907f28ed9a0e2ac6a55d3ea
+Description-ca: GNU C++ compiler for the build architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for arch_gnu architecture.
+ .
+ This is a dependency package.
+
+Package: g++-13-for-host
+Description-md5: 9390f1b2980c545f669a0b8b8d5b11e0
+Description-ca: GNU C++ compiler for the host architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for the host architecture.
+ .
+ When using this package, tools must be invoked with an architecture
+ prefix.
+ .
+ This is a dependency package.
+
+Package: g++-13-i686-linux-gnu
+Description-md5: 88bdc3f5d96144f5748dae6f61c62299
+Description-ca: GNU C++ compiler for i686-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for i686-linux-gnu architecture.
+
+Package: g++-13-multilib
+Description-md5: 291f2f15035d2eb62358c5157bbae10c
+Description-ca: GNU C++ compiler (multilib support)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-13-powerpc64le-linux-gnu
+Description-md5: 0be28451d4d61c7a7c7261ee29e52e35
+Description-ca: GNU C++ compiler for powerpc64le-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for powerpc64le-linux-gnu
+ architecture.
+
+Package: g++-13-riscv64-linux-gnu
+Description-md5: c05debccc4cda53b165f1d0fab684249
+Description-ca: GNU C++ compiler for riscv64-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for riscv64-linux-gnu
+ architecture.
+
+Package: g++-13-s390x-linux-gnu
+Description-md5: fafd9d967c83a64a002649a8dd459c79
+Description-ca: GNU C++ compiler for s390x-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for s390x-linux-gnu architecture.
+
+Package: g++-13-x86-64-linux-gnu
+Description-md5: f28641d421c551d47a5e989009efe119
+Description-ca: GNU C++ compiler for x86_64-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for x86_64-linux-gnu
+ architecture.
+
+Package: g++-aarch64-linux-gnu
+Description-md5: 841ad5010180ab9999db8cd40c9e8de4
+Description-ca: GNU C++ compiler for the arm64 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the arm64 architecture.
+
+Package: g++-arm-linux-gnueabihf
+Description-md5: cc94df779520efff25831739f24599b6
+Description-ca: GNU C++ compiler for the armhf architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the armhf architecture.
+
+Package: g++-for-build
+Description-md5: 91c926e5d0ab4745c921ae1817645589
+Description-ca: GNU C++ compiler for the build architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ Aquest és un paquet de dependència que proporciona el compilador de C++ de
+ GNU predeterminat.
+ .
+ When using g++ via this metapackage, all tools must be used without an
+ architecture prefix.
+
+Package: g++-for-host
+Description-md5: f4c7213fce958bcc161b257dc91e7587
+Description-ca: GNU C++ compiler for the host architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ Aquest és un paquet de dependència que proporciona el compilador de C++ de
+ GNU predeterminat.
+ .
+ When using g++ via this metapackage, all tools must be used with an
+ architecture prefix.
+
+Package: g++-i686-linux-gnu
+Description-md5: 026c455987cbc4640005a144b55494cf
+Description-ca: GNU C++ compiler for the i386 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the i386 architecture.
+
+Package: g++-multilib
+Description-md5: 13fdd3cac1ee1ffe86b871f781067316
+Description-ca: GNU C++ compiler (multilib files)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ A dependency package on architectures with multilib support; the package
+ contains dependencies for the non-default multilib architecture(s).
+
+Package: g++-powerpc64le-linux-gnu
+Description-md5: 9edb59095912e6cf500ea0092f60122a
+Description-ca: GNU C++ compiler for the ppc64el architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the ppc64el architecture.
+
+Package: g++-riscv64-linux-gnu
+Description-md5: ebbf506aca8c79a0d53f2d5b1879a38c
+Description-ca: GNU C++ compiler for the riscv64 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the riscv64 architecture.
+
+Package: g++-s390x-linux-gnu
+Description-md5: 611e82003e6b39e22236bec4046da2b9
+Description-ca: GNU C++ compiler for the s390x architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the s390x architecture.
+
+Package: g++-x86-64-linux-gnu
+Description-md5: 07c4d20f560a847a660e3374549f85e8
+Description-ca: GNU C++ compiler for the amd64 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the amd64 architecture.
+
+Package: gawk
+Description-md5: 0dce81fe543994c3caea814e2777732e
+Description-ca: GNU awk, un llenguatge d'exploració i processament de patrons
+ «awk», un programa que podeu utilitzar per seleccionar determinats
+ registres en un fitxer i realitzar-hi operacions.
+ .
+ Gawk és la implementació del projecte GNU del llenguatge de programació
+ AWK. És conforme a la definició del llenguatge de l'estàndard de
+ llenguatge d'ordres i utilitats POSIX 1003.2. Aquesta versió està basada
+ en la descripció de «The AWK Programming Language», per Aho, Kernighan i
+ Weinberger, amb les característiques addicionals definides a la versió
+ «System V Release 4» de l'awk de UNIX. Gawk també proporciona extensions
+ més recents de l'awk de Bell Labs, i algunes extensions específiques de
+ GNU.
+
+Package: gcc
+Description-md5: c7efd71c7c651a9ac8b2adf36b137790
+Description-ca: GNU C compiler
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ Aquest és un paquet de dependència que proporciona el compilador de C de
+ GNU predeterminat.
+
+Package: gcc-13
+Description-md5: 394374e688b1afb3af5f419895d29698
+Description-ca: GNU C compiler
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: gcc-13-for-build
+Description-md5: 1231e8563c440c0230388f9db0660a3c
+Description-ca: GNU C compiler for the build architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package.
+
+Package: gcc-13-for-host
+Description-md5: 2f6f77eeb03535ba77299cfe1a0ef756
+Description-ca: GNU C compiler for the host architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ When using this package, tools must be invoked with an architecture
+ prefix.
+ .
+ This is a dependency package.
+
+Package: gcc-13-multilib
+Description-md5: d1bddfa375b62324197c575c04fb2e4e
+Description-ca: GNU C compiler (multilib support)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-aarch64-linux-gnu
+Description-md5: 69df476a1d2ab9184e2d806ac537e77d
+Description-ca: GNU C compiler for the arm64 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the arm64 architecture.
+
+Package: gcc-arm-linux-gnueabihf
+Description-md5: 341bee5927aa97cd38931c348b808c55
+Description-ca: GNU C compiler for the armhf architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the armhf architecture.
+
+Package: gcc-for-build
+Description-md5: 9e985ea4aad7ea6fdc71fd640661b733
+Description-ca: GNU C compiler for the build architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ Aquest és un paquet de dependència que proporciona el compilador de C de
+ GNU predeterminat.
+ .
+ When using gcc via this metapackage, all tools must be used without an
+ architecture prefix.
+
+Package: gcc-for-host
+Description-md5: 59ed9d0113679db44713e9ea25c71999
+Description-ca: GNU C compiler for the host architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ Aquest és un paquet de dependència que proporciona el compilador de C de
+ GNU predeterminat.
+ .
+ When using gcc via this metapackage, all tools must be used with an
+ architecture prefix.
+
+Package: gcc-i686-linux-gnu
+Description-md5: 87162302fcdfe23fcf402bcdae36f6e9
+Description-ca: GNU C compiler for the i386 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the i386 architecture.
+
+Package: gcc-multilib
+Description-md5: 2d7198d97e45eb764af5065748ccb88f
+Description-ca: GNU C compiler (multilib files)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ A dependency package on architectures with multilib support; the package
+ contains dependencies for the non-default multilib architecture(s).
+
+Package: gcc-powerpc64le-linux-gnu
+Description-md5: 1df9b59dd3526c77f2a01a78470f8faa
+Description-ca: GNU C compiler for the ppc64el architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the ppc64el architecture.
+
+Package: gcc-riscv64-linux-gnu
+Description-md5: 076e3ddf958518fce5f91a3ca856f2b9
+Description-ca: GNU C compiler for the riscv64 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the riscv64 architecture.
+
+Package: gcc-s390x-linux-gnu
+Description-md5: 0e9bad3b62304d1f54438e18e774f9bd
+Description-ca: GNU C compiler for the s390x architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the s390x architecture.
+
+Package: gcc-x86-64-linux-gnu
+Description-md5: 74fd7698add747ec9f3ca61030b62c40
+Description-ca: GNU C compiler for the amd64 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the amd64 architecture.
+
+Package: gfortran
+Description-md5: 19814cb032299ba2188b0196ece62ba3
+Description-ca: GNU Fortran 95 compiler
+ Aquest és el compilador de Fortran 95 de GNU, que compila Fortran 95 en
+ les plataformes suportades pel compilador gcc. Utilitza el rerefons de gcc
+ per generar codi optimitzat.
+ .
+ Aquest és un paquet de dependència, que proporciona el compilador Fortran
+ 95 de GNU predeterminat.
+
+Package: gfortran-aarch64-linux-gnu
+Description-md5: 120eb5471ff675fc8ae06a2f862ebad9
+Description-ca: GNU Fortran 95 compiler for the arm64 architecture
+ Aquest és el compilador de Fortran 95 de GNU, que compila Fortran 95 en
+ les plataformes suportades pel compilador gcc. Utilitza el rerefons de gcc
+ per generar codi optimitzat.
+ .
+ This is a dependency package providing the default GNU Fortran 95 cross-
+ compiler for the arm64 architecture.
+
+Package: gfortran-arm-linux-gnueabihf
+Description-md5: 5d16a7114e25278a6c90c50ac5a66ddd
+Description-ca: GNU Fortran 95 compiler for the armhf architecture
+ Aquest és el compilador de Fortran 95 de GNU, que compila Fortran 95 en
+ les plataformes suportades pel compilador gcc. Utilitza el rerefons de gcc
+ per generar codi optimitzat.
+ .
+ This is a dependency package providing the default GNU Fortran 95 cross-
+ compiler for the armhf architecture.
+
+Package: gfortran-for-build
+Description-md5: 54145fa2bb2d5dad83432fe4e1afb9d0
+Description-ca: GNU Fortran 95 compiler for the build architecture
+ Aquest és el compilador de Fortran 95 de GNU, que compila Fortran 95 en
+ les plataformes suportades pel compilador gcc. Utilitza el rerefons de gcc
+ per generar codi optimitzat.
+ .
+ Aquest és un paquet de dependència, que proporciona el compilador Fortran
+ 95 de GNU predeterminat.
+ .
+ Tools used via this metapackage must be used without an architecture
+ prefix.
+
+Package: gfortran-for-host
+Description-md5: a1b735891cefbe0f6155eab88fd73d8c
+Description-ca: GNU Fortran 95 compiler for the host architecture
+ Aquest és el compilador de Fortran 95 de GNU, que compila Fortran 95 en
+ les plataformes suportades pel compilador gcc. Utilitza el rerefons de gcc
+ per generar codi optimitzat.
+ .
+ Aquest és un paquet de dependència, que proporciona el compilador Fortran
+ 95 de GNU predeterminat.
+ .
+ Tools used via this metapackage must be used with an architecture prefix.
+
+Package: gfortran-i686-linux-gnu
+Description-md5: e6a8377677253a6fcfbcec127830c10c
+Description-ca: GNU Fortran 95 compiler for the i386 architecture
+ Aquest és el compilador de Fortran 95 de GNU, que compila Fortran 95 en
+ les plataformes suportades pel compilador gcc. Utilitza el rerefons de gcc
+ per generar codi optimitzat.
+ .
+ This is a dependency package providing the default GNU Fortran 95 cross-
+ compiler for the i386 architecture.
+
+Package: gfortran-powerpc64le-linux-gnu
+Description-md5: 0695ad0036182f6d5640ef91470c1146
+Description-ca: GNU Fortran 95 compiler for the ppc64el architecture
+ Aquest és el compilador de Fortran 95 de GNU, que compila Fortran 95 en
+ les plataformes suportades pel compilador gcc. Utilitza el rerefons de gcc
+ per generar codi optimitzat.
+ .
+ This is a dependency package providing the default GNU Fortran 95 cross-
+ compiler for the ppc64el architecture.
+
+Package: gfortran-riscv64-linux-gnu
+Description-md5: a4e4aa685c3d7ccafd943004e4f6149f
+Description-ca: GNU Fortran 95 compiler for the riscv64 architecture
+ Aquest és el compilador de Fortran 95 de GNU, que compila Fortran 95 en
+ les plataformes suportades pel compilador gcc. Utilitza el rerefons de gcc
+ per generar codi optimitzat.
+ .
+ This is a dependency package providing the default GNU Fortran 95 cross-
+ compiler for the riscv64 architecture.
+
+Package: gfortran-s390x-linux-gnu
+Description-md5: 7ee8d0923f5e1041f75f8903b3531b7f
+Description-ca: GNU Fortran 95 compiler for the s390x architecture
+ Aquest és el compilador de Fortran 95 de GNU, que compila Fortran 95 en
+ les plataformes suportades pel compilador gcc. Utilitza el rerefons de gcc
+ per generar codi optimitzat.
+ .
+ This is a dependency package providing the default GNU Fortran 95 cross-
+ compiler for the s390x architecture.
+
+Package: gfortran-x86-64-linux-gnu
+Description-md5: 32b5c180e73f16721f981eb99622afad
+Description-ca: GNU Fortran 95 compiler for the amd64 architecture
+ Aquest és el compilador de Fortran 95 de GNU, que compila Fortran 95 en
+ les plataformes suportades pel compilador gcc. Utilitza el rerefons de gcc
+ per generar codi optimitzat.
+ .
+ This is a dependency package providing the default GNU Fortran 95 cross-
+ compiler for the amd64 architecture.
+
+Package: gnome-terminal
+Description-md5: c385379e72ae70e0ca5a4dee09859951
+Description-ca: GNOME terminal emulator application
+ GNOME Terminal is a terminal emulation application that you can use to perform the following actions:
+  - Access a UNIX shell in the GNOME environment.
+  - Run any application that is designed to run on VT102, VT220, and xterm
+  terminals.
+ .
+ El terminal del GNOME permet utilitzar múltiples terminals en una sola
+ finestra (amb pestanyes) i permet tenir diversos perfils.
+
+Package: gnome-terminal-data
+Description-md5: 9b9dc36a1c83dd9ce4cb3aedf50168f1
+Description-ca: Fitxers de dades per a l'emulador de terminal del GNOME
+ GNOME Terminal is a terminal emulation application that you can use to perform the following actions:
+  - Access a UNIX shell in the GNOME environment.
+  - Run any application that is designed to run on VT102, VT220, and xterm
+  terminals.
+ .
+ Aquest paquet conté dades, fitxers d'ajuda i paràmetres de localització
+ per al gnome-terminal, l'aplicació d'emulació de terminal del GNOME.
+
+Package: grep
+Description-md5: f9188c5583d41955f3b3fe60b9d445f1
+Description-ca: GNU grep, egrep i fgrep
+ «grep» és una utilitat per cercar text a fitxers; es pot utilitzar des de
+ la línia d'ordres o en scripts. Encara que no vulgueu utilitzar-lo
+ directament, altres paquets del vostre sistema segurament ho faran.
+ .
+ La família d'utilitats grep de GNU pot ser considerada com «la més ràpida
+ de l'oest». GNU grep està basat en un ràpid cercador determinista d'estats
+ febles (aproximadament el doble de ràpid que l'egrep típic de Unix),
+ combinat amb cerques de cadenes fixades Boyer-Moore-Gosper, que eliminen
+ la possibilitat que el cercador d'expressions regulars consideri text
+ impossible sense haver de mirar cada caràcter individualment. El resultat
+ és normalment molt més ràpid que el típic grep o egrep de Unix.
+ (Tanmateix, les expressions regulars que contenen referències enrere seran
+ més lentes.)
+
+Package: hyphen-pl
+Description-md5: 86fb13e848cc82c9df265b4d3fdfe085
+Description-ca: Polish hyphenation patterns for LibreOffice/OpenOffice.org
+ L'OpenOffice.org és un conjunt de programes de productivitat d'oficina que
+ proveeix un substitut quasi complet pel Microsoft® Office.
+ .
+ This package contains the Polish hyphenation patterns for
+ LibreOffice/OpenOffice.org
+
+Package: libpam-runtime
+Description-md5: bc15ddbf92ee7965a8588141c54bb5a1
+Description-ca: suport d'execució per la biblioteca PAM
+ Conté els fitxers de configuració i els directories necessaris per que
+ l'autenticació funcione als sistemes Debian. Aquest paquet és necessari en
+ casi totes les instal lacions.
+
+Package: libtext-charwidth-perl
+Description-md5: 30483f9a76c70cf6313cecc3a60f2a13
+Description-ca: mostra els caràcters d'amplaria de la pantalla del terminal
+ Text::CharWidth permits one to get the display widths of characters and
+ strings on the terminal, using wcwidth() and wcswidth() from libc.
+ .
+ Aquest proporciona mbwidth(), mbswidth() i mblen().
+
+Package: libtext-iconv-perl
+Description-md5: 10c6fd1eca31671f3487b084467ed3f5
+Description-ca: module to convert between character sets in Perl
+ The iconv() family of functions from XPG4 defines an API for converting
+ between character sets (e.g. UTF-8 to Latin1, EBCDIC to ASCII). They are
+ provided by libc6.
+ .
+ Aquest paquet permet accedir-les des de Perl via el paquet Text::Iconv.
+
+Package: libtext-wrapi18n-perl
+Description-md5: 6444c64be001648094335df7a6b952d0
+Description-ca: substitut internacionaltizat del Text:Wrap
+ The Text::WrapI18N module is a substitution for Text::Wrap, supporting
+ multibyte characters such as UTF-8, EUC-JP, and GB2312, fullwidth
+ characters such as east Asian characters, combining characters such as
+ diacritical marks and Thai, and languages which don't use whitespaces
+ between words such as Chinese and Japanese.
+ .
+ Proporciona la funció wrap().
+
+Package: login
+Description-md5: d0499c2dea8faa45484daa5ced2d38b5
+Description-ca: eines del sistema d'entrada
+ This package provides some required infrastructure for logins and for changing effective user or group IDs, including:
+  * login, the program that invokes a user shell on a virtual terminal;
+  * nologin, a dummy shell for disabled user accounts;
+
+
+Package: mawk
+Description-md5: 05965bfcd1a2333e963d9f1945d161fc
+Description-ca: Pattern scanning and text processing language
+ Mawk és un intèrpret pel llenguatge de programació AWK. El llenguatge AWK
+ és útil per manipular fitxers de dades, recuperació i processament de
+ textos, i per fer prototips i experimentar amb algorismes. Mawk és un awk
+ nou, és a dir, que implementa el llenguatge AWK tal com es defineix a Aho,
+ Kernighan and Weinberger, «The AWK Programming Language», Addison-Wesley
+ Publishing, 1988. (d'ara endavant referit com el llibre AWK). Mawk és
+ conforme a la definició del llenguatge AWK definit a POSIX 1003.2
+ (esborrany 11.3), que conté algunes característiques no descrites en el
+ llibre AWK, i mawk ofereix un petit nombre d'extensions.
+ .
+ Mawk és més petit i més ràpid que gawk. Té alguns límits imposats al
+ moment de la compilació, com ara NF = 32767 i memòria intermèdia de
+ sprintf = 1020.
+
+Package: mount
+Description-md5: 90e187380786a435bb9c85b37afa2c5f
+Description-ca: tools for mounting and manipulating filesystems
+ Aquest paquet proporciona les ordres mount(8), umount(8), swapon(8),
+ swapoff(8) i losetup(8).
+
+Package: mythes-en-au
+Description-md5: 7ba8c201fd7908b37ed84e4a8b468dd5
+Description-ca: Australian English Thesaurus for OpenOffice.org
+ L'OpenOffice.org és un conjunt de programes de productivitat d'oficina que
+ proveeix un substitut quasi complet pel Microsoft® Office.
+ .
+ This package contains an Australian English thesaurus for OpenOffice.org.
+ It is based on the American version, but has American spellings removed.
+
+Package: mythes-pl
+Description-md5: 3a107343aebe7b885d6bcbd43aff3668
+Description-ca: Polish thesaurus for LibreOffice/OpenOffice.org
+ L'OpenOffice.org és un conjunt de programes de productivitat d'oficina que
+ proveeix un substitut quasi complet pel Microsoft® Office.
+ .
+ This package contains the Polish thesaurus for LibreOffice/OpenOffice.org.
+
+Package: nautilus-extension-gnome-terminal
+Description-md5: 50c7939faa3af14d1b31cd393715dd4e
+Description-ca: GNOME terminal emulator application - Nautilus extension
+ GNOME Terminal is a terminal emulation application that you can use to perform the following actions:
+  - Access a UNIX shell in the GNOME environment.
+  - Run any application that is designed to run on VT102, VT220, and xterm
+  terminals.
+ .
+ El terminal del GNOME permet utilitzar múltiples terminals en una sola
+ finestra (amb pestanyes) i permet tenir diversos perfils.
+ .
+ This package contains the extension for Nautilus, the GNOME Files app.
+
+Package: netbase
+Description-md5: 0067051a6900632d08b20b289ccd8331
+Description-ca: sistema bàsic de xarxa TCP/IP
+ Aquest paquet proporciona la infraestructura necessària pel sistema bàsic
+ de xarxa basat en TCP/IP.
+ .
+ In particular, it supplies common name-to-number mappings in
+ /etc/services, /etc/rpc, /etc/protocols and /etc/ethertypes.
+
+Package: passwd
+Description-md5: 5bbd70e421ed3367a8299e53bd7afed4
+Description-ca: canvia i administra les dades de contrasenyes i de grup
+ Aquest paquet inclou passwd, chsh, chfn i molts altres programes per
+ mantenir les dades de contrasenyes i de grup.
+ .
+ Es suporten les paraules clau tipus «shadow». Vegeu
+ «/usr/share/doc/passwd/README.Debian».
+
+Package: printer-driver-gutenprint
+Description-md5: 5f4c29079db880e202fde946549381ae
+Description-ca: printer drivers for CUPS
+ This package includes a CUPS driver based on Gutenprint.
+ .
+ The CUPS drivers contain all of the files needed to support photo-quality
+ printing on any printer supported by Gutenprint.  You can find out more
+ about the Common UNIX Printing System ("CUPS"), an IPP-based printing
+ system for UNIX/Linux, at:
+ .
+   http://www.cups.org
+ .
+ Gutenprint is the print facility for the GIMP, and in addition a suite of
+ drivers that may be used with common UNIX spooling systems using
+ GhostScript or CUPS.  These drivers provide printing quality for
+ UNIX/Linux on a par with proprietary vendor-supplied drivers in many
+ cases, and can be used for many of the most demanding printing tasks.
+ Gutenprint was formerly known as Gimp-Print.
+
+Package: procps
+Description-md5: 943f3288c1aaa379fca73a3ff1a35278
+Description-ca: utilitats pel sistema de fitxers /proc
+ This package provides command line and full screen utilities for browsing
+ procfs, a "pseudo" file system dynamically generated by the kernel to
+ provide information about the status of entries in its process table (such
+ as whether the process is running, stopped, or a "zombie").
+ .
+ It contains free, kill, pkill, pgrep, pmap, ps, pwdx, skill, slabtop,
+ snice, sysctl, tload, top, uptime, vmstat, w, and watch.
+
+Package: python3-debconf
+Description-md5: 6eb68ef192205a26cb3bc6cddf1fd404
+Description-ca: interact with debconf from Python 3
+ Debconf és un sistema de gestió de configuració per paquets Debian. Els
+ paquets utilitzen Debconf per preguntar qüestions quan s'instal len.
+ .
+ This package provides a debconf module to allow Python 3 programs to
+ interact with a debconf frontend.
+
+Package: sed
+Description-md5: 2ed71305ee7a49ce4438c58140980d2f
+Description-ca: GNU stream editor for filtering/transforming text
+ sed llegeix els fitxers especificats, o l'entrada estàndard si no se
+ n'especifica cap, realitza canvis tot i editant d'acord amb una llista
+ d'ordres, i escriu els resultats per la sortida estàndard.
+
+Package: tar
+Description-md5: 48033bf96442788d1f697785773ad9bb
+Description-ca: versió de GNU de l'eina d'arxivament tar
+ Tar és un programa per a empaquetar un conjunt de fitxers en un de sol en
+ format tar. La funció que realitza és conceptualment similar a cpio, i
+ eines com PKZIP en el món DOS. És molt utilitzat pel sistema de gestió de
+ paquets de Debian i és útil per a realitzar còpies de seguretat del
+ sistema i per a intercanviar conjunts de fitxers amb altres persones.
+
+Package: unzip
+Description-md5: b83e2b495da5d292f3fe6ab67b088c47
+Description-ca: De-archiver for .zip files
+ InfoZIP's unzip program. With the exception of multi-volume archives (ie,
+ .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+ .
+ Aquesta versió suporta la encriptació.
+
+Package: update-manager
+Description-md5: 590b36e19703392a6fe86ceaa8467c85
+Description-ca: Una aplicació GNOME que gestiona actualitzacions amb l'apt
+ This is the GNOME apt update manager. It checks for updates and lets the
+ user choose which to install.
+
+Package: wcatalan
+Description-md5: 6349e4a22be2d15fc2132e0e70636ae9
+Description-ca: paraules de diccionari catalanes per /usr/share/dict
+ Aquest paquet proporciona el fitxer /usr/share/dict/catala que conté una
+ llista alfabètica de paraules catalanes.
+ .
+ Va ser recollit per en Joan Moratinos utilitzant dades de diverses fonts.
+
+Package: xserver-xephyr
+Description-md5: eeb7a5ed15c65f716761ab1fa1637b6b
+Description-ca: nested X server
+ Xephyr is an X server that can be run inside another X server, much like
+ Xnest. It is based on the kdrive X server, and as a result it supports
+ newer extensions than Xnest, including render and composite.
+ .
+ More information about X.Org can be found at: <URL:https://www.x.org>
+ .
+ Aquest paquet es construeix a partir del mòdul xserver X.org
+
+Package: xserver-xorg-core
+Description-md5: 018a15965c91ba9a09e0652c1c0fb9ac
+Description-ca: Xorg X server - core server
+ The Xorg X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The Xorg server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ More information about X.Org can be found at: <URL:https://www.x.org>
+ .
+ Aquest paquet es construeix a partir del mòdul xserver X.org
+
+Package: xserver-xorg-dev
+Description-md5: c5425cbd8103a5899200596c7a3c3033
+Description-ca: Xorg X server - development files
+ This package provides development files for the X.Org ('Xorg') X server.
+ This is not quite the same as the DDK (Driver Development Kit) from the
+ XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
+ headers and a pkg-config file for drivers using autotools to build
+ against.
+ .
+ Unless you are developing or building a driver, you probably want xserver-
+ xorg and/or xserver-xorg-core instead.
+ .
+ More information about X.Org can be found at: <URL:https://www.x.org>
+ .
+ Aquest paquet es construeix a partir del mòdul xserver X.org
+
+Package: zenity
+Description-md5: 0eaa042a6247aca86bac2f94a69fc906
+Description-ca: Display graphical dialog boxes from shell scripts
+ Zenity allows you to display GTK+ dialogs from shell scripts; it is a
+ rewrite of the `gdialog' command from GNOME 1.
+ .
+ Zenity inclou un guió embolcall gdialog perquè pugui ser utilitzat amb
+ guions heretats.
+
+Package: zenity-common
+Description-md5: 31577d10cdc7dea3e76b1ffaca46c1f6
+Description-ca: Display graphical dialog boxes from shell scripts (common files)
+ Zenity allows you to display GTK+ dialogs from shell scripts; it is a
+ rewrite of the `gdialog' command from GNOME 1.
+ .
+ Zenity inclou un guió embolcall gdialog perquè pugui ser utilitzat amb
+ guions heretats.
+ .
+ This package contains architecture independent files.
+
+Package: zip
+Description-md5: 581928d34d669e63c353cd694bd040b0
+Description-ca: Arxivador per a arxius .zip
+ Aquest és el programa zip InfoZip's. Produeix fitxers que són totalment
+ compatibles amb el programa PKZIP popular, però, les opcions de línia
+ d'ordres no són idèntiques. En altres paraules, el resultat final és el
+ mateix, però els mètodes son diferents. :-)
+ .
+ Aquesta versió suporta la encriptació.
+
+Package: zlib1g
+Description-md5: 567f396aeeb2b2b63295099aed237057
+Description-ca: biblioteca de compressió - executables
+ zliz és una llibreria que implementa el mètode de compressió de deflació
+ trobar al gzip i al PKZIP. Aquest paquet conté la llibreria compartida.
+
+Package: zlib1g-dev
+Description-md5: d7f4e8a626131fc83c643c5d59096290
+Description-ca: biblioteca de compressió - desenvolupament
+ zliz és una llibreria que implementa el mètode de compressió de deflació
+ trobar al gzip i al PKZIP. Aquest paquet inclou els fitxers de suport per
+ al desenvolupament.
+
+Package: zsh
+Description-md5: a129d6b2d23d2d5d3a6b822d3f8f856d
+Description-ca: shell with lots of features
+ Zsh és un intèrpret d'odres de l'UNIX  que es pot  utilitzar com a entorn
+ d'inici de sessió i com a un processador d'ordres d'scripts d'intèrpret
+ d'ordres. Dels intèrprets d'ordres estàndard, el zsh és el que més
+ s'assembla al ksh, però inclou moltes millores. El zsh té edició de la
+ línia d'ordres, correcció ortogràfica incorporada, compleció programable
+ d'ordres, funcions de l'intèrpret d'ordres (amb càrrega automàtica), un
+ mecanisme d'història, i un munt d'altres funcionalitats.
+
+Package: zsh-common
+Description-md5: 8aac20ad1d93f2ea018a327bcfd5912f
+Description-ca: architecture independent files for Zsh
+ Zsh és un intèrpret d'odres de l'UNIX  que es pot  utilitzar com a entorn
+ d'inici de sessió i com a un processador d'ordres d'scripts d'intèrpret
+ d'ordres. Dels intèrprets d'ordres estàndard, el zsh és el que més
+ s'assembla al ksh, però inclou moltes millores. El zsh té edició de la
+ línia d'ordres, correcció ortogràfica incorporada, compleció programable
+ d'ordres, funcions de l'intèrpret d'ordres (amb càrrega automàtica), un
+ mecanisme d'història, i un munt d'altres funcionalitats.
+ .
+ This package contains the common zsh files shared by all architectures.
+
+Package: zsh-dev
+Description-md5: 958eee099c22df2f69105f5ecae036a2
+Description-ca: shell with lots of features (development files)
+ Zsh és un intèrpret d'odres de l'UNIX  que es pot  utilitzar com a entorn
+ d'inici de sessió i com a un processador d'ordres d'scripts d'intèrpret
+ d'ordres. Dels intèrprets d'ordres estàndard, el zsh és el que més
+ s'assembla al ksh, però inclou moltes millores. El zsh té edició de la
+ línia d'ordres, correcció ortogràfica incorporada, compleció programable
+ d'ordres, funcions de l'intèrpret d'ordres (amb càrrega automàtica), un
+ mecanisme d'història, i un munt d'altres funcionalitats.
+ .
+ Aquest paquet conté les capçaleres i les seqüències de comandaments
+ necessaris per elaborar mòduls de tercers.
+
+Package: zsh-doc
+Description-md5: 9b5459fce7bedf54d5694a22e68389c7
+Description-ca: documentació zsh - info / format HTML
+ Zsh és un intèrpret d'odres de l'UNIX  que es pot  utilitzar com a entorn
+ d'inici de sessió i com a un processador d'ordres d'scripts d'intèrpret
+ d'ordres. Dels intèrprets d'ordres estàndard, el zsh és el que més
+ s'assembla al ksh, però inclou moltes millores. El zsh té edició de la
+ línia d'ordres, correcció ortogràfica incorporada, compleció programable
+ d'ordres, funcions de l'intèrpret d'ordres (amb càrrega automàtica), un
+ mecanisme d'història, i un munt d'altres funcionalitats.
+ .
+ Conté la documentació en els formats GNU info i HTML
+

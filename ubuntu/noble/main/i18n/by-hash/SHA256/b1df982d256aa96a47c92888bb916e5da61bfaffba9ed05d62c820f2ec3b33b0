@@ -1,0 +1,72 @@
+Package: gir1.2-totem-1.0
+Description-md5: f8fb0d202ba3f9170c84de5e0c27a305
+Description-si: GObject introspection data for Totem media player
+ Totem යනු GNOME සඳහා ඇති සරල නමුත් විශේෂාංග රාශියකින් හෙබි, ගොනු ආකෘති
+ රාශියක් කියවිය හැකි මාධ්‍ය ධාවකයකි.
+ .
+ This package contains introspection data for the Totem media player.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
+Package: totem
+Description-md5: 3773374b409bb5710c492c328fe37f78
+Description-si: Simple media player for the GNOME desktop based on GStreamer
+ Totem යනු GNOME සඳහා ඇති සරල නමුත් විශේෂාංග රාශියකින් හෙබි, ගොනු ආකෘති
+ රාශියක් කියවිය හැකි මාධ්‍ය ධාවකයකි. එහි විශේෂාංග වන්නේ :
+ .
+    * Shoutcast, m3u, asx, SMIL and ra playlists support
+    * DVD (with menus), VCD and Digital CD (with CDDB) playback
+    * TV-Out configuration with optional resolution switching
+    * 4.0, 5.0, 5.1 and stereo audio output
+    * Full-screen mode (move your mouse and you get nice controls) with
+      Xinerama, dual-head and RandR support
+    * Aspect ratio toggling, scaling based on the video's original size
+    * Full keyboard control
+    * Simple playlist with repeat mode and saving feature
+    * GNOME, Nautilus and GIO integration
+    * Screenshot of the current movie
+    * Brightness and Contrast control
+    * Visualisation plugin when playing audio-only files
+    * Video thumbnailer for nautilus
+    * Nautilus properties page
+    * Works on remote displays
+    * DVD, VCD and OGG/OGM subtitles with automatic language selection
+    * Extensible with plugins
+
+
+Package: totem-common
+Description-md5: e5e4dab953a289de510184357646dc10
+Description-si: Data files for the Totem media player
+ Totem යනු GNOME සඳහා ඇති සරල නමුත් විශේෂාංග රාශියකින් හෙබි, ගොනු ආකෘති
+ රාශියක් කියවිය හැකි මාධ්‍ය ධාවකයකි.
+ .
+ This package contains common data files and translations.
+
+Package: totem-plugins
+Description-md5: bfaf3e55fb6fc19bcd47f3c7c8db4e6d
+Description-si: Plugins for the Totem media player
+ Totem යනු GNOME සඳහා ඇති සරල නමුත් විශේෂාංග රාශියකින් හෙබි, ගොනු ආකෘති
+ රාශියක් කියවිය හැකි මාධ්‍ය ධාවකයකි.
+ .
+ This package contains a set of recommended plugins for Totem:
+ .
+    * Control Totem with an Infrared remote control
+    * Control Totem with the keyboard's media player keys
+    * Display movie properties
+    * Deactivate the screensaver when a movie is playing
+    * Skip to a defined time in the movie
+    * Set the away status in the instant messenger when a movie is
+      playing
+    * Control totem with a mobile phone using the Bluetooth protocol
+    * Share the current playlist via HTTP
+    * Search, browse for and play videos from YouTube
+ .
+ Additional plugins can be written in C or Python.
+
+Package: update-manager
+Description-md5: 590b36e19703392a6fe86ceaa8467c85
+Description-si: apt යාවත්කාලීන කලමණාකරණය කරන GNOME යෙදුම
+ මෙය GNOME හි apt යාවත්කාලීන කලමණාකරුයි. මෙයින් යාවත්කාලීන සඳහා පිරික්සා
+ පරිශීලකට අවශ්‍ය ඒවා ස්ථාපනයට ලබා දේ.
+

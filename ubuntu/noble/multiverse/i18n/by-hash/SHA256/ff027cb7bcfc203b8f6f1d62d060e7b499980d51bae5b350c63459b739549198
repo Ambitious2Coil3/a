@@ -1,0 +1,47 @@
+Package: faac
+Description-md5: 8b18a84082bc792889453fdbbbdc8391
+Description-sr: AAC audio encoder (frontend)
+ ФААЦ пројекат обухвата ААЦ кодер ФААЦ и декодер ФААД2. Подржава неколико
+ МПЕГ-4 врста објекта (LC, Main, LTP, HE AAC, PS) и облика датотека (ADTS
+ AAC, raw AAC, MP4), вишеканално и без паузе кодирање/декодирање као и
+ ознаке МП4 метаподатака. Кодеци су сагласни са звучним програмима
+ усаглашеног стандарда који користе један или више ових профила.
+ .
+ This package contains the frontend.
+
+Package: libcuneiform0
+Description-md5: ad62c1ac6c378f4a10018e9ddaa3a97c
+Description-sr: multi-language OCR system (shared library)
+ Cuneiform is an OCR system. In addition to text recognition it also does
+ layout analysis and text format recognition.
+ .
+ The following languages are supported: Bulgarian, Croatian, Czech, Danish,
+ Dutch, English, Estonian, French, German, Hungarian, Italian, Latvian,
+ Lithuanian, Polish, Portuguese, Romanian, Russian, Serbian, Slovenian,
+ Spanish, Swedish, Turkish and Ukrainian.
+ .
+ Овај пакет садржи дељену библиотеку.
+
+Package: libfaac-dev
+Description-md5: 34e55010e3673cbd01ecd96cd574d525
+Description-sr: AAC audio encoder (development)
+ ФААЦ пројекат обухвата ААЦ кодер ФААЦ и декодер ФААД2. Подржава неколико
+ МПЕГ-4 врста објекта (LC, Main, LTP, HE AAC, PS) и облика датотека (ADTS
+ AAC, raw AAC, MP4), вишеканално и без паузе кодирање/декодирање као и
+ ознаке МП4 метаподатака. Кодеци су сагласни са звучним програмима
+ усаглашеног стандарда који користе један или више ових профила.
+ .
+ This package contains the development files.
+
+Package: libfaac0
+Description-md5: 8b55ae661ddd6656bba4bebe4dcfb7fa
+Description-sr: Шифрер ААЦ звука (библиотека)
+ ФААЦ пројекат обухвата ААЦ кодер ФААЦ и декодер ФААД2. Подржава неколико
+ МПЕГ-4 врста објекта (LC, Main, LTP, HE AAC, PS) и облика датотека (ADTS
+ AAC, raw AAC, MP4), вишеканално и без паузе кодирање/декодирање као и
+ ознаке МП4 метаподатака. Кодеци су сагласни са звучним програмима
+ усаглашеног стандарда који користе један или више ових профила.
+ .
+ This package contains the shared library and an extra library with support
+ for Digital Radio Mondiale (DRM).
+

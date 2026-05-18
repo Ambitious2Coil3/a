@@ -1,0 +1,415 @@
+Package: acct
+Description-md5: 2411ebcaa9bca02b21c19f927d3e1bda
+Description-nb: GNU Accounting utilities for process and login accounting
+ GNU redegjørelsesverktøy er en samling verktøy som raporterer og lager
+ sammendrag av data om brukertilkoblingstider og
+ prosesskjøringsstatestikker.
+ .
+ «Innlogginsredegjørelse» skaffer til veie sammendrag av systemressursbruk
+ basert på tilkoblingstid, og «prosessredegjørelse» gir sammendrag basert
+ på kommandoer effektuert på systemet.
+ .
+ The 'last' command is provided by the util-linux package and not included
+ here.
+
+Package: acpid
+Description-md5: 6a7c4e4695f570d8fbcaec667cdcfcfe
+Description-nb: Advanced Configuration and Power Interface event daemon
+ Moderne PC-er støtter avansert oppsetts- og strømgrensesnitt (ACPI). Dette
+ legger til rette for «intelligent» strømstyring på maskinen, og lar deg
+ følge med på batteri- og maskinvarestatus.
+ .
+ ACPID er en fleksibel og utvidbar tjeneste for levering av ACPI-hendelser.
+ Den lytter på netlink-grensesnittet (eller på «/proc/acpi/event»), og
+ kjøres programmer for håndtering av hendelser. Programmene som kjøres er
+ satt opp med egne oppsettsfiler som kan installeres via pakker eller av
+ administrator.
+
+Package: adduser
+Description-md5: a5681e7bad8d90695043c6eab9784701
+Description-nb: legg til og fjern brukere og grupper
+ Denne pakka innholder kommandoene «adduser» og «deluser», som henholdsvis
+ lar deg legge til og fjerne brukere.
+ .
+  - 'adduser' oppretter nye brukere og grupper og legger til eksisterende brukere
+    til de gruppene som allerede finnes;
+  - 'deluser' fjerner brukere og grupper og fjerner brukere fra en gitt
+    gruppe.
+ .
+ Adding users with 'adduser' is much easier than adding them manually.
+ 'Adduser' will choose UID and GID values that conform to Debian policy,
+ create a home directory, copy skeletal user configuration, and automate
+ setting initial values for the user's password, real name and so on.
+ .
+ 'Deluser' can back up and remove users' home directories and mail spool or
+ all the files they own on the system.
+ .
+ Et egendefinert skript kan kjøres etter hver av kommandoene.
+ .
+ 'Adduser' and 'Deluser' are intended to be used by the local administrator
+ in lieu of the tools from the 'useradd' suite, and they provide support
+ for easy use from Debian package maintainer scripts, functioning as kind
+ of a policy layer to make those scripts easier and more stable to write
+ and maintain.
+
+Package: advancecomp
+Description-md5: 45269d7ed6ff6092f699fce2e0061b74
+Description-nb: En samling av rekomprimeringsverktøy
+ AdvanceCOMP inneholder rekomprimeringsverktøy for .zip-arkiv, .png-
+ bildefiler, .mng-videoklipp og .gz-filer.
+ .
+ 7-Zip (http://www.7-zip.com) brukes til rekomprimering, og gir rundt 5-10%
+ bedre komprimering enn zLib.
+
+Package: aide
+Description-md5: 1d70ba920a3b80bc791be197bf18814c
+Description-nb: Advanced Intrusion Detection Environment - dynamic binary
+ AIDE er et innbruddsoppdagelsessystem som detekterer endringer på filer på
+ det lokale systemet. Det lager en database fra de vanlige uttrykksreglene
+ som den finner fra config filen. Når denne databasen er initialisert kan
+ den brukes for å sjekke integriteten på filene. Den har flere
+ meldingsforkortelsesalgoritmer (md5, sha1, rmd160, tiger, haval, osv.) som
+ brukes til å sjekke integriteten til filen. Flere algoritmer kan legges
+ til relativt enkelt. Alle de vanlige filattributtene kan også sjekkes for
+ inkonsekvens.
+
+Package: aide-common
+Description-md5: 7a8490e442a29581e6cca1b191be3f62
+Description-nb: Avansert innbruddsoppdagelsesmiljø - fellesfiler
+ AIDE er et innbruddsoppdagelsessystem som detekterer endringer på filer på
+ det lokale systemet. Det lager en database fra de vanlige uttrykksreglene
+ som den finner fra config filen. Når denne databasen er initialisert kan
+ den brukes for å sjekke integriteten på filene. Den har flere
+ meldingsforkortelsesalgoritmer (md5, sha1, rmd160, tiger, haval, osv.) som
+ brukes til å sjekke integriteten til filen. Flere algoritmer kan legges
+ til relativt enkelt. Alle de vanlige filattributtene kan også sjekkes for
+ inkonsekvens.
+ .
+ Denne pakka inneholder base- og oppsettsfiler som kreves for å kjøre selve
+ binærfilene.
+ .
+ Du vil sannsynligvis endre oppsettsfila «/etc/aide/aide.conf» eller legge
+ inn dine egne oppsettsfiler i mappa «/etc/aide/aide.conf.d».
+
+Package: alsa-base
+Description-md5: 14d30d1beb8026b3d2636c32c5a92cca
+Description-nb: Oppsettsfiler for ALSA-driver
+ Denne pakka inneholder diverse oppsettsfiler for ALSA-driverne.
+ .
+ For å kunne bruke et gitt lydkort med ALSA, må kjernen inneholde en ALSA-
+ driver for det aktuelle lydkortet. Linux 2.6 (slik det utgis i pakka
+ «linux-image») inneholder ALSA-drivere - i form av innlastbare moduler -
+ for alle støttede lydkort. Du kan tilpasse og bygge «alsa-modules» fra
+ kilden i pakka «alsa-source» ved bruk av «m-a»-verktøy (som er inkludert i
+ pakka «module-assistant»). Les fila «README.Debian» for mer informasjon om
+ innlasting og bygging av moduler.
+ .
+ ALSA is the Advanced Linux Sound Architecture.
+
+Package: alsa-utils
+Description-md5: a4e555adf5e969eded25828df3763172
+Description-nb: Verktøy for å sette opp og bruke ALSA
+ Included tools:
+  - alsactl: advanced controls for ALSA sound drivers
+  - alsaloop: create loopbacks between PCM capture and playback devices
+  - alsamixer: curses mixer
+  - alsaucm: alsa use case manager
+  - amixer: command line mixer
+  - amidi: read from and write to ALSA RawMIDI ports
+  - aplay, arecord: command line playback and recording
+  - aplaymidi, arecordmidi: command line MIDI playback and recording
+  - aconnect, aseqnet, aseqdump: command line MIDI sequencer control
+  - iecset: set or dump IEC958 status bits
+  - speaker-test: speaker test tone generator
+ .
+ ALSA is the Advanced Linux Sound Architecture.
+
+Package: amavisd-new
+Description-md5: d95fd9c270e69763b2674a7c7629b731
+Description-nb: Grensesnitt mellom MTA og virus scanner-/innholdsfilter.
+ AMaViSd-new er et skript som skaper kontakt mellom en mailtransportagent
+ (MTA) med null eller flere virusscannere, og spamassassin (valgfri)
+ .
+ Den støtter alle vanlige virusscannere (mer enn 20 forskjellige
+ antivirusprogrammer), med støtte for direkte kommunikasjon til deamon for
+ ClamAV, OpenAntiVirus, Trophie, AVG, f-prot, og Sophps antivisprogrammer.
+ .
+ AMaViSd-new støtter alle MTA-er gjennom generisk SMTP-/LMTP-filtermodus
+ (ideelt for postfix og exim). Det er raskere og sikrere å bruke
+ SMTP-/LMTP-filtermodus enn AMaViS pipe-klient. Den støtter også sendmail
+ milter via pakka «amavisd-new-milter».
+
+Package: anacron
+Description-md5: cd9f07726e1ee3bc93fcfdb799520070
+Description-nb: Cron-lignende program som ikke går på tid
+ Anacron (like "anac(h)ronistic") is a periodic command scheduler.  It
+ executes commands at intervals specified in days.  Unlike cron, it does
+ not assume that the system is running continuously.  It can therefore be
+ used to control the execution of daily, weekly, and monthly jobs (or
+ anything with a period of n days), on systems that don't run 24 hours a
+ day.  When installed and configured properly, Anacron will make sure that
+ the commands are run at the specified intervals as closely as machine
+ uptime permits.
+ .
+ This package is pre-configured to execute the daily jobs of the Debian
+ system.  You should install this program if your system isn't powered on
+ 24 hours a day to make sure the maintenance jobs of other Debian packages
+ are executed each day.
+
+Package: autoconf
+Description-md5: 4336cf24a71f6337447f744a61a67166
+Description-nb: byggeverktøy for automatiske oppsettsskript
+ The standard for FSF source packages.  This is only useful if you write
+ your own programs or if you extensively modify other people's programs.
+ .
+ For an extensive library of additional Autoconf macros, install the
+ `autoconf-archive' package.
+ .
+ This version of autoconf is not compatible with scripts meant for Autoconf
+ 2.13 or earlier.
+
+Package: autoconf-doc
+Description-md5: dc69587d1394618608d9fd7ec1c59833
+Description-nb: dokumentasjon av byggeverktøy for automatiske oppsettsskript
+ GNU Autoconf is a package for creating scripts to configure source code
+ packages using templates and an M4 macro package.  This package contains
+ the manual for GNU Autoconf.
+
+Package: bridge-utils
+Description-md5: bc06a038a6315377cf0871ca4de79aac
+Description-nb: Oppsettsverktøy for Linux Ethernet-bro
+ This package contains utilities for configuring the Linux Ethernet bridge
+ in Linux. The Linux Ethernet bridge can be used for connecting multiple
+ Ethernet devices together. The connecting is fully transparent: hosts
+ connected to one Ethernet device see hosts connected to the other Ethernet
+ devices directly.
+
+Package: e2fsprogs
+Description-md5: 92d0fdf684262bbfa702eaea3f50b97e
+Description-nb: ext2/ext3/ext4 filsystemverktøy
+ ext2, ext3 og ext4 filsystemene er etterfølgerne til det original ext
+ ("extended") filsystemet. De er hovedtypene filsystem brukt for harddisker
+ på Debian og andre Linux-system.
+ .
+ This package contains programs for creating, checking, and maintaining
+ ext2/3/4-based file systems.  It also includes the "badblocks" program,
+ which can be used to scan for bad blocks on a disk or other storage
+ device.
+
+Package: e2fsprogs-l10n
+Description-md5: 807b6cb4fcea4e66152bf7951fcc5515
+Description-nb: ext2/ext3/ext4 file system utilities - translations
+ ext2, ext3 og ext4 filsystemene er etterfølgerne til det original ext
+ ("extended") filsystemet. De er hovedtypene filsystem brukt for harddisker
+ på Debian og andre Linux-system.
+ .
+ This package provides translations for messages for programs found in the
+ 'e2fsprogs' package.
+
+Package: gnome-control-center-data
+Description-md5: 8bfe062731867305191b949e29fc5afa
+Description-nb: mini-oppsettsprogram for GNOME-datafiler
+ This package contains data files (icons, pixmaps, locales files) needed by
+ the configuration applets in the gnome-control-center package.
+
+Package: grep
+Description-md5: f9188c5583d41955f3b3fe60b9d445f1
+Description-nb: GNU grep, egrep og fgrep
+ «grep» er et verktøy for å søke etter tekst i filer. Det kan brukes på
+ kommandolinja eller i skript. Selvom du ikke vil bruke det, så vil andre
+ pakker i systemet ditt sannsynligvis gjøre.
+ .
+ GNU-familien med grep-verktøy kan være «the fastest grep in the west». GNU
+ grep er basert på en rask lazy-state deterministisk matcher (omtrent to
+ ganger så rask som standard Unix-egrep) blandet med et Boyer-Moore-Gosper
+ søk etter faste strenger som hindrer umulig tekst fra å bli vurdert av den
+ fulle regexp-matcheren uten nødvendigvis å se på hver eneste bokstav.
+ Resultatet er vanligvis mange ganger raskere enn Unix grep eller egrep.
+ (Regulære uttrykk som inneholder tilbakereferanser vil derimot kjøre
+ saktere.)
+
+Package: libext2fs-dev
+Description-md5: 6c413fbf2fbe007c87112b744560fc94
+Description-nb: ext2/ext3/ext4 file system libraries - headers and static libraries
+ ext2, ext3 og ext4 filsystemene er etterfølgerne til det original ext
+ ("extended") filsystemet. De er hovedtypene filsystem brukt for harddisker
+ på Debian og andre Linux-system.
+ .
+ This package contains the development environment for the ext2fs and e2p
+ libraries.
+
+Package: libext2fs2t64
+Description-md5: ba4f61a3e0b238831f03143cbdce696e
+Description-nb: ext2/ext3/ext4 file system libraries
+ ext2, ext3 og ext4 filsystemene er etterfølgerne til det original ext
+ ("extended") filsystemet. De er hovedtypene filsystem brukt for harddisker
+ på Debian og andre Linux-system.
+ .
+ This package provides the ext2fs and e2p libraries, for userspace software
+ that directly accesses extended file systems. Programs that use libext2fs
+ include e2fsck, mke2fs, and tune2fs. Programs that use libe2p include
+ dumpe2fs, chattr, and lsattr.
+
+Package: mawk
+Description-md5: 05965bfcd1a2333e963d9f1945d161fc
+Description-nb: Pattern scanning and text processing language
+ Mawk er en tolker for programmeringsspråket AWK. Språket AWK er nyttig for
+ endring av filer med data, tekstgjenfinning og -prosessering og for
+ prototyping og eksperimentering med algoritmer. Mawk er en ny awk med
+ betydningen at den implementerer språket AWK som definert i Aho, Kernighan
+ og Weinberger, The AWK Programming Language, Addison-Wesley Publishing,
+ 1988. (Heretter kalt AWK-boken.) Mawk følger POSIX 1003.2 (utkast 11.3)
+ definisjonen av språket AWK, som inneholder noen egenskaper som ikke er
+ beskrevet i AWK-boken, og mawk tilbyr noen få utvidelser.
+ .
+ Mawk er mindre og mye raskere enn gawk. Den er har noen grenser satt ved
+ kompilering som NF = 32767 and sprintf buffer = 1020.
+
+Package: passwd
+Description-md5: 5bbd70e421ed3367a8299e53bd7afed4
+Description-nb: endre og administrere passord og gruppeinformasjon
+ Denne pakken inneholder passwd, chsh, chfn og mange andre program som
+ brukes til å endre og administrere passord og gruppeinformasjon.
+ .
+ Skyggepassord er støtter - se /usr/share/doc/passwd/README.Debian
+
+Package: sed
+Description-md5: 2ed71305ee7a49ce4438c58140980d2f
+Description-nb: GNU stream editor for filtering/transforming text
+ sed leser de oppgitte filene eller standard inndata hvis ingen filer er
+ oppgitt, gjør endringer som beskrevet i listen med kommandoer og skriver
+ resultatet til standard utdata.
+
+Package: unzip
+Description-md5: b83e2b495da5d292f3fe6ab67b088c47
+Description-nb: De-archiver for .zip files
+ InfoZIP's unzip program. With the exception of multi-volume archives (ie,
+ .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+ .
+ Denne versjonen støtter kryptering.
+
+Package: xserver-xephyr
+Description-md5: eeb7a5ed15c65f716761ab1fa1637b6b
+Description-nb: nested X server
+ Xephyr is an X server that can be run inside another X server, much like
+ Xnest. It is based on the kdrive X server, and as a result it supports
+ newer extensions than Xnest, including render and composite.
+ .
+ More information about X.Org can be found at: <URL:https://www.x.org>
+ .
+ Denne pakken er bygd med X.org xserver-modul.
+
+Package: xserver-xorg-core
+Description-md5: 018a15965c91ba9a09e0652c1c0fb9ac
+Description-nb: Xorg X server - core server
+ The Xorg X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The Xorg server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ More information about X.Org can be found at: <URL:https://www.x.org>
+ .
+ Denne pakken er bygd med X.org xserver-modul.
+
+Package: xserver-xorg-dev
+Description-md5: c5425cbd8103a5899200596c7a3c3033
+Description-nb: Xorg X server - development files
+ This package provides development files for the X.Org ('Xorg') X server.
+ This is not quite the same as the DDK (Driver Development Kit) from the
+ XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
+ headers and a pkg-config file for drivers using autotools to build
+ against.
+ .
+ Unless you are developing or building a driver, you probably want xserver-
+ xorg and/or xserver-xorg-core instead.
+ .
+ More information about X.Org can be found at: <URL:https://www.x.org>
+ .
+ Denne pakken er bygd med X.org xserver-modul.
+
+Package: zenity
+Description-md5: 0eaa042a6247aca86bac2f94a69fc906
+Description-nb: Vis grafikse dialogbokser fra skallskript
+ Zenity lar deg se GTK+-dialoger fra skallskripter; den er en omskrivning
+ av «gdialog»-kommandoen fra GNOME 1.
+ .
+ Zenity includes a gdialog wrapper script so that it can be used with
+ legacy scripts.
+
+Package: zenity-common
+Description-md5: 31577d10cdc7dea3e76b1ffaca46c1f6
+Description-nb: Display graphical dialog boxes from shell scripts (common files)
+ Zenity lar deg se GTK+-dialoger fra skallskripter; den er en omskrivning
+ av «gdialog»-kommandoen fra GNOME 1.
+ .
+ Zenity includes a gdialog wrapper script so that it can be used with
+ legacy scripts.
+ .
+ This package contains architecture independent files.
+
+Package: zip
+Description-md5: 581928d34d669e63c353cd694bd040b0
+Description-nb: Arkivhåndterer for .zip filer
+ Dette er InfoZIPs zip-program. Det produserer filer som er fullt
+ kompatible med det populære «PKZIP»-programmet; men, kommandolinjevalgene
+ er ikke like. Med andre ord: resultatene er de samme, men metodene er
+ forskjellige.
+ .
+ Denne versjonen støtter kryptering.
+
+Package: zlib1g-dev
+Description-md5: d7f4e8a626131fc83c643c5d59096290
+Description-nb: Kompresjons bibliotek - utvikling
+ zlib er et bibliotek som implementerer en kompresjonsmetode (deflate)
+ brukt av gzip og PKZIP. Denne pakken inneholder uviklingsstøttefiler.
+
+Package: zsh
+Description-md5: a129d6b2d23d2d5d3a6b822d3f8f856d
+Description-nb: shell with lots of features
+ Zsh er en UNIX-kommandotolker (skall) til bruk som et interaktivt
+ innloggingsskall og som en skallskriptkommandoprosessor. Av de mest kjente
+ skallene ligner zsh mest på ksh, men tilbyr i tillegg mange forbedringer.
+ Zsh har kommandolinjeredigering, innebygd stavekontroll, programmerbar
+ kommandofullføring, skallfunksjoner (med autokjøring), en
+ historiemekanisme og mange andre funksjoner.
+
+Package: zsh-common
+Description-md5: 8aac20ad1d93f2ea018a327bcfd5912f
+Description-nb: architecture independent files for Zsh
+ Zsh er en UNIX-kommandotolker (skall) til bruk som et interaktivt
+ innloggingsskall og som en skallskriptkommandoprosessor. Av de mest kjente
+ skallene ligner zsh mest på ksh, men tilbyr i tillegg mange forbedringer.
+ Zsh har kommandolinjeredigering, innebygd stavekontroll, programmerbar
+ kommandofullføring, skallfunksjoner (med autokjøring), en
+ historiemekanisme og mange andre funksjoner.
+ .
+ This package contains the common zsh files shared by all architectures.
+
+Package: zsh-dev
+Description-md5: 958eee099c22df2f69105f5ecae036a2
+Description-nb: shell with lots of features (development files)
+ Zsh er en UNIX-kommandotolker (skall) til bruk som et interaktivt
+ innloggingsskall og som en skallskriptkommandoprosessor. Av de mest kjente
+ skallene ligner zsh mest på ksh, men tilbyr i tillegg mange forbedringer.
+ Zsh har kommandolinjeredigering, innebygd stavekontroll, programmerbar
+ kommandofullføring, skallfunksjoner (med autokjøring), en
+ historiemekanisme og mange andre funksjoner.
+ .
+ Denne pakken inneholder overskifter og skript nødvendige for å kompilere
+ tredjepartsmoduler.
+
+Package: zsh-doc
+Description-md5: 9b5459fce7bedf54d5694a22e68389c7
+Description-nb: zsh-dokumentasjon - info/HTML-format
+ Zsh er en UNIX-kommandotolker (skall) til bruk som et interaktivt
+ innloggingsskall og som en skallskriptkommandoprosessor. Av de mest kjente
+ skallene ligner zsh mest på ksh, men tilbyr i tillegg mange forbedringer.
+ Zsh har kommandolinjeredigering, innebygd stavekontroll, programmerbar
+ kommandofullføring, skallfunksjoner (med autokjøring), en
+ historiemekanisme og mange andre funksjoner.
+ .
+ Denne pakken inneholder dokumentasjon i «GNU info» og HTML-formater.
+

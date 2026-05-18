@@ -1,0 +1,224 @@
+Package: file-roller
+Description-md5: 38d3e4bf80de5287311da5585810d3db
+Description-bg: archive manager for GNOME
+ File-roller служи за управление на архиви за работната среда GNOME.
+ Позволява ви да:
+ .
+  * Create and modify archives.
+  * View the content of an archive.
+  * View a file contained in an archive.
+  * Extract files from the archive.
+ .
+ File-roller supports the following formats:
+  * Tar (.tar) archives, including those compressed with
+    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),
+    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),
+    lzma (.tar.lzma) and xz (.tar.xz)
+  * Zip archives (.zip)
+  * Jar archives (.jar, .ear, .war)
+  * 7z archives (.7z)
+  * iso9660 CD images (.iso)
+  * Lha archives (.lzh)
+  * Archiver archives (.ar)
+  * Comic book archives (.cbz)
+  * Single files compressed with gzip (.gz), bzip (.bz), bzip2 (.bz2),
+    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)
+ .
+ File-roller can extract following formats:
+  * Cabinet archives (.cab)
+  * Debian binary packages (.deb)
+  * Xar archives (.xar)
+ .
+ File-roller doesn't perform archive operations by itself, but relies on
+ standard tools for this.
+
+Package: gir1.2-totem-1.0
+Description-md5: f8fb0d202ba3f9170c84de5e0c27a305
+Description-bg: GObject introspection data for Totem media player
+ Totem е прост, но много функционален медиен плеър за GNOME, който може да
+ възпроизвежда многобройни формати.
+ .
+ This package contains introspection data for the Totem media player.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
+Package: hyphen-pl
+Description-md5: 86fb13e848cc82c9df265b4d3fdfe085
+Description-bg: Polish hyphenation patterns for LibreOffice/OpenOffice.org
+ Openoffice.org е напълно функционален офис пакет, който е отличен
+ заместител на Microsoft(R) Office.
+ .
+ This package contains the Polish hyphenation patterns for
+ LibreOffice/OpenOffice.org
+
+Package: mythes-en-au
+Description-md5: 7ba8c201fd7908b37ed84e4a8b468dd5
+Description-bg: Australian English Thesaurus for OpenOffice.org
+ Openoffice.org е напълно функционален офис пакет, който е отличен
+ заместител на Microsoft(R) Office.
+ .
+ This package contains an Australian English thesaurus for OpenOffice.org.
+ It is based on the American version, but has American spellings removed.
+
+Package: mythes-pl
+Description-md5: 3a107343aebe7b885d6bcbd43aff3668
+Description-bg: Polish thesaurus for LibreOffice/OpenOffice.org
+ Openoffice.org е напълно функционален офис пакет, който е отличен
+ заместител на Microsoft(R) Office.
+ .
+ This package contains the Polish thesaurus for LibreOffice/OpenOffice.org.
+
+Package: rhythmbox
+Description-md5: 263e21c49721f582dd2ee234ff4fedb7
+Description-bg: music player and organizer for GNOME
+ Rhythmbox е много лесен за употреба, организиране на музиката и поддържа
+ много аудио формати. Вдъхновен от идеята за Apple iTunes, сегашната версия
+ поддържа Интернет радио, работа с iPod, работа с повечето портативни аудио
+ плеъри, запис на Аудио CD, възпроизвеждане на Аудио CD, споделяне на
+ музика и Подкасти.
+
+Package: rhythmbox-data
+Description-md5: 42958a23b3c14ae41a3238d088043e3e
+Description-bg: data files for rhythmbox
+ Rhythmbox е много лесен за употреба, организиране на музиката и поддържа
+ много аудио формати. Вдъхновен от идеята за Apple iTunes, сегашната версия
+ поддържа Интернет радио, работа с iPod, работа с повечето портативни аудио
+ плеъри, запис на Аудио CD, възпроизвеждане на Аудио CD, споделяне на
+ музика и Подкасти.
+ .
+ This package contains pictures, localization files and other data needed
+ by rhythmbox.
+
+Package: rhythmbox-plugins
+Description-md5: 65ef9a9b2e372031a3ca07a0b4e3427c
+Description-bg: plugins for rhythmbox music player
+ Rhythmbox е много лесен за употреба, организиране на музиката и поддържа
+ много аудио формати. Вдъхновен от идеята за Apple iTunes, сегашната версия
+ поддържа Интернет радио, работа с iPod, работа с повечето портативни аудио
+ плеъри, запис на Аудио CD, възпроизвеждане на Аудио CD, споделяне на
+ музика и Подкасти.
+ .
+ This package contains the following plugins:
+  - Cover art search
+  - Audio CD Player
+  - Last.fm
+  - DAAP Music Sharing
+  - FM Radio
+  - Grilo media browser
+  - IM Status
+  - Internet Radio
+  - Song Lyrics
+  - Magnatune Store
+  - Media Player Keys
+  - Portable Players (generic, iPod, MTP)
+  - Notification
+  - Power Manager
+  - Python Console
+  - LIRC
+  - Replay Gain
+  - MediaServer2 D-Bus interface
+  - MPRIS D-Bus interface
+  - Web remote control
+
+
+Package: software-properties-common
+Description-md5: d19f432480048ad00ac5c2bfd116cd00
+Description-bg: управление на хранилищата от който са инсталирани програмите (общи файлове)
+ This software provides an abstraction of the used apt repositories. It
+ allows you to easily manage your distribution and independent software
+ vendor software sources.
+ .
+ This package contains the common files for software-properties like the
+ D-Bus backend.
+
+Package: software-properties-gtk
+Description-md5: 1912baba2086cd851f5a53b65d6c9eea
+Description-bg: управление на хранилищата от който са инсталирани програмите (gtk)
+ This software provides an abstraction of the used apt repositories. It
+ allows you to easily manage your distribution and independent software
+ vendor software sources.
+ .
+ Този пакет осигурява графичен интерфейс базиран на GTK+
+
+Package: sound-theme-freedesktop
+Description-md5: da6611b2187811b48e41e74c062f00e0
+Description-bg: freedesktop.org звукова тема
+ The default freedesktop.org sound theme following the XDG theming
+ specification. It contains a full set of sounds for different desktop
+ events.
+ .
+ These sounds come from various sources: KDE, Ekiga, Pidgin/Purple, ALSA.
+
+Package: totem
+Description-md5: 3773374b409bb5710c492c328fe37f78
+Description-bg: Simple media player for the GNOME desktop based on GStreamer
+ Totem е прост, но много функционален медиен плеър за GNOME, който може да
+ възпроизвежда многобройни формати. Поддържа:
+ .
+    * Shoutcast, m3u, asx, SMIL и ra плейлистове
+    * Възпроизвеждане на DVD (с менюта), VCD и Digital CD (с CDDB)
+    * Конфигуриране на ТВ изход с допълнителни разделителни способности
+    * 4.0, 5.0, 5.1 и стерео аудио изход
+    * Възпроизвеждане на цял екран (преместете вашата мишка и ще имате удобни бутони за
+       управление) с Xinerama, две глави и RandR
+    * Превключване на пропорции, мащабиране въз основа на оригиналния размер на филма
+    * Пълно управление с клавиатурата
+    * Прост плейлист с режим за повтаряне и запазване на плейлиста
+    * Интегриране в GNOME, Nautilus и GIO
+    * Правене на снимка на възпроизвеждания филм
+    * Управление на яркостта и контраста
+    * Визуализация, когато възпроизвеждате само аудио файлове
+    * Миниатюра на видео за nautilus
+    * Страница със свойства в Nautilus
+    * Работи на отдалечени екрани
+    * Автоматичен избор на език за субтитри на DVD, VCD и OGG/OGM
+    * Разширяване на функциите с помощта на приставки
+
+
+Package: totem-common
+Description-md5: e5e4dab953a289de510184357646dc10
+Description-bg: Data files for the Totem media player
+ Totem е прост, но много функционален медиен плеър за GNOME, който може да
+ възпроизвежда многобройни формати.
+ .
+ This package contains common data files and translations.
+
+Package: totem-plugins
+Description-md5: bfaf3e55fb6fc19bcd47f3c7c8db4e6d
+Description-bg: Plugins for the Totem media player
+ Totem е прост, но много функционален медиен плеър за GNOME, който може да
+ възпроизвежда многобройни формати.
+ .
+ This package contains a set of recommended plugins for Totem:
+ .
+    * Control Totem with an Infrared remote control
+    * Control Totem with the keyboard's media player keys
+    * Display movie properties
+    * Deactivate the screensaver when a movie is playing
+    * Skip to a defined time in the movie
+    * Set the away status in the instant messenger when a movie is
+      playing
+    * Control totem with a mobile phone using the Bluetooth protocol
+    * Share the current playlist via HTTP
+    * Search, browse for and play videos from YouTube
+ .
+ Additional plugins can be written in C or Python.
+
+Package: ubuntu-docs
+Description-md5: 0edc5e50b9f2efd9dd8afc4974dc28e8
+Description-bg: Ръководство за ползване на Убунту десктоп
+ This package holds the official Ubuntu-specific documentation, maintained
+ by the Ubuntu Documentation Team. The documentation can be viewed using
+ Yelp, the GNOME help browser.
+ .
+ This package recommends gnome-user-docs, which provides the bulk of the
+ Ubuntu Desktop Guide, and ubuntu-docs does not make much sense without it.
+
+Package: update-manager
+Description-md5: 590b36e19703392a6fe86ceaa8467c85
+Description-bg: GNOME application that manages apt updates
+ Актуализационен мениджър на GNOME. Той проверява за наличието на
+ актуализации и позволява на потребителя да избере кои от тях да се
+ инсталират.
+

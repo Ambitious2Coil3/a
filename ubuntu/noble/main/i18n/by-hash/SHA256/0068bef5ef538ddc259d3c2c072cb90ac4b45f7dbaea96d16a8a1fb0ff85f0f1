@@ -1,0 +1,87 @@
+Package: accountsservice
+Description-md5: 8aeed0a03c7cd494f0c4b8d977483d7e
+Description-ms: tanya dan manipulasi maklumat akaun pengguna
+ The AccountService project provides a set of D-Bus interfaces for querying
+ and manipulating user account information and an implementation of these
+ interfaces, based on the useradd, usermod and userdel commands.
+
+Package: acct
+Description-md5: 2411ebcaa9bca02b21c19f927d3e1bda
+Description-ms: GNU Accounting utilities for process and login accounting
+ Utiliti Perakaunan GNU merupakan set utiliti yang melaporkan dan
+ ringkaskan data mengenai masa sambung dan statistik pelakuan proses
+ pengguna.
+ .
+ "Perakaunan daftar masuk" menyediakan ringkasan penggunaan sumber sistem
+ berasaskan masa sambung, dan perakaunan proses" menyediakan ringkasan
+ berasaskan perintah yang dilakukan pada sistem.
+ .
+ The 'last' command is provided by the util-linux package and not included
+ here.
+
+Package: acpid
+Description-md5: 6a7c4e4695f570d8fbcaec667cdcfcfe
+Description-ms: Daemon peristiwa Antaramuka Kuasa dan Konfigurasi Lanjutan
+ Modern computers support the Advanced Configuration and Power Interface
+ (ACPI) to allow intelligent power management on your system and to query
+ battery and configuration status.
+ .
+ ACPID is a completely flexible, totally extensible daemon for delivering
+ ACPI events. It listens on netlink interface (or on the deprecated file
+ /proc/acpi/event), and when an event occurs, executes programs to handle
+ the event. The programs it executes are configured through a set of
+ configuration files, which can be dropped into place by packages or by the
+ admin.
+
+Package: adduser
+Description-md5: a5681e7bad8d90695043c6eab9784701
+Description-ms: tambah dan buang pengguna dan kumpulan
+ Pakej ini disertakan denfan perintah 'adduser' dan deluser' untuk mencipta
+ dan membuang pengguna.
+ .
+  - 'adduser' creates new users and groups and adds existing users to
+    existing groups;
+  - 'deluser' removes users and groups and removes users from a given
+    group.
+ .
+ Adding users with 'adduser' is much easier than adding them manually.
+ 'Adduser' will choose UID and GID values that conform to Debian policy,
+ create a home directory, copy skeletal user configuration, and automate
+ setting initial values for the user's password, real name and so on.
+ .
+ 'Deluser' can back up and remove users' home directories and mail spool or
+ all the files they own on the system.
+ .
+ Skrip suai boleh dilakukan selepas setiap perintah.
+ .
+ 'Adduser' and 'Deluser' are intended to be used by the local administrator
+ in lieu of the tools from the 'useradd' suite, and they provide support
+ for easy use from Debian package maintainer scripts, functioning as kind
+ of a policy layer to make those scripts easier and more stable to write
+ and maintain.
+
+Package: advancecomp
+Description-md5: 45269d7ed6ff6092f699fce2e0061b74
+Description-ms: koleksi utiliti nyahmampatan
+ AdvanceCOMP mengandungi utiliti nyahmampatan untuk arkib .zip, imej .png,
+ klip video .mng dan fail .gz anda.
+ .
+ Untuk nyahmampatan, 7-Zip (http://www.7-zip.com) boleh digunakan, biasanya
+ memberikan 5-10% lebih pemampatan berbanding zLib.
+
+Package: libyelp0
+Description-md5: f5adafee47b3d10b994668590a31200f
+Description-ms: Library for the GNOME help browser
+ Yelp merupakan pelayar bantuan untuk dekstop GNOME. Yelp menyediakan
+ antaramuka bergrafik ringkas untuk melihat DocBook, Mallard, HTML, man dan
+ dokumentasi berfotmatkan maklumat.
+ .
+ This library contains widgets and utilities for use by Yelp.
+
+Package: yelp
+Description-md5: b660f3f94d2a495572d2b53c6824da41
+Description-ms: Pelayar bantuan untuk GNOME
+ Yelp merupakan pelayar bantuan untuk dekstop GNOME. Yelp menyediakan
+ antaramuka bergrafik ringkas untuk melihat DocBook, Mallard, HTML, man dan
+ dokumentasi berfotmatkan maklumat.
+

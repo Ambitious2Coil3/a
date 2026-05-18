@@ -1,0 +1,2971 @@
+Package: ace
+Description-md5: fcbd00026ded79e6c62f3bec35612f8f
+Description-is: HTML template engine for Go (command-line tool)
+ Ace is an HTML template engine for Go.  This is inspired by Slim
+ (http://slim-lang.com/) and Jade (http://jade-lang.com/). This is a
+ refinement of Gold (http://gold.yoss.si/).
+ .
+ Dæmi:
+ .
+   = doctype html
+   html lang=en
+   head
+     title Hello Ace
+     = css
+       h1 { color: blue; }
+   body
+     h1 {{.Msg}}
+     #container.wrapper
+       p..
+         Ace is an HTML template engine for Go.
+         This engine simplifies HTML coding in Go web application development.
+     = javascript
+       console.log('Welcome to Ace');
+ .
+ This package provides the /usr/bin/ace command-line tool and example
+ files.
+
+Package: bats-assert
+Description-md5: 6e0af67aac96a57a0c62f6f3a2c2b007
+Description-is: Helper library providing common assertions for Bats
+ bats-assert provides various ready-made assertions that can be used to
+ make Bats tests simpler to understand and to debug.
+ .
+ Til dæmis:
+ .
+  * assert_success: exit status is 0.
+  * assert_output: output contains given content.
+  * assert_line: a specific line of output contains given content.
+
+
+Package: bats-file
+Description-md5: 26498ed790beaffc0ce98bfc64d0cf47
+Description-is: Helper library providing filesystem-related assertions for Bats
+ bats-file provides various assertions and helpers to simplify writing Bats
+ tests that deal with files and filesystems.
+ .
+ Til dæmis:
+ .
+  * assert_file_contains: Check if the file content matches a regex.
+  * assert_file_owner: Check if a specific user owns the file.
+  * assert_symlink_to: Check if the file is a symlink to the target.
+  * temp_make: Create a temp directory for the current test in BATS_TMPDIR.
+
+
+Package: bats-support
+Description-md5: 5484b7ec3dac0f44d4409bedcf4a7473
+Description-is: Supporting library to test bats helper libraries
+ bats-support is a supporting library providing common functions to test
+ helper libraries written for Bats.
+ .
+ Eiginleikar
+ .
+  * error reporting
+  * output formatting
+  * language tools
+
+
+Package: cbindgen
+Description-md5: bf5e9ab6d22f73ffe6c064b48141f318
+Description-is: Generates C bindings from Rust code
+ cbindgen can be used to generate C bindings for Rust code. It is currently
+ being developed to support creating bindings for WebRender (by Mozilla for
+ Firefox), but has been designed to support any project.
+ .
+ Eiginleikar
+ .
+  * Builds bindings for a crate, its mods, its dependent crates, and their mods
+  * Only the necessary types for exposed functions are given bindings
+  * Can specify annotations for controlling some aspects of binding
+  * Support for generic structs and unions
+  * Support for exporting constants and statics
+  * Customizable formatting, can be used in C or C++ projects
+  * Support for generating #ifdef's for #[cfg] attributes
+  * Support for #[repr(sized)] tagged enum's
+
+
+Package: cpuinfo
+Description-md5: ab666464e290c05f055e53ee0e828d2c
+Description-is: CPU INFOrmation library (binary utilities)
+ cpuinfo is a library to detect essential for performance optimization
+ information about host CPU.
+ .
+ Eiginleikar
+ .
+   - **Cross-platform** availability:
+     - Linux, Windows, macOS, Android, and iOS operating systems
+     - x86, x86-64, ARM, and ARM64 architectures
+   - Modern **C/C++ interface**
+     - Thread-safe
+     - No memory allocation after initialization
+     - No exceptions thrown
+   - Detection of **supported instruction sets**, up to AVX512 (x86) and
+     ARMv8.3 extensions
+   - Detection of SoC and core information:
+     - **Processor (SoC) name**
+     - Integrated **GPU name** (Android/iOS only)
+     - Vendor, **microarchitecture**, and ID (**MIDR** on ARM, **CPUID**
+       leaf 1 EAX value on x86) for each CPU core
+   - Detection of **cache information**:
+     - Cache type (instruction/data/unified), size and line size
+     - Cache associativity
+     - Cores and logical processors (hyper-threads) sharing the cache
+   - Detection of **topology information** (relative between logical
+     processors, cores, and processor packages)
+   - Well-tested **production-quality** code:
+     - 60+ mock tests based on data from real devices
+     - Includes work-arounds for common bugs in hardware and OS kernels
+     - Supports systems with heterogenous cores, such as **big.LITTLE**
+       and Max.Med.Min
+   - Permissive **open-source** license (Simplified BSD)
+ .
+ This package ships with several binary utilities.
+
+Package: dbar
+Description-md5: 98b956d9ac40f06911e31773af032a5b
+Description-is: general purpose ASCII graphic percentage meter/progressbar
+ dbar lets you define static 0% and 100% marks or you can define these
+ marks dynamically at runtime. Static and dynamic marks can be mixed, in
+ this case the value specified at runtime will have a higher priority.
+ .
+ You can specify ranges of numbers, negative, positive or ranges with a
+ negative min value and positive max value.
+ .
+ Eiginleikar
+ .
+   - Simple interface, perfect to use within your scripts
+   - Trivial to intergrate with dzen
+
+
+Package: ddgr
+Description-md5: fbf97be4352d256c7db3959fdb002831
+Description-is: DuckDuckGo from the terminal
+ Eiginleikar
+ .
+  - Fast and clean (no ads, stray URLs or clutter), custom color
+  - Navigate result pages from omniprompt, open URLs in browser
+  - Search and option completion scripts for Bash, Zsh and Fish
+  - DuckDuckGo Bang support (along with completion)
+  - Open the first result directly in browser (as in I'm Feeling Ducky)
+  - Non-stop searches: fire new searches at omniprompt without exiting
+  - Keywords (e.g. filetype:mime, site:somesite.com) support
+  - Specify region, disable safe search
+  - HTTPS proxy support, Do Not Track set, optionally disable User Agent
+  - Support custom url handler script or cmdline utility
+  - Comprehensive documentation, man page with handy usage examples
+  - Minimal dependencies
+
+
+Package: digikam
+Description-md5: 1dd6f83ea15e9366fba2298afd075680
+Description-is: KDE forrit til að sýsla með stafrænar ljósmyndir
+ Myndaumsýsluforrit sem hannað er til að flytja inn, skipuleggja, laga,
+ leita og senda myndir til og frá tölvunni þinni.
+ .
+ It provides a simple interface which makes importing and organizing
+ digital photographs a "snap". digiKam enables you to manage large numbers
+ of digital photographs in albums and to organize these photographs for
+ easy retrieval using tags (keywords), captions, collections, dates,
+ geolocation and searches. It has many features for viewing, organizing,
+ processing and sharing your images. Thus, digiKam is a formidable digital
+ asset management (DAM) software including powerful image editing
+ functions.
+ .
+ An easy-to-use camera interface is provided, that will connect to your
+ digital camera and download photographs directly into digiKam albums. More
+ than 1000 digital cameras are supported by the gphoto2 library. Of course,
+ any media or card reader supported by your operating system will interface
+ with digiKam.
+ .
+ digiKam incorporates a fast Image Editor with many image editing tools.
+ You can use the Image Editor to view your photographs, comment and rate
+ them, correct, enhance and alter them. The editing power can be easily
+ extended by a set of plugins, the KDE Image Plugins Interface (manual)
+ .
+ While digiKam remains easy to use, it provides professional level features
+ by the dozens. It is fully 16 bit enabled including all available plugins,
+ supports RAW format conversion through libraw, DNG export and ICC color
+ management work flow.
+
+Package: elpa-find-file-in-project
+Description-md5: d8eb766e1e5f5e2a078f215a5b0b5dce
+Description-is: quick access to project files in Emacs
+ This library provides methods for quickly finding any file in a project.
+ It uses GNU Find by default, but can also use (the significantly faster)
+ fd-find.  Find-file-in-project supports the following candidate selection
+ interfaces: Consult, Helm, Ido, Ivy, Selectrum, and the Emacs built-in
+ 'completing-read'.
+ .
+ By default, FFIP will search for files in a local Git, Subversion, or
+ Mercurial repository.  FFIP uses TRAMP to find files in remote
+ repositories, and claims this is "flawlessly" supported.
+ .
+ Eiginleikar
+ .
+   * Fast!  Tested with projects that have 50,000+ files
+   * Find's behaviour can be tweaked using ffip-find-options
+   * Smart! The keyword "helloWorld", returns "HelloWorld.html",
+     "hello-world.css", and "HelloWorld.js".
+   * Enhances diff-mode with more convenient patch-handling, including
+     diff creation, application, finding the file associated with a given
+     hunk, and jumping to the section relevant to that hunk
+   * No configuration required.  Find-file-in-project works out-of-the-box
+   * Supports evil-mode, with additional configuration (see README)
+
+
+Package: elpa-nov
+Description-md5: 021ed319c8832bfe5437072f4ed5d3eb
+Description-is: featureful EPUB (ebook) reader mode for Emacs
+ nov.el provides a major mode for reading EPUB documents (ebooks) in Emacs.
+ .
+ Eiginleikar
+ .
+   - Basic navigation (jump to TOC, previous/next chapter)
+   - Remembering and restoring the last read position
+   - Jump to next chapter when scrolling beyond end
+   - Renders EPUB2 (.ncx) and EPUB3 (<nav>) TOCs
+   - Hyperlinks to internal and external targets
+   - Supports textual and image documents
+   - View source of document files
+   - Metadata display
+   - Image rescaling
+
+
+Package: elpa-pyim
+Description-md5: 35ae1bb80de6d5cfb02fb07d4e1ed562
+Description-is: Chinese input method support quanpin, shuangpin, wubi, cangjie and rime
+ pyim is a Chinese input method in the Emacs environment. The code of pyim
+ is derived from Emacs-eim, which development stopped after 2008. Although
+ the external input method is powerful, it can't cooperate with Emacs
+ tacitly, which greatly damages the feeling of Emacs.
+ .
+ Eiginleikar
+ .
+  - pyim supports Quanpin, Shuangpin, Wubi and Cangjie, among which
+ Quanpin is the best;
+ .
+  - pyim optimizes the input method by adding thesaurus;
+ .
+  - pyim uses the text lexicon format, which is convenient for  processing;
+ .
+  - pyim can be used as the front end for rime.
+
+Package: eterm
+Description-md5: 32ac0d46ea64df4dd82d41c7ed7b886d
+Description-is: Enlightened skjáhermir
+ A terminal emulator in the spirit of xterm or rxvt, eterm uses an
+ Enlightenment style config file, as well as themes.  The Imlib2 graphics
+ engine is used to render images. This version supports background images,
+ pixmapped scrollbars, pseudo-transparency, and POSIX threads.
+
+Package: fbreader
+Description-md5: d5d9fd4160efb84c515b7fdc83408d1c
+Description-is: Rafbókalesari
+ FBReader is an e-book reader.
+ .
+ Main features:
+  * supports several open e-book formats: fb2, html, chm, plucker,
+    palmdoc, ztxt, tcr (psion text), rtf, oeb, openreader, non-DRM'ed
+    mobipocket, plain text, epub, eReader
+  * reads directly from tar, zip, gzip, bzip2 archives (you can have
+    several books in one archive)
+  * supports a structured view of your e-book collection
+  * automatically determines encodings
+  * automatically generates a table of contents
+  * keeps the last open book and the last read positions for all open books
+    between runs
+  * automatic hyphenation (patterns for several languages are included)
+  * searching and downloading books from www.feedbooks.com and www.litres.ru
+  * partial CSS support for epub files
+
+
+Package: fd-find
+Description-md5: 35e6be181e7a38f72537091a1e6d254a
+Description-is: Simple, fast and user-friendly alternative to find
+ While it does not seek to mirror all of find's powerful functionality, fd
+ provides sensible (opinionated) defaults for 80% of the use cases.
+ .
+ Eiginleikar
+ .
+  * Convenient syntax: ‘fd PATTERN’ instead of ‘find -iname '*PATTERN*'’.
+  * Colorized terminal output (similar to ls).
+  * It's fast, often faster than find.
+  * Smart case.
+  * Ignores hidden directories and files, by default.
+  * Ignores patterns from your .gitignore, by default.
+  * Regular expressions.
+  * Unicode-awareness.
+  * Parallel command execution with a syntax similar to GNU Parallel.
+ .
+  Please note: the executable and the associated manpage were renamed
+  from ‘fd’ to ‘fdfind’ because of a file name clash.
+
+
+Package: frescobaldi
+Description-md5: 7e3a8966b55e721550f9e11b9d0e5617
+Description-is: LilyPond sheet music text editor
+ Frescobaldi is a LilyPond sheet music editor.  It aims to be powerful, yet
+ lightweight and easy to use.  Frescobaldi is Free Software, freely
+ available under the GNU General Public License.
+ .
+ Eiginleikar
+ .
+  * Powerful text editor with syntax highlighting and automatic completion
+  * Music view with advanced Point & Click
+  * MIDI player to proof-listen LilyPond-generated MIDI files
+  * MIDI capturing to enter music
+  * Powerful Score Wizard to quickly setup a music score
+  * Snippet Manager to store and apply text snippets, templates or scripts
+  * Use multiple versions of LilyPond, automatically selects the correct version
+  * Built-in LilyPond documentation browser and built-in Frescobaldi User Guide
+  * Smart layout-control functions like coloring specific objects in the PDF
+  * MusicXML, MIDI and ABC import
+  * Modern user interface with configurable colors, fonts and keyboard shortcuts
+  * Translated into Dutch, English, French, German, Italian, Czech, Russian,
+    Spanish, Galician, Turkish, Polish, Brazillian Portuguese and Ukrainian.
+ .
+ Music functions:
+ .
+  * Transpose music
+  * Change music from relative to absolute and vice versa
+  * Change the language used for note names
+  * Change the rhythm (double, halve, add/remove dots, copy, paste) etc.
+  * Hyphenate lyrics using word-processor hyphenation dictionaries
+  * Add spanners, dynamics, articulation easily using the Quick Insert panel
+  * Update LilyPond syntax using convert-ly, with display of differences
+ .
+ In order to use lyric hyphenation, please install your languages'
+ appropriate hyphenation packages, e.g. hyphen-fr for French, hyphen-ca for
+ Catalan, etc.
+ .
+ Frescobaldi is designed to run on all major operating systems (Linux,
+ macOS and MS Windows).  It is named after Girolamo Frescobaldi
+ (1583-1643), an Italian composer of keyboard music in the late Renaissance
+ and early Baroque period.
+
+Package: gav
+Description-md5: 07ea36d89b6cf17e94312f54a7cb7da2
+Description-is: GPL Blakleikur
+ GAV stands for GPL Arcade Volleyball, and is an SDL remake of the old DOS
+ game Arcade Volleyball. It includes multiplayer, networking, and themeable
+ graphics support.
+ .
+ More information, as well as additional themes, can be found at
+ <http://gav.sourceforge.net>.
+
+Package: gbonds
+Description-md5: 08cc8581a66fc2ee392369a9b2c67287
+Description-is: U.S. Savings Bond inventory program for GNOME
+ GBonds is a U.S. Savings Bond inventory program for the GNOME desktop
+ environment.  It allows you to track the current redemption value and
+ performance of your U.S. Savings Bonds and keep a valuable record of the
+ bonds you own.
+ .
+ Eiginleikar
+ .
+   * Tracks savings notes and series E, EE, and I savings bonds.
+   * Uses U.S. Treasury Department redemption files without modification.
+   * Imports inventories created with Savings Bond Wizard.
+   * Tracks current value of both individual bonds and an entire inventory.
+   * Prints inventories.  It is important to keep a permanent record of your
+     bonds in a separate location in case you ever need to replace them.
+
+
+Package: geany-plugin-lineoperations
+Description-md5: 325a2c0de38437db83563a094a80ba2e
+Description-is: Line Operations plugin for Geany
+ Line Operations is an assortment of simple line functions that can be
+ applied to an open file.
+ .
+ Eiginleikar
+ .
+  * Remove Duplicate Lines, sorted
+  * Remove Duplicate Lines, ordered
+  * Remove Unique Lines
+  * Remove Empty Lines
+  * Remove Whitespace Lines
+  * Sort Lines Ascending
+  * Sort Lines Descending
+ .
+ Geany is a small and lightweight integrated development environment using
+ the Gtk+ toolkit.
+
+Package: gkrellm
+Description-md5: 73229655651f0072be499e6775eada06
+Description-is: GNU Krell eftirlit
+ With a single process, gkrellm manages multiple stacked monitors and
+ supports applying themes to match the monitors appearance to your window
+ manager, Gtk, or any other theme.
+
+Package: gnote
+Description-md5: 7d8e1d6e363a6e9deaaf777262bb05a8
+Description-is: glósuforrit sem notar Wiki-tengla
+ Gnote is a desktop note-taking application which is simple and easy to
+ use. It lets you organise your notes intelligently by allowing you to
+ easily link ideas together with Wiki style interconnects.
+ .
+ It is a port of Tomboy to C++ and consumes less resources.
+
+Package: golang-github-alecthomas-repr-dev
+Description-md5: 925957333de0ebef5c7ea9e5a1a718ee
+Description-is: Python's repr() for Go
+ The repr package attempts to represent Go values in a form that can be
+ used almost directly in Go source code.
+ .
+ Unfortunately, some values (such as pointers to basic types) cannot be
+ represented directly in Go.  These values will be represented as &<value>,
+ e.g. &23
+ .
+ Dæmi:
+ .
+   type test struct {
+     S string
+     I int
+     A []int
+   }
+ .
+   func main() {
+     repr.Print(&test{
+       S: "String",
+       I: 123,
+       A: []int{1, 2, 3},
+     })
+   }
+ .
+ Outputs
+ .
+   &main.test{S: "String", I: 123, A: []int{1, 2, 3}}
+
+Package: golang-github-calmh-randomart-dev
+Description-md5: 24d49339979b6d803a0de58c99825331
+Description-is: generates OpenSSH-style randomart (Go library)
+ Go package randomart generates OpenSSH style "randomart" images based on
+ key fingerprints.
+ .
+ Dæmi:
+ .
+   data := []byte{ 0x9b, 0x4c, 0x7b, 0xce, 0x7a, 0xbd, 0x0a, 0x13,
+                   0x61, 0xfb, 0x17, 0xc2, 0x06, 0x12, 0x0c, 0xed }
+   ra := randomart.Generate(data, "RSA 2048")
+   fmt.Println(ra)
+ .
+   +--[ RSA 2048 ]---+
+   |    .+.          |
+   |      o.         |
+   |     .. +        |
+   |      Eo =       |
+   |        S + .    |
+   |       o B . .   |
+   |        B o..    |
+   |         *...    |
+   |        .o+...   |
+   +-----------------+
+
+
+Package: golang-github-cristalhq-hedgedhttp-dev
+Description-md5: 6b8852a563c484c84ac94a14db7b9f3b
+Description-is: Hedged HTTP client which helps to reduce tail latency at scale (library)
+ See paper Tail at Scale (https://cacm.acm.org/magazines/2013/2/160173-the-
+ tail-at-scale/fulltext) by Jeffrey Dean, Luiz André Barroso. In short: the
+ client first sends one request, but then sends an additional request after
+ a timeout if the previous hasn't returned an answer in the expected time.
+ The client cancels remaining requests once the first result is received.
+ .
+ Eiginleikar
+ .
+  * Simple API.
+  * Easy to integrate.
+  * Optimized for speed.
+  * Clean and tested code.
+  * Supports http.Client and http.RoundTripper.
+  * Dependency-free.
+
+
+Package: golang-github-go-resty-resty-dev
+Description-md5: 2753eef7d90df82ccda9b72f33cb543e
+Description-is: Simple HTTP and REST client library for Go
+ Eiginleikar
+ .
+  * GET, POST, PUT, DELETE, HEAD, PATCH, OPTIONS, etc.
+  * Simple and chainable methods for settings and request
+  * Request Body can be string, []byte, struct, map, slice and io.Reader too
+  * Response object gives you more possibility
+  * Automatic marshal and unmarshal for JSON and XML content type
+  * Easy to upload one or more file(s) via multipart/form-data
+  * Request URL Path Params (aka URI Params)
+  * Resty client HTTP & REST Request and Response middlewares
+ .
+ And much more.
+
+Package: golang-github-graph-gophers-graphql-go-dev
+Description-md5: c7e48b30ac74af7039208c00623d4630
+Description-is: GraphQL server with a focus on ease of use
+ graphql-go is a GraphQL server library with the goal to provide full
+ support of the GraphQL draft specification (
+ https://facebook.github.io/graphql/draft) with a set of idiomatic, easy to
+ use Go packages.
+ .
+ Eiginleikar
+ .
+  - minimal API
+  - support for context.Context
+  - support for the OpenTracing standard
+  - schema type-checking against resolvers
+  - resolvers are matched to the schema based on method sets
+  - handles panics in resolvers
+  - parallel execution of resolvers
+
+
+Package: golang-github-hairyhenderson-go-codeowners-dev
+Description-md5: 6396f252eacd6a069165779ae3049e90
+Description-is: Go package that finds and parses GitHub CODEOWNERS files
+ go-codeowners is a Go package that finds and parses CODEOWNERS files; see
+ https://help.github.com/articles/about-codeowners/
+ .
+ Eiginleikar
+ .
+  * operates on local repos
+  * doesn't require a cloned repo (i.e. doesn't need a .git directory to
+    be present at the repo's root)
+  * can be called from within a repo (doesn't have to be at the root)
+  * will find CODEOWNERS files in all documented locations: the repo's
+    root, docs/, and .github/ (or .gitlab/ for GitLab repos)
+
+
+Package: golang-github-jackc-puddle-dev
+Description-md5: c52379209cf3dddd0d4ce6212b082c3c
+Description-is: Generic resource pool for Go (library)
+ Puddle is a tiny generic resource pool library for Go that uses the
+ standard context library to signal cancellation of acquires. It is
+ designed to contain the minimum functionality required for a resource
+ pool. It can be used directly or it can be used as the base for a domain
+ specific resource pool. For example, a database connection pool may use
+ puddle internally and implement health checks and keep-alive behavior
+ without needing to implement any concurrent code of its own.
+ .
+ Eiginleikar
+ .
+  * Acquire cancellation via context standard library
+  * Statistics API for monitoring pool pressure
+  * No dependencies outside of standard library
+  * High performance
+  * 100% test coverage
+
+
+Package: golang-github-katalix-go-l2tp-dev
+Description-md5: 76e4970c016f82e9a34ad02748600b12
+Description-is: Go library for building L2TP applications on Linux systems (library)
+ go-l2tp is a suite of Go libraries for building L2TP applications on Linux
+ systems.
+ .
+ Eiginleikar
+ .
+  * L2TPv2 (RFC2661) (https://tools.ietf.org/html/rfc2661) and L2TPv3
+    (RFC3931) (https://tools.ietf.org/html/rfc3931) data plane via. Linux
+    L2TP subsystem
+  * AF_INET and AF_INET6 tunnel addresses
+  * UDP and L2TPIP tunnel encapsulation
+  * L2TPv2 control plane in client/LAC mode
+  * PPPoE (RFC2561) (https://tools.ietf.org/html/rfc2516) control and
+    data plane via. Linux L2TP subsystem.
+
+
+Package: golang-github-leonelquinteros-gotext-dev
+Description-md5: a55a75ce38bd77f9991a6f5c228be466
+Description-is: Go GNU gettext utilities package (library)
+ GNU gettext utilities (https://www.gnu.org/software/gettext) for Go.
+ .
+ Eiginleikar
+ .
+  * Implements GNU gettext support in native Go.
+  * Complete support for PO files
+    (https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html)
+    including:
+        * Support for multiline strings and headers.
+        * Support for variables inside translation strings using Go's fmt
+        syntax (https://golang.org/pkg/fmt/).
+        * Support for pluralization rules
+        (https://www.gnu.org/software/gettext/manual/html_node/Translating-
+        plural-forms.html).
+        * Support for message contexts
+  (https://www.gnu.org/software/gettext/manual/html_node/Contexts.html).
+  * Support for MO files.
+  * Thread-safe: This package is safe for concurrent use across multiple
+    goroutines.
+  * It works with UTF-8 encoding as it's the default for Go language.
+  * Unit tests available.
+  * Language codes are automatically simplified from the form en_UK to en
+    if the first isn't available.
+  * Ready to use inside Go templates.
+  * Objects are serializable to []byte to store them in cache.
+  * Support for Go Modules.
+
+
+Package: golang-github-mikesmitty-edkey-dev
+Description-md5: 3899777a3c0aececeae83175b15cde58
+Description-is: generates ED25519 private keys in the OpenSSH private key format (Go library)
+ Go package edkey allows you to marshal/write ED25519 private keys in the
+ OpenSSH private key format.
+ .
+ Dæmi:
+ .
+   package main
+ .
+   import (
+       "crypto/rand"
+       "encoding/pem"
+       "io/ioutil"
+       "github.com/mikesmitty/edkey"
+       "golang.org/x/crypto/ed25519"
+       "golang.org/x/crypto/ssh"
+   )
+ .
+   func main() {
+       // Generate a new private/public keypair for OpenSSH
+       pubKey, privKey, _ := ed25519.GenerateKey(rand.Reader)
+       publicKey, _ := ssh.NewPublicKey(pubKey)
+ .
+       pemKey := &pem.Block{
+           Type:  "OPENSSH PRIVATE KEY",
+           Bytes: edkey.MarshalED25519PrivateKey(privKey),
+       }
+       privateKey := pem.EncodeToMemory(pemKey)
+       authorizedKey := ssh.MarshalAuthorizedKey(publicKey)
+ .
+       _ = ioutil.WriteFile("id_ed25519", privateKey, 0600)
+       _ = ioutil.WriteFile("id_ed25519.pub", authorizedKey, 0644)
+   }
+
+
+Package: golang-github-muesli-sasquatch-dev
+Description-md5: 83ec13a7acb719c2d7148f6c8752eba1
+Description-is: simple data encryption library for Go
+ A simple data encryption library, heavily inspired by @Benjojo12 and
+ @FiloSottile's fantastic "age" project.
+ .
+ Eiginleikar
+ .
+  * Multiple recipients
+  * Supports encrypting with your existing SSH keys / ssh-agent
+  * Convenient API
+ .
+ Crypto Backends:
+ .
+  * ssh-rsa
+  * ssh-ed25519
+  * ssh-agent signing challenge (excluding ECDSA identities, as ECDSA
+    signatures aren't deterministic)
+  * scrypt / password
+
+
+Package: golang-github-otiai10-copy-dev
+Description-md5: c8e1ea15a962dedcc6a581335ec5f68c
+Description-is: Golang copy directory recursively (library)
+ copies directories recursively.
+ .
+ Dæmi:
+ .
+ go err := Copy("your/directory", "your/directory.copy")
+
+Package: golang-github-pelletier-go-toml.v2-dev
+Description-md5: d4d146a64944f7d612ad0684ad3adbac
+Description-is: Go library for the TOML format (go-toml v2)
+ go-toml v2 is a Go library for the TOML format. It supports TOML (Tom's
+ Obvious, Minimal Language) version v1.0.0.
+ .
+ Eiginleikar
+ .
+ Stdlib behavior As much as possible, this library is designed to behave
+ similarly as the standard library's encoding/json.
+ .
+ Performance While go-toml favors usability, it is written with performance
+ in mind. Most operations should not be shockingly slow.
+ .
+ Strict mode Decoder can be set to "strict mode", which makes it error when
+ some parts of the TOML document was not prevent in the target structure.
+ This is a great way to check for typos.
+ .
+ Contextualized errors When decoding errors occur, go-toml returns
+ DecodeError), which contains a human readable contextualized version of
+ the error.
+ .
+ Local date and time support TOML supports native local date/times. It
+ allows to represent a given date, time, or date-time without relation to a
+ timezone or offset. To support this use-case, go-toml provides LocalDate,
+ LocalTime, and LocalDateTime. Those types can be transformed to and from
+ time.Time, making them convenient yet unambiguous structures for their
+ respective TOML representation.
+
+Package: golang-github-rodaine-table-dev
+Description-md5: f6ba5c6bd64e27e9f8dc11e4a3545e42
+Description-is: Go CLI Table Generator (library)
+ Go package "table" provides a convenient way to generate tabular output of
+ any data, primarily useful for CLI tools.
+ .
+ Eiginleikar
+ .
+  * Accepts all data types (string, int, interface{}, everything!) and
+    will use the String() string method of a type if available.
+  * Can specify custom formatting for the header and first column cells
+    for better readability.
+  * Columns are left-aligned and sized to fit the data, with customizable
+    padding.
+  * The printed output can be sent to any io.Writer, defaulting to
+    os.Stdout.
+  * Built to an interface, so you can roll your own Table implementation.
+  * Works well with ANSI colors (fatih/color
+    (https://github.com/fatih/color) in the example)!
+  * Can provide a custom WidthFunc to accomodate multi- and zero-width
+    characters (such as runewidth (https://github.com/mattn/go-runewidth))
+
+
+Package: golang-github-vmihailenco-msgpack.v5-dev
+Description-md5: b40346295bbaefe59c24d4dc88761c3f
+Description-is: MessagePack (msgpack.org) encoding for Golang (library)
+ MessagePack encoding for Golang
+ .
+ Eiginleikar
+ .
+  * Primitives, arrays, maps, structs, time.Time and interface{}.
+  * Appengine \*datastore.Key and datastore.Cursor.
+  * CustomEncoder/CustomDecoder interfaces for custom encoding.
+  * Extensions to encode type information.
+  * Renaming fields via msgpack:"my_field_name" and alias via
+    msgpack:"alias:another_name".
+  * Omitting individual empty fields via msgpack:",omitempty" tag or all
+    empty fields in a struct.
+  * Map keys sorting.
+  * Encoding/decoding all structs as arrays or individual structs.
+  * Encoder.SetCustomStructTag with Decoder.SetCustomStructTag
+    can turn msgpack into drop-in replacement for any tag.
+  * Simple but very fast and efficient queries.
+
+
+Package: golang-github-yosssi-ace-dev
+Description-md5: d42217790c8e46862cef3c5394716f82
+Description-is: HTML template engine for Go (library package)
+ Ace is an HTML template engine for Go.  This is inspired by Slim
+ (http://slim-lang.com/) and Jade (http://jade-lang.com/). This is a
+ refinement of Gold (http://gold.yoss.si/).
+ .
+ Dæmi:
+ .
+   = doctype html
+   html lang=en
+   head
+     title Hello Ace
+     = css
+       h1 { color: blue; }
+   body
+     h1 {{.Msg}}
+     #container.wrapper
+       p..
+         Ace is an HTML template engine for Go.
+         This engine simplifies HTML coding in Go web application development.
+     = javascript
+       console.log('Welcome to Ace');
+ .
+ This package provides the Ace library for the Go Programming Language
+
+Package: golang-github-yuin-goldmark-dev
+Description-md5: bc9f24d978401b48ed1f8db74032a057
+Description-is: CommonMark compliant and extensible Markdown parser written in Go
+ goldmark is a Markdown parser written in Go.  It is easy to extend,
+ standard compliant, and well structured.  It is compliant with CommonMark
+ 0.30, and supports extensions from GitHub Flavored Markdown and PHP
+ Markdown Extra.
+ .
+ Eiginleikar
+ .
+  * Standard compliant.  goldmark gets full compliance with the latest
+    CommonMark spec.
+  * Extensible.  Do you want to add a @username mention syntax to Markdown?
+    You can easily do it in goldmark. You can add your AST nodes, parsers
+    for block level elements, parsers for inline level elements,
+    transformers for paragraphs, transformers for whole AST structure, and
+    renderers.
+  * Performance.  goldmark performs pretty much equally to cmark, the
+    CommonMark reference implementation written in C.
+  * Robust. goldmark is tested with go-fuzz, a fuzz testing tool.
+  * Builtin extensions.  goldmark ships with common extensions like tables,
+    strikethrough, task lists, and definition lists.
+  * Depends only on standard libraries.
+
+
+Package: googler
+Description-md5: 815a3aaafee514f2bb2afc49b150aba1
+Description-is: Power tool to Google (Web & News) and Google Site Search from the terminal
+ Eiginleikar
+ .
+  - Google Search, Google Site Search, Google News
+  - Fast and clean (no ads, stray URLs or clutter), customisable color
+  - Open result URLs (or the actual search) in browser
+  - Navigate search result pages from omniprompt
+  - Fetch n results in a go, start at the nth result
+  - Disable automatic spelling correction and search exact keywords
+  - Limit search by duration, country/domain specific search (default: .com),
+    language preference
+  - Supports Google search keywords like 'filetype:mime', 'site:somesite.com'
+    etc.
+  - Optionally open the first result directly in browser
+    (as in "I'm Feeling Lucky")
+  - Non-stop searches: fire new searches at omniprompt without exiting
+  - Proxy support
+  - Man page with examples, shell completion scripts for Bash, Zsh and Fish
+
+
+Package: granatier
+Description-md5: 9c1cc3a6aa86ca29a9daa93e6c56892a
+Description-is: Bomberman klón
+ Granatier is a clone of the classic Bomberman game, inspired by the work
+ of the Clanbomber clone.
+ .
+ This package is part of the KDE games module.
+
+Package: gsmartcontrol
+Description-md5: e7025374264e10b98903583375662dd7
+Description-is: graphical user interface for smartctl
+ GSmartControl is a graphical user interface for smartctl, which is a tool
+ for querying and controlling SMART (Self-Monitoring, Analysis, and
+ Reporting Technology) data on modern hard disk drives. It allows you to
+ inspect the drive's SMART data to determine its health, as well as run
+ various tests on it.
+ .
+ Eiginleikar
+ .
+  * automatically reports and highlights any anomalies;
+  * allows enabling/disabling Automatic Offline Data Collection;
+  * allows enabling/disabling SMART itself;
+  * supports configuration of global and per-drive options for smartctl;
+  * performs SMART self-tests;
+  * displays drive IDs, capabilities, attributes, and self-test/error logs;
+  * can read in smartctl data from a saved file, interpreting it as a read-only
+    virtual device.
+
+
+Package: hv3
+Description-md5: 35fe63ca16cc74be8e40ed5da1005671
+Description-is: Léttur vefskoðari
+ Hv3 is a cross-platform web browser with support for modern web standards
+ like HTML, CSS, HTTP.
+ .
+ ECMAScript (a.k.a. javascript) is not supported since the corresponding
+ library (SEE) is not available in Debian yet.
+
+Package: inotify-hookable
+Description-md5: b4d2cca9ab33dc8d56091fa8b94b30fe
+Description-is: blocking command-line interface to inotify
+ inotify-hookable is a program that monitor files with Linux inotify. This
+ program accepts options to specify the files to be monitored and the
+ command to run when a file has changed (based in kernel inotify)
+ .
+ inotify-hookable main advantage over inotifywait are:
+  - command to run after watch can be specified with an option
+  - emacs and vi backup files are ignored by default
+ .
+ Dæmi:
+ .
+  inotify-hookable -f foo.c -c 'gcc -o foo foo.c'
+
+Package: j2cli
+Description-md5: 1eca30dddb3da4e104b3b7138b5c255c
+Description-is: Command line tool for templating in shell-scripts
+ leveraging the Jinja2 library.
+ .
+ Eiginleikar
+ .
+    - Jinja2 templating
+    - INI, YAML, JSON data sources supported
+    - Allows the use of environment variables in templates! Hello Docker :)
+
+
+Package: kapman
+Description-md5: 1d94f103a6072e04515d6984872e0b4b
+Description-is: PacMan klóni
+ Kapman is a clone of the well known game Pac-Man. You must go through the
+ levels escaping ghosts in a maze. You lose a life when a ghost eats you,
+ but you can eat the ghosts for a few seconds when eating an energizer. You
+ win points when eating pills, energizers, and bonus, and you win one life
+ for each 10,000 points.  When you have eaten all the pills and energizers
+ of a level, you go to the next level, and the player and ghost speeds
+ increase.
+ .
+ This package is part of the KDE games module.
+
+Package: keepassxc
+Description-md5: 5584cb9ad73a0660f4c66ea6039698f2
+Description-is: Lykilorðaumsýsla óháð kerfum
+ KeePassXC is a free/open-source password manager or safe which helps you
+ to manage your passwords in a secure way. You can put all your passwords
+ in one database, which is locked with one master key or a key-disk. So you
+ only have to remember one single master password or insert the key-disk to
+ unlock the whole database. The databases are encrypted using the
+ algorithms AES or Twofish.
+ .
+ In contrast to KeePassX (package keepassx), KeePassXC is actively
+ developed and has more features, e.g., connectivity to a Web Browser
+ plugin (package webext-keepassxc-browser).
+
+Package: klaus
+Description-md5: 54a8a1fbe9e4d4e13d1cf6badd60f2a1
+Description-is: simple easy-to-set-up Git web viewer
+ Eiginleikar
+ .
+  * Easy to set up -- almost no configuration required
+  * Syntax highlighting
+  * Git Smart HTTP support
+ .
+ This package contains the command-line server.
+
+Package: ktnef
+Description-md5: c7171a2d984d2a98d6cb80daec8be6e2
+Description-is: Skoðari fyrir póstviðhengi sem eru í TNEF formi.
+ The TNEF File Viewer allows one to handle easily mail attachments using
+ the TNEF format. Those attachments are usually found in mails coming from
+ Microsoft mail servers and embed the mail properties as well as the actual
+ attachments.
+ .
+ An attachment in TNEF format is most often named winmail.dat or win.dat.
+
+Package: lf
+Description-md5: 2c2c1b59875399ad7c8875f3759681d6
+Description-is: terminal file manager written in Go
+ lf (as in "list files") is a terminal file manager written in Go. It is
+ heavily inspired by ranger with some missing and extra features. Some of
+ the missing features are deliberately omitted since they are better
+ handled by external tools.
+ .
+ Eiginleikar
+ .
+  - Single binary without any runtime dependencies (except terminfo database)
+  - Fast startup and low memory footprint
+  - Server/client architecture to share file selection between multiple
+    instances
+  - Configuration with shell commands
+  - Customizable keybindings (vi and readline defaults)
+  - Preview filtering (for source highlighting, archives, PDFs/images as text)
+
+
+Package: lib25519-1
+Description-md5: c5630fe15b2c30439525144d48f07b59
+Description-is: microlibrary X25519/Ed25519 - shared library
+ microlibrary for the X25519 encryption system and the Ed25519 signature
+ system, both of which use the Curve25519 elliptic curve. Curve25519 is the
+ fastest curve in TLS 1.3, and the only curve in Wireguard, Signal, and
+ many other applications.
+ .
+ lib25519 has a very simple stateless API based on the SUPERCOP API, with
+ wire-format inputs and outputs, providing functions that directly match
+ the central cryptographic operations in X25519 and Ed25519:
+ .
+ lib25519_dh_keypair(pk, sk): X25519 key generation lib25519_dh(k, pk, sk):
+ shared-secret generation lib25519_sign_keypair(pk, sk): Ed25519 key
+ generation lib25519_sign(sm, &smlen, m, mlen, sk): signing
+ lib25519_sign_open(m, &mlen, sm, smlen, pk): verification + message
+ recovery Internally, lib25519 includes implementations designed for
+ performance on various CPUs, implementations designed to work portably
+ across CPUs, and automatic run-time selection of implementations.
+ .
+ lib25519 is intended to be called by larger multi-function libraries,
+ including libraries in other languages via FFI. The idea is that lib25519
+ will take responsibility for the details of X25519/Ed25519 computation,
+ including optimization, timing-attack protection, and eventually
+ verification, freeing up the calling libraries to concentrate on
+ application-specific needs such as protocol integration. Applications can
+ also call lib25519 directly.
+ .
+ Deilt aðgerðasafn
+
+Package: libavkys-dev
+Description-md5: bf294f5c151794899609db28a5cdbe10
+Description-is: full featured webcam capture application - dev
+ webcamoid allows one to capture, save and view a video stream. It also can
+ do a lot of funny things.
+ .
+ Eiginleikar
+ .
+  * Take pictures and record videos with the webcam.
+  * Manages multiple webcams.
+  * GUI interface.
+  * Custom controls for each webcam.
+  * Add funny effects to the webcam.
+  * +60 effects available.
+  * Effects with live previews.
+  * Translated to many languages.
+  * Use custom network and local files as capture devices.
+  * Capture from desktop.
+  * Many recording formats.
+  * Virtual webcam support for feeding other programs.
+ .
+ This package contains the development files of libavkys.
+
+Package: libavkys9
+Description-md5: 046e6566388c104b2e267424d7475104
+Description-is: full featured webcam capture application - library
+ webcamoid allows one to capture, save and view a video stream. It also can
+ do a lot of funny things.
+ .
+ Eiginleikar
+ .
+  * Take pictures and record videos with the webcam.
+  * Manages multiple webcams.
+  * GUI interface.
+  * Custom controls for each webcam.
+  * Add funny effects to the webcam.
+  * +60 effects available.
+  * Effects with live previews.
+  * Translated to many languages.
+  * Use custom network and local files as capture devices.
+  * Capture from desktop.
+  * Many recording formats.
+  * Virtual webcam support for feeding other programs.
+ .
+ This package contains the library for webcamoid.
+
+Package: libcache-simple-timedexpiry-perl
+Description-md5: 46ed4ee94fbbfd5e356813cc5635ed50
+Description-is: Perl module to cache and expire key/value pairs
+ Dæmi:
+ .
+ my $h = new Cache::Simple::TimedExpiry;
+ .
+ $h->set(Forever => "Don't expire", 0); do {$h->set($_,"Value of $_", 1);
+ sleep 2;} for qw(Have a nice day); $,=' '; print $h->elements; $h->dump;
+ sleep 4; print $h->elements; $h->dump;
+
+Package: libclass-data-accessor-perl
+Description-md5: 8cd60cb88df24f04898b4e18b894906f
+Description-is: Inheritable, overridable class and instance data accessor creation
+ Class::Data::Accessor is the marriage of Class::Accessor and
+ Class::Data::Inheritable into a single module. It is used for creating
+ accessors to class properties that is overridable in subclasses as well as
+ in class instances.
+ .
+ Til dæmis:
+ .
+   Pere::Ubu->mk_classaccessor('Suitcase');
+ .
+ will generate the method Suitcase() in the class Pere::Ubu.
+ .
+ This new method can be used to get and set a piece of class property.
+ .
+   Pere::Ubu->Suitcase('Red');
+   $suitcase = Pere::Ubu->Suitcase;
+
+
+Package: libcpuinfo-dev
+Description-md5: 05fd14a2620097145c3ff8f1ef7a1ea5
+Description-is: CPU INFOrmation library (header file)
+ cpuinfo is a library to detect essential for performance optimization
+ information about host CPU.
+ .
+ Eiginleikar
+ .
+   - **Cross-platform** availability:
+     - Linux, Windows, macOS, Android, and iOS operating systems
+     - x86, x86-64, ARM, and ARM64 architectures
+   - Modern **C/C++ interface**
+     - Thread-safe
+     - No memory allocation after initialization
+     - No exceptions thrown
+   - Detection of **supported instruction sets**, up to AVX512 (x86) and
+     ARMv8.3 extensions
+   - Detection of SoC and core information:
+     - **Processor (SoC) name**
+     - Integrated **GPU name** (Android/iOS only)
+     - Vendor, **microarchitecture**, and ID (**MIDR** on ARM, **CPUID**
+       leaf 1 EAX value on x86) for each CPU core
+   - Detection of **cache information**:
+     - Cache type (instruction/data/unified), size and line size
+     - Cache associativity
+     - Cores and logical processors (hyper-threads) sharing the cache
+   - Detection of **topology information** (relative between logical
+     processors, cores, and processor packages)
+   - Well-tested **production-quality** code:
+     - 60+ mock tests based on data from real devices
+     - Includes work-arounds for common bugs in hardware and OS kernels
+     - Supports systems with heterogenous cores, such as **big.LITTLE**
+       and Max.Med.Min
+   - Permissive **open-source** license (Simplified BSD)
+ .
+ This package ships with the header file.
+
+Package: libcpuinfo0
+Description-md5: 2a028083fb0ded07b60c6de48d30d6aa
+Description-is: CPU INFOrmation library (shared object)
+ cpuinfo is a library to detect essential for performance optimization
+ information about host CPU.
+ .
+ Eiginleikar
+ .
+   - **Cross-platform** availability:
+     - Linux, Windows, macOS, Android, and iOS operating systems
+     - x86, x86-64, ARM, and ARM64 architectures
+   - Modern **C/C++ interface**
+     - Thread-safe
+     - No memory allocation after initialization
+     - No exceptions thrown
+   - Detection of **supported instruction sets**, up to AVX512 (x86) and
+     ARMv8.3 extensions
+   - Detection of SoC and core information:
+     - **Processor (SoC) name**
+     - Integrated **GPU name** (Android/iOS only)
+     - Vendor, **microarchitecture**, and ID (**MIDR** on ARM, **CPUID**
+       leaf 1 EAX value on x86) for each CPU core
+   - Detection of **cache information**:
+     - Cache type (instruction/data/unified), size and line size
+     - Cache associativity
+     - Cores and logical processors (hyper-threads) sharing the cache
+   - Detection of **topology information** (relative between logical
+     processors, cores, and processor packages)
+   - Well-tested **production-quality** code:
+     - 60+ mock tests based on data from real devices
+     - Includes work-arounds for common bugs in hardware and OS kernels
+     - Supports systems with heterogenous cores, such as **big.LITTLE**
+       and Max.Med.Min
+   - Permissive **open-source** license (Simplified BSD)
+ .
+ This package ships with the shared object.
+
+Package: libdatetime-format-human-duration-perl
+Description-md5: a9bcc91adfe91b10173340cf58a7b2f4
+Description-is: Perl module to return a locale-specific string describing a DateTime::Duration
+ DateTime::Format::Human::Duration returns a locale-specific human-readable
+ string describing a DateTime::Duration object.
+ .
+ Til dæmis:
+ .
+ 1 second
+ .
+ 2 minutes and 3 seconds
+ .
+ 3 weeks, 1 day, and 5 seconds
+ .
+ 4 years, 1 month, 2 days, 6 minutes, 1 second, and 345000028 nanoseconds
+
+Package: libgral-java
+Description-md5: 3a7fcc8f2514ac04de09fd8725cb19c0
+Description-is: Java library for displaying plots (graphs, diagrams, and charts)
+ GRAL is a free Java library for displaying plots (graphs, diagrams, and
+ charts). The acronym GRAL simply stands for GRAphing Library.
+ .
+ Eiginleikar
+ .
+  * Ready-to-use classes for data management
+  * Data processing and filtering (smoothing, rescaling, statistics, histograms)
+  * Many different plot types: xy/scatter plot, bubble plot, line plot,
+    area plot, bar plot, pie plot, donut plot, box-and-whisker plot, raster plot
+  * Legends: horizontal and vertical
+  * Various axis types: linear axes, logarithmic axes, arbitrary number of axes
+  * Several file formats are supported as data sources or data sinks (CSV,
+    bitmap image data, audio file data)
+  * Exporting plots in bitmap and vector file formats (PNG, GIF, JPEG, EPS, PDF,
+    SVG)
+  * Small footprint (about 300 kilobytes)
+
+
+Package: libhdhomerun5
+Description-md5: 79435849e7cf051dc826499522edea1f
+Description-is: Library for Silicon Dust HD HomeRun
+ This package supports the Silicon Dust HDHomeRun. The HDHomeRun is a
+ networked, two tuner digital TV tuner compatible with MythTV, SageTV, and
+ VLC.
+ .
+ Deilt aðgerðasafn
+
+Package: libjs-bignumber
+Description-md5: 22318fdcc1b8fa747c76d29dfeb53cf6
+Description-is: Arbitrary-precision decimal and non-decimal arithmetic (client)
+ Eiginleikar
+ .
+    - Faster, smaller, and perhaps easier to use than Javascript versions of
+      Java's BigDecimal
+    - 5 KB minified and gzipped
+    - Simple API but full-featured
+    - Works with numbers with or without fraction digits in bases from 2 to 36
+      inclusive
+    - Replicates the toExponential, toFixed, toPrecision and toString methods of
+      Javascript's Number type
+    - Includes a toFraction and a squareRoot method
+    - Stores values in an accessible decimal floating point format
+    - No dependencies
+    - Comprehensive documentation and test set
+ .
+ If an even smaller and simpler library is required see big.js. It's half
+ the size but only works with decimal numbers and only has half the
+ methods. It neither allows NaN or Infinity, or have the configuration
+ options of this library.
+ .
+ This package provides bignumber support to clients (i.e. browsers).
+
+Package: libjs-jquery-galleriffic
+Description-md5: fcb526afa9b089940efbeb54aa466c68
+Description-is: jQuery Galleriffic plugin
+ Galleriffic is a jQuery plugin that provides a rich, post-back free
+ experience optimized to handle high volumes of photos while conserving
+ bandwidth.
+ .
+ Eiginleikar
+ .
+    * Smart image preloading after the page is loaded
+    * Thumbnail navigation (with pagination)
+    * jQuery.history plugin integration to support bookmark-friendly
+      URLs per-image
+    * Slideshow (with optional auto-updating url bookmarks)
+    * Keyboard navigation
+    * Events that allow for adding your own custom transition effects
+    * API for controlling the gallery with custom controls
+    * Support for image captions
+    * Flexible configuration
+    * Graceful degradation when JavaScript is not available
+    * Support for multiple galleries per page
+
+
+Package: libjs-jquery-jush
+Description-md5: f2b1f35eefbab85cabfc9a35d69f07a7
+Description-is: jQuery Syntax Highlighter
+ JavaScript Syntax Highlighter can be used for client-side syntax
+ highlighting of following languages: HTML, CSS, JavaScript, PHP, SQL, HTTP
+ and SMTP protocol, php.ini and Apache config.
+ .
+ Eiginleikar
+ .
+  * Highlights languages embedded into each other
+  * Links to documentation of all languages
+  * Colors can be easily modified via CSS
+  * Recognizes complete PHP syntax including __halt_compiler, heredoc,
+    backticks, {$} variables inside strings, namespaces
+  * Works in all major browsers including Internet Explorer, Firefox, Opera,
+    Google Chrome
+
+
+Package: libjs-jquery-meiomask
+Description-md5: 0eb61e1ea0879750f1e6015d772a1bd0
+Description-is: jQuery mask plugin
+ meioMask is a simple use plugin for creating and applying masks at text
+ input fields.
+ .
+ Eiginleikar
+ .
+  * Accepts paste event;
+  * Has fixed, reverse (currency) and repeat mask types;
+  * You can still use your hot keys and others (ex: ctrl+t, ctrl+f5, TAB …);
+  * Supports metadata plugin;
+  * Works with iPhone;
+  * Allow default values;
+  * Has callbacks for invalid inputs, valid and overflow;
+  * Has function to mask strings;
+  * Support for positive and negative numbers on reverse masks;
+  * Can auto-focus the next form element when the current input is
+    completely filled.
+
+
+Package: libjs-jquery-selectize.js
+Description-md5: 8314f5b6362eb76bbe2a0f870b0393a0
+Description-is: Extensible jQuery-based custom select UI control
+ Selectize is an extensible jQuery-based custom <select> UI control. It's
+ useful for tagging, contact lists, country selectors, and so on. The goal
+ is to provide a solid & usable experience with a clean and powerful API.
+ .
+ Eiginleikar
+ .
+  * Smart Option Searching / Ranking
+ .
+    Options are efficiently scored and sorted on-the-fly (using
+    libjs-sifter.js). Want to search an item's title *and*
+    description?  No problem.
+ .
+  * Caret between items
+ .
+    Order matters sometimes. Use the left and right arrow keys to move
+    between selected items.
+ .
+  * Select and delete multiple items at once
+ .
+    Hold down the CTRL key to select more than one item to delete.
+ .
+  * Díåcritîçs supported
+ .
+    Great for international environments.
+ .
+  * Item creation
+ .
+    Allow users to create items on the fly (async saving is supported;
+    the control locks until the callback is fired).
+ .
+  * Remote data loading
+ .
+    For when you have thousands of options and want them provided by
+    the server as the user types.
+ .
+  * Clean API and code
+ .
+    Interface with it and make modifications easily.
+ .
+  * Extensible
+ .
+    Plugin API for developing custom features (uses
+    libjs-microplugin.js).
+ .
+  * Touch Support
+
+Package: libjs-jquery-treetable
+Description-md5: e58a11096391650e1c3994b41055be27
+Description-is: jQuery treeTable Plugin
+ The treeTable plugin allows you to display a tree in a table, i.e. a
+ directory structure or a nested list. Each branch in this tree can be
+ collapsed and expanded, just like in a file explorer in most modern
+ operating systems.
+ .
+ Eiginleikar
+ .
+   * Display a data tree in a table column.
+   * As unobtrusively as possible.
+   * Optional collapse/expand behavior on branches (think of
+     how a directory structure works in most file explorers).
+   * Prepared for drag & drop of branches/nodes.
+   * Unlimited tree depth.
+
+
+Package: libjs-prettify
+Description-md5: f181027e46872383582621efc9d54d6a
+Description-is: syntax highlighting of source code snippets in an html page
+ A Javascript module and CSS file that allows syntax highlighting of source
+ code snippets in an html page.
+ .
+ Eiginleikar
+ .
+  * Works on HTML pages
+  * Works even if code contains embedded links, line numbers, etc.
+  * Simple API : include some JS&CSS and add an onload handler.
+  * Customizable styles via CSS. See the themes gallery
+  * Supports all C-like, Bash-like, and XML-like languages.
+  * Extensible language handlers for other languages.
+  * Widely used with good cross-browser support.
+
+
+Package: libjs-xterm
+Description-md5: 3c5fd37ab6e3122e45467c151886a870
+Description-is: terminal front-end component for the browser - browser library
+ Xterm.js is a terminal front-end component written in JavaScript that
+ works in the browser.
+ .
+ It enables applications to provide fully featured terminals to their users
+ and create great development experiences.
+ .
+ Eiginleikar
+ .
+   - **Text-based application support**: Use xterm.js to work with applications
+     like `bash`, `git` etc.
+   - **Curses-based application support**: Use xterm.js to work with
+     applications like `vim`, `tmux` etc.
+   - **Mouse events support**: Xterm.js captures mouse events like click and
+     scroll and passes them to the terminal's back-end controlling process
+   - **CJK (Chinese, Japanese, Korean) character support**: Xterm.js renders
+     CJK characters seamlessly
+   - **IME support**: Insert international (including CJK) characters using IME
+     input with your keyboard
+   - **Self-contained library**: Xterm.js works on its own. It does not require
+     any external libraries like jQuery or React to work
+   - **Modular, event-based API**: Lets you build addons and themes with ease
+ .
+ This package contains the standalone packed library suitable for running
+ in a web browser.
+
+Package: libjsmn-dev
+Description-md5: 4ba1d4c1aa26b74c437df1bbe3efec65
+Description-is: header-only JSON library
+ Most JSON parsers offer you a bunch of functions to load JSON data, parse
+ it and extract any value by its name. jsmn proves that checking the
+ correctness of every JSON packet or allocating temporary objects to store
+ parsed JSON fields often is an overkill.
+ .
+ jsmn is designed to be robust (it should work fine even with erroneous
+ data), fast (it should parse data on the fly), portable (no superfluous
+ dependencies or non-standard C extensions). And of course, simplicity is a
+ key feature - simple code style, simple algorithm, simple integration into
+ other projects.
+ .
+ Eiginleikar
+ .
+  * compatible with C89
+  * no dependencies (even libc!)
+  * highly portable (tested on x86/amd64, ARM, AVR)
+  * about 200 lines of code
+  * extremely small code footprint
+  * API contains only 2 functions
+  * no dynamic memory allocation
+  * incremental single-pass parsing
+  * library code is covered with unit-tests
+
+
+Package: liblog-fast-perl
+Description-md5: 688497acffbba8ad5591844cd8e08524
+Description-is: fast and flexible logger
+ Log::Fast is very fast logger, designed for use in applications with
+ thousands high-level events/operations per second (like network servers
+ with thousands clients or web spiders which download hundreds url per
+ second).
+ .
+ For example, on Core2Duo sending about 5000 messages to log on enabled log
+ levels or 20000 messages on disabled log levels in one second will slow
+ down your application only by 2-3%.
+ .
+ Comparing to some other CPAN modules, this one (in average): faster than
+ Log::Dispatch in about 45 times, faster than Log::Handler in about 15
+ times, faster than Sys::Syslog in about 7 times, and slower than
+ Log::Syslog::Fast in about 2 times.
+ .
+ Eiginleikar
+ .
+  * Global and local logger objects
+  * Output to any open filehandle or local syslog
+  * 5 log levels: ERR, WARN, NOTICE, INFO, DEBUG
+  * Configurable prefix (log level, date/time, caller function name)
+  * sprintf() support
+  * Unicode support (UTF8)
+  * Can avoid calculating log message content on disabled log levels
+
+
+Package: libmceliece1
+Description-md5: 84486f605dd26a0b1186adc19b8ad83e
+Description-is: Classic McEliece microlibrary - shared library
+ libmceliece is a Classic McEliece microlibrary. libmceliece has a very
+ simple stateless API based on the SUPERCOP API, with wire-format inputs
+ and outputs, providing functions that directly match the KEM operations
+ provided by Classic McEliece, such as functions
+ .
+ mceliece6960119_keypair mceliece6960119_enc mceliece6960119_dec for the
+ mceliece6960119 KEM.
+ .
+ Internally, libmceliece is based on the official Classic McEliece
+ software, specifically the vec implementation (designed to work portably
+ across CPUs) and he avx implementation (designed for higher performance on
+ Intel/AMD CPUs with AVX2 instructions). libmceliece includes automatic
+ run-time selection of implementations.
+ .
+ libmceliece is intended to be called by larger multi-function libraries
+ (such as traditional cryptographic libraries), including libraries in
+ other languages via FFI. The idea is that libmceliece takes responsibility
+ for the details of Classic McEliece computation, including optimization,
+ timing-attack protection, and (in ongoing work) verification, freeing up
+ the calling libraries to concentrate on application-specific needs such as
+ protocol integration. Applications can also call libmceliece directly.
+ .
+ Deilt aðgerðasafn
+
+Package: libmongodb-java
+Description-md5: 52a11228eee9abf4d87d93775e661a4b
+Description-is: MongoDB Java Driver
+ Debian package for the official MongoDB Java Driver providing both
+ synchronous and asynchronous interaction with MongoDB. Powering the
+ drivers is a new driver core and BSON library.
+ .
+ Eiginleikar
+ .
+ BSON Library A standalone BSON library, with a new Codec infrastructure
+ that you can use to build high-performance encoders and decoders without
+ requiring an intermediate Map instance.
+ .
+ MongoDB Driver An updated Java driver that includes the legacy API as well
+ as a new generic MongoCollection interface that complies with a new cross-
+ driver CRUD specification.
+ .
+ MongoDB Async Driver A new asynchronous API that can leverage either Netty
+ or Java 7's AsynchronousSocketChannel for fast and non-blocking IO.
+ .
+ Core driver The MongoDB Driver and Async Driver are both built on top of a
+ new core library, which anyone can use to build alternative or
+ experimental high-level APIs.
+
+Package: libperfmark-java
+Description-md5: 614bce00248d8da9dba068ee7ebb035f
+Description-is: High Performance Tracing Library for Java
+ Low-overhead, manually-instrumented, tracing library for Java. Users can
+ add the tracing function calls to their code to see how long each part
+ takes.
+ .
+ Eiginleikar
+ .
+  * Very Low Overhead: When enabled, tracing a function call adds about 70ns.
+    Tracing is done in a lock-free, wait-free, thread local buffer, which
+    avoids interfering with your latency-sensitive code.
+ .
+  * Dynamically Enabled: PerfMark can be enabled or disabled at runtime. When
+    disabled, PerfMark has zero overhead, taking advantage of the JIT compiler
+    to remove the tracing.
+ .
+  * Inter-thread Communication: Existing profilers have difficulty expressing
+    which thread wakes up and executes work on another thread. PerfMark allows
+    users to express this relationship explicitly, making for a clear picture
+    of how code flows.
+ .
+  * Small Library Size: The PerfMark tracing API is only 5 KB in size, and has
+    minimal dependencies making it easy to include in other projects. If no
+    backend for recording the trace is present, the library safely disables
+    itself.
+ .
+  * Multiple Java Versions: The PerfMark API supports Java 6, making it easy to
+    include on older or constrained environments. Additionally, PerfMark
+    includes optimized backends for Java 6, Java 7, and Java 9. Each of these
+    backends is automatically loaded at runtime (if possible) and uses advanced
+    JVM features for maximum speed.
+ .
+  * Chrome Trace Viewer Integration: PerfMark can export to the Chrome Trace
+    Event Format, making it easy to view in your Web Browser.
+
+
+Package: libportsmf-dev
+Description-md5: 9397c31b165890b13d8080d249f55866
+Description-is: Portable Standard Midi File Library (development files)
+ Portsmf is "Port Standard MIDI File", a cross-platform, C++ library for
+ reading and writing Standard MIDI Files.
+ .
+ Eiginleikar
+ .
+  - input and output of Standard MIDI Files
+  - data structures, classes, etc. for representing music data in memory
+    o sequence structure consisting of multiple tracks
+    o track structure consisting of multiple events
+    o events contain note and control data
+    o extensible attribute-value property lists
+    o tempo track and time signature representation
+  - input and output of a text-based representation: Allegro files
+  - extensive editing operations on sequences and tracks
+  - conversion to/from binary buffers for archiving, undo/redo, etc.
+ .
+ This package contains the development files.
+
+Package: libportsmf0t64
+Description-md5: 3447fc91d252aad27e8609d6417968d9
+Description-is: Portable Standard Midi File Library
+ Portsmf is "Port Standard MIDI File", a cross-platform, C++ library for
+ reading and writing Standard MIDI Files.
+ .
+ Eiginleikar
+ .
+  - input and output of Standard MIDI Files
+  - data structures, classes, etc. for representing music data in memory
+    o sequence structure consisting of multiple tracks
+    o track structure consisting of multiple events
+    o events contain note and control data
+    o extensible attribute-value property lists
+    o tempo track and time signature representation
+  - input and output of a text-based representation: Allegro files
+  - extensive editing operations on sequences and tracks
+  - conversion to/from binary buffers for archiving, undo/redo, etc.
+
+
+Package: librandombytes1
+Description-md5: d3b5190c1a9601e1208c9e6ffecd61a6
+Description-is: Library generating fresh randomness - shared library
+ librandombytes is a public-domain library providing a simple API for
+ applications generating fresh randomness: include <randombytes.h>, call
+ randombytes(x, xbytes) whenever desired to generate fresh random bytes
+ x[0], x[1], ..., x[xbytes-1], and link with -lrandombytes.
+ .
+ Random bytes are often used directly in applications. Random bytes are
+ also the foundation of more complicated random objects, such as random
+ integers in a limited interval, random floating-point numbers from a
+ (nearly) normal distribution, and random keys used in public-key
+ cryptosystems. librandombytes is dedicated to obtaining fresh random bytes
+ in the first place, and leaves it to higher-level libraries to convert
+ those bytes into other types of random objects.
+ .
+ librandombytes aims for the following stringent randomness goal: no
+ feasible computation will ever be able to tell the difference between the
+ output bytes and true randomness (independent uniformly distributed random
+ bytes). This makes the randombytes() output suitable for use in
+ applications ranging from simulations to cryptography.
+ .
+ Deilt aðgerðasafn
+
+Package: librdata-dev
+Description-md5: 9439c7ea02a08eb4e6d60e9f025fab46
+Description-is: Read and write R data frames from C (dev files)
+ Originally part of ReadStat, librdata is a small C library for reading and
+ writing R data frames.
+ .
+ Eiginleikar
+ .
+  - Read both RData and RDS formats
+  - Read compressed files (requires bzip2, zlib, and lzma)
+  - Write factors, timestamps, logical vectors, and more
+ .
+ This package distributes development files.
+
+Package: librdata0t64
+Description-md5: f000c2aed252898a66ca412b6fba95bf
+Description-is: Read and write R data frames from C (runtime files)
+ Originally part of ReadStat, librdata is a small C library for reading and
+ writing R data frames.
+ .
+ Eiginleikar
+ .
+  - Read both RData and RDS formats
+  - Read compressed files (requires bzip2, zlib, and lzma)
+  - Write factors, timestamps, logical vectors, and more
+ .
+ This package distributes the shared object runtime library.
+
+Package: libtwitter-api-perl
+Description-md5: 9435f54bfbf8d1edbdca21434614f9fe
+Description-is: Twitter REST API library for Perl
+ Twitter::API provides an interface to the Twitter REST API for perl.
+ .
+ Eiginleikar
+ .
+  * full support for all Twitter REST API endpoints
+  * not dependent on a new distribution for new endpoint support
+  * optionally specify access tokens per API call
+  * error handling via an exception object that captures the full
+    request/response context
+  * full support for OAuth handshake and Xauth authentication
+ .
+ Additional features are available via optional traits:
+ .
+  * convenient methods for API endpoints with simplified argument
+    handling via ApiMethods
+  * normalized booleans (Twitter likes 'true' and 'false', except when
+    it doesn't) via NormalizeBooleans
+  * automatic decoding of HTML entities via DecodeHtmlEntities
+  * automatic retry on transient errors via RetryOnError
+  * "the whole enchilada" combines all the above traits via Enchilada
+  * app-only (OAuth2) support via AppAuth
+  * automatic rate limiting via RateLimiting
+
+
+Package: libunirest-java-java
+Description-md5: 78034e335cc8025eac37359ce1b60c60
+Description-is: Simplified, lightweight HTTP client library
+ Unirest is a set of lightweight HTTP libraries available in multiple
+ languages
+ .
+ Eiginleikar
+ .
+  * Make GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS requests
+  * Both synchronous and asynchronous (non-blocking) requests
+  * It supports form parameters, file uploads and custom body entities
+  * Easily add route parameters without ugly string concatenations
+  * Supports gzip
+  * Supports Basic Authentication natively
+  * Customizable timeout, concurrency levels and proxy settings
+  * Customizable default headers for every request (DRY)
+  * Customizable HttpClient and HttpAsyncClient implementation
+  * Automatic JSON parsing into a native object for JSON responses
+  * Customizable binding, with mapping from response body to java Object
+
+
+Package: lxappearance
+Description-md5: 241e2402ebe121f057152a0afd056987
+Description-is: LXDE GTK+ theme switcher
+ LXAppearance is a GUI application for the Lightweight X11 Desktop
+ Environment (LXDE).
+ .
+ It is a new feature-rich GTK+ theme switcher able to change GTK+ themes,
+ icon themes, and fonts used by applications. GNOME/KDE/Xfce user may use
+ build-in theme, this works for GTK+ based lightweight desktop Environment.
+ .
+ Eiginleikar
+ .
+  * Choose GTK+ theme
+  * Choose icon theme
+  * Install new icon theme
+  * Choose their favorite font
+  * Choose toolbar style
+  * See changes immediately in preview area
+
+
+Package: macchanger
+Description-md5: b3958cf2d904ea6ecdbefc5cd46ec519
+Description-is: utility for manipulating the MAC address of network interfaces
+ GNU MAC Changer is an utility that makes the maniputation of MAC addresses
+ of network interfaces easier.  MAC addresses are unique identifiers on
+ networks, they only need to be unique, they can be changed on most network
+ hardware. MAC addresses have started to be abused by unscrupulous
+ marketing firms, government agencies, and others to provide an easy way to
+ track a computer across multiple networks.  By changing the MAC address
+ regularly, this kind of tracking can be thwarted, or at least made a lot
+ more difficult.
+ .
+ Eiginleikar
+ .
+   * set specific MAC address of a network interface
+   * set the MAC randomly
+   * set a MAC of another vendor
+   * set another MAC of the same vendor
+   * set a MAC of the same kind (eg: wireless card)
+   * display a vendor MAC list (today, 6200 items) to choose from
+
+
+Package: mkdocs-material
+Description-md5: d9c874ebbea234b600ca781049b1354c
+Description-is: Material Design theme for MkDocs
+ Create a branded static site from a set of Markdown files to host the
+ documentation of your Open Source or commercial project – customizable,
+ searchable, mobile-friendly, 40+ languages. Set up in 5 minutes.
+ .
+ Eiginleikar
+ .
+   * It's just Markdown — write your technical documentation in plain Markdown –
+     no need to know HTML, JavaScript, or CSS. Material for MkDocs will do the
+     heavy lifting and convert your writing to a beautiful and functional
+     website.
+ .
+   * Responsive by design — built from the ground up to work on all sorts of
+     devices – from mobile phones to widescreens. The underlying fluid layout
+     will always adapt perfectly to the available screen space.
+ .
+   * Static, yet searchable — almost magically, your technical documentation
+     website will be searchable without any further ado. Material for MkDocs
+     comes with built-in search – no server needed – that will instantly answer
+     your users' queries.
+ .
+   * Many configuration options — change the color palette, font families,
+     language, icons, favicon and logo. Add a source repository link, links to
+     your social profiles, Google Analytics and Disqus - all with a few lines of
+     code.
+ .
+   * Truly international — thanks to many contributors, Material for MkDocs
+     includes translations for more than 40 languages and offers full native RTL
+     uright-to-left) support for languages such as Arabic, Persian (Farsi) and
+     Hebrew.
+ .
+   * Accessible — Material for MkDocs provides extensible keyboard navigation
+     and  semantic markup including role attributes and landmarks. Furthermore,
+     the layout is entirely based on rem values, respecting the user's default
+     font size.
+ .
+   * Beyond GitHub Markdown — integrates natively with Python Markdown
+     Extensions, offering additional elements like callouts, tabbed content
+     containers, mathematical formulas, critic markup, task lists, and emojis.
+ .
+   * Modern architecture — Material for MkDocs's underlying codebase is built
+     with TypeScript, RxJS, and SCSS, and is compiled with Webpack, bringing
+     excellent possibilities for theme extension and customization.
+
+
+Package: morty
+Description-md5: b73ad6ce55466f9d958bad385fda3dfa
+Description-is: Privacy aware web content sanitizer proxy as a service
+ Morty Web content sanitizer proxy as a service
+ .
+ Morty rewrites web pages to exclude malicious HTML tags and attributes. It
+ also replaces external resource references to prevent third party
+ information leaks.
+ .
+ The main goal of morty is to provide a result proxy for searx, but it can
+ be used as a standalone sanitizer service too.
+ .
+ Eiginleikar
+ .
+  - HTML sanitization
+  - Rewrites HTML/CSS external references to locals
+  - JavaScript blocking
+  - No Cookies forwarded
+  - No Referrers
+  - No Caching/Etag
+  - Supports GET/POST forms and IFrames
+  - Optional HMAC URL verifier key to prevent service abuse
+
+
+Package: mysqltuner
+Description-md5: d079bed656ffe89a06c680dc18513f56
+Description-is: high-performance MySQL tuning script
+ High-performance MySQL tuning script written in perl that will provide you
+ with a snapshot of a MySQL server?s health. Based on the statistics
+ gathered, specific recommendations will be provided that will increase a
+ MySQL server's efficiency and performance. The script gives you automated
+ MySQL tuning that is on the level of what you would receive from a MySQL
+ DBA.
+ .
+ Eiginleikar
+ .
+    * Memory Usage: Calculates MySQL memory usage at max load and makes
+      recommendations for increasing or decreasing the MySQL memory
+      footprint. Per-thread and server-wide buffer data is calculated
+      separately for an accurate snapshot of the server?s configuration.
+    * Slow Queries: Reviews the amount of slow queries relative to the
+      total queries. Slow query time limits are also analyzed and
+      recommendations are made.
+    * Connections: Current and historical connection counts are
+      reviewed.
+    * Key Buffer: Takes configuration data and compares it to the actual
+      indexes found in MyISAM tables. Key cache hit rates are calculated
+      and variable adjustments are suggested.
+    * Query Cache: Query cache hit rates and usage percentages are used
+      to make recommendations for the query cache configuration
+      variables.
+    * Sorting & Joins: Per-thread buffers that affect sorts and joins
+      are reviewed along with the statistics from the queries run
+      against the server.
+    * Temporary Tables: Variable recommendations are made to reduce
+      temporary tables that are written to the disk.
+    * Table Cache: Compares total tables opened to the currently open
+      tables. Calculates the table cache hit rate in order to make
+      suggestions.
+    * Open Files: Determines if the server will approach or run into the
+      open file limit set by the operating system or the MySQL server
+      itself.
+    * Table Locks: Finds table locking that forces queries to wait and
+      makes suggestions for reducing locks that require a wait.
+    * Thread Cache: Calculates how many times MySQL must create a new
+      thread to respond to a query.
+    * Aborted Connections: Finds applications that are not closing
+      connections to MySQL properly.
+    * Read/Write Ratios: Calculates the percentage of read and write
+      operations on your MySQL installation.
+
+
+Package: node-bignumber
+Description-md5: db8f7c554c023ae7775179e9c4f36faa
+Description-is: Arbitrary-precision decimal and non-decimal arithmetic for Node.js
+ Eiginleikar
+ .
+    - Faster, smaller, and perhaps easier to use than Javascript versions of
+      Java's BigDecimal
+    - 5 KB minified and gzipped
+    - Simple API but full-featured
+    - Works with numbers with or without fraction digits in bases from 2 to 36
+      inclusive
+    - Replicates the toExponential, toFixed, toPrecision and toString methods of
+      Javascript's Number type
+    - Includes a toFraction and a squareRoot method
+    - Stores values in an accessible decimal floating point format
+    - No dependencies
+    - Comprehensive documentation and test set
+ .
+ If an even smaller and simpler library is required see big.js. It's half
+ the size but only works with decimal numbers and only has half the
+ methods. It neither allows NaN or Infinity, or have the configuration
+ options of this library.
+ .
+ This package provides bignumber support to Node.js.
+
+Package: node-xterm
+Description-md5: fb5b7a68aaf8c158f85c5db47e4be578
+Description-is: terminal front-end component for the browser - NodeJS modules
+ Xterm.js is a terminal front-end component written in JavaScript that
+ works in the browser.
+ .
+ It enables applications to provide fully featured terminals to their users
+ and create great development experiences.
+ .
+ Eiginleikar
+ .
+   - **Text-based application support**: Use xterm.js to work with applications
+     like `bash`, `git` etc.
+   - **Curses-based application support**: Use xterm.js to work with
+     applications like `vim`, `tmux` etc.
+   - **Mouse events support**: Xterm.js captures mouse events like click and
+     scroll and passes them to the terminal's back-end controlling process
+   - **CJK (Chinese, Japanese, Korean) character support**: Xterm.js renders
+     CJK characters seamlessly
+   - **IME support**: Insert international (including CJK) characters using IME
+     input with your keyboard
+   - **Self-contained library**: Xterm.js works on its own. It does not require
+     any external libraries like jQuery or React to work
+   - **Modular, event-based API**: Lets you build addons and themes with ease
+ .
+ This package contains the unpacked individual xterm CommonJS modules.
+
+Package: nsxiv
+Description-md5: 860c4a405c01d96bd0a327bcf4cca01c
+Description-is: neo simple X image viewer
+ nsxiv (the Neo Simple X Image Viewer) is a fork of the now-unmaintained
+ sxiv project, with the purpose of being a drop-in replacement for sxiv,
+ maintaining its interface, and adding simple, sensible features. nsxiv
+ aims to be easy to modify and customise, and works nicely with tiling
+ window managers.
+ .
+ Eiginleikar
+ .
+  - Basic image operations, e.g. zooming, panning, rotating
+  - Customizable key and mouse button mappings
+  - Scriptable via configuration files
+  - Thumbnail mode: grid of selectable previews of all images
+  - Ability to cache thumbnails for fast re-loading
+  - Basic support for animated/multi-frame images (GIF/WebP)
+  - Display image information in status bar
+  - Display image name/path in X title
+
+
+Package: nted
+Description-md5: eccb14fd7802bce7e814bd3631bce034
+Description-is: Grafískur nótnaritill
+ NtEd is a GTK+ score editor. It intends to be really WYSIWYG: what you see
+ on the screen is exactly what you get on printer output. It supports up to
+ 4 voices per staff, drum notes, 5 lyrics lines, N-Tuplets, context
+ changes, repeats with alternatives, configurable music instruments per
+ staff, MIDI / MusicXML import, PS / PDF / SVG / PNG / Lilypond / MIDI
+ export. Scores can be played through the ALSA sequencer.
+
+Package: openbox-lxde-session
+Description-md5: 5475097460208980d4b5d0d46ed3a34c
+Description-is: LXDE session manager and configuration files
+ LXDE (the Lightweight X11 Desktop Environment) is a project aimed to
+ provide a desktop environment which is lightweight and fast.
+ .
+ It's not designed to be powerful and bloated, but to be usable and slim
+ enough, and keep the resource usage low. Different from other desktop
+ environments, LXDE doesn't tightly integrate every component. Instead,
+ LXDE tries to make all components independent, and each of them can be
+ used independently with fewer dependencies.
+ .
+ Eiginleikar
+ .
+  * Lightweight, runs with reasonable memory usage
+  * Fast, runs well even on older machines produced in 1999
+  * Good-looking, GTK+ 2 internationalized user interface
+  * Easy-to-use, the user interface is simple, but usable enough
+  * Desktop independent (surprise! Every component can be used without LXDE)
+  * Standard compliant, follows the specs on freedesktop.org
+ .
+ This package depends on minimal set of components (lxsession, openbox, and
+ lxde-screenlock.desktop file), and contains all the session-specific
+ configuration files required to start a LXDE desktop session from a
+ display manager such as GDM.
+
+Package: openclipart
+Description-md5: 072611e96db6eed945e4f9d401d4eb8b
+Description-is: Opið myndaklippusafn (Open Clip Art Library)
+ The Open Clip Art Library is a collection of 100% license-free, royalty-
+ free, and restriction-free art that you can use for any purpose.
+ .
+ The clip art in this package is sorted by subject (e.g. sports).
+ Openclipart 2 is sorted by artist (who created the clip art) and is much
+ larger.
+ .
+ This package is a metapackage installing both the SVG and PNG (converted
+ from SVG) versions.
+
+Package: paprefs
+Description-md5: 42f00216f7a81cc0e4548a67a7dd6802
+Description-is: PulseAudio stillingar
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX
+ and WIN32 systems. It is a drop in replacement for the ESD sound server
+ with much better latency, mixing/re-sampling quality and overall
+ architecture.
+ .
+ PulseAudio Preferences (paprefs) is a simple GTK+ based configuration
+ dialog for the PulseAudio sound server.
+
+Package: parcellite
+Description-md5: df6ebfddce8a12472826bff39f539d99
+Description-is: lightweight GTK+ clipboard manager
+ Parcellite is a stripped down, basic-features-only clipboard manager with
+ a small memory footprint for those who like simplicity.
+ .
+ Eiginleikar
+ .
+  * Keeps a clipboard history.
+  * Various view options to display items the way you like it.
+  * Daemon mode; guard your clipboard contents when you close applications.
+  * Perform custom commands using clipboard contents.
+
+
+Package: pavucontrol
+Description-md5: c43956d9d08801fbaa1a405d7b6a9e6b
+Description-is: PulseAudio styrkstilling
+ PulseAudio Volume Control (pavucontrol) is a simple GTK+ based volume
+ control tool (mixer) for the PulseAudio sound server. In contrast to
+ classic mixer tools this one allows you to control both the volume of
+ hardware devices and of each playback stream separately. It also allows
+ you to redirect a playback stream to another output device without
+ interrupting playback.
+
+Package: pidgin-plugin-pack
+Description-md5: 18577dbe1fca6f6bed00a946e5d8c8f2
+Description-is: Safn viðbóta fyrir Pidgin
+ Plugin pack is a collection of many simple-yet-useful plugins for Pidgin.
+ A brief description of each is below.
+ .
+ /exec: execute commands and optionally send their output in an IM/chat
+ window.
+ .
+ AutoProfile: user profile and status message content generator.
+ .
+ Album: archives all buddy icons for all buddies in the user's buddy list.
+ .
+ Auto Reply: auto-replies on any protocol, also can be specific to each
+ buddy.
+ .
+ Bash.org: provides links to random or select quotes on bash.org and
+ qdb.us.
+ .
+ Buddy List Options: options to hide buddy list on creation and hide menu
+ in it.
+ .
+ Colorize: colorizes outgoing message text.
+ .
+ Conversation Badge: shows the protocol icon in the conversation menu tray.
+ .
+ DeWYSIWYGification: allows user to type in HTML without it being rendered.
+ .
+ Dice: simulates the rolling of dice.
+ .
+ DiffTopic: shows changes when the topic is changed in a chatroom.
+ .
+ Magic 8 Ball: shows random expressions from a Magic 8 Ball toy.
+ .
+ Enhanced History: an enhanced version of the history plugin.
+ .
+ Flip: flips a coin and shows the result in the current conversation.
+ .
+ gRIM: annoy your buddies with a timed series of messages.
+ .
+ Google: writes the results of an "I'm feeling lucky" search to a
+ conversation.
+ .
+ Group IM: send an IM to a group of buddies
+ .
+ Highlight: adds support for highlighting user specified words.
+ .
+ Ignore: ignore either all or just chat communication from a specific
+ person.
+ .
+ InfoPane: use different views for the "details" information  in
+ conversations.
+ .
+ IRC Helper: Handles the rough edges of the IRC protocol.
+ .
+ IRC More: adds a couple options to the IRC protocol:
+        - Customized default quit/part messages.
+        - A CTCP version reply.
+ .
+ Irssi Features: implements many features of irssi:
+        - day change notifications
+        - /window, /layout, /lastlog commands
+        - auto-text formatting
+ .
+ List Handler: import and export buddy lists in various formats.
+ .
+ Chat User List Logging: logs the list of users in a chat when you join.
+ .
+ My Status Box: per-account status selectors with other features.
+ .
+ Napster: NAPSTER Protocol Plugin.
+ .
+ Nick Said: to jump to where your name or other words were said in a chat.
+ .
+ Old Logger: stores buddy logs in flat files (legacy format).
+ .
+ Plonkers: announce your ignore list to a chat room and other privacy
+ features.
+ .
+ Purple Schedule: Schedule reminders at specific times.
+ .
+ Separate and Tab: adds two new window positioning methods.
+ .
+ Sim Fix: fixes messages received from buddies using broken SIM clients.
+ .
+ Simple Network Paging Protocol (SNPP):
+     allows sending to pager servers (like sendpage or qpage) via SNPP.
+ .
+ Message Splitter: splits sent messages into smaller ones of a specified
+ size.
+ .
+ SSL Info: adds a menu item to display info about the SSL plugin in use.
+ .
+ Switch Spell: allows changing the spell-check language for each
+ conversation.
+ .
+ Timelog: view Pidgin logs that fall within specific time ranges.
+ .
+ XChat Chats: makes Pidgin use XChat's indented view.
+ .
+ XMPP Priority: Adds account options that allow users to specify the priorities
+     used for available and away for XMPP accounts.
+
+
+Package: python3-asgi-csrf
+Description-md5: bf8af49d588460eba38c77bda09aa0dc
+Description-is: ASGI middleware for protecting against CSRF attacks
+ The asgi-csrf package is a Python library that provides Cross-Site Request
+ Forgery (CSRF) protection for ASGI (Asynchronous Server Gateway Interface)
+ applications. It helps secure web applications from CSRF attacks by adding
+ middleware that validates and protects against unauthorized requests.
+ .
+ Eiginleikar
+ .
+   - Adds CSRF protection to ASGI applications.
+   - Supports popular ASGI frameworks like FastAPI and Starlette.
+   - Integrates seamlessly into existing ASGI application pipelines.
+   - Provides configurable settings for token generation and validation.
+   - Allows for exclusion of specific routes or URLs from CSRF protection.
+   - Ensures stateless and secure CSRF protection in asynchronous web
+     environments.
+ .
+ CSRF attacks are a common security concern for web applications, and the
+ asgi-csrf library aims to provide a straightforward solution for adding
+ protection to ASGI-based applications, ensuring that users' interactions
+ are safe and authenticated.
+
+Package: python3-async-timeout
+Description-md5: 02717b94af0633086c3d33fb2d1073cd
+Description-is: timeout context manager for asyncio programs in Python
+ The context manager is useful in cases when you want to apply timeout
+ logic around block of code or in cases when asyncio.wait_for() is not
+ suitable. Also it's much faster than asyncio.wait_for() because timeout
+ doesn't create a new task.
+ .
+ Dæmi:
+ .
+  with timeout(1.5):
+      yield from inner()
+
+
+Package: python3-changelog
+Description-md5: e7f32501b217ce65c5453ceaf8250e6d
+Description-is: Sphinx extension to generate changelog files (Python 3)
+ This package provides simple Sphinx markup to render changelog displays
+ (this is the Python 3 version of the extension).
+ .
+ Dæmi:
+ .
+  ====================
+  Changelog for 1.5.6
+  ====================
+ .
+  .. changelog::
+      :version: 1.5.6
+      :released: Sun Oct 12 2008
+ .
+      .. change::
+          :tags: general
+          :tickets: 27
+ .
+        Improved the frobnozzle.
+ .
+      .. change::
+          :tags: rendering, tests
+          :pullreq: 8
+          :changeset: a9d7cc0b56c2
+ .
+        Rendering tests now correctly render.
+
+Package: python3-colour
+Description-md5: 767a856b2801a7820f84a0c6a71f5861
+Description-is: converts and manipulates various color representation - Python 2.X
+ Converts and manipulates common color representation (RGB, HSL, web, ...)
+ .
+ Eiginleikar
+ .
+  * Damn simple and pythonic way to manipulate color representation
+  * Full conversion between RGB, HSL, 6-digit hex, 3-digit hex, human
+    color
+  * One object (Color) or bunch of single purpose function (rgb2hex,
+    hsl2rgb, ...)
+  * web format that use the smallest representation between 6-digit
+    (e.g. #fa3b2c), 3-digit (e.g. #fbb), fully spelled color
+    (e.g. white), following W3C color naming for compatible CSS or HTML
+    color specifications.
+  * smooth intuitive color scale generation choosing N color gradients.
+  * can pick colors for you to identify objects of your application.
+
+
+Package: python3-django-jinja
+Description-md5: 611ab1eacc13ebe80d423778729edd19
+Description-is: Jinja2 templating language integrated in Django (Python 3 version)
+ Jinja2 provides certain advantages over the native system of Django, for
+ example, explicit calls to callable from templates, has better performance
+ and has a plugin system
+ .
+ Eiginleikar
+ .
+    * Auto-load templatetags compatible with Jinja2 the same way as Django.
+    * Django templates can coexist with Jinja2 templates without any problems.
+      It works as middleware, intercepts Jinja templates by file path pattern.
+    * Django template filters and tags can mostly be used in Jinja2 templates.
+    * I18n subsystem adapted for Jinja2 (makemessages now collects messages
+      from Jinja templates)
+    * jinja2 bytecode cache adapted for using django's cache subsystem.
+    * Support for django context processors.
+
+
+Package: python3-django-render-block
+Description-md5: 9dbd0d84dc4b049f347d41d84ad81299
+Description-is: Render the content of a specific block tag from a Django template
+ Render the content of a specific block tag from a Django template. Works
+ for arbitrary template inheritance, even if a block is defined in the
+ child template but not in the parent. Generally it works like
+ render_to_string from Django, but allows you to specify a block to render.
+ .
+ Eiginleikar
+ .
+  * Render a specific block from a template
+  * Fully supports the Django templating engine
+  * Partially supports the Jinja2 engine: it does not currently process the
+    extends tag
+
+
+Package: python3-dotty-dict
+Description-md5: 40ba6bb6b94151aa2e7918d0b12faa52
+Description-is: Dictionary wrapper for quick access to deeply nested keys
+ Eiginleikar
+ .
+  * Simple wrapper around Python dictionary and dict like objects
+  * Two wrappers with the same dict are considered equal
+  * Access to deeply nested keys with dot notation: dot['deeply.nested.key']
+  * Create, read, update and delete nested keys of any length
+  * Access dicts in lists by index dot['parents.0.first_name']
+  * Support for setting value in multidimensional lists
+  * Support for accessing lists with slices
+
+
+Package: python3-easyprocess
+Description-md5: d4f8bff81e3105538f8e9714c0d1eb88
+Description-is: easy to use python subprocess interface - Python 3.X
+ Eiginleikar
+ .
+  * layer on top of subprocess_ module
+  * easy to start, stop programs
+  * easy to get standard output/error, return code of programs
+  * command can be list or string
+  * logging
+  * timeout
+  * global config file with program aliases
+  * shell is not supported
+  * pipes are not supported
+  * stdout/stderr is set only after the subprocess has finished
+  * stop() does not kill whole subprocess tree
+  * unicode support
+  * Method chaining
+ .
+ This package contains the python 3 version of easyprocess
+
+Package: python3-in-place
+Description-md5: 24cf658a229463277dd6f5ad091e2cc6
+Description-is: In-place file processing
+ The in-place package is a Python library that provides an intuitive and
+ efficient way to edit files in-place. It allows developers to perform in-
+ place modifications to text files without the need for temporary files or
+ manual handling of file I/O operations.
+ .
+ Eiginleikar
+ .
+   - Simplifies in-place editing of text files in Python.
+   - Provides a convenient API for performing modifications directly on files.
+   - Supports operations such as replacing text, appending or deleting lines,
+     and more.
+   - Handles file I/O operations and modifications efficiently.
+   - Offers flexibility in choosing how modifications are applied (e.g., line
+     by line or in bulk).
+ .
+ In-place editing can be useful in various scenarios, including log file
+ processing, configuration file updates, and data transformations. The in-
+ place library streamlines the process by abstracting away the complexities
+ of file handling and allows developers to focus on the actual
+ modifications.
+
+Package: python3-inject
+Description-md5: 1086e750501a3550a14611d217057851
+Description-is: Python dependency injection framework
+ The inject package is a Python library that provides a lightweight
+ dependency injection framework. It simplifies the management of
+ dependencies in your Python projects, allowing for decoupled and modular
+ code design.
+ .
+ Eiginleikar
+ .
+  - Facilitates the injection of dependencies into Python classes and
+    functions.
+  - Supports various dependency injection patterns, including constructor
+    injection and attribute injection.
+  - Allows for the configuration of dependency bindings and scopes.
+  - Promotes code reusability, testability, and maintainability through loose
+    coupling.
+  - Supports both runtime and compile-time dependency injection.
+  - Provides integration with popular frameworks and tools.
+ .
+ Dependency injection is a powerful design pattern that helps manage
+ complex dependencies between components. The inject library offers an
+ elegant and straightforward way to implement dependency injection in
+ Python, promoting better separation of concerns and easier unit testing.
+
+Package: python3-klaus
+Description-md5: 0c1a20913b5931c15092161b801858c5
+Description-is: simple easy-to-set-up Git web viewer
+ Eiginleikar
+ .
+  * Easy to set up -- almost no configuration required
+  * Syntax highlighting
+  * Git Smart HTTP support
+ .
+ This package contains the Python 3.x version.
+
+Package: python3-locust
+Description-md5: 911e441f2a6793c9ab945f6dce380f04
+Description-is: Developer friendly load testing framework
+ Locust is an easy to use, scriptable and scalable performance testing
+ tool. You define the behaviour of your users in regular Python code,
+ instead of using a clunky UI or domain specific language. This makes
+ Locust infinitely expandable and very developer friendly.
+ .
+ Eiginleikar
+ .
+  * Write user test scenarios in plain-old Python -- If you want your users to
+    loop, perform some conditional behaviour or do some calculations, you just
+    use the regular programming constructs provided by Python. Locust runs every
+    user inside its own greenlet (a lightweight process/coroutine). This enables
+    you to write your tests like normal (blocking) Python code instead of having
+    to use callbacks or some other mechanism. Because your scenarios are “just
+    python” you can use your regular IDE, and version control your tests as
+    regular code (as opposed to some other tools that use XML or binary
+    formats).
+  * Distributed & Scalable - supports hundreds of thousands of users -- Locust
+    makes it easy to run load tests distributed over multiple machines. It is
+    event-based (using gevent), which makes it possible for a single process to
+    handle many thousands concurrent users. While there may be other tools that
+    are capable of doing more requests per second on a given hardware, the low
+    overhead of each Locust user makes it very suitable for testing highly
+    concurrent workloads.
+  * Web-based UI -- Locust has a user friendly web interface that shows the
+    progress of your test in real-time. You can even change the load while the
+    test is running. It can also be run without the UI, making it easy to use
+    for CI/CD testing.
+  * Can test any system -- Even though Locust primarily works with web
+    sites/services, it can be used to test almost any system or protocol. Just
+    write a client for what you want to test, or explore some created by the
+    community.
+
+
+Package: python3-orderedset
+Description-md5: 15b2ddf2f1d4b2d6bc2f94b8bc03665b
+Description-is: Ordered Set implementation in Cython.
+ An Ordered Set implementation in Cython.
+ .
+ Eiginleikar
+ .
+  * Works like a regular set, but remembers insertion order;
+  * Is approximately 5 times faster than the pure Python implementation overall
+    (and 5 times slower than `set`);
+  * Compatible with Python 2.7 through 3.8;
+  * Supports the full set interface;
+  * Supports some list methods, like `index` and `__getitem__`.
+  * Supports set methods against iterables.
+
+
+Package: python3-pyipmi
+Description-md5: d01606fd9a99f9fd5ee7cd972addcf81
+Description-is: Pure Python IPMI library
+ The Intelligent Platform Management Interface (IPMI) is a set of computer
+ interface specifications for an autonomous computer subsystem that
+ provides management and monitoring capabilities independently of the host
+ system’s CPU, firmware (BIOS or UEFI) and operating system. The python-
+ ipmi library provides an application programming interface (API) for using
+ IPMI protocol within the Python environment. This library supports IPMI
+ version 2.0 as described in the IPMI standard.
+ .
+ There are two ways to communicate with a server using IPMI interface:
+  1. IPMI over Local Area Network (LAN) using Remote Management Control
+     Protocol (RMCP) packet datagrams
+  2. Intelligent Platform Management Bus (IPMB) is an I2C-based bus
+ .
+ Eiginleikar
+ .
+  * native RMCP interface (using Python libraries only)
+  * legacy RMCP interface (requires ipmitool to be installed)
+  * IPMB interface (using the Total Phase Aardvark)
+
+
+Package: python3-pytest-recording
+Description-md5: 5ee85061b6a3022a7a44fefd9905ec86
+Description-is: pytest plugin that allows recording of network interactions
+ A pytest plugin that records network interactions in your tests via
+ VCR.py.
+ .
+ Eiginleikar
+ .
+  * Straightforward `pytest.mark.vcr`, that reflects `VCR.use_cassettes` API;
+  * Combining multiple VCR cassettes;
+  * Network access blocking;
+  * The ``rewrite`` recording mode that rewrites cassettes from scratch.
+
+
+Package: python3-reflink
+Description-md5: 6b46e04f6d4ce969ebc24e933eb62915
+Description-is: Python Library wrapping platform-specific reflink implementations
+ Python wrapper around the ``reflink`` system calls.
+ .
+ Eiginleikar
+ .
+  * Btrfs, XFS, OCFS2 ``reflink`` support. Btrfs is tested the most.
+  * Apple macOS APFS ``clonefile`` support. Little testing, be careful. It
+    might eat data.
+  * A convenience method that checks support for reflinks within a specific
+    directory.
+
+
+Package: python3-requests-file
+Description-md5: babcf46924d2f06e381950dc20627456
+Description-is: File transport adapter for Requests - Python 3.X
+ Requests-File is a transport adapter for use with the Requests Python
+ library to allow local filesystem access via file:// URLs.
+ .
+ Eiginleikar
+ .
+  * Will open and read local files
+  * Might set a Content-Length header
+  * That's about it
+ .
+ No encoding information is set in the response object, so be careful using
+ Response.text: the chardet library will be used to convert the file to a
+ unicode type and it may not detect what you actually want.
+ .
+ EACCES is converted to a 403 status code, and ENOENT is converted to a
+ 404. All other IOError types are converted to a 400.
+ .
+ This package contains the Python 3 version of the library.
+
+Package: python3-rich-click
+Description-md5: 8fc8073cf4499f53a98eefe3a1d3eedb
+Description-is: creating beautiful command line interfaces for Python3
+ Format click help output nicely with Rich.
+ .
+  * Click is a "Python package for creating beautiful command line
+    interfaces".
+  * Rich is a "Python library for rich text and beautiful formatting in
+    the terminal".
+ .
+ The intention of rich-click is to provide attractive help output from
+ click, formatted with rich, with minimal customisation required.
+ .
+ Eiginleikar
+ .
+  * Rich command-line formatting of click help and error messages
+  * Nice styles be default, usage is simply import rich_click as click
+  * CLI tool to run on other people's tools (prefix the command with
+    rich-click)
+  * Group commands and options into named panels
+  * Well formatted error messages
+  * Easily give custom sort order for options and commands
+  * Extensive customisation of styling and behaviour possible
+
+
+Package: python3-sphinx-paramlinks
+Description-md5: f25608875c6bf71d2410506a9f858bc0
+Description-is: Sphinx extension to make param links linkable (Python 3 version)
+ Sphinx extension which allows :param: directives within Python
+ documentation to be linkable.
+ .
+ Eiginleikar
+ .
+  * :param: directives within Sphinx function/method descriptions will be
+    given aparagraph link so that they can be linked to externally.
+  * a new text role :paramref: is added, which works like :meth:, :func:, etc.
+ .
+ This package contains Python 3.x version of sphinx_paramlinks module.
+
+Package: python3-sphinxcontrib.images
+Description-md5: d5160ff4d1f49d55333da80119ad0771
+Description-is: Easy thumbnails in Sphinx documentation (focused on HTML).
+ Eiginleikar
+ .
+  Show thumbnails instead of full size images inside documentation (HTML).
+  Ability to zoom/enlarge picture using LightBox2 (HTML).
+  Ability to group pictures
+  Download remote pictures and keep it in cache (if requested)
+  Support for other formats (latex, epub, ... - fallback to image directive)
+  Easy to extend (add own backend in only few lines of code)
+  - Add other HTML "preview" solution than LightBox2
+  - Add better support to non-HTML outputs
+  - Preprocess images
+
+
+Package: python3-starlette
+Description-md5: 97e426dcd54d67f5b2f64d7d9535faef
+Description-is: ASGI library ideal for building high performance asyncio services
+ Starlette is a lightweight ASGI (Asynchronous Server Gateway Interface)
+ framework/toolkit, which is ideal for building high performance asyncio
+ services.
+ .
+ It is production-ready, and gives you the following:
+ .
+  * Seriously impressive performance.
+  * WebSocket support.
+  * In-process background tasks.
+  * Startup and shutdown events.
+  * Test client built on `httpx`.
+  * CORS, GZip, Static Files, Streaming responses.
+  * Session and Cookie support.
+  * 100% test coverage.
+  * 100% type annotated codebase.
+  * Zero hard dependencies.
+ .
+ Dæmi:
+ .
+  from starlette.applications import Starlette
+  from starlette.responses import JSONResponse
+  from starlette.routing import Route
+ .
+  async def homepage(request):
+      return JSONResponse({'hello': 'world'})
+ .
+  app = Starlette(debug=True, routes=[
+    Route('/', homepage),
+  ])
+
+
+Package: rebound
+Description-md5: 0b5dbbc5e475aa053897d491c43c21d8
+Description-is: Command-line tool to fetch Stack Overflow results when program execution error
+ Rebound is a command-line tool that instantly fetches Stack Overflow
+ results when getting a program execution error in multiple programming
+ languages. This tool will execute the program, pull the error message if
+ needed, and display related Stack Overflow questions and answers without
+ leaving the terminal.
+ .
+ Eiginleikar
+ .
+  - Supported file types:
+    - Python
+    - Node.js
+    - Java
+    - Golang
+    - Ruby
+  - View answers in command line mode
+  - Open browser for GUI
+
+
+Package: ruby-necromancer
+Description-md5: fbd73e98c72232dc97bd2ea9b76359a3
+Description-is: Library offering conversion from one object type to another
+ Necromancer provides independent type conversion component for TTY
+ toolkit.
+ .
+ Conversion between Ruby core types frequently comes up in projects but is
+ solved by half-baked solutions. This library aims to provide an
+ independent and extensible API to support a robust and generic way to
+ convert between core Ruby types.
+ .
+ Eiginleikar
+ .
+  * Simple and expressive API
+  * Ability to specify own converters
+  * Ability to compose conversions out of simpler ones
+  * Support conversion of custom defined types
+  * Ability to specify strict conversion mode
+
+
+Package: ruby-simple-captcha2
+Description-md5: fb300520a72f6326a611d9d0419a47bd
+Description-is: simplest and a robust captcha plugin for rails
+ Available with Rails 3 + 4 or above provides backward compatibility. This
+ is a fork of the popular Rubygem ``simple_captcha`` which got abandoned.
+ .
+ Eiginleikar
+ .
+  * Zero FileSystem usage (secret code moved to db-store and image storage
+  removed).
+  * Provides various image styles.
+  * Provides three level of complexity of images.
+  * Works absolutely fine in distributed environment(session and db based
+  implementation works fine in distributed environment).
+  * Implementation is as easy as just writing a single line in your view.
+  ```<%= show_simple_captcha %>``` within the 'form' tags.
+  * Flexible DOM and CSS handling(There is a separate view partial for
+  rendering SimpleCaptcha DOM elements).
+  * Automated removal of 1 hour old unmatched simple_captcha data.
+
+
+Package: ruby-webmock
+Description-md5: 83ffa69d71660251c94341505328406f
+Description-is: library for stubbing HTTP requests in Ruby
+ WebMock allows stubbing HTTP requests and setting expectations on HTTP
+ requests.
+ .
+ Eiginleikar
+ .
+  * Stubbing HTTP requests at low http client lib level (no need to change
+    tests when you change HTTP library).
+  * Setting and verifying expectations on HTTP requests.
+  * Matching requests based on method, URI, headers and body.
+  * Smart matching of the same URIs in different representations (also encoded
+     and non encoded forms).
+  * Smart matching of the same headers in different representations.
+
+
+Package: sigil
+Description-md5: 88d7047856e5e6d5edbe1b6fc1c0482f
+Description-is: multi-platform ebook editor
+ Sigil is a free, open source, multi-platform ebook editor. It is designed
+ to edit books in ePub format.
+ .
+ Eiginleikar
+ .
+  * Full UTF-16 support;
+  * Full EPUB 2 spec support;
+  * Multiple Views: Book View, Code View and Preview View;
+  * WYSIWYG editing in Book View;
+  * Complete control over directly editing EPUB syntax in Code View;
+  * Table of Contents generator with multi-level heading support;
+  * Metadata editor with full support for all possible metadata entries (more
+    than 200) with full descriptions for each;
+  * User interface translated into many languages;
+  * Spell checking with default and user configurable dictionaries;
+  * Full Regular Expression (PCRE) support for Find & Replace;
+  * Supports import of EPUB and HTML files, images, and style sheets;
+  * Files can be validated for EPUB compliance with the FlightCrew validator;
+  * HTML Tidy: all imported files have their formatting corrected, and your
+    editing can be optionally cleaned.
+
+
+Package: sigil-data
+Description-md5: d697fcd1e7b4df79b24c90d3e49f5642
+Description-is: multi-platform ebook editor - data files
+ Sigil is a free, open source, multi-platform ebook editor. It is designed
+ to edit books in ePub format.
+ .
+ Eiginleikar
+ .
+  * Full UTF-16 support;
+  * Full EPUB 2 spec support;
+  * Multiple Views: Book View, Code View and Preview View;
+  * WYSIWYG editing in Book View;
+  * Complete control over directly editing EPUB syntax in Code View;
+  * Table of Contents generator with multi-level heading support;
+  * Metadata editor with full support for all possible metadata entries (more
+    than 200) with full descriptions for each;
+  * User interface translated into many languages;
+  * Spell checking with default and user configurable dictionaries;
+  * Full Regular Expression (PCRE) support for Find & Replace;
+  * Supports import of EPUB and HTML files, images, and style sheets;
+  * Files can be validated for EPUB compliance with the FlightCrew validator;
+  * HTML Tidy: all imported files have their formatting corrected, and your
+    editing can be optionally cleaned.
+ .
+ This package provides the architecture-independant files.
+
+Package: skanpage
+Description-md5: 3ee0379151650239dfe4f1b71b2d85a7
+Description-is: Multi-page scanning and saving of documents and images
+ Skanpage is a simple scanning application designed for multi-page scanning
+ and saving of documents and images.
+ .
+ Eiginleikar
+ .
+   - Scanning from flatbed and ADF scanners
+   - Configurable options for scanning device
+   - Reordering, rotation and deletion of scanned pages
+   - Saving to multi-page PDF documents and image files
+
+
+Package: skewer
+Description-md5: b441f177d77eef511d970fccfb663491
+Description-is: post-processing of high-throughput DNA sequence reads
+ skewer implements the bit-masked k-difference matching algorithm dedicated
+ to the task of adapter trimming and it is specially designed for
+ processing next-generation sequencing (NGS) paired-end sequences.
+ .
+ Eiginleikar
+ .
+  * Detection and removal of adapter sequences
+  * Insertion and deletion allowed in pattern matching
+  * Targeted at Single End, Paired End (PE), and Long Mate Pair (LMP) reads
+  * Demultiplexing of barcoded sequencing runs
+  * Multi-threading support
+  * Trimming based on phred quality scores
+  * IUPAC characters for barcodes and adapters
+  * Compressed input and output support
+
+
+Package: slop
+Description-md5: b6be29fa551e770f482aba9739129e15
+Description-is: queries for a selection from the user and prints the region to stdout
+ slop (Select Operation) is an application that queries for a selection
+ from the user and prints the region to stdout. It grabs the mouse and
+ turns it into a crosshair, lets the user click and drag to make a
+ selection (or click on a window) while drawing a pretty box around it,
+ then finally prints the selection's dimensions to stdout.
+ .
+ Eiginleikar
+ .
+  * Hovering over a window will cause a selection rectangle to appear
+    over it.
+  * Clicking on a window makes slop return the dimensions of the
+    window.
+  * Clicking and dragging causes a selection rectangle to appear,
+    renders pretty well (compared to scrot). And will return the
+    dimensions of that rectangle in absolute screen coords.
+  * On startup it turns your cursor into a crosshair, then adjusts the
+    cursor into angles as you drag the selection rectangle.
+  * Supports simple arguments:
+    * Change selection rectangle border size.
+    * Select X display.
+    * Set padding size, even negative padding sizes!
+    * Set click tolerance for if you have a shaky mouse.
+    * Set the color of the selection rectangles to match your theme!
+      (Even supports transparency!)
+  * Remove window decorations from selections.
+  * Supports OpenGL hardware acceleration.
+  * Supports textured themes.
+  * Supports programmable shaders.
+  * Supports a magnifying glass.
+
+
+Package: sma
+Description-md5: 76ba18e18aecad8f99f7369db8c3a35a
+Description-is: Sendmail log analyser
+ SMA is a program that analyses Sendmail log entries.
+ .
+ Eiginleikar
+ .
+  - Support for all recent Sendmail versions
+  - Flexible output formatting - HTML, ASCII and a custom log
+  - Regular expression filtering of messages
+  - Multiple hosts in the same report
+
+
+Package: spek
+Description-md5: 8cfef49bc5bafec8c8e872d06787ec14
+Description-is: acoustic spectrum analyser
+ Spek helps to analyse your audio files by showing their spectrogram. It
+ supports all popular lossy and lossless audio file formats.
+ .
+ Eiginleikar
+ .
+  * Ultra-fast signal processing, uses multiple threads to further
+    speed up the analysis
+  * Shows the codec name and the audio signal parameters
+  * Can save the spectrogram as an image file
+  * Drag-and-drop support; associates with common audio file formats
+  * Auto-fitting time, frequency and spectral density rulers
+  * Adjustable spectral density range
+
+
+Package: supertux
+Description-md5: 83819c096307dca07762d7b9f833f8be
+Description-is: Klassískur 2D hopp- og hliðar-skrun leikur með Tux
+ SuperTux is a classic 2D jump 'n run sidescroller game in a similar style
+ like the original SuperMario games. You play the role of Tux the Penguin,
+ who must rescue Penny from the hands of the evil Nolok.
+
+Package: t50
+Description-md5: e560c2f6b8505a57b17d517d7a0bfd9c
+Description-is: Multi-protocol packet injector tool
+ Multi-protocol packet injector tool for *nix systems, actually supporting
+ 15 protocols.
+ .
+ Eiginleikar
+ .
+  - Flooding
+  - CIDR support
+  - TCP, UDP, ICMP, IGMPv2, IGMPv3, EGP, DCCP, RSVP, RIPv1,
+    RIPv2, GRE, ESP, AH, EIGRP and OSPF support.
+  - TCP Options.
+  - High performance.
+  - Can hit about 1.000.000 packets per second.
+
+
+Package: tetzle
+Description-md5: 9fde502f6606a471732c4289ec6d5585
+Description-is: Púsl
+ Any image can be imported and used to create puzzles with a wide range of
+ sizes. Games are saved automatically, and you can select between currently
+ in progress games.
+
+Package: tiny-dnn
+Description-md5: c312c618bd72f981c2874794db1dc871
+Description-is: header only deep learning framework in C++
+ tiny-dnn is a C++ implementation of deep learning. It is suitable for deep
+ learning on limited computational resource, embedded systems and IoT
+ devices.
+ .
+ Eiginleikar
+ .
+  * Reasonably fast, without GPU;
+  * Portable & header-only;
+  * Easy to integrate with real applications;
+  * Simply implemented.
+
+
+Package: tiny-dnn-doc
+Description-md5: 8c79ac8aa36ab68f80cf69eeb0cb0dc3
+Description-is: header only deep learning framework in C++ -- documentation
+ tiny-dnn is a C++ implementation of deep learning. It is suitable for deep
+ learning on limited computational resource, embedded systems and IoT
+ devices.
+ .
+ Eiginleikar
+ .
+  * Reasonably fast, without GPU;
+  * Portable & header-only;
+  * Easy to integrate with real applications;
+  * Simply implemented.
+ .
+ This package contains the documentation.
+
+Package: twine
+Description-md5: 85dc96f3482fa75a4f41796dff720d43
+Description-is: utility for interacting with PyPI
+ Twine is a tool for uploading distributions (in the Python meaning) to
+ PyPi.
+ .
+ Why should twine be used over the traditional approach?
+ .
+ The biggest reason to use twine is that python setup.py upload uploads
+ files over plaintext. This means anytime you use it you expose your
+ username and password to a MITM attack. Twine uses only verified TLS to
+ upload to PyPI protecting your credentials from theft.
+ .
+ Secondly it allows you to precreate your distribution files. python
+ setup.py upload only allows you to upload something that you’ve created in
+ the same command invocation. This means that you cannot test the exact
+ file you’re going to upload to PyPI to ensure that it works before
+ uploading it.
+ .
+ Finally it allows you to pre-sign your files and pass the .asc files into
+ the command line invocation (twine upload twine-1.0.1.tar.gz
+ twine-1.0.1.tar.gz.asc). This enables you to be assured that you’re typing
+ your gpg passphrase into gpg itself and not anything else since you will
+ be the one directly executing gpg --detach-sign -a <filename>.
+ .
+ Eiginleikar
+ .
+  - Verified HTTPS Connections
+  - Uploading doesn’t require executing setup.py
+  - Uploading files that have already been created, allowing testing of
+    distributions before release
+  - Supports uploading any packaging format (including wheels).
+
+
+Package: tzdiff
+Description-md5: e6bb361db9923d3a4c5c318fab42dbac
+Description-is: Show Timezone differences with local time in command-line interface
+ Eiginleikar
+ .
+  - Support TIMEZONE completion
+  - Support multiple timezone comparison
+  - Support daylight saving time
+  - Support multiple output formats
+
+
+Package: vim-snipmate
+Description-md5: b32d99279c72a1dbfce80f206863cd65
+Description-is: Vim script that implements some of TextMate's snippets features.
+ SnipMate.vim aims to be an unobtrusive, concise vim script that implements
+ some of TextMate's snippets features in Vim. A snippet is a piece of
+ often-typed text that you can insert into your document using a trigger
+ word followed by a <tab>.
+ .
+ For instance, in a C file using the default installation of snipMate.vim,
+ if you type "for<tab>" in insert mode, it will expand a typical for loop
+ in C:
+ .
+ for (i = 0; i < count; i++) {
+ .
+ Project-Id-Version: ddtp-ubuntu
+ Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>
+ PO-Revision-Date: 2024-04-23 08:50+0000
+ Last-Translator: FULL NAME <EMAIL@ADDRESS>
+ Language-Team: Icelandic <is@li.org>
+ MIME-Version: 1.0
+ Content-Type: text/plain; charset=UTF-8
+ Content-Transfer-Encoding: 8bit
+ X-Launchpad-Export-Date: 2024-04-23 22:29+0000
+ X-Generator: Launchpad (build 67d34a19aaa1df7be4dd8bf498cbc5bbd785067b)
+ .
+ To go to the next item in the loop, simply <tab> over to it; if there is
+ repeated code, such as the "i" variable in this example, you can simply
+ start typing once it's highlighted and all the matches specified in the
+ snippet will be updated.
+ .
+ snipMate.vim has the following features among others:
+ .
+  - The syntax of snippets is very similar to TextMate's, allowing easy
+    conversion.
+  - The position of the snippet is kept transparently (i.e., it does not use
+    marks/placeholders inserted into the buffer), allowing you to escape out
+    of an incomplete snippet, something particularly useful in Vim.
+  - Variables in snippets are updated as-you-type.
+  - Snippets can have multiple matches.
+  - Snippets can be out of order. For instance, in a do...while loop, the
+    condition can be added before the code.
+
+
+Package: vkeybd
+Description-md5: 0d2d394ff06dcef1fd62dcb0f7ece48a
+Description-is: Sýndar MIDI lyklaborð
+ This program allows you to use the Linux AWE32 driver, OSS MIDI sequencer,
+ or ALSA MIDI sequencer and provides "virtual" keyboard (the musical type),
+ which can be "played" using the keyboard or mouse under X11.
+
+Package: webcamoid
+Description-md5: f572b386468b9a3ce3ad23b4c33caedf
+Description-is: full featured webcam capture application
+ webcamoid allows one to capture, save and view a video stream. It also can
+ do a lot of funny things.
+ .
+ Eiginleikar
+ .
+  * Take pictures and record videos with the webcam.
+  * Manages multiple webcams.
+  * GUI interface.
+  * Custom controls for each webcam.
+  * Add funny effects to the webcam.
+  * +60 effects available.
+  * Effects with live previews.
+  * Translated to many languages.
+  * Use custom network and local files as capture devices.
+  * Capture from desktop.
+  * Many recording formats.
+  * Virtual webcam support for feeding other programs.
+
+
+Package: webcamoid-data
+Description-md5: 49cfaf5d124f5a9473173ad57faf06ed
+Description-is: icons and locale files for webcamoid
+ webcamoid allows one to capture, save and view a video stream. It also can
+ do a lot of funny things.
+ .
+ Eiginleikar
+ .
+  * Take pictures and record videos with the webcam.
+  * Manages multiple webcams.
+  * GUI interface.
+  * Custom controls for each webcam.
+  * Add funny effects to the webcam.
+  * +60 effects available.
+  * Effects with live previews.
+  * Translated to many languages.
+  * Use custom network and local files as capture devices.
+  * Capture from desktop.
+  * Many recording formats.
+  * Virtual webcam support for feeding other programs.
+ .
+ This package contains the icons/locale files for webcamoid.
+
+Package: webcamoid-plugins
+Description-md5: 53aa7e50d4c64af45acef489bde7ac7e
+Description-is: full featured webcam capture application - plugins
+ webcamoid allows one to capture, save and view a video stream. It also can
+ do a lot of funny things.
+ .
+ Eiginleikar
+ .
+  * Take pictures and record videos with the webcam.
+  * Manages multiple webcams.
+  * GUI interface.
+  * Custom controls for each webcam.
+  * Add funny effects to the webcam.
+  * +60 effects available.
+  * Effects with live previews.
+  * Translated to many languages.
+  * Use custom network and local files as capture devices.
+  * Capture from desktop.
+  * Many recording formats.
+  * Virtual webcam support for feeding other programs.
+ .
+ This package contains the plugins for webcamoid.
+
+Package: yacas
+Description-md5: 4aae435c80e1b77b47271afb623ec744
+Description-is: Algebru lausnarkerfi
+ Yacas is a small and highly flexible computer algebra language.
+ .
+ The syntax is very close to Mathematica. The distribution contains a small
+ library of mathematical functions, but its real strength is in the
+ language in which you can easily write your own symbolic manipulation
+ algorithms. It supports arbitrary precision arithmetic.
+

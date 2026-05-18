@@ -1,0 +1,4104 @@
+Package: abs-guide
+Description-md5: c70e528b8b624e5738bdbd1b89e8b349
+Description-sl: Napredni vodnik po skriptanju Bash
+ Poglobljeno raziskovanje umetnosti lupinskih skriptov.
+ .
+ Ta vodič ne predpostavlja nobenega predhodnega znanja skriptanja ali
+ programiranja, vendar hitro napreduje proti srednji/napredni ravni. Vse to
+ med dodajanjem majhnih izrezkov modrosti UNIX-a(R). Služi kot učbenik,
+ priročnik za samostojno učenje in vir znanja o tehnikah lupinskih
+ skriptov. Vaje in primere z veliko opombami spodbujajo dejavno sodelovanje
+ bralcev pod logiko, da je edini način učenja skriptov pisanje skriptov.
+ .
+ Ta knjiga je primerna za uporabo v učilnici kot splošen uvod v koncepte
+ programiranja.
+
+Package: album
+Description-md5: 3eaaefa453087570fb45ac51eeccbe7c
+Description-sl: Ustvarjalnik albumov fotografij HTML s podporo za teme
+ Album je skript perl, ki lahko ustvari albume fotografij HTML za vaše mape
+ slik. Podpira teme, ki določijo videz albumov. Album po potrebi ustvari
+ sličice in slike 'srednje velikosti' za spletni ogled ter izogibanje
+ prejemu izvirnih slik. Svoje albume fotografij lahko prilagodite na več
+ drugih načinov.
+ .
+ Ta program za delovanje ne potrebuje spletnega strežnika. Ko je HTML
+ ustvarjen, ga lahko postavite v svojo mapo "www".
+
+Package: album-data
+Description-md5: 34adea76df6b2c02712e3838461edbb2
+Description-sl: Teme, vstavki in prevodi za album
+ Album je skript perl, ki lahko ustvari HTML albume fotografij za vaše mape
+ slik. Ta paket zagotavlja teme, vstavke in prevode za Album.
+ .
+ The available languages are Catalan, Chinese, Czech, German, Spanish,
+ French, Hebrew, Hungarian, Italian, Korean, Dutch, Polish, Russian,
+ Swedish Chef, and Leet Hacker. The original Album package is in English.
+ .
+ Theme's demo site:     http://davepics.com/Theme_Album Translations
+ status:   http://marginalhacks.com/Hacks/album/Languages.html Screenshots
+ of themes: http://davepics.com/Theme_Album/
+
+Package: alien-arena
+Description-md5: de2b3d0db5845c79b22ffc0c38842f1b
+Description-sl: Samostojna 3D prvoosebna strelska igra
+ ALIEN ARENA is a standalone 3D first person online death-match shooter
+ crafted from the original source code of Quake II and Quake III, released
+ by id Software under the GPL license. With features including 32-bit
+ graphics, a new particle engine and effects, light blooms, reflective
+ water, hi-resolution textures and skins, and hi-poly models and stain
+ maps, ALIEN ARENA pushes the envelope of graphical beauty rivaling today's
+ top games.
+ .
+ Ta paket namesti odjemalec SDL za igro Alien Arena.
+
+Package: alien-arena-data
+Description-md5: f930829d2a1207940bee317dc2015735
+Description-sl: Podatkovne datoteke za igro Alien Arena.
+ ALIEN ARENA is a standalone 3D first person online death-match shooter
+ crafted from the original source code of Quake II and Quake III, released
+ by id Software under the GPL license. With features including 32-bit
+ graphics, a new particle engine and effects, light blooms, reflective
+ water, hi-resolution textures and skins, and hi-poly models and stain
+ maps, ALIEN ARENA pushes the envelope of graphical beauty rivaling today's
+ top games.
+ .
+ Ta paket namesti podatke, robote in datoteke aren za igro Alien Arena.
+
+Package: alien-arena-server
+Description-md5: 5096fa975d49e1d2781f93bd7781f913
+Description-sl: Namenski strežnik za igro Alien Arena
+ ALIEN ARENA is a standalone 3D first person online death-match shooter
+ crafted from the original source code of Quake II and Quake III, released
+ by id Software under the GPL license. With features including 32-bit
+ graphics, a new particle engine and effects, light blooms, reflective
+ water, hi-resolution textures and skins, and hi-poly models and stain
+ maps, ALIEN ARENA pushes the envelope of graphical beauty rivaling today's
+ top games.
+ .
+ Ta paket namesti namenski strežnik za igro Alien Arena.
+
+Package: alsa-firmware-loaders
+Description-md5: 631dd818c28b45f8af844a1ba49ddcd6
+Description-sl: Programski nalagalniki ALSA za določeno strojno opremo
+ Zbirka programskih nalagalnikov za določeno strojno opremo:
+ .
+  cspctl - nadzorni program za Sound Blaster 16 ASP/CSP
+  hdsploader - nalagalnik strojne programske opreme za kartice RME Hammerfall DSP
+  mixartloader - nalagalnik strojne programske opreme za zvočne gonilnike plošč Digigram miXart
+  pcxhrloader - nalagalnik strojne programske opreme za z Digigram pchr združljive kartice
+  sscape_ctl - orodje za nadzor in nalagalnik strojne opreme SoundScape
+  usx2yloader - nalagalnik strojne programske opreme za zvočne kartice Tascam USX2Y USB
+  vxloader - nalagalnik strojne programske opreme za kartice Digigram VX
+
+
+Package: amiwm
+Description-md5: a2a0859394562edd6b9857a5292439dd
+Description-sl: Amiga look alike window manager
+ To je amiwm, upravljalnik oken X, ki poskuša narediti videz vaše delovne
+ postaje podoben Amigi. Zakaj? Ker je avtor tako želel. Zato!
+
+Package: amoeba
+Description-md5: d79071f380a0fcf700f7b1ed1856dab1
+Description-sl: Hitra predstavitev OpenGL podjetja Excess
+ Amoeba je hitra predstavitev OpenGL podjetja Excess, ki deluje na več
+ sistemih in prikazuje realnočasovne grafične učinke v popolnem
+ usklajevanju z glasbo. Vsebuje prilagodljiv preizkusni programnik, več
+ vidnih učinkov, veliko grafike in poskočno glasbo.
+ .
+ Amoeba je dobila prvo nagrado v predstavitvenem tekmovanju na Underscore
+ 02, zabavi predstavitvene scene v Gothenburgu na Švedskem.
+ .
+ To je le programnik predstavitve -- za ogled boste potrebovali paket
+ amoeba-data.
+
+Package: amoeba-data
+Description-md5: 034c9cfac5217a9a6eb4db71c1f05423
+Description-sl: Hitra predstavitev OpenGL podjetja Excess (podatki)
+ Amoeba je hitra predstavitev OpenGL, ki deluje na več sistemih in ga je
+ razvilo podjetje Ecess in prikaže učinke z uporabo vaše 3D kartice, ki so
+ popolnoma usklajeni z glasbo Ogg Vorbis. Vsebuje polno XML skriptljiv
+ programnik predstavitve, več upravljanj predmetov, veliko grafike in
+ poskočno glasbo.
+ .
+ Amoeba je dobila prvo nagrado v predstavitvenem tekmovanju na Underscore
+ 02, zabavi predstavitvene scene v Gothenburgu na Švedskem
+ (http://www.underscore.sh/)
+ .
+ Ta paket vsebuje podatke, ki jih potrebujete za predstavitev - za ogled
+ predstavitev boste potrebovali paket amoeba, ki vsebuje programnik
+ predstavitve.
+
+Package: assaultcube
+Description-md5: 7576f391baa8701ed9ad64162252916a
+Description-sl: Realistična prvoosebna strelska igra
+ AssaultCube, formerly ActionCube, is a first-person-shooter based on the
+ game Cube.
+ .
+ Set in a realistic looking environment, as far as that's possible with
+ this engine, while gameplay stays fast and arcade. This game is all about
+ team oriented multiplayer fun.
+ .
+ The game data required to play this game will be downloaded automatically
+ when this package is installed.
+
+Package: atari800
+Description-md5: 9526e2deeb23f4395bbefbf22fb9ee74
+Description-sl: Atari 8-bit emulator for SDL
+ Atari800 is an emulator of Atari 8-bit computer systems including the 400,
+ 800, 1200XL, 600XL, 800XL, 65XE, 130XE, 800XE and the XE Game System, and
+ also of the Atari 5200 SuperSystem console.
+ .
+ Zaradi avtorskih pravic ROM-i operacijskega sistema Atari v tem paketi
+ niso na voljo. Narediti boste morali njihove kopije s starega računalnika
+ Atari ali pa si oglejte datoteko README.Debian za načine, kako jih dobiti.
+
+Package: atmel-firmware
+Description-md5: 4b8efccce6d386e23ad5546058c45a46
+Description-sl: Strojna programska oprema za brezžične čipe Atmel at76c50x.
+ The drivers for these chips in the Linux kernel do not include the
+ firmware; this firmware needs to be loaded by the host on most cards using
+ these chips. This package provides the firmware images which should be
+ automatically loaded as needed by the hotplug system. It also provides a
+ small loader utility which can be used to accomplish the same thing when
+ hotplug is not in use.
+
+Package: autodir
+Description-md5: 0b6913d4b30fa8f1270054260e535bdb
+Description-sl: Samodejno ustvari domačo mapo in mapo skupine za krajevne/LDAP/NIS/SQL račune
+ Modularno in s podporo za niti orodje za ustvarjanje in/ali priklapljanje
+ in samodejno magično in prozorno upravljanje domačih map
+ uporabnika/skupine na zahtevo.
+ .
+ Deluje lahko s katerimkoli ogrodjem overitve (npr. sistemskimi datotekami,
+ NIS, LDAP ali SQL) in ne zahteva PAM, ki je zahtevana zmožnost za storitve
+ brez seje, kot so strežniki SMTP.
+ .
+ Pri kodnem prevajanju jedra mora biti samodejni priklopnik različice 4
+ (autofs4) omogočen. Debianova pakirana jedra ga imajo omogočenega kot
+ modul.
+
+Package: bgoffice-dict-downloader
+Description-md5: 4999911e18e26881818d162507bf0e44
+Description-sl: Prejmite slovarje za GbgOffice
+ bgOffice je projekt, ki želi ustvariti polno zmožno namizno okolje,
+ prevedeno in prilagojeno za bolgarske uporabnike.
+ .
+ Ta paket vsebuje skripte pomočnika za samodejno prejemanje in namestitev
+ slovarjev za GbgOffice. Teh Debian zaradi težav z dovoljenji ne sme
+ distribuirati.
+
+Package: brother-cups-wrapper-ac
+Description-md5: d1e1dbb9ef75ee04236b9b02c8cb3ad4
+Description-sl: Gonilniki ovijalnika CUPS za tiskalnike Brother AC
+ Ta paket vsebuje vse gonilnike ovijalnika CUPS za modele HL-4040CN,
+ HL-4040CDN, HL-4050CDN, HL-4070CDW, MFC-9440CN, MFC-9450CDN, MFC-9840CDW,
+ DCP-9040CN, DCP-9042CDN in DCP-9045CDN
+
+Package: brother-cups-wrapper-bh7
+Description-md5: 9ac663666ffc15075ec9dcb4c537ef64
+Description-sl: Gonilniki ovijalnika CUPS za tiskalnike Brother BH7
+ Ta paket vsebuje vse gonilnike ovijalnika CUPS za modele DCP-130C,
+ DCP-330C, DCP-540CN, DCP-750CW, FAX-1860C, FAX-1960C, FAX-2480C,
+ FAX-2580C, MFC-240C, MFC-3360C, MFC-440CN, MFC-5460CN, MFC-5860CN,
+ MFC-660CN, MFC-665CW in MFC-845CW
+
+Package: brother-cups-wrapper-common
+Description-md5: 5df79c7ccc5b738172be4cee123f9e14
+Description-sl: Skupne datoteke za pakete ovijalnika CUPS za tiskalnike Brother
+ Ta paket vsebuje skupne datoteke za nekatere pakete ovijalnika CUPS za
+ tiskalnike Brother.
+
+Package: brother-cups-wrapper-extra
+Description-md5: e0bb8f124726fa547849e8d440abea6b
+Description-sl: Gonilniki ovijalnika CUPS za dodatne tiskalnike Brother
+ Ta paket vsebuje vse gonilnike ovijalnika CUPS za modele FAX-1815C,
+ FAX-1820C, FAX-1835C, FAX-1840C, FAX-1920CN, FAX-1940CN, FAX-2440C,
+ MFC-210C, MFC-3220C, MFC-3240C, MFC-3320CN, MFC-3340CN, MFC-3420C,
+ MFC-3820CN, MFC-410CN, MFC-420CN, MFC-5440CN, MFC-5840CN, MFC-620CN,
+ DCP-110C, DCP-310CN, DCP-560CN, DCP-770CW, DCP-350C, DCP-353C, MFC-465CN,
+ MFC-680CN, MFC-685CW, MFC-885CW, MFC-230C, MFC-235C, MFC-260C, DCP-135C,
+ DCP-150C in DCP-153C
+
+Package: brother-cups-wrapper-laser
+Description-md5: b1d14f0fccd6bc964f51da864b253721
+Description-sl: Gonilniki ovijalnika CUPS za laserske tiskalnike Brother
+ Ta paket vsebuje vse gonilnike ovijalnika CUPS za modele DCP-7010,
+ DCP-7020, DCP-7025, DCP-8060, DCP-8065DN, FAX-2820, FAX-2920, HL-2030,
+ HL-2040, HL-2070N, HL-5240, HL-5250DN, HL-5270DN, HL-5280DW, MFC-7220,
+ MFC-7225N, MFC-7420, MFC-7820N, MFC-8460N, MFC-8660DN, MFC-8860DN in
+ MFC-8870DW
+
+Package: brother-cups-wrapper-laser1
+Description-md5: bcc145550d95f365305cfeb1201bfa32
+Description-sl: Gonilniki ovijalnika CUPS za tiskalnike Brother laser1
+ Ta paket vsebuje vse gonilnike ovijalnika CUPS za modele DCP-1000,
+ DCP-1400, DCP-8020, DCP-8025D, DCP-8040, DCP-8045D, FAX-2850, FAX-2900,
+ FAX-3800, FAX-4100, FAX-4750e, FAX-5750e, HL-1030, HL-1230, HL-1240,
+ HL-1250, HL-1270N, HL-1430, HL-1440, HL-1450, HL-1470N, HL-1650, HL-1670N,
+ HL-1850, HL-1870N, HL-5030, HL-5040, HL-5050, HL-5070N, HL-5130, HL-5140,
+ HL-5150D, HL-5170DN, HL-6050, HL-6050D, MFC-4800, MFC-6800, MFC-8420,
+ MFC-8440, MFC-8500, MFC-8820D, MFC-8840D, MFC-9030, MFC-9070, MFC-9160,
+ MFC-9180, MFC-9660, MFC-9700, MFC-9760, MFC-9800, MFC-9860 in MFC-9880
+
+Package: brother-cups-wrapper-mfc9420cn
+Description-md5: 7b8deb2a5b423f0a37142fe414537372
+Description-sl: Gonilniki ovijalnika CUPS za tiskalnike Brother MFC-9420CN
+ Ta paket vsebuje vse gonilnike ovijalnika CUPS za modele
+
+Package: brother-lpr-drivers-ac
+Description-md5: 6003e10e8d730cd4bf00c2cbb31bf858
+Description-sl: Gonilniki LPR za tiskalnike Brother AC
+ Ta paket vsebuje vse gonilnike LPR za modele HL-4040CN, HL-4040CDN,
+ HL-4050CDN, HL-4070CDW, MFC-9440CN, MFC-9450CDN, MFC-9840CDW, DCP-9040CN,
+ DCP-9042CN in DCP-9045CDN
+
+Package: brother-lpr-drivers-bh7
+Description-md5: ee596a8df57d84fbdaee5161e27f44a8
+Description-sl: Gonilniki LPR za tiskalnike Brother BH7
+ Ta paket vsebuje vse gonilnike LPR za modele DCP-130C, DCP-330C,
+ DCP-540CN, DCP-750CW, FAX-1860C, FAX-1960C, FAX-2480C, FAX-2580C,
+ MFC-240C, MFC-3360C, MFC-440CN, MFC-5460CN, MFC-5860CN, MFC-660CN,
+ MFC-665CW in MFC-845CW
+
+Package: brother-lpr-drivers-common
+Description-md5: 1de5691537d6c0bd87454fb64831e82f
+Description-sl: Skupne datoteke za pakete brother-lpr-drivers
+ Ta paket vsebuje skupne datoteke za pakete gonlnikov LPR za tiskalnike
+ Brother.
+
+Package: brother-lpr-drivers-extra
+Description-md5: f595fa60a7e2031b268c9e3ee6b6318f
+Description-sl: Gonilniki LPR za dodatne tiskalnike Brother
+ Ta paket vsebuje vse gonilnike LPR za modele FAX-1815C, FAX-1820C,
+ FAX-1835C, FAX-1840C, FAX-1920CN, FAX-1940CN, FAX-2440C, MFC-210C,
+ MFC-3220C, MFC-3240C, MFC-3320CN, MFC-3340CN, MFC-3420C, MFC-3820CN,
+ MFC-410CN, MFC-420CN, MFC-5440CN, MFC-5840CN, MFC-620CN, DCP-110C,
+ DCP-310CN, DCP-560CN, DCP-770CW, DCP-350C, DCP-353C, MFC-465CN, MFC-680CN,
+ MFC-685CW, MFC-885CW, MFC-230C, MFC-235C, MFC-260C, DCP-135C, DCP-150C in
+ DCP-153C
+
+Package: brother-lpr-drivers-laser
+Description-md5: a0fc374172c63f660ac7fca929833494
+Description-sl: Gonilniki LPR za laserske tiskalnike Brother
+ Ta paket vsebuje vse gonilnike LPR za modele DCP-7010, DCP-7020, DCP-7025,
+ DCP-8060, DCP-8065DN, FAX-2820, FAX-2920, HL-2030, HL-2040, HL-2070N,
+ HL-5240, HL-5250DN, HL-5270DN, HL-5280DW, MFC-7220, MFC-7225N, MFC-7420,
+ MFC-7820N, MFC-8460N, MFC-8660DN, MFC-8860DN in MFC-8870DW
+
+Package: brother-lpr-drivers-laser1
+Description-md5: 6ed095936b6a1517465a8778ace2ee3f
+Description-sl: Gonilniki LPR za tiskalnike Brother laser1
+ Ta paket vsebuje vse gonilnike LPR za modele DCP-1000, DCP-1400, DCP-8020,
+ DCP-8025D, DCP-8040, DCP-8045D, FAX-2850, FAX-2900, FAX-3800, FAX-4100,
+ FAX-4750e, FAX-5750e, HL-1030, HL-1230, HL-1240, HL-1250, HL-1270N,
+ HL-1430, HL-1440, HL-1450, HL-1470N, HL-1650, HL-1670N, HL-1850, HL-1870N,
+ HL-5030, HL-5040, HL-5050, HL-5070N, HL-5130, HL-5140, HL-5150D,
+ HL-5170DN, HL-6050, HL-6050D, MFC-4800, MFC-6800, MFC-8420, MFC-8440,
+ MFC-8500, MFC-8820D, MFC-8840D, MFC-9030, MFC-9070, MFC-9160, MFC-9180,
+ MFC-9660, MFC-9700, MFC-9760, MFC-9800, MFC-9860 in MFC-9880
+
+Package: brother-lpr-drivers-mfc9420cn
+Description-md5: 6ba30886958fe27faa54a9e980e3829f
+Description-sl: Gonilnik LPR za tiskalnik Brother MFC-9420CN
+ Ta paket vsebuje gonilnik LPR za model MFC-9420CN
+
+Package: bsdgames-nonfree
+Description-md5: a0df62b17337e5cbd12de06fb52cd546
+Description-sl: Rogue, klasična igra raziskovanja ječ
+ To je na besedilu osnovana igra na (običajnih) sistemih BSD. Morda ni
+ prosto distribuiran, zato ga je bilo potrebno odstraniti iz glavnega
+ paketa bsdgames in postaviti v paket bsdgames-nonfree.
+ .
+ Ta paket vsebuje samo igro Rogue.
+
+Package: chaplin
+Description-md5: 4b291946f818007dc5a07f07b10f6fbb
+Description-sl: Program za izločevanje poglavij DVD-jev
+ To orodje razčleni DVD disk ali odtis in izvleče natančno trajanje vsakega
+ poglavja danega naslova. Skupen seznam poglavij je razdeljen v izberljivo
+ število podskupin. Vsaka podskupina ima približno enako dolžino trajanja.
+ .
+ http://www.lallafa.de/bp/chaplin.html
+
+Package: cim-schema
+Description-md5: 7d2f73ec99fe6ac800286af990c46c9d
+Description-sl: Shema DMTF CIM
+ Shema skupnega informacijskega modela (CIM) DMTF v upravljani obliki
+ predmetov (MOF).
+ .
+ This the final version of the CIM Schema.
+
+Package: cl-sql-oracle
+Description-md5: e2fa54c009744a1533f5486a15f863e6
+Description-sl: Zaledje podatkovne zbirke CLSQL, Oracle
+ Ta paket vam omogoča uporabo paketa dostopa CLSQL s podatkovnimi zbirkami
+ Oracle. CLSQL je vmesnik Common Lisp za podatkovne zbirke SQL.
+
+Package: cl-umlisp
+Description-md5: 862801106fe3fce0392e1fbafafe4f06
+Description-sl: Vmesnik Common Lisp za sistem združenega medicinskega jezika
+ Sistem združenega medicinskega jezika je večgigabajtna podatkovna zbirka
+ medicinske tehnologije. To je vmesnik za programe Common Lisp, ki
+ uporablja podatkovno zbirko SQL in metarazrede Comon Listp za učinkovit
+ dostop in oblikovanje.
+
+Package: cl-umlisp-orf
+Description-md5: 56177717a37fb571fe11ae0e6d490b77
+Description-sl: Vmesnik Common Lisp sistem združenega medicinskega jezika, ORF
+ Sistem združenega jezika medicine je več gigabajtov velika podatkovna
+ zbirka medicinskega izrazoslovja. To je vmesnik za programe Common Lisp,
+ ki uporablja programnik podatkovne zbirke SQl in metarazrede Common Lisp
+ za učinkovit dostop in oblikovanje. Ta paket podpira datoteke oblike
+ izvirnih izdaj (ORF).
+
+Package: cltl
+Description-md5: 981097f297a723afe41afec3b96d5a27
+Description-sl: Common Lisp the Language, druga izdaja, knjiga (Pre-ANSI)
+ Ta paket vsebuje HTML različico druge izdaje knjige Common Lisp the
+ Language avtorja Guy L. Stelle. Knjiga opisuje posnetek jezika Common Lisp
+ med obdobjem, ko je bil ustvarjen standard ANSI Common Lisp. Zato knjiga
+ opisuje NESTANDARDNO različico Common Lisp, ki je podobna, vendar *NI*
+ ANSI Common Lisp.
+ .
+ Za sklic na ANSI Common Lisp uporabite Debian paket "hyperspec". Ta knjiga
+ je vključena v Debian, ker ima več podrobnosti o zasnovi in uporabi Lisp
+ kot "hyperspec".
+ .
+ Ta paket ne vsebuje dejanskih datotek HTML, ampak z interneta prejme arhiv
+ HTML ter ga namesti.
+
+Package: clustalx
+Description-md5: a79728f91dcfed21b62f89dea1743319
+Description-sl: Večkratna poravnava zaporedij nukleinskih kislin in proteinov (grafični vmesnik)
+ Ta paket zagotavlja grafični vmesnik za program večkratne poravnave
+ zaporedij Clustal. Vsebuje okolje za izvajanje večkratnih poravnav
+ zaporedij in profila za preučevanje rezultatov. Poravna zaporedij je
+ prikazana v oknu na zaslonu. Vključena je bila raznovrstna barvna shema za
+ poudarjanje ohranjenih lastnosti v zaporedju. Za profesionalne
+ predstavitve uporabite paket texshade LaTeX ali boxshade.
+ .
+ Spustni meniji na vrhu okna vam omogočajo izbiro vseh možnosti, ki so
+ zahtevane za tradicionalno večkratno poravnavo zaporedij in profilov.
+ Zaporedja lahko izrežete in prilepite za spremembo vrstnega reda
+ poravnave. Izberete lahko podskupino zaporedja za poravnavo. Izberete
+ lahko podskupino poravnave za ponovno poravnavo in vstavitev nazaj v
+ izvirno poravnavo.
+ .
+ Izvedete lahko preučevanje kakovosti poravnave in poravnate segmente z
+ nizkimi ocenami ali izjemne preostanke.
+
+Package: context-nonfree
+Description-md5: b57b7bb7ce4c1305d8e45e7a156b0c04
+Description-sl: Neprosti predmeti iz distribucije ConTeXt
+ Distribucija ConTeXt vsebuje nekatere pisave, ki iz vidika Debian niso
+ proste in so zato vključene tukaj.
+ .
+ Currently it only contains the Hoekwater "koeieletters" font.
+
+Package: coq-doc
+Description-md5: 8162cc95ca212365bc0155b6cfef283a
+Description-sl: Dokumentacija za Coq
+ Coq je pomočnik dokazov za logiko višjega reda, ki omogoča razvoj
+ računalniških programov, ki so dosledni s svojimi formalnimi določili.
+ Razvit je z Objecitve Caml in Camlp5.
+ .
+ To je preizkusni paket, ki bo namestil dokumentacijo v oblikah HTML in
+ PDF.
+
+Package: coq-doc-html
+Description-md5: 2a1cea3031ba67430a5917f291c6087a
+Description-sl: Dokumentacija za Coq v obliki HTML
+ Coq je pomočnik dokazov za logiko višjega reda, ki omogoča razvoj
+ računalniških programov, ki so dosledni s svojimi formalnimi določili.
+ Razvit je z Objecitve Caml in Camlp5.
+ .
+ Ta paket vsebuje dokumentacijo in vodiče v obliki HTML.
+
+Package: coq-doc-pdf
+Description-md5: 6406c20f936aa913c3dfc9f90c15fc8a
+Description-sl: Dokumetnacija za Coq v obliki PDF
+ Coq je pomočnik dokazov za logiko višjega reda, ki omogoča razvoj
+ računalniških programov, ki so dosledni s svojimi formalnimi določili.
+ Razvit je z Objecitve Caml in Camlp5.
+ .
+ Ta paket vsebuje dokumentacijo in vodiče v obliki PDF.
+
+Package: crafty
+Description-md5: 29f27ca92dfe8a13f7508d03cc6d8f94
+Description-sl: Izvrsten šahovski programnik, ki je združljiv z xboard
+ Crafty je močan šahovski program, ki se igra na ICC. Uporablja vse
+ algoritme iskanja, o katerih ste verjetno brali in se v večini položajev
+ obnese bolje kot gnu-chess. Ima razumen niz zmožnosti za uporabo in ponuja
+ odlično začetno točko za poizkus vaših lastnih razširitev iskanja.
+
+Package: crafty-books-medium
+Description-md5: 45b811e83f4d2d1ec04cb992131cabac
+Description-sl: Knjige odprtij srednje velikosti za šahovski programnik Crafty
+ Knjige odprtij, ki jih Crafty uporablja za oceno položaja med igro. To je
+ srednja različica, ki je velika 4MB in vsebuje več kot 7500 iger,
+ izračunanih do 60 poteze.
+
+Package: crafty-books-medtosmall
+Description-md5: 125f4ba5d111686d0dfc99ebdcf6acee
+Description-sl: Knjige odprtij srednje do majhne velikosti za šahovski programnik Crafty
+ Knjige odprtij, ki jih Crafty uporablja za oceno položaja med igro. To je
+ srednja do majhna različica, ki je velika 4MB in vsebuje več kot 7500
+ iger, izračunanih do 60 poteze.
+
+Package: crafty-books-small
+Description-md5: b9b430941f6902c05294f3ad6b6b0a67
+Description-sl: Knjiga odprtij majhne velikosti za šahovski programnik Crafty
+ Knjige odprtij, ki jih Crafty uporablja za oceno položaja med igro. To je
+ majhna različica, ki je velika 1MB in vsebuje več kot 4500 iger,
+ izračunanih do 60 poteze.
+
+Package: cuneiform
+Description-md5: 9f477b4fb4e65a4b7e58c9e4d6cc05f6
+Description-sl: Večjezikovni sistem OCR
+ Cuneiform je sistem OCR. Poleg prepoznave besedila izvede tudi preučevanje
+ razporeditve in prepoznavanje oblike besedila.
+ .
+ Podprti so naslednji jeziki: bolgarščina, katalonščina, češčina, danščina,
+ nizozemščina, angleščina, estonščina, francoščina, nemščina, madžarščina,
+ italijanščina, latviščina, litvanščina, poljščina, portugalščina,
+ romunščina, ruščina, srbščina, slovenščina, španščina, švedščina, turščina
+ in ukrajinščina.
+
+Package: cuneiform-common
+Description-md5: 26ff2ce2ac800318b04976471b4bf01d
+Description-sl: Večjezikovni sistem OCR (skupno)
+ Cuneiform je sistem OCR. Poleg prepoznave besedila izvede tudi preučevanje
+ razporeditve in prepoznavanje oblike besedila.
+ .
+ Podprti so naslednji jeziki: bolgarščina, katalonščina, češčina, danščina,
+ nizozemščina, angleščina, estonščina, francoščina, nemščina, madžarščina,
+ italijanščina, latviščina, litvanščina, poljščina, portugalščina,
+ romunščina, ruščina, srbščina, slovenščina, španščina, švedščina, turščina
+ in ukrajinščina.
+ .
+ Ta paket vsebuje skupne datoteke.
+
+Package: cytadela
+Description-md5: 17a053ba85af9173021f6b78e5efd1ae
+Description-sl: Prvoosebna strelska igra stare šole
+ Cytadela je enoigralska igra, v kateri se igralec bojuje proti
+ računalniško nadziranim (UP) sovražnikom. Cilj igre je najti šest delov
+ bombe, s katerimi je treba Citadelo razstreliti.
+ .
+ To achieve it, the player not only has to defend himself against the
+ enemies, but (s)he also has to solve many riddles, such as switching
+ appropriate buttons in order to open some door, move some walls, etc.
+ .
+ To je pretvorba prvoosebne strelske igre za Amigo, ki je bila izvirno
+ izdana leta 1990, najprej na Poljskem in nato v drugih državah.
+ .
+ Cytadela zahteva 3D grafično kartico. Za 3D uporablja knjižnici OpenGL in
+ GLU; za 2D, glasbo, zvoke in nadzornike uporablja knjižnici SDL in
+ SLD_mixer.
+
+Package: cytadela-data
+Description-md5: 84a23110edcb1420ece53cbbb06c852e
+Description-sl: Podatkovne datoteke za igro Cytadela
+ Ta paket vsebuje podatkovne datoteke, ki jih potrebuje igra Cytadela.
+
+Package: cytadela-dbg
+Description-md5: 15ca801c5f6d1885788711e7e1cb3c44
+Description-sl: Razhroščevalni simboli za igro Cytadela
+ Ta paket vsebuje razhroščevalne simbole za igro Cytadela.
+
+Package: dahdi-firmware-nonfree
+Description-md5: c81e1bf42d9a186c2e71bf732811bf34
+Description-sl: Neprosta strojna programska oprema DAHDI
+ DAHDI (formely Zaptel) is an interface for telephony devices used by e.g.
+ the Asterisk PBX software. The dahdi-* packages provide the DAHDI kernel
+ modules and their required setup environment.
+ .
+ Ta paket vključuje neprosto strojno programsko opremo iz paketov DAHDI,
+ kot tudi skript za prejemanje strojne programske opreme Digium, ki je
+ običajno prejeta med izvajanjem ukaza 'make install'
+
+Package: darkice
+Description-md5: 1912539adeede843fe4a648780292b75
+Description-sl: Program za žive pretoke zvoka
+ DarkIce is an IceCast, IceCast2 and ShoutCast live audio streamer. It
+ takes audio input from a sound card, encodes it into mp3 and/or Ogg
+ Vorbis, and sends the mp3 stream to one or more IceCast and/or ShoutCast
+ servers, the Ogg Vorbis stream to one or more IceCast2 servers. DarkIce
+ uses lame as a shared object as its mp3 encoder, and the Ogg Vorbis as its
+ Ogg Vorbis encoder.
+ .
+ A legacy SYSV init script is provided for existing configurations. You
+ have to set RUN=yes in /etc/default/darkice to run darkice as a daemon.
+ With modern systems, this is not needed as realtime scheduling is
+ available to normal users.
+
+Package: devede
+Description-md5: a80b48eb4e84ed4081919926d540e84b
+Description-sl: Enostaven program za ustvarjanje video DVD-jev
+ DeVeDe is a program to create video DVDs, suitable for home players, from
+ any number of video files, in any of the formats supported by Mplayer.
+ .
+ It allows the user to create subtitles and even menus.
+
+Package: distributed-net
+Description-md5: 477da522b2f82ac0fc58fa899167257f
+Description-sl: client to donate unused CPU cycles to distributed.net
+ Podarite svoje odvečne cikle CPE za vreden namen!
+ .
+ Distributed.net se je začel leta 1997 kot projekt, katerega namen je bil
+ zmagati na tekmovanjih, ki jih je organizirala RSA Data Security Inc., v
+ katerih je bilo treba zlomiti šifriranje RC5 z načinom surove moči. Ta
+ tekmovanja so državam, kot so Združene države Amerike pokazale, da so
+ dovoljeni standardi prešibki za splošno uporabo.
+ .
+ Since this time, distributed.net's focus has changed from solely cracking
+ RSA's RC5 and DES projects to working on more diverse distributed
+ computing problems.
+ .
+ The ongoing projects are RC5-72 and Optimal Golomb Rulers (28-mark), the
+ latter of which has practical applications in science. There are also a
+ number of other projects which are either periodic or upcoming. You may
+ choose which project you wish to participate in.
+ .
+ Installing this package will allow unused CPU cycles on your computer to
+ contribute to cracking the code. There should be no noticeable slowdown of
+ your system, since the client runs niced, and only uses CPU time when your
+ computer would otherwise be idle.
+
+Package: doc-rfc
+Description-md5: bd3390a3853c7176201db994016c790a
+Description-sl: Metapaket dokumentov RFC
+ Dokumenti RFC (zahteva po opombah) je več tehničnih in organizacijskih
+ zapiskov o internetu. Ureja jih Internet Engineering Task Force (IETF).
+ .
+ To je metapaket, ki prejme nove pakete doc-rfc-xxx (tiste, ki najbolj
+ ustrezajo staremu paketu doc-rfc).
+ .
+ Lahko ga odstranite, če želite le podskupino RFC-jev.
+
+Package: doc-rfc-experimental
+Description-md5: 9d01cf6dc8570101acf85dd410a0c590
+Description-sl: Poskusni RFC-ji
+ Dokumenti RFC (zahteva po opombah) je več tehničnih in organizacijskih
+ zapiskov o internetu. Ureja jih Internet Engineering Task Force (IETF).
+ .
+ Ta paket vključuje naslednje kategorije:
+ .
+  * Poskusno
+
+Package: doc-rfc-fyi-bcp
+Description-md5: 512d9cd84452ac3b50c84839ce5ecf26
+Description-sl: FYI in BCP RFC-ji
+ Dokumenti RFC (zahteva po opombah) je več tehničnih in organizacijskih
+ zapiskov o internetu. Ureja jih Internet Engineering Task Force (IETF).
+ .
+ Ta paket vključuje naslednje kategorije:
+ .
+  * Pododsek Za vaše znanje (FYI)  * Pododsek Najboljša trenutna praksa
+ (BCP)
+
+Package: doc-rfc-informational
+Description-md5: 6ea21717f856f9f32ac88b98b561c337
+Description-sl: Informativni RFC-ji
+ Dokumenti RFC (zahteva po opombah) je več tehničnih in organizacijskih
+ zapiskov o internetu. Ureja jih Internet Engineering Task Force (IETF).
+ .
+ Ta paket vključuje naslednje kategorije:
+ .
+  * Informacijski RFC-ji
+
+Package: doc-rfc-misc
+Description-md5: 997c45357013e72959c4654059d99326
+Description-sl: Zgodovinski RFC-ji in osnutki
+ Dokumenti RFC (zahteva po opombah) je več tehničnih in organizacijskih
+ zapiskov o internetu. Ureja jih Internet Engineering Task Force (IETF).
+ .
+ Ta paket vključuje naslednje kategorije:
+ .
+  * Zgodovinsko  * Osnutki, ki so trenutno v čakalni vrsti objavljanja
+ urednika RFC
+
+Package: doc-rfc-old-std
+Description-md5: e0e245fe19e303502c88b4ab0c59141d
+Description-sl: Stari standardni RFC-ji
+ Dokumenti RFC (zahteva po opombah) je več tehničnih in organizacijskih
+ zapiskov o internetu. Ureja jih Internet Engineering Task Force (IETF).
+ .
+ Ta paket vključuje naslednje kategorije:
+ .
+  * Zastareli standardi
+  * Zastareli osnutki standardov
+  * Zastareli predlagani standardi
+
+
+Package: doc-rfc-others
+Description-md5: 7e933a75af8a2daa21f426b4dd37a6e1
+Description-sl: Stari poskusni in nerazporejeni RFC-ji
+ Dokumenti RFC (zahteva po opombah) je več tehničnih in organizacijskih
+ zapiskov o internetu. Ureja jih Internet Engineering Task Force (IETF).
+ .
+ Ta paket vključuje naslednje kategorije:
+ .
+  * Stari poskusni RFC-ji  * Nerazporejeni RFC-ji
+
+Package: doc-rfc-std
+Description-md5: 8619ad2fdb380b7a14022bbea43a960b
+Description-sl: Standardni RFC-ji
+ Dokumenti RFC (zahteva po opombah) je več tehničnih in organizacijskih
+ zapiskov o internetu. Ureja jih Internet Engineering Task Force (IETF).
+ .
+ Ta paket vključuje naslednje kategorije:
+ .
+  * Internet Standard
+  * Draft Standard
+
+
+Package: doc-rfc-std-proposed
+Description-md5: 5565c0002a196f665c8b29521d8e5f5e
+Description-sl: Predlagani standardni RFC-ji
+ Dokumenti RFC (zahteva po opombah) je več tehničnih in organizacijskih
+ zapiskov o internetu. Ureja jih Internet Engineering Task Force (IETF).
+ .
+ Ta paket vključuje naslednje kategorije:
+ .
+  * Predlagani standard
+
+Package: doom-wad-shareware
+Description-md5: 305f347cd8b0dcd69bb7c8dc54f4ed8b
+Description-sl: Preizkusne podatkovne datoteke za 3D igro Doom
+ To je preizkusna datoteka doom-wad za igro Doom. Programniki igre Doom,
+ kot sta prboom ali chocolate-doom, potrebujejo datoteko doom-wad. Ta paket
+ lahko uporabite skupaj s paketov, ki vsebuje programnik igre Doom.
+ .
+ V primeru, da ste lastnik ene izmed komericalnih iger Doom, lahko
+ uporabite program game-data-packager za vpis komercialne datoteke doom-wad
+ na vašemu sistemu Debian.
+ .
+ Paket boom-wad lahko uporabite skupaj s programom boom-engine (npr.
+ prboom).
+
+Package: dynamips
+Description-md5: f1dd8e0f097ba22bb9d015f5d1453195
+Description-sl: Posnemovalnik usmerjevalnikov Cisco 7200/3600/3725/3745/2600/1700
+ Dynamips emulates Cisco 7200/3600/3725/3745/2600/1700 Routers on a
+ traditional PC.  You can use dynamips to create labs. It uses IOS Images
+ (which are not part of this package). Of course, this emulator cannot
+ replace a real router.
+ .
+ It is simply a complementary tool to real labs for administrators of Cisco
+ networks or people wanting to pass their CCNA/CCNP/CCIE exams. For a
+ Command Line Interface for dynamips see dynagen or gns3 package.
+
+Package: dynare-matlab
+Description-md5: 90e8fcabb135fcf60e09f0be51774946
+Description-sl: MATLAB support for Dynare
+ Dynare is a software platform for handling a wide class of economic
+ models, in particular dynamic stochastic general equilibrium (DSGE) and
+ overlapping generations (OLG) models. The models solved by Dynare include
+ those relying on the rational expectations hypothesis, wherein agents form
+ their expectations about the future in a way consistent with the model.
+ But Dynare is also able to handle models where expectations are formed
+ differently: on one extreme, models where agents perfectly anticipate the
+ future; on the other extreme, models where agents have limited rationality
+ or imperfect knowledge of the state of the economy and, hence, form their
+ expectations through a learning process. In terms of types of agents,
+ models solved by Dynare can incorporate consumers, productive firms,
+ governments, monetary authorities, investors and financial intermediaries.
+ Some degree of heterogeneity can be achieved by including several distinct
+ classes of agents in each of the aforementioned agent categories.
+ .
+ Dynare offers a user-friendly and intuitive way of describing these
+ models. It is able to perform simulations of the model given a calibration
+ of the model parameters and is also able to estimate these parameters
+ given a dataset. In practice, the user will write a text file containing
+ the list of model variables, the dynamic equations linking these variables
+ together, the computing tasks to be performed and the desired graphical or
+ numerical outputs.
+ .
+ Ta paket je uporaben le za uporabnike, ki imajo na svojem računalniku
+ nameščen MATLAB. Vsebuje izvorno kodo datotek MEX in jih ponovno kodno
+ prevede z uporabo obstoječe namestitve MATLAB.
+
+Package: ebook-dev-alp
+Description-md5: 47b44f304f35958eedd59cfdbfed81b4
+Description-sl: Advanced Linux Programming
+ V primeru, da ste razvijalec sistema GNU/Linux, vam bo ta knjiga pomagala:
+ .
+ Develop GNU/Linux software that works the way users expect it to. Write
+ more sophisticated programs with features such as multiprocessing, multi-
+ threading, interprocess communication, and interaction with hardware
+ devices. Improve your programs by making them run faster, more reliably,
+ and more securely. Understand the peculiarities of a GNU/Linux system,
+ including its limitations, special capabilities, and conventions.
+
+Package: ec2-ami-tools
+Description-md5: e051b2393eebe95d3b08d131f2624840
+Description-sl: Orodja Amazon EC2 AMI
+ Orodja Amazon EC2 AMI so pripomočki ukazne vrstice za pomoč pri
+ vključevanju odtisov naprav Amazon (AMI), ustvarjanju AMI iz obstoječe
+ naprave ali nameščenega nosilca ter pošiljanje vključenega AMI na Amazon
+ S3.
+
+Package: ec2-api-tools
+Description-md5: c6070b98abea6e2884c8b17a227d4362
+Description-sl: Orodja Amazon EC2 API
+ Orodja Amazon EC2 API so pripomočki ukazne vrstice za pomoč pri
+ upravljanju odtisov naprav Amazon (AMI), požarnih zidov in drugih
+ pripomočkov.
+
+Package: esix
+Description-md5: 7dac5366e554fbd3ae3feb620991c6c0
+Description-sl: PDP-8 Engineering and Scientific Interpreter eXtended (razširjen tolmač inženiringa in znanosti)
+ ESI-X je bil prvi znanstveni tolmač shranjenih programov za PDP-8. ESI je
+ 3. avgusta 1966 zasnoval Dave Waks. Bil je ohlapno osnovan na RAND-ovem
+ JOSS-u. Leta 1967 je Bob Supnik program razširil, da je podpiral 8KW
+ pomnilnika in ga poimenoval "ESI-extended" ali ESI-X FOCAL, ki je bil
+ naslednik ESI-X.
+
+Package: exult
+Description-md5: 9c39d06a3da0bc0cfd896163aa1493f5
+Description-sl: Programnik za igro Ultima VII (BG, FOV, SI, SS)
+ Exult je odprtokodni programnik za igranje igre Ultima VII na različnih
+ modernih operacijskih sistemih in okoljih. Igri The Black Gate (vključno s
+ Forge of Virtue) in Serpent Isle (in Silver Seed) je mogoče obe igrati do
+ konca. Nekaj razlik z izvirnimi igrami vseeno obstaja; oglejte si odseka
+ 5.3 in 5.4 pogosto zastavljenih vprašanj.
+ .
+ Čeprav je programnik mogoče uporabiti tudi za druge igre, še nobena takšna
+ igra ni bila napisana. Zato je Exult neuporaben, če nimate kopije iger
+ Ultima VII.
+
+Package: exult-studio
+Description-md5: 7adf4ae2afb678d80d33b4e8483b0a1f
+Description-sl: Orodja za urejanje in igranje iger Exult
+ Paket vsebuje:
+ .
+   exult_studio - An editor for games using the Exult engine.
+   ucc          - Usecode compiler.
+   cmanip       - Simple commandline conf-file manipulator
+   expack       - Command line tool for creating and extracting Flex (.flx)
+                  files. Flex files are used by Ultima 7 to store most
+                  of its data.
+   ipack        - Create/extract image Flex files using the .png format.
+   mklink       - Create "linkdep1" and "linkdep2" files from usecode file.
+   rip          - Rip specific functions out of usecode.
+   splitshp     - Command line tool to take a multi-frame shp file and
+                  split it into its individual frames.
+   shp2pcx      - Command line tool to convert shp files to pcx format;
+                  the shp files can be extracted using expack.
+   textpack     - Convert text file to a Flex file.
+   ucxt         - Tool to translate usecode back into `human readable',
+                  roughly assembly like code. The output can be presented
+                  in a variety of different format, including one which
+                  will, later, have a suitable compiler back into usecode.
+   wuc          - Wody's Usecode Compiler.
+ .
+ Vsi ti programi so še v razvoju.
+ .
+ Vključen je vstavek GIMP, zato lahko z njim urejate in ustvarjate grafiko
+ igre.
+
+Package: faac
+Description-md5: 8b18a84082bc792889453fdbbbdc8391
+Description-sl: Kodirnik zvoka AAC (začelje)
+ Projekt FAAC vključuje AAC kodirnik FAAC in odkodirnik FAAD2. Podpira več
+ vrst predmetov MPEG-4 (LC, Main, LTP, HE, AAC, PS) in vrst datotek (ADTS
+ AAC, surovi AAC, MP4), večkanalno (od)kodiranje brez presledkov kot tudi
+ oznake metapodatkov MP4. Kodeki so združljivi z zvočnimi programi, ki se
+ držijo standardov in uporabljajo enega ali več teh profilov.
+ .
+ Ta paket vsebuje začelje.
+
+Package: fasttracker2
+Description-md5: 3e6d7c8107fa3ff0b02bf9771284fa56
+Description-sl: prehodni preizkzsni paket
+ This is a transitional dummy package for migration from fasttracker2 to
+ ft2-clone.
+ .
+ This package can be safely removed.
+
+Package: festlex-oald
+Description-md5: ce5877e81c377e82a4e6185ed2605182
+Description-sl: Leksikon za program Festival iz slovarja Oxford Advanced Learners' Dictionary
+ Leksikon za program Festival, izpeljan iz slovarja Oxford Advanced
+ Learners' Dictionary.
+ .
+ To je slovar izgovorjave, ki programu Festival pomaga izgovarjati angleško
+ besedilo z britanskim naglasom.
+
+Package: festvox-don
+Description-md5: ec2f52602c5371ea1881eb5978a812ca
+Description-sl: Minimalni moški govorec britanske angleščine za program Festival
+ To je zelo majhna podatkovna zbirka difonov, ki proizvede zvočni izhod
+ slabe kakovosti, vendar poteka zelo hitro.
+ .
+ Zvok, vsebovan v tej podatkovni zbirki je moški govorec britanske
+ angleščine.
+
+Package: festvox-ellpc11k
+Description-md5: ca4569cbd3e340771ccb8c3e576de398
+Description-sl: Moški govorec kastiljske španščine za program Festival
+ To je moški govorec kastiljske španščine za sistem sinteze zvoka Festival.
+
+Package: festvox-rablpc16k
+Description-md5: 99e8d97789e3898957461eff03184d83
+Description-sl: Moški govorec britanske angleščine za program Festival, 16 kHz hitrost vzorčenja
+ To je podatkovna zbirka difonov za program Festival, ki uporablja 16k
+ vzorce za visoko kakovosten zvočni izhod. To je velika podatkovna zbirka
+ (9MB), zato bo Festival pri njeni uporabi besedilo v zvok pretvarjal
+ počasneje. V primeru, da imate malo prostora na disku ali počasen
+ računalnik, boste morda želeli namestiti paket festvox-rablpc8k.
+ .
+ Zvok, vsebovan v tej podatkovni zbirki je moški govorec britanske
+ angleščine.
+
+Package: festvox-rablpc8k
+Description-md5: 9b1f2a5e2a99a3c150568f2f60feb229
+Description-sl: Moški govorec britanske angleščine za program Festival, 8 kHz hitrost vzorčenja
+ To je podatkovna zbirka difonov za program Festival, ki uporablja 8k
+ vzorce za najmanjšo porabo prostora na disku. Pri uporabi te podatkovne
+ zbirke difonov Festival pretvori besedilo v govor hitreje, kot s 16k
+ različico. Vendar kakovost zvoka ni tako dobra.
+ .
+ Zvok, vsebovan v tej podatkovni zbirki je moški govorec britanske
+ angleščine.
+
+Package: foiltex
+Description-md5: aa10e012c22239f8d944e3b72ac84cde
+Description-sl: collection of LaTeX files for making foils and slides
+ FoilTEX je niz datotek sloga LaTeX, ki poenostavi pripravljanje materiala
+ za video ali predstavitev s projektorjem, kot so prosojnice in
+ računalniško projecirane predstavitve.
+ .
+ Uporabniku omogoča upravljanje tipografije in velikosti besedila za prikaz
+ in ustvarjanje materiala glave in noge ter vključuje posebna okolja za
+ znanstvene in matematične predstavitve.
+
+Package: fonts-ipafont-nonfree-jisx0208
+Description-md5: ba5156a4eedcaa21954313a673af76b4
+Description-sl: Japonska pisava TrueType, IPAfont (JISX0208)
+ IPAfont je niz japonskih pisav TrueYpe, ki jih zagotavlja agencija za
+ promocijo informacijske tehnologija, Japonska (IPA NE pomeni mednarodna
+ fonetična abeceda).
+ .
+ It consists of
+  * IPA Gothic
+  * IPA P Gothic
+  * IPA UI Gothic
+  * IPA Mincho
+  * IPA P Mincho
+ .
+ It based on JISX0208 specifications. fonts-ipafont package is based on new
+ JISX0214, has different glyphs on some same characters. So this package
+ contains glyphs that have compatibility with old specifications, such as
+ MS Gothic or Mincho fonts or so. That is important thing for business
+ documents.
+
+Package: fonts-ipafont-nonfree-uigothic
+Description-md5: 03a7dc6459239544a4f1e417fcd2d645
+Description-sl: Japonska pisava TrueType, IPAfont UI Gothic
+ IPAfont je niz japonskih pisav TrueYpe, ki jih zagotavlja agencija za
+ promocijo informacijske tehnologija, Japonska (IPA NE pomeni mednarodna
+ fonetična abeceda).
+ .
+ This package contain UI Gothic, suitable for display GUI menu.
+
+Package: fonts-larabie-deco
+Description-md5: 5419ca91fb7a465cbf0de90cc24ca6bf
+Description-sl: Okrasne pisave z www.larabiefonts.com
+ Okrasne brezplačne pisave TrueType Raya Larabieja. Ta paket vsebuje
+ "okrasne" pisave, ki so odlični za naslovnice in druge dekoracije.
+
+Package: fonts-larabie-straight
+Description-md5: f7a4cbda1fb7ef64c41442ea361d3337
+Description-sl: Običajne pisave z www.larabiefonts.com
+ Uporabne brezplačne pisave TrueType Raya Larabieja. Ta paket vsebuje
+ "običajnejše" pisave, ki so primerne za vsakodnevno uporabo.
+
+Package: fonts-larabie-uncommon
+Description-md5: ab31dce5a406ff21517b985242f4fd34
+Description-sl: Posebne okrasne pisave z www.larabiefonts.com
+ Manj pogoste brezplačne pisave TrueType Raya Larabieja. Ta paket vsebuje
+ pisave, ki so lepe za posebne dekoracije in naslovnice.
+
+Package: fonts-mikachan
+Description-md5: 50f017e9612e8c3ee7e4ec4ec3d078a1
+Description-sl: ročno napisana japonska pisava Truetype
+ This package provides handwritten Japanese truetype font. It contains 7 truetype fonts:
+  * Mikachan      : fixed width
+  * Mikachan-P    : proportional
+  * Mikachan-PB   : proportional and bold
+  * Mikachan-PS   : proportional, some fonts are smaller than Kanji - Hiragana,
+                    Katakana, Arabic numerals and Symbols
+  * Mikachan-puchi: petit and petit bold
+
+
+Package: fonts-xfree86-nonfree
+Description-md5: 776b473d83a6281289d5af0df1b28a34
+Description-sl: ne proste pisave TrueType z XFree86
+ Zbirka pisav TrueType je bila izvirno del distribucije XFree86, ki so
+ licencirani pod pogoji, ki niso združljivi s smernicami prostih programov
+ Debian in se jih zato ne more distribuirati kot del Debiana.
+ .
+ Pisave so:
+  - B&H Luxi Mono
+  - B&H Luxi Sans
+  - B&H Luxi Serif
+ .
+ Read /usr/share/doc/fonts-xfree86-nonfree/README.Debian for instructions
+ on how to register these fonts with XFree86.
+ .
+ Other non-free fonts are in the separate packages t1-xfree86-nonfree and
+ fonts-xfree86-nonfree-syriac.
+
+Package: fonts-xfree86-nonfree-syriac
+Description-md5: 2354dcaa59fa261aafc37695aa2be1a3
+Description-sl: ne proste pisave syriac OpenType z XFee86
+ Zbirka Meltho pisav syriac OpenType je bila izvirno del distribucij
+ XFree86, vendar je licencirana pod pogoji, ki niso združljivi z
+ Debianovimi smernicami prostih programov in jih zato ni mogoče
+ distribuirati kot del Debiana.
+ .
+ Pisave se:
+  - Beth Mardutho East Syriac Adiabene
+  - Beth Mardutho East Syriac Ctesiphon
+  - Beth Mardutho Estrangelo Antioch
+  - Beth Mardutho Estrangelo Edessa
+  - Beth Mardutho Estrangelo Midyat
+  - Beth Mardutho Estrangelo Nisibin
+  - Beth Mardutho Estrangelo Nisibin Outline
+  - Beth Mardutho Estrangelo Quenneshrin
+  - Beth Mardutho Estrangelo Talada
+  - Beth Mardutho Estrangelo TurAbdin
+  - Beth Mardutho Serto Batnan
+  - Beth Mardutho Serto Jerusalem
+  - Beth Mardutho Serto Jerusalem Outline
+  - Beth Mardutho Serto Kharput
+  - Beth Mardutho Serto Malankara
+  - Beth Mardutho Serto Mardin
+  - Beth Mardutho Serto Urhoy
+ .
+ Read /usr/share/doc/fonts-xfree86-nonfree-syriac/README.Debian for
+ instructions on how to register these fonts with XFree86.
+ .
+ Other non-free fonts are in the separate packages fonts-xfree86-nonfree
+ and t1-xfree86-nonfree.
+
+Package: frogatto
+Description-md5: 53484fcad72c00cc156b54442e976787
+Description-sl: 2D ploščadna igra z donkihotsko žabo
+ Frogatto je ploščadna igra v slogu starih arkadnih iger Sega in Nintendo.
+ Svet je prikazan kot presek s strani, vaš junak pa hodi in skače med
+ trdimi ploščadmi ter se medtem bojuje s pošastmi.
+ .
+ Ta paket vsebuje programnik igre.
+
+Package: frogatto-data
+Description-md5: 203cc47d9de23f7f9fc97105832a0c0f
+Description-sl: 2D platformer game starring a quixotic frog (data files)
+ Frogatto je ploščadna igra v slogu starih arkadnih iger Sega in Nintendo.
+ Svet je prikazan kot presek s strani, vaš junak pa hodi in skače med
+ trdimi ploščadmi ter se medtem bojuje s pošastmi.
+ .
+ Ta paket vsebuje podatkovne datoteke igre in glasbe.
+
+Package: game-data-packager
+Description-md5: 2f3c02d0b95a53c507e239b4c4a16acd
+Description-sl: Namestilnik za podatkovne datoteke
+ Various games are divided into two logical parts: engine and data. Often
+ the engine and data are licensed in different ways, such that the engine
+ can be distributed in Debian but the data cannot.
+ .
+ Program game-data-packager je orodje, ki izgradi datoteke .deb za
+ podatkovne datoteke, ki jih ni mogoče distribuirati v Debianu (kot so
+ podatki komercialnih iger).
+ .
+ At the moment, game-data-packager has support for building .deb files for:
+ .
+  * 3 Skulls of the Toltecs
+  * A Mind Forever Voyaging
+  * Amazon: Guardians of Eden
+  * Arthur: the Quest for Excalibur
+  * Arx Fatalis
+  * Baldur's Gate 1 and 2
+  * Ballyhoo
+  * Bargon Attack
+  * Beavis and Butthead in Virtual Stupidity
+  * The Bizarre Adventures of Woodruff and the Schnibble
+  * The Black Cauldron
+  * Blade Runner
+  * Blake Stone and Planet Strike
+  * Blue Force
+  * Border Zone
+  * Castle of Dr. Brain and The Island of Dr. Brain
+  * Broken Sword
+  * Bureaucracy
+  * Chex Quest and Chex Quest 2
+  * Chivalry is Not Dead
+  * Codename: ICEMAN
+  * Commander Keen 4 to 6
+  * Conquests of Camelot: The Search for the Grail
+  * Conquests of the Longbow: The Legend of Robin Hood
+  * Cruise for a Corpse
+  * Cutthroats
+  * Deadline
+  * Descent 1 and 2
+  * The Dig
+  * Discworld 1 and 2
+  * Doom, The Ultimate Doom, Doom 2, The Master Levels for Doom 2, Final Doom
+  * Doom 3 and BFG Edition
+  * Dračí Historie
+  * Dreamweb
+  * Duke Nukem 1 and 3D
+  * Dune 2: Battle for Arrakis
+  * EcoQuest 1 and 2
+  * The Elder Scrolls 3: Morrowind
+  * Elvira 1 and 2
+  * Enchanter
+  * Enclosure
+  * Eye of the Beholder 1 and 2
+  * The Feeble Files
+  * Freddy Pharkas: Frontier Pharmacist
+  * Freespace 2
+  * Full Throttle
+  * Future War (Les Voyageurs du Temps)
+  * Gabriel Knight 1 and 2
+  * Gobliiins 1, 2 and 3
+  * Gold Rush!
+  * The Griffon Legend
+  * Grim Fandango
+  * HacX
+  * Hank's Quest
+  * Heretic, Hexen and Hexen 2
+  * Heroes of Might & Magic 2 and 3
+  * The Hitchhiker's Guide to the Galaxy
+  * Hollywood Hijinx
+  * Hopkins FBI
+  * Hoyle's Official Book of Games
+  * Hugo's House of Horrors, Hugo 2, Hugo 3
+  * Icewind Dale 1 and 2
+  * Indiana Jones and the Fate of Atlantis
+  * Infidel
+  * Inherit the Earth
+  * James Clavell's Shōgun
+  * Jones in the Fast Lane
+  * Journey: Part One of the Golden Age Trilogy
+  * King's Quest 1 to 7
+  * The Labyrinth of Time
+  * Lands of Lore: The Throne of Chaos
+  * Laura Bow 1 and 2
+  * Leather Goddesses of Phobos 1 and 2
+  * Legend of Kyrandiar 1, 2 and 3
+  * Leisure Suit Larry 1, 2, 3, 5 and 6
+  * LGeneral (Panzer General)
+  * Lost in Time
+  * The Lurking Horror
+  * The Manhole
+  * Manhunter 1 and 2
+  * Maniac Mansion and Day of the Tentacle
+  * Mixed-Up Mother Goose & Mixed-Up Fairy Tales
+  * Monkey Island 1, 2 and 3
+  * Moonmist
+  * Mortville Manor
+  * Myst: Masterpiece Edition, Riven, Myst III
+  * Mystery House
+  * The Neverhood
+  * Nippon Safes Inc.
+  * Nord and Bert Couldn't Make Head or Tail of It
+  * Once Upon A Time: Little Red Riding Hood
+  * Pajama Sam series
+  * Personal Nightmare
+  * Phantasmagoria 1 and 2
+  * Planescape: Torment
+  * Planetfall
+  * Plundered Hearts
+  * Police Quest 1 to 4
+  * Quake, Quake 2, Quake 3 Arena, Quake 4, Enemy Territory: Quake Wars
+  * Quest For Glory 1, 2 and 3
+  * Rex Nebular and the Cosmic Gender Bender
+  * Ringworld 1 and 2
+  * Rise of the Triad
+  * Rodney's Funscreen
+  * Sam & Max Hit the Road
+  * Seastalker
+  * Sfinx
+  * The Lost Files of Sherlock Holmes: The Case of the Serrated Scalpel
+  * The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo
+  * Sherlock: The Riddle of the Crown Jewels
+  * Simon the Sorcerer 1, 2 and Puzzle Pack
+  * Slater & Charlie Go Camping
+  * Soltys
+  * Sorcerer
+  * Space Quest 1 to 6
+  * Spellbreaker
+  * Star Wars Jedi Knight 2: Jedi Outcast and Jedi Academy
+  * Starcross
+  * Stationfall
+  * Strife
+  * Suspect
+  * Suspended
+  * Syndicate
+  * System Shock
+  * Super 3D Noah's Ark
+  * Theme Hospital
+  * Tony Tough and the Night of Roasted Moths
+  * Toonstruck
+  * Touché: The Adventures of the Fifth Musketeer
+  * Transport Tycoon Deluxe
+  * Trinity
+  * Troll's Tale
+  * Tyrian
+  * Ultima IV & VII
+  * Unreal, Unreal Gold and Unreal Tournament (1999)
+  * Urban Runner
+  * Ween: The Prophecy
+  * Winnie the Pooh in the Hundred Acre Wood
+  * Wishbringer
+  * Witness
+  * Wolfenstein 3D, Spear of Destiny and Return to Castle Wolfenstein
+  * Wolfenstein: Enemy Territory
+  * X-COM: UFO Defense
+  * Zork 1, 2 and 3, Beyond Zork, Zork Zero, Return to Zork, Zork: The
+    Undiscovered Underground
+  * Zork Grand Inquisitor and Zork Nemesis
+
+
+Package: gentle
+Description-md5: 60adf1620c650c216b9ae673b5d248ca
+Description-sl: Zbirka za načrtovanje genetskega kloniranja
+ GENtle je program za urejanje DNK in aminokislin, upravljanje podatkovnih
+ zbirk, zemljevidov plazmidov, restrikcij in ligacij, poravnav, uvoz
+ podatkov sekvenčnika, računal, prikaz gel slike, PCR in veliko več.
+
+Package: gfaim
+Description-md5: de68bfc4138daa548b56a361621cb948
+Description-sl: Majhen pripomoček, ki vam omogoča hitro iskanje po receptih
+ Gfaim je majhen pripomoček napisan z GTK+, ki vam omogoča enostavno
+ iskanje po receptih s tipkanjem imena sestavine, ki jo želite. Podatkovna
+ zbirka programa vsebuje več kot 10.000 receptov, vendar so napisani v
+ francoščini.
+ .
+ Ta paket vsebuje binarne datoteke za program Gfaim
+
+Package: gfaim-data
+Description-md5: 6fa7b84091b0a35267bf9a607c4f5606
+Description-sl: Pripomoček, ki vam omogoča iskanje po receptih napisanih v francoščini
+ Gfaim je majhen pripomoček napisan z uporabo GTK+, ki vam omogoča
+ enostavno iskanje po receptih s tipkanjem imena sestavine, ki jo želite.
+ Podatkovna zbirka programa vsebuje več kot 10.000 receptov, vendar so
+ napisani v francoščini.
+ .
+ Ta paket vsebuje podatkovno zbirko receptov za program Gfaim
+
+Package: gliese
+Description-md5: 5bcb1833d0c8b16542b0e6dafc0a2f9b
+Description-sl: Podatki o zvezdah iz kataloga Third Catalogue of Nearby Stars
+ Ta paket vsebuje katalog zvezd, ki vsebuje približno 3800 zapisov zvezd,
+ vključno z znanimi zvezdami, ki so od Zemlje oddaljene manj kot 80
+ svetlobnih let. Podatki so vzeti iz kazaloga Third Catalogue of Nearby
+ Stars (začetna izdaja), Gliese in Jahreiss, 1991.
+ .
+ Podatke o zvezdah si lahko ogledate s programom StarPlot, ki je na voljo
+ za Debian, vendar jih je mogoče uporabiti tudi z drugimi astronomskimi
+ programi.
+
+Package: gnuboy-sdl
+Description-md5: d0afd5157478841c7d01808a8cbd6f99
+Description-sl: Binarne datoteke SDL za gnuboy - posnemovalnik Game Boy
+ Gnuboy je prenosljiv posnemovalnik prenosne igralne konzole Game Boy.
+ Omogoča vam igranje večine iger, zasnovanih za Game Boy in Game Boy Color,
+ na vašem PC-ju ali delovni postaji.
+ .
+ Ta paket vsebuje binarne datoteke SDL.
+
+Package: gnuboy-x
+Description-md5: 7dc3af652e412edd9627cb088cd2b13d
+Description-sl: Binarne datoteke X za gnuboy - posnemovalnik Game Boy
+ Gnuboy je prenosljiv posnemovalnik prenosne igralne konzole Game Boy.
+ Omogoča vam igranje večine iger, zasnovanih za Game Boy in Game Boy Color,
+ na vašem PC-ju ali delovni postaji.
+ .
+ Ta paket vsebuje binarne datoteke X.
+
+Package: gsfonts-other
+Description-md5: 0f1ed5e95626a4f2a7a5b131300d7c9b
+Description-sl: Dodatne pisave za tolmač za Ghostscript
+ Ta paket vsebuje različne pisave, vključno s cirilico, kano in pisavami,
+ izpeljanimi iz prostih pisav Hershey z izboljšavami (kot je dodajanje
+ znakov z naglasi) Thomasa Wolffa.
+
+Package: gsl-doc-info
+Description-md5: 3d51809619c4981a2493ba062223593f
+Description-sl: Priročnik znanstvene knjižnice GNU (GSL) v obliki info
+ Ta paket vsebuje datoteke info s priročnikom znanstvene knjižnice GNU
+ (GSL), zbirko rutin na numerično preučevanje.
+ .
+ Priročnik je na voljo tudi v oblikah PostScript in HTML v paketih gsl-ref-
+ psdoc in gsl-ref-html.
+
+Package: gsl-doc-pdf
+Description-md5: 982714ff4fe72ea7c3174796adac0baf
+Description-sl: Priročnik znanstvene knjižnice GNU (GSL) v obliki PDF
+ Ta paket vsebuje datoteko PDF s priročnikom znanstvene knjižnice GNU
+ (GSL), zbirko rutin na numerično preučevanje.
+ .
+ Priročnik je na voljo tudi v oblikah PostScript in HTML v paketih gsl-ref-
+ psdoc in gsl-ref-html.
+
+Package: gstreamer1.0-fdkaac
+Description-md5: 8a6ba7d84515005d9fd880d33f218f45
+Description-sl: GStreamer FDK AAC plugins
+ GStreamer je ogrodje pretakanja predstavnosti, ki je osnovano na grafih
+ filtrov, ki upravljajo s podatki predstavnosti. Programi, ki uporabljajo
+ ta odjemalec, lahko naredijo karkoli od realnočasovne obdelave zvoka do
+ predvajanja videov in karkoli povezanega z predstavnostjo. Njegova
+ arhitektura, osnovana na vstavkih, pomeni, da je nove vrste podatkov ali
+ zmožnosti obdelave mogoče dodati z enostavno namestitvijo novih vstavkov.
+ .
+ Slabi vstavki GStreamer so zbirka vstavkov, ki niso dobri v primerjavi z
+ ostalimi. Lahko so blizu dobre kakovosti, vendar jim morda nekaj manjka -
+ dober pregled kode, dokumentacija, niz preizkusov, vzdrževalec ali obširna
+ uporaba.
+ .
+ This package contains the FDK AAC plugins.
+
+Package: hannah-foo2zjs
+Description-md5: 17bd5e201d7e7be1fb42ba47260c88bd
+Description-sl: Grafični prejemnik strojne programske opreme za paket foo2zjs
+ Hannah je grafični prejemnik strojne programske opreme za paket foo2zjs. S
+ seznama lahko izberete eno ali več strojnih programskih oprem, ki jih
+ Hannah prejme in namesti.
+ .
+ Zavedajte se, da lahko s tem programom namestite tudi neproste programe.
+
+Package: hevea-doc
+Description-md5: b83859940e782488515bf98b94c58c01
+Description-sl: Dokumentacija za program HeVeA
+ HeVeA je zmogljiv in učinkovit prevajalnik iz LaTeX v HTML (in druge
+ oblike).
+ .
+ Ta paket vsebuje vodič in referenčni priročnik v obliki HTML.
+
+Package: hijra-applet
+Description-md5: 67891ab343328c9ed3650b4a24bc7622
+Description-sl: Aplet islamskega koledarja Hijri
+ Aplet sistemske vrstice islamskega koledarja Hijri za GNOME (deluje tudi s
+ KDE), ki uporablja algoritem Hijra avtorja Muyyada Saleha Alsadija, ki ga
+ vsebuje paket python-hijra.
+ .
+ Ta algoritem je osnovan na operacijah celih števil za katere ni napak
+ zaokrožanja (v primeru natančnih podanih koeficientov). Natančnost tega
+ algoritma je osnovana na treh konstantah (p, q in a), kjer je p/q odstotek
+ polnih mesecev [največji skupni delitelj p in q mora biti 1], ki je
+ trenutno nastavljen na 191/360. To pomeni da je v 360 letih 191 mesecev,
+ ki imajo 30 dni. Vsi ostali imajo 29 dni. Konstanta a je zamik.
+
+Package: horae
+Description-md5: 05d8479ad180769d9adf3591fc732120
+Description-sl: Interaktivno grafično obdelovanje in preučevanje podatkov EXAFS
+ ATHENA je interaktivno grafično orodje za obdelovanje in preučevanje
+ podatkov EXAFS. Upravlja večino pogostih upravljanj podatkov, vključno z
+ odstranjevanjem motenj, poravnavo, združevanjem, odstranjevanjem ozadja in
+ Fourierjevimi transformacijami.
+ .
+ ARTEMIS je interaktivno grafično orodje za prileganje podatkov EXAFS z
+ uporabo teoretičnih standardov iz FEFF in izpopolnjenega modeliranja
+ podatkov, skupaj s prilagodljivim predočenjem podatkov in statistično
+ analizo.
+ .
+ HEPHAESTUS je periodni sistem za spektroskopista rentgenske absorbcije.
+ Vsebuje številne pripomočke, vključno s preglednicami absorbcijskih
+ koeficientov in drugimi kemičnimi podatki.
+
+Package: hyperspec
+Description-md5: 51d7bf1353fb0967e7492a36a1d1a585
+Description-sl: Common Lisp ANSI-standard Hyperspec
+ To je namestilnik za standard ANSI za Common Lisp v različici HTML. Te
+ strani so samo informativne in niso veljavne kot referenca, vendar so za
+ vse namene dovolj dobra referenca za vsakodnevno delo.
+
+Package: icc-profiles
+Description-md5: a813c4019da545f80d6c517a0ad94817
+Description-sl: Barvni profili ICC za uporabo s programi, ki se zavedajo barvnih profilov
+ Upravljanje barv omogoča nadzorovano pretvorbo med barvno predstavitvijo
+ vhodnih in izhodnih naprav in barvnih prostorov. Profili ICC so pomemben
+ del upravljanja barv. To so podatkovne datoteke, ki predstavljajo
+ preslikave med barvnim prostorom vhoda in izhoda določene naprave in od
+ naprave agnostičnega prostora povezave profila (PCS) v skladu s standardi,
+ ki jih je določil International Color Consortium (ICC). Ta paket vsebuje
+ številne visoko kakovostne barvne profile ICC za uporabo s programom, ki
+ se zaveda barvnih profilov kot so Scribus, Gimp, CinePaint, Krita ali
+ Digikam. V splošnem je paket uporaben, če je bil program, ki ga uporablja,
+ izgrajen s knjižnico podpore upravljanja barv kot je liblcms1 ali
+ liblcms2-2. V nekaterih programih kot je Scribus morate za uporabo teh
+ profilov eksplicitno omogočiti upravljanje barv.
+
+Package: ifeffit
+Description-md5: 910f116c8e14fa8d361b031b45896347
+Description-sl: Vzajemni program analize XAFS
+ IFEFFIT je interaktivni program za preučevanje XAFS. Združuje
+ visokokakovostne algoritme preučevanja AUTOBK in FEFFIT z grafičnim
+ prikazom podatkov XAFS in splošnim upravljanjem podatkov.
+ .
+ IFEFFIT comes as a command-line program, but the underlying functionality
+ is available as a programming library. The IFEFFIT library can be used
+ from C, Fortran, Tcl, and Perl.
+
+Package: ifeffit-doc
+Description-md5: 23588aa725d1361238e782379bbed9bc
+Description-sl: Primeri in dokumentacija za IFEFFIT
+ Ta paket vsebuje vso razpoložljivo dokumentacijo za IFEFFIT in programe
+ njegovih sestavnih delov. Datoteke primerov za preučevanje podatkov EXAFS
+ so zagotovljeni tudi kot vodiči.
+
+Package: inform
+Description-md5: 7da92c1bba6d10aa7858f4d527a4f5ee
+Description-sl: Kodni prevajalnik za jezik interaktivnega leposlovja Inform (v6)
+ Inform je objektno usmerjen jezik za besedilne pustolovske igre, ki so
+ pogosto znane kot "interaktivno leposlovje". Datoteke zgodbe so prevedene
+ v posebno obliko bajtne kode (Z-code), ki jo lahko poganjajo tolmači
+ Z-code, ki obstajajo za več operacijskih sistemov.
+ .
+ Ta paket vsebuje:
+  * kodni prevajalnik Inform
+  * standardno knjižnico Inform
+  * več uporabniško dostavljenih razširitev in modulov
+
+
+Package: inform-docs
+Description-md5: 578386cf20c0cfac72d8b646ef56e2a5
+Description-sl: Dokumentacija za jezik interaktivnega leposlovja Inform (v6)
+ Inform je objektno usmerjen jezik za besedilne pustolovske igre, ki so
+ pogosto znane kot "interaktivno leposlovje". Datoteke zgodbe so prevedene
+ v posebno obliko bajtne kode (Z-code), ki jo lahko poganjajo tolmači
+ Z-code, ki obstajajo za več operacijskih sistemov.
+ .
+ Ta paket vsebuje:
+  * priročnik Inform Designer (4. izdaja)
+  * Začetniški vodič Inform
+
+
+Package: iozone3
+Description-md5: b437f538cf6e057f5e72b5f466c55cd6
+Description-sl: Orodje za merjenje zmogljivosti diskov in datotečnih sistemov
+ Program Iozone je uporaben za določanje zmogljivosti datotečnih sistemov.
+ Preizkusi se V/I datotečnega sistema za naslednja opravila: branje,
+ pisanje, ponovno branje, ponovno pisanje, branje nazaj, blokovno branje,
+ fread, fwrite, naključno branje/pisanje, različici pread/pwrite.
+
+Package: irpas
+Description-md5: cbde3547a237ae47ecb99af35eddfefb
+Description-sl: Zbirka za napad na protokol usmerjanja Internetwork
+ This package contains a collection of programs used for advanced network
+ operations, testing, and debugging.
+ .
+ CDP in injektorji poti so uporabni v proizvodnem omrežju. Za preizkus
+ varnosti in požarnega zidu je na voljo več drugih orodij. Za splošno
+ skrbniško skriptanje so na voljo orodja kot je netenum.
+ .
+ Like all powerful tools, it could cause great damage, so be careful.
+ .
+     * cdp - Cisco discovery protocol packet sender
+     * igrp - IGRP route injector
+     * ass - Autonomous system scanner
+     * irdp - IRDP sender
+     * irdpresponder - IRDP responder
+     * itrace - ICMP based traceroute
+     * tctrace - TCP SYN based traceroute
+     * protos - ICMP based port scanner
+     * netmask - Asks for netmask via ICMP
+     * file2cable - Dumps any binary file direct to ethernet
+     * dfkaa - Troubleshoot devices formerly known as Ascend (Pipeline, etc)
+     * netenum - Ping scanner designed for shell scripts
+     * hsrp - HSRP failover tester
+     * icmp_redirect - ICMP redirection system
+     * timestamp - ICMP timestamp requester
+     * dhcpx - DHCP server "exerciser"
+
+
+Package: isight-firmware-tools
+Description-md5: 17c00d9904d218c9804739e81a19fe3e
+Description-sl: Orodja za upravljanje s strojno programsko opremo Apple iSight
+ Appleov vgrajen iSight zahteva strojno programsko opremo, ki jo je mogoče
+ razširiti iz gonilnika Mac OS X USBVideo. Ta paket vsebuje orodja za
+ razširjanje strojne programske opreme iz gonilnika in nameščanje pravil
+ udev ter orodja za samodejno nalaganje strojne programske opreme, ko je to
+ potrebno.
+ .
+ Zagotovljeno je tudi priročno orodje za pretvarjanje binarnih datotek
+ strojne programske opreme v obliko Intel HEX. To je lahko kasneje potrebno
+ za uporabo s splošnim nalagalnikom strojne programske opreme, kot je
+ fxload.
+
+Package: jhove
+Description-md5: febe0cb6a55fdf2af5baf3d3965883ac
+Description-sl: Okolje za preverjanje objektov JSTOR/Harvard
+ Perform format-specific identification, validation, and characterization
+ of digital objects.
+
+Package: julius
+Description-md5: 48e528a7ca400f12b7a08b90e5f87dae
+Description-sl: Programnik za prepoznavo govora
+ Julius je visoko zmogljiv programnik za stalno prepoznavo govora z velikim
+ besediščem (LVCSR).
+ .
+ Podpira na N-gram osnovano narekovanje, razčlenjevanje, osnovano na
+ slovnici DFA in na enem prehodu osnovano prepoznavanje posameznih besed.
+ Odvisnosti vsebine telefonov so podprte do triphone. Izvede lahko
+ večmodelno odkodiranje, prepoznavo s sočasno uporabo več LM-jev in AM-jev
+ z enim procesorjem in podpira tudi hitro priklapljanje poljubnih modulov
+ med izvajanjem.
+ .
+ Ta paket vsebuje izvedljive programe, niz orodij, ki so uporabni za
+ izgradnjo prepoznavanja slovnice in nekaterih primerov (kot skript, ki
+ uporablja Julius za izvajanje nekaterih preddoločenih ukazov).
+
+Package: kcemu
+Description-md5: bc08d35934d1ee9cbd3513221f2d6788
+Description-sl: Posnemovalnik KC 85/4
+ KCemu je posnemovalnik domačih računalnikov KC 85 in drugih
+ mikroračunalnikov, osnovanih na Z80, kot so Z1013, LC80, Polycomputer 880
+ in BIC A5105. Posnemovalnik podpira številno dodatno strojno opremo, na
+ primer diskete in razširjene grafične module.
+ .
+ The Debian package does not contain the ROM images required to run the
+ emulated machines. Please refer to the README.Debian file for more
+ information.
+ .
+ Nekaj nadomestnih ključnih besed za odtise ROM: KC85, KC87, LC80, Z1013,
+ A5105, Polycomputer 880
+ .
+ Za izvirne programe in splošne podatke o posnemanih računalniških sistemih
+ si oglejte spletni strani http://www.kc-club.de/ in
+ http://www.kc85emu.de/.
+
+Package: kcemu-common
+Description-md5: 7c3ce18196053e10d189f7b0cb465752
+Description-sl: Posnemovalnik KC 85/4 - skupne datoteke
+ KCemu je posnemovalnik domačih računalnikov KC 85 in drugih
+ mikroračunalnikov, osnovanih na Z80, kot so Z1013, LC80, Polycomputer 880
+ in BIC A5105. Posnemovalnik podpira številno dodatno strojno opremo, na
+ primer diskete in razširjene grafične module.
+ .
+ Ta paket vsebuje datoteke, ki so skupne vsem arhitekturam.
+ .
+ Paket Debian ne vsebuje odtisov ROM, ki so potrebni za poganjanje
+ posnemanih naprav. Za več podatkov si oglejte datoteko README.Debian.
+ .
+ Nekaj nadomestnih ključnih besed za odtise ROM: KC85, KC87, LC80, Z1013,
+ A5105, Polycomputer 880
+ .
+ Za izvirne programe in splošne podatke o posnemanih računalniških sistemih
+ si oglejte spletni strani http://www.kc-club.de/ in
+ http://www.kc85emu.de/.
+
+Package: kic
+Description-md5: 1fb3eb6f319849a5e679555bc413d946
+Description-sl: Izboljšan urejevalnik razporeditev KIC
+ To je interaktivni urejevalnik grafike za risanje vzorcev, ki se
+ uporabljajo za ustvarjanje mask litografijo (proizvajanje integriranih
+ vezij).
+
+Package: kubuntu-restricted-addons
+Description-md5: d1762d094551b6ebca85a1049fc60dc1
+Description-sl: Pogosto uporabljeni omejeni paketi za Kubuntu
+ Ta paket je odvisen od nekaj pogosto uporabljenih paketov v odložiščih
+ Universe in Multiverse.
+ .
+ Tega paketa ne smete namestiti neposredno. Namesto tega namestite paket
+ kubuntu-restricted-extras.
+
+Package: lgeneral
+Description-md5: d3cd338c86e0144cd187ecea33e57ef8
+Description-sl: strateška igra v slogu igre Panzer General
+ LGeneral je potezna strateška igra, ki jo je močno navdihnila igra Panzer
+ General. Igrate lahko posamezne scenarije ali celotne kampanije potezo za
+ potezo proti človeškemu nasprotniku ali računalniku.
+ .
+ Vkopavanje, neenakomerna obramba, obrambni ogenj, stiki presenečenja,
+ predaja, zaloge enot, vpliv vremena, okrepitve in druge možnosti
+ prispevajo k taktični in strateški globini igre.
+ .
+ This is the game engine only. LGeneral requires lgeneral-data or lgc-pg,
+ which converts the game data of the original Panzer General game, to
+ function properly.
+
+Package: lgrind
+Description-md5: e778d4b85d8e66f0ea56130151afaeac
+Description-sl: pretty printer for various programming languages
+ LGrind je poudarjalnik skladnje za veliko število programskih jezikov, ki
+ uporabljajo LaTeX. Je v obliki ločenega predopravilnika.
+ .
+ Ta licenca ni prosta, saj vsebuje člen o prepovedi prodaje. Namesto tega
+ lahko uporabite paket 'listings', ki je prost. Poskuša biti zmožen branja
+ določil jezika programa LGrind. Po drugi strani je izpis programa LGrind
+ lepši, še posebej, če ne uporabljate pisave Monospace.
+
+Package: libclamunrar
+Description-md5: cf0a518e1367a7cff81c7549b758d9d4
+Description-sl: Protivirusni pripomoček za Unix - podpora za unrar
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of this
+ software is the integration with mail servers (attachment scanning). The
+ package provides a flexible and scalable multi-threaded daemon in the
+ clamav-daemon package, a command-line scanner in the clamav package, and a
+ tool for automatic updating via the Internet in the clamav-freshclam
+ package. The programs are based on libclamav11, which can be used by other
+ software.
+ .
+ This metapackage depends on the current libclamunrarX binary library to
+ ensure a new libclamunrarY will be installed after a soname update.
+
+Package: libclamunrar11
+Description-md5: 917a2a3c171f190c6df62b894d3d9153
+Description-sl: Protivirusni pripomoček za Unix - podpora za unrar
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of this
+ software is the integration with mail servers (attachment scanning). The
+ package provides a flexible and scalable multi-threaded daemon in the
+ clamav-daemon package, a command-line scanner in the clamav package, and a
+ tool for automatic updating via the Internet in the clamav-freshclam
+ package. The programs are based on libclamav11, which can be used by other
+ software.
+ .
+ Ta paket vsebuje podporo za stisnjene datoteke RAR in poštne priloge.
+ Podpora bo na voljo, ko bo ta paket nameščen in bo clamd ali krajevni
+ clamscan ponovno zagnan.
+
+Package: libcuneiform-dev
+Description-md5: 7046bf817ffe877db810a190403141b4
+Description-sl: Večjezikovni sistem OCR (razvoje)
+ Cuneiform je sistem OCR. Poleg prepoznave besedila izvede tudi preučevanje
+ razporeditve in prepoznavanje oblike besedila.
+ .
+ Podprti so naslednji jeziki: bolgarščina, katalonščina, češčina, danščina,
+ nizozemščina, angleščina, estonščina, francoščina, nemščina, madžarščina,
+ italijanščina, latviščina, litvanščina, poljščina, portugalščina,
+ romunščina, ruščina, srbščina, slovenščina, španščina, švedščina, turščina
+ in ukrajinščina.
+ .
+ Ta paket vsebuje razvijalske podporne datoteke
+
+Package: libcuneiform0
+Description-md5: ad62c1ac6c378f4a10018e9ddaa3a97c
+Description-sl: Večjezikovni sistem OCR (souporabljena knjižnica)
+ Cuneiform je sistem OCR. Poleg prepoznave besedila izvede tudi preučevanje
+ razporeditve in prepoznavanje oblike besedila.
+ .
+ Podprti so naslednji jeziki: bolgarščina, katalonščina, češčina, danščina,
+ nizozemščina, angleščina, estonščina, francoščina, nemščina, madžarščina,
+ italijanščina, latviščina, litvanščina, poljščina, portugalščina,
+ romunščina, ruščina, srbščina, slovenščina, španščina, švedščina, turščina
+ in ukrajinščina.
+ .
+ Ta paket vsebuje souporabljeno knjižnico.
+
+Package: libfaac-dev
+Description-md5: 34e55010e3673cbd01ecd96cd574d525
+Description-sl: Zvočni kodirnik AAC (razvoj)
+ Projekt FAAC vključuje AAC kodirnik FAAC in odkodirnik FAAD2. Podpira več
+ vrst predmetov MPEG-4 (LC, Main, LTP, HE, AAC, PS) in vrst datotek (ADTS
+ AAC, surovi AAC, MP4), večkanalno (od)kodiranje brez presledkov kot tudi
+ oznake metapodatkov MP4. Kodeki so združljivi z zvočnimi programi, ki se
+ držijo standardov in uporabljajo enega ali več teh profilov.
+ .
+ Ta paket vsebuje razvojne datoteke.
+
+Package: libfaac0
+Description-md5: 8b55ae661ddd6656bba4bebe4dcfb7fa
+Description-sl: Zvočni kodirnik AAC (knjižnica)
+ Projekt FAAC vključuje AAC kodirnik FAAC in odkodirnik FAAD2. Podpira več
+ vrst predmetov MPEG-4 (LC, Main, LTP, HE, AAC, PS) in vrst datotek (ADTS
+ AAC, surovi AAC, MP4), večkanalno (od)kodiranje brez presledkov kot tudi
+ oznake metapodatkov MP4. Kodeki so združljivi z zvočnimi programi, ki se
+ držijo standardov in uporabljajo enega ali več teh profilov.
+ .
+ This package contains the shared library and an extra library with support
+ for Digital Radio Mondiale (DRM).
+
+Package: libfishcamp-dev
+Description-md5: 69bba66afa600749c1d0954495cfc563
+Description-sl: library for cameras made by Fishcamp Engineering - development files
+ This package contains a library for CCD cameras made by Fishcamp
+ Engineering.
+ .
+ Ta paket vsebuje razvojne datoteke.
+
+Package: libfishcamp1
+Description-md5: 452b42a47b896b8da145bcedd5b82d1a
+Description-sl: library for cameras made by Fishcamp Engineering
+ This package contains a library for CCD cameras made by Fishcamp
+ Engineering.
+ .
+ Ta paket vsebuje knjižnico.
+
+Package: libforms-doc
+Description-md5: 2d31b9908f0fcc2b4d5add43805bddf9
+Description-sl: Dokumentacija za knjižnico grafičnega vmesnika XForms
+ Ta paket vsebuje dokumentacijo PDF in HTML za knjižnico XForms.
+
+Package: libifeffit-perl
+Description-md5: e6edcbfcf9214ca2748ec5d9024356e5
+Description-sl: Razširitve Perl za IFEFFIT
+ IFEFFIT je interaktivni program za preučevanje XAFS. Združuje
+ visokokakovostne algoritme preučevanja AUTOBK in FEFFIT z grafičnim
+ prikazom podatkov XAFS in splošnim upravljanjem podatkov.
+ .
+ Ta paket vsebuje vmesnik za IFEFFIT iz Perl.
+
+Package: libinovasdk-dev
+Description-md5: 6d50fd32d9b0ac52e8449bc25ada72c8
+Description-sl: library for cameras made by i.Nova Technologies - development files
+ This package contains the SDK for i.Nova Technologies Cameras.
+ .
+ Ta paket vsebuje razvojne datoteke.
+
+Package: libinovasdk1
+Description-md5: 1265d3bd9ff0492344473f757d24bb8b
+Description-sl: library for cameras made by i.Nova Technologies
+ This package contains the SDK for i.Nova Technologies Cameras.
+ .
+ Ta paket vsebuje knjižnico.
+
+Package: libjulius-dev
+Description-md5: 8340bbfbc66a4126b71d3fc9b418b072
+Description-sl: Programnik za prepoznavo govora (razvojne datoteke)
+ Julius je visoko zmogljiv programnik za stalno prepoznavo govora z velikim
+ besediščem (LVCSR).
+ .
+ Podpira na N-gram osnovano narekovanje, razčlenjevanje, osnovano na
+ slovnici DFA in na enem prehodu osnovano prepoznavanje posameznih besed.
+ Odvisnosti vsebine telefonov so podprte do triphone. Izvede lahko
+ večmodelno odkodiranje, prepoznavo s sočasno uporabo več LM-jev in AM-jev
+ z enim procesorjem in podpira tudi hitro priklapljanje poljubnih modulov
+ med izvajanjem.
+ .
+ Ta paket vsebuje datoteke glave in statične knjižnice za razvoj programov,
+ ki uporabljajo Julius.
+
+Package: libmath-random-perl
+Description-md5: fdd268f5a66d1987e53bdfde50bcb4eb
+Description-sl: Zbirka ustvarjalnikov naključnih števil za Perl
+ Math::Random je Perl predelava C-različice knjižnice randlib, zbirke rutin
+ za ustvarjanje naključnih števil. Ta podpira vse distribucije iz katerih
+ različici Fotran in C ustvarita števila. Nekatere zmožnosti niso
+ vključene, vključno z več pripomočki za ustvarjanje/razdeljevanje in
+ protiteznim ustvarjanjem naključnih števil. Te so skupaj z nekaterimi
+ vključenimi distribucijami zanimive le za zelo napredne uporabnike.
+
+Package: libmyth
+Description-md5: 6233f3ed93adc17b7f228bed7bd3b300
+Description-sl: Skupna koda knjižnice za MythTV in dodatne module (izvajalne datoteke)
+ MythTV zagotavlja poenoten grafični vmesnik za snemanje in ogled
+ televizijskih programov. Za več podrobnosti si oglejte paket mythtv.
+ .
+ Ta paket vsebuje souporabljeno knjižnico libmyth, ki jo uporabljajo
+ različni sestavni deli sistema.
+
+Package: libmyth-dev
+Description-md5: cdf4db9954271d33355a9e9377695b78
+Description-sl: Skupna koda knjižnice za MythTV in dodatne module (razvojne datoteke)
+ MythTV zagotavlja poenoten grafični vmesnik za snemanje in ogled
+ televizijskih programov. Za več podrobnosti si oglejte paket mythtv.
+ .
+ Ta paket vsebuje datoteke, ki so potrebne za razvoj programov, ki
+ uporabljajo knjižnico libmyth (na primer različni dodatki za MythTV)
+
+Package: libmyth-python
+Description-md5: e74f71cc545d1603c31c2c2484b1f629
+Description-sl: Python library to access some MythTV features
+ MythTV zagotavlja poenoten grafični vmesnik za snemanje in ogled
+ televizijskih programov. Za več podrobnosti si oglejte paket mythtv.
+ .
+ This package contains files needed for some python MythTV add-ons.
+
+Package: libmythtv-perl
+Description-md5: abed8d145058a1b7809da40480d7d587
+Description-sl: Perl library to access some MythTV features
+ MythTV zagotavlja poenoten grafični vmesnik za snemanje in ogled
+ televizijskih programov. Za več podrobnosti si oglejte paket mythtv.
+ .
+ Ta paket vsebuje datoteke, ki jih potrebujejo nekateri dodatki Perl
+ MythTV, kot sta nuvexport ali mythrename.pl.
+
+Package: libnccl-dev
+Description-md5: a6573a9c1a486a170188e96ac33fa6c6
+Description-sl: NVIDIA Optimized primitives for inter-GPU communication
+ NCCL (pronounced "Nickel") is a stand-alone library of standard
+ communication routines for GPUs, implementing all-reduce, all-gather,
+ reduce, broadcast, reduce-scatter, as well as any send/receive based
+ communication pattern. It has been optimized to achieve high bandwidth on
+ platforms using PCIe, NVLink, NVswitch, as well as networking using
+ InfiniBand Verbs or TCP/IP sockets. NCCL supports an arbitrary number of
+ GPUs installed in a single node or across multiple nodes, and can be used
+ in either single- or multi-process (e.g., MPI) applications.
+ .
+ Ta paket vsebuje razvojne datoteke.
+
+Package: libopenzwave1.6t64
+Description-md5: 6fd563f922d2ce455d13cf7e75020bb2
+Description-sl: API to use a Z-Wave controller
+ OpenZWave is an open-source, cross-platform library designed to enable
+ anyone to add support for Z-Wave home-automation devices to their
+ applications, without requiring any in depth knowledge of the Z-Wave
+ protocol.
+ .
+ Ta paket vsebuje knjižnico.
+
+Package: libparmetis-dev
+Description-md5: 839c770f477cb92f6af09275d807c484
+Description-sl: Knjižnice razdeljevanja vzporednih grafov in urejanje redkih matrik (razvojne datoteke)
+ ParMetis izračuna razdelke najmanjšega izraza grafov in vzporednih mrež in
+ uredi spremenljivke za najmanjšo zapolnitev z uporabo neposrednih
+ reševalnikov za redke matrike. Vse to naredi vzporedno in lahko tudi
+ učinkovito ponovno razdeli graf ali mrežo katere povezljivost se je
+ spremenila.
+ .
+ Ta paket vsebuje datoteke, potrebne za razvoj programov s ParMetis.
+
+Package: libparmetis4.0
+Description-md5: 17a6686f47a3b63f4328881bffab697b
+Description-sl: Knjižnice razdeljevanja vzporednih grafov in urejanje redkih matrik (souporabljene knjižnice)
+ ParMetis izračuna razdelke najmanjšega izraza grafov in vzporednih mrež in
+ uredi spremenljivke za najmanjšo zapolnitev z uporabo neposrednih
+ reševalnikov za redke matrike. Vse to naredi vzporedno in lahko tudi
+ učinkovito ponovno razdeli graf ali mrežo katere povezljivost se je
+ spremenila.
+ .
+ Ta paket vsebuje souporabljene knjižnice ParMetis.
+
+Package: librhvoice-dev
+Description-md5: 592183b413424a1e0cd8d363a305293b
+Description-sl: RHVoice speech synthesizer - development files
+ RHVoice uses statistical parametric synthesis. It relies on existing open
+ source speech technologies (mainly HTS and related software).
+ .
+ Voices are built from recordings of natural speech. They have small
+ footprints, because only statistical models are stored on users'
+ computers. And though the voices lack the naturalness of the synthesizers
+ which generate speech by combining segments of the recordings themselves,
+ they are still very intelligible and resemble the speakers who recorded
+ the source material.
+ .
+ Initially, RHVoice could speak only Russian. Now it also supports English,
+ Esperanto and Georgian. In theory, it is possible to implement support for
+ other languages, if all the necessary resources can be found or created.
+ .
+ Ta paket vsebuje razvojne datoteke.
+
+Package: libricohcamerasdk
+Description-md5: d495557e05f9003007d774a153081012
+Description-sl: library for Ricoh cameras
+ This package contains libraries to use Ricoh cameras. Particularly Pentax
+ cameras in PTP mode can be controlled with the corresponding INDI driver.
+ .
+ Ta paket vsebuje knjižnico.
+
+Package: libsbig-dev
+Description-md5: f41c042013d0f7b67dc36c844acd6798
+Description-sl: SBIG Universal Library Driver - development files
+ Uradni splošni gonilnik knjižnice Santa Barbra Instrument Group (SBIG)
+ uporabljajo programi za dostop do vzporednih vrat, USB in Ethernet
+ različic CCD kamer ter koles filtrov, vključno s fotoaparati SBIG
+ ST-7/8/9/10/2K, ST-L in ST-402/1603/3200. Strojna programska oprema je
+ vključena za vse razrede fotoaparatov.
+ .
+ This package includes development headers.
+
+Package: libsbig4
+Description-md5: ea06ab17aeb3a3ce04df8ba13666baaa
+Description-sl: Splošni gonilnik knjižnice Santa Barbra Instrument Group (SBIG)
+ Uradni splošni gonilnik knjižnice Santa Barbra Instrument Group (SBIG)
+ uporabljajo programi za dostop do vzporednih vrat, USB in Ethernet
+ različic CCD kamer ter koles filtrov, vključno s fotoaparati SBIG
+ ST-7/8/9/10/2K, ST-L in ST-402/1603/3200. Strojna programska oprema je
+ vključena za vse razrede fotoaparatov.
+
+Package: libstar-parser-perl
+Description-md5: d54e47338677ec829b7e74424901633b
+Description-sl: S STAR združljiv razčlenjevalnik podatkovnih datotek za Perl
+ Ta distribucija vsebuje module Perl za razčlenjevanje s STAR združljivih
+ podatkovnih datotek in slovarjev, na primer podatkovnih datotek in
+ slovarjev CIF ali mmCIF. Čeprav ta orodja niso omejena na datoteke CIF ali
+ mmCIF, ne dovolijo prisotnosti ugnezdenih zank.
+ .
+ V tej distribuciji so vključeni naslednji moduli:
+ .
+    STAR::Parser
+    STAR::DataBlock
+    STAR::Dictionary
+    STAR::Writer
+    STAR::Checker
+    STAR::Filter
+
+
+Package: libtriangle-1.6
+Description-md5: 02f51b517c8922c4b424f7d85dc151f6
+Description-sl: High-quality 2-D mesh generator -- shared libraries
+ Triangle je knjižnica/program za mreženje 2-D površin in mnogoterosti.
+ .
+ Ta paket vsebuje souporabljeno knjižnico.
+
+Package: libtriangle-dev
+Description-md5: d16186b7d50390fd7e2a6d585d4044b5
+Description-sl: High-quality 2-D mesh generator -- development files
+ Triangle je knjižnica/program za mreženje 2-D površin in mnogoterosti.
+ .
+ Ta paket vsebuje statično knjižnico, glave in simbolno povezavo
+ souporabljene knjižnice, ki so potrebne za kodno prevajanje programov s
+ knjižnico triangle.
+
+Package: libttspico-data
+Description-md5: bfcf6e28cfddab51239c192d23e97393
+Description-sl: TTS majhnega prstnega odtisa (lingware)
+ The SVOX Pico engine is a software speech synthesizer for German, English
+ (GB and US), Spanish, French and Italian.
+ .
+ SVOX proizvaja jasen in razločen govor, ki ga omogočajo algoritmi Hidden
+ Markov Model (HMM).
+ .
+ Ta paket vsebuje jezikovne datoteke (lingware).
+
+Package: libttspico-dev
+Description-md5: 15cad2e78f025cf33a9d80ef1f97a36c
+Description-sl: TTS majhnega prstnega odtisa (razvojne datoteke)
+ The SVOX Pico engine is a software speech synthesizer for German, English
+ (GB and US), Spanish, French and Italian.
+ .
+ SVOX proizvaja jasen in razločen govor, ki ga omogočajo algoritmi Hidden
+ Markov Model (HMM).
+ .
+ Ta paket vsebuje datoteke, potrebne za razvoj.
+
+Package: libttspico-utils
+Description-md5: a3a665a93c1772196169b02fd111b8c5
+Description-sl: TTS majhnega prstnega odtisa (binarne datoteke)
+ The SVOX Pico engine is a software speech synthesizer for German, English
+ (GB and US), Spanish, French and Italian.
+ .
+ SVOX proizvaja jasen in razločen govor, ki ga omogočajo algoritmi Hidden
+ Markov Model (HMM).
+ .
+ This package contains binary files including pico2wave.
+
+Package: libttspico0t64
+Description-md5: 1553bd5b049c4d4386292cefabdf0ea3
+Description-sl: TTS majhnega prstnega odtisa (knjižnica)
+ The SVOX Pico engine is a software speech synthesizer for German, English
+ (GB and US), Spanish, French and Italian.
+ .
+ SVOX proizvaja jasen in razločen govor, ki ga omogočajo algoritmi Hidden
+ Markov Model (HMM).
+ .
+ Ta paket vsebuje knjižnico.
+
+Package: libvideo-info-perl
+Description-md5: 644e90d63ab098c2420d59e2008c51ea
+Description-sl: Modul Perl za proučevanje video datotek
+ Video::Info je modul za delo z video datotekami. Odpre lahko datoteke in
+ določi njihovo najverjetnejšo vrsto in nato izvleče podatke, kot so
+ dolžina predvajanja, bitna hitrost, ločljivost, mere, itd.
+ .
+ Trenutno obstaja podpora za MPEG, AVI, ASF in RIFF. V modulu izvornega
+ projekta obstaja podpora za Quicktime, ki je bila v Debianu onemogoča, ker
+ ni trenutnega paketa za OpenQuicktime. V primeru, da želite videti podporo
+ za to, pošljite poročilo o hrošču.
+
+Package: libydpdict2
+Description-md5: 6f0652e06ffab3cfa83214c12b0e9cd9
+Description-sl: library for reading Collins dictionaries
+ Ta knjižnica programom omogoča enostavno branje slovarjev, ki jih razširja
+ Young Digital Planet (angleško-poljski/poljsko-angleški in/ali nemško-
+ poljski/poljsko-nemški).
+ .
+ Ta paket vsebuje le knjižnico, vendar ne vsebuje slovarjev. Za njeno
+ uporabo boste potrebovali kopijo slovarja iz YDP in program, ki lahko to
+ knjižnico uporabi (na primer ydpdict).
+
+Package: libydpdict2-dev
+Description-md5: 7528115c0533b0012a891c25dc9041d6
+Description-sl: library for reading Collins dictionaries - development files
+ Ta knjižnica programom omogoča enostavno branje slovarjev, ki jih razširja
+ Young Digital Planet (angleško-poljski/poljsko-angleški in/ali nemško-
+ poljski/poljsko-nemški).
+ .
+ Ta paket vsebuje le datoteke, potrebne za kodno prevajanje programov, ki
+ uporabljajo knjižnico libydpdict.
+
+Package: lmbench
+Description-md5: 16ef9cd071706d88856f52a3f554eced
+Description-sl: Pripomočki za merjenje zmogljivosti sistemov UNIX
+ LMbench je zbirka pripomočkov za preizkus zmogljivosti sistema UNIX, ki
+ proizvede podrobne rezultate, kot tudi orodja za njihovo obdelovanje.
+ Vključuje zbirko mikropreizkusov, ki merijo nekaj osnovnih metrik
+ operacijskega sistema in strojne opreme:
+ .
+  * file reading and summing
+  * memory bandwidth while reading, writing and copying
+  * copying data through pipes
+  * copying data through Unix sockets
+  * reading data through TCP/IP sockets
+
+
+Package: lmbench-doc
+Description-md5: f1340ee554d5fbfef0994460bf33bee6
+Description-sl: Dokumentacija za zbirko merjenja zmogljivosti LMbench
+ Ta paket vsebuje vso dokumentacijo, vključeno z zbirko za merjenje
+ zmogljivosti LMbench. To vključuje:
+ .
+  * references to published articles
+  * presentations made by lmbench authors
+  * the rebuttal of an article claiming lmbench is flawed
+
+
+Package: lubuntu-restricted-addons
+Description-md5: 3ca2daeb7a1420404b38ae87c79c29cb
+Description-sl: Pogosto uporabljeni omejeni paketi za Lubuntu
+ Ta paket je odvisen od nekaterih pogosto uporabljenih paketov v odložiščih
+ Lubuntu Universe in Multiverse.
+ .
+ Tega paketa ne smete namestiti neposredno. Namesto tega namestite paket
+ lubuntu-restricted-extras.
+
+Package: madfuload
+Description-md5: 92a489a05411bffa4e037ace27fbdcb7
+Description-sl: Nalagalnik strojne programske opreme za zvočne naprave M-Audio DFU
+ Ta paket vam omogoča uporabo zvočnih naprav M-Audio DFU na Linuxu. Te
+ naprave zahtevajo prejem strojne programske opreme, preden lahko sistemski
+ gonilnik (na primer snd-usb-audio, ki je v sklopu programa ALSA) do njih
+ dostopa.
+ .
+ Supported devices:
+  - Sonica
+  - Ozone
+  - MobilePre USB (some newer models work without the loader)
+  - Transit
+  The loader is not required for some newer models of the above devices, like the Ozone Academic.
+
+
+Package: mame-extra
+Description-md5: 35baa04e70a76083d21e320c835f737b
+Description-sl: Additional files for the Multiple Arcade Machine Emulator (MAME)
+ MAME je posnemovalnik strojne opreme: deluje kot številne arkadne naprave.
+ Ta program ni igra, vendar lahko z odtisi ROM izvaja celoten sistem starih
+ arkadnih iger. Ti ROM-i so avtorsko zaščiteni. V večini primerov jih ni
+ legalno uporabljati, če niste lastnik arkadnega stroja.
+ .
+ This package provides additional data files for the MAME arcade emulator:
+  nplayers.ini -- provide information about multi-player support
+  history.dat -- provides a brief historical overview of each game
+
+
+Package: manpages-posix
+Description-md5: bebba789d7556a5d3bb41a68c74536d8
+Description-sl: Strani priročnik o uporabi sistema POSIX
+ Ta paket vsebuje strani priročnika za pripomočke POSIX in jih obdrži v
+ odseku 1 (z razširitvijo 1posix) spletnega priročnika.
+
+Package: manpages-posix-dev
+Description-md5: 0df35d08fd332d72043312433a0bd2b2
+Description-sl: Strani priročnika o uporabi sistema POSIX za razvoj
+ Ta strani man opišejo programerski vmesnik POSIX, vključno s tema dvema odsekoma:
+    7 = datoteke glave POSIX (z razširitvijo 7posix)
+    3 = klici knjižnice POSIX (z razširitvijo 3posix)
+
+
+Package: matlab-gdf
+Description-md5: e6b3ac7570a50044c7b97d7c7cb7550c
+Description-sl: Knjižnica VI za GDF -- vmesnik Matlab
+ GDF (splošna oblika podatkov za biosignale) je namenjena za zagotavljanje
+ splošne shrambe za biosignale kot so EEG, ECG, MEG itd.
+ .
+ Ta paket izgradi vezave Matlab za GDF ob času namestitve. Ta paket je
+ odvisen od Matlab -- komercialnega programa, ki ga morate dobiti in
+ namestiti ločeno.
+
+Package: matlab-support
+Description-md5: 043f431da8db6fad67528f4d0d2174d2
+Description-sl: vključitev v distribucijo za krajevne namestitve MATLAB
+ Ta paket ne namesti MATLAB. Obstoječo namestitev MATLAB nastavi tako, da
+ se bolj udobno vključi v namestitev Debiana.
+ .
+ Trenutno zagotavlja /usr/bin/matlab skozi sistem alternatives in ponuja
+ način obhoda nezdružljivosti med knjižnicami, ki so vključene v MATLAB in
+ sistemskimi knjižnicami in zagotavlja pripomoček pomoči, ki naj bi ga
+ uporabili drugi paketi za kodno prevajanje razširitev MEX.
+ .
+ Ta paket namestite, če želite, da se vaša namestitev MATLAB obnaša kot
+ običajen paket Debian. Drugi paketi so lahko od tega odvisni, če namestijo
+ kodo MATLAB, na primer za kodno prevajanje razširitev MEX.
+
+Package: mbrola
+Description-md5: ec127a8485012c20e1be3f87d968badb
+Description-sl: Večjezikovni programski sintetizator zvoka
+ Mbrola je fonemizator Thierrya Dutoita za večjezikovno sintezo govora.
+ Različne podatkovne zbirke diphone so v različnih paketih, vendar morajo
+ biti uporabljene z in le z Mbrolo zaradi licence. Preberite si datoteko z
+ avtorskimi pravicami za podrobnosti.
+ .
+ Mbrola ne zagotavlja polnega TTS-ja. Je sintetizator zvoka osnovan na
+ koncentraciji difonov. Kot vhod vzame seznam fonemov skupaj s podrobnostmi
+ prosodic (trajanje fonemov in koščkom podoben linearen opis višine) in
+ proizvede vzorce govora na 16 bitih (linearno) ob frekvenci vzorčenja
+ podatkovne zbirke diphone.
+ .
+ Mbrola uporabite skupaj s Freephone, cicero ali espeak za celoten
+ besedilo-v-govor v angleščini
+
+Package: mbrola-af1
+Description-md5: 45c04f2896fe6010eee87e59c402611f
+Description-sl: Moški glas afrikaanščine za program Mbrola
+ Ta paket vsebuje podatkovno zbirko diphone afrikaanščine v okviru projekta
+ MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja moški glas afrikaanščine za uporabo s programom MBROLA.
+
+Package: mbrola-br1
+Description-md5: b26a18b65acf95c11ed143d760a8a5de
+Description-sl: Moški glas brazilske portugalščine za program Mbrola
+ Ta paket vsebuje podatkovno zbirko diphone brazilske portugalščine v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja moški glas brazilske portugalščine za uporabo s programom
+ MBROLA.
+
+Package: mbrola-br2
+Description-md5: 07a559b098e64138cc76a762c8c3db5d
+Description-sl: Brazilian Portuguese female voice for Mbrola
+ Ta paket vsebuje podatkovno zbirko diphone brazilske portugalščine v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ It provides a Brazilian Portuguese female voice to be used with the MBROLA
+ program.
+
+Package: mbrola-br3
+Description-md5: b26a18b65acf95c11ed143d760a8a5de
+Description-sl: Moški glas brazilske portugalščine za program Mbrola
+ Ta paket vsebuje podatkovno zbirko diphone brazilske portugalščine v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja moški glas brazilske portugalščine za uporabo s programom
+ MBROLA.
+
+Package: mbrola-br4
+Description-md5: 07a559b098e64138cc76a762c8c3db5d
+Description-sl: Brazilian Portuguese female voice for Mbrola
+ Ta paket vsebuje podatkovno zbirko diphone brazilske portugalščine v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ It provides a Brazilian Portuguese female voice to be used with the MBROLA
+ program.
+
+Package: mbrola-cr1
+Description-md5: b755a2e96548919c7f3c3e13aa4142b5
+Description-sl: Moški glas hrvaščine za program Mbrola
+ Ta paket vsebuje podatkovno zbirko diphone hrvaščine v okviru projekta
+ MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja moški glas hrvaščine za uporabo s programom MBROLA.
+
+Package: mbrola-cz1
+Description-md5: e7779fb190cbea27684574069e8e1a96
+Description-sl: Czech female voice for Mbrola
+ Ta paket vsebuje podatkovno zbirko diphone češčine v okviru projekta
+ MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ It provides a Czech female voice to be used with the MBROLA program.
+
+Package: mbrola-cz2
+Description-md5: e6994379f70599765b4ff74b098db346
+Description-sl: Moški glas češčine za program Mbrola
+ Ta paket vsebuje podatkovno zbirko diphone češčine v okviru projekta
+ MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja moški glas češčine za uporabo s programom MBROLA.
+
+Package: mbrola-de1
+Description-md5: 801390ff97d6389517ac334fe6fc5a53
+Description-sl: Ženski glas nemščine za program Mbrola
+ Ta paket vsebuje podatkovno zbirko diphone namščine v okviru projekta
+ MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja ženski glas nemščine za uporabo s programom MBROLA.
+
+Package: mbrola-de2
+Description-md5: 07164727bc69bc13aae1272a5ba0313e
+Description-sl: Moški glas nemščine za program Mbrola
+ Ta paket vsebuje podatkovno zbirko diphone namščine v okviru projekta
+ MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja moški glas nemščine za uporabo s programom MBROLA.
+
+Package: mbrola-de3
+Description-md5: 801390ff97d6389517ac334fe6fc5a53
+Description-sl: Ženski glas nemščine za program Mbrola
+ Ta paket vsebuje podatkovno zbirko diphone namščine v okviru projekta
+ MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja ženski glas nemščine za uporabo s programom MBROLA.
+
+Package: mbrola-de4
+Description-md5: 07164727bc69bc13aae1272a5ba0313e
+Description-sl: Moški glas nemščine za program Mbrola
+ Ta paket vsebuje podatkovno zbirko diphone namščine v okviru projekta
+ MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja moški glas nemščine za uporabo s programom MBROLA.
+
+Package: mbrola-de5
+Description-md5: 801390ff97d6389517ac334fe6fc5a53
+Description-sl: Ženski glas nemščine za program Mbrola
+ Ta paket vsebuje podatkovno zbirko diphone namščine v okviru projekta
+ MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja ženski glas nemščine za uporabo s programom MBROLA.
+
+Package: mbrola-de6
+Description-md5: 1e78699771261beaa8ccaff7c69c5999
+Description-sl: Moški glas nemščine za program Mbrola
+ Ta paket vsebuje podatkovno zbirko diphone namščine v okviru projekta
+ MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ DE6 je moški nemški glas diphone ustvarjen v sklopu EU projekta NECA
+ (IST-2000-28580) s ciljem primernosti za prilagodljivo sintezo izraznega
+ govora.
+ .
+ Glavna zmožnost DE6 je vsebovanje celotnega niza diphone treh različnih
+ kakovosti zvoka, ki jih določa njihov vokalni trud, nizek trud ("mehak
+ glas"), srednji trud ("običajen ali modalni glas") in visok trud ("glasen
+ glas").
+ .
+ This diphone database was recorded jointly by the Institute of Phonetics
+ at Saarland University and by the Language Technology Department at DFKI,
+ Saarbrücken.
+
+Package: mbrola-de7
+Description-md5: 801390ff97d6389517ac334fe6fc5a53
+Description-sl: Ženski glas nemščine za program Mbrola
+ Ta paket vsebuje podatkovno zbirko diphone namščine v okviru projekta
+ MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja ženski glas nemščine za uporabo s programom MBROLA.
+
+Package: mbrola-en1
+Description-md5: 58c38183cd5c4dc361473ff1f2cd9fa2
+Description-sl: Moški glas britanske angleščine za program Mbrola
+ Ta paket vsebuje angleško podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Ta paket vsebuje moški glas britanske angleščine (znan kot "Rogerjev
+ glas") za uporabo s programom Mbrola. Izgrajen je bil z izvirnimi difoni
+ Roger, ki jih je na voljo dal CSTR, Univerza v Edinburghu kot del
+ njihovega splošnega sistema besedilo v govor Festival.
+ .
+ http://www.cstr.ed.ac.uk/projects/festival.html
+ .
+ Vhodne datoteke uporabljajo fonetski zapis SAMPE v drugih podatkovnih
+ zbirkah Mbrola. Ta paket zagotavlja tudi dopisništvo s fonetskim zapisom
+ MRPA, ki ga uporablja izvirna distribucija Rogerjevega glasu v sistemu
+ Festival TTS.
+
+Package: mbrola-es1
+Description-md5: 07cf405b5fb975b987d7cbce7c4e4736
+Description-sl: Moški glas španščine za program Mbrola
+ Ta paket vsebuje špansko podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja španski moški glas za uporabo s programom MBROLA.
+ .
+ Vhodne datoteke uporabljajo zapis SAMPA (Fonetična abeceda SAM) kot ga
+ priporoča projekt EEC-SAM, a z nekaj manjšimi spremembami.
+
+Package: mbrola-es2
+Description-md5: 7a18739caaba1a06994ac7cc36e1538d
+Description-sl: Moški glas španščine za program Mbrola
+ Ta paket vsebuje špansko podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja španski moški glas za uporabo s programom MBROLA.
+
+Package: mbrola-es3
+Description-md5: c83f0ee836fa94fb12e97110470d46ad
+Description-sl: Spanish female voice for Mbrola
+ Ta paket vsebuje špansko podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ It provides a Spanish female voice to be used with the MBROLA program.
+
+Package: mbrola-es4
+Description-md5: 7a18739caaba1a06994ac7cc36e1538d
+Description-sl: Moški glas španščine za program Mbrola
+ Ta paket vsebuje špansko podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja španski moški glas za uporabo s programom MBROLA.
+
+Package: mbrola-fr1
+Description-md5: b37eb4aba52be6b911e48d956ec3f4eb
+Description-sl: Moški glas francoščine za program Mbrola
+ Ta paket vsebuje francosko podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja francoski moški glas za uporabo s programom MBROLA.
+
+Package: mbrola-fr2
+Description-md5: cc9e699394e2d985dbc0cc85fab2915b
+Description-sl: Ženski glas francoščine za program Mbrola
+ Ta paket vsebuje francosko podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja ženski francoski glas za uporabo s programom MBROLA.
+
+Package: mbrola-fr3
+Description-md5: b37eb4aba52be6b911e48d956ec3f4eb
+Description-sl: Moški glas francoščine za program Mbrola
+ Ta paket vsebuje francosko podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja francoski moški glas za uporabo s programom MBROLA.
+
+Package: mbrola-fr4
+Description-md5: 31cce834a748193d3400d7a43b5ae082
+Description-sl: Ženski glas francoščine za program Mbrola
+ Ta paket vsebuje francosko podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja ženski francoski glas za uporabo s programom MBROLA.
+ .
+ Vhodne datoteke uporabljajo zapis SAMPA (fonetska abeceda SAM) kot jo
+ priporoča projekta EEC-SAM.
+
+Package: mbrola-fr6
+Description-md5: b37eb4aba52be6b911e48d956ec3f4eb
+Description-sl: Moški glas francoščine za program Mbrola
+ Ta paket vsebuje francosko podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja francoski moški glas za uporabo s programom MBROLA.
+
+Package: mbrola-gr1
+Description-md5: e70bf630f8b28711efeaa42209ba1574
+Description-sl: Moški glas grščine za program Mbrola
+ Ta paket vsebuje grško podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja grški moški glas za uporabo s programom MBROLA.
+
+Package: mbrola-gr2
+Description-md5: e70bf630f8b28711efeaa42209ba1574
+Description-sl: Moški glas grščine za program Mbrola
+ Ta paket vsebuje grško podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja grški moški glas za uporabo s programom MBROLA.
+
+Package: mbrola-hu1
+Description-md5: 35110cb8e60a53be301d5873215deee5
+Description-sl: Moški glas madžarščine za program Mbrola
+ Ta paket vsebuje madžarsko podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja madžarski moški glas za uporabo s programom MBROLA.
+
+Package: mbrola-id1
+Description-md5: e3e6089af0d2686e42d50345f6c1a0af
+Description-sl: Moški glas indonezijščine za program Mbrola
+ Ta paket vsebuje indonezijsko podatkovno zbirko diphone, ki je
+ zagotovljena v okviru projekta MBROLA. Oglejte si
+ http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja indonezijski moški glas za uporabo s programom MBROLA.
+
+Package: mbrola-it1
+Description-md5: 8bcdff42357114709c8947080764aa67
+Description-sl: Moški glas italijanščine za program Mbrola
+ Ta paket vsebuje italijansko podatkovno zbirko diphone, ki je zagotovljena
+ v okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja italijanski moški glas za uporabo s programom MBROLA.
+
+Package: mbrola-it2
+Description-md5: b6d4bc9b08c185cf14098f63aff7de0b
+Description-sl: Ženski glas italijanščine za program Mbrola
+ Ta paket vsebuje italijansko podatkovno zbirko diphone, ki je zagotovljena
+ v okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja italijanski ženski glas za uporabo s programom MBROLA.
+
+Package: mbrola-it3
+Description-md5: 8bcdff42357114709c8947080764aa67
+Description-sl: Moški glas italijanščine za program Mbrola
+ Ta paket vsebuje italijansko podatkovno zbirko diphone, ki je zagotovljena
+ v okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja italijanski moški glas za uporabo s programom MBROLA.
+
+Package: mbrola-it4
+Description-md5: b6d4bc9b08c185cf14098f63aff7de0b
+Description-sl: Ženski glas italijanščine za program Mbrola
+ Ta paket vsebuje italijansko podatkovno zbirko diphone, ki je zagotovljena
+ v okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja italijanski ženski glas za uporabo s programom MBROLA.
+
+Package: mbrola-la1
+Description-md5: 5f084b8558f61ee6c618db76625952ac
+Description-sl: Moški glas latinščine za program Mbrola
+ Ta paket vsebuje latinsko podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja latinski moški glas za uporabo s programom MBROLA.
+
+Package: mbrola-nl1
+Description-md5: 34360fda73cbdf6939e4333f34d1b6a3
+Description-sl: Moški glas nizozemščine za program Mbrola
+ Ta paket vsebuje nizozemsko podatkovno zbirko diphone, ki je zagotovljena
+ v okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja nizozemski moški glas za uporabo s programom MBROLA.
+
+Package: mbrola-nl2
+Description-md5: 34360fda73cbdf6939e4333f34d1b6a3
+Description-sl: Moški glas nizozemščine za program Mbrola
+ Ta paket vsebuje nizozemsko podatkovno zbirko diphone, ki je zagotovljena
+ v okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja nizozemski moški glas za uporabo s programom MBROLA.
+
+Package: mbrola-nl3
+Description-md5: 6af3b2bca20c81f899787d454bbad2d6
+Description-sl: Dutch female voice for Mbrola
+ Ta paket vsebuje nizozemsko podatkovno zbirko diphone, ki je zagotovljena
+ v okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ It provides a Dutch female voice to be used with the MBROLA program.
+
+Package: mbrola-pl1
+Description-md5: 800a36ae67e74cef402416686a5bbacb
+Description-sl: Moški glas polščine za program Mbrola
+ Ta paket vsebuje poljsko podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja poljski ženski glas za uporabo s programom MBROLA.
+
+Package: mbrola-pt1
+Description-md5: 3b749adcb9cf977b5d3a30c08e23ac17
+Description-sl: Moški glas evropske portugalščine za program Mbrola
+ Ta paket vsebuje podatkovno zbirko diphone evropske portugalščine, ki je
+ zagotovljena v okviru projekta MBROLA. Oglejte si
+ http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja ženski glas evropske portugalščine za uporabo s programom
+ MBROLA.
+
+Package: mbrola-ro1
+Description-md5: 124ce3cd7a12c8af23a5236549e6b23a
+Description-sl: Moški glas romunščine za program Mbrola
+ Ta paket vsebuje romunsko podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja romunski moški glas za uporabo s programom MBROLA.
+
+Package: mbrola-sw1
+Description-md5: f70877a2eb2fe44fab91f86a0409f8ab
+Description-sl: Moški glas švedščine za program Mbrola
+ Ta paket vsebuje švedsko podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja švedski moški glas za uporabo s programom MBROLA.
+
+Package: mbrola-sw2
+Description-md5: 099764935e3b8af0377da2d8549c63f4
+Description-sl: Ženski glas švedščine za program Mbrola
+ Ta paket vsebuje švedsko podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja švedski ženski glas za uporabo s programom MBROLA.
+
+Package: mbrola-us1
+Description-md5: 0c2453a5093091da912d8ba28dd38a5b
+Description-sl: Ženski glas ameriške angleščine za program Mbrola
+ Ta paket vsebuje angleško podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja ženski glas ameriške angleščine za uporabo s programom MBROLA.
+
+Package: mbrola-us2
+Description-md5: 3e3d47046d4b95ec1b81c4fe28d72723
+Description-sl: Moški glas ameriške angleščine za program Mbrola
+ Ta paket vsebuje angleško podatkovno zbirko diphone, ki je zagotovljena v
+ okviru projekta MBROLA. Oglejte si http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja moški glas ameriške angleščine za uporabo s programom MBROLA.
+
+Package: mbrola-us3
+Description-md5: d2e9d6051294e7b58ec26187330d0832
+Description-sl: Moški glas ameriške angleščine za program Mbrola
+ Ta paket vsebuje podatkovno zbirko ameriške angleščine diphone, ki je
+ zagotovljena v okviru projekta MBROLA. Oglejte si
+ http://tcts.fpms.ac.be/synthesis/
+ .
+ Zagotavlja moški glas ameriške angleščine za uporabo s programom MBROLA.
+
+Package: midisport-firmware
+Description-md5: b09d9dd3d95aaa25b8a3540b0a66a59d
+Description-sl: Nalagalnik strojne programske opreme za MidiSport naprave M-Audio
+ Ti paketi vam omogočajo uporabo vmesnikov USB Midi in Audio podjetja
+ M-Audio z Linuxom. Te naprave zahtevajo prejem strojne programske opreme
+ preden lahko gonilnik operacijskega sistema (na primer ALSIN snd-usb-
+ audio) do njih dostopa.
+ .
+ Supported devices:
+  - MidiSport 1x1
+  - MidiSport 2x2
+  - MidiSport 4x4
+  - MidiSport 8x8
+  - KeyStation (old models: 49, 61)
+  - Oxygen
+  - Radium49
+  - Radium61
+  - Uno
+  The loader is not required for the MidiSport 2x4 and for newer KeyStation models (49e, 61es, Pro 88).
+
+
+Package: mp3diags
+Description-md5: 27a41b67e8f0c1d350bd807507e1bc57
+Description-sl: iskanje težave v datotekah MP3 in pomoč pri njihovem odpravljanju
+ MP3 Diags je grafični program, ki uporabnikom omogoča določevanje težav z
+ njihovimi datotekami MP3, popravilo nekaterih od teh težav in drugih
+ sprememb kot dodajanje podrobnosti o skladbi. Uporabnikom omogoča tudi
+ "ogled vsebine" datoteke MP3.
+ .
+ Za razliko od programov, ki so zasnovati za odpravljanje posamezne vrste
+ napake (na primer popravljanje glav VBR ali dodajanje naslovnic) je MP3
+ Diags rešitev, ki določi več kot 50 različnih težav v datotekah MP3 in
+ zagotavlja način za popravilo večine od njih.
+ .
+ Nekatere najpomembnejše težave, ki jih je mogoče najti:
+ .
+  * Pokvarjene oznake / glave / zvok.
+  * Podvojene oznake /glave.
+  * Nepravilna postavitev oznak / glav (ID3V2, ID3V1, LAME, Xing, itd).
+  * Zvok nizke kakovosti.
+  * Manjkajoča glava VBR.
+  * Manjkajoča podatki / naslovnica skladbe.
+  * Pokvarjeni podatki / naslovnica skladbe.
+  * Manjkajoči podatki normalizacije.
+  * Težave s kodiranjem znakov (za druge jezike kot za angleščino).
+ .
+ Nekatere spremembe in popravki, ki jih lahko MP3 Diags naredi:
+ .
+  * Dodajanje / popravljanje podatkov o skladbi, vključno z naslovnico albuma. Podrobnosti
+     lahko pridobite z več virov: Interneta, odložišča, imena datoteke, krajevnih
+     datotek in (očitno) tipkovnico.
+  * Popravljanje datotek, ki prikazujejo napačno trajanje skladbe.
+  * Popravljanje datotek v katerih predvajalnik ne more pravilno iskati.
+  * Pretvarjanje znakov za ne angleška imena.
+  * Dodajanje imena skladatelja v polje izvajalca za predvajalnike, ki ne
+    upravljajo polja skladatelja.
+  * Preimenovanje datotek na osnovi njihovih polj.
+  * Spreminjanje velikosti črk v besedi za podrobnosti skladbe.
+
+
+Package: mp3fs
+Description-md5: 8f548d5affaa2e87ffd6a47cb0cd77db
+Description-sl: Datotečni sistem FUSE za sprotno prekodiranje FLAC v MP3
+ MP3FS je datotečni sistem FUSE le za branje, ki različne vrste zvoka
+ (trenutno FLAC) sproti ob odprtju in branju prekodira v MP3.
+ .
+ Je nov nadomestek običajnih programov za kodiranje mp3. Uporabniki lahko
+ uporabijo svoj priljubljen brskalnik datotek za izbiro datotek, ki jih
+ želijo kodirati in jih nekam kopirati.
+
+Package: mpglen
+Description-md5: 7d0c6b006be5909ea9253892460d81da
+Description-sl: preišče skozi datotek MPEG in prešteje število GOP-jev in okvirjev
+ Enostavno orodje za branje v eni ali več datotekah mpeg in poročanje
+ števila okvirjev in GOP-jev, ki jih najde.
+
+Package: mpi-specs
+Description-md5: 32429723c38a6aac3bc7970e988ed88e
+Description-sl: MPI 1.1 and 2.0 Specifications of MPI Forum
+ This package includes the MPI Forum documents which covers 1.1 and 2.0
+ specifications of the Message Passing Interface. Documents are all in HTML
+ format.
+ .
+ Pripeta je tudi zadnja kopija uradnega dokumenta errata v obliki PDF.
+
+Package: mplayer-skins
+Description-md5: f0144d1a0cadf34e20f7b2a9bf911a24
+Description-sl: Preobleke za paket Mplayer
+ Mplayer predvaja večino datotek mpeg, avi in asf, ki jih podpira veliko
+ lastnih in win32 DLL kodekov. Ogledate si lahko tudi VCD, DVD in celo DivX
+ filme. Druga velika zmožnost mplayer je širok obseg podprtih izhodnih
+ gonilnikov. Deluje z X11, Xv, DGA, OpenGL, SVGAlib, fbdev, vendar lahko
+ uporabite SDL (in na ta način vse gonilnike SDL) in tudi nekatere
+ gonilnike nizke ravni za določene kartice (za Matrox/3dfx/Sis)! Večina od
+ njih podpira programsko ali strojno raztegovanje, zato lahko uživate v
+ celozaslonskih filmih.
+ .
+ Ta paket vsebuje le nekaj preoblek za mplayer
+
+Package: mssstest
+Description-md5: 6fdbe1c83f0d99061e63894bec7f501c
+Description-sl: Normalizacija bolezni da pacientom rezultate za Multiplo sklerozo
+ MSSStest je program, ki uporablja metodo opisano v članku The Multiple
+ Sclerosis Severity Score R. Roxburgh S. Seaman et al (2004), ki je bil
+ objavljen v reviji Neurology. Izračuna rezultate MSSS in jih uporablja za
+ preizkus med razlikami napredka bolezni v različnih skupinah, ki jih
+ določi genotip na določenem mestu. Kratek opis metode je podan spodaj.
+
+Package: mytharchive
+Description-md5: f349ebffc36fb702948aa2c6129ee6e8
+Description-sl: ustvarite in zapišite DVD-je z MythTV - binarna datoteka
+ MythArchive is a plugin for MythTV that lets you create DVDs from your
+ recorded shows, files and any video files available on your system. It can
+ also archive recordings in a proprietary format that archives not only the
+ file but also all the associated metadata like title, description and cut
+ list information which will mean you can create backups of myth recordings
+ which can later be restored or it will also allow you to move recordings
+ between myth systems without losing any of the metadata. It is a complete
+ rewrite of the old MythBurn bash scripts, now using Python, and the
+ mythfrontend UI plugin.
+
+Package: mythbrowser
+Description-md5: 1f293ec9dd392132e3c5958307487dcd
+Description-sl: Web browser plugin for MythTV
+ Mythbrowser je s standardi združljiv vstavek spletnih brskalnikov za
+ MythTV, ki je zgrajen na Webkitu.
+
+Package: mythgame
+Description-md5: 651467626e6c8fb63c90ba608648de17
+Description-sl: Modul začelja posnemovalnika in PC igre za MythTV
+ MythGame je mogoče uporabiti kot začelje za zaganjanje posnemovalnika, ki
+ ga poganja vaš OS.
+
+Package: mythmusic
+Description-md5: 934232dd58c42a6e29a6f5e799fd49b5
+Description-sl: Dodatni modul glasbe za MythTV
+ MythMusic zagotavlja digitalnih predvajalnik zvoka, ki je vključen v
+ MythTV. Podpira pretoke Ogg Vorbis, FLAC in MP3, prikazuje predočenja in
+ lahko kodira nove pretoke Ogg Vorbis ali FLAC iz zvočnih CD-jev s pogonom
+ CD-ROM.
+
+Package: mythnews
+Description-md5: cbef7b2a96de56a5c854c4ffc0e721b2
+Description-sl: RSS feed news reader module for MythTV
+ MythNew bo za vas pridobil vire RSS.
+
+Package: mythplugins
+Description-md5: 910b6761323d1e1250b094e50e74b805
+Description-sl: Metapaket za vse vstavke MythTV
+ This Metapackage will install all available MythTV plugins.
+
+Package: mythtv
+Description-md5: 0b065b744205faaa940ed448d970a06f
+Description-sl: Program osebnega snemalnika videa (odjemalec in strežnik)
+ MythTV podpira naslednje in več zmožnosti snemalnika videa z enotnim
+ grafičnim vmesnikom:
+ .
+  - osnovna zmožnost 'živi-tv'. Premor/Hitro naprej/Nazaj "živi" TV.
+  - stiskanje videa z uporabo RTjpeg ali MPEG-4
+  - pridobivanje programov z XMLTV
+  - na pol prozoren zaslonski prikaz s podporo tem
+  - elektronski programski vodič
+  - razpored snemanja TV programov
+  - razreševanje sporov med razporejenimi snemanji
+  - osnovno urejanje videa
+ .
+ http://www.mythtv.org/
+ .
+ Ta paket bo namestil celotno okolje odjemalca/strežnika MythTV na enem
+ sistemu. V primeru da nameravate uporabljati to napravo kot svojo edino
+ napravo MythTV in je ta naprava že nastavljena kot namizni računalnik, bo
+ ta paket gladko deloval.
+ .
+ If you are intended on installing this on a standalone/non-desktop
+ machine, you should look into the Metapackages available: mythtv-backend-
+ master (backend with a local database) mythtv-backend (backend needing a
+ remote database)
+
+Package: mythtv-backend
+Description-md5: 4189ea20703eb6b6e6312c0b94ed00e2
+Description-sl: Program osebnega snemalnika videa (strežnik)
+ MythTV zagotavlja poenoten grafični vmesnik za snemanje in ogled
+ televizijskih programov. Za več podrobnosti si oglejte paket mythtv.
+ .
+ Ta paket vsebuje le strežniški program, ki zagotavlja zajem videa in zvoka
+ in kodiranje naprav. Da bo uporaben zahteva namestitev mytht-frontend na
+ istem sistemu ali na enem dosegljivem preko omrežja.
+ .
+ Zahtevana je tudi podatkovna zbirka. Namestiti morate paket mythtv-
+ database na istem sistemu ali na sistemu, ki je dosegljiv preko omrežja.
+ .
+ Za celotno namestitev vseh sestavnih delov MythTV namestite paket
+ 'mythtv'.
+
+Package: mythtv-common
+Description-md5: 640961451383b4431ededb3d21a6bfae
+Description-sl: Personal video recorder application (common data)
+ MythTV zagotavlja poenoten grafični vmesnik za snemanje in ogled
+ televizijskih programov. Za več podrobnosti si oglejte paket mythtv.
+ .
+ Ta paket vsebuje infrastrukturo, ki jo potrebujeta tako odjemalec kot
+ strežnik.
+
+Package: mythtv-database
+Description-md5: d429ba7da095dc6f790bc512157b773d
+Description-sl: Personal video recorder application (database)
+ MythTV zagotavlja poenoten grafični vmesnik za snemanje in ogled
+ televizijskih programov. Za več podrobnosti si oglejte paket mythtv.
+ .
+ Ta paket nastavi podatkovno zbirko MySQL, ki jih uporablja MythTV.
+ Namestite ga na sistem, kjer je strežnik MySQL.
+
+Package: mythtv-doc
+Description-md5: ef41b4ebcb6de4017bb501ecaedbec0d
+Description-sl: Personal video recorder application (documentation)
+ MythTV zagotavlja poenoten grafični vmesnik za snemanje in ogled
+ televizijskih programov. Za več podrobnosti si oglejte paket mythtv.
+ .
+ Ta paket vsebuje dokumentacijo vključno s podrobnim vodnikom MythTV.
+
+Package: mythtv-frontend
+Description-md5: 54d82fe5a446b4538080182b32c34d51
+Description-sl: Program osebnega snemalnika videa (odjemalec)
+ MythTV zagotavlja poenoten grafični vmesnik za snemanje in ogled
+ televizijskih programov. Za več podrobnosti si oglejte paket mythtv.
+ .
+ Ta paket vsebuje le program odjemalca, ki zagotavlja začelje za
+ predvajanje in nastavitev. Zahteva dostop do namestitve začelja mythtv na
+ enakem sistemu ali na tistem, ki ga je mogoče spremeniti preko omrežja.
+ .
+ Zahtevana je tudi podatkovna zbirka. Namestiti morate paket mythtv-
+ database na istem sistemu ali na sistemu, ki je dosegljiv preko omrežja.
+ .
+ Za celotno namestitev vseh sestavnih delov MythTV namestite paket
+ 'mythtv'.
+
+Package: mythtv-transcode-utils
+Description-md5: 7e2f8e36412922b733817418892a44e3
+Description-sl: Pripomočki, ki se uporabljajo za prekodiranje nalog MythTV
+ Nekatere pripomočki lahko uporabite tako na napravah začelja in zaledja.
+ Ta paket zagotavlja pripomočke, ki jih je mogoče uporabiti na obeh brez
+ zahteve po namestitvi celotnega zaledja.
+
+Package: mythweather
+Description-md5: 0ee3d1458b56866d56ec87dc37b10bef
+Description-sl: Dodatni modul vremena za MythTV
+ MythWeather prikazuje trenutno vreme in vremensko napoved v MythTV.
+
+Package: mythweb
+Description-md5: 61dcb33693d887e60efd1242bb775a3f
+Description-sl: Dodatni modul spletnega vmesnika za MythTV
+ MythWeb zagotavlja spletni vmesnik, ki ga lahko uporabite za ogled
+ sporeda, razporeditev snemanj, izbris snemanj in iskanje programov. Brska
+ lahko tudi po podatkovni zbirki glasbe mythmusic in bo morda nekoč
+ podpiral tudi predvajanje zvočnih pretokov.
+
+Package: mythzoneminder
+Description-md5: 8d9d41b817bbe7c1bae729f6473e40c3
+Description-sl: ogled stanja posnetkov posnetih z zoneminder
+ MythZoneMinder je vmesnik za Zoneminder, rešitev CCTV. Stanje ZoneMinder
+ lahko vidite in si ogledate žive posnetke fotoaparata in posnetke z
+ varnostne kamere.
+
+Package: nautilus-dropbox
+Description-md5: 85e5cddde3122eacecafcf7a889463fe
+Description-sl: Vključitev Dropbox v Nautilus
+ Nautilus Dropbox je razširitev, ki vključi spletno storitev Dropbox v vaše
+ namizje GNOME.
+ .
+ Namestitev tega paketa bo prejela lastniško binarno datoteko dropbox s
+ strani dropbox.com.
+
+Package: netperf
+Description-md5: 7b749c9c2a7e1280fbe8ad4410601053
+Description-sl: Meritev hitrosti delovanja omrežja
+ Netperf je pripomoček za merjenje,  ki ga je mogoče uporabiti za merjenje veliko različni vrst omreženja. Zagotavlja preizkuse za enosmeren pretok kot tudi pritajenost od konca do konca. Okolja, ki jih lahko netperf trenutno meri, vključujejo:
+ * TCP in UDP preko vtičev BSD
+ * DLPI
+ * Vtiči domene Unix* IPv6
+
+
+Package: nikto
+Description-md5: bfcacf3e002a7b25ffda9835561a1b95
+Description-sl: varnostni preiskovalnik spletnih strežnikov
+ Nikto je vstavljiv spletni strežnik in preiskovalnik CGI, ki je napisan v
+ Perl in za izvajanje hitre varnosti ali informativno preverjanje uporablja
+ rfp-jev LibWhisker.
+ .
+ Zmožnosti:
+  - enostavno posodobljiva podatkovna zbirka preverjanj v obliki CSV
+  - izpisi poročil v običajnem besedilu ali HTML-ju
+  - samodejno preklapljanje razpoložljivih različic HTTP
+  - splošno in določeno preverjanje strežnikov programov
+  - podpora SSL (skozi libnet-ssleay-perl)
+  - podpora posredniških strežnikov (z overitvijo)
+  - podpora piškotkov
+
+
+Package: nouveau-firmware
+Description-md5: 0422b15056d913dbcb543511da67cbae
+Description-sl: Strojna programska oprema za grafične kartice nVidia
+ Vsebuje strojni programski opremi podobne programe vsebine za odprtokodne
+ nVidia gonilnike nouveau. Zahtevani so za pospeševanje (tako 2D kot 3D) na
+ nVidia karticah družine nv40 in novejše (GeForce6 in novejše).
+ .
+ Čeprav lahko gonilniki nouveau sedaj ustvarijo to strojno programsko
+ opremo za kartice družine nv40 ta paket še vedno vsebuje programe vsebine
+ nvidia za razhroščevalne namene.
+ .
+ Ta paket je začasen. Gonilniki noveau bodo lahko kmalu te podatke
+ ustvarjali sproti.
+
+Package: nvidia-cg-dev
+Description-md5: 3bd7edb6deba63f39dbda782c674cdc8
+Description-sl: Cg Toolkit - GPU Shader Authoring Language (headers)
+ The Nvidia Cg Toolkit provides a compiler for the Cg language, runtime
+ libraries for use with both leading graphics APIs, runtime libraries for
+ CgFX, example applications, and extensive documentation. Supporting over
+ 24 different OpenGL and DirectX profile targets, Cg will allow you to
+ incorporate stunning interactive effects into your 3D applications.
+ .
+ The components include:
+  * NVIDIA Cg Compiler
+  * Unified Cg/CgFX Runtime
+  * Cg User's Manual
+  * Cg Language Specification
+  * Example programs and shaders
+ .
+ Ta paket vsebuje razvojne datoteke.
+
+Package: nvidia-cg-toolkit
+Description-md5: 2e9695be902dd983d455ac8a4e7b59a3
+Description-sl: Zbirka orodij Cg - jezik ustvarjanja senčenja GPE
+ The Nvidia Cg Toolkit provides a compiler for the Cg language, runtime
+ libraries for use with both leading graphics APIs, runtime libraries for
+ CgFX, example applications, and extensive documentation. Supporting over
+ 24 different OpenGL and DirectX profile targets, Cg will allow you to
+ incorporate stunning interactive effects into your 3D applications.
+ .
+ The components include:
+  * NVIDIA Cg Compiler
+  * Unified Cg/CgFX Runtime
+  * Cg User's Manual
+  * Cg Language Specification
+  * Example programs and shaders
+ .
+ This package contains the Cg compiler and other utilities.
+
+Package: os8
+Description-md5: ea1b7024c3d4293b47218f23815c7a16
+Description-sl: Odtisi DEC OS8 za posnemovalnik PDP-8
+ Ta paket vsebuje odtise operacijskega sistema OS8, ki jih lahko uporabi
+ posnemovalnik PDP-8.
+ .
+ The Debian simh package supplies a pdp8 emulator, but the file are in a
+ standard format usable by any other pdp8 emulator such as Jones's or
+ Haygood's emulator.
+ .
+ skript os8 bo tekel s posnemovalnikom simh s temi odtisi.
+ .
+ Ti odtisi niso prosti, ker DEC prepoveduje komercialno uporabo teh
+ odtisov.
+
+Package: othman
+Description-md5: b8238305290697b4d61d0fe7d875e1be
+Description-sl: elektronski brskalnik Korana
+ Othman elektronski brskalnik korana prikazuje besedilo korana v slogu
+ arabskega skripta Othmani kot je bil napisan pod oblastjo Othmana ibn
+ Affana, spremljevalca preroka Mohameda (Naj bo mir z Njim).
+ .
+ Brskalnik Othman vsebuje hitro iskanje, samodejno drsenje in kopiranje
+ besedila Korana na odložišče.
+
+Package: out-of-order
+Description-md5: e65f4efdc5dcf46fdbdc1855d891cb92
+Description-sl: Pustolovska igra komedije in znanstvene fantastike
+ Ste se kdaj zbudili sredi noči in ugotovili, da ste bili ugrabljeni ... in
+ prav tako vaša spalnica? Ste se morali že kdaj boriti proti čudno
+ hipnotični glasbi, zdravnikom nezemljanov, govorečim računalnikom in na
+ pol dokončanim kopalnicam? Ste že kdaj našli kaj neprijetnega v sendviču?
+ .
+ V tem primeru bo igra Out Of Order kot vsak drug dan v vašem življenju.
+ .
+ V nasprotnem primeru je to izkušnja, ki je ne želite izpustiti.
+
+Package: parmetis-doc
+Description-md5: 55cc39b179c0b5b2dedead6fc6a8c34f
+Description-sl: Razdeljevanje paralelnih grafov in urejanje redkih matrik - dokumentacija
+ ParMetis izračuna razdelke najmanjšega izraza grafov in vzporednih mrež in
+ uredi spremenljivke za najmanjšo zapolnitev z uporabo neposrednih
+ reševalnikov za redke matrike. Vse to naredi vzporedno in lahko tudi
+ učinkovito ponovno razdeli graf ali mrežo katere povezljivost se je
+ spremenila.
+ .
+ Ta paket vsebuje datoteke dokumentacije in primerov.
+
+Package: parmetis-test
+Description-md5: b9b53f52a3b7e53d03b5260911e600a9
+Description-sl: Razdeljevanje paralelnih grafov in preizkusi urejanja redkih matrik
+ ParMetis izračuna razdelke najmanjšega izraza grafov in vzporednih mrež in
+ uredi spremenljivke za najmanjšo zapolnitev z uporabo neposrednih
+ reševalnikov za redke matrike. Vse to naredi vzporedno in lahko tudi
+ učinkovito ponovno razdeli graf ali mrežo katere povezljivost se je
+ spremenila.
+ .
+ Ta paket vsebuje programe, ki preizkusijo knjižnice ParMetis z uporabo
+ datotek mapi primerov v paketu parmetic-doc
+
+Package: pgmfindclip
+Description-md5: 6389c768a4610ea9f4bd3d3b3b685b86
+Description-sl: samodejno najde obrobo obrezovanja za zaporedje slik pgm
+ To orodje poskuša najti primerno obrobo obrezovanja za zaporedje sivih
+ slik. Zelo je uporabno za samodejno izvleko vrednosti izrezovanja za
+ prekodiranja filma, če je okvir vira kodiran s črnimi vrsticami.
+
+Package: pgplot5
+Description-md5: 78b254418fae89573f200faeda781ad5
+Description-sl: velika knjižnica podrutin za izris znanstvenih podatkov
+ This package contains both runtime and development libraries.  Many
+ routines are included in pgplot for viewing scientific data. Many (about
+ 70) output devices are supported.  2-D, 3-D, contour, image manipulation,
+ etc. are well supported. Interactive routines are included. Both a C and a
+ FORTRAN library are present. See http://astro.caltech.edu/~tjp/pgplot/ for
+ documentation.
+
+Package: php-mythtv
+Description-md5: cc74af3e7f32031e0ca3aeeac2981c9b
+Description-sl: PHP Bindings for MythTV
+ MythTV zagotavlja poenoten grafični vmesnik za snemanje in ogled
+ televizijskih programov. Za več podrobnosti si oglejte paket mythtv.
+ .
+ This package contains files needed for using PHP based applications that
+ connect to MythTV backends.
+
+Package: picon-domains
+Description-md5: 609b5dd38c95fad5b4022153c912f67c
+Description-sl: Picon (Personal Images) database of Internet domain logos
+ "picons" je kratko za "osebne ikone". To so majhne omejene slike, ki se
+ uporabljajo za predstavljanje uporabnikov in domen na spletu in so
+ organizirane v podatkovne zbirke zato, da je mogoče najti ustrezno sliko
+ za dani naslov e-pošte. Poleg uporabnikov in domen so na voljo podatkovne
+ zbirke picon za novičarske skupine Usenet in vremenske napovedi. Picons so
+ v enobarvni vrsti XBM ali barvnih vrstah XPM in GIF.
+ .
+ Te podatkovne zbirke so bile prevedene v upanju, da bodo kiberprostor
+ naredile bolj oseben. Z njim je mogoče programe in storitve razviti tako,
+ da določijo osebe na spletu po obrazu (ali vsaj po logotipu institucije)
+ namesto po zagonotenem naslovu e-pošte. Programa te vrste sta na primer
+ xfaces in exmh.
+
+Package: picon-misc
+Description-md5: 281cf446fdda1ff9ac0be0f6779a8521
+Description-sl: Picon (Personal Images) database of common accounts and misc
+ "picons" je kratko za "osebne ikone". To so majhne omejene slike, ki se
+ uporabljajo za predstavljanje uporabnikov in domen na spletu in so
+ organizirane v podatkovne zbirke zato, da je mogoče najti ustrezno sliko
+ za dani naslov e-pošte. Poleg uporabnikov in domen so na voljo podatkovne
+ zbirke picon za novičarske skupine Usenet in vremenske napovedi. Picons so
+ v enobarvni vrsti XBM ali barvnih vrstah XPM in GIF.
+ .
+ Te podatkovne zbirke so bile prevedene v upanju, da bodo kiberprostor
+ naredile bolj oseben. Z njim je mogoče programe in storitve razviti tako,
+ da določijo osebe na spletu po obrazu (ali vsaj po logotipu institucije)
+ namesto po zagonotenem naslovu e-pošte. Programa te vrste sta na primer
+ xfaces in exmh.
+
+Package: picon-news
+Description-md5: 18a59915eee9e4a08fc25155eb061e47
+Description-sl: Picon (osebne slike) podatkovna zbirka novičarskih skupin in hierarhij
+ "picons" je kratko za "osebne ikone". To so majhne omejene slike, ki se
+ uporabljajo za predstavljanje uporabnikov in domen na spletu in so
+ organizirane v podatkovne zbirke zato, da je mogoče najti ustrezno sliko
+ za dani naslov e-pošte. Poleg uporabnikov in domen so na voljo podatkovne
+ zbirke picon za novičarske skupine Usenet in vremenske napovedi. Picons so
+ v enobarvni vrsti XBM ali barvnih vrstah XPM in GIF.
+ .
+ Te podatkovne zbirke so bile prevedene v upanju, da bodo kiberprostor
+ naredile bolj oseben. Z njim je mogoče programe in storitve razviti tako,
+ da določijo osebe na spletu po obrazu (ali vsaj po logotipu institucije)
+ namesto po zagonotenem naslovu e-pošte. Programa te vrste sta na primer
+ xfaces in exmh.
+
+Package: picon-unknown
+Description-md5: a202171b148f1f6a5825923ed981c965
+Description-sl: Picon (osebne slike) podatkovna zbirka za domene visoke ravni
+ "picons" je kratko za "osebne ikone". To so majhne omejene slike, ki se
+ uporabljajo za predstavljanje uporabnikov in domen na spletu in so
+ organizirane v podatkovne zbirke zato, da je mogoče najti ustrezno sliko
+ za dani naslov e-pošte. Poleg uporabnikov in domen so na voljo podatkovne
+ zbirke picon za novičarske skupine Usenet in vremenske napovedi. Picons so
+ v enobarvni vrsti XBM ali barvnih vrstah XPM in GIF.
+ .
+ Te podatkovne zbirke so bile prevedene v upanju, da bodo kiberprostor
+ naredile bolj oseben. Z njim je mogoče programe in storitve razviti tako,
+ da določijo osebe na spletu po obrazu (ali vsaj po logotipu institucije)
+ namesto po zagonotenem naslovu e-pošte. Programa te vrste sta na primer
+ xfaces in exmh.
+
+Package: picon-usenix
+Description-md5: 4035758b09e54c4e66ccd200b6bfc6ec
+Description-sl: Picon (osebne slike) podatkovna zbirka udeležencev konference Usenix
+ "picons" je kratko za "osebne ikone". To so majhne omejene slike, ki se
+ uporabljajo za predstavljanje uporabnikov in domen na spletu in so
+ organizirane v podatkovne zbirke zato, da je mogoče najti ustrezno sliko
+ za dani naslov e-pošte. Poleg uporabnikov in domen so na voljo podatkovne
+ zbirke picon za novičarske skupine Usenet in vremenske napovedi. Picons so
+ v enobarvni vrsti XBM ali barvnih vrstah XPM in GIF.
+ .
+ Te podatkovne zbirke so bile prevedene v upanju, da bodo kiberprostor
+ naredile bolj oseben. Z njim je mogoče programe in storitve razviti tako,
+ da določijo osebe na spletu po obrazu (ali vsaj po logotipu institucije)
+ namesto po zagonotenem naslovu e-pošte. Programa te vrste sta na primer
+ xfaces in exmh.
+
+Package: picon-users
+Description-md5: 1dc97f7b24c32344c50e3648aad21885
+Description-sl: Picon (osebne slike) podatkovna zbirka posameznih internetnih računov
+  "picons" is short for "personal icons". They're small, constrained
+ images used to represent users and domains on the net, organized into
+ databases so that the appropriate image for a given e-mail address can be
+ found. Besides users and domains, there are picons databases for Usenet
+ newsgroups and weather forecasts. The picons are in either monochrome XBM
+ format or color XPM and GIF formats.
+ .
+ Te podatkovne zbirke so bile prevedene v upanju, da bodo kiberprostor
+ naredile bolj oseben. Z njim je mogoče programe in storitve razviti tako,
+ da določijo osebe na spletu po obrazu (ali vsaj po logotipu institucije)
+ namesto po zagonotenem naslovu e-pošte. Programa te vrste sta na primer
+ xfaces in exmh.
+
+Package: picon-weather
+Description-md5: 64dbc20162587fcead9e58851cfe9d04
+Description-sl: Picon (Personal Images) database for displaying weather forecasts
+ "picons" je kratko za "osebne ikone". To so majhne omejene slike, ki se
+ uporabljajo za predstavljanje uporabnikov in domen na spletu in so
+ organizirane v podatkovne zbirke zato, da je mogoče najti ustrezno sliko
+ za dani naslov e-pošte. Poleg uporabnikov in domen so na voljo podatkovne
+ zbirke picon za novičarske skupine Usenet in vremenske napovedi. Picons so
+ v enobarvni vrsti XBM ali barvnih vrstah XPM in GIF.
+ .
+ Te podatkovne zbirke so bile prevedene v upanju, da bodo kiberprostor
+ naredile bolj oseben. Z njim je mogoče programe in storitve razviti tako,
+ da določijo osebe na spletu po obrazu (ali vsaj po logotipu institucije)
+ namesto po zagonotenem naslovu e-pošte. Programa te vrste sta na primer
+ xfaces in exmh.
+
+Package: playonlinux
+Description-md5: 729a863a5c2d8eb304d4e8e17ffbeafe
+Description-sl: začelje za Wine
+ PlayOnLinux je začelje za wine. Omogoča vam enostavno namestitev iger in
+ programov za Windows. Priporočamo vam, da imate delujočo internetno
+ povezavo.
+
+Package: powder
+Description-md5: e033547e1c2f1ddb020725d21e965c32
+Description-sl: Grafična igra plazenja po grajskih ječah
+ To je igra, ki je bila razvita posebej za Gameboy Advance (GBA). To ni
+ prenos obstoječe igre rougelike, saj so nadzorniki v GBA zelo različni v
+ primerjavi z običajno tipkovnico in zaslon vsili nekatere dodatne
+ omejitev. Izgrajen je okoli ponovne igralnosti in dolgoročni ergonomiki in
+ ne na kratkoročnem učenju. Namesto običajnih znakov uporablja grafične
+ ploščice (16x16).
+
+Package: pq
+Description-md5: 79842844cde8e849282d391955a5a96f
+Description-sl: Progress Quest je računalniška igra igranja vlog "streljaj in pozabi"
+ V Progress Quest lahko ustvarite fantazijski karakter in opazujete kako
+ napreduje. Igrate lahko sami ali pa stopite v stik s spletno skupnostjo za
+ izkušnjo deljenega igranja.
+
+Package: python3-hijra
+Description-md5: 9cd24a53532391a30f689b85fda09329
+Description-sl: Hijri Islamic Calendar converting functions for Python
+ Funckije pretvarjanja islamskega koledarja osnovane na izboljšanem
+ algoritmu, ki ga je zasnoval Muayyad Saleh Alsadi. Uporabite ga lahko za
+ podporo programov, gdesklets ali karamba ... itd
+ .
+ Ta algoritem je osnovan na operacijah celih števil za katere ni napak
+ zaokrožanja (v primeru natančnih podanih koeficientov). Natančnost tega
+ algoritma je osnovana na treh konstantah (p, q in a), kjer je p/q odstotek
+ polnih mesecev [največji skupni delitelj p in q mora biti 1], ki je
+ trenutno nastavljen na 191/360. To pomeni da je v 360 letih 191 mesecev,
+ ki imajo 30 dni. Vsi ostali imajo 29 dni. Konstanta a je zamik.
+
+Package: python3-okasha
+Description-md5: ed6edbf3deb3983057d29b8c36a36a70
+Description-sl: trivialno spletno ogrodje WSGI za Python
+ Spletno ogrodje, ki ne ne dela skoraj nič, ki vključuje:
+  * omogočen WSGI - mogoče ga je uporabiti z mod_wgsi, mod_python, Fast CGI,    CGI, z lepljenjem ali celo brez strežnika
+  * lahkost * mogoče ga je prilagoditi da je primeren za namizne programe ali javne spletne strežnike
+  * nobenih dodatnih odvisnosti
+  * je zelo enostaven
+  * Vsebuje modul za dodajanje podpore za na XSLT osnovane predloge (zahteva
+    paket python.lxml)
+  * Vsebuje modul za dodajanje podpore za na Kid osnovane predloge (zahteva
+    paket python.lxml)
+  * Vsebuje modul za dodajanje podpore za na Bootle osnovane predloge
+
+
+Package: python3-okasha-examples
+Description-md5: 5b25d92da2de19f5812b5a45b992d1e8
+Description-sl: trivialno spletno ogrodje za Python (primeri)
+ Spletno ogrodje, ki ne ne dela skoraj nič, ki vključuje:
+  * omogočen WSGI - mogoče ga je uporabiti z mod_wgsi, mod_python, Fast CGI,    CGI, z lepljenjem ali celo brez strežnika
+  * lahkost * mogoče ga je prilagoditi da je primeren za namizne programe ali javne spletne strežnike
+  * nobenih dodatnih odvisnosti
+  * je zelo enostaven
+ .
+ Ta paket vsebuje primer programa, ki uporablja spletno ogrodje Okasha.
+
+Package: python3-othman
+Description-md5: 1dbcf92cf3e1415d46e858c72c860c65
+Description-sl: knjižnica, ki zagotavlja dostop do besedil Korana s hitrim iskanjem po kazalu
+ To je modul Python, ki zagotavlja dostop do besedil Korana s hitrim
+ iskanjem po kazalu.
+
+Package: qcomicbook
+Description-md5: 5e1e59ae80d5250683bcf393eda201bc
+Description-sl: pregledovalnik qt za arhive stripov (cbr/cbz/cba/cbg/cbb)
+ QComicBook je pregledovalnik arhivov stripov s slikami jpeg/png, ki
+ poskuša biti pripročen in enostaven. Zmožnosti vključujejo: samodejno
+ razširjanje, celozaslonski način, raztegovanje strani, krmarjenje z miško
+ ali tipkovnico, itd.
+ .
+ QComicBook sedaj podpira arhive:
+  - cbr - sistnjen z rar
+  - cbz - stisnjen z zip
+  - cba - stisnjen z ace
+  - cbg - stisnjen s targz
+  - cbb - stisnjen s tarbzip2
+
+
+Package: quake
+Description-md5: 09622cda203c578294901576f5fec0f4
+Description-sl: classic gothic/horror-themed first person shooter
+ Quake is a classic first-person shooter game by id Software, released in
+ 1996. This package contains a launcher script and menu entry to play Quake
+ with any suitable engine.
+ .
+ Da bo ta paket uporaben, morate s pomočjo paketa game-data-packager
+ ustvariti in namestiti paket quake-registered ali quake-shareware.
+ .
+ Ustvarjanje quake-registered zahteva podatkovne datoteke iz namestitve ali
+ CD-ROM-a Quake.
+ .
+ Za ustvarjanje quake-shareware potrebujete preizkusno različico Quake.
+ .
+ game-data-packager (>= 45) can also produce packages for the official
+ Episode 5, Dimensions of the Past (developed by MachineGames to mark
+ Quake's 20th anniversary), and for the official mission packs Scourge of
+ Armagon (developed by Hipnotic Software) and Dissolution of Eternity
+ (developed by Rogue Entertainment). Additional menu entries should appear
+ automatically if those expansions are installed.
+
+Package: quake-server
+Description-md5: f2d85a7d1334e2ce66699c546170e8b9
+Description-sl: classic first person shooter - server and init script
+ This package contains a launcher script and init script to run a Quake 1
+ server automatically, with any suitable engine.
+ .
+ Da bo ta paket uporaben, morate s pomočjo paketa game-data-packager
+ ustvariti in namestiti paket quake-registered ali quake-shareware.
+
+Package: quake3
+Description-md5: 95de72c22be84cf9e01669d0c2eaf9d3
+Description-sl: Vnos menija Quake III Arena in skripti zaganjalnika
+ This package contains a launcher script and menu entry to play Quake III
+ Arena or Quake III: Team Arena with the ioquake3 engine.
+ .
+ To make this package useful, you will need to create and install the non-
+ distributable quake3-data or quake3-demo-data package, by using the game-
+ data-packager package.
+ .
+ quake3-data requires pak0.pk3 from a Quake III installation or CD-ROM.
+ quake3-demo-data only requires freely downloadable files, but is not
+ necessarily reliable.
+ .
+ game-data-packager (>= 39) can also produce a package for the official
+ expansion pack Quake III: Team Arena. An additional menu entry should
+ appear automatically if that expansion are installed.
+
+Package: quake3-data
+Description-md5: 7f3422bb67aad2a301139c170024fe35
+Description-sl: Namestilnik za podatkovne datoteke Quake III Arena
+ Ta paket namesti podatkovne datoteke Quake III Arena na vaš sistem Debian.
+ .
+ Za namestitev boste potrebovali svoj CD-ROM Quake III Arena in računalnik
+ mora biti povezan na internet.
+ .
+ Nameščeni podatki bodo zavzeli okoli 500 MB prostora na disku.
+
+Package: quake3-server
+Description-md5: b581844db5e190ba8c02893ca380aaa8
+Description-sl: Quake III Arena dedicated server launcher scripts
+ This package contains a launcher script to run a Quake III Arena or Quake
+ III: Team Arena dedicated server with the ioquake3 engine.
+ .
+ Da bo ta peket uporaben, morate s pomočjo paketa game-data-packer
+ ustvariti in namestiti paket quake3-data. To zahteva pak0.pk3 iz
+ namestitve ali CD-ROM-a Quake.
+
+Package: r-revolution-revobase
+Description-md5: 16b281ee8d2b080c359e418a5a060f49
+Description-sl: REvolution Computing Math podpora knjižnic jedra
+ Ta paket vsebuje zmožnosti za nadziranje večnitenja.
+
+Package: rar
+Description-md5: 649b872741c4c5402456879832c70c03
+Description-sl: Arhivirnik za datoteke .rar
+ This is the RAR archiver from Eugene Roshal. It supports multiple volume
+ archives and damage protection. It can also create SFX-archives. There are
+ versions which run on DOS, Windows, FreeBSD, BSDI.
+ .
+ Ta program je preizkusni program, ki ga morate po 40 dnevih uporabe
+ registrirati.
+
+Package: raster3d
+Description-md5: 7017e40afb8a84c7aca1cff9519d06ba
+Description-sl: orodja za ustvarjanje slik proteinov in drugih molekul
+ Raster3D je zbirka orodij za ustvarjanje visoko kakovostnih rastrskih slik
+ proteinov in drugih molekul. Jedrni program izriše krogle, trikotnike,
+ cilindre in kvadratne površine s , senčenjem Phong in senčenjem. Uporablja
+ učinkovit programski algoritem Z-buffer, ki je neodvisen od grafične
+ strojne opreme. Pomožni programi obdelajo atomske koordinate iz datotek
+ PDB v opise izrisovanja za slike sestavljenih iz trakov, atomov, ki
+ zapolnijo prostor, vezi, kroglic in palčk, itd. Raster3D lahko uporabite
+ za izrisovanje slik sestavljenih v drugih programih kot je Molscript v
+ veličastnem 3D s osvetljavo, senčenjem, itd. Izhod je v datoteke slikovnih
+ datotek s 24 biti barvnih podatkov na točko.
+
+Package: raster3d-doc
+Description-md5: c1fa8477bbb4f0ad2b3ab28130533382
+Description-sl: dokumenti in datoteke primerov za Raster3D
+ Raster3D je zbirka orodij za ustvarjanje visoko kakovostnih rastrskih slik
+ proteinov in drugih molekul. Jedrni program izriše krogle, trikotnike,
+ cilindre in kvadratne površine s , senčenjem Phong in senčenjem. Uporablja
+ učinkovit programski algoritem Z-buffer, ki je neodvisen od grafične
+ strojne opreme. Pomožni programi obdelajo atomske koordinate iz datotek
+ PDB v opise izrisovanja za slike sestavljenih iz trakov, atomov, ki
+ zapolnijo prostor, vezi, kroglic in palčk, itd. Raster3D lahko uporabite
+ za izrisovanje slik sestavljenih v drugih programih kot je Molscript v
+ veličastnem 3D s osvetljavo, senčenjem, itd. Izhod je v datoteke slikovnih
+ datotek s 24 biti barvnih podatkov na točko.
+ .
+ Ta paket vsebuje dokumente in primere datoteke za paket raster3d.
+
+Package: reminiscence
+Description-md5: 47982cfbc36238f1225d12baaf1e3605
+Description-sl: prosta izvedba programnika igra Flashback
+ REminiscence je prosta izvedba programnika iger, ki se uporablja za
+ izvajanje akcijske ploščadne igre Flashback. Uporablja podatkovne datoteke
+ izvirne igre PC/DOS in lahko uporabi zvočne datoteke Amiga.
+ .
+ Flashback je ploščadna akcijska igra v kateri nadzorujete lik, ki je
+ izgubil svoj spomin. Vaš cilj je povrniti njegove spomine in rešiti svet.
+
+Package: revolution-mkl
+Description-md5: dfc41a52428f1f3e357cc81b4ff93904
+Description-sl: REvolution Computing visoko zmogljive numerične knjižnice za R
+ Ta paket zagotavlja visoko optimizirane večnitne številčne knjižnice za
+ REvolution R Enterprise.
+
+Package: revolution-r
+Description-md5: 73124b466fadc653579fb5f97329e7ec
+Description-sl: REvolucijsko računanje R za Ubuntu
+ Ta paket sestavlja REvolution Computing R edition za Ubuntu.
+
+Package: ripoff-mp3-plugin
+Description-md5: 738b5df6673459df2a085fddfc7f8c66
+Description-sl: Vstavek MP3 za ripoff
+ RipOff je na GTK+ osnovan zajemalnik CD za Linux, ki vključuje enostaven
+ vmesnik, poizvedbe CDDB in na vstavkih osnovano arhitekturo kodiranja.
+ .
+ Ta paket vsebuje vstavek MP3.
+
+Package: rocksndiamonds
+Description-md5: b92f1c7c681792183cf09382ad94e606
+Description-sl: igra v arkadnem slogu
+ This package provides the game engine for Rocks'n'Diamonds, an arcade game
+ in the tradition of "Boulder Dash", "Emerald Mine", "Supaplex", "Sokoban",
+ etcetera. Game levels emulating all of these can be downloaded from
+ ArtSoft.org.
+
+Package: rott
+Description-md5: 33b73fa3a3248365bd54091b7dbb5f4d
+Description-sl: SDL-prenos igre Rise of the Triad
+ Vzpon triade je visoko kakovostna, hitro drseča, 3D akcijska igra iz
+ vidike prve osebe. Vključuje veliko uničujočih sovražnikov, arzenal orožja
+ od enostavnih pištol do metalcev raket, oklepa, ki vas ohrani pri
+ življenju, pasti in zased.
+ .
+ OPOZORILO: Vzpon triade vsebuje objestno in nazorno nasilje.
+ .
+ Ta paket ne vsebuje podatkovnih datotek: uporabite 'game-data-packager' za
+ ustvarjanje ustreznega podatkovnega paketa iz javno dostopne preizkusne
+ epizode "Rise of the Triad: The HUNT Begins".
+
+Package: sabnzbdplus
+Description-md5: 9af99c00c3efdc0801f9fda555ddbd78
+Description-sl: web-based binary newsreader with nzb support
+ SABnzbd+ is a web-based binary newsgrabber written in Python, with support
+ for the popular nzb file format. It greatly simplifies the process of
+ downloading from Usenet, thanks to a friendly web-based, fully
+ customizable user interface and advanced built-in post-processing options
+ including the ability to automatically verify, repair, extract and clean
+ up downloaded posts.
+ .
+ Podprtih je več strežnikov, kot tudi varne povezave (ssl), ipv6,
+ razporejanje, premor in nadaljevanje prejemov, upravljanje s čakalno
+ vrsto, viri rss, samodejno razvrščanje, zgodovina prejemov, obvestila
+ preko e-pošte in skripti poobdelave po meri. Obširen API omogoča
+ interakcijo s programom programom tretjih oseb.
+ .
+ This package contains the program itself and all interface templates.
+
+Package: seaview
+Description-md5: a82e7d5dbc9d5aa2cf6662e48d7aa245
+Description-sl: Večokoljski vmesnik za poravnavo zaporedij in filogenijo
+ SeaView is a viewer and editor of multiple sequence alignments, i.e. DNA
+ or protein sequences are positioned each in their own separate line, such
+ that the nucleotide/amino acid at a particular position (column) is
+ presumed to have the same biochemical property.
+ .
+ SeaView reads and writes various file formats (NEXUS, MSF, CLUSTAL, FASTA,
+ PHYLIP, MASE, Newick) of DNA and protein sequences and of phylogenetic
+ trees. Alignments can be manually edited. It drives the programs Muscle or
+ Clustal Omega for multiple sequence alignment, and also allows one to use
+ any external alignment algorithm able to read and write FASTA-formatted
+ files. It computes phylogenetic trees by parsimony using PHYLIP's
+ dnapars/protpars algorithm, by distance with NJ or BioNJ algorithms on a
+ variety of evolutionary distances, or by maximum likelihood using the
+ program PhyML 3.0.
+ .
+ SeaView draws phylogenetic trees on screen or PostScript files, and allows
+ one to download sequences from EMBL/GenBank/UniProt using the Internet.
+
+Package: sfcb
+Description-md5: 0a631c5e41f65fd530fa1a74056efa13
+Description-sl: Posrednik CIM z majhno stopinjo
+ Posrednik CIM z majhno stopinjo (SFCB) je del projekta SBLIM (standardna
+ osnovna Linux instrumentacija za upravljivost). SFCB je strežnik CIM za s
+ sredstvi omejena in vstavljena okolja. Ozadnji program CIM (a CIMOM)
+ ustreza zahtevam odjemalca CIM/WBEM za podatke upravljanja seje in izvede
+ naloge upravljanja sistema.
+
+Package: sfcb-test
+Description-md5: ab3771806d006d142db3266598d95a17
+Description-sl: Posrednik CIM z majhno stopinjo preizkusna orodja
+ Preizkusna orodja SFCB (wbemcat in xmltest) omogoča preizkušanje
+ posrednikov CIM z viri surovih posrednikov XML na CIM in primerjavo
+ rezultatov in predčasno shranjenih odgovorov sklada.
+
+Package: sgb
+Description-md5: 0201462485edca9f2defb0429622542b
+Description-sl: GraphBase Stanford: kombinatorjiski podatki in algoritmi
+ Visoko prenosljiva zbirka programov in podatkov za raziskovalce, ki
+ preučujejo kombinatorne algoritme in podatkovne strukture.
+ .
+ Ti programi so namenjeni kot primeri dobesednega programiranja. Zato je
+ mogoče Stanford GraphBase obravnavati tudi kot zbirko približno 30 esejev
+ za programerje, ki uživajo v branju ne glede na to ali raziskujejo
+ algoritme. Programi so napisani v CWEB, kombinaciji TeX in C, ki jo lahko
+ enostavno uporabi kdorkoli , ki pozna te jezike in jih lahko enostavno
+ bere kdorkoli, ki pozna osnove C.
+ .
+ Ta paket vsebuje le knjižnice in programe prikaza. Za berljivo izvorno
+ kodo, ki tvori tudi dokumentacijo, si oglejte paket sgb-doc.
+
+Package: sgb-doc
+Description-md5: eaae774ff38328532e7d72ab56f63004
+Description-sl: Dokumentacija za Stanford GraphBase
+ Ta paket vsebuje izvorno kodo za knjižnico GraphBase, ki tvori večino
+ dokumentacije paketa. Nameščena bo v /usr/share/doc/sgb/src.
+ .
+ Izvorna koda je napisana v CWEB, kombinaciji TeX in C z uporabo zelo
+ berljivega dobesednega sloga programiranja, kar naredi branje kode užitek.
+
+Package: shapetools-tutorial
+Description-md5: adcefd53dcd0a158718dd6049cc2165c
+Description-sl: Tutorial for ShapeTools
+ Uporaba zbirke orodij Shape za sodelujoči programski razvoj.
+ .
+ Ta vodnik opisuje različico 1.3 ShapeToole. Za bolj nedavno dokumentacijo
+ si oglejte strani man.
+
+Package: sisu-markup-samples
+Description-md5: b2ee66a81b88ccb11bcd0a88a5a5a24f
+Description-sl: primeri označevalnih dokumentov za sisu ogrodje objavljanja in iskanja
+ The document samples provided include:
+  * "Free as in Freedom (2.0)", Sam Williams, Richard M. Stallman
+  * "Free as in Freedom", Sam Williams
+  * "Viral Spiral", David Bollier
+  * "The Wealth of Networks", Jochai Benkler
+  * "Free Culture", Lawrence Lessig
+  * "CONTENT", Cory Doctorow
+  * "Two Bits", Christopher Kelty
+  * "Democratizing Innovation", Eric von Hippel
+  * "Free For All", Peter Wayner
+  * "The Cathedral and the Bazaar", Eric S. Raymond
+  * "Little Brother", Cory Doctorow
+  * "Down and Out in the Magic Kingdom", Cory Doctorow
+  * "For the Win", Cory Doctorow
+  * "Accelerando", Charles Stross
+  and a couple of additional texts.
+ .
+ Dokumente so avtorji delili pod licencami Creative Commons, ki omogočajo
+ njihovo distribucijo, vendar ne v glavnem arhivu Debian zaradi Debianovih
+ pravil.
+ .
+  * "Free As In Freedom", on RMS by Sam Williams, is available as a markup
+ sample within the package sisu
+ .
+ SISU je lahko ogrodje strukturiranja, objavljanja in iskanja dokumentov za
+ zbirke dokumentov, ki je osnovano na označevanju.
+ .
+ Z najmanjšo pripravo običajnega besedila, datoteke UTF-8 z uporabo lastne
+ skladnje označevanja v urejevalniku po vaši izbiri lahko SiSU ustvari
+ različne vrste dokumentov (večina si deli skupni sistem številčenja
+ predmetov za iskanje vsebine) vključno z običajnim besedilom, HTML, XHTML,
+ XML, EPUB, besedilom OpenDocument (ODF:ODT), LaTeX, datoteke PDF in poseli
+ podatkovno zbirko SQL s predmeti (odseki približno velikosti odstavka)
+ zato da je mogoče izvesti iskanja in vrniti zadetke s to stopnjo
+ zrnatosti:  vaše iskalne kriterije najdejo dokumenti na teh mestih v
+ vsakem dokumentu. Oštevilčenje predmetov je še posebej primerno za
+ "objavljena" dela (končana besedila namesto besedil, ki se pogosto
+ spreminjajo ali posodabljajo) za katere zagotavlja stalen način sklica na
+ vsebino. Izhodi dokumenta si delijo tudi semantične metapodatke.
+ .
+ SiSU zagotavlja tudi konkordančne datoteke, potrdila vsebine dokumenta in
+ manifestira ustvarjen izhod.
+ .
+ zagotovljene so tudi strani man in vzajemna pomoč.
+ .
+ Za odvisnosti za dodatne zmožnosti poskrbijo s ssiu povezani paketi.
+ .
+ Preizkusni paket sisu-complete skupaj s sisu-markup-sample namesti celoten
+ SiSU.
+
+Package: sl-modem-dkms
+Description-md5: a58074862ac671ccf741dfee54f7b6e0
+Description-sl: Gonilnik programskih modemov SmartLinux - vir izgradnje gonilnika
+ Ta paket vsebuje izvorno kodo za gonilnike nizke ravni za programske
+ modeme, ki jih proizvaja Smart Link Ltd. Podpira modele PCI in USB.
+ .
+ Poleg tega paketa boste potrebovali paket sl-modem-daemon, ki podpira
+ programski del gonilnika.
+ .
+ Pakete modulov lahko izgradite iz jedrnega paketa po meri ročno ali z
+ uporabo DKMS.
+
+Package: snmp-mibs-downloader
+Description-md5: 8de3536fe960653bb22360999b93f910
+Description-sl: install and manage Management Information Base (MIB) files
+ Ta paket pošilja IETF RFC-je, ki vsebujejo datoteki MIB in skript, ki jih
+ razširi za uporabo s knjižnicami enostavnega upravljanja omrežja. Ta
+ skript lahko uporabite za posodabljanje nekaj MIB-jev na zadnjo različico
+ ali za prejem dodatnih MIB-jev ponudnikov.
+ .
+ Ti MIB-ji so lahko uporabili za programe kot sta wireshark ali snmpget za
+ omogočitev prevajanja prejetih podatkov v človeku berljivo besedilo.
+
+Package: spectemu-common
+Description-md5: 26bc6bd9e66de9535a2d1d86848d0e2c
+Description-sl: Hiter posnemovalnik 48k ZX (skupnne datoteke)
+ Spectemu posnema 48k ZX Spectrum, ki uporablja mikroprocesor Z80. Ta paket
+ vsebuje skupne nastavitvene datoteke in pripomočke, ki jih lahko uporabite
+ z začeljem X11 ali SVGAlib.
+ .
+ Posnema procesor Z80 kot tudi ostalo strojno opremo Spectruma 48k:
+ tipkovnica, zaslon, zvok, V/I kasete. Posnemanje je zelo blizu pravi
+ stvari, vendar je še vedno zelo hitro (poročali so, da dobro deluje na
+ prenosniku s 486 pri 25 MHz!). Po drugi strani uporabniški vmesnik ni
+ najboljši.
+ .
+ Zmožnosti vključujejo:
+    - zvočna podpora skozi gonilnik zvočne kartice Linux jedra.
+    - shranjevanje in nalaganje posnetkov (vrsta .Z80 in .SNA).   - posnemanje kaset: nalaganje iz datotek kaset (vrsta .TAP in TZX)
+    - izbirno hitro nalaganje kaset.
+    - shranjevanje v datoteke kaset.
+    - ločen pripomoček za shranjevanje datotek kaset na prave kasete
+    - nastavljiv s pomočjo nastavitvenih datotek in iz ukazne vrstice.
+
+
+Package: spectemu-x11
+Description-md5: 0bf9dc39a82ac7415decd677a04bcf9b
+Description-sl: Hiter posnemovalnik 48k ZX za X11
+ xspect je X11 različica Spectemu, ki posnema 48k ZX Spectrum, ki uporablja
+ mikroprocesor Z80.
+ .
+ Posnema procesor Z80 kot tudi ostalo strojno opremo Spectruma 48k:
+ tipkovnica, zaslon, zvok, V/I kasete. Posnemanje je zelo blizu pravi
+ stvari, vendar je še vedno zelo hitro (poročali so, da dobro deluje na
+ prenosniku s 486 pri 25 MHz!). Po drugi strani uporabniški vmesnik ni
+ najboljši.
+ .
+ Zmožnosti vključujejo:
+    - zvočna podpora skozi gonilnik zvočne kartice Linux jedra.
+    - shranjevanje in nalaganje posnetkov (vrsta .Z80 in .SNA).   - posnemanje kaset: nalaganje iz datotek kaset (vrsta .TAP in TZX)
+    - izbirno hitro nalaganje kaset.
+    - shranjevanje v datoteke kaset.
+    - ločen pripomoček za shranjevanje datotek kaset na prave kasete
+    - nastavljiv s pomočjo nastavitvenih datotek in iz ukazne vrstice.
+
+
+Package: spectrum-roms
+Description-md5: d9451df8d361fd4d316fde5b38b04f95
+Description-sl: ROMi ZX Spectrum
+ Ta paket zagotavlja slike za pomnilnike le za branje iz različnih različic
+ Sinclair Spectrum. Čeprav kanonična izvorna koda za ROMe ni več na voljo,
+ je tukaj ne-celotna zbirka ROM-ov Spectrum (kode 48k) za vašo referenco.
+ .
+ Trenutno vključeni ROM-i so:
+ .
+  * 48.rom - izvirni 48K ROM
+  * 128-0.rom - 128K ROM 0 (128K urejevalnik in Meni)
+  * 128-1.rom - 128K ROM 1 (48K BASIC)
+  * 128-spanish-0.rom - španski 128K ROM 0 (128K urejevalnik in meni)
+  * 128-spanish-1.rom - španski 128K ROM 1 (48K BASIC)
+  * if1-2.rom - vmesnik 1 v2 ROM
+  * plus2-0.rom - +2 ROM 0 (128K urejevalnik in meni)
+  * plus2-1.rom - +2 ROM 1 (48K BASIC)
+  * plus3-40-0.rom - +2A/+3 v4.0 ROM 0 (128K urejevalnik)
+  * plus3-40-1.rom - +2A/+3 v4.0 ROM 1 (128K preverjalnik skladnje)
+  * plus3-40-2.rom - +2A/+3 v4.0 ROM 2 (+3DOS)
+  * plus3-40-3.rom - +2A/+3 v4.0 ROM 3 (48K BASIC)
+  * tc2048.rom - izvirni 48K ROM spremenjen za Timex TC2048
+
+
+Package: spellcast-doc
+Description-md5: bf9f2170555ff8a2ef4a06e6823db636
+Description-sl: Dokumentacija za večigralsko igra čaranja urokov za X.
+ Ta paket zagotavlja dokumentacijo brezplačno razpoložljivo igro čaranja
+ urokov. Trenutno vključuje pravila izvirne igre spellcaster s svinčnikom
+ in papirjem, prepisi igre in strani priročnika, ki je urejena za
+ vključitev vseh ikon mahanj z roko.
+
+Package: sqldeveloper-package
+Description-md5: 158d10959f8c1a846b10a370c5cbbb0d
+Description-sl: Izgrajevalnik Debian paketov Oracle SQL Developer
+ This utility makes it possible to build a Debian package of Oracle SQL
+ Developer. The Oracle SQL Developer program is governed by the copyright
+ holder (Oracle USA, Inc.), so you may be limited as to what you can do
+ with the resulting package (i.e. no redistribution, etc). This utility
+ will simply help you create the Debian package, it is your responsibility
+ to use the resulting package accordingly with the OTN license, a copy of
+ which is included in the created package, that you must agree on when
+ downloading the source.
+ .
+ This utility will require you to download the architecture independent
+ archive from <http://www.oracle.com/technetwork/developer-tools/sql-
+ developer>, identified as "Oracle SQL Developer for other platforms",
+ "Oracle SQL Developer for Multiple Platforms" or "Oracle SQL Developer for
+ Linux and Unix" (depending on which version you are building), to create
+ the Debian package from.
+
+Package: stardict-english-czech
+Description-md5: 8acfe693a82ce5b175ce5750f1978212
+Description-sl: Paket stardict za angleško-češki slovar
+ To je paket GNU/FDL angleško češkega slovarja za Stardict.
+ .
+ Vsebuje tudi samodejno ustvarjen slovar za obratno smer
+ .
+ You can contribute to the dictionary at
+ <https://www.svobodneslovniky.cz/>.
+
+Package: stardict-german-czech
+Description-md5: 14c136062a1117e977d5cf6f8ab72243
+Description-sl: Stardict package for German-Czech dictionary
+ This is a package of the GNU/FDL German-Czech dictionary for Stardict.
+ .
+ Vsebuje tudi samodejno ustvarjen slovar za obratno smer
+ .
+ You can contribute to the dictionary at
+ <http://gnu.nemeckoceskyslovnik.cz/>.
+
+Package: submux-dvd
+Description-md5: 1c8ae7751da3e32bbfa56e2e743dcb62
+Description-sl: subtilen zvijalnik, zvije podnapise v .vob
+ Osnovano je na izvirnem 'submux' za CVD in SVCD neznanega avtorja, ki je
+ bil spremenjen za zvijanje DVD-ja in podpiranje kodiranja (uporabite le
+ DVD!). To sprejme izhod xste .sub.
+
+Package: svtools
+Description-md5: 0e1af3ce7283b30f537bf151c85ac7d0
+Description-sl: Pripomočki za daemontools in multilog
+ Ta paket vsebuje nekaj uporabnih pripomočkov za vzdrževanje nadzorovanih
+ storitev in za upravljanje datotek dnevnika več dnevnika:
+ .
+ svdir: najde mapo storitve daemontools. svinfo: dobi podatke o
+ nadzorovanem opravilu. svinitd: ovijalnik init.d za storitve deamontools.
+ svinitd-create: Ustvari skript init.d-script za opravila supervices.
+ svsetup: orodje nastavitev storitev za daemontools. mlcat: začje cat za
+ datoteke multilog files. mlhead: začelje glave za datoteke multilog.
+ mltail: začelje tail za datoteke multilog.
+
+Package: t1-xfree86-nonfree
+Description-md5: b25cba5364d7c1d0b2cd49d22345da06
+Description-sl: ne-proste pisave Postscript Type 1 iz XFree86
+ Zbirka pisav Postscript Type 1 je izvirno del distribucije XFree86, vendar
+ so licencirani pod pogoji, ki niso združljivi z Debianovimi smernicami
+ prostih programov in jih zato ni mogoče razširjati kot del Debiana.
+ .
+ Pisave so:
+  - IBM Courier
+  - B&H Luxi Mono
+  - B&H Luxi Sans
+  - B&H Luxi Serif
+ .
+ Other non-free fonts are in the separate packages fonts-xfree86-nonfree
+ and fonts-xfree86-nonfree-syriac.
+
+Package: thawab
+Description-md5: 67884eb3f1c0238b9f91cd9a0969f5a7
+Description-sl: Sistem arabske/islamske enciklopedije
+ Thwab je knjižnica islamske literature, ki vsebuje:
+  *  možnost uvoza knjige iz knjižnice Shamela
+  *  več knjig je mogoče iskati in si jih hkrati ogledati
+  *  spletni vmesnik
+ .
+ Ta paket ne vsebuje nobene knjige. Knjige .bok, ki so del Shamele (proste
+ Islamske knjižnice) lahko dobit s: http://www.shamela.ws
+
+Package: tiemu
+Description-md5: 1102e21f878c7b4ba0911b7e6e5634f0
+Description-sl: Posnemovalnik računala Texas Instruments (brez GDB)
+ TiEmu posnema računala Texas Instruments TI-89/92/92+/V200PLT.
+ .
+ Osnovan je na XTiger, izvirnem posnemovalniku TI za Linux, ki uporablja
+ 68k jedro posnemanja iz UAE (The Ultimate Amiga Emulator).
+ .
+ ROM svoje računala morate izpisati (to lahko storite s TiLP) ali dobite
+ nadgradnjo FLASH od Texas Instrument (oglejte si programski odsek o svojem
+ računalu in nato prejmete arhiv in razširite datoteko) za uporabo tega
+ posnemovalnika. V tem paketu *ni* TI ROM-ov, saj je lastnik pravic Texas
+ Instruments, Inc.
+ .
+ Vendar obstaja brezplačen ROM, ki je sedaj del TiEmu, PedRom. Poizkusite
+ ga!
+ .
+ Ta različica vsebuje razhroščevalnik zbirnika v slogu VTI.
+ .
+ Obstaja še ena različica (timeu-gdb) ni zagotovljena v Debianu samemu, ki
+ vključuje razhroščevalnik zbirnika v slogu GDB za uporabo s TIGCC in/ali
+ KTIGCC.
+
+Package: tightvnc-java
+Description-md5: 40a38acc917ddb191772cd544459f689
+Description-sl: TightVNC aplet java in program ukazne vrstice
+ VNC pomeni navidezno omrežno računalništvo. To je oddaljen namizni sistem,
+ ki vam omogoča ogled `namiznega' okolja ne le na napravi, kjer teče, ampak
+ kjerkoli na Internetu z različnih računalniških arhitektur.
+ .
+ This is the vnc java applet file that the tightvncserver can distribute to
+ the client. In addition a command line program that starts the java based
+ vnc viewer locally is included.
+
+Package: titantools
+Description-md5: 7f6b2884b3f302899e530d5b97ae96be
+Description-sl: Orodja za varovanje gostiteljev bastion
+ Titantools vsebuje dve orodji, ki ju vsebuje paket Titan:
+   * noshell: nadomestni način prijave za nologin za dodajanje lupin
+     skrbniškim (zaklenjenim) uporabnikom sistema.
+   * runas: enostaven splošen program, ki skrbnikom omogoča
+     začenjanje ozadanjih programov kot običajni uporabniki in
+     izbirno poganjanje v okolju chroot.
+
+
+Package: tome
+Description-md5: 9efcf47839037501aa7357051f1287d3
+Description-sl: single-player text-based roguelike dungeon simulation game
+ Tome, angleška kratica za težave srednje zemlje je enoigralska, na
+ besedilu osnovana simulacija temnic izpeljana iz igre angband, ki je
+ izpeljana iz starejše igre Moria, ki je bila osnovana na Rouge. Pogosto je
+ opisana kot "rogue" podobna igra, ker je videz in občutek igre še vedno
+ precej podoben Rouge.
+ .
+ V tome lahko igralec pri ustvarjanju lika izbere med številnimi rasami in
+ razredi in jih nato "poganja" več dni, tednov ali celo mesecev, pri čemer
+ poskuša igro zmagati s premaganjem Morgotha, ki preži nekje v globinah
+ temnic.
+ .
+ Končni cilj igre je razvoj lika, ki je dovolj močan da premaga Morgotha,
+ ki biva na ravni temnice 100. Ob tem boste prejeli stanje "zmagovalca" in
+ vaš lik se lahko upokoji.
+ .
+ Prva glavna razlika v primerjavi z Angband je ta, da se boste v ToME
+ zavedati, da ima podprt na sposobnostih osnovan sistem kjer namesto
+ samodejnega izboljšanja sposobnosti lika lik dobi 5 sposobnostnih točk, ki
+ jih je mogoče zapraviti za zmožnosti lika in lahko prilagodite  kakšno
+ vrsto lika igrate.
+ .
+ Druga največja razlika je, da je bila glavna temnica v Angband razdeljena
+ v 4 "temnice", vsaka od njih pokriva drug del ravni temnice. Vsa mesta
+ niso "temnice" - nekatere so jame, gozdovi, itd.
+ .
+ Tretja glavna razlika med Angband in ToME je razlika v razredih in rasah
+ kot tudi zelo različnemu sistemu magije. ToME igralcu ponuja zmožnost
+ jemanja različnih pohodov. Igralcu ni treba iti na določene pohode, vendar
+ lahko dobi nekaj lepih nagrad.
+ .
+ Morgoth je bil 'Temni sovražnik srednje zemlje'v prvi dobi. Valar (potomec
+ Eru-ja, "boga" sveta J.R.R. Tolkiena) ga je na koncu prve dobe izgnal,
+ zato se v Gospodarju prstanov nikoli ne pojavi, saj se dogajajo v tretjem
+ veku. Sauron je bil njegov najmočnejši služabnik. Za več legend o srednji
+ zemlji si oglejte Tolkienov 'The Simarillion'. Angband je referenca za
+ Morgothov "zapor železa."
+
+Package: triangle-bin
+Description-md5: 0bc20902b8c86904f417cc97f620e231
+Description-sl: High-quality 2-D mesh generator -- binary programs
+ Triangle je knjižnica/program za mreženje 2-D površin in mnogoterosti.
+ .
+ Ta paket vsebuje binarne programe triangle, tricall in showme.
+
+Package: trn4
+Description-md5: 57f4018681a35e8477bb6cfd59d27ec8
+Description-sl: Niten bralnik novic USENET osnovan na rn (4.0 beta preizkus)
+ trn je niten bralnik novic z dolgo zgodovino, ki je nastal iz rn-ja Larrya
+ Walla (del druge generacije bralnikov novic). Ima zmogljiv celozaslonski
+ uporabniški vmesnik z besedilnim načinom, kjer je večine dejanj na voljo s
+ pritiskom ene tipke. Je visoko nastavljiv.
+ .
+ Ta različica trn bere novice s strežnika novic preko NNTP (protokol
+ prenosa omrežnih novic): Na voljo morate imeti novičarski strežnik -
+ velika spletišča ponavadi zagotavljajo strežnik za celo spletišče.
+ .
+ If you install a news server on your system (either containing just local
+ newsgroups or with a partial or full USENET feed) you can configure trn to
+ access it.  In this case you will also need to install an appropriate
+ 'inews' package for local posting.
+ .
+ Ta paket je ločen od trn, ker ima trn 4.0 dovolj občutne spremembe v
+ privzetem obnašanju (na primer izbirnik skupin je nov v 4.0), da je
+ nekaterih uporabnikom ljubša starejša različica trn.
+
+Package: ttf-mscorefonts-installer
+Description-md5: 3cf2bbaf676bcd51633633514c88751a
+Description-sl: Namestilnik za jedrne pisave Microsoft TrueType
+ Ta paket omogoča enostavno namestitev Microsoft True Type za splet
+ vključno z:
+ .
+   Andale Mono
+   Arial Black
+   Arial (krepko, ležeče, krepko-ležeče)
+   Comic Sans MS (krepko)
+   Courier New (krepko, ležeče, krepko-ležeče)
+   Georgia (krepko, ležeče, krepko-ležeče)
+   Impact
+   Times New Roman (krepko, ležeče, krepko-ležeče)
+   Trebuchet (krepko, ležeče, krepko-ležeče)
+   Verdana (krepko, ležeče, krepko-ležeče)
+   Webdings
+ .
+ Za prejem teh pisav boste potrebovali internetno povezavo, če jih še
+ nimate.
+ .
+ NOTE: the package fonts-liberation contains free variants of the Times,
+ Arial and Courier fonts. It's better to use those instead unless you
+ specifically need one of the other fonts from this package.
+
+Package: ubuntu-restricted-addons
+Description-md5: 1a61890ad8e3fb16727ca6a6b66aacbf
+Description-sl: Pogosto uporabljeni omejeni paketi za Ubuntu
+ Ta paket je odvisen od nekaterih pogosto uporabljenih paketov v odložiščih
+ Ubuntu universe in multiverse.
+
+Package: unace-nonfree
+Description-md5: 0fcade2f558f140c4a059b671b82ca2b
+Description-sl: razširite, preizkusite in oglejte si arhive .ace (ne-prosta različica)
+ Pripomoček unace se uporablja za razširjanje, preizkus in ogled vsebine
+ arhivov ustvarjenih z arhivirnikom ACE.
+ .
+ Unlike the unace package which can only extract ACE 1.0 archives, the
+ unace-nonfree package allows one to unpack all current ACE archives.
+
+Package: unrar
+Description-md5: 363f696bb115028ffafb265ccc9f32fb
+Description-sl: Razširjevalnik arhivov za datoteke .rar (ne-prosta različica)
+ Unrar lahko razširi datoteke iz arhivov .rar. V primeru, da želite arhive
+ .rar ustvariti, namestite paket rar.
+
+Package: uqm
+Description-md5: d1146c2aa42142ead5a25d96122ee383
+Description-sl: The Ur-Quan Masters - An inter-galactic adventure game
+ Vrnete se na Zemljo z ladjo, ki jo je izgradila  starodavna rasa
+ Precursorji, vendar so jim jo nato zavzeli. Zberite zaveznike z različnih
+ ras, spopadite se z različnimi sovražniki in rešite galaksijo pred Ur-
+ Quanom!
+ .
+ The Ur-Quan Masters je izpeljan iz klasične igre Star Control II.
+ Vključuje tako pustolovsko igro opisano zgoraj in hitro dogajajoči se
+ Super Melee.
+
+Package: uqm-content
+Description-md5: d7f7f708308d54e508318be3eb7c3bcf
+Description-sl: The Ur-Quan Masters - podatkovne datoteke igre
+ Vrnete se na Zemljo z ladjo, ki jo je izgradila  starodavna rasa
+ Precursorji, vendar so jim jo nato zavzeli. Zberite zaveznike z različnih
+ ras, spopadite se z različnimi sovražniki in rešite galaksijo pred Ur-
+ Quanom!
+ .
+ Ta paket vsebuje podatkovne datoteke za igro The Ur-Quan Masters.
+
+Package: uqm-music
+Description-md5: e30a0c3c7725aff364033433f48e819a
+Description-sl: The Ur-Quan Masters - glasbene datoteke igre
+ Vrnete se na Zemljo z ladjo, ki jo je izgradila  starodavna rasa
+ Precursorji, vendar so jim jo nato zavzeli. Zberite zaveznike z različnih
+ ras, spopadite se z različnimi sovražniki in rešite galaksijo pred Ur-
+ Quanom!
+ .
+ Ta paket vsebuje glasbene datoteke višje kakovosti za igro The Ur-Quan
+ Masters v vrsti ogg vorbis. V primeru da tega paketa ne namestite, bo igra
+ uporabila datoteke glasbe mod nižje kakovosti.
+
+Package: uqm-russian
+Description-md5: 267ce4366adc55d3942d0f2c8c1c723a
+Description-sl: Ruski dodatek za igro 'The Ur-Quan Masters'
+ Vrnete se na Zemljo z ladjo, ki jo je izgradila  starodavna rasa
+ Precursorji, vendar so jim jo nato zavzeli. Zberite zaveznike z različnih
+ ras, spopadite se z različnimi sovražniki in rešite galaksijo pred Ur-
+ Quanom!
+ .
+ The Ur-Quan Masters je izpeljan iz klasične igre Star Control II.
+ Vključuje tako pustolovsko igro opisano zgoraj in hitro dogajajoči se
+ Super Melee.
+ .
+ Ta paket zagotavlja ruske menije in pogovore za igro.
+
+Package: uqm-voice
+Description-md5: 97d3042297f40db281c3216b6096a25e
+Description-sl: The Ur-Quan Masters - glasovne datoteke
+ Vrnete se na Zemljo z ladjo, ki jo je izgradila  starodavna rasa
+ Precursorji, vendar so jim jo nato zavzeli. Zberite zaveznike z različnih
+ ras, spopadite se z različnimi sovražniki in rešite galaksijo pred Ur-
+ Quanom!
+ .
+ Ta paket vsebuje vse posnetke glasu, ki se uporabljajo v igri. Vedite da
+ je večji kot 100Mb! Igro lahko igrate brez teh datotek, če se vam paket
+ zdi prevelik.
+
+Package: vice
+Description-md5: 08c1a2e701ce8fd760ff934904ea4135
+Description-sl: Raznolik posnemovalnik Commodore
+ VICE posnema strojno opremo Commodore Business Machines iz obdobja pred
+ Amigo. Podpirani so različni Peti, VIC-20, Commodore 64, Commodore 128,
+ zaporedje CBM-II series in PLUS/4.
+ .
+ Nekatere nadomestne ključne besede za zgornje: VIC20, C64, C=64, C64 DTV,
+ C128, C=128, CBM-500, CBM-600, CBM-700, PLUS4.
+ .
+ Ta paket ne vsebuje različnih odtisov ROM, ki jih potrebujete za uporabo
+ posnemovalnikov. Na voljo so ločeno z drugih mest (oglejte si datoteko
+ README-ROMs). Podjetje Tulip z Nizozemske je lastnik vseh avtorskih pravic
+ odtisov ROM, redistribucija ni dovoljena. Uporaba VICE ni omejena z
+ avtorskimi pravicami.
+
+Package: videotrans
+Description-md5: e1f89ca2dddfd4e1fb8361b8e9ee4150
+Description-sl: Pripomočki izdelave DVD-jev
+ Zbirka pripomočkov in skriptov zasnovanih za pomoč pri izdelovanju DVD-jev:
+ * movie-to-dvd - pretvori video v MPEG2 + MP2 ali AC3
+  * movie-title - združi video in nasovno zaporedje v meni
+  * movie-make-title - ustvari video ozadja za DVD meni
+  * movie-make-title-simple - ustvari sliko+zvok ozadja za DVD meni
+  * movie-rip-tv.com - zebere podrobnosti o TV nadaljevanko s tv.com
+  * movie-rip-epg.data - pretvori v EPG v .info za movie-title
+  * movie-compare-dvd - prevreri, če je bil DVD pravilno zapisan
+
+
+Package: virtualbox
+Description-md5: 30f96d22c1a6ca04db16bdc1e79ad965
+Description-sl: x86 virtualization solution - base binaries
+ VirtualBox je prosta rešitev virtualizacije x86, ki omogoča poganjanje
+ široega nabora operacijskih sistemov x86 kot so Windows, DOS, BSD ali
+ Linux na Linux sistemu.
+ .
+ This package provides the binaries for VirtualBox. Either the virtualbox-
+ dkms or the virtualbox-source package is also required in order to compile
+ the kernel modules needed for virtualbox. A graphical user interface for
+ VirtualBox is provided by the package virtualbox-qt.
+
+Package: virtualbox-dkms
+Description-md5: 4d42f0fe51c4a92f2aed5071f84524ae
+Description-sl: x86 virtualization solution - kernel module sources for dkms
+ VirtualBox je prosta rešitev virtualizacije x86, ki omogoča poganjanje
+ široega nabora operacijskih sistemov x86 kot so Windows, DOS, BSD ali
+ Linux na Linux sistemu.
+ .
+ This package provides the source code for the virtualbox kernel module to
+ be build with dkms. Kernel sources or headers are required to compile this
+ module.
+
+Package: virtualbox-guest-additions-iso
+Description-md5: 11a9eaac064138ec238f7c2ee4c018df
+Description-sl: iso odtis dodatkov gosta za VirtualBox
+ VirtualBox je prosta rešitev virtualizacije x86, ki omogoča poganjanje
+ široega nabora operacijskih sistemov x86 kot so Windows, DOS, BSD ali
+ Linux na Linux sistemu.
+ .
+ Ta paket zagotavlja odtis iso, ki vsebuje dodatke gosta za nameščanje
+ Linuxa, Solarisa in Windows na sistemu gostitelja. Ciljni sistemi lahko
+ priklopijo iso in od tam namestijo dodatke gosta.
+
+Package: virtualbox-guest-utils
+Description-md5: 0c420aa026ad03a572b15c6e38dbebf7
+Description-sl: x86 virtualization solution - non-X11 guest utilities
+ VirtualBox je prosta rešitev virtualizacije x86, ki omogoča poganjanje
+ široega nabora operacijskih sistemov x86 kot so Windows, DOS, BSD ali
+ Linux na Linux sistemu.
+ .
+ This package provides the non-X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine. They provide
+ closer integration and allow to share data through shared folders between
+ the host system and the virtual machine.
+
+Package: virtualbox-guest-utils-hwe
+Description-md5: 0c420aa026ad03a572b15c6e38dbebf7
+Description-sl: x86 virtualization solution - non-X11 guest utilities
+ VirtualBox je prosta rešitev virtualizacije x86, ki omogoča poganjanje
+ široega nabora operacijskih sistemov x86 kot so Windows, DOS, BSD ali
+ Linux na Linux sistemu.
+ .
+ This package provides the non-X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine. They provide
+ closer integration and allow to share data through shared folders between
+ the host system and the virtual machine.
+
+Package: virtualbox-guest-x11
+Description-md5: 3487afde0b114ec7e205b11f1dd3f7a5
+Description-sl: x86 virtualization solution - X11 guest utilities
+ VirtualBox je prosta rešitev virtualizacije x86, ki omogoča poganjanje
+ široega nabora operacijskih sistemov x86 kot so Windows, DOS, BSD ali
+ Linux na Linux sistemu.
+ .
+ This package provides the X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine. They provide
+ closer integration and improve the interactive performance.
+
+Package: virtualbox-guest-x11-hwe
+Description-md5: 3487afde0b114ec7e205b11f1dd3f7a5
+Description-sl: x86 virtualization solution - X11 guest utilities
+ VirtualBox je prosta rešitev virtualizacije x86, ki omogoča poganjanje
+ široega nabora operacijskih sistemov x86 kot so Windows, DOS, BSD ali
+ Linux na Linux sistemu.
+ .
+ This package provides the X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine. They provide
+ closer integration and improve the interactive performance.
+
+Package: virtualbox-qt
+Description-md5: 41ed29f36ba23b3ce0155f9a8efcff60
+Description-sl: x86 virtualization solution - Qt based user interface
+ VirtualBox je prosta rešitev virtualizacije x86, ki omogoča poganjanje
+ široega nabora operacijskih sistemov x86 kot so Windows, DOS, BSD ali
+ Linux na Linux sistemu.
+ .
+ This package provides the Qt based graphical user interface for
+ VirtualBox.
+
+Package: virtualbox-source
+Description-md5: 53035ede584988f3413156cb7a5dbe8b
+Description-sl: x86 virtualization solution - kernel module source
+ VirtualBox je prosta rešitev virtualizacije x86, ki omogoča poganjanje
+ široega nabora operacijskih sistemov x86 kot so Windows, DOS, BSD ali
+ Linux na Linux sistemu.
+ .
+ This package provides the source code for the virtualbox kernel module.
+ The virtualbox package is also required in order to make use of these
+ modules. Kernel sources or headers are required to compile this module.
+ .
+ The source is placed under /usr/src, and after decompression it can be
+ built to produce a virtualbox-modules-_KVERS_ providing "virtualbox-
+ modules" package.
+
+Package: wap-wml-tools
+Description-md5: d6cb06102d6ab9d9d298d6ffda1df8de
+Description-sl: Razvoj in preizkusna orodja brezžičnega označevalnega jezika
+ wml-tools je zbirka majhnih programov, ki so zasnovani za pomoč pri izgradnji WAP WML kupov. Zbirko trenutno sestavljajo:
+    * wmlc - kodni prevajalnik bajtne kode WML
+    * wmld - strojnokodni prevajalnik bajtne kode WML
+    * wmlv - zelo enostaven na besedilu osnovan pregledovalnik kupčkov WML
+    * wbmp2xpm - pretvornik WBMP v XMP
+    * wmlhtml - enostaven pretvornik kupčkov WML v HTML
+    * rdfwml - pretvornik kanala RDF v kupček WML
+
+
+Package: wdq2wav
+Description-md5: bb5df72836bb6620b3380cb6182d33a7
+Description-sl: Kanal WinDAQ pretvori v zvočno datoteko .wav
+ Ta program izvleče kanal iz datoteke WinDAQ in proizvede datoteko .wav, ki
+ jo je mogoče predvajati. To je v pomoč pri snemanju kanala klepeta za sejo
+ WinDAQ z več kanali A/D.
+
+Package: weirdx
+Description-md5: efd18efb16cda856c70bd010ee0ab87c
+Description-sl: Strežnik X v Javi
+ Celotna izvedba strežnika X v Javi, ki lahko teče samostojno ali kot
+ aplet. Podpira oddaljen X in (z uporabo libjsch-java) X posredovan preko
+ SSH.
+ .
+ Vključuje tudi knjižnico za vstavljanje WeirdX v druge programe Java ali
+ aplete.
+
+Package: wnn7egg
+Description-md5: 7918444a5374084c8d0ad79a7e5c2c6a
+Description-sl: Wnn-nana-tamago -- Vnostni način EGG z Wnn7 za Emacsen
+ EGG za Wnn7, `wnn-nana-tamago' je japonski vnosni način za Emacsen.
+ Osnovan je na Tamago raz. 3 (r3.09) in je vključil del knjižnice
+ sporazumevanja Tamago različice 4
+ .
+ Ta program lahko uporabite le z Jserver Wnn7.
+
+Package: wolf4sdl
+Description-md5: beea9093882e5fbed23b790bd8645f99
+Description-sl: SDL-predelava igre Wolfenstein 3-D and Spear of Destiny
+ Morda je bil vzrok, da so lahko ljudje streljali naciste. Morda je bil
+ vzrok velik izziv. Ne glede na vzrok sta Wolfenstein 3-D in Spear of
+ Destiny pionirja žanra prvoosebnih strelskih iger, ki sta njihovim
+ legendarnim ustvarjalcem, id Software prinesla svetovno znanost in
+ številne nagrade. Wolfenstein 3D je Computer Gaming World Hall of Fame
+ priznal kot igro, ki je pomagala oblikovati smer industrije računalniških
+ iger.
+ .
+ Wolf4SDL je odprtokodna predelava klasične prvoosebne strelske igre
+ Wolfenstein 3-D na večokoljsko predstavno knjižnico "Simple DirecMedia
+ Layer (SDL)" (http://www.libsdl.org). Cilj je bil obdržati izvirni občutek
+ in hkrati dodati nekaj izboljšav.
+ .
+ Igra wolf4sdl zahteva dodatne podatkovne datoteke, ki niso na voljo pod
+ prosto licenco in jih zato Debian ne more distribuirati. Zato ta paket ne
+ vsebuje podatkovnih datotek, vendar jih lahko s pomočjo programa 'gnome-
+ data-packager' ustvarite iz javno dostopne preizkusne epizode Wolfenstein
+ 3-D.
+
+Package: xfonts-naga10
+Description-md5: f553d0d1c2d331faa6d13c8e8b9c0928
+Description-sl: 10x10 točk japonska in  ISO-8859-1 naga10 pisava
+ Ta paket vsebuje japonske pisave 10x10 točk, ki se imenujejo naga10 za
+ uporabo z okenskim sistemom X. Vključuje tudi pisave ISO-8859-1.
+
+Package: xfractint
+Description-md5: 61c3738a20c978ffe1b6a4eaac35accf
+Description-sl: Na UNIX osnovan ustvarjalnik fraktalov
+ Ustvari Mandelbrot, Julia, IFS in veliko več fraktalov v 2D in 3D vključno
+ s tistimi, ki ste jih ustvarili sami. Različica 19 sedaj podpira poljubno
+ natančnost, ki omogoča približanje do globine 1^1600 kot tudi ustvarjene
+ naključnih pikčastih stereogramov.
+
+Package: xml2rfc
+Description-md5: c52c3120527065ba171aae95685c4c34
+Description-sl: Na XML osnovano ogrodje oblikovanja za RFC-je
+ This package provides xml2rfc, a tool which creates text, HTML, PDF, and
+ nroff output in the format required for Internet-Drafts and RFCs.  The
+ text and nroff output is suitable for input to the RFC editor.
+ .
+ DTD, ki ga uporabljajo dokumenti XML, je opisan v RFC 2629.
+
+Package: xtide-data-nonfree
+Description-md5: 5198053f69c8e13dcd7b07b35926227a
+Description-sl: Podatki harmonics za xtide (Kanada, Nizozemska, Nemčija in VB)
+ XTide je paket, ki zagotavlja napovedi plime in oseke v različnih vrstah
+ oblik. Ustvarite lahko grafe, sezname besedila in koledarje ali pa lahko
+ uro plime postavite na svoje namizje.
+ .
+ Ta paket zagotavlja podatke postaje _extra_harmonic za paket xtide. XTide
+ deluje brez njega z uporabo (prostega) paketa xtide-data, ki zagotavlja
+ podatke harmonics za ZDA, vendar ta paket doda ne-proste podatke za
+ Kanado, Nizozemsko, Nemčijo in VB.
+ .
+ Ta paket je ne-prost, ker komercialno razširjanje podatkov ni dovoljeno.
+
+Package: xubuntu-restricted-addons
+Description-md5: bb5192b841eb0c67202acae1287bc5ce
+Description-sl: Commonly used restricted packages for Ubuntu (transitional)
+ Ta paket je odvisen od nekaterih pogosto uporabljenih paketov v odložiščih
+ Ubuntu universe in multiverse.
+ .
+ Tega paketa ne namestite neposredno. Namesto njega namestite paket ubuntu-
+ restricted-extras.
+ .
+ This is a transitional package. It can safely be removed.
+
+Package: xvid4conf
+Description-md5: 61196a43ff23beb7b6d2803a0888df6a
+Description-sl: ustvari nastavitvene datoteke XviD
+ To orodje ustvari nastavitvene datoteke XviD. Ustvarjeno nastavitveno
+ datoteko naj bi prekodiral izvozni modul xvid4. Ta modul (in tudi
+ nastavitvena datoteka) je namenjana za uporabo z XviD 1.0 (dev-api-4)
+
+Package: yale
+Description-md5: 46e088008ce08a1e9426e8d000ccbd9b
+Description-sl: zvezdni podatki iz Yaleovega kataloga svetlih zvezd
+ Ti podatki prihajajo iz [Yale] Bright Star Catalog, 5th Rev. Ed.
+ (preliminary), Hoffleit and Warren, 1991. Vsebuje vse zvezde z navidezno
+ magnitudo svetlejšo kot +6,5.
+ .
+ Te podatke zvezd si lahko ogledate s programom StarPlot, ki je na voljo v
+ Debianu in tudi z drugimi astronomskimi programi.
+
+Package: ydpdict
+Description-md5: 1d8b03ebcd291c2d6c1dc8caf4e40e25
+Description-sl: Vmesnik za slovarja Collins in Langenscheidt
+ To je vmesnik ncurses do Collinsovega angleško-
+ poljskega/poljsko/angleškega in/ali Langenscheidtovega nemško-
+ poljskega/poljsko-nemškega slovarja, ki ju distribuira Young Digital
+ Planet. Predvaja lahko tudi vzorce naglasov, če je na voljo CD.
+ .
+ Ta paket je le vmesnik, ne vsebuje datotek slovarja. Za njegovo uporabo
+ potrebujete kopijo slovarja z YDP.
+
+Package: zangband
+Description-md5: f78402f3185f38d4b6019bda59d02d6a
+Description-sl: Enoigralska, na besedilu osnovana rogue podobna igra
+ Enoigralska, na besedilu osnovana rogue podobna igra osnovana na Angband.
+ Kot Angband tudi Zangband vsebuje edinstvene sovražnike, artefakte, jame s
+ pošastmi in zakladnicami. Poleg tega Zangband ponuja nov sistem urokov
+ (življenjska, čarovniška, naravna, kaotična in smrtna magija), drug seznam
+ pošasti, naloge, edinstvene sovražnike, govorice, nove predmete ega,
+ izdaje, zastrupljena orožja in veliko več.
+
+Package: zangband-data
+Description-md5: 976c44c586fad17925f2f71d99e97fab
+Description-sl: Enoigralska, na besedilu osnovana rogue podobna igra (podatkovne datoteke)
+ Enoigralska, na besedilu osnovana rogue podobna igra osnovana na Angband.
+ Kot Angband tudi Zangband vsebuje edinstvene sovražnike, artefakte, jame s
+ pošastmi in zakladnicami.
+ .
+ This package contains the architecture-independent data files used by
+ zangband.
+
+Package: zeroc-ice-manual
+Description-md5: e8d1b384965040f931108a6bcf3b0065
+Description-sl: Dokumentacija Ice v pdf
+ Ice, programnik internetnega sporazumevanja je srednji program za
+ praktičnega programerja, ki ga je razvil ZeroC Inc. Kot visoko zmogljivo
+ okolje internetnega sporočanja Ice vključuje veliko plastovitih storitev
+ in vstavkov
+ .
+ Ice je izgrajen na konceptih, ki bodo bili znani programerjem CORBA in
+ podpisa veliko programskih jezikov in izvajalnih okolij.
+ .
+ Ta paket namesti knjigo 'Distributed Programming with Ice' kot datoteko
+ pdf v /usr/share/doc/zeroc-ice-manual.
+
+Package: libxilinx-vcu-dev
+Description-md5: dd9c1c7496462871eee7c13df15361d4
+Description-sl: Xilinx VCU Ctrl Software - development files
+ Some Xilinx models include a hardware Video Codec Unit (VCU). The Xilinx
+ VCU Control Software provides tools and libraries to leverage this
+ hardware.
+ .
+ Ta paket vsebuje razvojne datoteke.
+
+Package: libxilinx-vcu-omx-dev
+Description-md5: c9acde522a8af24a93726e8bdaa8b75f
+Description-sl: Xilinx VCU OpenMax Integration Layer - development files
+ Some Xilinx models include a hardware Video Codec Unit (VCU). The Xilinx
+ VCU OpenMax (OMX) Integration Layer (IL) provides an implementation of OMX
+ IL for this hardware.
+ .
+ Ta paket vsebuje razvojne datoteke.
+

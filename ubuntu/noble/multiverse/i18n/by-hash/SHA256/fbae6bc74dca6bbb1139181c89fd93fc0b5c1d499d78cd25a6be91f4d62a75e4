@@ -1,0 +1,119 @@
+Package: abs-guide
+Description-md5: c70e528b8b624e5738bdbd1b89e8b349
+Description-nb: Den Viderekomne Bash-skript veiledningen
+ Utgreiing om hvordan skrive skall-skript.
+ .
+ This tutorial assumes no previous knowledge of scripting or programming,
+ but progresses rapidly toward an intermediate/advanced level of
+ instruction ... all the while sneaking in little snippets of UNIX(R)
+ wisdom and lore. It serves as a textbook, a manual for self-study, and a
+ reference and source of knowledge on shell scripting techniques. The
+ exercises and heavily-commented examples invite active reader
+ participation, under the premise that the only way to really learn
+ scripting is to write scripts.
+ .
+ This book is suitable for classroom use as a general introduction to
+ programming concepts.
+
+Package: album
+Description-md5: 3eaaefa453087570fb45ac51eeccbe7c
+Description-nb: HTML photo album generator with theme support
+ Album er et perl-script som kan lage HTML-fotoalbum for dine direktiver og
+ bilder. Det støtter tema som kan fastslå den visuelle framtoningen til
+ albumene. Album lager tommelnegler hvis det er nødvendig, og 'middels
+ størrelse'-versjoner av bilder for web-bruk for å unngå store nedlastinger
+ av orginale bilder. Du kan også skreddersy ditt fotoalbum på mange andre
+ måter.
+ .
+ Dette programmet krever ikke en nettleser for å fungere. Når HTML-koden er
+ generert, kan du legge det i din "www" katalog.
+
+Package: alien-arena
+Description-md5: de2b3d0db5845c79b22ffc0c38842f1b
+Description-nb: Frittstående førstepersons nettbasert deathmatch-skytespill i 3D
+ ALIEN ARENA is a standalone 3D first person online death-match shooter
+ crafted from the original source code of Quake II and Quake III, released
+ by id Software under the GPL license. With features including 32-bit
+ graphics, a new particle engine and effects, light blooms, reflective
+ water, hi-resolution textures and skins, and hi-poly models and stain
+ maps, ALIEN ARENA pushes the envelope of graphical beauty rivaling today's
+ top games.
+ .
+ Denne pakken installerer SDL-klienten for Alien Arena.
+
+Package: alien-arena-data
+Description-md5: f930829d2a1207940bee317dc2015735
+Description-nb: Spilldatafiler for Alien Arena
+ ALIEN ARENA is a standalone 3D first person online death-match shooter
+ crafted from the original source code of Quake II and Quake III, released
+ by id Software under the GPL license. With features including 32-bit
+ graphics, a new particle engine and effects, light blooms, reflective
+ water, hi-resolution textures and skins, and hi-poly models and stain
+ maps, ALIEN ARENA pushes the envelope of graphical beauty rivaling today's
+ top games.
+ .
+ Denne pakken installerer data, botinfo, og arena-filer som trengs for å
+ kjøre Alien Arena.
+
+Package: alien-arena-server
+Description-md5: 5096fa975d49e1d2781f93bd7781f913
+Description-nb: Dedikert server for Alien Arena
+ ALIEN ARENA is a standalone 3D first person online death-match shooter
+ crafted from the original source code of Quake II and Quake III, released
+ by id Software under the GPL license. With features including 32-bit
+ graphics, a new particle engine and effects, light blooms, reflective
+ water, hi-resolution textures and skins, and hi-poly models and stain
+ maps, ALIEN ARENA pushes the envelope of graphical beauty rivaling today's
+ top games.
+ .
+ Denne pakken installerer en dedikert server for Alien Arena
+
+Package: alsa-firmware-loaders
+Description-md5: 631dd818c28b45f8af844a1ba49ddcd6
+Description-nb: ALSA-laster for spesifikk hardware
+ En samling oppstartslastere for spesifikk hardware:
+ .
+  cspctl - Sound Blaster 16 ASP/CSP control program
+  hdsploader - firmware loader for the RME Hammerfall DSP cards
+  mixartloader - firmware loader for Digigram's miXart board sound drivers
+  pcxhrloader - firmware loader for Digigram pcxhr compatible soundcards
+  sscape_ctl - SoundScape control utility and firmware loader
+  usx2yloader - firmware loader for Tascam USX2Y USB soundcards
+  vxloader - firmware loader for Digigram VX soundcards
+
+
+Package: amiwm
+Description-md5: a2a0859394562edd6b9857a5292439dd
+Description-nb: Amiga look alike window manager
+ Dette er amiwm, en X vindusstyrer som prøver å få din arbeidsstasjon til å
+ ligne en Amiga. "Hvorfor?" spør du. Fordi forfatteren ønsket det. Rett og
+ slett.
+
+Package: amoeba
+Description-md5: d79071f380a0fcf700f7b1ed1856dab1
+Description-nb: rask og blankpolert OpenGL-demonstrasjon av Excess
+ Amoeba is a fast-paced, cross-platform OpenGL demonstration by Excess,
+ showing realtime graphics effects in perfect sync with music. It features
+ a full customizable demo engine, several visual effects, lots of graphics
+ and a pumping soundtrack.
+ .
+ Amoeba won first prize in the demo competition at Underscore 02, a
+ demoscene party held in Gothenburg, Sweden.
+ .
+ Merk at dette bare er demomotoren -- for å se selve demoen nå du også ha
+ pakken amoeba-data.
+
+Package: amoeba-data
+Description-md5: 034c9cfac5217a9a6eb4db71c1f05423
+Description-nb: Rask og blankpolert OpenGL-demonstrasjon av Excess (data)
+ Amoeba is a fast-paced, cross-platform OpenGL demonstration by Excess,
+ showing effects using your 3D card in perfect sync with Ogg Vorbis music.
+ It features a full XML-scripted GPLed demo engine, several object
+ manipulations, lots of graphics and a pumping soundtrack.
+ .
+ Amoeba vant førstepremie i demokonkurransen på Underscore 02, en scenefest
+ avholdt i Jernkøping, Sverige (http://www.underscore.sh/)
+ .
+ Denne pakken inneholder dataen som trengs for demoen -- for å se demoen
+ trenger du også pakken amoeba, som inneholder demomotoren.
+

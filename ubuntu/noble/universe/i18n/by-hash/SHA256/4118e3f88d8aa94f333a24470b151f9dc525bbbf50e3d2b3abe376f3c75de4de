@@ -1,0 +1,4264 @@
+Package: aspell-ca
+Description-md5: ac1a5e69d940eb04be1942837e419d62
+Description-ca: Diccionari català per aspell
+ Aquest paquet conté tots els fitxers necessaris per afegir suport per
+ l'idioma català pel corrector ortogràfic GNU Aspell.
+ .
+ Va ser recollit per en Joan Moratinos utilitzant dades de diverses fonts.
+
+Package: emacs-el
+Description-md5: 293759cc44e4faeb7e4ad6e292cf8c63
+Description-ca: Fitxers LISP (.el) de GNU Emacs
+ GNU Emacs és l'editor de textos extensible i auto-documentat. Aquest
+ paquet conté les fonts d'elisp per la conveniència dels usuaris,
+ estalviant espai en el paquet principal pels sistemes petits.
+
+Package: g++-10
+Description-md5: 0a3fad3367cb994bd16c61b0e16a8b9c
+Description-ca: GNU C++ compiler
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: g++-10-aarch64-linux-gnu
+Description-md5: a7f8482a0c83b82b8aaf4e0cb957d5d0
+Description-ca: GNU C++ compiler (cross compiler for arm64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for arm64 architecture.
+
+Package: g++-10-alpha-linux-gnu
+Description-md5: c0bc62cb25b56097db947d9f27d6e7a0
+Description-ca: GNU C++ compiler (cross compiler for alpha architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for alpha architecture.
+
+Package: g++-10-arm-linux-gnueabi
+Description-md5: 5046662fa8830ee3b7e41bd1fb621aa8
+Description-ca: GNU C++ compiler (cross compiler for armel architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for armel architecture.
+
+Package: g++-10-arm-linux-gnueabihf
+Description-md5: 466636539965b105eeffa2a5b48e2850
+Description-ca: GNU C++ compiler (cross compiler for armhf architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for armhf architecture.
+
+Package: g++-10-hppa-linux-gnu
+Description-md5: 400423dfeca689996725f7a1e6baa2d7
+Description-ca: GNU C++ compiler (cross compiler for hppa architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for hppa architecture.
+
+Package: g++-10-i686-linux-gnu
+Description-md5: afff2dc72e2284224d811d1b7d6a3051
+Description-ca: GNU C++ compiler (cross compiler for i386 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for i386 architecture.
+
+Package: g++-10-m68k-linux-gnu
+Description-md5: 7ddb89c61f3eaef3ccfc87c6339568e1
+Description-ca: GNU C++ compiler (cross compiler for m68k architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for m68k architecture.
+
+Package: g++-10-mips-linux-gnu
+Description-md5: e230f2df7a8b7b03010a200ed0aae05a
+Description-ca: GNU C++ compiler (cross compiler for mips architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips architecture.
+
+Package: g++-10-mips64-linux-gnuabi64
+Description-md5: 9606db375e8c22b84abbadfcf1166d7a
+Description-ca: GNU C++ compiler (cross compiler for mips64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64 architecture.
+
+Package: g++-10-mips64el-linux-gnuabi64
+Description-md5: dfb5e6af734c0f14e9923330c988cbfb
+Description-ca: GNU C++ compiler (cross compiler for mips64el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64el architecture.
+
+Package: g++-10-mipsel-linux-gnu
+Description-md5: 0deb158ff6df6c399b2420d149aec82d
+Description-ca: GNU C++ compiler (cross compiler for mipsel architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsel architecture.
+
+Package: g++-10-mipsisa32r6-linux-gnu
+Description-md5: 48f77e64bde1d8bbb67f4db2cb860830
+Description-ca: GNU C++ compiler (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsr6 architecture.
+
+Package: g++-10-mipsisa32r6el-linux-gnu
+Description-md5: c0470ff0c0a96aca4ab8f77ccd6438f5
+Description-ca: GNU C++ compiler (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsr6el architecture.
+
+Package: g++-10-mipsisa64r6-linux-gnuabi64
+Description-md5: f48105f87f101613b15f1296f2e88e60
+Description-ca: GNU C++ compiler (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64r6 architecture.
+
+Package: g++-10-mipsisa64r6el-linux-gnuabi64
+Description-md5: 074f65b03802d0f712936bf38941d9d6
+Description-ca: GNU C++ compiler (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64r6el architecture.
+
+Package: g++-10-multilib
+Description-md5: 291f2f15035d2eb62358c5157bbae10c
+Description-ca: GNU C++ compiler (multilib support)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-10-multilib-i686-linux-gnu
+Description-md5: 1b477be30862e6844809da2c63f23bde
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for i386 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-10-multilib-mips-linux-gnu
+Description-md5: f1a14ea5c44a1b00e7ce244533431ce6
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-10-multilib-mips64-linux-gnuabi64
+Description-md5: e975a9f2674f872a0122d765bf2dce46
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-10-multilib-mips64el-linux-gnuabi64
+Description-md5: 6a525f086691aa79b492acb926b45201
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-10-multilib-mipsel-linux-gnu
+Description-md5: 7eb41eebe27c031222436d32ac893474
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mipsel architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-10-multilib-mipsisa32r6-linux-gnu
+Description-md5: f7bd6135b12f3b14a1b6fec92a55773d
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-10-multilib-mipsisa32r6el-linux-gnu
+Description-md5: a20d01381807fbebfca4180d8cf84858
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-10-multilib-mipsisa64r6-linux-gnuabi64
+Description-md5: 7a0cd15a959fcf5a0b08064a559e6bcf
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-10-multilib-mipsisa64r6el-linux-gnuabi64
+Description-md5: 5f0ee3cba997ff80d446b3b8402a0258
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-10-multilib-powerpc-linux-gnu
+Description-md5: ce976239962eb02dc6cc11004274270f
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for powerpc architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-10-multilib-powerpc64-linux-gnu
+Description-md5: 00e742f4472bbb037b93ad698bf36caa
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-10-multilib-s390x-linux-gnu
+Description-md5: 2cec0f98c0acc54a45419dbd2fbb00a5
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for s390x architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-10-multilib-sparc64-linux-gnu
+Description-md5: 66228665f9926c448f8cc0efd590015e
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-10-multilib-x86-64-linux-gnux32
+Description-md5: 2cb052e946be1564825b901c0f5ab14c
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for x32 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-10-powerpc-linux-gnu
+Description-md5: b6993fa4a5bfc950233d89bb6922d796
+Description-ca: GNU C++ compiler (cross compiler for powerpc architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for powerpc architecture.
+
+Package: g++-10-powerpc64-linux-gnu
+Description-md5: 8773af1a015cc0fff329800b1c8eb18b
+Description-ca: GNU C++ compiler (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for ppc64 architecture.
+
+Package: g++-10-powerpc64le-linux-gnu
+Description-md5: 9d3a342fa9bb1664c1a3228fb97d3eae
+Description-ca: GNU C++ compiler (cross compiler for ppc64el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for ppc64el architecture.
+
+Package: g++-10-riscv64-linux-gnu
+Description-md5: 3c417007b0cbe0fdbdbd2d7eb5e639b2
+Description-ca: GNU C++ compiler (cross compiler for riscv64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for riscv64 architecture.
+
+Package: g++-10-s390x-linux-gnu
+Description-md5: 6504513b0451939eb03345282ca3aacc
+Description-ca: GNU C++ compiler (cross compiler for s390x architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for s390x architecture.
+
+Package: g++-10-sh4-linux-gnu
+Description-md5: 0f5474e825fb350a71fabbb1c3dfc2cc
+Description-ca: GNU C++ compiler (cross compiler for sh4 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for sh4 architecture.
+
+Package: g++-10-sparc64-linux-gnu
+Description-md5: 0ca69794eaa79de76832bd3e72334574
+Description-ca: GNU C++ compiler (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for sparc64 architecture.
+
+Package: g++-10-x86-64-linux-gnux32
+Description-md5: 056b1050ba2a52d3ec4a46a6f4ee9140
+Description-ca: GNU C++ compiler (cross compiler for x32 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for x32 architecture.
+
+Package: g++-11
+Description-md5: 0a3fad3367cb994bd16c61b0e16a8b9c
+Description-ca: GNU C++ compiler
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: g++-11-aarch64-linux-gnu
+Description-md5: a7f8482a0c83b82b8aaf4e0cb957d5d0
+Description-ca: GNU C++ compiler (cross compiler for arm64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for arm64 architecture.
+
+Package: g++-11-alpha-linux-gnu
+Description-md5: c0bc62cb25b56097db947d9f27d6e7a0
+Description-ca: GNU C++ compiler (cross compiler for alpha architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for alpha architecture.
+
+Package: g++-11-arc-linux-gnu
+Description-md5: 4c6151b9337f741c7c366f7ecde21bc8
+Description-ca: GNU C++ compiler (cross compiler for arc architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for arc architecture.
+
+Package: g++-11-arm-linux-gnueabi
+Description-md5: 5046662fa8830ee3b7e41bd1fb621aa8
+Description-ca: GNU C++ compiler (cross compiler for armel architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for armel architecture.
+
+Package: g++-11-arm-linux-gnueabihf
+Description-md5: 466636539965b105eeffa2a5b48e2850
+Description-ca: GNU C++ compiler (cross compiler for armhf architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for armhf architecture.
+
+Package: g++-11-hppa-linux-gnu
+Description-md5: 400423dfeca689996725f7a1e6baa2d7
+Description-ca: GNU C++ compiler (cross compiler for hppa architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for hppa architecture.
+
+Package: g++-11-i686-linux-gnu
+Description-md5: afff2dc72e2284224d811d1b7d6a3051
+Description-ca: GNU C++ compiler (cross compiler for i386 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for i386 architecture.
+
+Package: g++-11-m68k-linux-gnu
+Description-md5: 7ddb89c61f3eaef3ccfc87c6339568e1
+Description-ca: GNU C++ compiler (cross compiler for m68k architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for m68k architecture.
+
+Package: g++-11-mips-linux-gnu
+Description-md5: e230f2df7a8b7b03010a200ed0aae05a
+Description-ca: GNU C++ compiler (cross compiler for mips architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips architecture.
+
+Package: g++-11-mips64-linux-gnuabi64
+Description-md5: 9606db375e8c22b84abbadfcf1166d7a
+Description-ca: GNU C++ compiler (cross compiler for mips64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64 architecture.
+
+Package: g++-11-mips64el-linux-gnuabi64
+Description-md5: dfb5e6af734c0f14e9923330c988cbfb
+Description-ca: GNU C++ compiler (cross compiler for mips64el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64el architecture.
+
+Package: g++-11-mipsel-linux-gnu
+Description-md5: 0deb158ff6df6c399b2420d149aec82d
+Description-ca: GNU C++ compiler (cross compiler for mipsel architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsel architecture.
+
+Package: g++-11-mipsisa32r6-linux-gnu
+Description-md5: 48f77e64bde1d8bbb67f4db2cb860830
+Description-ca: GNU C++ compiler (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsr6 architecture.
+
+Package: g++-11-mipsisa32r6el-linux-gnu
+Description-md5: c0470ff0c0a96aca4ab8f77ccd6438f5
+Description-ca: GNU C++ compiler (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsr6el architecture.
+
+Package: g++-11-mipsisa64r6-linux-gnuabi64
+Description-md5: f48105f87f101613b15f1296f2e88e60
+Description-ca: GNU C++ compiler (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64r6 architecture.
+
+Package: g++-11-mipsisa64r6el-linux-gnuabi64
+Description-md5: 074f65b03802d0f712936bf38941d9d6
+Description-ca: GNU C++ compiler (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64r6el architecture.
+
+Package: g++-11-multilib
+Description-md5: 291f2f15035d2eb62358c5157bbae10c
+Description-ca: GNU C++ compiler (multilib support)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-11-multilib-i686-linux-gnu
+Description-md5: 1b477be30862e6844809da2c63f23bde
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for i386 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-11-multilib-mips-linux-gnu
+Description-md5: f1a14ea5c44a1b00e7ce244533431ce6
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-11-multilib-mips64-linux-gnuabi64
+Description-md5: e975a9f2674f872a0122d765bf2dce46
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-11-multilib-mips64el-linux-gnuabi64
+Description-md5: 6a525f086691aa79b492acb926b45201
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-11-multilib-mipsel-linux-gnu
+Description-md5: 7eb41eebe27c031222436d32ac893474
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mipsel architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-11-multilib-mipsisa32r6-linux-gnu
+Description-md5: f7bd6135b12f3b14a1b6fec92a55773d
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-11-multilib-mipsisa32r6el-linux-gnu
+Description-md5: a20d01381807fbebfca4180d8cf84858
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-11-multilib-mipsisa64r6-linux-gnuabi64
+Description-md5: 7a0cd15a959fcf5a0b08064a559e6bcf
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-11-multilib-mipsisa64r6el-linux-gnuabi64
+Description-md5: 5f0ee3cba997ff80d446b3b8402a0258
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-11-multilib-powerpc-linux-gnu
+Description-md5: ce976239962eb02dc6cc11004274270f
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for powerpc architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-11-multilib-powerpc64-linux-gnu
+Description-md5: 00e742f4472bbb037b93ad698bf36caa
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-11-multilib-s390x-linux-gnu
+Description-md5: 2cec0f98c0acc54a45419dbd2fbb00a5
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for s390x architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-11-multilib-sparc64-linux-gnu
+Description-md5: 66228665f9926c448f8cc0efd590015e
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-11-multilib-x86-64-linux-gnux32
+Description-md5: 2cb052e946be1564825b901c0f5ab14c
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for x32 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-11-powerpc-linux-gnu
+Description-md5: b6993fa4a5bfc950233d89bb6922d796
+Description-ca: GNU C++ compiler (cross compiler for powerpc architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for powerpc architecture.
+
+Package: g++-11-powerpc64-linux-gnu
+Description-md5: 8773af1a015cc0fff329800b1c8eb18b
+Description-ca: GNU C++ compiler (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for ppc64 architecture.
+
+Package: g++-11-powerpc64le-linux-gnu
+Description-md5: 9d3a342fa9bb1664c1a3228fb97d3eae
+Description-ca: GNU C++ compiler (cross compiler for ppc64el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for ppc64el architecture.
+
+Package: g++-11-riscv64-linux-gnu
+Description-md5: 3c417007b0cbe0fdbdbd2d7eb5e639b2
+Description-ca: GNU C++ compiler (cross compiler for riscv64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for riscv64 architecture.
+
+Package: g++-11-s390x-linux-gnu
+Description-md5: 6504513b0451939eb03345282ca3aacc
+Description-ca: GNU C++ compiler (cross compiler for s390x architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for s390x architecture.
+
+Package: g++-11-sh4-linux-gnu
+Description-md5: 0f5474e825fb350a71fabbb1c3dfc2cc
+Description-ca: GNU C++ compiler (cross compiler for sh4 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for sh4 architecture.
+
+Package: g++-11-sparc64-linux-gnu
+Description-md5: 0ca69794eaa79de76832bd3e72334574
+Description-ca: GNU C++ compiler (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for sparc64 architecture.
+
+Package: g++-11-x86-64-linux-gnux32
+Description-md5: 056b1050ba2a52d3ec4a46a6f4ee9140
+Description-ca: GNU C++ compiler (cross compiler for x32 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for x32 architecture.
+
+Package: g++-12
+Description-md5: 0a3fad3367cb994bd16c61b0e16a8b9c
+Description-ca: GNU C++ compiler
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: g++-12-aarch64-linux-gnu
+Description-md5: a7f8482a0c83b82b8aaf4e0cb957d5d0
+Description-ca: GNU C++ compiler (cross compiler for arm64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for arm64 architecture.
+
+Package: g++-12-alpha-linux-gnu
+Description-md5: c0bc62cb25b56097db947d9f27d6e7a0
+Description-ca: GNU C++ compiler (cross compiler for alpha architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for alpha architecture.
+
+Package: g++-12-arc-linux-gnu
+Description-md5: 4c6151b9337f741c7c366f7ecde21bc8
+Description-ca: GNU C++ compiler (cross compiler for arc architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for arc architecture.
+
+Package: g++-12-arm-linux-gnueabi
+Description-md5: 5046662fa8830ee3b7e41bd1fb621aa8
+Description-ca: GNU C++ compiler (cross compiler for armel architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for armel architecture.
+
+Package: g++-12-arm-linux-gnueabihf
+Description-md5: 466636539965b105eeffa2a5b48e2850
+Description-ca: GNU C++ compiler (cross compiler for armhf architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for armhf architecture.
+
+Package: g++-12-hppa-linux-gnu
+Description-md5: 400423dfeca689996725f7a1e6baa2d7
+Description-ca: GNU C++ compiler (cross compiler for hppa architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for hppa architecture.
+
+Package: g++-12-i686-linux-gnu
+Description-md5: afff2dc72e2284224d811d1b7d6a3051
+Description-ca: GNU C++ compiler (cross compiler for i386 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for i386 architecture.
+
+Package: g++-12-m68k-linux-gnu
+Description-md5: 7ddb89c61f3eaef3ccfc87c6339568e1
+Description-ca: GNU C++ compiler (cross compiler for m68k architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for m68k architecture.
+
+Package: g++-12-mips-linux-gnu
+Description-md5: e230f2df7a8b7b03010a200ed0aae05a
+Description-ca: GNU C++ compiler (cross compiler for mips architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips architecture.
+
+Package: g++-12-mips64-linux-gnuabi64
+Description-md5: 9606db375e8c22b84abbadfcf1166d7a
+Description-ca: GNU C++ compiler (cross compiler for mips64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64 architecture.
+
+Package: g++-12-mips64el-linux-gnuabi64
+Description-md5: dfb5e6af734c0f14e9923330c988cbfb
+Description-ca: GNU C++ compiler (cross compiler for mips64el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64el architecture.
+
+Package: g++-12-mipsel-linux-gnu
+Description-md5: 0deb158ff6df6c399b2420d149aec82d
+Description-ca: GNU C++ compiler (cross compiler for mipsel architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsel architecture.
+
+Package: g++-12-mipsisa32r6-linux-gnu
+Description-md5: 48f77e64bde1d8bbb67f4db2cb860830
+Description-ca: GNU C++ compiler (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsr6 architecture.
+
+Package: g++-12-mipsisa32r6el-linux-gnu
+Description-md5: c0470ff0c0a96aca4ab8f77ccd6438f5
+Description-ca: GNU C++ compiler (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsr6el architecture.
+
+Package: g++-12-mipsisa64r6-linux-gnuabi64
+Description-md5: f48105f87f101613b15f1296f2e88e60
+Description-ca: GNU C++ compiler (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64r6 architecture.
+
+Package: g++-12-mipsisa64r6el-linux-gnuabi64
+Description-md5: 074f65b03802d0f712936bf38941d9d6
+Description-ca: GNU C++ compiler (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64r6el architecture.
+
+Package: g++-12-multilib
+Description-md5: 291f2f15035d2eb62358c5157bbae10c
+Description-ca: GNU C++ compiler (multilib support)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-12-multilib-i686-linux-gnu
+Description-md5: 1b477be30862e6844809da2c63f23bde
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for i386 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-12-multilib-mips-linux-gnu
+Description-md5: f1a14ea5c44a1b00e7ce244533431ce6
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-12-multilib-mips64-linux-gnuabi64
+Description-md5: e975a9f2674f872a0122d765bf2dce46
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-12-multilib-mips64el-linux-gnuabi64
+Description-md5: 6a525f086691aa79b492acb926b45201
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-12-multilib-mipsel-linux-gnu
+Description-md5: 7eb41eebe27c031222436d32ac893474
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mipsel architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-12-multilib-mipsisa32r6-linux-gnu
+Description-md5: f7bd6135b12f3b14a1b6fec92a55773d
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-12-multilib-mipsisa32r6el-linux-gnu
+Description-md5: a20d01381807fbebfca4180d8cf84858
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-12-multilib-mipsisa64r6-linux-gnuabi64
+Description-md5: 7a0cd15a959fcf5a0b08064a559e6bcf
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-12-multilib-mipsisa64r6el-linux-gnuabi64
+Description-md5: 5f0ee3cba997ff80d446b3b8402a0258
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-12-multilib-powerpc-linux-gnu
+Description-md5: ce976239962eb02dc6cc11004274270f
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for powerpc architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-12-multilib-powerpc64-linux-gnu
+Description-md5: 00e742f4472bbb037b93ad698bf36caa
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-12-multilib-s390x-linux-gnu
+Description-md5: 2cec0f98c0acc54a45419dbd2fbb00a5
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for s390x architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-12-multilib-sparc64-linux-gnu
+Description-md5: 66228665f9926c448f8cc0efd590015e
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-12-multilib-x86-64-linux-gnux32
+Description-md5: 2cb052e946be1564825b901c0f5ab14c
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for x32 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-12-powerpc-linux-gnu
+Description-md5: b6993fa4a5bfc950233d89bb6922d796
+Description-ca: GNU C++ compiler (cross compiler for powerpc architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for powerpc architecture.
+
+Package: g++-12-powerpc64-linux-gnu
+Description-md5: 8773af1a015cc0fff329800b1c8eb18b
+Description-ca: GNU C++ compiler (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for ppc64 architecture.
+
+Package: g++-12-powerpc64le-linux-gnu
+Description-md5: 9d3a342fa9bb1664c1a3228fb97d3eae
+Description-ca: GNU C++ compiler (cross compiler for ppc64el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for ppc64el architecture.
+
+Package: g++-12-riscv64-linux-gnu
+Description-md5: 3c417007b0cbe0fdbdbd2d7eb5e639b2
+Description-ca: GNU C++ compiler (cross compiler for riscv64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for riscv64 architecture.
+
+Package: g++-12-s390x-linux-gnu
+Description-md5: 6504513b0451939eb03345282ca3aacc
+Description-ca: GNU C++ compiler (cross compiler for s390x architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for s390x architecture.
+
+Package: g++-12-sh4-linux-gnu
+Description-md5: 0f5474e825fb350a71fabbb1c3dfc2cc
+Description-ca: GNU C++ compiler (cross compiler for sh4 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for sh4 architecture.
+
+Package: g++-12-sparc64-linux-gnu
+Description-md5: 0ca69794eaa79de76832bd3e72334574
+Description-ca: GNU C++ compiler (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for sparc64 architecture.
+
+Package: g++-12-x86-64-linux-gnux32
+Description-md5: 056b1050ba2a52d3ec4a46a6f4ee9140
+Description-ca: GNU C++ compiler (cross compiler for x32 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for x32 architecture.
+
+Package: g++-13-alpha-linux-gnu
+Description-md5: 2932ecfbf875987adb785a93f1e9504c
+Description-ca: GNU C++ compiler for alpha-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for alpha-linux-gnu architecture.
+
+Package: g++-13-arc-linux-gnu
+Description-md5: e14e856b76e6c130b49053d2b58a37eb
+Description-ca: GNU C++ compiler for arc-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for arc-linux-gnu architecture.
+
+Package: g++-13-arm-linux-gnueabi
+Description-md5: 4295d48c3de87ed13720997a550f5ddb
+Description-ca: GNU C++ compiler for arm-linux-gnueabi architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for arm-linux-gnueabi
+ architecture.
+
+Package: g++-13-hppa-linux-gnu
+Description-md5: 18267b1bfb244fadd9254c5eef389381
+Description-ca: GNU C++ compiler for hppa-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for hppa-linux-gnu architecture.
+
+Package: g++-13-m68k-linux-gnu
+Description-md5: c54664c51957dcedc707e0713caa3cc9
+Description-ca: GNU C++ compiler for m68k-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for m68k-linux-gnu architecture.
+
+Package: g++-13-mips-linux-gnu
+Description-md5: 460f0a8e964f063d2b7d18419aedb245
+Description-ca: GNU C++ compiler for mips-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips-linux-gnu architecture.
+
+Package: g++-13-mips64-linux-gnuabi64
+Description-md5: 241a32f781db3fcdecbd37b433948177
+Description-ca: GNU C++ compiler for mips64-linux-gnuabi64 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64-linux-gnuabi64
+ architecture.
+
+Package: g++-13-mips64el-linux-gnuabi64
+Description-md5: c5015c092558b75cb4754501509be3ae
+Description-ca: GNU C++ compiler for mips64el-linux-gnuabi64 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64el-linux-gnuabi64
+ architecture.
+
+Package: g++-13-mipsel-linux-gnu
+Description-md5: d9902fa43b1a1001cbb436e2c963828b
+Description-ca: GNU C++ compiler for mipsel-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsel-linux-gnu
+ architecture.
+
+Package: g++-13-mipsisa32r6-linux-gnu
+Description-md5: 8bc69097aa20e5456d880028ee7252f0
+Description-ca: GNU C++ compiler for mipsisa32r6-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsisa32r6-linux-gnu
+ architecture.
+
+Package: g++-13-mipsisa32r6el-linux-gnu
+Description-md5: f1e99e810942071a52cff62e76fdfffe
+Description-ca: GNU C++ compiler for mipsisa32r6el-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsisa32r6el-linux-gnu
+ architecture.
+
+Package: g++-13-mipsisa64r6-linux-gnuabi64
+Description-md5: 3c6cb1510e2ccede76ff737bdf9f5ec8
+Description-ca: GNU C++ compiler for mipsisa64r6-linux-gnuabi64 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsisa64r6-linux-gnuabi64
+ architecture.
+
+Package: g++-13-mipsisa64r6el-linux-gnuabi64
+Description-md5: 7728548a9b42e35679913d2cdf2b28a7
+Description-ca: GNU C++ compiler for mipsisa64r6el-linux-gnuabi64 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsisa64r6el-linux-gnuabi64
+ architecture.
+
+Package: g++-13-multilib-i686-linux-gnu
+Description-md5: 1b477be30862e6844809da2c63f23bde
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for i386 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-13-multilib-mips-linux-gnu
+Description-md5: f1a14ea5c44a1b00e7ce244533431ce6
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-13-multilib-mips64-linux-gnuabi64
+Description-md5: e975a9f2674f872a0122d765bf2dce46
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-13-multilib-mips64el-linux-gnuabi64
+Description-md5: 6a525f086691aa79b492acb926b45201
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-13-multilib-mipsel-linux-gnu
+Description-md5: 7eb41eebe27c031222436d32ac893474
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mipsel architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-13-multilib-mipsisa32r6-linux-gnu
+Description-md5: f7bd6135b12f3b14a1b6fec92a55773d
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-13-multilib-mipsisa32r6el-linux-gnu
+Description-md5: a20d01381807fbebfca4180d8cf84858
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-13-multilib-mipsisa64r6-linux-gnuabi64
+Description-md5: 7a0cd15a959fcf5a0b08064a559e6bcf
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-13-multilib-mipsisa64r6el-linux-gnuabi64
+Description-md5: 5f0ee3cba997ff80d446b3b8402a0258
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-13-multilib-powerpc-linux-gnu
+Description-md5: ce976239962eb02dc6cc11004274270f
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for powerpc architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-13-multilib-powerpc64-linux-gnu
+Description-md5: 00e742f4472bbb037b93ad698bf36caa
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-13-multilib-s390x-linux-gnu
+Description-md5: 2cec0f98c0acc54a45419dbd2fbb00a5
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for s390x architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-13-multilib-sparc64-linux-gnu
+Description-md5: 66228665f9926c448f8cc0efd590015e
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-13-multilib-x86-64-linux-gnux32
+Description-md5: 2cb052e946be1564825b901c0f5ab14c
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for x32 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-13-powerpc-linux-gnu
+Description-md5: a6a01c5b6174aae806d940f3ce2cf093
+Description-ca: GNU C++ compiler for powerpc-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for powerpc-linux-gnu
+ architecture.
+
+Package: g++-13-powerpc64-linux-gnu
+Description-md5: 557ddc209c9ffc0ee91f14ba077f4ec5
+Description-ca: GNU C++ compiler for powerpc64-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for powerpc64-linux-gnu
+ architecture.
+
+Package: g++-13-sh4-linux-gnu
+Description-md5: 1369316a1da3e0f60d597714dc79d09b
+Description-ca: GNU C++ compiler for sh4-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for sh4-linux-gnu architecture.
+
+Package: g++-13-sparc64-linux-gnu
+Description-md5: d43dfc98f70770fe2d3808f84e84d2f0
+Description-ca: GNU C++ compiler for sparc64-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for sparc64-linux-gnu
+ architecture.
+
+Package: g++-13-x86-64-linux-gnux32
+Description-md5: fd335f1a1944e156a3560646eef5d172
+Description-ca: GNU C++ compiler for x86_64-linux-gnux32 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for x86_64-linux-gnux32
+ architecture.
+
+Package: g++-14
+Description-md5: 0a3fad3367cb994bd16c61b0e16a8b9c
+Description-ca: GNU C++ compiler
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: g++-14-aarch64-linux-gnu
+Description-md5: b996f012975000f1ea76fd985d3446d1
+Description-ca: GNU C++ compiler for aarch64-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for aarch64-linux-gnu
+ architecture.
+
+Package: g++-14-alpha-linux-gnu
+Description-md5: 2932ecfbf875987adb785a93f1e9504c
+Description-ca: GNU C++ compiler for alpha-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for alpha-linux-gnu architecture.
+
+Package: g++-14-arc-linux-gnu
+Description-md5: e14e856b76e6c130b49053d2b58a37eb
+Description-ca: GNU C++ compiler for arc-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for arc-linux-gnu architecture.
+
+Package: g++-14-arm-linux-gnueabi
+Description-md5: 4295d48c3de87ed13720997a550f5ddb
+Description-ca: GNU C++ compiler for arm-linux-gnueabi architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for arm-linux-gnueabi
+ architecture.
+
+Package: g++-14-arm-linux-gnueabihf
+Description-md5: 8217684381d0545df03fa8d52efefabb
+Description-ca: GNU C++ compiler for arm-linux-gnueabihf architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for arm-linux-gnueabihf
+ architecture.
+
+Package: g++-14-for-build
+Description-md5: 6b662a2a3907f28ed9a0e2ac6a55d3ea
+Description-ca: GNU C++ compiler for the build architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for arch_gnu architecture.
+ .
+ This is a dependency package.
+
+Package: g++-14-for-host
+Description-md5: 9390f1b2980c545f669a0b8b8d5b11e0
+Description-ca: GNU C++ compiler for the host architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for the host architecture.
+ .
+ When using this package, tools must be invoked with an architecture
+ prefix.
+ .
+ This is a dependency package.
+
+Package: g++-14-hppa-linux-gnu
+Description-md5: 18267b1bfb244fadd9254c5eef389381
+Description-ca: GNU C++ compiler for hppa-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for hppa-linux-gnu architecture.
+
+Package: g++-14-i686-linux-gnu
+Description-md5: 88bdc3f5d96144f5748dae6f61c62299
+Description-ca: GNU C++ compiler for i686-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for i686-linux-gnu architecture.
+
+Package: g++-14-m68k-linux-gnu
+Description-md5: c54664c51957dcedc707e0713caa3cc9
+Description-ca: GNU C++ compiler for m68k-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for m68k-linux-gnu architecture.
+
+Package: g++-14-multilib
+Description-md5: 291f2f15035d2eb62358c5157bbae10c
+Description-ca: GNU C++ compiler (multilib support)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-14-multilib-i686-linux-gnu
+Description-md5: 1b477be30862e6844809da2c63f23bde
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for i386 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-14-multilib-powerpc-linux-gnu
+Description-md5: ce976239962eb02dc6cc11004274270f
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for powerpc architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-14-multilib-powerpc64-linux-gnu
+Description-md5: 00e742f4472bbb037b93ad698bf36caa
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-14-multilib-s390x-linux-gnu
+Description-md5: 2cec0f98c0acc54a45419dbd2fbb00a5
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for s390x architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-14-multilib-sparc64-linux-gnu
+Description-md5: 66228665f9926c448f8cc0efd590015e
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-14-multilib-x86-64-linux-gnux32
+Description-md5: 2cb052e946be1564825b901c0f5ab14c
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for x32 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-14-powerpc-linux-gnu
+Description-md5: a6a01c5b6174aae806d940f3ce2cf093
+Description-ca: GNU C++ compiler for powerpc-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for powerpc-linux-gnu
+ architecture.
+
+Package: g++-14-powerpc64-linux-gnu
+Description-md5: 557ddc209c9ffc0ee91f14ba077f4ec5
+Description-ca: GNU C++ compiler for powerpc64-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for powerpc64-linux-gnu
+ architecture.
+
+Package: g++-14-powerpc64le-linux-gnu
+Description-md5: 0be28451d4d61c7a7c7261ee29e52e35
+Description-ca: GNU C++ compiler for powerpc64le-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for powerpc64le-linux-gnu
+ architecture.
+
+Package: g++-14-riscv64-linux-gnu
+Description-md5: c05debccc4cda53b165f1d0fab684249
+Description-ca: GNU C++ compiler for riscv64-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for riscv64-linux-gnu
+ architecture.
+
+Package: g++-14-s390x-linux-gnu
+Description-md5: fafd9d967c83a64a002649a8dd459c79
+Description-ca: GNU C++ compiler for s390x-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for s390x-linux-gnu architecture.
+
+Package: g++-14-sh4-linux-gnu
+Description-md5: 1369316a1da3e0f60d597714dc79d09b
+Description-ca: GNU C++ compiler for sh4-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for sh4-linux-gnu architecture.
+
+Package: g++-14-sparc64-linux-gnu
+Description-md5: d43dfc98f70770fe2d3808f84e84d2f0
+Description-ca: GNU C++ compiler for sparc64-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for sparc64-linux-gnu
+ architecture.
+
+Package: g++-14-x86-64-linux-gnu
+Description-md5: f28641d421c551d47a5e989009efe119
+Description-ca: GNU C++ compiler for x86_64-linux-gnu architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for x86_64-linux-gnu
+ architecture.
+
+Package: g++-14-x86-64-linux-gnux32
+Description-md5: fd335f1a1944e156a3560646eef5d172
+Description-ca: GNU C++ compiler for x86_64-linux-gnux32 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for x86_64-linux-gnux32
+ architecture.
+
+Package: g++-9
+Description-md5: 0a3fad3367cb994bd16c61b0e16a8b9c
+Description-ca: GNU C++ compiler
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: g++-9-aarch64-linux-gnu
+Description-md5: a7f8482a0c83b82b8aaf4e0cb957d5d0
+Description-ca: GNU C++ compiler (cross compiler for arm64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for arm64 architecture.
+
+Package: g++-9-alpha-linux-gnu
+Description-md5: c0bc62cb25b56097db947d9f27d6e7a0
+Description-ca: GNU C++ compiler (cross compiler for alpha architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for alpha architecture.
+
+Package: g++-9-arm-linux-gnueabi
+Description-md5: 5046662fa8830ee3b7e41bd1fb621aa8
+Description-ca: GNU C++ compiler (cross compiler for armel architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for armel architecture.
+
+Package: g++-9-arm-linux-gnueabihf
+Description-md5: 466636539965b105eeffa2a5b48e2850
+Description-ca: GNU C++ compiler (cross compiler for armhf architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for armhf architecture.
+
+Package: g++-9-hppa-linux-gnu
+Description-md5: 400423dfeca689996725f7a1e6baa2d7
+Description-ca: GNU C++ compiler (cross compiler for hppa architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for hppa architecture.
+
+Package: g++-9-i686-linux-gnu
+Description-md5: afff2dc72e2284224d811d1b7d6a3051
+Description-ca: GNU C++ compiler (cross compiler for i386 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for i386 architecture.
+
+Package: g++-9-m68k-linux-gnu
+Description-md5: 7ddb89c61f3eaef3ccfc87c6339568e1
+Description-ca: GNU C++ compiler (cross compiler for m68k architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for m68k architecture.
+
+Package: g++-9-mips-linux-gnu
+Description-md5: e230f2df7a8b7b03010a200ed0aae05a
+Description-ca: GNU C++ compiler (cross compiler for mips architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips architecture.
+
+Package: g++-9-mips64-linux-gnuabi64
+Description-md5: 9606db375e8c22b84abbadfcf1166d7a
+Description-ca: GNU C++ compiler (cross compiler for mips64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64 architecture.
+
+Package: g++-9-mips64el-linux-gnuabi64
+Description-md5: dfb5e6af734c0f14e9923330c988cbfb
+Description-ca: GNU C++ compiler (cross compiler for mips64el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64el architecture.
+
+Package: g++-9-mipsel-linux-gnu
+Description-md5: 0deb158ff6df6c399b2420d149aec82d
+Description-ca: GNU C++ compiler (cross compiler for mipsel architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsel architecture.
+
+Package: g++-9-mipsisa32r6-linux-gnu
+Description-md5: 48f77e64bde1d8bbb67f4db2cb860830
+Description-ca: GNU C++ compiler (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsr6 architecture.
+
+Package: g++-9-mipsisa32r6el-linux-gnu
+Description-md5: c0470ff0c0a96aca4ab8f77ccd6438f5
+Description-ca: GNU C++ compiler (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mipsr6el architecture.
+
+Package: g++-9-mipsisa64r6-linux-gnuabi64
+Description-md5: f48105f87f101613b15f1296f2e88e60
+Description-ca: GNU C++ compiler (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64r6 architecture.
+
+Package: g++-9-mipsisa64r6el-linux-gnuabi64
+Description-md5: 074f65b03802d0f712936bf38941d9d6
+Description-ca: GNU C++ compiler (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for mips64r6el architecture.
+
+Package: g++-9-multilib
+Description-md5: 291f2f15035d2eb62358c5157bbae10c
+Description-ca: GNU C++ compiler (multilib support)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-multilib-i686-linux-gnu
+Description-md5: 1b477be30862e6844809da2c63f23bde
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for i386 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-multilib-mips-linux-gnu
+Description-md5: f1a14ea5c44a1b00e7ce244533431ce6
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-multilib-mips64-linux-gnuabi64
+Description-md5: e975a9f2674f872a0122d765bf2dce46
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-multilib-mips64el-linux-gnuabi64
+Description-md5: 6a525f086691aa79b492acb926b45201
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-multilib-mipsel-linux-gnu
+Description-md5: 7eb41eebe27c031222436d32ac893474
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mipsel architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-multilib-mipsisa32r6-linux-gnu
+Description-md5: f7bd6135b12f3b14a1b6fec92a55773d
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-multilib-mipsisa32r6el-linux-gnu
+Description-md5: a20d01381807fbebfca4180d8cf84858
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-multilib-mipsisa64r6-linux-gnuabi64
+Description-md5: 7a0cd15a959fcf5a0b08064a559e6bcf
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-multilib-mipsisa64r6el-linux-gnuabi64
+Description-md5: 5f0ee3cba997ff80d446b3b8402a0258
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-multilib-powerpc-linux-gnu
+Description-md5: ce976239962eb02dc6cc11004274270f
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for powerpc architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-multilib-powerpc64-linux-gnu
+Description-md5: 00e742f4472bbb037b93ad698bf36caa
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-multilib-s390x-linux-gnu
+Description-md5: 2cec0f98c0acc54a45419dbd2fbb00a5
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for s390x architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-multilib-sparc64-linux-gnu
+Description-md5: 66228665f9926c448f8cc0efd590015e
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-multilib-x86-64-linux-gnux32
+Description-md5: 2cb052e946be1564825b901c0f5ab14c
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for x32 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-powerpc-linux-gnu
+Description-md5: b6993fa4a5bfc950233d89bb6922d796
+Description-ca: GNU C++ compiler (cross compiler for powerpc architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for powerpc architecture.
+
+Package: g++-9-powerpc64-linux-gnu
+Description-md5: 8773af1a015cc0fff329800b1c8eb18b
+Description-ca: GNU C++ compiler (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for ppc64 architecture.
+
+Package: g++-9-powerpc64le-linux-gnu
+Description-md5: 9d3a342fa9bb1664c1a3228fb97d3eae
+Description-ca: GNU C++ compiler (cross compiler for ppc64el architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for ppc64el architecture.
+
+Package: g++-9-riscv64-linux-gnu
+Description-md5: 3c417007b0cbe0fdbdbd2d7eb5e639b2
+Description-ca: GNU C++ compiler (cross compiler for riscv64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for riscv64 architecture.
+
+Package: g++-9-s390x-linux-gnu
+Description-md5: 6504513b0451939eb03345282ca3aacc
+Description-ca: GNU C++ compiler (cross compiler for s390x architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for s390x architecture.
+
+Package: g++-9-sh4-linux-gnu
+Description-md5: 0f5474e825fb350a71fabbb1c3dfc2cc
+Description-ca: GNU C++ compiler (cross compiler for sh4 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for sh4 architecture.
+
+Package: g++-9-sparc64-linux-gnu
+Description-md5: 0ca69794eaa79de76832bd3e72334574
+Description-ca: GNU C++ compiler (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for sparc64 architecture.
+
+Package: g++-9-x86-64-linux-gnux32
+Description-md5: 056b1050ba2a52d3ec4a46a6f4ee9140
+Description-ca: GNU C++ compiler (cross compiler for x32 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for x32 architecture.
+
+Package: g++-alpha-linux-gnu
+Description-md5: 63455f6f87778fa475c4784e9a7d06d1
+Description-ca: GNU C++ compiler for the alpha architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the alpha architecture.
+
+Package: g++-arc-linux-gnu
+Description-md5: 41d6ad1e5053fe4295b6334913ccff6c
+Description-ca: GNU C++ compiler for the arc architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the arc architecture.
+
+Package: g++-arm-linux-gnueabi
+Description-md5: 05df4fea4d3956fb12eda5f6640a9368
+Description-ca: GNU C++ compiler for the armel architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the armel architecture.
+
+Package: g++-hppa-linux-gnu
+Description-md5: 905a8313956ffa9b5f950bb5b7d1877e
+Description-ca: GNU C++ compiler for the hppa architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the hppa architecture.
+
+Package: g++-m68k-linux-gnu
+Description-md5: db3172d6c0f5b027c5611f948d711fbc
+Description-ca: GNU C++ compiler for the m68k architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the m68k architecture.
+
+Package: g++-mips-linux-gnu
+Description-md5: 7d0f5a2fd60fad3c51072d2ce11a6d33
+Description-ca: GNU C++ compiler for the mips architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the mips architecture.
+
+Package: g++-mips64-linux-gnuabi64
+Description-md5: 781a7c262ab4284bf910c04dfdbfe58b
+Description-ca: GNU C++ compiler for the mips64 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the mips64 architecture.
+
+Package: g++-mips64el-linux-gnuabi64
+Description-md5: a926829d443670257a23b76629c17678
+Description-ca: GNU C++ compiler for the mips64el architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the mips64el architecture.
+
+Package: g++-mipsel-linux-gnu
+Description-md5: a78509f9da485fd866d51fcfdb80a191
+Description-ca: GNU C++ compiler for the mipsel architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the mipsel architecture.
+
+Package: g++-mipsisa32r6-linux-gnu
+Description-md5: c80754ff6fbd109f98795a98a2a03564
+Description-ca: GNU C++ compiler for the mipsr6 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the mipsr6 architecture.
+
+Package: g++-mipsisa32r6el-linux-gnu
+Description-md5: e25c74ef7acdeeade436873720a2695b
+Description-ca: GNU C++ compiler for the mipsr6el architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the mipsr6el architecture.
+
+Package: g++-mipsisa64r6-linux-gnuabi64
+Description-md5: 448dfb10e3333fbcdd6a22dee7c10c3f
+Description-ca: GNU C++ compiler for the mips64r6 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the mips64r6 architecture.
+
+Package: g++-mipsisa64r6el-linux-gnuabi64
+Description-md5: 27e46bc2c27621328eeff80121ed2706
+Description-ca: GNU C++ compiler for the mips64r6el architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the mips64r6el architecture.
+
+Package: g++-multilib-i686-linux-gnu
+Description-md5: 21d062243171427488240851c399824b
+Description-ca: GNU C++ compiler for the i386 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the i386 architecture.
+
+Package: g++-multilib-mips-linux-gnu
+Description-md5: 4500c93654c87411789a52ddac7f25e7
+Description-ca: GNU C++ compiler for the mips architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the mips architecture.
+
+Package: g++-multilib-mips64-linux-gnuabi64
+Description-md5: cf9010cf4f93dc94ac432e8911adee0d
+Description-ca: GNU C++ compiler for the mips64 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the mips64 architecture.
+
+Package: g++-multilib-mips64el-linux-gnuabi64
+Description-md5: f5c55516384cc7459f3887503eafb0af
+Description-ca: GNU C++ compiler for the mips64el architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the mips64el architecture.
+
+Package: g++-multilib-mipsel-linux-gnu
+Description-md5: 8e79848fc2d9c5a3cb72658e63a467b9
+Description-ca: GNU C++ compiler for the mipsel architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the mipsel architecture.
+
+Package: g++-multilib-mipsisa32r6-linux-gnu
+Description-md5: f2a173e17dc839e26ae12d64acd51756
+Description-ca: GNU C++ compiler for the mipsr6 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the mipsr6 architecture.
+
+Package: g++-multilib-mipsisa32r6el-linux-gnu
+Description-md5: e599652f0dca841f89ace356925c0614
+Description-ca: GNU C++ compiler for the mipsr6el architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the mipsr6el architecture.
+
+Package: g++-multilib-mipsisa64r6-linux-gnuabi64
+Description-md5: 4f54d78ca038c080270319d0b84ba254
+Description-ca: GNU C++ compiler for the mips64r6 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the mips64r6 architecture.
+
+Package: g++-multilib-mipsisa64r6el-linux-gnuabi64
+Description-md5: d7c8f9e18117276aebf77f2dbe05e028
+Description-ca: GNU C++ compiler for the mips64r6el architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the mips64r6el architecture.
+
+Package: g++-multilib-powerpc-linux-gnu
+Description-md5: 4fc6dc02333543ee6db964e755540b56
+Description-ca: GNU C++ compiler for the powerpc architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the powerpc architecture.
+
+Package: g++-multilib-powerpc64-linux-gnu
+Description-md5: b8cb59982684379a36c19e6abe4f591f
+Description-ca: GNU C++ compiler for the ppc64 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the ppc64 architecture.
+
+Package: g++-multilib-s390x-linux-gnu
+Description-md5: 923d5d98e01f79c8853e01090403d09a
+Description-ca: GNU C++ compiler for the s390x architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the s390x architecture.
+
+Package: g++-multilib-sparc64-linux-gnu
+Description-md5: 66ae43da9a032d1752d97ec3b62d296e
+Description-ca: GNU C++ compiler for the sparc64 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the sparc64 architecture.
+
+Package: g++-multilib-x86-64-linux-gnux32
+Description-md5: dbb207d5c6757c026380fba16058c9ce
+Description-ca: GNU C++ compiler for the x32 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the x32 architecture.
+
+Package: g++-powerpc-linux-gnu
+Description-md5: f9aeda628b0db2328f1e8a1d68ba71ce
+Description-ca: GNU C++ compiler for the powerpc architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the powerpc architecture.
+
+Package: g++-powerpc64-linux-gnu
+Description-md5: 3a3c7919ff09612e0528b8e93af74355
+Description-ca: GNU C++ compiler for the ppc64 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the ppc64 architecture.
+
+Package: g++-sh4-linux-gnu
+Description-md5: c3fee81ad277f72de39cc9578b38e026
+Description-ca: GNU C++ compiler for the sh4 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the sh4 architecture.
+
+Package: g++-sparc64-linux-gnu
+Description-md5: 2fd5de3ec4816eb88005bbefa7b13a03
+Description-ca: GNU C++ compiler for the sparc64 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the sparc64 architecture.
+
+Package: g++-x86-64-linux-gnux32
+Description-md5: ca674cd5b7ed6d5bdcc6aac8d37327aa
+Description-ca: GNU C++ compiler for the x32 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the x32 architecture.
+
+Package: gcc-10
+Description-md5: 394374e688b1afb3af5f419895d29698
+Description-ca: GNU C compiler
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: gcc-10-aarch64-linux-gnu
+Description-md5: 6605467979c7b4a27b8a1c6ed7aabd06
+Description-ca: GNU C compiler (cross compiler for arm64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for arm64 architecture.
+
+Package: gcc-10-alpha-linux-gnu
+Description-md5: 88aca54a1627a3fd7711d3f9d7ac5f33
+Description-ca: GNU C compiler (cross compiler for alpha architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for alpha architecture.
+
+Package: gcc-10-arm-linux-gnueabi
+Description-md5: 6d4f736a5f9df9e4e9a88a6f23fb803f
+Description-ca: GNU C compiler (cross compiler for armel architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for armel architecture.
+
+Package: gcc-10-arm-linux-gnueabihf
+Description-md5: 81e320f4fe3cb20f4878142f5988397e
+Description-ca: GNU C compiler (cross compiler for armhf architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for armhf architecture.
+
+Package: gcc-10-hppa-linux-gnu
+Description-md5: cef7613d51735832c53f1b1325a89812
+Description-ca: GNU C compiler (cross compiler for hppa architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for hppa architecture.
+
+Package: gcc-10-hppa64-linux-gnu
+Description-md5: 0ee0959bbc343ff940f7f385554ffc51
+Description-ca: GNU C compiler (cross compiler for hppa64)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: gcc-10-i686-linux-gnu
+Description-md5: e08cbb27b980ce408f7cf6b470382377
+Description-ca: GNU C compiler (cross compiler for i386 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for i386 architecture.
+
+Package: gcc-10-m68k-linux-gnu
+Description-md5: 593d004b0e996a576ee189070dfc0bcb
+Description-ca: GNU C compiler (cross compiler for m68k architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for m68k architecture.
+
+Package: gcc-10-mips-linux-gnu
+Description-md5: be6d2cc3e9b8c1d0308b373005b63a10
+Description-ca: GNU C compiler (cross compiler for mips architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips architecture.
+
+Package: gcc-10-mips64-linux-gnuabi64
+Description-md5: ad8b0dd5eb608c299c86040d36ffd88e
+Description-ca: GNU C compiler (cross compiler for mips64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips64 architecture.
+
+Package: gcc-10-mips64el-linux-gnuabi64
+Description-md5: cca731d17203fa2912fe9c3749d8d7c3
+Description-ca: GNU C compiler (cross compiler for mips64el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips64el architecture.
+
+Package: gcc-10-mipsel-linux-gnu
+Description-md5: 1ed845ccbb41e0438f6d587cf734705e
+Description-ca: GNU C compiler (cross compiler for mipsel architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mipsel architecture.
+
+Package: gcc-10-mipsisa32r6-linux-gnu
+Description-md5: fdc8a83a68b1c6cf719040dd928ffb1c
+Description-ca: GNU C compiler (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mipsr6 architecture.
+
+Package: gcc-10-mipsisa32r6el-linux-gnu
+Description-md5: 8bb57d57871d799af6f8ede51702ad43
+Description-ca: GNU C compiler (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mipsr6el architecture.
+
+Package: gcc-10-mipsisa64r6-linux-gnuabi64
+Description-md5: 37280f5f5f1a2bac28b43466c7bf16e5
+Description-ca: GNU C compiler (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips64r6 architecture.
+
+Package: gcc-10-mipsisa64r6el-linux-gnuabi64
+Description-md5: 24eb3234afc7c305b6afe67eb54cae9f
+Description-ca: GNU C compiler (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips64r6el architecture.
+
+Package: gcc-10-multilib
+Description-md5: d1bddfa375b62324197c575c04fb2e4e
+Description-ca: GNU C compiler (multilib support)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-10-multilib-i686-linux-gnu
+Description-md5: 8f1710ddb22efe64f00eb522d643b878
+Description-ca: GNU C compiler (multilib support) (cross compiler for i386 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-10-multilib-mips-linux-gnu
+Description-md5: 352bce4d6af0ef3e2260adabe2ff173d
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-10-multilib-mips64-linux-gnuabi64
+Description-md5: 0ca7032ee3e71a85bdbed44c6b99bc87
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-10-multilib-mips64el-linux-gnuabi64
+Description-md5: f4cfcd14632c3b026966af8e9ac60b0a
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-10-multilib-mipsel-linux-gnu
+Description-md5: d3e65e9a4d8569516c54407d74e93560
+Description-ca: GNU C compiler (multilib support) (cross compiler for mipsel architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-10-multilib-mipsisa32r6-linux-gnu
+Description-md5: bc2f903f4b7148f2e04662815719a85c
+Description-ca: GNU C compiler (multilib support) (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-10-multilib-mipsisa32r6el-linux-gnu
+Description-md5: 8b7ebc685cd7f591c8ed78fae9e06285
+Description-ca: GNU C compiler (multilib support) (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-10-multilib-mipsisa64r6-linux-gnuabi64
+Description-md5: f75ec31d220e018a7619e3f92623e417
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-10-multilib-mipsisa64r6el-linux-gnuabi64
+Description-md5: 22c98144720069ea253e0cf6d91a5dcb
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-10-multilib-powerpc-linux-gnu
+Description-md5: 8f8bcf0982eb50ed5e013710e4fba34f
+Description-ca: GNU C compiler (multilib support) (cross compiler for powerpc architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-10-multilib-powerpc64-linux-gnu
+Description-md5: 6b4f4449535347d777e4be09c0f60a83
+Description-ca: GNU C compiler (multilib support) (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-10-multilib-s390x-linux-gnu
+Description-md5: b66121d6f9ac00f634e35356c94f9fa6
+Description-ca: GNU C compiler (multilib support) (cross compiler for s390x architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-10-multilib-sparc64-linux-gnu
+Description-md5: 64868a8c5f326ebc1205d38ac2f1c47b
+Description-ca: GNU C compiler (multilib support) (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-10-multilib-x86-64-linux-gnux32
+Description-md5: ce32998e15b35da4bb9d55103c9869ed
+Description-ca: GNU C compiler (multilib support) (cross compiler for x32 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-10-powerpc-linux-gnu
+Description-md5: 45b8bb0736af15d214f67dae5a33875a
+Description-ca: GNU C compiler (cross compiler for powerpc architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for powerpc architecture.
+
+Package: gcc-10-powerpc64-linux-gnu
+Description-md5: 5576cbb75735e5752bbbd9f1338288a0
+Description-ca: GNU C compiler (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for ppc64 architecture.
+
+Package: gcc-10-powerpc64le-linux-gnu
+Description-md5: 02948f686f57b7661fd57acbd2976475
+Description-ca: GNU C compiler (cross compiler for ppc64el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for ppc64el architecture.
+
+Package: gcc-10-riscv64-linux-gnu
+Description-md5: 0d14114bfdde50833447e5afa7c0bea2
+Description-ca: GNU C compiler (cross compiler for riscv64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for riscv64 architecture.
+
+Package: gcc-10-s390x-linux-gnu
+Description-md5: 7061b5561490b87818d8a46702f2fd78
+Description-ca: GNU C compiler (cross compiler for s390x architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for s390x architecture.
+
+Package: gcc-10-sh4-linux-gnu
+Description-md5: 539edebbf17a1829a278772b09e95d80
+Description-ca: GNU C compiler (cross compiler for sh4 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for sh4 architecture.
+
+Package: gcc-10-sparc64-linux-gnu
+Description-md5: 4c65ae04634ee085bae81d947ec77b16
+Description-ca: GNU C compiler (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for sparc64 architecture.
+
+Package: gcc-10-x86-64-linux-gnux32
+Description-md5: ce9301ad842c3273341fa161f1a958ae
+Description-ca: GNU C compiler (cross compiler for x32 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for x32 architecture.
+
+Package: gcc-11
+Description-md5: 394374e688b1afb3af5f419895d29698
+Description-ca: GNU C compiler
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: gcc-11-aarch64-linux-gnu
+Description-md5: 6605467979c7b4a27b8a1c6ed7aabd06
+Description-ca: GNU C compiler (cross compiler for arm64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for arm64 architecture.
+
+Package: gcc-11-alpha-linux-gnu
+Description-md5: 88aca54a1627a3fd7711d3f9d7ac5f33
+Description-ca: GNU C compiler (cross compiler for alpha architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for alpha architecture.
+
+Package: gcc-11-arc-linux-gnu
+Description-md5: e63874c34830170f86f617327742ad3e
+Description-ca: GNU C compiler (cross compiler for arc architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for arc architecture.
+
+Package: gcc-11-arm-linux-gnueabi
+Description-md5: 6d4f736a5f9df9e4e9a88a6f23fb803f
+Description-ca: GNU C compiler (cross compiler for armel architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for armel architecture.
+
+Package: gcc-11-arm-linux-gnueabihf
+Description-md5: 81e320f4fe3cb20f4878142f5988397e
+Description-ca: GNU C compiler (cross compiler for armhf architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for armhf architecture.
+
+Package: gcc-11-hppa-linux-gnu
+Description-md5: cef7613d51735832c53f1b1325a89812
+Description-ca: GNU C compiler (cross compiler for hppa architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for hppa architecture.
+
+Package: gcc-11-hppa64-linux-gnu
+Description-md5: 0ee0959bbc343ff940f7f385554ffc51
+Description-ca: GNU C compiler (cross compiler for hppa64)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: gcc-11-i686-linux-gnu
+Description-md5: e08cbb27b980ce408f7cf6b470382377
+Description-ca: GNU C compiler (cross compiler for i386 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for i386 architecture.
+
+Package: gcc-11-m68k-linux-gnu
+Description-md5: 593d004b0e996a576ee189070dfc0bcb
+Description-ca: GNU C compiler (cross compiler for m68k architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for m68k architecture.
+
+Package: gcc-11-mips-linux-gnu
+Description-md5: be6d2cc3e9b8c1d0308b373005b63a10
+Description-ca: GNU C compiler (cross compiler for mips architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips architecture.
+
+Package: gcc-11-mips64-linux-gnuabi64
+Description-md5: ad8b0dd5eb608c299c86040d36ffd88e
+Description-ca: GNU C compiler (cross compiler for mips64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips64 architecture.
+
+Package: gcc-11-mips64el-linux-gnuabi64
+Description-md5: cca731d17203fa2912fe9c3749d8d7c3
+Description-ca: GNU C compiler (cross compiler for mips64el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips64el architecture.
+
+Package: gcc-11-mipsel-linux-gnu
+Description-md5: 1ed845ccbb41e0438f6d587cf734705e
+Description-ca: GNU C compiler (cross compiler for mipsel architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mipsel architecture.
+
+Package: gcc-11-mipsisa32r6-linux-gnu
+Description-md5: fdc8a83a68b1c6cf719040dd928ffb1c
+Description-ca: GNU C compiler (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mipsr6 architecture.
+
+Package: gcc-11-mipsisa32r6el-linux-gnu
+Description-md5: 8bb57d57871d799af6f8ede51702ad43
+Description-ca: GNU C compiler (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mipsr6el architecture.
+
+Package: gcc-11-mipsisa64r6-linux-gnuabi64
+Description-md5: 37280f5f5f1a2bac28b43466c7bf16e5
+Description-ca: GNU C compiler (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips64r6 architecture.
+
+Package: gcc-11-mipsisa64r6el-linux-gnuabi64
+Description-md5: 24eb3234afc7c305b6afe67eb54cae9f
+Description-ca: GNU C compiler (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips64r6el architecture.
+
+Package: gcc-11-multilib
+Description-md5: d1bddfa375b62324197c575c04fb2e4e
+Description-ca: GNU C compiler (multilib support)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-11-multilib-i686-linux-gnu
+Description-md5: 8f1710ddb22efe64f00eb522d643b878
+Description-ca: GNU C compiler (multilib support) (cross compiler for i386 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-11-multilib-mips-linux-gnu
+Description-md5: 352bce4d6af0ef3e2260adabe2ff173d
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-11-multilib-mips64-linux-gnuabi64
+Description-md5: 0ca7032ee3e71a85bdbed44c6b99bc87
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-11-multilib-mips64el-linux-gnuabi64
+Description-md5: f4cfcd14632c3b026966af8e9ac60b0a
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-11-multilib-mipsel-linux-gnu
+Description-md5: d3e65e9a4d8569516c54407d74e93560
+Description-ca: GNU C compiler (multilib support) (cross compiler for mipsel architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-11-multilib-mipsisa32r6-linux-gnu
+Description-md5: bc2f903f4b7148f2e04662815719a85c
+Description-ca: GNU C compiler (multilib support) (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-11-multilib-mipsisa32r6el-linux-gnu
+Description-md5: 8b7ebc685cd7f591c8ed78fae9e06285
+Description-ca: GNU C compiler (multilib support) (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-11-multilib-mipsisa64r6-linux-gnuabi64
+Description-md5: f75ec31d220e018a7619e3f92623e417
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-11-multilib-mipsisa64r6el-linux-gnuabi64
+Description-md5: 22c98144720069ea253e0cf6d91a5dcb
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-11-multilib-powerpc-linux-gnu
+Description-md5: 8f8bcf0982eb50ed5e013710e4fba34f
+Description-ca: GNU C compiler (multilib support) (cross compiler for powerpc architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-11-multilib-powerpc64-linux-gnu
+Description-md5: 6b4f4449535347d777e4be09c0f60a83
+Description-ca: GNU C compiler (multilib support) (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-11-multilib-s390x-linux-gnu
+Description-md5: b66121d6f9ac00f634e35356c94f9fa6
+Description-ca: GNU C compiler (multilib support) (cross compiler for s390x architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-11-multilib-sparc64-linux-gnu
+Description-md5: 64868a8c5f326ebc1205d38ac2f1c47b
+Description-ca: GNU C compiler (multilib support) (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-11-multilib-x86-64-linux-gnux32
+Description-md5: ce32998e15b35da4bb9d55103c9869ed
+Description-ca: GNU C compiler (multilib support) (cross compiler for x32 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-11-powerpc-linux-gnu
+Description-md5: 45b8bb0736af15d214f67dae5a33875a
+Description-ca: GNU C compiler (cross compiler for powerpc architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for powerpc architecture.
+
+Package: gcc-11-powerpc64-linux-gnu
+Description-md5: 5576cbb75735e5752bbbd9f1338288a0
+Description-ca: GNU C compiler (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for ppc64 architecture.
+
+Package: gcc-11-powerpc64le-linux-gnu
+Description-md5: 02948f686f57b7661fd57acbd2976475
+Description-ca: GNU C compiler (cross compiler for ppc64el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for ppc64el architecture.
+
+Package: gcc-11-riscv64-linux-gnu
+Description-md5: 0d14114bfdde50833447e5afa7c0bea2
+Description-ca: GNU C compiler (cross compiler for riscv64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for riscv64 architecture.
+
+Package: gcc-11-s390x-linux-gnu
+Description-md5: 7061b5561490b87818d8a46702f2fd78
+Description-ca: GNU C compiler (cross compiler for s390x architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for s390x architecture.
+
+Package: gcc-11-sh4-linux-gnu
+Description-md5: 539edebbf17a1829a278772b09e95d80
+Description-ca: GNU C compiler (cross compiler for sh4 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for sh4 architecture.
+
+Package: gcc-11-sparc64-linux-gnu
+Description-md5: 4c65ae04634ee085bae81d947ec77b16
+Description-ca: GNU C compiler (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for sparc64 architecture.
+
+Package: gcc-11-x86-64-linux-gnux32
+Description-md5: ce9301ad842c3273341fa161f1a958ae
+Description-ca: GNU C compiler (cross compiler for x32 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for x32 architecture.
+
+Package: gcc-12
+Description-md5: 394374e688b1afb3af5f419895d29698
+Description-ca: GNU C compiler
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: gcc-12-aarch64-linux-gnu
+Description-md5: 6605467979c7b4a27b8a1c6ed7aabd06
+Description-ca: GNU C compiler (cross compiler for arm64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for arm64 architecture.
+
+Package: gcc-12-alpha-linux-gnu
+Description-md5: 88aca54a1627a3fd7711d3f9d7ac5f33
+Description-ca: GNU C compiler (cross compiler for alpha architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for alpha architecture.
+
+Package: gcc-12-arc-linux-gnu
+Description-md5: e63874c34830170f86f617327742ad3e
+Description-ca: GNU C compiler (cross compiler for arc architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for arc architecture.
+
+Package: gcc-12-arm-linux-gnueabi
+Description-md5: 6d4f736a5f9df9e4e9a88a6f23fb803f
+Description-ca: GNU C compiler (cross compiler for armel architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for armel architecture.
+
+Package: gcc-12-arm-linux-gnueabihf
+Description-md5: 81e320f4fe3cb20f4878142f5988397e
+Description-ca: GNU C compiler (cross compiler for armhf architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for armhf architecture.
+
+Package: gcc-12-hppa-linux-gnu
+Description-md5: cef7613d51735832c53f1b1325a89812
+Description-ca: GNU C compiler (cross compiler for hppa architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for hppa architecture.
+
+Package: gcc-12-hppa64-linux-gnu
+Description-md5: 0ee0959bbc343ff940f7f385554ffc51
+Description-ca: GNU C compiler (cross compiler for hppa64)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: gcc-12-i686-linux-gnu
+Description-md5: e08cbb27b980ce408f7cf6b470382377
+Description-ca: GNU C compiler (cross compiler for i386 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for i386 architecture.
+
+Package: gcc-12-m68k-linux-gnu
+Description-md5: 593d004b0e996a576ee189070dfc0bcb
+Description-ca: GNU C compiler (cross compiler for m68k architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for m68k architecture.
+
+Package: gcc-12-mips-linux-gnu
+Description-md5: be6d2cc3e9b8c1d0308b373005b63a10
+Description-ca: GNU C compiler (cross compiler for mips architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips architecture.
+
+Package: gcc-12-mips64-linux-gnuabi64
+Description-md5: ad8b0dd5eb608c299c86040d36ffd88e
+Description-ca: GNU C compiler (cross compiler for mips64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips64 architecture.
+
+Package: gcc-12-mips64el-linux-gnuabi64
+Description-md5: cca731d17203fa2912fe9c3749d8d7c3
+Description-ca: GNU C compiler (cross compiler for mips64el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips64el architecture.
+
+Package: gcc-12-mipsel-linux-gnu
+Description-md5: 1ed845ccbb41e0438f6d587cf734705e
+Description-ca: GNU C compiler (cross compiler for mipsel architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mipsel architecture.
+
+Package: gcc-12-mipsisa32r6-linux-gnu
+Description-md5: fdc8a83a68b1c6cf719040dd928ffb1c
+Description-ca: GNU C compiler (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mipsr6 architecture.
+
+Package: gcc-12-mipsisa32r6el-linux-gnu
+Description-md5: 8bb57d57871d799af6f8ede51702ad43
+Description-ca: GNU C compiler (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mipsr6el architecture.
+
+Package: gcc-12-mipsisa64r6-linux-gnuabi64
+Description-md5: 37280f5f5f1a2bac28b43466c7bf16e5
+Description-ca: GNU C compiler (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips64r6 architecture.
+
+Package: gcc-12-mipsisa64r6el-linux-gnuabi64
+Description-md5: 24eb3234afc7c305b6afe67eb54cae9f
+Description-ca: GNU C compiler (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips64r6el architecture.
+
+Package: gcc-12-multilib
+Description-md5: d1bddfa375b62324197c575c04fb2e4e
+Description-ca: GNU C compiler (multilib support)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-12-multilib-i686-linux-gnu
+Description-md5: 8f1710ddb22efe64f00eb522d643b878
+Description-ca: GNU C compiler (multilib support) (cross compiler for i386 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-12-multilib-mips-linux-gnu
+Description-md5: 352bce4d6af0ef3e2260adabe2ff173d
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-12-multilib-mips64-linux-gnuabi64
+Description-md5: 0ca7032ee3e71a85bdbed44c6b99bc87
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-12-multilib-mips64el-linux-gnuabi64
+Description-md5: f4cfcd14632c3b026966af8e9ac60b0a
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-12-multilib-mipsel-linux-gnu
+Description-md5: d3e65e9a4d8569516c54407d74e93560
+Description-ca: GNU C compiler (multilib support) (cross compiler for mipsel architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-12-multilib-mipsisa32r6-linux-gnu
+Description-md5: bc2f903f4b7148f2e04662815719a85c
+Description-ca: GNU C compiler (multilib support) (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-12-multilib-mipsisa32r6el-linux-gnu
+Description-md5: 8b7ebc685cd7f591c8ed78fae9e06285
+Description-ca: GNU C compiler (multilib support) (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-12-multilib-mipsisa64r6-linux-gnuabi64
+Description-md5: f75ec31d220e018a7619e3f92623e417
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-12-multilib-mipsisa64r6el-linux-gnuabi64
+Description-md5: 22c98144720069ea253e0cf6d91a5dcb
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-12-multilib-powerpc-linux-gnu
+Description-md5: 8f8bcf0982eb50ed5e013710e4fba34f
+Description-ca: GNU C compiler (multilib support) (cross compiler for powerpc architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-12-multilib-powerpc64-linux-gnu
+Description-md5: 6b4f4449535347d777e4be09c0f60a83
+Description-ca: GNU C compiler (multilib support) (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-12-multilib-s390x-linux-gnu
+Description-md5: b66121d6f9ac00f634e35356c94f9fa6
+Description-ca: GNU C compiler (multilib support) (cross compiler for s390x architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-12-multilib-sparc64-linux-gnu
+Description-md5: 64868a8c5f326ebc1205d38ac2f1c47b
+Description-ca: GNU C compiler (multilib support) (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-12-multilib-x86-64-linux-gnux32
+Description-md5: ce32998e15b35da4bb9d55103c9869ed
+Description-ca: GNU C compiler (multilib support) (cross compiler for x32 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-12-powerpc-linux-gnu
+Description-md5: 45b8bb0736af15d214f67dae5a33875a
+Description-ca: GNU C compiler (cross compiler for powerpc architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for powerpc architecture.
+
+Package: gcc-12-powerpc64-linux-gnu
+Description-md5: 5576cbb75735e5752bbbd9f1338288a0
+Description-ca: GNU C compiler (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for ppc64 architecture.
+
+Package: gcc-12-powerpc64le-linux-gnu
+Description-md5: 02948f686f57b7661fd57acbd2976475
+Description-ca: GNU C compiler (cross compiler for ppc64el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for ppc64el architecture.
+
+Package: gcc-12-riscv64-linux-gnu
+Description-md5: 0d14114bfdde50833447e5afa7c0bea2
+Description-ca: GNU C compiler (cross compiler for riscv64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for riscv64 architecture.
+
+Package: gcc-12-s390x-linux-gnu
+Description-md5: 7061b5561490b87818d8a46702f2fd78
+Description-ca: GNU C compiler (cross compiler for s390x architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for s390x architecture.
+
+Package: gcc-12-sh4-linux-gnu
+Description-md5: 539edebbf17a1829a278772b09e95d80
+Description-ca: GNU C compiler (cross compiler for sh4 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for sh4 architecture.
+
+Package: gcc-12-sparc64-linux-gnu
+Description-md5: 4c65ae04634ee085bae81d947ec77b16
+Description-ca: GNU C compiler (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for sparc64 architecture.
+
+Package: gcc-12-x86-64-linux-gnux32
+Description-md5: ce9301ad842c3273341fa161f1a958ae
+Description-ca: GNU C compiler (cross compiler for x32 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for x32 architecture.
+
+Package: gcc-13-hppa64-linux-gnu
+Description-md5: 0ee0959bbc343ff940f7f385554ffc51
+Description-ca: GNU C compiler (cross compiler for hppa64)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: gcc-13-multilib-i686-linux-gnu
+Description-md5: 8f1710ddb22efe64f00eb522d643b878
+Description-ca: GNU C compiler (multilib support) (cross compiler for i386 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-13-multilib-mips-linux-gnu
+Description-md5: 352bce4d6af0ef3e2260adabe2ff173d
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-13-multilib-mips64-linux-gnuabi64
+Description-md5: 0ca7032ee3e71a85bdbed44c6b99bc87
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-13-multilib-mips64el-linux-gnuabi64
+Description-md5: f4cfcd14632c3b026966af8e9ac60b0a
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-13-multilib-mipsel-linux-gnu
+Description-md5: d3e65e9a4d8569516c54407d74e93560
+Description-ca: GNU C compiler (multilib support) (cross compiler for mipsel architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-13-multilib-mipsisa32r6-linux-gnu
+Description-md5: bc2f903f4b7148f2e04662815719a85c
+Description-ca: GNU C compiler (multilib support) (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-13-multilib-mipsisa32r6el-linux-gnu
+Description-md5: 8b7ebc685cd7f591c8ed78fae9e06285
+Description-ca: GNU C compiler (multilib support) (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-13-multilib-mipsisa64r6-linux-gnuabi64
+Description-md5: f75ec31d220e018a7619e3f92623e417
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-13-multilib-mipsisa64r6el-linux-gnuabi64
+Description-md5: 22c98144720069ea253e0cf6d91a5dcb
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-13-multilib-powerpc-linux-gnu
+Description-md5: 8f8bcf0982eb50ed5e013710e4fba34f
+Description-ca: GNU C compiler (multilib support) (cross compiler for powerpc architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-13-multilib-powerpc64-linux-gnu
+Description-md5: 6b4f4449535347d777e4be09c0f60a83
+Description-ca: GNU C compiler (multilib support) (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-13-multilib-s390x-linux-gnu
+Description-md5: b66121d6f9ac00f634e35356c94f9fa6
+Description-ca: GNU C compiler (multilib support) (cross compiler for s390x architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-13-multilib-sparc64-linux-gnu
+Description-md5: 64868a8c5f326ebc1205d38ac2f1c47b
+Description-ca: GNU C compiler (multilib support) (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-13-multilib-x86-64-linux-gnux32
+Description-md5: ce32998e15b35da4bb9d55103c9869ed
+Description-ca: GNU C compiler (multilib support) (cross compiler for x32 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-14
+Description-md5: 394374e688b1afb3af5f419895d29698
+Description-ca: GNU C compiler
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: gcc-14-for-build
+Description-md5: 1231e8563c440c0230388f9db0660a3c
+Description-ca: GNU C compiler for the build architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package.
+
+Package: gcc-14-for-host
+Description-md5: 2f6f77eeb03535ba77299cfe1a0ef756
+Description-ca: GNU C compiler for the host architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ When using this package, tools must be invoked with an architecture
+ prefix.
+ .
+ This is a dependency package.
+
+Package: gcc-14-hppa64-linux-gnu
+Description-md5: 0ee0959bbc343ff940f7f385554ffc51
+Description-ca: GNU C compiler (cross compiler for hppa64)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: gcc-14-multilib
+Description-md5: d1bddfa375b62324197c575c04fb2e4e
+Description-ca: GNU C compiler (multilib support)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-14-multilib-i686-linux-gnu
+Description-md5: 8f1710ddb22efe64f00eb522d643b878
+Description-ca: GNU C compiler (multilib support) (cross compiler for i386 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-14-multilib-powerpc-linux-gnu
+Description-md5: 8f8bcf0982eb50ed5e013710e4fba34f
+Description-ca: GNU C compiler (multilib support) (cross compiler for powerpc architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-14-multilib-powerpc64-linux-gnu
+Description-md5: 6b4f4449535347d777e4be09c0f60a83
+Description-ca: GNU C compiler (multilib support) (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-14-multilib-s390x-linux-gnu
+Description-md5: b66121d6f9ac00f634e35356c94f9fa6
+Description-ca: GNU C compiler (multilib support) (cross compiler for s390x architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-14-multilib-sparc64-linux-gnu
+Description-md5: 64868a8c5f326ebc1205d38ac2f1c47b
+Description-ca: GNU C compiler (multilib support) (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-14-multilib-x86-64-linux-gnux32
+Description-md5: ce32998e15b35da4bb9d55103c9869ed
+Description-ca: GNU C compiler (multilib support) (cross compiler for x32 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9
+Description-md5: 394374e688b1afb3af5f419895d29698
+Description-ca: GNU C compiler
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: gcc-9-aarch64-linux-gnu
+Description-md5: 6605467979c7b4a27b8a1c6ed7aabd06
+Description-ca: GNU C compiler (cross compiler for arm64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for arm64 architecture.
+
+Package: gcc-9-alpha-linux-gnu
+Description-md5: 88aca54a1627a3fd7711d3f9d7ac5f33
+Description-ca: GNU C compiler (cross compiler for alpha architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for alpha architecture.
+
+Package: gcc-9-arm-linux-gnueabi
+Description-md5: 6d4f736a5f9df9e4e9a88a6f23fb803f
+Description-ca: GNU C compiler (cross compiler for armel architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for armel architecture.
+
+Package: gcc-9-arm-linux-gnueabihf
+Description-md5: 81e320f4fe3cb20f4878142f5988397e
+Description-ca: GNU C compiler (cross compiler for armhf architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for armhf architecture.
+
+Package: gcc-9-hppa-linux-gnu
+Description-md5: cef7613d51735832c53f1b1325a89812
+Description-ca: GNU C compiler (cross compiler for hppa architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for hppa architecture.
+
+Package: gcc-9-hppa64-linux-gnu
+Description-md5: 0ee0959bbc343ff940f7f385554ffc51
+Description-ca: GNU C compiler (cross compiler for hppa64)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+
+Package: gcc-9-i686-linux-gnu
+Description-md5: e08cbb27b980ce408f7cf6b470382377
+Description-ca: GNU C compiler (cross compiler for i386 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for i386 architecture.
+
+Package: gcc-9-m68k-linux-gnu
+Description-md5: 593d004b0e996a576ee189070dfc0bcb
+Description-ca: GNU C compiler (cross compiler for m68k architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for m68k architecture.
+
+Package: gcc-9-mips-linux-gnu
+Description-md5: be6d2cc3e9b8c1d0308b373005b63a10
+Description-ca: GNU C compiler (cross compiler for mips architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips architecture.
+
+Package: gcc-9-mips64-linux-gnuabi64
+Description-md5: ad8b0dd5eb608c299c86040d36ffd88e
+Description-ca: GNU C compiler (cross compiler for mips64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips64 architecture.
+
+Package: gcc-9-mips64el-linux-gnuabi64
+Description-md5: cca731d17203fa2912fe9c3749d8d7c3
+Description-ca: GNU C compiler (cross compiler for mips64el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips64el architecture.
+
+Package: gcc-9-mipsel-linux-gnu
+Description-md5: 1ed845ccbb41e0438f6d587cf734705e
+Description-ca: GNU C compiler (cross compiler for mipsel architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mipsel architecture.
+
+Package: gcc-9-mipsisa32r6-linux-gnu
+Description-md5: fdc8a83a68b1c6cf719040dd928ffb1c
+Description-ca: GNU C compiler (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mipsr6 architecture.
+
+Package: gcc-9-mipsisa32r6el-linux-gnu
+Description-md5: 8bb57d57871d799af6f8ede51702ad43
+Description-ca: GNU C compiler (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mipsr6el architecture.
+
+Package: gcc-9-mipsisa64r6-linux-gnuabi64
+Description-md5: 37280f5f5f1a2bac28b43466c7bf16e5
+Description-ca: GNU C compiler (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips64r6 architecture.
+
+Package: gcc-9-mipsisa64r6el-linux-gnuabi64
+Description-md5: 24eb3234afc7c305b6afe67eb54cae9f
+Description-ca: GNU C compiler (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for mips64r6el architecture.
+
+Package: gcc-9-multilib
+Description-md5: d1bddfa375b62324197c575c04fb2e4e
+Description-ca: GNU C compiler (multilib support)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-multilib-i686-linux-gnu
+Description-md5: 8f1710ddb22efe64f00eb522d643b878
+Description-ca: GNU C compiler (multilib support) (cross compiler for i386 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-multilib-mips-linux-gnu
+Description-md5: 352bce4d6af0ef3e2260adabe2ff173d
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-multilib-mips64-linux-gnuabi64
+Description-md5: 0ca7032ee3e71a85bdbed44c6b99bc87
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-multilib-mips64el-linux-gnuabi64
+Description-md5: f4cfcd14632c3b026966af8e9ac60b0a
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-multilib-mipsel-linux-gnu
+Description-md5: d3e65e9a4d8569516c54407d74e93560
+Description-ca: GNU C compiler (multilib support) (cross compiler for mipsel architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-multilib-mipsisa32r6-linux-gnu
+Description-md5: bc2f903f4b7148f2e04662815719a85c
+Description-ca: GNU C compiler (multilib support) (cross compiler for mipsr6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-multilib-mipsisa32r6el-linux-gnu
+Description-md5: 8b7ebc685cd7f591c8ed78fae9e06285
+Description-ca: GNU C compiler (multilib support) (cross compiler for mipsr6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-multilib-mipsisa64r6-linux-gnuabi64
+Description-md5: f75ec31d220e018a7619e3f92623e417
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64r6 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-multilib-mipsisa64r6el-linux-gnuabi64
+Description-md5: 22c98144720069ea253e0cf6d91a5dcb
+Description-ca: GNU C compiler (multilib support) (cross compiler for mips64r6el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-multilib-powerpc-linux-gnu
+Description-md5: 8f8bcf0982eb50ed5e013710e4fba34f
+Description-ca: GNU C compiler (multilib support) (cross compiler for powerpc architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-multilib-powerpc64-linux-gnu
+Description-md5: 6b4f4449535347d777e4be09c0f60a83
+Description-ca: GNU C compiler (multilib support) (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-multilib-s390x-linux-gnu
+Description-md5: b66121d6f9ac00f634e35356c94f9fa6
+Description-ca: GNU C compiler (multilib support) (cross compiler for s390x architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-multilib-sparc64-linux-gnu
+Description-md5: 64868a8c5f326ebc1205d38ac2f1c47b
+Description-ca: GNU C compiler (multilib support) (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-multilib-x86-64-linux-gnux32
+Description-md5: ce32998e15b35da4bb9d55103c9869ed
+Description-ca: GNU C compiler (multilib support) (cross compiler for x32 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-powerpc-linux-gnu
+Description-md5: 45b8bb0736af15d214f67dae5a33875a
+Description-ca: GNU C compiler (cross compiler for powerpc architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for powerpc architecture.
+
+Package: gcc-9-powerpc64-linux-gnu
+Description-md5: 5576cbb75735e5752bbbd9f1338288a0
+Description-ca: GNU C compiler (cross compiler for ppc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for ppc64 architecture.
+
+Package: gcc-9-powerpc64le-linux-gnu
+Description-md5: 02948f686f57b7661fd57acbd2976475
+Description-ca: GNU C compiler (cross compiler for ppc64el architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for ppc64el architecture.
+
+Package: gcc-9-riscv64-linux-gnu
+Description-md5: 0d14114bfdde50833447e5afa7c0bea2
+Description-ca: GNU C compiler (cross compiler for riscv64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for riscv64 architecture.
+
+Package: gcc-9-s390x-linux-gnu
+Description-md5: 7061b5561490b87818d8a46702f2fd78
+Description-ca: GNU C compiler (cross compiler for s390x architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for s390x architecture.
+
+Package: gcc-9-sh4-linux-gnu
+Description-md5: 539edebbf17a1829a278772b09e95d80
+Description-ca: GNU C compiler (cross compiler for sh4 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for sh4 architecture.
+
+Package: gcc-9-sparc64-linux-gnu
+Description-md5: 4c65ae04634ee085bae81d947ec77b16
+Description-ca: GNU C compiler (cross compiler for sparc64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for sparc64 architecture.
+
+Package: gcc-9-x86-64-linux-gnux32
+Description-md5: ce9301ad842c3273341fa161f1a958ae
+Description-ca: GNU C compiler (cross compiler for x32 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for x32 architecture.
+
+Package: gcc-alpha-linux-gnu
+Description-md5: 0250fe7da8f99f3dd8036156b9b7d8b9
+Description-ca: GNU C compiler for the alpha architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the alpha architecture.
+
+Package: gcc-arc-linux-gnu
+Description-md5: bd78ed8ae013f17fd47269e20b3a2bf4
+Description-ca: GNU C compiler for the arc architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the arc architecture.
+
+Package: gcc-arm-linux-gnueabi
+Description-md5: 2110a2ee344f1a65d3401a41cc0d42a7
+Description-ca: GNU C compiler for the armel architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the armel architecture.
+
+Package: gcc-hppa-linux-gnu
+Description-md5: 9b4cc0d6ef3204d23b1dfbb24fbea4a0
+Description-ca: GNU C compiler for the hppa architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the hppa architecture.
+
+Package: gcc-hppa64-linux-gnu
+Description-md5: 7507773089a56145bb979560f068e036
+Description-ca: GNU C compiler (cross compiler for hppa64-linux-gnu)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the hppa64 architecture.
+
+Package: gcc-m68k-linux-gnu
+Description-md5: 62b0578005db4ff12f60b4093fece105
+Description-ca: GNU C compiler for the m68k architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the m68k architecture.
+
+Package: gcc-mips-linux-gnu
+Description-md5: c1649e66b611f7e490e4187f67900cf1
+Description-ca: GNU C compiler for the mips architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the mips architecture.
+
+Package: gcc-mips64-linux-gnuabi64
+Description-md5: 10a3aee250947d2b88ff880085b70f93
+Description-ca: GNU C compiler for the mips64 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the mips64 architecture.
+
+Package: gcc-mips64el-linux-gnuabi64
+Description-md5: bf957c91207d05b289c20c7079f38391
+Description-ca: GNU C compiler for the mips64el architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the mips64el architecture.
+
+Package: gcc-mipsel-linux-gnu
+Description-md5: 89d5822bf9c4a0f274590d1e6da9bf9b
+Description-ca: GNU C compiler for the mipsel architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the mipsel architecture.
+
+Package: gcc-mipsisa32r6-linux-gnu
+Description-md5: 3c6715034714e250586ffcff8e12f811
+Description-ca: GNU C compiler for the mipsr6 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the mipsr6 architecture.
+
+Package: gcc-mipsisa32r6el-linux-gnu
+Description-md5: 86d24c98b9152741e198261a18f6fcbe
+Description-ca: GNU C compiler for the mipsr6el architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the mipsr6el architecture.
+
+Package: gcc-mipsisa64r6-linux-gnuabi64
+Description-md5: ccbee6bf549895b4a8fdbe171c6c374d
+Description-ca: GNU C compiler for the mips64r6 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the mips64r6 architecture.
+
+Package: gcc-mipsisa64r6el-linux-gnuabi64
+Description-md5: 9da9bb886c4c5d5dae08f21c44aba879
+Description-ca: GNU C compiler for the mips64r6el architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the mips64r6el architecture.
+
+Package: gcc-multilib-i686-linux-gnu
+Description-md5: 87162302fcdfe23fcf402bcdae36f6e9
+Description-ca: GNU C compiler for the i386 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the i386 architecture.
+
+Package: gcc-multilib-mips-linux-gnu
+Description-md5: c1649e66b611f7e490e4187f67900cf1
+Description-ca: GNU C compiler for the mips architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the mips architecture.
+
+Package: gcc-multilib-mips64-linux-gnuabi64
+Description-md5: 10a3aee250947d2b88ff880085b70f93
+Description-ca: GNU C compiler for the mips64 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the mips64 architecture.
+
+Package: gcc-multilib-mips64el-linux-gnuabi64
+Description-md5: bf957c91207d05b289c20c7079f38391
+Description-ca: GNU C compiler for the mips64el architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the mips64el architecture.
+
+Package: gcc-multilib-mipsel-linux-gnu
+Description-md5: 89d5822bf9c4a0f274590d1e6da9bf9b
+Description-ca: GNU C compiler for the mipsel architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the mipsel architecture.
+
+Package: gcc-multilib-mipsisa32r6-linux-gnu
+Description-md5: 3c6715034714e250586ffcff8e12f811
+Description-ca: GNU C compiler for the mipsr6 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the mipsr6 architecture.
+
+Package: gcc-multilib-mipsisa32r6el-linux-gnu
+Description-md5: 86d24c98b9152741e198261a18f6fcbe
+Description-ca: GNU C compiler for the mipsr6el architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the mipsr6el architecture.
+
+Package: gcc-multilib-mipsisa64r6-linux-gnuabi64
+Description-md5: ccbee6bf549895b4a8fdbe171c6c374d
+Description-ca: GNU C compiler for the mips64r6 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the mips64r6 architecture.
+
+Package: gcc-multilib-mipsisa64r6el-linux-gnuabi64
+Description-md5: 9da9bb886c4c5d5dae08f21c44aba879
+Description-ca: GNU C compiler for the mips64r6el architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the mips64r6el architecture.
+
+Package: gcc-multilib-powerpc-linux-gnu
+Description-md5: f04c912445b670b2ab129b21d4a47762
+Description-ca: GNU C compiler for the powerpc architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the powerpc architecture.
+
+Package: gcc-multilib-powerpc64-linux-gnu
+Description-md5: 3f3a4a778f1fff5d21b07b98acde1dd2
+Description-ca: GNU C compiler for the ppc64 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the ppc64 architecture.
+
+Package: gcc-multilib-s390x-linux-gnu
+Description-md5: 0e9bad3b62304d1f54438e18e774f9bd
+Description-ca: GNU C compiler for the s390x architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the s390x architecture.
+
+Package: gcc-multilib-sparc64-linux-gnu
+Description-md5: 8a8521de32d5effc17c6a89a9ab1b005
+Description-ca: GNU C compiler for the sparc64 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the sparc64 architecture.
+
+Package: gcc-multilib-x86-64-linux-gnux32
+Description-md5: b4211c1f0ee569d26c5442d9627cb0ed
+Description-ca: GNU C compiler for the x32 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the x32 architecture.
+
+Package: gcc-powerpc-linux-gnu
+Description-md5: f04c912445b670b2ab129b21d4a47762
+Description-ca: GNU C compiler for the powerpc architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the powerpc architecture.
+
+Package: gcc-powerpc64-linux-gnu
+Description-md5: 3f3a4a778f1fff5d21b07b98acde1dd2
+Description-ca: GNU C compiler for the ppc64 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the ppc64 architecture.
+
+Package: gcc-sh4-linux-gnu
+Description-md5: 890c6dc590c651e561e51c27cd990372
+Description-ca: GNU C compiler for the sh4 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the sh4 architecture.
+
+Package: gcc-sparc64-linux-gnu
+Description-md5: 8a8521de32d5effc17c6a89a9ab1b005
+Description-ca: GNU C compiler for the sparc64 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the sparc64 architecture.
+
+Package: gcc-x86-64-linux-gnux32
+Description-md5: b4211c1f0ee569d26c5442d9627cb0ed
+Description-ca: GNU C compiler for the x32 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the x32 architecture.
+
+Package: gnuserv
+Description-md5: a67a0d1185ba4add9728d53fa54138d6
+Description-ca: Permet que us afegiu a un Emacs que ja està executat
+ gnuserv allows you to attach to an already running Emacs. This allows
+ external programs to make use of Emacs' editing capabilities. It is
+ similar to GNU Emacs' emacsclient, but has a slightly different feature
+ set.
+ .
+ Si utilitzeu el XEmacs, aleshores no necessiteu aquest paquet, ja inclou
+ el gnuserv i el gnuclient. Si voleu utilitzar gnuserv amb el GNU Emacs i
+ el XEmacs, tan sols podreu utilitzar l'alternativa /usr/bin/gnuclient amb
+ una de les variants d'emacs; haureu d'utilitzar el gnuclient.xemacs o el
+ gnuclient.emacs per les altres variants.
+
+Package: icatalan
+Description-md5: 5315763f04d3913721dd006d2a490e55
+Description-ca: Diccionari català per ispell
+ Aquest és el diccionari català per ispell, tal com va ser recollit per en
+ Joan Moratinos utilitzant dades de diferents fonts.
+
+Package: libf2c2-dev
+Description-md5: c1cf2ab2688c831415d86a230f3bb987
+Description-ca: Biblioteques de desenvolupament per utilitzar amb f2c
+ Aquestes són les biblioteques estàtiques i fitxers d'encapçalament per una
+ implementació de les funcions intrínseques i E/S de fortran.
+ .
+ Es necessiten per enllaçar aplicacions construïdes a partir de la sortida
+ C del traductor de FORTRAN a C f2c.
+
+Package: vim-snipmate
+Description-md5: b32d99279c72a1dbfce80f206863cd65
+Description-ca: Vim script that implements some of TextMate's snippets features.
+ SnipMate.vim aims to be an unobtrusive, concise vim script that implements
+ some of TextMate's snippets features in Vim. A snippet is a piece of
+ often-typed text that you can insert into your document using a trigger
+ word followed by a <tab>.
+ .
+ For instance, in a C file using the default installation of snipMate.vim,
+ if you type "for<tab>" in insert mode, it will expand a typical for loop
+ in C:
+ .
+ for (i = 0; i < count; i++) {
+ .
+ Project-Id-Version: PACKAGE VERSION
+ Report-Msgid-Bugs-To: 
+ PO-Revision-Date: 2024-04-23 08:50+0000
+ Last-Translator: FULL NAME <EMAIL@ADDRESS>
+ Language-Team: LANGUAGE <LL@li.org>
+ MIME-Version: 1.0
+ Content-Type: text/plain; charset=UTF-8
+ Content-Transfer-Encoding: 8bit
+ X-Launchpad-Export-Date: 2024-04-23 19:55+0000
+ X-Generator: Launchpad (build 67d34a19aaa1df7be4dd8bf498cbc5bbd785067b)
+ .
+ To go to the next item in the loop, simply <tab> over to it; if there is
+ repeated code, such as the "i" variable in this example, you can simply
+ start typing once it's highlighted and all the matches specified in the
+ snippet will be updated.
+ .
+ snipMate.vim has the following features among others:
+ .
+  - The syntax of snippets is very similar to TextMate's, allowing easy
+    conversion.
+  - The position of the snippet is kept transparently (i.e., it does not use
+    marks/placeholders inserted into the buffer), allowing you to escape out
+    of an incomplete snippet, something particularly useful in Vim.
+  - Variables in snippets are updated as-you-type.
+  - Snippets can have multiple matches.
+  - Snippets can be out of order. For instance, in a do...while loop, the
+    condition can be added before the code.
+
+
+Package: g++-10-multilib-x86-64-linux-gnu
+Description-md5: e44e3a6ded1f1416ea9e07853c96b22d
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for amd64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-10-x86-64-linux-gnu
+Description-md5: 95c638db836528fc4cf4840ca84746fc
+Description-ca: GNU C++ compiler (cross compiler for amd64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for amd64 architecture.
+
+Package: g++-11-multilib-x86-64-linux-gnu
+Description-md5: e44e3a6ded1f1416ea9e07853c96b22d
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for amd64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-11-x86-64-linux-gnu
+Description-md5: 95c638db836528fc4cf4840ca84746fc
+Description-ca: GNU C++ compiler (cross compiler for amd64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for amd64 architecture.
+
+Package: g++-12-multilib-x86-64-linux-gnu
+Description-md5: e44e3a6ded1f1416ea9e07853c96b22d
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for amd64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-12-x86-64-linux-gnu
+Description-md5: 95c638db836528fc4cf4840ca84746fc
+Description-ca: GNU C++ compiler (cross compiler for amd64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for amd64 architecture.
+
+Package: g++-13-multilib-x86-64-linux-gnu
+Description-md5: e44e3a6ded1f1416ea9e07853c96b22d
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for amd64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-14-multilib-x86-64-linux-gnu
+Description-md5: e44e3a6ded1f1416ea9e07853c96b22d
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for amd64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-multilib-x86-64-linux-gnu
+Description-md5: e44e3a6ded1f1416ea9e07853c96b22d
+Description-ca: GNU C++ compiler (multilib support) (cross compiler for amd64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: g++-9-x86-64-linux-gnu
+Description-md5: 95c638db836528fc4cf4840ca84746fc
+Description-ca: GNU C++ compiler (cross compiler for amd64 architecture)
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C++ cross-compiler for amd64 architecture.
+
+Package: g++-multilib-x86-64-linux-gnu
+Description-md5: de3230a89a1d4f0c7d188e0e15b609df
+Description-ca: GNU C++ compiler for the amd64 architecture
+ Aquest és el compilador de C++ de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C++ cross-compiler
+ for the amd64 architecture.
+
+Package: gcc-10-multilib-x86-64-linux-gnu
+Description-md5: 2054afcbe562603fef9d3bfde7384cc5
+Description-ca: GNU C compiler (multilib support) (cross compiler for amd64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-10-x86-64-linux-gnu
+Description-md5: 27ad2535df4dd16de394d9e004be6da7
+Description-ca: GNU C compiler (cross compiler for amd64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for amd64 architecture.
+
+Package: gcc-11-multilib-x86-64-linux-gnu
+Description-md5: 2054afcbe562603fef9d3bfde7384cc5
+Description-ca: GNU C compiler (multilib support) (cross compiler for amd64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-11-x86-64-linux-gnu
+Description-md5: 27ad2535df4dd16de394d9e004be6da7
+Description-ca: GNU C compiler (cross compiler for amd64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for amd64 architecture.
+
+Package: gcc-12-multilib-x86-64-linux-gnu
+Description-md5: 2054afcbe562603fef9d3bfde7384cc5
+Description-ca: GNU C compiler (multilib support) (cross compiler for amd64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-12-x86-64-linux-gnu
+Description-md5: 27ad2535df4dd16de394d9e004be6da7
+Description-ca: GNU C compiler (cross compiler for amd64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for amd64 architecture.
+
+Package: gcc-13-multilib-x86-64-linux-gnu
+Description-md5: 2054afcbe562603fef9d3bfde7384cc5
+Description-ca: GNU C compiler (multilib support) (cross compiler for amd64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-14-multilib-x86-64-linux-gnu
+Description-md5: 2054afcbe562603fef9d3bfde7384cc5
+Description-ca: GNU C compiler (multilib support) (cross compiler for amd64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-multilib-x86-64-linux-gnu
+Description-md5: 2054afcbe562603fef9d3bfde7384cc5
+Description-ca: GNU C compiler (multilib support) (cross compiler for amd64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package, depending on development packages for the
+ non-default multilib architecture(s).
+
+Package: gcc-9-x86-64-linux-gnu
+Description-md5: 27ad2535df4dd16de394d9e004be6da7
+Description-ca: GNU C compiler (cross compiler for amd64 architecture)
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This package contains C cross-compiler for amd64 architecture.
+
+Package: gcc-multilib-x86-64-linux-gnu
+Description-md5: 74fd7698add747ec9f3ca61030b62c40
+Description-ca: GNU C compiler for the amd64 architecture
+ Aquest és el compilador de C de GNU, un compilador de C optimitzador i
+ força portable.
+ .
+ This is a dependency package providing the default GNU C cross-compiler
+ for the amd64 architecture.
+

@@ -1,0 +1,17 @@
+Package: sl-modem-daemon
+Description-md5: dd33edc29e8f6ca6bd7aaea974c49391
+Description-it: Demone del modem software SmartLink
+ Il demone del modem SmartLink è la parte di applicazione del driver per i
+ modem recenti prodotti da SmartLink Ltd.
+ .
+ Questo pacchetto sostituisce (unitamente ai driver di accesso
+ all'hardware) la vecchia generazione di driver (2.7.x) che consisteva dei
+ soli moduli del kernel.
+ .
+ È necessario un driver per il kernel per avere accesso all'hardware. È
+ possibile utilizzare sia un il nuovo ALSA (fornito con kernel più recenti
+ (>=2.6.4) con supporto ALSA e il modulo snd-intel8x0m), sufficiente per
+ operazioni basilari e per connessioni a dati e a Internet, o il kernel
+ SmartLink, fornito da pacchetti separati che è possibile costruire
+ utilizzando il sorgente dal pacchetto sl-modem-dkms.
+
