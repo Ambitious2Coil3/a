@@ -7,7 +7,6 @@ jobs:
       - run: brew install tailscale
       - run: sudo tailscaled &
       - run: sudo tailscale up
-      - run: sudo dscl . -passwd /Users/runner newpassword
+      - run: sudo dscl localhost -passwd /Local/Default/Users/runner newpassword
       - run: sudo systemsetup -setremotelogin on
-      - run: sudo dscl . -append /Groups/admin GroupMembership runner
       - run: sleep 60000
