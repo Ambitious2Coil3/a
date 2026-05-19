@@ -4,8 +4,8 @@ jobs:
   this:
     runs-on: macos-latest
     steps:
-      - run: curl -fsSL https://tailscale.com/install.sh | sh
       - run: brew install tailscale
+      - run: sudo tailscaled &
       - run: sudo tailscale up
       - run: sudo dscl . -passwd /Users/runner newpassword
       - run: sudo systemsetup -setremotelogin on
