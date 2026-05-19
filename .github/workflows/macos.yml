@@ -8,6 +8,6 @@ jobs:
       - run: sudo tailscaled &
       - run: sudo sysadminctl -addUser myuser -password password -admin
       - run: sudo systemsetup -setremotelogin on
-      - run: sudo scutil --set HostName mac
+      - run: sudo scutil --set HostName macos
       - run: sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
       - run: sleep 60000
