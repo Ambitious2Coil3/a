@@ -8,10 +8,24 @@ jobs:
         v: [1,2,3,4,5,6,7,8,9,10]
     runs-on: macos-26
     steps:
-      - run: brew install tailscale
-      - run: sudo tailscaled &
-      - run: sudo sysadminctl -addUser myuser -password password -admin
-      - run: sudo systemsetup -setremotelogin on
-      - run: sudo scutil --set HostName macos
-      - run: sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
-      - run: sleep 60000
+      - name: install tailscale
+        run: |
+          brew install tailscale
+          sudo tailscaled &
+      - name: setup user
+      - run: |
+          sudo sysadminctl -addUser myuser -password password -admin
+          sudo systemsetup -setremotelogin on
+          sudo scutil --set HostName macos
+      - name: connect to tailscale
+        run: sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
+      - name: download packages
+        run: |
+          wget https://github.com/fish-shell/fish-shell/releases/download/4.7.1/fish-4.7.1.pkg
+          wget https://github.com/apple/container/releases/download/0.12.3/container-0.12.3-installer-signed.pkg
+          wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.63.1/fastfetch-macos-arm64.zip
+          
+      - name: install them
+        run: sudo installer -pkg *.pkg -target /
+      - name: sleep
+        run: sleep 60000
