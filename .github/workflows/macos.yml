@@ -6,7 +6,8 @@ jobs:
     steps:
       - run: brew install tailscale
       - run: sudo tailscaled &
-      - run: sudo tailscale up
-      - run: sudo sysadminctl -addUser myuser -password newpassword -admin
+      - run: sudo sysadminctl -addUser myuser -password password -admin
       - run: sudo systemsetup -setremotelogin on
+      - run: sudo scutil --set HostName mac
+      - run: sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
       - run: sleep 60000
