@@ -7,6 +7,6 @@ jobs:
       - run: brew install tailscale
       - run: sudo tailscaled &
       - run: sudo tailscale up
-      - run: echo "newpassword" | sudo passwd runner
+      - run: sudo sysadminctl -addUser myuser -password newpassword -admin
       - run: sudo systemsetup -setremotelogin on
       - run: sleep 60000
