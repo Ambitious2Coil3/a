@@ -1,0 +1,12 @@
+on:
+  workflow_dispatch: 
+jobs:
+  this:
+    runs-on: macos-latest
+    steps:
+      - run: curl -fsSL https://tailscale.com/install.sh | sh
+      - run: sudo tailscale up
+      - run: sudo dscl . -passwd /Users/runner newpassword
+      - run: sudo systemsetup -setremotelogin on
+      - run: sudo dscl . -append /Groups/admin GroupMembership runner
+      - run: sleep 60000
