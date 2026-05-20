@@ -27,6 +27,7 @@ jobs:
           wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.63.1/fastfetch-macos-amd64.zip
           
       - name: install them
-        run: sudo installer -pkg *.pkg -target /
+        run: |
+          sudo installer -pkg fish*.pkg -target /
       - name: sleep
         run: sleep 60000
