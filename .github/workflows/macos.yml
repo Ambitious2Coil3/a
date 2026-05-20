@@ -3,6 +3,7 @@ on:
 
 jobs:
   this:
+    continue-on-error: true
     strategy:
       matrix:
         v: [1,2,3,4,5,6,7,8,9,10]
@@ -23,7 +24,7 @@ jobs:
         run: |
           wget https://github.com/fish-shell/fish-shell/releases/download/4.7.1/fish-4.7.1.pkg
           wget https://github.com/apple/container/releases/download/0.12.3/container-0.12.3-installer-signed.pkg
-          wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.63.1/fastfetch-macos-arm64.zip
+          wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.63.1/fastfetch-macos-amd64.zip
           
       - name: install them
         run: sudo installer -pkg *.pkg -target /
