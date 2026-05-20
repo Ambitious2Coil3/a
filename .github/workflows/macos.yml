@@ -13,7 +13,7 @@ jobs:
           brew install tailscale
           sudo tailscaled &
       - name: setup user
-      - run: |
+        run: |
           sudo sysadminctl -addUser myuser -password password -admin
           sudo systemsetup -setremotelogin on
           sudo scutil --set HostName macos
