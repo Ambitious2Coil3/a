@@ -9,6 +9,7 @@ jobs:
       B: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - run: sudo hostnamectl set-hostname minecraft
+      - run: echo "runner:1" | sudo chpasswd
       - run: curl -fsSL https://tailscale.com/install.sh | sh
       - run: sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
       - run: docker login ghcr.io -u $A -p $B
