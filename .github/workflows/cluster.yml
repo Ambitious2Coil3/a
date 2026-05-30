@@ -31,7 +31,7 @@ jobs:
       - name: install tailscale
       
         run: |
-            sudo hostnamectl set-hostname runner$ID
+            sudo hostnamectl set-hostname xrunner$ID
             curl -fsSL https://tailscale.com/install.sh | sh
             sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
             echo "runner:1" | sudo chpasswd
@@ -44,7 +44,7 @@ jobs:
             git config --global user.name "actions"
             sudo apt install fish
             echo "1" | chsh --shell /usr/bin/fish
-            sudo apt install 
+            sudo apt install tigervnc-standalone-server kde-standard "dbus*"
             
       - name: sleep
       
