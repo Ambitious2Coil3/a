@@ -7,7 +7,7 @@ jobs:
     strategy:
       matrix:
         v: [1,2,3,4,5,6,7,8,9,10]
-    runs-on: macos-26
+    runs-on: macos-15-intel
     steps:
       - name: install tailscale
         run: |
