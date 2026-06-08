@@ -11,7 +11,7 @@ jobs:
     
     continue-on-error: true
     
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     
     strategy:
     
