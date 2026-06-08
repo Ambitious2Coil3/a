@@ -33,7 +33,7 @@ jobs:
         run: |
             
             curl -fsSL https://tailscale.com/install.sh | sh
-            tailscaled &
+            sudo tailscaled &
             sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
             echo "runner:1" | sudo chpasswd
 
