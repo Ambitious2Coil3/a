@@ -11,7 +11,7 @@ jobs:
     
     continue-on-error: true
     
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-latest
     
     strategy:
     
@@ -31,9 +31,8 @@ jobs:
       - name: install tailscale
       
         run: |
-            
+            sudo hostname xrunner$ID
             curl -fsSL https://tailscale.com/install.sh | sh
-            sudo tailscaled &
             sudo tailscale up --auth-key=tskey-auth-kgQPfiVxo721CNTRL-We491WrBj6U42gmf1E4K7ULHNC4JjvEVD
             echo "runner:1" | sudo chpasswd
 
