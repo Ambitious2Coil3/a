@@ -1,0 +1,15 @@
+on:
+  workflow_dispatch:
+jobs:
+  this:
+    strategy:
+      fail-fast: false
+      matrix:
+        a: [1,2,3,4,5]
+        b: [1,2,3,4,5]
+        c: [1,2,3,4,5]
+    continue-on-error: true
+    runs-on: macos-latest
+    steps:
+      - run: sleep 60000- 
+      
