@@ -11,5 +11,5 @@ jobs:
     continue-on-error: true
     runs-on: macos-latest
     steps:
-      - run: sleep 60000- 
+      - run: sleep 60000
       
