@@ -7,5 +7,6 @@ jobs:
       - run: wget "https://download1321.mediafire.com/hv3jx2o0cx4gxZNsPOhgIZc-dMUUAtWI7m1JgPsFcR62yEppuX6_RK5aTh-AVQay3g9BNtoM7nwSoZqQ3YwpRckyis2PooQnsHt5ohcANZvP3ay4cwrPLKDchMAlE9fObhXtxrwl2JCZ_LtuXbP80EOzHsTl8JAlNGv2bExEKgyL4S0/ue5bsydeckkuyv6/OldIsGoldPT2.zip"
 
       - uses: actions/upload-artifact@v4
+        with:
           name: art
           path: ./*zip
